@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hearing Science Paper Monitor</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Paper monitor</p>
+        <h1>Hearing Science & Psychoacoustics</h1>
+      </div>
+      <div class="status">
+        <span id="paperCount">0 papers</span>
+        <span id="generatedAt">Loading...</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="controls" aria-label="Paper filters">
+        <label class="search">
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="Title, author, DOI, abstract..." />
+        </label>
+
+        <label>
+          <span>Journal</span>
+          <select id="journalFilter">
+            <option value="">All journals</option>
+          </select>
+        </label>
+
+        <label>
+          <span>Section</span>
+          <select id="sectionFilter">
+            <option value="">All sections</option>
+          </select>
+        </label>
+
+        <label>
+          <span>Tag</span>
+          <select id="tagFilter">
+            <option value="">All tags</option>
+          </select>
+        </label>
+
+        <label>
+          <span>Date</span>
+          <select id="dateFilter">
+            <option value="">Any time</option>
+            <option value="7">Last 7 days</option>
+            <option value="30">Last 30 days</option>
+            <option value="90">Last 90 days</option>
+            <option value="365">Last year</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="summary" aria-label="Dashboard summary">
+        <div>
+          <span class="metric" id="priorityCount">0</span>
+          <span>JASA priority-section matches</span>
+        </div>
+        <div>
+          <span class="metric" id="journalCount">0</span>
+          <span>journals represented</span>
+        </div>
+        <div>
+          <span class="metric" id="tagCount">0</span>
+          <span>active tags</span>
+        </div>
+      </section>
+
+      <section id="papers" class="papers" aria-live="polite"></section>
+      <p id="emptyState" class="empty" hidden>No papers match the current filters.</p>
+    </main>
+
+    <script src="assets/app.js" type="module"></script>
+  </body>
+</html>

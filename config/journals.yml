@@ -1,0 +1,160 @@
+journals:
+  - key: jasa
+    name: The Journal of the Acoustical Society of America
+    aliases:
+      - Journal of the Acoustical Society of America
+      - J Acoust Soc Am
+      - JASA
+    issn:
+      - 0001-4966
+      - 1520-8524
+    priority_sections:
+      - Psychological and Physiological Acoustics
+      - Speech Communication
+    crossref: true
+    pubmed: true
+    rss: []
+    toc: []
+
+  - key: jasael
+    name: JASA Express Letters
+    aliases:
+      - JASA Express Letters
+      - JASA Express Lett
+    issn:
+      - 2691-1191
+    priority_sections:
+      - Psychological and Physiological Acoustics
+      - Speech Communication
+    crossref: true
+    pubmed: false
+    rss: []
+    toc: []
+
+  - key: trends-hearing
+    name: Trends in Hearing
+    aliases:
+      - Trends in Hearing
+      - Trends Hear
+    issn:
+      - 2331-2165
+    crossref: true
+    pubmed: true
+    rss: []
+    toc: []
+
+  - key: jaro
+    name: Journal of the Association for Research in Otolaryngology
+    aliases:
+      - Journal of the Association for Research in Otolaryngology
+      - JARO
+      - J Assoc Res Otolaryngol
+    issn:
+      - 1525-3961
+      - 1438-7573
+    crossref: true
+    pubmed: true
+    rss: []
+    toc: []
+
+  - key: ear-hearing
+    name: Ear and Hearing
+    aliases:
+      - Ear and Hearing
+      - Ear Hear
+    issn:
+      - 0196-0202
+      - 1538-4667
+    crossref: true
+    pubmed: true
+    rss: []
+    toc: []
+
+  - key: hearing-research
+    name: Hearing Research
+    aliases:
+      - Hearing Research
+      - Hear Res
+    issn:
+      - 0378-5955
+      - 1878-5891
+    crossref: true
+    pubmed: true
+    rss: []
+    toc: []
+
+tags:
+  cochlear implant:
+    - cochlear implant
+    - cochlear implantation
+    - electric hearing
+    - vocoder
+  hearing aid:
+    - hearing aid
+    - hearing aids
+    - amplification
+    - directional microphone
+    - fitting
+  psychoacoustics:
+    - psychoacoustic
+    - masking
+    - loudness
+    - pitch
+    - temporal fine structure
+    - modulation detection
+    - auditory filter
+  speech perception:
+    - speech perception
+    - speech recognition
+    - speech intelligibility
+    - speech-in-noise
+    - speech in noise
+    - phoneme
+    - lexical
+  auditory physiology:
+    - auditory cortex
+    - auditory nerve
+    - brainstem
+    - cochlea
+    - hair cell
+    - otoacoustic
+    - electrophysiology
+    - eeg
+    - abr
+  clinical audiology:
+    - audiology
+    - hearing loss
+    - tinnitus
+    - audiogram
+    - diagnosis
+    - clinical
+    - presbycusis
+  machine learning:
+    - machine learning
+    - deep learning
+    - neural network
+    - classifier
+    - artificial intelligence
+  real-world listening:
+    - real-world
+    - ecological
+    - everyday listening
+    - spatial hearing
+    - cocktail party
+    - listening effort
+
+section_rules:
+  Psychological and Physiological Acoustics:
+    - psychological and physiological acoustics
+    - psychoacoustic
+    - auditory perception
+    - hearing
+    - masking
+    - loudness
+    - pitch
+  Speech Communication:
+    - speech communication
+    - speech perception
+    - speech recognition
+    - speech intelligibility
+    - speech in noise
