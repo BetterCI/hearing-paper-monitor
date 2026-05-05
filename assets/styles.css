@@ -66,7 +66,7 @@ main {
 
 .controls {
   display: grid;
-  grid-template-columns: minmax(260px, 2fr) repeat(4, minmax(150px, 1fr));
+  grid-template-columns: minmax(260px, 2fr) repeat(5, minmax(150px, 1fr));
   gap: 12px;
   align-items: end;
   margin-bottom: 16px;
@@ -171,6 +171,7 @@ select:focus {
   margin: 0;
   color: #34464d;
   line-height: 1.55;
+  white-space: pre-line;
 }
 
 .chips {

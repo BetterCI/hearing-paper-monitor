@@ -32,6 +32,7 @@ For JASA and JASA Express Letters, the classifier highlights articles in or rela
   - real-world listening
 - Exports a static JSON file at `data/papers.json`.
 - Renders a searchable, filterable static web dashboard.
+- Displays optional Chinese translations when `title_zh` and `abstract_zh` are present in `data/papers.json`.
 - Never downloads or stores PDFs.
 - Links only to official publisher pages, PubMed pages, or DOI pages.
 
@@ -65,6 +66,19 @@ python -m pytest
 Journal sources and matching rules live in `config/journals.yml`.
 
 The first version uses Crossref and PubMed as the most robust sources. RSS and TOC fetching are supported by the collector, but publisher feed and page URLs are intentionally configurable because journals change those endpoints more often than Crossref/PubMed APIs.
+
+## Chinese Translation Fields
+
+The dashboard supports bilingual display when each paper includes optional fields:
+
+```json
+{
+  "title_zh": "中文题名",
+  "abstract_zh": "中文摘要"
+}
+```
+
+The collector keeps the official English metadata intact. Add translation generation as a separate step so DOI deduplication and publisher links remain unchanged.
 
 ## GitHub Pages
 

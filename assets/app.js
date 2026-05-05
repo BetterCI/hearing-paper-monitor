@@ -1,5 +1,6 @@
 const state = {
   papers: [],
+  language: "both",
   filters: {
     query: "",
     journal: "",
@@ -39,8 +40,24 @@ async function init() {
   }
 
   populateFilters();
+  addLanguageControl();
   bindFilters();
   render();
+}
+
+function addLanguageControl() {
+  const controls = document.querySelector(".controls");
+  const label = document.createElement("label");
+  label.innerHTML = `
+    <span>Language</span>
+    <select id="languageFilter">
+      <option value="both">English + Chinese</option>
+      <option value="en">English only</option>
+      <option value="zh">Chinese only</option>
+    </select>
+  `;
+  controls.appendChild(label);
+  els.language = document.querySelector("#languageFilter");
 }
 
 function bindFilters() {
@@ -62,6 +79,10 @@ function bindFilters() {
   });
   els.date.addEventListener("change", () => {
     state.filters.days = els.date.value;
+    render();
+  });
+  els.language.addEventListener("change", () => {
+    state.language = els.language.value;
     render();
   });
 }
@@ -126,7 +147,7 @@ function renderPaper(paper) {
   link.href = paper.url || (paper.doi ? `https://doi.org/${paper.doi}` : "#");
   link.target = "_blank";
   link.rel = "noopener noreferrer";
-  link.textContent = paper.title;
+  link.textContent = displayTitle(paper);
   title.appendChild(link);
 
   const meta = document.createElement("div");
@@ -150,7 +171,7 @@ function renderPaper(paper) {
   if (paper.abstract) {
     const abstract = document.createElement("p");
     abstract.className = "abstract";
-    abstract.textContent = truncate(paper.abstract, 520);
+    abstract.textContent = truncate(displayAbstract(paper), 620);
     article.appendChild(abstract);
   }
 
@@ -164,6 +185,20 @@ function renderPaper(paper) {
   });
   article.appendChild(chips);
   return article;
+}
+
+function displayTitle(paper) {
+  const zh = paper.title_zh || paper.chinese_title;
+  if (state.language === "zh") return zh || paper.title;
+  if (state.language === "both" && zh) return `${zh} / ${paper.title}`;
+  return paper.title;
+}
+
+function displayAbstract(paper) {
+  const zh = paper.abstract_zh || paper.chinese_abstract;
+  if (state.language === "zh") return zh || paper.abstract || "";
+  if (state.language === "both" && zh) return `${zh}\n\n${paper.abstract || ""}`;
+  return paper.abstract || "";
 }
 
 function isPriority(paper) {
