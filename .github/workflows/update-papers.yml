@@ -18,10 +18,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -32,6 +32,7 @@ jobs:
         run: python scripts/collect.py --days 45
 
       - name: Translate metadata to Chinese
+        continue-on-error: true
         env:
           BAIDU_TRANSLATE_APP_ID: ${{ secrets.BAIDU_TRANSLATE_APP_ID }}
           BAIDU_TRANSLATE_SECRET_KEY: ${{ secrets.BAIDU_TRANSLATE_SECRET_KEY }}
@@ -42,7 +43,7 @@ jobs:
         run: python scripts/translate_zh.py
 
       - name: Commit refreshed data
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Update paper metadata"
           file_pattern: data/papers.json
@@ -55,7 +56,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
+        with:
+          ref: main
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
