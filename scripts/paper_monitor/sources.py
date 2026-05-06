@@ -59,12 +59,15 @@ def fetch_pubmed(journal: Journal, days: int) -> list[Paper]:
     if not journal.pubmed:
         return []
 
+    end_date = dt.date.today()
+    start_date = end_date - dt.timedelta(days=days)
     query = " OR ".join(f'"{alias}"[Journal]' for alias in journal.aliases)
+    date_range = f"{start_date:%Y/%m/%d}:{end_date:%Y/%m/%d}[Date - Publication]"
     params = {
         "db": "pubmed",
-        "term": f"({query}) AND {days}[dp]",
+        "term": f"({query}) AND ({date_range})",
         "retmode": "json",
-        "retmax": "100",
+        "retmax": "200",
         "sort": "pub date",
     }
     search_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"

@@ -18,6 +18,7 @@ class Journal:
     pubmed: bool = True
     rss: list[str] = field(default_factory=list)
     toc: list[str] = field(default_factory=list)
+    lookback_days: int | None = None
 
 
 @dataclass(frozen=True)

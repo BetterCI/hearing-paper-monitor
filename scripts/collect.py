@@ -24,9 +24,10 @@ def main() -> None:
     total = 0
 
     for journal in config.journals:
+        days = max(args.days, journal.lookback_days or args.days)
         groups = [
-            _safe_fetch("Crossref", journal.name, lambda: fetch_crossref(journal, args.days)),
-            _safe_fetch("PubMed", journal.name, lambda: fetch_pubmed(journal, args.days)),
+            _safe_fetch("Crossref", journal.name, lambda: fetch_crossref(journal, days)),
+            _safe_fetch("PubMed", journal.name, lambda: fetch_pubmed(journal, days)),
             _safe_fetch("RSS", journal.name, lambda: fetch_rss(journal)),
             _safe_fetch("TOC", journal.name, lambda: fetch_toc(journal)),
         ]
