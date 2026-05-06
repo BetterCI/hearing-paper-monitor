@@ -80,6 +80,27 @@ The dashboard supports bilingual display when each paper includes optional field
 
 The collector keeps the official English metadata intact. Add translation generation as a separate step so DOI deduplication and publisher links remain unchanged.
 
+To generate Chinese translations automatically in GitHub Actions, add Baidu Translate secrets:
+
+- `BAIDU_TRANSLATE_APP_ID`
+- `BAIDU_TRANSLATE_SECRET_KEY`
+
+Baidu Translate is preferred for China-friendly access. The script also supports these fallback providers:
+
+- `DEEPL_API_KEY`: uses DeepL Free by default.
+- `LIBRETRANSLATE_URL`: uses a LibreTranslate-compatible endpoint.
+
+Optional secrets:
+
+- `DEEPL_API_URL`: set to `https://api.deepl.com/v2/translate` for DeepL Pro.
+- `LIBRETRANSLATE_API_KEY`: only needed if your LibreTranslate server requires a key.
+
+Run locally:
+
+```powershell
+python scripts/translate_zh.py
+```
+
 ## GitHub Pages
 
 The workflow in `.github/workflows/update-papers.yml` runs daily, commits refreshed `data/papers.json`, and can publish the static dashboard through GitHub Pages if Pages is enabled for the repository.

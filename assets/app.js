@@ -20,6 +20,7 @@ const els = {
   date: document.querySelector("#dateFilter"),
   paperCount: document.querySelector("#paperCount"),
   generatedAt: document.querySelector("#generatedAt"),
+  refreshData: document.querySelector("#refreshData"),
   priorityCount: document.querySelector("#priorityCount"),
   journalCount: document.querySelector("#journalCount"),
   tagCount: document.querySelector("#tagCount"),
@@ -28,8 +29,16 @@ const els = {
 init();
 
 async function init() {
+  await loadData();
+  populateFilters();
+  addLanguageControl();
+  bindFilters();
+  render();
+}
+
+async function loadData() {
   try {
-    const response = await fetch("data/papers.json", { cache: "no-store" });
+    const response = await fetch(`data/papers.json?t=${Date.now()}`, { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const payload = await response.json();
     state.papers = payload.papers || [];
@@ -38,11 +47,6 @@ async function init() {
     els.generatedAt.textContent = "No data file found";
     state.papers = [];
   }
-
-  populateFilters();
-  addLanguageControl();
-  bindFilters();
-  render();
 }
 
 function addLanguageControl() {
@@ -80,6 +84,15 @@ function bindFilters() {
   els.date.addEventListener("change", () => {
     state.filters.days = els.date.value;
     render();
+  });
+  els.refreshData.addEventListener("click", async () => {
+    els.refreshData.disabled = true;
+    els.refreshData.textContent = "Refreshing...";
+    await loadData();
+    populateFilters();
+    render();
+    els.refreshData.textContent = "Refresh";
+    els.refreshData.disabled = false;
   });
   els.language.addEventListener("change", () => {
     state.language = els.language.value;
@@ -171,7 +184,7 @@ function renderPaper(paper) {
   if (paper.abstract) {
     const abstract = document.createElement("p");
     abstract.className = "abstract";
-    abstract.textContent = truncate(displayAbstract(paper), 620);
+    abstract.textContent = displayAbstract(paper);
     article.appendChild(abstract);
   }
 
@@ -221,11 +234,6 @@ function authorLine(authors = []) {
   if (!authors.length) return "";
   if (authors.length <= 3) return authors.join(", ");
   return `${authors.slice(0, 3).join(", ")} et al.`;
-}
-
-function truncate(text, length) {
-  if (text.length <= length) return text;
-  return `${text.slice(0, length - 1).trim()}...`;
 }
 
 function formatDate(dateString) {
