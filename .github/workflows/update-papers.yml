@@ -1,6 +1,9 @@
 name: Update paper monitor
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "18 2 * * *"
   workflow_dispatch:
@@ -15,6 +18,7 @@ env:
 
 jobs:
   update-data:
+    if: github.event_name != 'push'
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -64,6 +68,7 @@ jobs:
 
   deploy-pages:
     needs: update-data
+    if: ${{ always() && (github.event_name == 'push' || needs.update-data.result == 'success') }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
