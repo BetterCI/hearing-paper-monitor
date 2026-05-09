@@ -155,32 +155,6 @@ select:focus {
   border-color: var(--accent);
 }
 
-.summary {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1px;
-  overflow: hidden;
-  margin: 14px 0 20px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--line);
-}
-
-.summary div {
-  display: flex;
-  align-items: baseline;
-  gap: 10px;
-  padding: 14px 16px;
-  background: var(--surface);
-  color: var(--muted);
-}
-
-.metric {
-  color: var(--accent-dark);
-  font-size: 1.55rem;
-  font-weight: 800;
-}
-
 .papers {
   display: grid;
   gap: 12px;
@@ -447,8 +421,7 @@ select:focus {
 }
 
 @media (max-width: 640px) {
-  .controls,
-  .summary {
+  .controls {
     grid-template-columns: 1fr;
   }
 
@@ -475,7 +448,4 @@ select:focus {
     grid-template-columns: 1fr;
   }
 
-  .summary {
-    gap: 1px;
-  }
 }

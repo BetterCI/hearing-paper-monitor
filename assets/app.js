@@ -168,9 +168,6 @@ const els = {
   generatedAt: document.querySelector("#generatedAt"),
   refreshData: document.querySelector("#refreshData"),
   translationStatus: null,
-  priorityCount: document.querySelector("#priorityCount"),
-  journalCount: document.querySelector("#journalCount"),
-  tagCount: document.querySelector("#tagCount"),
 };
 
 init();
@@ -298,9 +295,6 @@ function fillSelect(select, values) {
 function render() {
   const papers = state.papers.filter(matchesFilters);
   els.paperCount.textContent = `${papers.length} ${papers.length === 1 ? "paper" : "papers"}`;
-  els.priorityCount.textContent = state.papers.filter(isPriority).length;
-  els.journalCount.textContent = unique(state.papers.map((paper) => paper.journal)).length;
-  els.tagCount.textContent = unique(state.papers.flatMap((paper) => paper.tags || [])).length;
 
   els.papers.replaceChildren(...papers.map(renderPaper));
   els.empty.hidden = papers.length > 0;
