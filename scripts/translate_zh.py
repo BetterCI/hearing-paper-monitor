@@ -10,6 +10,8 @@ from pathlib import Path
 
 import requests
 
+from paper_monitor.storage import connect, import_json
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -18,16 +20,26 @@ def main() -> None:
     parser.add_argument("--input", type=Path, default=ROOT / "data" / "papers.json")
     parser.add_argument("--output", type=Path, default=ROOT / "data" / "papers.json")
     parser.add_argument("--limit", type=int, default=0, help="Maximum papers to translate. 0 means no limit.")
+    parser.add_argument("--text", help="Translate one text string and print the result without editing JSON.")
+    parser.add_argument("--require-backend", action="store_true", help="Exit with an error if no translation backend is configured.")
     args = parser.parse_args()
 
-    payload = json.loads(args.input.read_text(encoding="utf-8"))
     translator = make_translator()
     if translator is None:
-        print(
+        message = (
             "No translation backend configured. Set BAIDU_TRANSLATE_APP_ID and "
             "BAIDU_TRANSLATE_SECRET_KEY to enable Chinese translation."
         )
+        if args.require_backend:
+            raise RuntimeError(message)
+        print(message)
         return
+
+    if args.text:
+        print(translator(args.text))
+        return
+
+    payload = json.loads(args.input.read_text(encoding="utf-8"))
 
     changed = 0
     for paper in payload.get("papers", []):
@@ -49,25 +61,39 @@ def main() -> None:
             changed += 1
 
     args.output.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    sync_sqlite(args.output)
     print(f"Translated {changed} papers")
 
 
+def sync_sqlite(json_path: Path) -> None:
+    db_path = ROOT / "papers.sqlite"
+    conn = connect(db_path)
+    import_json(conn, json_path)
+
+
 def make_translator():
-    baidu_app_id = os.environ.get("BAIDU_TRANSLATE_APP_ID")
-    baidu_secret_key = os.environ.get("BAIDU_TRANSLATE_SECRET_KEY")
+    baidu_app_id = _env("BAIDU_TRANSLATE_APP_ID")
+    baidu_secret_key = _env("BAIDU_TRANSLATE_SECRET_KEY")
     if baidu_app_id and baidu_secret_key:
         return lambda text: translate_baidu(text, baidu_app_id, baidu_secret_key)
 
-    deepl_key = os.environ.get("DEEPL_API_KEY")
+    deepl_key = _env("DEEPL_API_KEY")
     if deepl_key:
         return lambda text: translate_deepl(text, deepl_key)
 
-    libre_url = os.environ.get("LIBRETRANSLATE_URL")
+    libre_url = _env("LIBRETRANSLATE_URL")
     if libre_url:
-        libre_key = os.environ.get("LIBRETRANSLATE_API_KEY", "")
+        libre_key = _env("LIBRETRANSLATE_API_KEY") or ""
         return lambda text: translate_libretranslate(text, libre_url, libre_key)
 
     return None
+
+
+def _env(name: str) -> str | None:
+    value = os.environ.get(name)
+    if value is None:
+        return None
+    return value.strip()
 
 
 def translate_baidu(text: str, app_id: str, secret_key: str) -> str:

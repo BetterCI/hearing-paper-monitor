@@ -6,7 +6,7 @@ from pathlib import Path
 from paper_monitor.classifier import classify
 from paper_monitor.config import load_config
 from paper_monitor.sources import fetch_crossref, fetch_pubmed, fetch_rss, fetch_toc, merge_dedupe
-from paper_monitor.storage import connect, export_json, upsert_papers
+from paper_monitor.storage import connect, export_json, import_json, upsert_papers
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -21,6 +21,9 @@ def main() -> None:
 
     config = load_config(args.config)
     conn = connect(args.db)
+    imported = import_json(conn, args.output)
+    if imported:
+        print(f"Imported {imported} existing JSON records before refresh")
     total = 0
 
     for journal in config.journals:
