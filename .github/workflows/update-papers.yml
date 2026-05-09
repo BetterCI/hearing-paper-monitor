@@ -31,6 +31,9 @@ jobs:
       - name: Collect papers
         run: python scripts/collect.py --days 45
 
+      - name: Enrich media metadata
+        run: python scripts/enrich_media.py --limit 80
+
       - name: Check translation configuration
         run: |
           if [ -n "$BAIDU_TRANSLATE_APP_ID" ] && [ -n "$BAIDU_TRANSLATE_SECRET_KEY" ]; then
@@ -43,6 +46,7 @@ jobs:
           BAIDU_TRANSLATE_SECRET_KEY: ${{ secrets.BAIDU_TRANSLATE_SECRET_KEY }}
 
       - name: Translate metadata to Chinese
+        continue-on-error: true
         env:
           BAIDU_TRANSLATE_APP_ID: ${{ secrets.BAIDU_TRANSLATE_APP_ID }}
           BAIDU_TRANSLATE_SECRET_KEY: ${{ secrets.BAIDU_TRANSLATE_SECRET_KEY }}
@@ -50,7 +54,7 @@ jobs:
           DEEPL_API_URL: ${{ secrets.DEEPL_API_URL }}
           LIBRETRANSLATE_URL: ${{ secrets.LIBRETRANSLATE_URL }}
           LIBRETRANSLATE_API_KEY: ${{ secrets.LIBRETRANSLATE_API_KEY }}
-        run: python scripts/translate_zh.py --require-backend
+        run: python scripts/translate_zh.py
 
       - name: Commit refreshed data
         uses: stefanzweifel/git-auto-commit-action@v7

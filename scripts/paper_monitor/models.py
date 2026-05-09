@@ -2,6 +2,10 @@ from __future__ import annotations
 
 from dataclasses import asdict, dataclass, field
 
+JOURNAL_NAME_ALIASES = {
+    "Ear & Hearing": "Ear and Hearing",
+}
+
 
 @dataclass
 class Paper:
@@ -12,6 +16,8 @@ class Paper:
     doi: str | None
     url: str
     abstract: str | None = None
+    first_author_affiliation: str | None = None
+    publication_stage: str | None = None
     section: str | None = None
     keywords: list[str] = field(default_factory=list)
     tags: list[str] = field(default_factory=list)
@@ -36,3 +42,8 @@ def normalize_doi(doi: str | None) -> str | None:
     value = value.removeprefix("http://doi.org/")
     value = value.removeprefix("doi:")
     return value.strip()
+
+
+def normalize_journal_name(journal: str | None) -> str:
+    value = " ".join((journal or "").split())
+    return JOURNAL_NAME_ALIASES.get(value, value)

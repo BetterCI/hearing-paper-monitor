@@ -5,7 +5,7 @@ import sqlite3
 from datetime import datetime, timezone
 from pathlib import Path
 
-from .models import Paper, normalize_doi
+from .models import Paper, normalize_doi, normalize_journal_name
 
 
 SCHEMA = """
@@ -18,8 +18,14 @@ CREATE TABLE IF NOT EXISTS papers (
     publication_date TEXT NOT NULL,
     doi TEXT,
     url TEXT NOT NULL,
+    full_text_url TEXT,
     abstract TEXT,
     abstract_zh TEXT,
+    first_author_affiliation TEXT,
+    publication_stage TEXT,
+    key_image_url TEXT,
+    key_image_alt TEXT,
+    key_formula TEXT,
     section TEXT,
     keywords TEXT NOT NULL,
     tags TEXT NOT NULL,
@@ -34,6 +40,12 @@ CREATE UNIQUE INDEX IF NOT EXISTS idx_papers_doi ON papers(doi) WHERE doi IS NOT
 MIGRATIONS = [
     "ALTER TABLE papers ADD COLUMN title_zh TEXT",
     "ALTER TABLE papers ADD COLUMN abstract_zh TEXT",
+    "ALTER TABLE papers ADD COLUMN first_author_affiliation TEXT",
+    "ALTER TABLE papers ADD COLUMN full_text_url TEXT",
+    "ALTER TABLE papers ADD COLUMN publication_stage TEXT",
+    "ALTER TABLE papers ADD COLUMN key_image_url TEXT",
+    "ALTER TABLE papers ADD COLUMN key_image_alt TEXT",
+    "ALTER TABLE papers ADD COLUMN key_formula TEXT",
 ]
 
 
@@ -41,6 +53,7 @@ def connect(db_path: Path) -> sqlite3.Connection:
     conn = sqlite3.connect(db_path)
     conn.executescript(SCHEMA)
     _migrate(conn)
+    _normalize_existing_journals(conn)
     return conn
 
 
@@ -55,13 +68,20 @@ def import_json(conn: sqlite3.Connection, input_path: Path) -> int:
         conn.execute(
             """
             INSERT INTO papers (
-                id, title, title_zh, authors, journal, publication_date, doi, url,
-                abstract, abstract_zh, section, keywords, tags, source, updated_at
+                id, title, title_zh, authors, journal, publication_date, doi, url, full_text_url,
+                abstract, abstract_zh, first_author_affiliation, publication_stage, key_image_url,
+                key_image_alt, key_formula, section, keywords, tags, source, updated_at
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
             ON CONFLICT(id) DO UPDATE SET
                 title_zh=COALESCE(papers.title_zh, excluded.title_zh),
                 abstract_zh=COALESCE(papers.abstract_zh, excluded.abstract_zh),
+                first_author_affiliation=COALESCE(papers.first_author_affiliation, excluded.first_author_affiliation),
+                publication_stage=COALESCE(excluded.publication_stage, papers.publication_stage),
+                full_text_url=COALESCE(papers.full_text_url, excluded.full_text_url),
+                key_image_url=COALESCE(papers.key_image_url, excluded.key_image_url),
+                key_image_alt=COALESCE(papers.key_image_alt, excluded.key_image_alt),
+                key_formula=COALESCE(papers.key_formula, excluded.key_formula),
                 updated_at=CURRENT_TIMESTAMP
             """,
             (
@@ -69,12 +89,18 @@ def import_json(conn: sqlite3.Connection, input_path: Path) -> int:
                 item.get("title") or "",
                 item.get("title_zh") or item.get("chinese_title"),
                 json.dumps(item.get("authors") or [], ensure_ascii=False),
-                item.get("journal") or "",
+                normalize_journal_name(item.get("journal")),
                 item.get("publication_date") or "",
                 doi,
                 item.get("url") or (f"https://doi.org/{doi}" if doi else ""),
+                item.get("full_text_url") or item.get("fullTextUrl") or item.get("html_url"),
                 item.get("abstract"),
                 item.get("abstract_zh") or item.get("chinese_abstract"),
+                item.get("first_author_affiliation"),
+                item.get("publication_stage") or ("early_access" if item.get("is_early_access") else None),
+                item.get("key_image_url"),
+                item.get("key_image_alt"),
+                item.get("key_formula"),
                 item.get("section"),
                 json.dumps(item.get("keywords") or [], ensure_ascii=False),
                 json.dumps(item.get("tags") or [], ensure_ascii=False),
@@ -95,9 +121,9 @@ def upsert_papers(conn: sqlite3.Connection, papers: list[Paper]) -> int:
             """
             INSERT INTO papers (
                 id, title, authors, journal, publication_date, doi, url, abstract,
-                section, keywords, tags, source, updated_at
+                first_author_affiliation, publication_stage, section, keywords, tags, source, updated_at
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
             ON CONFLICT(id) DO UPDATE SET
                 title=excluded.title,
                 authors=excluded.authors,
@@ -108,6 +134,12 @@ def upsert_papers(conn: sqlite3.Connection, papers: list[Paper]) -> int:
                 abstract=COALESCE(excluded.abstract, papers.abstract),
                 title_zh=papers.title_zh,
                 abstract_zh=papers.abstract_zh,
+                first_author_affiliation=COALESCE(excluded.first_author_affiliation, papers.first_author_affiliation),
+                publication_stage=excluded.publication_stage,
+                full_text_url=papers.full_text_url,
+                key_image_url=papers.key_image_url,
+                key_image_alt=papers.key_image_alt,
+                key_formula=papers.key_formula,
                 section=COALESCE(excluded.section, papers.section),
                 keywords=excluded.keywords,
                 tags=excluded.tags,
@@ -118,11 +150,13 @@ def upsert_papers(conn: sqlite3.Connection, papers: list[Paper]) -> int:
                 paper.identity,
                 paper.title,
                 json.dumps(paper.authors, ensure_ascii=False),
-                paper.journal,
+                normalize_journal_name(paper.journal),
                 paper.publication_date,
                 doi,
                 paper.url,
                 paper.abstract,
+                paper.first_author_affiliation,
+                paper.publication_stage,
                 paper.section,
                 json.dumps(paper.keywords, ensure_ascii=False),
                 json.dumps(paper.tags, ensure_ascii=False),
@@ -138,7 +172,9 @@ def all_papers(conn: sqlite3.Connection) -> list[dict]:
     rows = conn.execute(
         """
         SELECT title, title_zh, authors, journal, publication_date, doi, url,
-               abstract, abstract_zh, section, keywords, tags, source
+               full_text_url, abstract, abstract_zh, first_author_affiliation,
+               publication_stage, key_image_url, key_image_alt, key_formula,
+               section, keywords, tags, source
         FROM papers
         ORDER BY publication_date DESC, title ASC
         """
@@ -151,8 +187,14 @@ def all_papers(conn: sqlite3.Connection) -> list[dict]:
         "publication_date",
         "doi",
         "url",
+        "full_text_url",
         "abstract",
         "abstract_zh",
+        "first_author_affiliation",
+        "publication_stage",
+        "key_image_url",
+        "key_image_alt",
+        "key_formula",
         "section",
         "keywords",
         "tags",
@@ -168,6 +210,18 @@ def all_papers(conn: sqlite3.Connection) -> list[dict]:
             item.pop("title_zh", None)
         if not item.get("abstract_zh"):
             item.pop("abstract_zh", None)
+        if not item.get("first_author_affiliation"):
+            item.pop("first_author_affiliation", None)
+        if not item.get("publication_stage"):
+            item.pop("publication_stage", None)
+        if not item.get("full_text_url"):
+            item.pop("full_text_url", None)
+        if not item.get("key_image_url"):
+            item.pop("key_image_url", None)
+        if not item.get("key_image_alt"):
+            item.pop("key_image_alt", None)
+        if not item.get("key_formula"):
+            item.pop("key_formula", None)
         papers.append(item)
     return papers
 
@@ -195,6 +249,12 @@ def _migrate(conn: sqlite3.Connection) -> None:
     conn.commit()
 
 
+def _normalize_existing_journals(conn: sqlite3.Connection) -> None:
+    conn.execute("UPDATE papers SET journal = ? WHERE journal = ?", ("Ear and Hearing", "Ear & Hearing"))
+    conn.commit()
+
+
 def _fallback_identity(item: dict) -> str:
     title = " ".join((item.get("title") or "").lower().split())
-    return f"title:{title}|date:{item.get('publication_date') or ''}|journal:{(item.get('journal') or '').lower()}"
+    journal = normalize_journal_name(item.get("journal")).lower()
+    return f"title:{title}|date:{item.get('publication_date') or ''}|journal:{journal}"

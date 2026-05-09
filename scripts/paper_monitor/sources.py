@@ -14,7 +14,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from .config import Journal
-from .models import Paper, normalize_doi
+from .models import Paper, normalize_doi, normalize_journal_name
 
 SESSION = requests.Session()
 SESSION.headers.update(
@@ -24,6 +24,27 @@ SESSION.headers.update(
     }
 )
 
+EARLY_ACCESS_STAGE = "early_access"
+
+EARLY_ACCESS_CUES = (
+    "early access",
+    "online first",
+    "article in press",
+    "articles in press",
+    "publish ahead",
+    "published ahead",
+    "ahead of print",
+    "aheadofprint",
+    "advance online",
+    "advance article",
+    "publish-ahead-of-print",
+    "published-ahead-of-print",
+)
+
+ONLINE_ONLY_JOURNALS = {
+    "Trends in Hearing",
+}
+
 
 def fetch_crossref(journal: Journal, days: int) -> list[Paper]:
     if not journal.crossref:
@@ -32,25 +53,25 @@ def fetch_crossref(journal: Journal, days: int) -> list[Paper]:
     papers: list[Paper] = []
 
     for issn in journal.issn:
-        params = {
-            "filter": f"from-pub-date:{cutoff.isoformat()},type:journal-article",
-            "select": "DOI,title,author,container-title,published-print,published-online,published,URL,abstract,subject",
-            "sort": "published",
-            "order": "desc",
-            "rows": "100",
-            "mailto": "example@example.com",
-        }
-        url = f"https://api.crossref.org/journals/{issn}/works?{urlencode(params)}"
-        try:
-            data = _get_json(url)
-        except requests.HTTPError as exc:
-            print(f"Warning: Crossref ISSN {issn} failed for {journal.name}: {exc}")
-            continue
-        for item in data.get("message", {}).get("items", []):
-            paper = _paper_from_crossref(item, journal)
-            if paper:
-                papers.append(paper)
-        time.sleep(0.15)
+        for date_filter in ("from-pub-date", "from-online-pub-date"):
+            params = {
+                "filter": f"{date_filter}:{cutoff.isoformat()},type:journal-article",
+                "sort": "published",
+                "order": "desc",
+                "rows": "100",
+                "mailto": "example@example.com",
+            }
+            url = f"https://api.crossref.org/journals/{issn}/works?{urlencode(params)}"
+            try:
+                data = _get_json(url)
+            except requests.HTTPError as exc:
+                print(f"Warning: Crossref ISSN {issn} {date_filter} failed for {journal.name}: {exc}")
+                continue
+            for item in data.get("message", {}).get("items", []):
+                paper = _paper_from_crossref(item, journal)
+                if paper:
+                    papers.append(paper)
+            time.sleep(0.15)
 
     return papers
 
@@ -102,11 +123,15 @@ def fetch_rss(journal: Journal) -> list[Paper]:
                 Paper(
                     title=title,
                     authors=[author.get("name", "") for author in getattr(entry, "authors", []) if author.get("name")],
-                    journal=journal.name,
+                    journal=normalize_journal_name(journal.name),
                     publication_date=published,
                     doi=doi,
                     url=_official_url(getattr(entry, "link", ""), doi),
                     abstract=_clean(getattr(entry, "summary", "")) or None,
+                    publication_stage=_text_publication_stage(
+                        " ".join(str(getattr(entry, key, "")) for key in ("title", "link", "summary", "tags"))
+                    )
+                    or _date_publication_stage(published),
                     source="rss",
                 )
             )
@@ -129,10 +154,11 @@ def fetch_toc(journal: Journal) -> list[Paper]:
                 Paper(
                     title=title,
                     authors=[],
-                    journal=journal.name,
+                    journal=normalize_journal_name(journal.name),
                     publication_date=dt.date.today().isoformat(),
                     doi=doi,
                     url=_official_url(href, doi),
+                    publication_stage=_text_publication_stage(f"{title} {href} {url}") or _date_publication_stage(dt.date.today().isoformat()),
                     source="toc",
                 )
             )
@@ -150,6 +176,7 @@ def merge_dedupe(groups: Iterable[list[Paper]]) -> list[Paper]:
                 continue
             existing.abstract = existing.abstract or paper.abstract
             existing.section = existing.section or paper.section
+            existing.publication_stage = existing.publication_stage or paper.publication_stage
             existing.keywords = sorted(set(existing.keywords + paper.keywords))
             existing.authors = existing.authors or paper.authors
             existing.url = _prefer_url(existing.url, paper.url, existing.doi)
@@ -165,14 +192,18 @@ def _paper_from_crossref(item: dict, journal: Journal) -> Paper | None:
     doi = normalize_doi(item.get("DOI"))
     abstract = _clean(item.get("abstract", "")) or None
     subjects = item.get("subject") or []
+    journal_name = normalize_journal_name(_clean((item.get("container-title") or [journal.name])[0]))
+    publication_date = _crossref_date(item)
     return Paper(
         title=_clean(titles[0]),
         authors=_crossref_authors(item.get("author", [])),
-        journal=_clean((item.get("container-title") or [journal.name])[0]),
-        publication_date=_crossref_date(item),
+        journal=journal_name,
+        publication_date=publication_date,
         doi=doi,
         url=_official_url(item.get("URL", ""), doi),
         abstract=abstract,
+        first_author_affiliation=_crossref_first_author_affiliation(item.get("author", [])),
+        publication_stage=_crossref_publication_stage(item, journal_name, publication_date),
         keywords=subjects,
         source="crossref",
     )
@@ -193,14 +224,17 @@ def _paper_from_pubmed(article: ET.Element, journal: Journal) -> Paper:
             break
     pmid = article.findtext(".//PMID")
     keywords = [_clean("".join(node.itertext())) for node in article.findall(".//Keyword")]
+    publication_date = _pubmed_date(article)
     return Paper(
         title=title,
         authors=_pubmed_authors(article.findall(".//Author")),
-        journal=journal.name,
-        publication_date=_pubmed_date(article),
+        journal=normalize_journal_name(journal.name),
+        publication_date=publication_date,
         doi=doi,
         url=f"https://doi.org/{doi}" if doi else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
         abstract=" ".join(abstract_parts) or None,
+        first_author_affiliation=_pubmed_first_author_affiliation(article.findall(".//Author")),
+        publication_stage=_pubmed_publication_stage(article, publication_date),
         keywords=[kw for kw in keywords if kw],
         source="pubmed",
     )
@@ -217,6 +251,17 @@ def _crossref_authors(authors: list[dict]) -> list[str]:
     return names
 
 
+def _crossref_first_author_affiliation(authors: list[dict]) -> str | None:
+    if not authors:
+        return None
+    affiliations = authors[0].get("affiliation") or []
+    for affiliation in affiliations:
+        name = _clean(affiliation.get("name", ""))
+        if name:
+            return name
+    return None
+
+
 def _pubmed_authors(authors: list[ET.Element]) -> list[str]:
     names = []
     for author in authors:
@@ -230,6 +275,16 @@ def _pubmed_authors(authors: list[ET.Element]) -> list[str]:
         if name:
             names.append(name)
     return names
+
+
+def _pubmed_first_author_affiliation(authors: list[ET.Element]) -> str | None:
+    if not authors:
+        return None
+    for node in authors[0].findall(".//Affiliation"):
+        affiliation = _clean("".join(node.itertext()))
+        if affiliation:
+            return affiliation
+    return None
 
 
 def _crossref_date(item: dict) -> str:
@@ -252,6 +307,64 @@ def _pubmed_date(article: ET.Element) -> str:
     month = _month_to_int(pub_date.findtext("Month") or "1")
     day = int(pub_date.findtext("Day") or 1)
     return dt.date(year, month, day).isoformat()
+
+
+def _crossref_publication_stage(item: dict, journal_name: str, publication_date: str) -> str | None:
+    date_stage = _date_publication_stage(publication_date)
+    if date_stage:
+        return date_stage
+
+    text_values = []
+    for key in ("title", "subtitle", "short-container-title", "subject"):
+        value = item.get(key)
+        if isinstance(value, list):
+            text_values.extend(str(part) for part in value)
+        elif value:
+            text_values.append(str(value))
+    for key in ("subtype", "type"):
+        if item.get(key):
+            text_values.append(str(item[key]))
+    text_stage = _text_publication_stage(" ".join(text_values))
+    if text_stage:
+        return text_stage
+
+    has_online_date = _has_crossref_date(item, "published-online")
+    has_print_date = _has_crossref_date(item, "published-print")
+    has_issue_assignment = any(item.get(key) for key in ("volume", "issue", "page"))
+    if has_online_date and not has_print_date and not has_issue_assignment and journal_name not in ONLINE_ONLY_JOURNALS:
+        return EARLY_ACCESS_STAGE
+    return None
+
+
+def _pubmed_publication_stage(article: ET.Element, publication_date: str) -> str | None:
+    date_stage = _date_publication_stage(publication_date)
+    if date_stage:
+        return date_stage
+
+    article_node = article.find(".//Article")
+    text_values = [node.text or "" for node in article.findall(".//PublicationStatus")]
+    if article_node is not None:
+        text_values.append(article_node.attrib.get("PubModel", ""))
+    text_values.extend(_clean("".join(node.itertext())) for node in article.findall(".//PublicationType"))
+    return _text_publication_stage(" ".join(text_values))
+
+
+def _text_publication_stage(value: str) -> str | None:
+    text = (value or "").lower().replace("_", " ").replace("-", " ")
+    return EARLY_ACCESS_STAGE if any(cue.replace("-", " ") in text for cue in EARLY_ACCESS_CUES) else None
+
+
+def _date_publication_stage(date_string: str | None) -> str | None:
+    try:
+        publication_date = dt.date.fromisoformat(date_string or "")
+    except ValueError:
+        return None
+    return EARLY_ACCESS_STAGE if publication_date > dt.date.today() else None
+
+
+def _has_crossref_date(item: dict, key: str) -> bool:
+    date_parts = item.get(key, {}).get("date-parts", [])
+    return bool(date_parts and date_parts[0])
 
 
 def _rss_date(entry) -> str:
