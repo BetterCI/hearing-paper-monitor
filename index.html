@@ -67,9 +67,63 @@
         </label>
 
         <label class="toggle-control">
-          <input id="showNonPriorityJasa" type="checkbox" />
-          <span>Show non-priority JASA/JASA EL</span>
+          <input id="showOtherJasaSections" type="checkbox" />
+          <span>Show other JASA/JASA EL sections</span>
         </label>
+      </section>
+
+      <section class="overview" aria-labelledby="overviewTitle">
+        <div class="section-heading">
+          <h2 id="overviewTitle">Recent Overview</h2>
+        </div>
+        <div class="overview-grid">
+          <article class="overview-panel">
+            <h3>Latest Updates</h3>
+            <div id="latestUpdates" class="compact-list"></div>
+          </article>
+          <article class="overview-panel">
+            <h3>JASA/JASA-EL Section Highlights</h3>
+            <p class="panel-note">Speech Communication and Psychological and Physiological Acoustics</p>
+            <div id="sectionHighlights" class="compact-list"></div>
+          </article>
+          <article class="overview-panel">
+            <h3>Trending Topics</h3>
+            <div id="trendingTopics" class="topic-list"></div>
+          </article>
+          <article class="overview-panel">
+            <h3>Selected Recent Papers</h3>
+            <div id="selectedRecentPapers" class="compact-list"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="weekly-digest" id="weeklyDigest" aria-labelledby="weeklyDigestTitle">
+        <div class="section-heading">
+          <h2 id="weeklyDigestTitle">Weekly Hearing Science Digest</h2>
+          <p id="weeklyDigestWindow" class="section-subtitle"></p>
+        </div>
+        <div class="digest-grid">
+          <article class="digest-panel digest-total">
+            <span id="weeklyTotal" class="digest-number">0</span>
+            <span>new papers</span>
+          </article>
+          <article class="digest-panel">
+            <h3>Papers by Journal</h3>
+            <div id="weeklyJournalCounts" class="count-list"></div>
+          </article>
+          <article class="digest-panel">
+            <h3>Papers by Topic</h3>
+            <div id="weeklyTopicCounts" class="count-list"></div>
+          </article>
+          <article class="digest-panel">
+            <h3>Top Weekly Topics</h3>
+            <div id="weeklyTopTopics" class="topic-list"></div>
+          </article>
+          <article class="digest-panel digest-selected">
+            <h3>Selected Recent Papers</h3>
+            <div id="weeklySelectedPapers" class="compact-list"></div>
+          </article>
+        </div>
       </section>
 
       <section id="papers" class="papers" aria-live="polite"></section>

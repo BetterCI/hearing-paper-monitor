@@ -11,7 +11,7 @@ A small web-based monitoring dashboard for new papers in hearing science, psycho
 - Ear and Hearing
 - Hearing Research
 
-For JASA and JASA Express Letters, the classifier highlights articles in or related to:
+All monitored journals are treated equally at the journal level. For JASA and JASA Express Letters, the dashboard additionally highlights articles in these sections:
 
 - Psychological and Physiological Acoustics
 - Speech Communication
@@ -21,17 +21,26 @@ For JASA and JASA Express Letters, the classifier highlights articles in or rela
 - Collects paper metadata from Crossref, PubMed, RSS feeds, and lightweight journal TOC pages when configured.
 - Stores title, authors, journal, publication date, DOI, URL, abstract, section, and keywords.
 - Deduplicates by DOI, with a title/date fallback for records without a DOI.
-- Classifies papers into rule-based tags:
-  - cochlear implant
-  - hearing aid
-  - psychoacoustics
-  - speech perception
-  - auditory physiology
-  - clinical audiology
-  - machine learning
-  - real-world listening
+- Classifies papers into rule-based tags and displays clean public academic labels such as:
+  - Cochlear Implants
+  - Hearing Aids
+  - Speech Perception
+  - Psychoacoustics
+  - Auditory Neuroscience
+  - Clinical Audiology
+  - Machine Learning
+  - Real-world Listening
+  - Artificial Hearing
+  - Hearing Healthcare AI
+  - Auditory Prostheses
+  - Binaural Hearing
+  - Speech-in-Noise
+  - Objective Evaluation
+  - Auditory Physiology
 - Exports a static JSON file at `data/papers.json`.
 - Renders a searchable, filterable static web dashboard.
+- Shows a Recent Overview with latest updates, JASA/JASA-EL section highlights, trending topics, and selected recent papers.
+- Provides a public Weekly Hearing Science Digest based on the most recent week available in `data/papers.json`.
 - Displays optional Chinese translations when `title_zh` and `abstract_zh` are present in `data/papers.json`.
 - Never downloads or stores PDFs.
 - Links only to official publisher pages, PubMed pages, or DOI pages.

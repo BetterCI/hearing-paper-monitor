@@ -10,7 +10,7 @@ const state = {
     tag: "",
     days: "",
     month: "",
-    showNonPriorityJasa: false,
+    showOtherJasaSections: false,
   },
 };
 
@@ -103,6 +103,36 @@ const JASA_JOURNALS = new Set([
   "JASA Express Letters",
 ]);
 
+const JASA_SECTION_HIGHLIGHTS = new Set([
+  "Speech Communication",
+  "Psychological and Physiological Acoustics",
+]);
+
+const PUBLIC_TAG_LABELS = {
+  "cochlear implant": "Cochlear Implants",
+  "hearing aid": "Hearing Aids",
+  "speech perception": "Speech Perception",
+  psychoacoustics: "Psychoacoustics",
+  "auditory physiology": "Auditory Physiology",
+  "clinical audiology": "Clinical Audiology",
+  "machine learning": "Machine Learning",
+  "real-world listening": "Real-world Listening",
+};
+
+const TAG_INFERENCE_RULES = [
+  { label: "Artificial Hearing", terms: ["artificial hearing", "electric hearing", "cochlear implant", "auditory prosthesis", "auditory prostheses"] },
+  { label: "Hearing Healthcare AI", terms: ["hearing healthcare ai", "artificial intelligence", "deep learning", "machine learning", "neural network", "deep neural network", "large language model"] },
+  { label: "Auditory Prostheses", terms: ["cochlear implant", "cochlear implants", "hearing aid", "hearing aids", "auditory prosthesis", "auditory prostheses"] },
+  { label: "Binaural Hearing", terms: ["binaural", "bilateral", "spatial hearing", "interaural", "sound localization"] },
+  { label: "Speech-in-Noise", terms: ["speech in noise", "speech-in-noise", "speech recognition in noise", "speech perception in noise", "speech intelligibility in noise"] },
+  { label: "Objective Evaluation", terms: ["objective evaluation", "objective measure", "auditory brainstem response", "abr", "assr", "eeg", "mismatch negativity", "otoacoustic"] },
+  { label: "Clinical relevance", terms: ["clinical", "patient", "diagnosis", "outcome", "rehabilitation", "audiology", "hearing loss", "tinnitus"] },
+  { label: "Methodological relevance", terms: ["method", "measurement", "validation", "assessment", "protocol", "recording", "analysis"] },
+  { label: "Technology-focused", terms: ["device", "technology", "algorithm", "software", "compressor", "hearing aid", "cochlear implant"] },
+  { label: "Review-worthy", terms: ["review", "systematic review", "meta-analysis", "scoping review"] },
+  { label: "Emerging topic", terms: ["emerging", "deep neural", "large language model", "artificial intelligence"] },
+];
+
 const CONCLUSION_CUES = [
   "we conclude",
   "we found",
@@ -163,11 +193,21 @@ const els = {
   tag: document.querySelector("#tagFilter"),
   date: document.querySelector("#dateFilter"),
   month: document.querySelector("#monthFilter"),
-  showNonPriorityJasa: document.querySelector("#showNonPriorityJasa"),
+  showOtherJasaSections: document.querySelector("#showOtherJasaSections"),
   paperCount: document.querySelector("#paperCount"),
   generatedAt: document.querySelector("#generatedAt"),
   refreshData: document.querySelector("#refreshData"),
   translationStatus: null,
+  latestUpdates: document.querySelector("#latestUpdates"),
+  sectionHighlights: document.querySelector("#sectionHighlights"),
+  trendingTopics: document.querySelector("#trendingTopics"),
+  selectedRecentPapers: document.querySelector("#selectedRecentPapers"),
+  weeklyDigestWindow: document.querySelector("#weeklyDigestWindow"),
+  weeklyTotal: document.querySelector("#weeklyTotal"),
+  weeklyJournalCounts: document.querySelector("#weeklyJournalCounts"),
+  weeklyTopicCounts: document.querySelector("#weeklyTopicCounts"),
+  weeklyTopTopics: document.querySelector("#weeklyTopTopics"),
+  weeklySelectedPapers: document.querySelector("#weeklySelectedPapers"),
 };
 
 init();
@@ -255,8 +295,8 @@ function bindFilters() {
     state.filters.month = els.month.value;
     render();
   });
-  els.showNonPriorityJasa.addEventListener("change", () => {
-    state.filters.showNonPriorityJasa = els.showNonPriorityJasa.checked;
+  els.showOtherJasaSections.addEventListener("change", () => {
+    state.filters.showOtherJasaSections = els.showOtherJasaSections.checked;
     render();
   });
   els.refreshData.addEventListener("click", async () => {
@@ -277,7 +317,7 @@ function bindFilters() {
 function populateFilters() {
   fillSelect(els.journal, unique(state.papers.map((paper) => paper.journal)));
   fillSelect(els.section, unique(state.papers.map((paper) => paper.section).filter(Boolean)));
-  fillSelect(els.tag, unique(state.papers.flatMap((paper) => paper.tags || [])));
+  fillTagSelect();
   populateMonthFilter();
 }
 
@@ -292,10 +332,23 @@ function fillSelect(select, values) {
   });
 }
 
+function fillTagSelect() {
+  const first = els.tag.options[0];
+  els.tag.replaceChildren(first);
+  unique(state.papers.flatMap(publicPaperTags)).forEach((label) => {
+    const option = document.createElement("option");
+    option.value = label;
+    option.textContent = label;
+    els.tag.appendChild(option);
+  });
+}
+
 function render() {
   const papers = state.papers.filter(matchesFilters);
   els.paperCount.textContent = `${papers.length} ${papers.length === 1 ? "paper" : "papers"}`;
 
+  renderRecentOverview();
+  renderWeeklyDigest();
   els.papers.replaceChildren(...papers.map(renderPaper));
   els.empty.hidden = papers.length > 0;
   translateVisibleTitles(papers);
@@ -340,6 +393,7 @@ function matchesFilters(paper) {
     paper.section,
     paper.publication_stage,
     ...analysisSearchTerms(paper),
+    ...publicPaperTags(paper),
     (paper.keywords || []).join(" "),
     (paper.tags || []).join(" "),
   ]
@@ -350,11 +404,11 @@ function matchesFilters(paper) {
   if (state.filters.query && !queryText.includes(state.filters.query)) return false;
   if (state.filters.journal && paper.journal !== state.filters.journal) return false;
   if (state.filters.section && paper.section !== state.filters.section) return false;
-  if (state.filters.tag && !(paper.tags || []).includes(state.filters.tag)) return false;
+  if (state.filters.tag && !publicPaperTags(paper).includes(state.filters.tag)) return false;
   if (state.filters.days && !withinDays(paper.publication_date, Number(state.filters.days))) return false;
   if (state.filters.month === EARLY_ACCESS_MONTH && !isEarlyAccess(paper)) return false;
   if (state.filters.month && state.filters.month !== EARLY_ACCESS_MONTH && getPaperMonth(paper) !== state.filters.month) return false;
-  if (!state.filters.showNonPriorityJasa && isNonPriorityJasaPaper(paper)) return false;
+  if (!state.filters.showOtherJasaSections && isOtherJasaSectionPaper(paper)) return false;
   return true;
 }
 
@@ -366,7 +420,7 @@ function renderPaper(paper) {
     "paper",
     related ? "related-paper" : "",
     jasaOffTopic ? "jasa-offtopic" : "",
-    isPriority(paper) ? "priority" : "",
+    isJasaSectionHighlight(paper) ? "section-highlight" : "",
   ]
     .filter(Boolean)
     .join(" ");
@@ -439,14 +493,186 @@ function renderPaper(paper) {
 
   const chips = document.createElement("div");
   chips.className = "chips";
-  (paper.tags || []).forEach((tag) => {
+  publicPaperTags(paper).forEach((tag) => {
     const chip = document.createElement("span");
-    chip.className = `chip${tag === "priority section" ? " priority-chip" : ""}`;
+    chip.className = "chip";
     chip.textContent = tag;
     chips.appendChild(chip);
   });
   article.appendChild(chips);
   return article;
+}
+
+function renderRecentOverview() {
+  const sorted = sortedPapers(state.papers);
+  renderCompactPaperList(els.latestUpdates, sorted.slice(0, 5), { showChineseTitle: false });
+
+  const highlights = sorted.filter(isJasaSectionHighlight).slice(0, 5);
+  renderCompactPaperList(els.sectionHighlights, highlights, { showSection: true });
+
+  const recent = papersInLatestWindow(state.papers, 30);
+  renderTopicList(els.trendingTopics, topTagCounts(recent, 8));
+
+  renderCompactPaperList(els.selectedRecentPapers, selectRecentPapers(recent, 6), { showTags: true });
+}
+
+function renderWeeklyDigest() {
+  const weekly = papersInLatestWindow(state.papers, 7);
+  const sortedWeekly = sortedPapers(weekly);
+  const latestDate = maxPaperDate(state.papers);
+  const startDate = latestDate ? addDays(latestDate, -6) : null;
+
+  els.weeklyDigestWindow.textContent =
+    startDate && latestDate
+      ? `${formatDate(toDateString(startDate))} - ${formatDate(toDateString(latestDate))}`
+      : "No dated papers available";
+  els.weeklyTotal.textContent = String(sortedWeekly.length);
+
+  renderCountList(els.weeklyJournalCounts, countValues(sortedWeekly.map((paper) => paper.journal)).slice(0, 8));
+  const topicCounts = topTagCounts(sortedWeekly, 10);
+  renderCountList(els.weeklyTopicCounts, topicCounts);
+  renderTopicList(els.weeklyTopTopics, topicCounts.slice(0, 5));
+  renderCompactPaperList(els.weeklySelectedPapers, selectRecentPapers(sortedWeekly, 6), {
+    showTags: true,
+    showChineseTitle: true,
+  });
+}
+
+function renderCompactPaperList(container, papers, options = {}) {
+  container.replaceChildren();
+  if (!papers.length) {
+    const empty = document.createElement("p");
+    empty.className = "panel-empty";
+    empty.textContent = "No papers available for this view.";
+    container.appendChild(empty);
+    return;
+  }
+
+  const list = document.createElement("ul");
+  papers.forEach((paper) => {
+    const item = document.createElement("li");
+    const link = document.createElement("a");
+    link.href = paper.url || (paper.doi ? doiUrl(paper.doi) : "#");
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = paper.title;
+    item.appendChild(link);
+
+    if (options.showChineseTitle && paper.title_zh) {
+      const chineseTitle = document.createElement("p");
+      chineseTitle.className = "compact-translation";
+      chineseTitle.textContent = paper.title_zh;
+      item.appendChild(chineseTitle);
+    }
+
+    const meta = document.createElement("p");
+    meta.className = "compact-meta";
+    [
+      paper.journal,
+      formatDate(paper.publication_date),
+      options.showSection ? paper.section : null,
+      paper.doi ? `DOI: ${paper.doi}` : null,
+    ]
+      .filter(Boolean)
+      .forEach((part, index) => {
+        if (index > 0) meta.appendChild(document.createTextNode(" · "));
+        meta.appendChild(document.createTextNode(part));
+      });
+    item.appendChild(meta);
+
+    if (options.showTags) {
+      const tags = publicPaperTags(paper).slice(0, 4);
+      if (tags.length) {
+        const tagLine = document.createElement("div");
+        tagLine.className = "mini-tags";
+        tags.forEach((tag) => {
+          const chip = document.createElement("span");
+          chip.textContent = tag;
+          tagLine.appendChild(chip);
+        });
+        item.appendChild(tagLine);
+      }
+    }
+
+    list.appendChild(item);
+  });
+  container.appendChild(list);
+}
+
+function renderTopicList(container, counts) {
+  container.replaceChildren();
+  if (!counts.length) {
+    const empty = document.createElement("p");
+    empty.className = "panel-empty";
+    empty.textContent = "No topics available for this period.";
+    container.appendChild(empty);
+    return;
+  }
+  counts.forEach(([label, count]) => {
+    const topic = document.createElement("span");
+    topic.className = "topic-pill";
+    topic.textContent = `${label} ${count}`;
+    container.appendChild(topic);
+  });
+}
+
+function renderCountList(container, counts) {
+  container.replaceChildren();
+  if (!counts.length) {
+    const empty = document.createElement("p");
+    empty.className = "panel-empty";
+    empty.textContent = "No counts available for this period.";
+    container.appendChild(empty);
+    return;
+  }
+  counts.forEach(([label, count]) => {
+    const row = document.createElement("div");
+    row.className = "count-row";
+    const name = document.createElement("span");
+    name.textContent = label;
+    const value = document.createElement("strong");
+    value.textContent = count;
+    row.append(name, value);
+    container.appendChild(row);
+  });
+}
+
+function selectRecentPapers(papers, limit) {
+  const byJournal = new Set();
+  const scored = sortedPapers(papers)
+    .map((paper) => ({ paper, score: paperRelevanceScore(paper) }))
+    .filter((item) => item.score > 0)
+    .sort((left, right) => right.score - left.score || comparePaperDates(left.paper, right.paper));
+
+  const selected = [];
+  scored.forEach(({ paper }) => {
+    if (selected.length >= limit) return;
+    if (!byJournal.has(paper.journal) || selected.length >= Math.ceil(limit / 2)) {
+      selected.push(paper);
+      byJournal.add(paper.journal);
+    }
+  });
+
+  if (selected.length < limit) {
+    scored.forEach(({ paper }) => {
+      if (selected.length >= limit) return;
+      if (!selected.includes(paper)) selected.push(paper);
+    });
+  }
+
+  return selected.slice(0, limit);
+}
+
+function paperRelevanceScore(paper) {
+  const tags = publicPaperTags(paper);
+  let score = tags.length;
+  if (isJasaSectionHighlight(paper)) score += 2;
+  if (getAiAnalysis(paper)) score += 1;
+  if (paper.abstract) score += 1;
+  if (tags.some((tag) => ["Clinical Audiology", "Speech Perception", "Auditory Neuroscience", "Machine Learning", "Objective Evaluation"].includes(tag))) {
+    score += 2;
+  }
+  return score;
 }
 
 function applyJournalStyle(element, journal) {
@@ -851,16 +1077,105 @@ function languageLabel(value) {
   return option ? option[1] : value;
 }
 
-function isPriority(paper) {
-  return (paper.tags || []).includes("priority section");
+function publicPaperTags(paper) {
+  const labels = new Set();
+  (paper.tags || []).forEach((tag) => {
+    const label = PUBLIC_TAG_LABELS[tag];
+    if (label) labels.add(label);
+  });
+
+  const text = paperText(paper);
+  TAG_INFERENCE_RULES.forEach((rule) => {
+    if (rule.terms.some((term) => text.includes(term))) {
+      labels.add(rule.label);
+    }
+  });
+
+  if ((paper.tags || []).includes("auditory physiology")) {
+    labels.add("Auditory Neuroscience");
+  }
+  return [...labels].sort((left, right) => left.localeCompare(right));
+}
+
+function paperText(paper) {
+  return [
+    paper.title,
+    paper.abstract,
+    paper.section,
+    ...(paper.keywords || []),
+    ...(paper.tags || []),
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+}
+
+function isJasaSectionHighlight(paper) {
+  return JASA_JOURNALS.has(paper.journal) && JASA_SECTION_HIGHLIGHTS.has(paper.section);
 }
 
 function isEarlyAccess(paper) {
   return paper.publication_stage === "early_access" || paper.is_early_access === true;
 }
 
-function isNonPriorityJasaPaper(paper) {
-  return JASA_JOURNALS.has(paper.journal) && !isPriority(paper);
+function isOtherJasaSectionPaper(paper) {
+  return JASA_JOURNALS.has(paper.journal) && !isJasaSectionHighlight(paper);
+}
+
+function sortedPapers(papers) {
+  return [...papers].sort(comparePaperDates);
+}
+
+function comparePaperDates(left, right) {
+  const leftDate = Date.parse(`${left.publication_date || ""}T00:00:00`);
+  const rightDate = Date.parse(`${right.publication_date || ""}T00:00:00`);
+  const safeLeft = Number.isNaN(leftDate) ? 0 : leftDate;
+  const safeRight = Number.isNaN(rightDate) ? 0 : rightDate;
+  if (safeRight !== safeLeft) return safeRight - safeLeft;
+  return String(left.title || "").localeCompare(String(right.title || ""));
+}
+
+function papersInLatestWindow(papers, days) {
+  const latest = maxPaperDate(papers);
+  if (!latest) return [];
+  const start = addDays(latest, -(days - 1));
+  return papers.filter((paper) => {
+    const date = parsePaperDate(paper.publication_date);
+    return date && date >= start && date <= latest;
+  });
+}
+
+function maxPaperDate(papers) {
+  const dates = papers.map((paper) => parsePaperDate(paper.publication_date)).filter(Boolean);
+  if (!dates.length) return null;
+  return new Date(Math.max(...dates.map((date) => date.getTime())));
+}
+
+function parsePaperDate(dateString) {
+  const date = new Date(`${dateString || ""}T00:00:00`);
+  return Number.isNaN(date.valueOf()) ? null : date;
+}
+
+function addDays(date, days) {
+  const next = new Date(date);
+  next.setDate(next.getDate() + days);
+  return next;
+}
+
+function toDateString(date) {
+  return date.toISOString().slice(0, 10);
+}
+
+function topTagCounts(papers, limit) {
+  return countValues(papers.flatMap(publicPaperTags)).slice(0, limit);
+}
+
+function countValues(values) {
+  const counts = new Map();
+  values.filter(Boolean).forEach((value) => {
+    counts.set(value, (counts.get(value) || 0) + 1);
+  });
+  return [...counts.entries()].sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]));
 }
 
 function unique(values) {
