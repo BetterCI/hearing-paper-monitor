@@ -705,6 +705,99 @@ select:focus {
   line-height: 1.45;
 }
 
+.ai-analysis-footer {
+  margin: 4px 0 0;
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.methodology-flow {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.methodology-flow::-webkit-scrollbar {
+  height: 4px;
+}
+.methodology-flow::-webkit-scrollbar-track {
+  background: var(--soft);
+  border-radius: 2px;
+}
+.methodology-flow::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border-radius: 2px;
+}
+
+.methodology-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  min-width: 80px;
+  max-width: 120px;
+  flex-shrink: 0;
+}
+
+.step-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.step-label {
+  font-size: 0.68rem;
+  color: var(--muted);
+  text-align: center;
+  line-height: 1.2;
+  max-width: 100px;
+  word-break: break-word;
+}
+
+.step-arrow {
+  color: var(--line);
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  padding: 0 4px;
+}
+
+.generate-analysis-btn {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  padding: 8px 16px;
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, opacity 0.15s;
+}
+
+.generate-analysis-btn:hover:not(:disabled) {
+  background: var(--accent-dark);
+}
+
+.generate-analysis-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
 .chips {
   display: flex;
   flex-wrap: wrap;
