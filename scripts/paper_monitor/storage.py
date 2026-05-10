@@ -21,6 +21,7 @@ CREATE TABLE IF NOT EXISTS papers (
     full_text_url TEXT,
     abstract TEXT,
     abstract_zh TEXT,
+    ai_analysis TEXT,
     first_author_affiliation TEXT,
     publication_stage TEXT,
     key_image_url TEXT,
@@ -40,6 +41,7 @@ CREATE UNIQUE INDEX IF NOT EXISTS idx_papers_doi ON papers(doi) WHERE doi IS NOT
 MIGRATIONS = [
     "ALTER TABLE papers ADD COLUMN title_zh TEXT",
     "ALTER TABLE papers ADD COLUMN abstract_zh TEXT",
+    "ALTER TABLE papers ADD COLUMN ai_analysis TEXT",
     "ALTER TABLE papers ADD COLUMN first_author_affiliation TEXT",
     "ALTER TABLE papers ADD COLUMN full_text_url TEXT",
     "ALTER TABLE papers ADD COLUMN publication_stage TEXT",
@@ -69,13 +71,14 @@ def import_json(conn: sqlite3.Connection, input_path: Path) -> int:
             """
             INSERT INTO papers (
                 id, title, title_zh, authors, journal, publication_date, doi, url, full_text_url,
-                abstract, abstract_zh, first_author_affiliation, publication_stage, key_image_url,
-                key_image_alt, key_formula, section, keywords, tags, source, updated_at
+                abstract, abstract_zh, ai_analysis, first_author_affiliation, publication_stage,
+                key_image_url, key_image_alt, key_formula, section, keywords, tags, source, updated_at
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
             ON CONFLICT(id) DO UPDATE SET
                 title_zh=COALESCE(papers.title_zh, excluded.title_zh),
                 abstract_zh=COALESCE(papers.abstract_zh, excluded.abstract_zh),
+                ai_analysis=COALESCE(excluded.ai_analysis, papers.ai_analysis),
                 first_author_affiliation=COALESCE(papers.first_author_affiliation, excluded.first_author_affiliation),
                 publication_stage=COALESCE(excluded.publication_stage, papers.publication_stage),
                 full_text_url=COALESCE(papers.full_text_url, excluded.full_text_url),
@@ -96,6 +99,7 @@ def import_json(conn: sqlite3.Connection, input_path: Path) -> int:
                 item.get("full_text_url") or item.get("fullTextUrl") or item.get("html_url"),
                 item.get("abstract"),
                 item.get("abstract_zh") or item.get("chinese_abstract"),
+                _json_or_none(item.get("ai_analysis")),
                 item.get("first_author_affiliation"),
                 item.get("publication_stage") or ("early_access" if item.get("is_early_access") else None),
                 item.get("key_image_url"),
@@ -134,6 +138,7 @@ def upsert_papers(conn: sqlite3.Connection, papers: list[Paper]) -> int:
                 abstract=COALESCE(excluded.abstract, papers.abstract),
                 title_zh=papers.title_zh,
                 abstract_zh=papers.abstract_zh,
+                ai_analysis=papers.ai_analysis,
                 first_author_affiliation=COALESCE(excluded.first_author_affiliation, papers.first_author_affiliation),
                 publication_stage=excluded.publication_stage,
                 full_text_url=papers.full_text_url,
@@ -172,7 +177,7 @@ def all_papers(conn: sqlite3.Connection) -> list[dict]:
     rows = conn.execute(
         """
         SELECT title, title_zh, authors, journal, publication_date, doi, url,
-               full_text_url, abstract, abstract_zh, first_author_affiliation,
+               full_text_url, abstract, abstract_zh, ai_analysis, first_author_affiliation,
                publication_stage, key_image_url, key_image_alt, key_formula,
                section, keywords, tags, source
         FROM papers
@@ -190,6 +195,7 @@ def all_papers(conn: sqlite3.Connection) -> list[dict]:
         "full_text_url",
         "abstract",
         "abstract_zh",
+        "ai_analysis",
         "first_author_affiliation",
         "publication_stage",
         "key_image_url",
@@ -206,10 +212,13 @@ def all_papers(conn: sqlite3.Connection) -> list[dict]:
         item["authors"] = json.loads(item["authors"])
         item["keywords"] = json.loads(item["keywords"])
         item["tags"] = json.loads(item["tags"])
+        item["ai_analysis"] = json.loads(item["ai_analysis"]) if item.get("ai_analysis") else None
         if not item.get("title_zh"):
             item.pop("title_zh", None)
         if not item.get("abstract_zh"):
             item.pop("abstract_zh", None)
+        if not item.get("ai_analysis"):
+            item.pop("ai_analysis", None)
         if not item.get("first_author_affiliation"):
             item.pop("first_author_affiliation", None)
         if not item.get("publication_stage"):
@@ -258,3 +267,7 @@ def _fallback_identity(item: dict) -> str:
     title = " ".join((item.get("title") or "").lower().split())
     journal = normalize_journal_name(item.get("journal")).lower()
     return f"title:{title}|date:{item.get('publication_date') or ''}|journal:{journal}"
+
+
+def _json_or_none(value) -> str | None:
+    return json.dumps(value, ensure_ascii=False) if value else None

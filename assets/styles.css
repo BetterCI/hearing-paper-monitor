@@ -372,6 +372,44 @@ select:focus {
   font-weight: 800;
 }
 
+.ai-analysis {
+  display: grid;
+  gap: 8px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfdfd;
+  box-shadow: inset 4px 0 0 var(--journal-color);
+}
+
+.ai-analysis h3 {
+  margin: 0;
+  color: var(--journal-color);
+  font-size: 0.82rem;
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
+.ai-analysis dl {
+  display: grid;
+  grid-template-columns: minmax(130px, max-content) minmax(0, 1fr);
+  gap: 6px 12px;
+  margin: 0;
+}
+
+.ai-analysis dt {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.ai-analysis dd {
+  margin: 0;
+  color: #263a41;
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
 .chips {
   display: flex;
   flex-wrap: wrap;
@@ -448,4 +486,11 @@ select:focus {
     grid-template-columns: 1fr;
   }
 
+  .ai-analysis dl {
+    grid-template-columns: 1fr;
+  }
+
+  .ai-analysis dd + dt {
+    margin-top: 6px;
+  }
 }

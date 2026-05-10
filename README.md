@@ -101,6 +101,33 @@ Run locally:
 python scripts/translate_zh.py
 ```
 
+## MiniMax Abstract Analysis
+
+The dashboard can display optional AI-generated abstract analysis with three fields:
+
+- scientific question
+- key highlight
+- main limitation
+
+The analysis is generated server-side and stored in `data/papers.json` as `ai_analysis`; the browser never sees the MiniMax API key.
+
+To enable it in GitHub Actions, add this repository secret:
+
+- `MINIMAX_API_KEY`
+
+Optional settings:
+
+- `MINIMAX_API_BASE`: defaults to `https://api.minimaxi.com/v1`. Set to `https://api.minimax.io/v1` if your account uses the international endpoint.
+- `MINIMAX_MODEL`: defaults to `MiniMax-M2.7`.
+- Repository variable `MINIMAX_ANALYSIS_LANGUAGE`: defaults to `en`; set to `zh` for Chinese analysis text.
+
+Run locally:
+
+```powershell
+$env:MINIMAX_API_KEY="your-key"
+python scripts/analyze_with_minimax.py --limit 10
+```
+
 ## GitHub Pages
 
 The workflow in `.github/workflows/update-papers.yml` runs daily, commits refreshed `data/papers.json`, and can publish the static dashboard through GitHub Pages if Pages is enabled for the repository.

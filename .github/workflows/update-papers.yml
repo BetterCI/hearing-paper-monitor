@@ -60,6 +60,15 @@ jobs:
           LIBRETRANSLATE_API_KEY: ${{ secrets.LIBRETRANSLATE_API_KEY }}
         run: python scripts/translate_zh.py
 
+      - name: Analyze abstracts with MiniMax
+        continue-on-error: true
+        env:
+          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+          MINIMAX_API_BASE: ${{ secrets.MINIMAX_API_BASE }}
+          MINIMAX_MODEL: ${{ secrets.MINIMAX_MODEL }}
+          MINIMAX_ANALYSIS_LANGUAGE: ${{ vars.MINIMAX_ANALYSIS_LANGUAGE }}
+        run: python scripts/analyze_with_minimax.py --limit 40
+
       - name: Commit refreshed data
         uses: stefanzweifel/git-auto-commit-action@v7
         with:

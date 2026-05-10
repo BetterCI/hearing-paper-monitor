@@ -339,6 +339,7 @@ function matchesFilters(paper) {
     paper.chinese_abstract,
     paper.section,
     paper.publication_stage,
+    ...analysisSearchTerms(paper),
     (paper.keywords || []).join(" "),
     (paper.tags || []).join(" "),
   ]
@@ -424,6 +425,11 @@ function renderPaper(paper) {
   const abstractText = displayAbstract(paper);
   if (abstractText) {
     article.appendChild(renderAbstract(abstractText));
+  }
+
+  const aiAnalysis = renderAiAnalysis(paper);
+  if (aiAnalysis) {
+    article.appendChild(aiAnalysis);
   }
 
   const media = renderKeyMedia(paper);
@@ -542,6 +548,53 @@ function renderKeyMedia(paper) {
   }
 
   return media;
+}
+
+function renderAiAnalysis(paper) {
+  const analysis = getAiAnalysis(paper);
+  if (!analysis) return null;
+
+  const wrapper = document.createElement("section");
+  wrapper.className = "ai-analysis";
+  wrapper.setAttribute("aria-label", "MiniMax abstract analysis");
+
+  const title = document.createElement("h3");
+  title.textContent = "MiniMax abstract analysis";
+
+  const list = document.createElement("dl");
+  [
+    ["Scientific question", analysis.scientific_question],
+    ["Highlight", analysis.key_highlight],
+    ["Limitation", analysis.main_limitation],
+  ].forEach(([label, value]) => {
+    if (!value) return;
+    const term = document.createElement("dt");
+    term.textContent = label;
+    const detail = document.createElement("dd");
+    detail.textContent = value;
+    markTranslatable(detail, value);
+    list.append(term, detail);
+  });
+
+  wrapper.append(title, list);
+  return list.children.length ? wrapper : null;
+}
+
+function getAiAnalysis(paper) {
+  const analysis = paper.ai_analysis || paper.analysis;
+  if (!analysis) return null;
+  const values = {
+    scientific_question: analysis.scientific_question || analysis.scientificQuestion,
+    key_highlight: analysis.key_highlight || analysis.keyHighlight || analysis.highlight,
+    main_limitation: analysis.main_limitation || analysis.mainLimitation || analysis.limitation,
+  };
+  return Object.values(values).some(Boolean) ? values : null;
+}
+
+function analysisSearchTerms(paper) {
+  const analysis = getAiAnalysis(paper);
+  if (!analysis) return [];
+  return [analysis.scientific_question, analysis.key_highlight, analysis.main_limitation].filter(Boolean);
 }
 
 function doiUrl(doi) {

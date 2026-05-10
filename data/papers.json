@@ -56,7 +56,17 @@
       "tags": [
         "psychoacoustics"
       ],
-      "source": "crossref+pubmed"
+      "source": "crossref+pubmed",
+      "ai_analysis": {
+        "scientific_question": "Does multisensory (audio-visual) training improve pitch contour perception more effectively than unisensory (auditory-only) training in individuals with congenital amusia and matched controls?",
+        "key_highlight": "Both amusic and control participants showed improved accuracy and reaction times after training, with the largest improvements in those with the worst initial performance, though direct comparison showed only weak evidence for superiority of multisensory over unisensory training.",
+        "main_limitation": "The abstract does not state the sample size, duration of follow-up beyond the training sessions, or whether improvements are maintained over time.",
+        "provider": "minimax",
+        "model": "MiniMax-M2",
+        "language": "en",
+        "abstract_hash": "91dc96dcef30b1b3",
+        "updated_at": "2026-05-10T03:27:57Z"
+      }
     },
     {
       "title": "A method to record drilling noise during skull surgery for the development of noise-reducing assistance systems",
