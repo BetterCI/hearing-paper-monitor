@@ -194,34 +194,6 @@ h1 {
   white-space: nowrap;
 }
 
-.status-actions {
-  display: flex;
-  gap: 8px;
-  margin-top: 6px;
-}
-
-.status-actions button,
-.status-actions a {
-  display: inline-flex;
-  align-items: center;
-  min-height: 32px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: 6px 10px;
-  color: var(--accent-dark);
-  background: var(--surface);
-  font: inherit;
-  font-size: 0.84rem;
-  font-weight: 700;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.status-actions button:disabled {
-  cursor: progress;
-  opacity: 0.7;
-}
-
 main {
   width: min(1440px, 100%);
   margin: 0 auto;
@@ -243,6 +215,19 @@ label {
   font-weight: 600;
   line-height: 1.25;
   white-space: normal;
+}
+
+.header-language {
+  align-items: end;
+  gap: 4px;
+  margin-top: 8px;
+  text-align: right;
+}
+
+.header-language select {
+  min-width: 150px;
+  padding: 6px 8px;
+  font-size: 0.82rem;
 }
 
 .toggle-control {

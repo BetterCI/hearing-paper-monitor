@@ -219,7 +219,6 @@ const els = {
   showOtherJasaSections: document.querySelector("#showOtherJasaSections"),
   paperCount: document.querySelector("#paperCount"),
   generatedAt: document.querySelector("#generatedAt"),
-  refreshData: document.querySelector("#refreshData"),
   sourceInfoToggle: document.querySelector("#sourceInfoToggle"),
   sourceInfoDialog: document.querySelector("#sourceInfoDialog"),
   sourceInfoClose: document.querySelector("#sourceInfoClose"),
@@ -255,6 +254,7 @@ function detectPreferredTargetLanguage() {
 async function init() {
   await loadData();
   populateFilters();
+  addLanguageControl();
   bindFilters();
   startBunnyMotions();
   render();
@@ -276,11 +276,12 @@ async function loadData() {
 }
 
 function addLanguageControl() {
-  const controls = document.querySelector(".controls");
+  const controls = document.querySelector(".status");
+  if (!controls) return;
   const label = document.createElement("label");
-  label.className = "browser-translate";
+  label.className = "browser-translate header-language";
   label.innerHTML = `
-    <span>Browser Translate</span>
+    <span>Language</span>
     <select id="languageFilter">
     </select>
     <small id="translationStatus" class="translate-status">Original English</small>
@@ -322,15 +323,6 @@ function bindFilters() {
   els.showOtherJasaSections.addEventListener("change", () => {
     state.filters.showOtherJasaSections = els.showOtherJasaSections.checked;
     render();
-  });
-  els.refreshData.addEventListener("click", async () => {
-    els.refreshData.disabled = true;
-    setTranslatableText(els.refreshData, "Refreshing...");
-    await loadData();
-    populateFilters();
-    render();
-    setTranslatableText(els.refreshData, "Refresh");
-    els.refreshData.disabled = false;
   });
   els.language?.addEventListener("change", () => {
     state.targetLanguage = els.language.value;
@@ -1514,8 +1506,6 @@ function markStaticUiForTranslation() {
         "h1",
         ".subtitle-text",
         ".controls label > span",
-        ".status-actions button",
-        ".status-actions a",
         ".source-info-dialog h2",
         ".source-info-dialog p",
         ".source-info-dialog li span",
