@@ -556,10 +556,10 @@ function renderAiAnalysis(paper) {
 
   const wrapper = document.createElement("section");
   wrapper.className = "ai-analysis";
-  wrapper.setAttribute("aria-label", "MiniMax abstract analysis");
+  wrapper.setAttribute("aria-label", "AI-generated abstract analysis");
 
   const title = document.createElement("h3");
-  title.textContent = "MiniMax abstract analysis";
+  title.textContent = "AI-Generated Abstract Analysis";
 
   const list = document.createElement("dl");
   [

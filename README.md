@@ -96,7 +96,7 @@ Run locally:
 python scripts/translate_zh.py
 ```
 
-## MiniMax Abstract Analysis
+## AI-Generated Abstract Analysis
 
 The dashboard can display optional AI-generated abstract analysis with three fields:
 
