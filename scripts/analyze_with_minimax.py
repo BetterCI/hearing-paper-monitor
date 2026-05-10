@@ -134,10 +134,10 @@ Return a compact JSON object with exactly these keys:
 {{
   "scientific_question": "one sentence describing the central scientific question",
   "key_highlight": "one sentence describing the strongest finding or methodological highlight",
-  "main_limitation": "one sentence describing the main limitation or uncertainty; use 'Not stated in the abstract' if the abstract does not support a limitation"
+  "main_limitation": "one sentence describing the main limitation or uncertainty inferred from the study design, sample, or methodology; if nothing substantial can be inferred, write 'Limited generalizability due to small or specific sample' or 'Potential confounding factors not fully controlled' based on typical study weaknesses"
 }}
 
-Write the values in {target}. Avoid hype. Do not mention PDFs. Do not invent sample sizes, methods, or conclusions.
+Write the values in {target}. Avoid hype. Do not mention PDFs. Do not invent sample sizes, methods, or conclusions. Infer limitations only from what is present in the abstract or commonly implied by the study design.
 
 Title: {paper.get("title") or ""}
 Journal: {paper.get("journal") or ""}
