@@ -1,3 +1,5 @@
+import pytest
+
 from scripts.analyze_with_minimax import parse_json_object, should_analyze, validate_analysis
 
 
@@ -21,6 +23,8 @@ def test_validate_analysis_requires_all_fields():
             "scientific_question": " Question? ",
             "key_highlight": " Main result. ",
             "main_limitation": " Not stated in the abstract. ",
+            "methodology_steps": " Step one ; step two ",
+            "research_implication": " Useful implication. ",
         }
     )
 
@@ -28,7 +32,19 @@ def test_validate_analysis_requires_all_fields():
         "scientific_question": "Question?",
         "key_highlight": "Main result.",
         "main_limitation": "Not stated in the abstract.",
+        "methodology_steps": "Step one ; step two",
+        "research_implication": "Useful implication.",
     }
+
+    with pytest.raises(ValueError, match="missing research_implication"):
+        validate_analysis(
+            {
+                "scientific_question": "Question?",
+                "key_highlight": "Main result.",
+                "main_limitation": "Not stated in the abstract.",
+                "methodology_steps": "Step one; step two",
+            }
+        )
 
 
 def test_should_analyze_skips_any_complete_cached_analysis():
@@ -44,6 +60,8 @@ def test_should_analyze_skips_any_complete_cached_analysis():
         "scientific_question": "Question",
         "key_highlight": "Highlight",
         "main_limitation": "Limitation",
+        "methodology_steps": "Recruit listeners; Measure thresholds; Compare groups",
+        "research_implication": "Implication",
         "abstract_hash": "older-hash",
     }
     assert not should_analyze(paper, refresh=False)

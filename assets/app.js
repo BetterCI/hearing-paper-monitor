@@ -18,6 +18,15 @@ const state = {
 const EARLY_ACCESS_MONTH = "__early_access";
 const HIGH_IMPACT_LABEL = "High-impact Journals";
 
+const NON_RESEARCH_TITLE_PATTERNS = [
+  /^editorial board\b/i,
+  /^erratum\b/i,
+  /^corrigendum\b/i,
+  /^correction\b/i,
+  /^publisher correction\b/i,
+  /^reviews of acoustical patents\b/i,
+];
+
 const LANGUAGE_OPTIONS = [
   ["zh", "简体中文"],
   ["zh-Hant", "繁體中文"],
@@ -523,10 +532,11 @@ function clamp(value, min, max) {
 }
 
 function populateFilters() {
-  fillSelect(els.journal, orderedSourceFilters(state.papers.map(sourceFilterValue)));
-  fillSelect(els.section, unique(state.papers.map((paper) => paper.section).filter(Boolean)));
-  fillTagSelect();
-  populateMonthFilter();
+  const papers = dashboardPapers();
+  fillSelect(els.journal, orderedSourceFilters(papers.map(sourceFilterValue)));
+  fillSelect(els.section, unique(papers.map((paper) => paper.section).filter(Boolean)));
+  fillTagSelect(papers);
+  populateMonthFilter(papers);
 }
 
 function fillSelect(select, values) {
@@ -541,11 +551,11 @@ function fillSelect(select, values) {
   });
 }
 
-function fillTagSelect() {
+function fillTagSelect(papers = state.papers) {
   const first = els.tag.options[0];
   els.tag.replaceChildren(first);
   markTranslatable(first, first.dataset.sourceText || first.textContent);
-  unique(state.papers.flatMap(publicPaperTags)).forEach((label) => {
+  unique(papers.flatMap(publicPaperTags)).forEach((label) => {
     const option = document.createElement("option");
     option.value = label;
     option.textContent = label;
@@ -556,11 +566,12 @@ function fillTagSelect() {
 
 function render() {
   try {
-    const papers = state.papers.filter(matchesFilters);
+    const sourcePapers = dashboardPapers();
+    const papers = sourcePapers.filter(matchesFilters);
     setTranslatableText(els.paperCount, `${papers.length} ${papers.length === 1 ? "paper" : "papers"}`);
 
-    renderRecentOverview();
-    renderWeeklyDigest();
+    renderRecentOverview(sourcePapers);
+    renderWeeklyDigest(sourcePapers);
     els.papers.replaceChildren(...papers.map(renderPaper));
     els.empty.hidden = papers.length > 0;
     markStaticUiForTranslation();
@@ -572,9 +583,9 @@ function render() {
   }
 }
 
-function populateMonthFilter() {
-  const months = unique(state.papers.map(getPaperMonth).filter(Boolean)).sort().reverse();
-  const hasEarlyAccess = state.papers.some(isEarlyAccess);
+function populateMonthFilter(papers = state.papers) {
+  const months = unique(papers.map(getPaperMonth).filter(Boolean)).sort().reverse();
+  const hasEarlyAccess = papers.some(isEarlyAccess);
   const options = hasEarlyAccess ? [...months, EARLY_ACCESS_MONTH] : months;
   els.month.replaceChildren();
   months.forEach((month) => {
@@ -679,6 +690,9 @@ function renderPaper(paper) {
   if (isEarlyAccess(paper)) {
     meta.appendChild(renderStageBadge("Early access"));
   }
+  if (isHighImpactPaper(paper) && paper.match_level) {
+    meta.appendChild(renderHighImpactMatchBadge(paper));
+  }
   if (paper.doi) {
     meta.appendChild(renderMetaLink(`DOI`, doiUrl(paper.doi)));
   }
@@ -717,6 +731,13 @@ function renderPaper(paper) {
     sourceChip.textContent = HIGH_IMPACT_LABEL;
     markTranslatable(sourceChip, HIGH_IMPACT_LABEL);
     chips.appendChild(sourceChip);
+    if (paper.needs_review) {
+      const reviewChip = document.createElement("span");
+      reviewChip.className = "chip review-chip";
+      reviewChip.textContent = "Needs review";
+      markTranslatable(reviewChip, "Needs review");
+      chips.appendChild(reviewChip);
+    }
   }
   publicPaperTags(paper).forEach((tag) => {
     const chip = document.createElement("span");
@@ -729,25 +750,25 @@ function renderPaper(paper) {
   return article;
 }
 
-function renderRecentOverview() {
-  const sorted = sortedPapers(state.papers);
+function renderRecentOverview(papers = state.papers) {
+  const sorted = sortedPapers(papers);
   renderCompactPaperList(els.latestUpdates, sorted.slice(0, 5), { featureFirst: true });
 
   const highlights = sorted.filter(isJasaSectionHighlight).slice(0, 6);
   renderCompactPaperList(els.sectionHighlights, highlights, { showSection: true });
 
-  const recentWindow = papersInLatestWindow(state.papers, 30);
+  const recentWindow = papersInLatestWindow(papers, 30);
   const overviewSource = recentWindow.length >= 8 ? recentWindow : sorted.slice(0, 30);
   renderTopicList(els.trendingTopics, topTagCounts(overviewSource, 8));
 
-  const selectedSource = papersInLatestWindow(state.papers, 7);
+  const selectedSource = papersInLatestWindow(papers, 7);
   renderCompactPaperList(els.selectedRecentPapers, selectRecentPapers(selectedSource, 6), { showTags: true });
 }
 
-function renderWeeklyDigest() {
-  const weekly = papersInLatestWindow(state.papers, 7);
+function renderWeeklyDigest(papers = state.papers) {
+  const weekly = papersInLatestWindow(papers, 7);
   const sortedWeekly = sortedPapers(weekly);
-  const latestDate = maxPaperDate(state.papers);
+  const latestDate = maxPaperDate(papers);
   const startDate = latestDate ? addDays(latestDate, -6) : null;
 
   if (els.weeklyDigestWindow) els.weeklyDigestWindow.textContent = startDate && latestDate ? `${formatDate(toDateString(startDate))} - ${formatDate(toDateString(latestDate))}` : "No dated papers available";
@@ -988,6 +1009,17 @@ function renderStageBadge(text) {
   span.className = "stage-badge";
   span.textContent = text;
   markTranslatable(span, text);
+  return span;
+}
+
+function renderHighImpactMatchBadge(paper) {
+  const span = document.createElement("span");
+  const needsReview = paper.needs_review === true;
+  span.className = needsReview ? "match-badge needs-review" : "match-badge";
+  span.textContent = needsReview ? "Needs review" : "Strict keyword match";
+  const keywords = (paper.matched_keywords || []).join(", ");
+  if (keywords) span.title = `Matched keywords: ${keywords}`;
+  markTranslatable(span, span.textContent);
   return span;
 }
 
@@ -1624,6 +1656,15 @@ function publicPaperTags(paper) {
   return [...labels].sort((left, right) => left.localeCompare(right));
 }
 
+function dashboardPapers() {
+  return state.papers.filter((paper) => !isNonResearchItem(paper));
+}
+
+function isNonResearchItem(paper) {
+  const title = String(paper.title || "").trim();
+  return NON_RESEARCH_TITLE_PATTERNS.some((pattern) => pattern.test(title));
+}
+
 function paperText(paper) {
   return [
     paper.title,
@@ -1688,7 +1729,7 @@ function maxPaperDate(papers) {
 }
 
 function effectiveDate(paper) {
-  if (isEarlyAccess(paper) && paper.available_online_date) {
+  if ((isEarlyAccess(paper) || isFutureDate(paper.publication_date)) && paper.available_online_date) {
     return paper.available_online_date;
   }
   return paper.publication_date;
@@ -1702,6 +1743,11 @@ function parsePaperDate(dateString) {
 function currentLocalDate() {
   const now = new Date();
   return new Date(now.getFullYear(), now.getMonth(), now.getDate());
+}
+
+function isFutureDate(dateString) {
+  const date = parsePaperDate(dateString);
+  return Boolean(date && date > currentLocalDate());
 }
 
 function addDays(date, days) {
@@ -1740,7 +1786,7 @@ function withinDays(dateString, days) {
 
 function getPaperMonth(paper) {
   let dateString = paper.publication_date || "";
-  if (isEarlyAccess(paper) && paper.available_online_date) {
+  if ((isEarlyAccess(paper) || isFutureDate(paper.publication_date)) && paper.available_online_date) {
     dateString = paper.available_online_date;
   }
   return /^\d{4}-\d{2}/.test(dateString) ? dateString.slice(0, 7) : "";
@@ -1759,7 +1805,7 @@ function formatDate(dateString) {
 }
 
 function displayDate(paper) {
-  if (isEarlyAccess(paper) && paper.available_online_date) {
+  if ((isEarlyAccess(paper) || isFutureDate(paper.publication_date)) && paper.available_online_date) {
     return `${formatDate(paper.available_online_date)} (online)`;
   }
   return formatDate(paper.publication_date);

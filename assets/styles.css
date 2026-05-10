@@ -697,6 +697,22 @@ select:focus {
   font-weight: 900;
 }
 
+.match-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 2px 8px;
+  color: #6f4a0d;
+  background: #fff2cf;
+  font-weight: 900;
+}
+
+.match-badge.needs-review,
+.review-chip {
+  color: #7c2d12;
+  background: #ffedd5;
+}
+
 .code-link {
   display: inline-flex;
   align-items: center;
