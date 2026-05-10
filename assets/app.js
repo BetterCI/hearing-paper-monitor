@@ -481,7 +481,7 @@ function renderPaper(paper) {
 
   const abstractText = displayAbstract(paper);
   if (abstractText) {
-    article.appendChild(renderAbstract(abstractText));
+    article.appendChild(renderAbstract(paper));
   }
 
   const aiAnalysis = renderAiAnalysis(paper);
@@ -1041,9 +1041,64 @@ function isSpeechOrHearingRelated(paper) {
   return RELEVANT_TERMS.some((term) => text.includes(term));
 }
 
-function renderAbstract(text) {
+function isEarAndHearing(paper) {
+  return paper.journal === "Ear and Hearing";
+}
+
+function parseStructuredAbstract(abstract) {
+  const sections = [];
+  const lines = abstract.split(/\n/);
+  let currentSection = null;
+  let currentContent = [];
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+
+    const sectionMatch = trimmed.match(/^(Objectives?|Design|Results?|Conclusions?)\s*[:\.]?\s*/i);
+    if (sectionMatch) {
+      if (currentSection) {
+        sections.push({ section: currentSection, content: currentContent.join(" ").trim() });
+      }
+      currentSection = sectionMatch[1];
+      currentContent = [trimmed.slice(sectionMatch[0].length)];
+    } else if (currentSection) {
+      currentContent.push(trimmed);
+    }
+  }
+
+  if (currentSection) {
+    sections.push({ section: currentSection, content: currentContent.join(" ").trim() });
+  }
+
+  return sections;
+}
+
+function renderAbstract(paper) {
   const wrapper = document.createElement("div");
   wrapper.className = "abstract";
+  const text = displayAbstract(paper);
+
+  if (isEarAndHearing(paper)) {
+    const sections = parseStructuredAbstract(text);
+    if (sections.length >= 3) {
+      wrapper.classList.add("structured-abstract");
+      sections.forEach(({ section, content }) => {
+        const sectionEl = document.createElement("div");
+        sectionEl.className = "abstract-section";
+        const heading = document.createElement("h4");
+        heading.className = "abstract-section-title";
+        heading.textContent = section;
+        const contentEl = document.createElement("p");
+        contentEl.className = "abstract-section-content";
+        appendHighlightedParagraph(contentEl, content);
+        sectionEl.append(heading, contentEl);
+        wrapper.appendChild(sectionEl);
+      });
+      return wrapper;
+    }
+  }
+
   splitParagraphs(text).forEach((paragraph) => {
     const paragraphElement = document.createElement("p");
     appendHighlightedParagraph(paragraphElement, paragraph);

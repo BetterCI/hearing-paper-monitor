@@ -677,6 +677,43 @@ select:focus {
   box-shadow: inset 4px 0 0 var(--journal-color);
 }
 
+.structured-abstract {
+  display: grid;
+  gap: 12px;
+}
+
+.abstract-section {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 8px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.abstract-section:last-child {
+  border-bottom: none;
+}
+
+.abstract-section-title {
+  margin: 0;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.abstract-section-content {
+  margin: 0;
+  color: #34464d;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.abstract-section-content p {
+  margin: 0;
+}
+
 .ai-analysis h3 {
   margin: 0;
   color: var(--journal-color);
