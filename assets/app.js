@@ -209,6 +209,10 @@ const els = {
   paperCount: document.querySelector("#paperCount"),
   generatedAt: document.querySelector("#generatedAt"),
   refreshData: document.querySelector("#refreshData"),
+  sourceInfoToggle: document.querySelector("#sourceInfoToggle"),
+  sourceInfoDialog: document.querySelector("#sourceInfoDialog"),
+  sourceInfoClose: document.querySelector("#sourceInfoClose"),
+  hearingBunny: document.querySelector("#hearingBunny"),
   translationStatus: null,
   latestUpdates: document.querySelector("#latestUpdates"),
   sectionHighlights: document.querySelector("#sectionHighlights"),
@@ -242,6 +246,7 @@ async function init() {
   populateFilters();
   addLanguageControl();
   bindFilters();
+  startBunnyMotions();
   render();
 }
 
@@ -323,6 +328,152 @@ function bindFilters() {
     state.titleTranslationStatus = "idle";
     render();
   });
+  els.sourceInfoToggle?.addEventListener("click", () => {
+    if (els.sourceInfoDialog?.showModal) {
+      els.sourceInfoDialog.showModal();
+    }
+  });
+  els.sourceInfoClose?.addEventListener("click", () => {
+    els.sourceInfoDialog?.close();
+  });
+  els.sourceInfoDialog?.addEventListener("click", (event) => {
+    const panel = els.sourceInfoDialog.querySelector(".source-info-panel");
+    if (panel && !panel.contains(event.target)) {
+      els.sourceInfoDialog.close();
+    }
+  });
+}
+
+function startBunnyMotions() {
+  if (!els.hearingBunny) return;
+  enableBunnyDrag();
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+  const actions = ["bunny-hop", "bunny-call", "bunny-wink", "bunny-wiggle"];
+  const callouts = ["boop!", "hop!", "listen!", "peek!"];
+  let lastAction = "";
+
+  const runAction = () => {
+    const movedToAbstract = moveBunnyToNextAbstract();
+    const options = actions.filter((action) => action !== lastAction);
+    const action = movedToAbstract ? "bunny-hop" : options[Math.floor(Math.random() * options.length)];
+    lastAction = action;
+    els.hearingBunny.classList.remove(...actions);
+    if (action === "bunny-call") {
+      const callout = els.hearingBunny.querySelector(".bunny-callout");
+      if (callout) callout.textContent = callouts[Math.floor(Math.random() * callouts.length)];
+    }
+    requestAnimationFrame(() => els.hearingBunny.classList.add(action));
+    window.setTimeout(() => els.hearingBunny.classList.remove(action), 1300);
+  };
+
+  window.setTimeout(runAction, 1200);
+  window.setInterval(runAction, 6200);
+  window.addEventListener("scroll", () => queueBunnyMove(), { passive: true });
+  window.addEventListener("resize", () => queueBunnyMove());
+}
+
+function queueBunnyMove() {
+  if (!els.hearingBunny) return;
+  if (state.bunnyManualPosition) return;
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  window.clearTimeout(state.bunnyMoveTimer);
+  state.bunnyMoveTimer = window.setTimeout(() => moveBunnyToNextAbstract(), 220);
+}
+
+function moveBunnyToNextAbstract() {
+  if (state.bunnyManualPosition) return false;
+  if (!els.hearingBunny || window.innerWidth < 980) {
+    parkBunny();
+    return false;
+  }
+
+  const abstracts = [...document.querySelectorAll(".paper.has-abstract .abstract")].filter(isVisibleAbstract);
+  document.querySelectorAll(".paper.bunny-target").forEach((paper) => paper.classList.remove("bunny-target"));
+  if (!abstracts.length) {
+    parkBunny();
+    return false;
+  }
+
+  state.bunnyTargetIndex = ((state.bunnyTargetIndex ?? -1) + 1) % abstracts.length;
+  const abstract = abstracts[state.bunnyTargetIndex];
+  const paper = abstract.closest(".paper");
+  if (!paper) return false;
+
+  const bunnyWidth = els.hearingBunny.offsetWidth || 112;
+  const bunnyHeight = els.hearingBunny.offsetHeight || 128;
+  const paperRect = paper.getBoundingClientRect();
+  const abstractRect = abstract.getBoundingClientRect();
+  const gap = 12;
+  let left = null;
+  if (paperRect.right + gap + bunnyWidth <= window.innerWidth - 8) {
+    left = paperRect.right + gap;
+  } else if (paperRect.left - gap - bunnyWidth >= 8) {
+    left = paperRect.left - gap - bunnyWidth;
+  }
+  if (left === null) {
+    parkBunny();
+    return false;
+  }
+  const top = clamp(abstractRect.top - 8, 8, window.innerHeight - bunnyHeight - 8);
+
+  els.hearingBunny.style.setProperty("--bunny-left", `${Math.round(left)}px`);
+  els.hearingBunny.style.setProperty("--bunny-top", `${Math.round(top)}px`);
+  els.hearingBunny.classList.add("bunny-following-abstract");
+  return true;
+}
+
+function parkBunny() {
+  els.hearingBunny?.classList.remove("bunny-following-abstract");
+}
+
+function enableBunnyDrag() {
+  els.hearingBunny.addEventListener("pointerdown", (event) => {
+    if (event.button !== 0 && event.pointerType === "mouse") return;
+    event.preventDefault();
+    const rect = els.hearingBunny.getBoundingClientRect();
+    state.bunnyManualPosition = true;
+    state.bunnyDragging = {
+      offsetX: event.clientX - rect.left,
+      offsetY: event.clientY - rect.top,
+    };
+    els.hearingBunny.setPointerCapture(event.pointerId);
+    els.hearingBunny.classList.add("bunny-following-abstract", "bunny-dragging");
+    setBunnyPosition(rect.left, rect.top);
+  });
+
+  els.hearingBunny.addEventListener("pointermove", (event) => {
+    if (!state.bunnyDragging) return;
+    const bunnyWidth = els.hearingBunny.offsetWidth || 112;
+    const bunnyHeight = els.hearingBunny.offsetHeight || 128;
+    setBunnyPosition(
+      clamp(event.clientX - state.bunnyDragging.offsetX, 8, window.innerWidth - bunnyWidth - 8),
+      clamp(event.clientY - state.bunnyDragging.offsetY, 8, window.innerHeight - bunnyHeight - 8)
+    );
+  });
+
+  const stopDragging = (event) => {
+    if (!state.bunnyDragging) return;
+    state.bunnyDragging = null;
+    els.hearingBunny.releasePointerCapture?.(event.pointerId);
+    els.hearingBunny.classList.remove("bunny-dragging");
+  };
+  els.hearingBunny.addEventListener("pointerup", stopDragging);
+  els.hearingBunny.addEventListener("pointercancel", stopDragging);
+}
+
+function setBunnyPosition(left, top) {
+  els.hearingBunny.style.setProperty("--bunny-left", `${Math.round(left)}px`);
+  els.hearingBunny.style.setProperty("--bunny-top", `${Math.round(top)}px`);
+}
+
+function isVisibleAbstract(element) {
+  const rect = element.getBoundingClientRect();
+  return rect.bottom > 100 && rect.top < window.innerHeight - 100;
+}
+
+function clamp(value, min, max) {
+  return Math.min(Math.max(value, min), max);
 }
 
 function populateFilters() {
@@ -369,6 +520,7 @@ function render() {
     markStaticUiForTranslation();
     translateVisibleTitles(papers);
     translateRenderedPage();
+    queueBunnyMove();
   } catch (e) {
     console.error("Render error:", e);
   }
@@ -436,11 +588,13 @@ function renderPaper(paper) {
   const article = document.createElement("article");
   const related = isSpeechOrHearingRelated(paper);
   const jasaOffTopic = JASA_JOURNALS.has(paper.journal) && !related;
+  const abstractText = displayAbstract(paper);
   article.className = [
     "paper",
     related ? "related-paper" : "",
     jasaOffTopic ? "jasa-offtopic" : "",
     isJasaSectionHighlight(paper) ? "section-highlight" : "",
+    abstractText ? "has-abstract" : "",
   ]
     .filter(Boolean)
     .join(" ");
@@ -492,7 +646,6 @@ function renderPaper(paper) {
 
   article.append(heading, meta);
 
-  const abstractText = displayAbstract(paper);
   if (abstractText) {
     article.appendChild(renderAbstract(paper));
   }
@@ -534,7 +687,7 @@ function renderRecentOverview() {
   const sorted = sortedPapers(state.papers);
   renderCompactPaperList(els.latestUpdates, sorted.slice(0, 5), { featureFirst: true });
 
-  const highlights = sorted.filter(isJasaSectionHighlight).slice(0, 4);
+  const highlights = sorted.filter(isJasaSectionHighlight).slice(0, 6);
   renderCompactPaperList(els.sectionHighlights, highlights, { showSection: true });
 
   const recentWindow = papersInLatestWindow(state.papers, 30);
@@ -1229,10 +1382,13 @@ function markStaticUiForTranslation() {
     .querySelectorAll(
       [
         "h1",
-        ".subtitle",
+        ".subtitle-text",
         ".controls label > span",
         ".status-actions button",
         ".status-actions a",
+        ".source-info-dialog h2",
+        ".source-info-dialog p",
+        ".source-info-dialog li span",
         ".section-heading h2",
         ".overview-panel h3",
         ".panel-note",
