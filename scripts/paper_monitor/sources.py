@@ -194,6 +194,7 @@ def _paper_from_crossref(item: dict, journal: Journal) -> Paper | None:
     subjects = item.get("subject") or []
     journal_name = normalize_journal_name(_clean((item.get("container-title") or [journal.name])[0]))
     publication_date = _crossref_date(item)
+    available_online_date = _crossref_available_online_date(item)
     return Paper(
         title=_clean(titles[0]),
         authors=_crossref_authors(item.get("author", [])),
@@ -206,6 +207,7 @@ def _paper_from_crossref(item: dict, journal: Journal) -> Paper | None:
         publication_stage=_crossref_publication_stage(item, journal_name, publication_date),
         keywords=subjects,
         source="crossref",
+        available_online_date=available_online_date,
     )
 
 
@@ -297,6 +299,46 @@ def _crossref_date(item: dict) -> str:
             day = parts[2] if len(parts) > 2 else 1
             return dt.date(year, month, day).isoformat()
     return dt.date.today().isoformat()
+
+
+def _crossref_available_online_date(item: dict) -> str | None:
+    date_parts = item.get("published-online", {}).get("date-parts", [])
+    if date_parts and date_parts[0]:
+        parts = date_parts[0]
+        year = parts[0]
+        month = parts[1] if len(parts) > 1 else 1
+        day = parts[2] if len(parts) > 2 else 1
+        return dt.date(year, month, day).isoformat()
+
+    has_online_date = _has_crossref_date(item, "published-online")
+    has_print_date = _has_crossref_date(item, "published-print")
+
+    if not has_online_date:
+        if has_print_date:
+            print_date_parts = item.get("published-print", {}).get("date-parts", [[]])[0]
+            if print_date_parts:
+                print_year = print_date_parts[0]
+                print_month = print_date_parts[1] if len(print_date_parts) > 1 else 1
+                print_day = print_date_parts[2] if len(print_date_parts) > 2 else 1
+                try:
+                    print_date = dt.date(print_year, print_month, print_day)
+                    if print_date > dt.date.today():
+                        created = item.get("created", {}).get("date-time")
+                        if created:
+                            try:
+                                return dt.date.fromisoformat(created[:10]).isoformat()
+                            except ValueError:
+                                pass
+                except ValueError:
+                    pass
+        else:
+            created = item.get("created", {}).get("date-time")
+            if created:
+                try:
+                    return dt.date.fromisoformat(created[:10]).isoformat()
+                except ValueError:
+                    pass
+    return None
 
 
 def _pubmed_date(article: ET.Element) -> str:

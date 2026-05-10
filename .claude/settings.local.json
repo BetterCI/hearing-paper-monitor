@@ -1,10 +1,26 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git config *)",
+      "Bash(git push *)",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git push *)"
+      "Bash(git pull *)",
+      "Bash(git stash *)",
+      "Bash(ping github.com -n 2)",
+      "Bash(git config *)",
+      "Bash(curl -I https://github.com)",
+      "Bash(git remote *)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(ssh -o StrictHostKeyChecking=no -T git@github.com)",
+      "Bash(git rebase *)",
+      "Bash(git checkout *)",
+      "Bash(python scripts/translate_zh.py --text \"Hello world\")",
+      "Bash(python -c \"import json; d=json.load\\(open\\('data/papers.json'\\)\\); p=d['papers'][0] if d['papers'] else {}; print\\('title_zh:', p.get\\('title_zh', 'N/A'\\)\\); print\\('abstract_zh:', p.get\\('abstract_zh', 'N/A'\\)[:100] if p.get\\('abstract_zh'\\) else 'N/A'\\)\")",
+      "Bash(python -c \"import json; d=json.load\\(open\\('data/papers.json', encoding='utf-8'\\)\\); p=d['papers'][0] if d['papers'] else {}; print\\('title_zh:', p.get\\('title_zh', 'N/A'\\)\\); print\\('abstract_zh:', p.get\\('abstract_zh', 'N/A'\\)[:100] if p.get\\('abstract_zh'\\) else 'N/A'\\)\")",
+      "Bash(python -c \"import json; d=json.load\\(open\\('data/papers.json', encoding='utf-8'\\)\\); zh_count=sum\\(1 for p in d['papers'] if p.get\\('title_zh'\\)\\); print\\(f'Papers with Chinese title: {zh_count}/{len\\(d[\\\\\"papers\\\\\"]\\)}'\\)\")",
+      "Bash(python -c \"import json; d=json.load\\(open\\('data/papers.json', encoding='utf-8'\\)\\); hr=[p for p in d['papers'] if p.get\\('journal'\\)=='Hearing Research'][:2]; import json; print\\(json.dumps\\(hr[0] if hr else {}, indent=2\\)\\)\")",
+      "Bash(python -c ' *)",
+      "Bash(python scripts/collect.py --days 60)"
     ]
   }
 }

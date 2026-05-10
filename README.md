@@ -44,6 +44,8 @@ All monitored journals are treated equally at the journal level. For JASA and JA
 - Displays optional Chinese translations when `title_zh` and `abstract_zh` are present in `data/papers.json`.
 - Never downloads or stores PDFs.
 - Links only to official publisher pages, PubMed pages, or DOI pages.
+- Exports each paper as RIS or BibTeX for reference managers such as Zotero, EndNote, Mendeley, and BibTeX workflows.
+- Copies DOI, DOI link, or publisher link directly to clipboard.
 
 ## Quick Start
 
@@ -132,6 +134,20 @@ Run locally:
 $env:MINIMAX_API_KEY="your-key"
 python scripts/analyze_with_minimax.py --limit 10
 ```
+
+## Citation Export
+
+Each paper card on the dashboard has a **Cite / Save** button that generates citation metadata dynamically in the browser:
+
+- **Download RIS** — Downloads a `.ris` file compatible with Zotero, EndNote, Mendeley, and other reference managers.
+- **Download BibTeX** — Downloads a `.bib` file for BibTeX-based workflows.
+- **Copy DOI** — Copies the raw DOI (e.g., `10.1016/j.heares.2026.109633`).
+- **Copy DOI link** — Copies the full DOI URL.
+- **Copy publisher link** — Copies the official publisher URL when available.
+
+Citation keys in BibTeX are derived from the first author's surname, publication year, and a shortened title. Special characters are escaped automatically. AI-generated abstract analysis fields are excluded from RIS/BibTeX exports to keep them focused on bibliographic metadata only.
+
+Options are hidden when the underlying data is not available (e.g., Copy DOI is hidden if the paper has no DOI).
 
 ## GitHub Pages
 

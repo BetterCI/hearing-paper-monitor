@@ -8,7 +8,6 @@ const state = {
     journal: "",
     section: "",
     tag: "",
-    days: "",
     month: "",
     showOtherJasaSections: false,
   },
@@ -52,6 +51,8 @@ const LANGUAGE_OPTIONS = [
   ["uk", "Ukrainian"],
   ["vi", "Vietnamese"],
 ];
+
+const RTL_LANGUAGES = new Set(["ar", "fa", "he", "ur"]);
 
 const JOURNAL_STYLES = {
   "The Journal of the Acoustical Society of America": { color: "#0b6f72", background: "#eef8f7", logo: "JASA", sublogo: "ASA" },
@@ -191,7 +192,6 @@ const els = {
   journal: document.querySelector("#journalFilter"),
   section: document.querySelector("#sectionFilter"),
   tag: document.querySelector("#tagFilter"),
-  date: document.querySelector("#dateFilter"),
   month: document.querySelector("#monthFilter"),
   showOtherJasaSections: document.querySelector("#showOtherJasaSections"),
   paperCount: document.querySelector("#paperCount"),
@@ -241,9 +241,9 @@ async function loadData() {
     state.papers = payload.papers || [];
     state.translatedTitles.clear();
     state.titleTranslationStatus = "idle";
-    els.generatedAt.textContent = payload.generated_at ? `Updated ${formatDateTime(payload.generated_at)}` : "Not yet updated";
+    setTranslatableText(els.generatedAt, payload.generated_at ? `Updated ${formatDateTime(payload.generated_at)}` : "Not yet updated");
   } catch (error) {
-    els.generatedAt.textContent = "No data file found";
+    setTranslatableText(els.generatedAt, "No data file found");
     state.papers = [];
   }
 }
@@ -268,6 +268,7 @@ function addLanguageControl() {
     els.language.appendChild(option);
   });
   els.language.value = state.targetLanguage;
+  markTranslatablePlaceholder(els.search, "Title, author, DOI, abstract...");
 }
 
 function bindFilters() {
@@ -287,10 +288,6 @@ function bindFilters() {
     state.filters.tag = els.tag.value;
     render();
   });
-  els.date.addEventListener("change", () => {
-    state.filters.days = els.date.value;
-    render();
-  });
   els.month.addEventListener("change", () => {
     state.filters.month = els.month.value;
     render();
@@ -301,15 +298,17 @@ function bindFilters() {
   });
   els.refreshData.addEventListener("click", async () => {
     els.refreshData.disabled = true;
-    els.refreshData.textContent = "Refreshing...";
+    setTranslatableText(els.refreshData, "Refreshing...");
     await loadData();
     populateFilters();
     render();
-    els.refreshData.textContent = "Refresh";
+    setTranslatableText(els.refreshData, "Refresh");
     els.refreshData.disabled = false;
   });
   els.language.addEventListener("change", () => {
     state.targetLanguage = els.language.value;
+    state.translatedTitles.clear();
+    state.titleTranslationStatus = "idle";
     render();
   });
 }
@@ -324,6 +323,7 @@ function populateFilters() {
 function fillSelect(select, values) {
   const first = select.options[0];
   select.replaceChildren(first);
+  markTranslatable(first, first.dataset.sourceText || first.textContent);
   values.forEach((value) => {
     const option = document.createElement("option");
     option.value = value;
@@ -335,24 +335,31 @@ function fillSelect(select, values) {
 function fillTagSelect() {
   const first = els.tag.options[0];
   els.tag.replaceChildren(first);
+  markTranslatable(first, first.dataset.sourceText || first.textContent);
   unique(state.papers.flatMap(publicPaperTags)).forEach((label) => {
     const option = document.createElement("option");
     option.value = label;
     option.textContent = label;
+    markTranslatable(option, label);
     els.tag.appendChild(option);
   });
 }
 
 function render() {
-  const papers = state.papers.filter(matchesFilters);
-  els.paperCount.textContent = `${papers.length} ${papers.length === 1 ? "paper" : "papers"}`;
+  try {
+    const papers = state.papers.filter(matchesFilters);
+    setTranslatableText(els.paperCount, `${papers.length} ${papers.length === 1 ? "paper" : "papers"}`);
 
-  renderRecentOverview();
-  renderWeeklyDigest();
-  els.papers.replaceChildren(...papers.map(renderPaper));
-  els.empty.hidden = papers.length > 0;
-  translateVisibleTitles(papers);
-  translateRenderedPapers();
+    renderRecentOverview();
+    renderWeeklyDigest();
+    els.papers.replaceChildren(...papers.map(renderPaper));
+    els.empty.hidden = papers.length > 0;
+    markStaticUiForTranslation();
+    translateVisibleTitles(papers);
+    translateRenderedPage();
+  } catch (e) {
+    console.error("Render error:", e);
+  }
 }
 
 function populateMonthFilter() {
@@ -370,6 +377,7 @@ function populateMonthFilter() {
     const option = document.createElement("option");
     option.value = EARLY_ACCESS_MONTH;
     option.textContent = "Early access";
+    markTranslatable(option, "Early access");
     els.month.appendChild(option);
   }
 
@@ -405,7 +413,6 @@ function matchesFilters(paper) {
   if (state.filters.journal && paper.journal !== state.filters.journal) return false;
   if (state.filters.section && paper.section !== state.filters.section) return false;
   if (state.filters.tag && !publicPaperTags(paper).includes(state.filters.tag)) return false;
-  if (state.filters.days && !withinDays(paper.publication_date, Number(state.filters.days))) return false;
   if (state.filters.month === EARLY_ACCESS_MONTH && !isEarlyAccess(paper)) return false;
   if (state.filters.month && state.filters.month !== EARLY_ACCESS_MONTH && getPaperMonth(paper) !== state.filters.month) return false;
   if (!state.filters.showOtherJasaSections && isOtherJasaSectionPaper(paper)) return false;
@@ -447,9 +454,8 @@ function renderPaper(paper) {
   const meta = document.createElement("div");
   meta.className = "meta";
   [
-    paper.journal,
-    formatDate(paper.publication_date),
-    paper.section,
+    journalDisplayName(paper.journal),
+    displayDate(paper),
     authorLine(paper.authors),
     paper.first_author_affiliation ? `First affiliation: ${paper.first_author_affiliation}` : null,
   ]
@@ -461,18 +467,15 @@ function renderPaper(paper) {
     meta.appendChild(renderStageBadge("Early access"));
   }
   if (paper.doi) {
-    meta.appendChild(renderMetaLink(`DOI: ${paper.doi}`, doiUrl(paper.doi)));
-  }
-
-  const fullTextUrl = getFullTextUrl(paper);
-  if (fullTextUrl) {
-    meta.appendChild(renderMetaLink("Full text", fullTextUrl));
+    meta.appendChild(renderMetaLink(`DOI`, doiUrl(paper.doi)));
   }
 
   const codeInfo = getCodeInfo(paper);
   if (codeInfo) {
     meta.appendChild(renderCodeLink(codeInfo));
   }
+
+  meta.appendChild(renderCiteButton(paper));
 
   article.append(heading, meta);
 
@@ -497,6 +500,7 @@ function renderPaper(paper) {
     const chip = document.createElement("span");
     chip.className = "chip";
     chip.textContent = tag;
+    markTranslatable(chip, tag);
     chips.appendChild(chip);
   });
   article.appendChild(chips);
@@ -505,15 +509,17 @@ function renderPaper(paper) {
 
 function renderRecentOverview() {
   const sorted = sortedPapers(state.papers);
-  renderCompactPaperList(els.latestUpdates, sorted.slice(0, 5), { showChineseTitle: false });
+  renderCompactPaperList(els.latestUpdates, sorted.slice(0, 5), { featureFirst: true });
 
-  const highlights = sorted.filter(isJasaSectionHighlight).slice(0, 5);
+  const highlights = sorted.filter(isJasaSectionHighlight).slice(0, 4);
   renderCompactPaperList(els.sectionHighlights, highlights, { showSection: true });
 
-  const recent = papersInLatestWindow(state.papers, 30);
-  renderTopicList(els.trendingTopics, topTagCounts(recent, 8));
+  const recentWindow = papersInLatestWindow(state.papers, 30);
+  const overviewSource = recentWindow.length >= 8 ? recentWindow : sorted.slice(0, 30);
+  renderTopicList(els.trendingTopics, topTagCounts(overviewSource, 8));
 
-  renderCompactPaperList(els.selectedRecentPapers, selectRecentPapers(recent, 6), { showTags: true });
+  const selectedSource = papersInLatestWindow(state.papers, 7);
+  renderCompactPaperList(els.selectedRecentPapers, selectRecentPapers(selectedSource, 6), { showTags: true });
 }
 
 function renderWeeklyDigest() {
@@ -522,20 +528,14 @@ function renderWeeklyDigest() {
   const latestDate = maxPaperDate(state.papers);
   const startDate = latestDate ? addDays(latestDate, -6) : null;
 
-  els.weeklyDigestWindow.textContent =
-    startDate && latestDate
-      ? `${formatDate(toDateString(startDate))} - ${formatDate(toDateString(latestDate))}`
-      : "No dated papers available";
-  els.weeklyTotal.textContent = String(sortedWeekly.length);
-
-  renderCountList(els.weeklyJournalCounts, countValues(sortedWeekly.map((paper) => paper.journal)).slice(0, 8));
-  const topicCounts = topTagCounts(sortedWeekly, 10);
-  renderCountList(els.weeklyTopicCounts, topicCounts);
-  renderTopicList(els.weeklyTopTopics, topicCounts.slice(0, 5));
-  renderCompactPaperList(els.weeklySelectedPapers, selectRecentPapers(sortedWeekly, 6), {
-    showTags: true,
-    showChineseTitle: true,
-  });
+  if (els.weeklyDigestWindow) els.weeklyDigestWindow.textContent = startDate && latestDate ? `${formatDate(toDateString(startDate))} - ${formatDate(toDateString(latestDate))}` : "No dated papers available";
+  if (els.weeklyTotal) els.weeklyTotal.textContent = String(sortedWeekly.length);
+  if (els.weeklyJournalCounts) {
+    const topicCounts = topTagCounts(sortedWeekly, 10);
+    renderCountList(els.weeklyJournalCounts, countValues(sortedWeekly.map((paper) => paper.journal)).slice(0, 8));
+    renderCountList(els.weeklyTopicCounts, topicCounts);
+    renderTopicList(els.weeklyTopTopics, topicCounts.slice(0, 5));
+  }
 }
 
 function renderCompactPaperList(container, papers, options = {}) {
@@ -543,19 +543,22 @@ function renderCompactPaperList(container, papers, options = {}) {
   if (!papers.length) {
     const empty = document.createElement("p");
     empty.className = "panel-empty";
-    empty.textContent = "No papers available for this view.";
+    setTranslatableText(empty, "No papers available for this view.");
     container.appendChild(empty);
     return;
   }
 
   const list = document.createElement("ul");
-  papers.forEach((paper) => {
+  if (options.featureFirst) list.classList.add("is-featured-list");
+  papers.forEach((paper, index) => {
     const item = document.createElement("li");
+    if (options.featureFirst && index === 0) item.className = "compact-feature";
     const link = document.createElement("a");
     link.href = paper.url || (paper.doi ? doiUrl(paper.doi) : "#");
     link.target = "_blank";
     link.rel = "noopener noreferrer";
     link.textContent = paper.title;
+    markTranslatable(link, paper.title);
     item.appendChild(link);
 
     if (options.showChineseTitle && paper.title_zh) {
@@ -569,15 +572,26 @@ function renderCompactPaperList(container, papers, options = {}) {
     meta.className = "compact-meta";
     [
       paper.journal,
-      formatDate(paper.publication_date),
+      displayDate(paper),
       options.showSection ? paper.section : null,
-      paper.doi ? `DOI: ${paper.doi}` : null,
     ]
       .filter(Boolean)
       .forEach((part, index) => {
         if (index > 0) meta.appendChild(document.createTextNode(" · "));
         meta.appendChild(document.createTextNode(part));
       });
+    const sourceUrl = paper.doi ? doiUrl(paper.doi) : paper.url;
+    if (sourceUrl) {
+      if (meta.childNodes.length) meta.appendChild(document.createTextNode(" / "));
+      const source = document.createElement("a");
+      source.className = "compact-source-link";
+      source.href = sourceUrl;
+      source.target = "_blank";
+      source.rel = "noopener noreferrer";
+      source.textContent = paper.doi ? "DOI" : "Publisher";
+      if (paper.doi) source.title = paper.doi;
+      meta.appendChild(source);
+    }
     item.appendChild(meta);
 
     if (options.showTags) {
@@ -586,10 +600,11 @@ function renderCompactPaperList(container, papers, options = {}) {
         const tagLine = document.createElement("div");
         tagLine.className = "mini-tags";
         tags.forEach((tag) => {
-          const chip = document.createElement("span");
-          chip.textContent = tag;
-          tagLine.appendChild(chip);
-        });
+        const chip = document.createElement("span");
+        chip.textContent = tag;
+        markTranslatable(chip, tag);
+        tagLine.appendChild(chip);
+      });
         item.appendChild(tagLine);
       }
     }
@@ -604,14 +619,14 @@ function renderTopicList(container, counts) {
   if (!counts.length) {
     const empty = document.createElement("p");
     empty.className = "panel-empty";
-    empty.textContent = "No topics available for this period.";
+    setTranslatableText(empty, "No topics available for this period.");
     container.appendChild(empty);
     return;
   }
   counts.forEach(([label, count]) => {
     const topic = document.createElement("span");
     topic.className = "topic-pill";
-    topic.textContent = `${label} ${count}`;
+    setTranslatableText(topic, `${label} ${count}`);
     container.appendChild(topic);
   });
 }
@@ -621,7 +636,7 @@ function renderCountList(container, counts) {
   if (!counts.length) {
     const empty = document.createElement("p");
     empty.className = "panel-empty";
-    empty.textContent = "No counts available for this period.";
+    setTranslatableText(empty, "No counts available for this period.");
     container.appendChild(empty);
     return;
   }
@@ -666,6 +681,17 @@ function selectRecentPapers(papers, limit) {
 function paperRelevanceScore(paper) {
   const tags = publicPaperTags(paper);
   let score = tags.length;
+  const textLower = [
+    paper.title,
+    ...(paper.keywords || []),
+    ...(paper.tags || []),
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+  const priorityTerms = ["cochlear implant", "hearing aid", "audiometry", "speech perception", "algorithm"];
+  const hasPriority = priorityTerms.some((term) => textLower.includes(term));
+  if (hasPriority) score += 5;
   if (isJasaSectionHighlight(paper)) score += 2;
   if (getAiAnalysis(paper)) score += 1;
   if (paper.abstract) score += 1;
@@ -713,6 +739,7 @@ function renderMetaLink(text, url) {
   link.target = "_blank";
   link.rel = "noopener noreferrer";
   link.textContent = text;
+  if (!text.startsWith("DOI:")) markTranslatable(link, text);
   return link;
 }
 
@@ -732,6 +759,7 @@ function renderStageBadge(text) {
   const span = document.createElement("span");
   span.className = "stage-badge";
   span.textContent = text;
+  markTranslatable(span, text);
   return span;
 }
 
@@ -756,6 +784,7 @@ function renderKeyMedia(paper) {
 
     const caption = document.createElement("figcaption");
     caption.textContent = paper.key_image_alt || "Key image from the official article page";
+    markTranslatable(caption, caption.textContent);
 
     figure.append(image, caption);
     media.appendChild(figure);
@@ -767,6 +796,7 @@ function renderKeyMedia(paper) {
     const label = document.createElement("span");
     label.className = "key-formula-label";
     label.textContent = "Key formula";
+    markTranslatable(label, "Key formula");
     const code = document.createElement("code");
     code.textContent = paper.key_formula;
     formula.append(label, code);
@@ -786,6 +816,7 @@ function renderAiAnalysis(paper) {
 
   const title = document.createElement("h3");
   title.textContent = "AI-Generated Abstract Analysis";
+  markTranslatable(title, "AI-Generated Abstract Analysis");
 
   const list = document.createElement("dl");
   [
@@ -796,6 +827,7 @@ function renderAiAnalysis(paper) {
     if (!value) return;
     const term = document.createElement("dt");
     term.textContent = label;
+    markTranslatable(term, label);
     const detail = document.createElement("dd");
     detail.textContent = value;
     markTranslatable(detail, value);
@@ -829,6 +861,19 @@ function doiUrl(doi) {
     .replace(/^https?:\/\/(dx\.)?doi\.org\//i, "")
     .replace(/^doi:/i, "");
   return `https://doi.org/${normalized}`;
+}
+
+const JOURNAL_ABBREV = {
+  "The Journal of the Acoustical Society of America": "JASA",
+  "JASA Express Letters": "JASA EL",
+  "Journal of the Association for Research in Otolaryngology": "JARO",
+  "Ear and Hearing": "Ear Hear",
+  "Trends in Hearing": "Trends Hear",
+  "Hearing Research": "Hear Res",
+};
+
+function journalDisplayName(journal) {
+  return JOURNAL_ABBREV[journal] || journal;
 }
 
 function getFullTextUrl(paper) {
@@ -969,18 +1014,84 @@ function displayAbstract(paper) {
   return paper.abstract || "";
 }
 
-function markTranslatable(element, text) {
-  element.classList.add("translatable-text");
-  element.dataset.sourceText = text;
+function setTranslatableText(element, text) {
+  element.textContent = text;
+  markTranslatable(element, text, { updateSource: true });
 }
 
-async function translateRenderedPapers() {
+function markTranslatable(element, text, options = {}) {
+  if (!element || !text) return;
+  element.classList.add("translatable-text");
+  if (options.updateSource || !element.dataset.sourceText) {
+    element.dataset.sourceText = text;
+  }
+  element.lang = "en";
+}
+
+function markTranslatablePlaceholder(element, text) {
+  if (!element || !text) return;
+  element.dataset.sourcePlaceholder = text;
+}
+
+function markStaticUiForTranslation() {
+  document
+    .querySelectorAll(
+      [
+        "h1",
+        ".subtitle",
+        ".controls label > span",
+        ".status-actions button",
+        ".status-actions a",
+        ".section-heading h2",
+        ".overview-panel h3",
+        ".panel-note",
+        ".digest-panel h3",
+        ".digest-total span:last-child",
+        "#emptyState",
+      ].join(", ")
+    )
+    .forEach((element) => markTranslatable(element, element.dataset.sourceText || element.textContent.trim()));
+  document
+    .querySelectorAll("#journalFilter option[value=''], #sectionFilter option[value=''], #tagFilter option")
+    .forEach((option) => markTranslatable(option, option.dataset.sourceText || option.textContent.trim()));
+  markTranslatablePlaceholder(els.search, "Title, author, DOI, abstract...");
+}
+
+function restoreOriginalPageText() {
+  document.querySelectorAll(".translatable-text").forEach((node) => {
+    const source = node.dataset.sourceText;
+    if (source) node.textContent = source;
+    node.lang = "en";
+    node.dir = "";
+  });
+  document.querySelectorAll("[data-source-placeholder]").forEach((node) => {
+    node.setAttribute("placeholder", node.dataset.sourcePlaceholder);
+  });
+}
+
+function applySourceLanguageMode(targetLanguage) {
+  document.documentElement.lang = "en";
+  document.documentElement.dir = isRtlLanguage(targetLanguage) ? "rtl" : "ltr";
+  document.documentElement.dataset.translateTarget = targetLanguage;
+}
+
+function applyTranslatedLanguageMode(targetLanguage) {
+  document.documentElement.lang = targetLanguage;
+  document.documentElement.dir = isRtlLanguage(targetLanguage) ? "rtl" : "ltr";
+  document.documentElement.dataset.translateTarget = targetLanguage;
+}
+
+function isRtlLanguage(language) {
+  return RTL_LANGUAGES.has(String(language || "").split("-")[0].toLowerCase());
+}
+
+async function translateRenderedPage() {
   if (!els.translationStatus) return;
   const targetLanguage = state.targetLanguage;
   const runId = Date.now().toString();
   state.translationRunId = runId;
-  document.documentElement.lang = "en";
-  document.documentElement.dataset.translateTarget = targetLanguage;
+  applySourceLanguageMode(targetLanguage);
+  restoreOriginalPageText();
 
   if (targetLanguage === "original") {
     els.translationStatus.textContent = "Original English";
@@ -994,7 +1105,8 @@ async function translateRenderedPapers() {
   }
 
   const nodes = [...document.querySelectorAll(".translatable-text")];
-  if (!nodes.length) {
+  const placeholderNodes = [...document.querySelectorAll("[data-source-placeholder]")];
+  if (!nodes.length && !placeholderNodes.length) {
     els.translationStatus.textContent = `No visible text to translate`;
     return;
   }
@@ -1028,8 +1140,18 @@ async function translateRenderedPapers() {
       const source = node.dataset.sourceText;
       if (source) {
         node.textContent = await translator.translate(source);
+        node.lang = targetLanguage;
+        node.dir = isRtlLanguage(targetLanguage) ? "rtl" : "ltr";
       }
     }
+    for (const node of placeholderNodes) {
+      if (state.translationRunId !== runId) return;
+      const source = node.dataset.sourcePlaceholder;
+      if (source) {
+        node.setAttribute("placeholder", await translator.translate(source));
+      }
+    }
+    applyTranslatedLanguageMode(targetLanguage);
     els.translationStatus.textContent = `Translated to ${label} with browser Translator`;
   } catch (error) {
     els.translationStatus.textContent = `Use browser page translation for ${label}`;
@@ -1069,7 +1191,8 @@ async function translateVisibleTitles(papers) {
 }
 
 function paperTitleKey(paper) {
-  return paper.doi || `${paper.journal}|${paper.publication_date}|${paper.title}`;
+  const base = paper.doi || `${paper.journal}|${paper.publication_date}|${paper.title}`;
+  return `${state.targetLanguage}|${base}`;
 }
 
 function languageLabel(value) {
@@ -1127,8 +1250,8 @@ function sortedPapers(papers) {
 }
 
 function comparePaperDates(left, right) {
-  const leftDate = Date.parse(`${left.publication_date || ""}T00:00:00`);
-  const rightDate = Date.parse(`${right.publication_date || ""}T00:00:00`);
+  const leftDate = Date.parse(`${effectiveDate(left) || ""}T00:00:00`);
+  const rightDate = Date.parse(`${effectiveDate(right) || ""}T00:00:00`);
   const safeLeft = Number.isNaN(leftDate) ? 0 : leftDate;
   const safeRight = Number.isNaN(rightDate) ? 0 : rightDate;
   if (safeRight !== safeLeft) return safeRight - safeLeft;
@@ -1140,20 +1263,41 @@ function papersInLatestWindow(papers, days) {
   if (!latest) return [];
   const start = addDays(latest, -(days - 1));
   return papers.filter((paper) => {
-    const date = parsePaperDate(paper.publication_date);
+    const date = parsePaperDate(effectiveDate(paper));
     return date && date >= start && date <= latest;
   });
 }
 
+function papersFromRecentPastThroughFuture(papers, daysBack) {
+  const today = currentLocalDate();
+  const start = addDays(today, -daysBack);
+  return papers.filter((paper) => {
+    const date = parsePaperDate(effectiveDate(paper));
+    return date && date >= start;
+  });
+}
+
 function maxPaperDate(papers) {
-  const dates = papers.map((paper) => parsePaperDate(paper.publication_date)).filter(Boolean);
+  const dates = papers.map((paper) => parsePaperDate(effectiveDate(paper))).filter(Boolean);
   if (!dates.length) return null;
   return new Date(Math.max(...dates.map((date) => date.getTime())));
+}
+
+function effectiveDate(paper) {
+  if (isEarlyAccess(paper) && paper.available_online_date) {
+    return paper.available_online_date;
+  }
+  return paper.publication_date;
 }
 
 function parsePaperDate(dateString) {
   const date = new Date(`${dateString || ""}T00:00:00`);
   return Number.isNaN(date.valueOf()) ? null : date;
+}
+
+function currentLocalDate() {
+  const now = new Date();
+  return new Date(now.getFullYear(), now.getMonth(), now.getDate());
 }
 
 function addDays(date, days) {
@@ -1191,7 +1335,10 @@ function withinDays(dateString, days) {
 }
 
 function getPaperMonth(paper) {
-  const dateString = paper.publication_date || "";
+  let dateString = paper.publication_date || "";
+  if (isEarlyAccess(paper) && paper.available_online_date) {
+    dateString = paper.available_online_date;
+  }
   return /^\d{4}-\d{2}/.test(dateString) ? dateString.slice(0, 7) : "";
 }
 
@@ -1205,6 +1352,13 @@ function formatDate(dateString) {
   const date = new Date(`${dateString}T00:00:00`);
   if (Number.isNaN(date.valueOf())) return dateString || "";
   return new Intl.DateTimeFormat(undefined, { year: "numeric", month: "short", day: "numeric" }).format(date);
+}
+
+function displayDate(paper) {
+  if (isEarlyAccess(paper) && paper.available_online_date) {
+    return `${formatDate(paper.available_online_date)} (online)`;
+  }
+  return formatDate(paper.publication_date);
 }
 
 function formatDateTime(dateString) {
@@ -1223,4 +1377,192 @@ function formatMonth(monthString) {
   const date = new Date(`${monthString}-01T00:00:00`);
   if (Number.isNaN(date.valueOf())) return monthString;
   return new Intl.DateTimeFormat(undefined, { year: "numeric", month: "long" }).format(date);
+}
+
+// Citation export functions
+
+function generateRIS(paper) {
+  const lines = ["TY  - JOUR"];
+  if (paper.title) lines.push(`TI  - ${paper.title}`);
+  if (paper.authors?.length) {
+    paper.authors.forEach((author) => lines.push(`AU  - ${author}`));
+  }
+  if (paper.journal) lines.push(`JO  - ${paper.journal}`);
+  if (paper.publication_date) {
+    const year = paper.publication_date.slice(0, 4);
+    if (year) lines.push(`PY  - ${year}`);
+  }
+  if (paper.volume) lines.push(`VL  - ${paper.volume}`);
+  if (paper.issue) lines.push(`IS  - ${paper.issue}`);
+  if (paper.pages) {
+    const pageParts = paper.pages.split("-");
+    if (pageParts.length >= 2) {
+      lines.push(`SP  - ${pageParts[0]}`);
+      lines.push(`EP  - ${pageParts[1]}`);
+    } else {
+      lines.push(`SP  - ${paper.pages}`);
+    }
+  }
+  if (paper.doi) lines.push(`DO  - ${paper.doi}`);
+  const url = paper.url || (paper.doi ? `https://doi.org/${paper.doi}` : null);
+  if (url) lines.push(`UR  - ${url}`);
+  if (paper.abstract) lines.push(`AB  - ${paper.abstract}`);
+  lines.push("ER  -");
+  return lines.join("\n");
+}
+
+function generateBibTeX(paper) {
+  const fields = [];
+  if (paper.title) fields.push(`  title = {${escapeBibTeX(paper.title)}}`);
+  if (paper.authors?.length) {
+    const authorStr = paper.authors.join(" and ");
+    fields.push(`  author = {${escapeBibTeX(authorStr)}}`);
+  }
+  if (paper.journal) fields.push(`  journal = {${escapeBibTeX(paper.journal)}}`);
+  if (paper.publication_date) {
+    const year = paper.publication_date.slice(0, 4);
+    if (year) fields.push(`  year = {${year}}`);
+  }
+  if (paper.volume) fields.push(`  volume = {${paper.volume}}`);
+  if (paper.issue) fields.push(`  number = {${paper.issue}}`);
+  if (paper.pages) fields.push(`  pages = {${paper.pages}}`);
+  if (paper.doi) fields.push(`  doi = {${paper.doi}}`);
+  const url = paper.url || (paper.doi ? `https://doi.org/${paper.doi}` : null);
+  if (url) fields.push(`  url = {${url}}`);
+  if (paper.abstract && !paper.ai_analysis?.abstract) {
+    fields.push(`  abstract = {${escapeBibTeX(paper.abstract)}}`);
+  }
+  const key = generateCitationKey(paper);
+  return `@article{${key},\n${fields.join(",\n")}\n}`;
+}
+
+function escapeBibTeX(text) {
+  return String(text)
+    .replace(/([&%$#_{}])/g, "\\$1")
+    .replace(/~/g, "\\textasciitilde{}")
+    .replace(/\^/g, "\\textasciicircum{}");
+}
+
+function generateCitationKey(paper) {
+  const firstAuthor = paper.authors?.[0] || "";
+  const surname = firstAuthor.split(/\s+/).pop() || "paper";
+  const year = (paper.publication_date || "").slice(0, 4) || "2026";
+  const shortTitle = (paper.title || "")
+    .split(/\s+/)
+    .slice(0, 3)
+    .join("_")
+    .replace(/[^a-zA-Z0-9_]/g, "")
+    .toLowerCase();
+  return `${surname}${year}${shortTitle}`.replace(/[^a-zA-Z0-9]/g, "");
+}
+
+function downloadFile(content, filename, mimeType) {
+  const blob = new Blob([content], { type: mimeType });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = filename;
+  link.click();
+  URL.revokeObjectURL(url);
+}
+
+function showCopyFeedback(message) {
+  let feedback = document.querySelector(".cite-copy-feedback");
+  if (!feedback) {
+    feedback = document.createElement("div");
+    feedback.className = "cite-copy-feedback";
+    document.body.appendChild(feedback);
+  }
+  feedback.textContent = message;
+  feedback.classList.add("show");
+  setTimeout(() => feedback.classList.remove("show"), 1500);
+}
+
+function copyToClipboard(text) {
+  if (navigator.clipboard?.writeText) {
+    return navigator.clipboard.writeText(text);
+  }
+  const textarea = document.createElement("textarea");
+  textarea.value = text;
+  textarea.style.position = "fixed";
+  textarea.style.opacity = "0";
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand("copy");
+  document.body.removeChild(textarea);
+  return Promise.resolve();
+}
+
+function openCiteDropdown(button) {
+  const dropdown = button.closest(".cite-dropdown");
+  if (!dropdown) return;
+  document.querySelectorAll(".cite-dropdown-menu.open").forEach((menu) => menu.classList.remove("open"));
+  dropdown.querySelector(".cite-dropdown-menu")?.classList.add("open");
+  const closeHandler = (e) => {
+    if (!dropdown.contains(e.target)) {
+      dropdown.querySelector(".cite-dropdown-menu")?.classList.remove("open");
+      document.removeEventListener("click", closeHandler);
+    }
+  };
+  setTimeout(() => document.addEventListener("click", closeHandler), 0);
+}
+
+function renderCiteButton(paper) {
+  const wrapper = document.createElement("div");
+  wrapper.className = "cite-dropdown";
+
+  const button = document.createElement("button");
+  button.className = "cite-button";
+  button.type = "button";
+  button.textContent = "Cite / Save";
+  button.addEventListener("click", (e) => {
+    e.stopPropagation();
+    openCiteDropdown(button);
+  });
+
+  const menu = document.createElement("div");
+  menu.className = "cite-dropdown-menu";
+
+  const doi = paper.doi;
+  const doiUrl = doi ? `https://doi.org/${doi}` : null;
+  const url = paper.url || doiUrl;
+  const bibtex = generateBibTeX(paper);
+  const ris = generateRIS(paper);
+  const key = generateCitationKey(paper);
+
+  const items = [];
+
+  items.push({ label: "Download RIS", action: () => downloadFile(ris, `${key}.ris`, "application/x-research-info-systems") });
+  items.push({ label: "Download BibTeX", action: () => downloadFile(bibtex, `${key}.bib`, "application/x-bibtex") });
+
+  if (doi) {
+    items.push({ divider: true });
+    items.push({ label: "Copy DOI", action: () => copyToClipboard(doi).then(() => showCopyFeedback("DOI copied")) });
+    items.push({ label: "Copy DOI link", action: () => copyToClipboard(doiUrl).then(() => showCopyFeedback("DOI link copied")) });
+  }
+
+  if (url && url !== doiUrl) {
+    items.push({ label: "Copy publisher link", action: () => copyToClipboard(url).then(() => showCopyFeedback("Publisher link copied")) });
+  }
+
+  items.forEach((item) => {
+    if (item.divider) {
+      const divider = document.createElement("div");
+      divider.className = "divider";
+      menu.appendChild(divider);
+    } else {
+      const menuItem = document.createElement("button");
+      menuItem.type = "button";
+      menuItem.textContent = item.label;
+      menuItem.addEventListener("click", (e) => {
+        e.stopPropagation();
+        menu.classList.remove("open");
+        item.action();
+      });
+      menu.appendChild(menuItem);
+    }
+  });
+
+  wrapper.append(button, menu);
+  return wrapper;
 }

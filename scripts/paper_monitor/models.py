@@ -22,6 +22,7 @@ class Paper:
     keywords: list[str] = field(default_factory=list)
     tags: list[str] = field(default_factory=list)
     source: str = "unknown"
+    available_online_date: str | None = None
 
     def to_dict(self) -> dict:
         return asdict(self)

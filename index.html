@@ -3,14 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Hearing Science Paper Monitor</title>
+    <title>n³ Hearing Science Monitor</title>
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
     <header class="topbar">
       <div>
-        <h1>Hearing Science Paper Monitor</h1>
+        <h1>n³ Hearing Science Monitor</h1>
         <p class="subtitle">Tracking recent publications in hearing science, audiology, and artificial hearing.</p>
+        <p class="lab-info">Developed by SLENT-SCUT Digital Hearing Healthcare Joint Lab</p>
       </div>
       <div class="status">
         <span id="paperCount">0 papers</span>
@@ -23,106 +24,68 @@
     </header>
 
     <main>
-      <section class="controls" aria-label="Paper filters">
-        <label class="search">
-          <span>Search</span>
-          <input id="searchInput" type="search" placeholder="Title, author, DOI, abstract..." />
-        </label>
-
-        <label>
-          <span>Journal</span>
-          <select id="journalFilter">
-            <option value="">All journals</option>
-          </select>
-        </label>
-
-        <label>
-          <span>Section</span>
-          <select id="sectionFilter">
-            <option value="">All sections</option>
-          </select>
-        </label>
-
-        <label>
-          <span>Tag</span>
-          <select id="tagFilter">
-            <option value="">All tags</option>
-          </select>
-        </label>
-
-        <label>
-          <span>Date</span>
-          <select id="dateFilter">
-            <option value="">Any time</option>
-            <option value="7">Last 7 days</option>
-            <option value="30">Last 30 days</option>
-            <option value="90">Last 90 days</option>
-            <option value="365">Last year</option>
-          </select>
-        </label>
-
-        <label>
-          <span>Month</span>
-          <select id="monthFilter"></select>
-        </label>
-
-        <label class="toggle-control">
-          <input id="showOtherJasaSections" type="checkbox" />
-          <span>Show other JASA/JASA EL sections</span>
-        </label>
-      </section>
-
-      <section class="overview" aria-labelledby="overviewTitle">
-        <div class="section-heading">
-          <h2 id="overviewTitle">Recent Overview</h2>
-        </div>
-        <div class="overview-grid">
-          <article class="overview-panel">
+      <div class="overview-grid">
+          <article class="overview-panel overview-panel-latest">
             <h3>Latest Updates</h3>
             <div id="latestUpdates" class="compact-list"></div>
           </article>
-          <article class="overview-panel">
+          <article class="overview-panel overview-panel-highlights">
             <h3>JASA/JASA-EL Section Highlights</h3>
             <p class="panel-note">Speech Communication and Psychological and Physiological Acoustics</p>
             <div id="sectionHighlights" class="compact-list"></div>
           </article>
-          <article class="overview-panel">
+          <article class="overview-panel overview-panel-topics">
             <h3>Trending Topics</h3>
             <div id="trendingTopics" class="topic-list"></div>
           </article>
-          <article class="overview-panel">
-            <h3>Selected Recent Papers</h3>
+          <article class="overview-panel overview-panel-selected">
+            <h3>Weekly Digest</h3>
             <div id="selectedRecentPapers" class="compact-list"></div>
           </article>
         </div>
+
+        <section class="controls" aria-label="Paper filters">
+          <label class="search">
+            <span>Search</span>
+            <input id="searchInput" type="search" placeholder="Title, author, DOI, abstract..." />
+          </label>
+
+          <label>
+            <span>Journal</span>
+            <select id="journalFilter">
+              <option value="">All journals</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Section</span>
+            <select id="sectionFilter">
+              <option value="">All sections</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Tag</span>
+            <select id="tagFilter">
+              <option value="">All tags</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Month</span>
+            <select id="monthFilter"></select>
+          </label>
+
+          <label class="toggle-control">
+            <input id="showOtherJasaSections" type="checkbox" />
+            <span>Show other JASA/JASA EL sections</span>
+          </label>
+        </section>
       </section>
 
-      <section class="weekly-digest" id="weeklyDigest" aria-labelledby="weeklyDigestTitle">
+      <section class="weekly-digest" id="weeklyDigest" aria-labelledby="weeklyDigestTitle" hidden>
         <div class="section-heading">
-          <h2 id="weeklyDigestTitle">Weekly Hearing Science Digest</h2>
-          <p id="weeklyDigestWindow" class="section-subtitle"></p>
-        </div>
-        <div class="digest-grid">
-          <article class="digest-panel digest-total">
-            <span id="weeklyTotal" class="digest-number">0</span>
-            <span>new papers</span>
-          </article>
-          <article class="digest-panel">
-            <h3>Papers by Journal</h3>
-            <div id="weeklyJournalCounts" class="count-list"></div>
-          </article>
-          <article class="digest-panel">
-            <h3>Papers by Topic</h3>
-            <div id="weeklyTopicCounts" class="count-list"></div>
-          </article>
-          <article class="digest-panel">
-            <h3>Top Weekly Topics</h3>
-            <div id="weeklyTopTopics" class="topic-list"></div>
-          </article>
-          <article class="digest-panel digest-selected">
-            <h3>Selected Recent Papers</h3>
-            <div id="weeklySelectedPapers" class="compact-list"></div>
-          </article>
+          <h2 id="weeklyDigestTitle">Weekly Digest</h2>
         </div>
       </section>
 
