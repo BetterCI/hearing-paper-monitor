@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T04:40:21Z",
+  "generated_at": "2026-05-10T05:36:13Z",
   "papers": [
     {
       "title": "Neuritin protects spiral ganglion neurons via NKA–Ca²⁺ homeostasis and CaMKII/MAPK suppression",
@@ -128,7 +128,17 @@
         "auditory physiology"
       ],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-04-15"
+      "available_online_date": "2026-04-15",
+      "ai_analysis": {
+        "scientific_question": "五种麻醉方案在保障安全性的前提下，对大鼠听觉脑干反应记录信号质量的保留程度如何？",
+        "key_highlight": "右美托咪定为主的方案在生存率和恢复效果上优于传统方案的同时能够维持ABR波形质量，而异氟烷显著升高听阈，氯胺酮/赛拉嗪安全表现最差。",
+        "main_limitation": "未在摘要中说明",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "a67be0c6c44d0055",
+        "updated_at": "2026-05-10T05:37:03Z"
+      }
     },
     {
       "title": "Design and evaluation of back-end compressors for compressed content for cochlear implant users",
@@ -158,7 +168,17 @@
         "cochlear implant"
       ],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-04-18"
+      "available_online_date": "2026-04-18",
+      "ai_analysis": {
+        "scientific_question": "流媒体内容的声动态范围是否需要专门设计后端压缩器来改善人工耳蜗用户的聆听体验？",
+        "key_highlight": "为人工耳蜗用户设计的流媒体后端压缩器能显著提升言语识别率、人声清晰度以及整体聆听愉悦感。",
+        "main_limitation": "Not stated in the abstract",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "d6c84ce4184e63aa",
+        "updated_at": "2026-05-10T05:37:09Z"
+      }
     },
     {
       "title": "Dynamic, minimally invasive electrical brain stimulation improves speech perception",
@@ -190,7 +210,17 @@
         "speech perception"
       ],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-04-16"
+      "available_online_date": "2026-04-16",
+      "ai_analysis": {
+        "scientific_question": "新型微创颅内电刺激是否能改善噪声环境下的言语感知能力？",
+        "key_highlight": "该研究验证了一种使用颅表电极和颅骨螺栓的微创电刺激方案，在5/6次实验中可提升言语感知准确度，其中50毫秒延迟刺激组的改善率达83%。",
+        "main_limitation": "跨会话统计检验未达显著性水平，结果可能受限于实验次数和试次数量有限。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "b51ac658487e6405",
+        "updated_at": "2026-05-10T05:37:33Z"
+      }
     },
     {
       "title": "Restoring auditory discrimination in noise: mismatch negativity evidence for a deep neural network-based denoising system in hearing aids",
@@ -224,7 +254,17 @@
         "speech perception"
       ],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-04-10"
+      "available_online_date": "2026-04-10",
+      "ai_analysis": {
+        "scientific_question": "探讨深度神经网络降噪算法是否能增强感音神经性听力损失老年人在噪声环境中的自动语音神经辨别能力",
+        "key_highlight": "在噪声条件下，深度神经网络激活后显著缩短了失匹配负波的峰值潜伏期，并使原本几乎消失的失匹配负波得以恢复",
+        "main_limitation": "未在摘要中明确陈述",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "8fe445b5043b8365",
+        "updated_at": "2026-05-10T05:37:46Z"
+      }
     },
     {
       "title": "Sequential comparison of frequency modulations is more difficult for children and adolescents with ADHD",
@@ -254,7 +294,17 @@
         "auditory physiology"
       ],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-04-21"
+      "available_online_date": "2026-04-21",
+      "ai_analysis": {
+        "scientific_question": "ADHD儿童的听觉处理缺陷是否与半球间相互作用的损害有关？",
+        "key_highlight": "ADHD组在需要双侧听觉皮层协作的顺序比较任务中准确率下降，而主要依赖单侧听觉皮层的分类任务未发现组间差异。",
+        "main_limitation": "Not stated in the abstract",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "04765f83ae755b79",
+        "updated_at": "2026-05-10T05:38:06Z"
+      }
     },
     {
       "title": "Acoustic radiosity simulation with custom bidirectional reflectance distribution implementation in three dimensions",
@@ -276,7 +326,17 @@
       "keywords": [],
       "tags": [],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-05-08"
+      "available_online_date": "2026-05-08",
+      "ai_analysis": {
+        "scientific_question": "复杂双向反射分布函数（BRDF）实现对三维声学辐射度模拟的影响尚待系统评估。",
+        "key_highlight": "双向散射方法对retro-reflective表面的模拟更接近波动法参考结果，能捕捉更多散射分布的空间细节。",
+        "main_limitation": "模拟结果仍显示声学辐射度与射线追踪实现中存在的轻微伪影，需进一步验证。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "065f4452a3c864f0",
+        "updated_at": "2026-05-10T05:38:26Z"
+      }
     },
     {
       "title": "Efficiency improvements to an auditory-inspired synchrony capture filterbank",
@@ -294,7 +354,17 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-05-08"
+      "available_online_date": "2026-05-08",
+      "ai_analysis": {
+        "scientific_question": "如何改进听觉启发的同步捕获滤波器组架构以提高其仿生性和频率跟踪的计算效率？",
+        "key_highlight": "通过引入自适应频率鉴别器循环和相位锁定环权重，并结合部位理论机制优先激活较少的滤波器，实现了仿生性和计算效率的提升。",
+        "main_limitation": "摘要中未明确说明研究的主要局限性。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "374caea277f8e824",
+        "updated_at": "2026-05-10T05:38:42Z"
+      }
     },
     {
       "title": "Emotional Vocalizations Cause Auditory Distraction That Affects Word Repetition and Behavioral Listening Effort",
@@ -348,7 +418,17 @@
       "keywords": [],
       "tags": [],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-05-08"
+      "available_online_date": "2026-05-08",
+      "ai_analysis": {
+        "scientific_question": "无人机尺寸的同轴同向旋翼在不同相位角和轴向间距下，其推进效率与噪声辐射之间存在何种权衡关系？",
+        "key_highlight": "实验发现功率载荷与宽频噪声之间存在拮抗关系，且通过改变相位角可调制音调噪声，并提出将商业面元法与旋转偶极子源模型相结合的快速预测方法。",
+        "main_limitation": "声学预测与实验趋势的一致性受到所用求解器固有局限性的制约，但具体局限未在摘要中详述。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "c6e7af80578f6137",
+        "updated_at": "2026-05-10T05:39:23Z"
+      }
     },
     {
       "title": "Underwater source range and depth estimation using a vertical dual-hydrophone configuration in a deep sea bottom bounce area",
@@ -370,7 +450,17 @@
       "keywords": [],
       "tags": [],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-05-08"
+      "available_online_date": "2026-05-08",
+      "ai_analysis": {
+        "scientific_question": "如何在深海海底反弹区域利用垂直双水听器配置通过多途时延差实现脉冲声源的距离和深度估计？",
+        "key_highlight": "基于几何关系推导了多途时延差与声源距离和深度的解析表达式，并结合射线追踪技术与模拟退火及贝叶斯反演实现了二维平面定位，其中贝叶斯反演在距离估计上精度更高，模拟退火在深度估计上集中度更好。",
+        "main_limitation": "实验验证仅在较高信噪比和合作声源条件下进行，低信噪比或非合作声源场景下的性能未得到验证。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "aa9a5f707bf6eff3",
+        "updated_at": "2026-05-10T05:39:42Z"
+      }
     },
     {
       "title": "Acoustic measurements and modeling of sub-bottom layers on the summit of the Atlantis II Seamount",
@@ -394,7 +484,17 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-05-07"
+      "available_online_date": "2026-05-07",
+      "ai_analysis": {
+        "scientific_question": "如何利用声学反射数据对亚特兰蒂斯二号海山海台的海底地层结构进行地球声学特征表征？",
+        "key_highlight": "弹性地球声学特性的波数积分模型成功重现了海底反射信号的到达模式及相位反转特征，揭示石灰岩层具有高孔隙度和较低的压缩波速度。",
+        "main_limitation": "Not stated in the abstract",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "496156582b2ab066",
+        "updated_at": "2026-05-10T05:39:55Z"
+      }
     },
     {
       "title": "Evaluation of the effect of long-term pulsed laser irradiation on cochlear function in Mongolian gerbils ( Meriones unguiculatus )",
@@ -420,7 +520,17 @@
         "auditory physiology"
       ],
       "source": "crossref",
-      "available_online_date": "2026-05-07"
+      "available_online_date": "2026-05-07",
+      "ai_analysis": {
+        "scientific_question": "长期红外激光照射对蒙古沙鼠耳蜗功能会产生什么影响？",
+        "key_highlight": "6.6 W/cm²的激光强度可维持超过870分钟的稳定耳蜗反应，而105.6 W/cm²的高强度照射则导致刺激位点对应频率处的复合动作电位显著下降。",
+        "main_limitation": "未在摘要中说明。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "f6e9f730e4244b39",
+        "updated_at": "2026-05-10T05:40:11Z"
+      }
     },
     {
       "title": "Assessing the benefits of using plane wave compounding when estimating backscatter coefficients with an in situ bead as a calibration target",
@@ -443,7 +553,17 @@
       "keywords": [],
       "tags": [],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-05-06"
+      "available_online_date": "2026-05-06",
+      "ai_analysis": {
+        "scientific_question": "平面波复合成像（PWC）是否优于传统聚焦波成像（FW）用于估算背散射系数（BSCs），以 situ 校准目标评估其性能",
+        "key_highlight": "使用PWC进行原位校准能够更好地补偿衰减损失，散射子直径方差从聚焦波的45.4 μm²降至15.2 μm²",
+        "main_limitation": "Not stated in the abstract",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "dc32306660786162",
+        "updated_at": "2026-05-10T05:40:24Z"
+      }
     },
     {
       "title": "Observing long-term adaptation and generalization to an untrained set of head-related transfer functions",
@@ -464,7 +584,17 @@
         "priority section"
       ],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-05-06"
+      "available_online_date": "2026-05-06",
+      "ai_analysis": {
+        "scientific_question": "个体在经过一组头相关传输函数训练后，能否泛化到另一组未训练的传输函数上并改善定位表现。",
+        "key_highlight": "两个训练组（包括个体化和非个体化头相关传输函数）均展现出显著的定位改善，且泛化效应在两组间相似。",
+        "main_limitation": "摘要中未说明",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "1d716946d0e3dd5e",
+        "updated_at": "2026-05-10T05:41:04Z"
+      }
     },
     {
       "title": "Discrimination of two-highlight versus single-highlight phantom echoes by bottlenose dolphins ( Tursiops truncatus )",
@@ -490,7 +620,17 @@
         "priority section"
       ],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-05-05"
+      "available_online_date": "2026-05-05",
+      "ai_analysis": {
+        "scientific_question": "海豚如何区分单次回声与双次回声，以及其范围分辨率的基本决定因素是什么",
+        "key_highlight": "完整听觉带宽的海豚能够辨别2至3微秒（约2毫米）的间隔，范围分辨率不随模拟距离变化",
+        "main_limitation": "无法确定海豚是否将双次回声中的光谱线索感知为沿距离轴的目标特征空间分离",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "128f2266621a807c",
+        "updated_at": "2026-05-10T05:41:18Z"
+      }
     },
     {
       "title": "Fourier modal method with enhanced transmittance matrix for diffraction analysis of multilayer two-dimensional acoustic metamaterial gratings",
@@ -518,7 +658,17 @@
       "keywords": [],
       "tags": [],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-05-05"
+      "available_online_date": "2026-05-05",
+      "ai_analysis": {
+        "scientific_question": "如何将光学傅里叶模方法有效扩展应用于多层二维声学超材料光栅的衍射特性分析？",
+        "key_highlight": "该方法在保证与有限元方法结果一致的前提下，对相对简单的周期单元几何结构具有显著的计算效率优势。",
+        "main_limitation": "所提方法在较为简单的周期单元几何结构中验证有效，对复杂几何结构的适用性未在摘要中明确讨论。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "baabb975fbe6346a",
+        "updated_at": "2026-05-10T05:41:30Z"
+      }
     },
     {
       "title": "Orthogonal subspace approach for underwater acoustic wave-vector direction estimation based on acousto-optic sensing",
@@ -543,7 +693,17 @@
         "auditory physiology"
       ],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-05-05"
+      "available_online_date": "2026-05-05",
+      "ai_analysis": {
+        "scientific_question": "如何利用声光效应实现中频至高频频段水下声波矢量方向的高精度估计",
+        "key_highlight": "所提出的MUSIC-L正交子空间算法在消声水池实验中于10 dB信噪比、80快拍数条件下实现了低于1°的估计误差",
+        "main_limitation": "未在摘要中明确说明该方法在开放水域或真实海洋环境中的适用性限制",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "b79ad7a6589701b0",
+        "updated_at": "2026-05-10T05:41:40Z"
+      }
     },
     {
       "title": "REVIEWS OF ACOUSTICAL PATENTS",
@@ -561,7 +721,17 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-05-05"
+      "available_online_date": "2026-05-05",
+      "ai_analysis": {
+        "scientific_question": "声学专利评论版块的目的是为读者提供哪些信息以辅助其决策？",
+        "key_highlight": "评论为读者提供充分信息以判断是否需进一步查阅原始专利文献",
+        "main_limitation": "Not stated in the abstract",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "e5992300588be7d9",
+        "updated_at": "2026-05-10T05:42:00Z"
+      }
     },
     {
       "title": "Sound-field-projection synthesis using latent diffusion model for acousto-optic reconstruction",
@@ -582,7 +752,17 @@
       "keywords": [],
       "tags": [],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-05-05"
+      "available_online_date": "2026-05-05",
+      "ai_analysis": {
+        "scientific_question": "如何从有限的声场线积分投影观测数据合成指定方向的新投影，从而实现无需多次测量或部署多台设备的三维声场重建。",
+        "key_highlight": "基于潜扩散模型的条件生成方法可从9个观测投影合成9个新投影，显著提升三维重建精度。",
+        "main_limitation": "Not stated in the abstract",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "7d9ae9db45e1ccc1",
+        "updated_at": "2026-05-10T05:42:10Z"
+      }
     },
     {
       "title": "Deep learning-based approach for linking microstructural and macroscopic acoustic properties of sound-absorbing polyurethane foam",
@@ -606,7 +786,17 @@
         "machine learning"
       ],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-05-04"
+      "available_online_date": "2026-05-04",
+      "ai_analysis": {
+        "scientific_question": "如何建立多孔材料微观结构形态与宏观声学性能之间的定量、设计导向关系？",
+        "key_highlight": "提出一种深度学习框架，利用U-Net对SEM图像进行语义分割以提取微观结构参数，并结合人工神经网络建立从微观特征到声学性能的预测模型，在210个聚氨酯泡沫样本上验证了该方法的可行性。",
+        "main_limitation": "未在摘要中明确说明研究局限性。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "eba2bbb85bdc94cb",
+        "updated_at": "2026-05-10T05:42:28Z"
+      }
     },
     {
       "title": "A few-shot learning method for underwater acoustic target recognition based on generative data augmentation",
@@ -630,7 +820,17 @@
         "machine learning"
       ],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-05-01"
+      "available_online_date": "2026-05-01",
+      "ai_analysis": {
+        "scientific_question": "在参考样本稀缺且环境干扰复杂的条件下如何有效识别水下声学目标",
+        "key_highlight": "通过变分自编码器结合潜在空间补全的生成判别协同框架，在特征层面重建更连续、完整且具有判别性的类内分布，从而支撑小样本学习场景下的鲁棒识别",
+        "main_limitation": "Not stated in the abstract",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "935a2c9e4149b0d4",
+        "updated_at": "2026-05-10T05:42:36Z"
+      }
     },
     {
       "title": "Acute nicotine affects auditory brainstem responses in a frequency-, age-, and sex-dependent manner in mice",
@@ -696,7 +896,17 @@
         "cochlear implant",
         "real-world listening"
       ],
-      "source": "crossref+pubmed"
+      "source": "crossref+pubmed",
+      "ai_analysis": {
+        "scientific_question": "在双侧人工耳蜗儿童中，双侧电极对的编程参数差异以及序贯植入和阵列类型不匹配对这些差异的影响如何？",
+        "key_highlight": "序贯植入的儿童在首次植入耳的编程参数显著高于二次植入耳，而同时植入的儿童双耳参数基本对称，且编程不对称更多反映的是植入顺序而非阵列类型差异。",
+        "main_limitation": "未在摘要中说明是否考虑了儿童的听觉康复干预时长或家庭使用模式等可能影响编程参数的外部因素。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "253dd6bdc4a36e07",
+        "updated_at": "2026-05-10T05:43:14Z"
+      }
     },
     {
       "title": "Auditory Brainstem Response in Pigs: Normative Data and Insights from TPC2 Knockout Models",
@@ -753,7 +963,17 @@
         "speech perception"
       ],
       "source": "crossref",
-      "available_online_date": "2026-05-01"
+      "available_online_date": "2026-05-01",
+      "ai_analysis": {
+        "scientific_question": "儿童与成人的元音听觉锐度存在何种发展性差异？",
+        "key_highlight": "儿童的第一共振峰（F1）听觉锐度平均低于成人，但个体间变异程度与成人相当。",
+        "main_limitation": "Not stated in the abstract",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "6e67fec29ca45dbf",
+        "updated_at": "2026-05-10T05:43:27Z"
+      }
     },
     {
       "title": "Cognitive load in noise: Neural signatures of speech recognition challenges in children with hearing aids",
@@ -789,7 +1009,17 @@
         "real-world listening",
         "speech perception"
       ],
-      "source": "crossref+pubmed"
+      "source": "crossref+pubmed",
+      "ai_analysis": {
+        "scientific_question": "在噪声环境下，助听器使用儿童的言语识别困难背后是否存在可测量的神经生理学标记？",
+        "key_highlight": "多模态脑电图分析显示噪声条件下P300潜伏期延长、相近音调在alpha和beta频段的神经区分度缩小，且Microstate 4的覆盖面积减弱，提示噪声下的言语识别困难源于外周信号退化与中枢处理效率瓶颈的双重作用。",
+        "main_limitation": "Not stated in the abstract",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "1ac6d11414573f98",
+        "updated_at": "2026-05-10T05:43:44Z"
+      }
     },
     {
       "title": "Corrigendum to “Exploring the relationship between task difficulty, head-related transfer function and spatial release from masking in a speech-on-speech experiment” [Hearing Research Volume 470 (2026), 109490]",
@@ -832,7 +1062,17 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-05-01"
+      "available_online_date": "2026-05-01",
+      "ai_analysis": {
+        "scientific_question": "如何在等效源方法中联合优化源的位置和强度，同时满足源必须位于重建区域外部的几何约束？",
+        "key_highlight": "DiffESM通过神经网络符号距离函数表示可行区域，实现了基于梯度的优化，在重建精度上优于传统等效源方法。",
+        "main_limitation": "Not stated in the abstract",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "97fb7e4120f002bb",
+        "updated_at": "2026-05-10T05:43:54Z"
+      }
     },
     {
       "title": "Differential neural responses to rhythmic motion and rhythmic static auditory stimuli: An EEG and fNIRS study",
@@ -863,7 +1103,17 @@
       "tags": [
         "auditory physiology"
       ],
-      "source": "crossref+pubmed"
+      "source": "crossref+pubmed",
+      "ai_analysis": {
+        "scientific_question": "节律性运动听觉刺激是否比节律性静态听觉刺激引发更强且范围更广的神经响应？",
+        "key_highlight": "与节律性静态听觉刺激相比，节律性运动听觉刺激诱发了更强的神经调节和更广泛的皮层激活模式。",
+        "main_limitation": "Not stated in the abstract",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "9c4c53d48d93ddef",
+        "updated_at": "2026-05-10T05:44:00Z"
+      }
     },
     {
       "title": "Dynamics of Intra- and Inter-Regional Activities of the Auditory ‘Where’ Pathway during Sound Localization: An fMRI Study",
@@ -922,7 +1172,17 @@
         "machine learning"
       ],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-05-01"
+      "available_online_date": "2026-05-01",
+      "ai_analysis": {
+        "scientific_question": "环境声音识别任务中，哪些频段对识别性能的贡献最大？",
+        "key_highlight": "模拟人类行为与追求最大准确率的两种深度学习模型在频段重要性函数上呈现高度一致性，均揭示了约0.43、0.77、1.46、2.6和9.7 kHz五个关键频段。",
+        "main_limitation": "Not stated in the abstract",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "e52aa3f2e6396b9a",
+        "updated_at": "2026-05-10T05:44:23Z"
+      }
     },
     {
       "title": "Fishing with sound: Insights into the plainfin midshipman's reproductive ecology from field acoustic playbacks",
@@ -948,7 +1208,17 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-05-01"
+      "available_online_date": "2026-05-01",
+      "ai_analysis": {
+        "scientific_question": "雄性平鳍 Midshipman 鱼的低频鸣叫中，哪一成分（基频或谐波）对雌鱼的巢穴进入行为起关键作用？",
+        "key_highlight": "现场声学回放实验表明，基频可能是雌鱼最终进入 I 型雄鱼巢穴的必要条件，而高次谐波的作用可能有限。",
+        "main_limitation": "Not stated in the abstract",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "2a5ff7445ab14fad",
+        "updated_at": "2026-05-10T05:44:36Z"
+      }
     },
     {
       "title": "Heart heard in motion",
@@ -996,7 +1266,17 @@
         "hearing aid",
         "real-world listening"
       ],
-      "source": "crossref+pubmed"
+      "source": "crossref+pubmed",
+      "ai_analysis": {
+        "scientific_question": "人格特质、认知能力和听力损失程度是否会影响日常环境中背景声学特征与自我报告聆听努力和心率之间的关联？",
+        "key_highlight": "更高的尽责性和听力损失程度与声压级增加时更高的自我报告聆听努力相关，而更高的尽责性和更低的认知能力与信噪比增加时更高的心率相关。",
+        "main_limitation": "Not stated in the abstract",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "158e03f5f4bd69ce",
+        "updated_at": "2026-05-10T05:44:44Z"
+      }
     },
     {
       "title": "Interaction between spatial perception and self-relevance: Self-relevance improves the discrimination of distance from oneself in the extrapersonal space",
@@ -1042,7 +1322,17 @@
       "tags": [
         "auditory physiology"
       ],
-      "source": "crossref+pubmed"
+      "source": "crossref+pubmed",
+      "ai_analysis": {
+        "scientific_question": "常规可用的多回波全脑fMRI技术能否有效映射群体和个体水平的听觉系统激活？",
+        "key_highlight": "多回波fMRI结合精度映射策略可显著提升个体水平听觉系统激活检测的灵敏度，实现全脑多区域双侧激活的精准定位。",
+        "main_limitation": "Not stated in the abstract",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "f4b279ef9e88272a",
+        "updated_at": "2026-05-10T05:45:03Z"
+      }
     },
     {
       "title": "Morphology modulation and its forefront implication of a three-dimensional particulate-fluid system by weaving acoustic field",
@@ -1060,7 +1350,17 @@
       "keywords": [],
       "tags": [],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-05-01"
+      "available_online_date": "2026-05-01",
+      "ai_analysis": {
+        "scientific_question": "如何利用三维声学超材料编织平台实现对颗粒-流体系统中颗粒形态（聚集、流化、捕获）的有效调控？",
+        "key_highlight": "该平台通过声子带隙峰增益（Q因子4.5）在低频(<0.8 kHz)条件下实现声压放大，并观测到毫米级软物质颗粒的Y形分叉聚集波现象可被共振调制。",
+        "main_limitation": "未在摘要中明确陈述研究的主要局限性或不确定性。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "c4281d79e0277e6b",
+        "updated_at": "2026-05-10T05:45:20Z"
+      }
     },
     {
       "title": "Musical pitch and timbre perception deficits in tinnitus with normal hearing: the role of extended high-frequency sensitivity and spectral-temporal resolution",
@@ -1090,7 +1390,17 @@
         "clinical audiology",
         "psychoacoustics"
       ],
-      "source": "crossref+pubmed"
+      "source": "crossref+pubmed",
+      "ai_analysis": {
+        "scientific_question": "耳鸣患者在常规听力图正常的情况下，其扩展高频听力及阈上听觉处理能力的损伤是否导致音乐音高和音色的感知困难。",
+        "key_highlight": "与正常对照组相比，伴有耳鸣的正常听力个体在音高感知、音色识别及时频分辨能力上均显著下降，且这些阈上感知缺陷与扩展高频听力及耳鸣严重程度相关联。",
+        "main_limitation": "未在摘要中陈述研究局限性，横断面设计无法建立因果关系，且样本仅纳入双侧耳鸣患者。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "9b4acd4611c6d166",
+        "updated_at": "2026-05-10T05:45:29Z"
+      }
     },
     {
       "title": "Neuroscience Prior knowledge guided EEG representation disentanglement for auditory attention decoding",
@@ -1120,7 +1430,17 @@
       "tags": [
         "auditory physiology"
       ],
-      "source": "crossref+pubmed"
+      "source": "crossref+pubmed",
+      "ai_analysis": {
+        "scientific_question": "如何将神经科学的层级处理和时间异步等先验知识有效整合到脑电图的听觉注意解码模型中？",
+        "key_highlight": "该框架通过结合层级对比学习和层级互信息最小化策略，在听觉注意解码任务上显著超越了现有方法。",
+        "main_limitation": "Not stated in the abstract",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "98e35291dc35c649",
+        "updated_at": "2026-05-10T05:45:51Z"
+      }
     },
     {
       "title": "Synchronization of two active ears via binaural coupling",
@@ -1145,7 +1465,17 @@
       "tags": [
         "auditory physiology"
       ],
-      "source": "crossref+pubmed"
+      "source": "crossref+pubmed",
+      "ai_analysis": {
+        "scientific_question": "双耳耦合如何影响自发性耳声发射的产生机制，而不仅仅是单一耳朵内部的局部过程。",
+        "key_highlight": "发现双耳之间存在频率依赖性的相位锁定现象，且双耳耦合对发射的影响可大于同耳内发生器之间的耦合。",
+        "main_limitation": "未在摘要中说明",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "19bf6ce906e5c07b",
+        "updated_at": "2026-05-10T05:45:58Z"
+      }
     },
     {
       "title": "Association Between Age-Related Sensory and Metabolic Hearing Loss and Cognitive Performance",
@@ -1175,7 +1505,17 @@
         "clinical audiology"
       ],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-04-30"
+      "available_online_date": "2026-04-30",
+      "ai_analysis": {
+        "scientific_question": "探讨年龄相关性听力损失的感觉成分和代谢成分与老年人认知功能障碍之间的关系",
+        "key_highlight": "代谢性听力损失而非感觉性听力损失与认知功能表现显著相关，尤其与处理速度的相关性最强",
+        "main_limitation": "Not stated in the abstract",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "8be5d77ddd954ce5",
+        "updated_at": "2026-05-10T05:46:13Z"
+      }
     },
     {
       "title": "Characterizing Perception of Impulse Sounds Through Subjective Ratings and Pupillometric Responses",
@@ -1203,7 +1543,17 @@
         "real-world listening"
       ],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-04-30"
+      "available_online_date": "2026-04-30",
+      "ai_analysis": {
+        "scientific_question": "冲激声感知如何通过主观评分和瞳孔测量响应来系统表征？",
+        "key_highlight": "主观响度与不适评分对瞳孔扩张的解释力优于物理声压级，且混响条件相比消声条件显著提升感知强度。",
+        "main_limitation": "研究样本限于青年正常听力成人，且不适响度阈值和自评声音敏感度均未能显著预测主观或生理响应。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "3f4b82156d7c7e40",
+        "updated_at": "2026-05-10T05:46:26Z"
+      }
     },
     {
       "title": "A systematic review of noise pollution in hospitals",
@@ -1223,7 +1573,17 @@
       "keywords": [],
       "tags": [],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-04-29"
+      "available_online_date": "2026-04-29",
+      "ai_analysis": {
+        "scientific_question": "医院各科室的噪声来源及其降噪措施分别有哪些？",
+        "key_highlight": "该综述发现患者与医护人员对话和医疗设备报警是最常见的噪声来源，尽管干预措施通常能降低噪声，但声级仍未达到世卫组织标准，且降噪措施主要为管理类措施。",
+        "main_limitation": "Not stated in the abstract",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "6ac2b16e327087fb",
+        "updated_at": "2026-05-10T05:46:38Z"
+      }
     },
     {
       "title": "The Relationship Between Vestibular, Hearing, and Balance Outcomes in Individuals With Down Syndrome",
@@ -1251,7 +1611,17 @@
         "clinical audiology"
       ],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-04-29"
+      "available_online_date": "2026-04-29",
+      "ai_analysis": {
+        "scientific_question": "本研究旨在确定唐氏综合征患者前庭功能障碍的患病率及其与听力测定和平衡结果之间的关系。",
+        "key_highlight": "约三分之一唐氏综合征患者存在不同程度的前庭功能障碍，且前庭功能障碍在感音神经性听力损失患者中更为常见，使用骨导刺激进行前庭诱发肌源性电位测试可获得更高的检出率。",
+        "main_limitation": "Not stated in the abstract",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "abstract_hash": "c175f606cdf70abb",
+        "updated_at": "2026-05-10T05:46:53Z"
+      }
     },
     {
       "title": "A modified angular spectrum method for rapid on-demand design of axisymmetric acoustic metalenses",
@@ -4356,11 +4726,11 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -4371,11 +4741,11 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -5027,6 +5397,35 @@
       "source": "crossref+pubmed"
     },
     {
+      "title": "The Effectiveness of Vestibular Rehabilitation in Vestibular Migraine: A Systematic Review.",
+      "authors": [
+        "Ioanna Sfakianaki",
+        "Christos Nikitas",
+        "Dimitrios Kikidis"
+      ],
+      "journal": "Journal of the Association for Research in Otolaryngology",
+      "publication_date": "2026-04-01",
+      "doi": "10.1007/s10162-026-01042-2",
+      "url": "https://doi.org/10.1007/s10162-026-01042-2",
+      "full_text_url": "https://link.springer.com/article/10.1007/s10162-026-01042-2",
+      "abstract": "This systematic review evaluates the effectiveness of vestibular rehabilitation (VR) in managing vestibular migraine (VM) symptoms in adults. A systematic search of PubMed, Web of Science, Scopus, ProQuest, ScienceDirect, and CENTRAL was conducted from inception to September 30, 2024. Additional searches included the NIH Clinical Trials Register and WHO ICTRP. Key search terms included: (\"Vestibular migraine\" OR \"migraine-associated vertigo\" OR \"migrainous vertigo\" OR \"migraine-associated dizziness\") AND (\"Vestibular rehabilitation\" OR \"Vestibular exercis*\" OR \"balance rehabilitation\" OR \"balance physiotherapy\" OR \"exercis*\"). Studies were excluded if they were non-English studies, irrelevant topics or unacceptable study types. Eligible studies included adults over 18 years diagnosed with VM based on Barany or Neuhauser criteria, excluding those with severe comorbidities or other causes of vertigo. Comparisons involved VR versus alternative treatments or controls, using outcome measures such as subjective scales (DHI, DGI, HADS) and performance tests. Data on design, sample size, age, sex, interventions, comparators, outcomes, results, and follow-up were extracted. Eleven studies (six prospective, three retrospective, two RCTs) with 977 participants (mean age 48.46) were analyzed. VR interventions included adaptation, substitution, habituation, balance, and gait exercises, delivered home-based, therapist-supervised, or combined. Significant improvements in vertigo, dizziness, imbalance, headache, anxiety, and depression were noted, with ten studies showing better DHI scores. However, high bias risk stemmed from limited randomization, blinding, and self-reported measures. In conclusion, VR proves to be effective for managing dizziness, balance, and psychological outcomes in VM, offering a non-pharmacologic option. Future research should prioritize standardized interventions, larger cohorts, and long-term follow-ups.",
+      "first_author_affiliation": "Department of Otorhinolaryngology-Head and Neck Surgery, Hippokrateion General Hospital, Konstantinoupoleos 49, 54642, Thessaloniki, Greece. g_sfakianaki@yahoo.com.",
+      "key_image_url": "https://static-content.springer.com/image/art%3A10.1007%2Fs10162-026-01042-2/MediaObjects/10162_2026_1042_Fig1_HTML.png",
+      "key_image_alt": "Content cover image",
+      "section": null,
+      "keywords": [
+        "Dizziness",
+        "Physical therapy",
+        "Vertigo",
+        "Vestibular migraine",
+        "Vestibular rehabilitation"
+      ],
+      "tags": [
+        "clinical audiology"
+      ],
+      "source": "pubmed"
+    },
+    {
       "title": "The Suppressibility of Otoacoustic Emissions and Loudness by Low-Frequency Biasing Tones as a Function of Probe Level.",
       "authors": [
         "Torsten Marquardt",
@@ -5234,7 +5633,8 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref"
+      "source": "crossref",
+      "available_online_date": "2026-03-31"
     },
     {
       "title": "Exploring the impact of attention and sensory processing abilities on vocal motor control in children",
@@ -5393,7 +5793,8 @@
       "tags": [
         "machine learning"
       ],
-      "source": "crossref"
+      "source": "crossref",
+      "available_online_date": "2026-03-26"
     },
     {
       "title": "Identity Formation and Influencing Factors in d/Deaf Adolescents and Young Adults: A Qualitative Interview Study",
@@ -5607,7 +6008,8 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-03-24"
+      "available_online_date": "2026-03-24",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/3/2741/3384715/Contextual-similarity-beyond-segments"
     },
     {
       "title": "Three-dimensional passive localization of near-surface targets using a deep-sea bottom mounted horizontal array",
@@ -5628,7 +6030,8 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-03-24"
+      "available_online_date": "2026-03-24",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/3/036004/3384718/Three-dimensional-passive-localization-of-near"
     },
     {
       "title": "A direct comparison of time reversal and cross correlation for shear wave elastography",
@@ -5649,7 +6052,8 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-03-23"
+      "available_online_date": "2026-03-23",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/3/2685/3384625/A-direct-comparison-of-time-reversal-and-cross"
     },
     {
       "title": "Direction-of-arrival estimation for weak underwater targets via flexible sparsity-aware modeling",
@@ -5669,7 +6073,8 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-03-23"
+      "available_online_date": "2026-03-23",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/3/2670/3384523/Direction-of-arrival-estimation-for-weak"
     },
     {
       "title": "Optimizing Sound Quality Improves Hearing Aid Users’ Moods and Listening-Related Fatigue",
@@ -5779,7 +6184,8 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-03-23"
+      "available_online_date": "2026-03-23",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/3/2694/3384524/Performance-of-a-through-transmit-aberration"
     },
     {
       "title": "Rapid Characterization of Middle-Ear Muscle Reflexes Using Swept Elicitors",
@@ -5837,7 +6243,8 @@
         "speech perception"
       ],
       "source": "crossref",
-      "available_online_date": "2026-03-23"
+      "available_online_date": "2026-03-23",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/3/032802/3384530/Speaker-dependent-laser-Doppler-vibrometer-based"
     },
     {
       "title": "Visual Implicit Learning and Speech Recognition in Adult Post-Lingual Cochlear Implant Users",
@@ -5897,7 +6304,8 @@
         "speech perception"
       ],
       "source": "crossref",
-      "available_online_date": "2026-03-20"
+      "available_online_date": "2026-03-20",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/3/2647/3384331/Adaptive-noise-reduction-and-speech"
     },
     {
       "title": "Exploiting relative transfer function for source localization in underwater acoustics",
@@ -5917,7 +6325,8 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-03-20"
+      "available_online_date": "2026-03-20",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/3/036003/3384172/Exploiting-relative-transfer-function-for-source"
     },
     {
       "title": "Moderate but not high noise during training is associated with stronger generalization to quiet",
@@ -5935,7 +6344,8 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-03-20"
+      "available_online_date": "2026-03-20",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/3/035206/3384171/Moderate-but-not-high-noise-during-training-is"
     },
     {
       "title": "Study on the low-frequency bandgap characteristics of the microsphere array three-dimensional phononic crystal",
@@ -5957,7 +6367,8 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-03-20"
+      "available_online_date": "2026-03-20",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/3/2620/3384168/Study-on-the-low-frequency-bandgap-characteristics"
     },
     {
       "title": "A Binaural Front End for Speech Intelligibility Models: Application to the Hearing-Aid Speech Perception Index (HASPI)",
@@ -6033,7 +6444,8 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-03-19"
+      "available_online_date": "2026-03-19",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/3/032402/3384105/Calculating-multiple-scattering-by-circular"
     },
     {
       "title": "Introduction to the special issue on active and tunable acoustic metamaterials",
@@ -6053,7 +6465,8 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-03-19"
+      "available_online_date": "2026-03-19",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/3/2591/3384114/Introduction-to-the-special-issue-on-active-and"
     },
     {
       "title": "An optimal control point distribution method for two-channel crosstalk cancellation",
@@ -6073,7 +6486,8 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-03-18"
+      "available_online_date": "2026-03-18",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/3/2539/3384030/An-optimal-control-point-distribution-method-for"
     },
     {
       "title": "Adaptive Bayesian beamforming for imaging by marginalizing the speed of sound",
@@ -6092,7 +6506,8 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-03-17"
+      "available_online_date": "2026-03-17",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/3/038601/3383832/Adaptive-Bayesian-beamforming-for-imaging-by"
     },
     {
       "title": "Cognitive Shifting Ability Does Not Predict Self-Perceived Hearing Difficulties in Adult Hearing-Aid Users",
@@ -6143,7 +6558,8 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-03-17"
+      "available_online_date": "2026-03-17",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/3/2526/3383831/Mid-frequency-sound-propagation-and-attenuation"
     },
     {
       "title": "Sweet-Spot Compression: An Amplification Strategy for Improving Listening Outcomes at Moderate to High Levels",
@@ -6193,7 +6609,8 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-03-17"
+      "available_online_date": "2026-03-17",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/3/032801/3383833/Turbulence-induced-noise-variability-from-ray"
     },
     {
       "title": "Visual engagement modulates cortical criticality and auditory target detection thresholds in noisy soundscapes",
@@ -6215,7 +6632,8 @@
         "priority section"
       ],
       "source": "crossref",
-      "available_online_date": "2026-03-17"
+      "available_online_date": "2026-03-17",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/3/2513/3383698/Visual-engagement-modulates-cortical-criticality"
     },
     {
       "title": "A geospatial model of global ambient sound levels",
@@ -6240,7 +6658,8 @@
         "machine learning"
       ],
       "source": "crossref",
-      "available_online_date": "2026-03-16"
+      "available_online_date": "2026-03-16",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/3/2444/3383694/A-geospatial-model-of-global-ambient-sound-levelsa"
     },
     {
       "title": "Assessing Visual Contributions to the Perception of Speech in Noise",
@@ -6293,7 +6712,8 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-03-16"
+      "available_online_date": "2026-03-16",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/3/035205/3383707/Comparing-vowel-intelligibility-across-interactive"
     },
     {
       "title": "Measuring age-related differences in phonetic gradiency with the visual analogue scale and eye tracking",
@@ -6318,7 +6738,8 @@
         "speech perception"
       ],
       "source": "crossref",
-      "available_online_date": "2026-03-16"
+      "available_online_date": "2026-03-16",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/3/2460/3383697/Measuring-age-related-differences-in-phonetic"
     },
     {
       "title": "Polygenic Contribution to Sensorineural Hearing Loss Implicates Novel Risk Loci and Convergence with Congenital Hearing Loss Genes",
@@ -6349,36 +6770,6 @@
       ],
       "tags": [
         "auditory physiology",
-        "clinical audiology"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-03-16"
-    },
-    {
-      "title": "The Effectiveness of Vestibular Rehabilitation in Vestibular Migraine: A Systematic Review",
-      "authors": [
-        "Ioanna Sfakianaki",
-        "Christos Nikitas",
-        "Dimitrios Kikidis"
-      ],
-      "journal": "Journal of the Association for Research in Otolaryngology",
-      "publication_date": "2026-03-16",
-      "doi": "10.1007/s10162-026-01042-2",
-      "url": "https://doi.org/10.1007/s10162-026-01042-2",
-      "full_text_url": "https://link.springer.com/article/10.1007/s10162-026-01042-2",
-      "abstract": "This systematic review evaluates the effectiveness of vestibular rehabilitation (VR) in managing vestibular migraine (VM) symptoms in adults. A systematic search of PubMed, Web of Science, Scopus, ProQuest, ScienceDirect, and CENTRAL was conducted from inception to September 30, 2024. Additional searches included the NIH Clinical Trials Register and WHO ICTRP. Key search terms included: (\"Vestibular migraine\" OR \"migraine-associated vertigo\" OR \"migrainous vertigo\" OR \"migraine-associated dizziness\") AND (\"Vestibular rehabilitation\" OR \"Vestibular exercis*\" OR \"balance rehabilitation\" OR \"balance physiotherapy\" OR \"exercis*\"). Studies were excluded if they were non-English studies, irrelevant topics or unacceptable study types. Eligible studies included adults over 18 years diagnosed with VM based on Barany or Neuhauser criteria, excluding those with severe comorbidities or other causes of vertigo. Comparisons involved VR versus alternative treatments or controls, using outcome measures such as subjective scales (DHI, DGI, HADS) and performance tests. Data on design, sample size, age, sex, interventions, comparators, outcomes, results, and follow-up were extracted. Eleven studies (six prospective, three retrospective, two RCTs) with 977 participants (mean age 48.46) were analyzed. VR interventions included adaptation, substitution, habituation, balance, and gait exercises, delivered home-based, therapist-supervised, or combined. Significant improvements in vertigo, dizziness, imbalance, headache, anxiety, and depression were noted, with ten studies showing better DHI scores. However, high bias risk stemmed from limited randomization, blinding, and self-reported measures. In conclusion, VR proves to be effective for managing dizziness, balance, and psychological outcomes in VM, offering a non-pharmacologic option. Future research should prioritize standardized interventions, larger cohorts, and long-term follow-ups.",
-      "first_author_affiliation": "Department of Otorhinolaryngology-Head and Neck Surgery, Hippokrateion General Hospital, Konstantinoupoleos 49, 54642, Thessaloniki, Greece. g_sfakianaki@yahoo.com.",
-      "key_image_url": "https://static-content.springer.com/image/art%3A10.1007%2Fs10162-026-01042-2/MediaObjects/10162_2026_1042_Fig1_HTML.png",
-      "key_image_alt": "Content cover image",
-      "section": null,
-      "keywords": [
-        "Dizziness",
-        "Physical therapy",
-        "Vertigo",
-        "Vestibular migraine",
-        "Vestibular rehabilitation"
-      ],
-      "tags": [
         "clinical audiology"
       ],
       "source": "crossref+pubmed",
@@ -6474,7 +6865,8 @@
         "speech perception"
       ],
       "source": "crossref",
-      "available_online_date": "2026-03-13"
+      "available_online_date": "2026-03-13",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/3/2359/3383641/Consonant-perception-and-error-patterns-in"
     },
     {
       "title": "Evaluation of boat noise impact on the sound detection ability of snapping shrimp (Alpheidae)",
@@ -6499,7 +6891,8 @@
         "priority section"
       ],
       "source": "crossref",
-      "available_online_date": "2026-03-13"
+      "available_online_date": "2026-03-13",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/3/2282/3383651/Evaluation-of-boat-noise-impact-on-the-sound"
     },
     {
       "title": "Measured differences in the sound emission of multi-rotor unmanned aerial systems during hover and cruise",
@@ -6523,7 +6916,8 @@
         "psychoacoustics"
       ],
       "source": "crossref",
-      "available_online_date": "2026-03-13"
+      "available_online_date": "2026-03-13",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/3/2398/3383638/Measured-differences-in-the-sound-emission-of"
     },
     {
       "title": "Testing a dominance-region hypothesis for interaural time discrimination using off-frequency maskers",
@@ -6545,7 +6939,8 @@
         "psychoacoustics"
       ],
       "source": "crossref",
-      "available_online_date": "2026-03-13"
+      "available_online_date": "2026-03-13",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/3/034402/3383653/Testing-a-dominance-region-hypothesis-for"
     },
     {
       "title": "An adaptive loop gain CLEAN algorithm based on spatial source coherence for port/starboard discrimination",
@@ -6563,7 +6958,8 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-03-12"
+      "available_online_date": "2026-03-12",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/3/2199/3383331/An-adaptive-loop-gain-CLEAN-algorithm-based-on"
     },
     {
       "title": "An evolutionary history of human listening: Mismatches between auditory priors and contemporary acoustic environments",
@@ -6584,7 +6980,8 @@
         "real-world listening"
       ],
       "source": "crossref",
-      "available_online_date": "2026-03-12"
+      "available_online_date": "2026-03-12",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/3/037202/3383325/An-evolutionary-history-of-human-listening"
     },
     {
       "title": "Evaluation of the Global Score From the Abbreviated Profile of Hearing-Aid Performance and the Development of an Improved Shorter Version: The APHAP9",
@@ -6634,7 +7031,8 @@
         "machine learning"
       ],
       "source": "crossref",
-      "available_online_date": "2026-03-12"
+      "available_online_date": "2026-03-12",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/3/2174/3383300/Factors-determining-the-quality-of-learned-elastic"
     },
     {
       "title": "Pre-aspiration and longitudinal voice quality trends in Received Pronunciation: The case of Queen Elizabeth II",
@@ -6652,7 +7050,8 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-03-12"
+      "available_online_date": "2026-03-12",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/3/035204/3383358/Pre-aspiration-and-longitudinal-voice-quality"
     },
     {
       "title": "Reconstruction of transient acoustic field based on the improved convective time-domain equivalent source method",
@@ -6672,7 +7071,8 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-03-12"
+      "available_online_date": "2026-03-12",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/3/2155/3383352/Reconstruction-of-transient-acoustic-field-based"
     },
     {
       "title": "Implicit and Explicit Voice Training Effects on Speech-on-Speech Perception and Listening Effort",
@@ -6768,7 +7168,8 @@
         "machine learning"
       ],
       "source": "crossref",
-      "available_online_date": "2026-03-11"
+      "available_online_date": "2026-03-11",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/3/2139/3383214/long-range-underwater-acoustic-hyperbolic"
     },
     {
       "title": "Metacognition for Listening in Noise: The Role of Age and Hearing Loss",
@@ -8065,7 +8466,8 @@
       "tags": [
         "speech perception"
       ],
-      "source": "pubmed"
+      "source": "pubmed",
+      "full_text_url": "https://journals.lww.com/10.1097/AUD.0000000000001758"
     },
     {
       "title": "Unaided and Aided Speech Intelligibility in a Real and Virtual Acoustic Environment",
@@ -8090,7 +8492,8 @@
         "speech perception"
       ],
       "source": "crossref",
-      "available_online_date": "2025-12-15"
+      "available_online_date": "2025-12-15",
+      "full_text_url": "https://journals.sagepub.com/doi/10.1177/23312165251389112"
     },
     {
       "title": "Masked-speech Recognition Using Human and Synthetic Cloned Speech",
@@ -8112,7 +8515,8 @@
         "speech perception"
       ],
       "source": "crossref",
-      "available_online_date": "2025-12-08"
+      "available_online_date": "2025-12-08",
+      "full_text_url": "https://journals.sagepub.com/doi/10.1177/23312165251403080"
     },
     {
       "title": "Voice Familiarization Training Improves Speech Intelligibility and Reduces Listening Effort",
@@ -8134,7 +8538,8 @@
         "speech perception"
       ],
       "source": "crossref",
-      "available_online_date": "2025-12-08"
+      "available_online_date": "2025-12-08",
+      "full_text_url": "https://journals.sagepub.com/doi/10.1177/23312165251401318"
     },
     {
       "title": "Objective Evaluation of a Deep Learning-Based Noise Reduction Algorithm for Hearing Aids Under Diverse Fitting and Listening Conditions",
@@ -8160,7 +8565,8 @@
         "speech perception"
       ],
       "source": "crossref",
-      "available_online_date": "2025-11-25"
+      "available_online_date": "2025-11-25",
+      "full_text_url": "https://journals.sagepub.com/doi/10.1177/23312165251396644"
     },
     {
       "title": "At-Home Auditory Assessment Using Portable Automated Rapid Testing (PART) to Understand Self-Reported Hearing Difficulties",
@@ -8186,7 +8592,8 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2025-11-24"
+      "available_online_date": "2025-11-24",
+      "full_text_url": "https://journals.sagepub.com/doi/10.1177/23312165251397373"
     },
     {
       "title": "Bimodal Cochlear Implants: Measurement of the Localization Performance as a Function of Device Latency Difference",
@@ -8211,7 +8618,8 @@
         "hearing aid"
       ],
       "source": "crossref",
-      "available_online_date": "2025-11-24"
+      "available_online_date": "2025-11-24",
+      "full_text_url": "https://journals.sagepub.com/doi/10.1177/23312165251396658"
     },
     {
       "title": "The Effect of Temporal Misalignment Between Acoustic and Simulated Electric Signals on the Time Compression Thresholds of Normal-Hearing Listeners",
@@ -8234,7 +8642,8 @@
         "cochlear implant"
       ],
       "source": "crossref",
-      "available_online_date": "2025-11-24"
+      "available_online_date": "2025-11-24",
+      "full_text_url": "https://journals.sagepub.com/doi/10.1177/23312165251397699"
     },
     {
       "title": "Long-Term Stability of Electrical Stimulation in Children with Bilateral Cochlear Implants",
@@ -8260,7 +8669,8 @@
         "cochlear implant"
       ],
       "source": "crossref",
-      "available_online_date": "2025-11-19"
+      "available_online_date": "2025-11-19",
+      "full_text_url": "https://journals.sagepub.com/doi/10.1177/23312165251398130"
     },
     {
       "title": "Association of Tinnitus With Speech Recognition and Executive Functions in Older Adults",
@@ -8286,7 +8696,8 @@
         "speech perception"
       ],
       "source": "crossref",
-      "available_online_date": "2025-11-13"
+      "available_online_date": "2025-11-13",
+      "full_text_url": "https://journals.sagepub.com/doi/10.1177/23312165251389585"
     },
     {
       "title": "ALICE: Improved Speech in Noise Understanding with Self-guided Hearing Care",
@@ -8312,7 +8723,8 @@
         "hearing aid",
         "speech perception"
       ],
-      "source": "crossref"
+      "source": "crossref",
+      "full_text_url": "https://journals.sagepub.com/doi/10.1177/23312165251393034"
     }
   ]
 }
