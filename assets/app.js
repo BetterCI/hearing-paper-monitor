@@ -1046,29 +1046,37 @@ function isEarAndHearing(paper) {
 }
 
 function parseStructuredAbstract(abstract) {
+  const sectionNames = ["Objectives", "Design", "Results", "Conclusions"];
+  const sectionPattern = /(?:^|\n)(Objectives?|Design|Results?|Conclusions?)\s*[:\.]\s*/gi;
+
+  const parts = abstract.split(sectionPattern);
   const sections = [];
-  const lines = abstract.split(/\n/);
-  let currentSection = null;
-  let currentContent = [];
 
-  for (const line of lines) {
-    const trimmed = line.trim();
-    if (!trimmed) continue;
-
-    const sectionMatch = trimmed.match(/^(Objectives?|Design|Results?|Conclusions?)\s*[:\.]?\s*/i);
-    if (sectionMatch) {
-      if (currentSection) {
-        sections.push({ section: currentSection, content: currentContent.join(" ").trim() });
-      }
-      currentSection = sectionMatch[1];
-      currentContent = [trimmed.slice(sectionMatch[0].length)];
-    } else if (currentSection) {
-      currentContent.push(trimmed);
+  let i = 1;
+  while (i < parts.length - 1) {
+    const header = parts[i].trim();
+    const content = (parts[i + 1] || "").replace(/\n+/g, " ").trim();
+    const matchedName = sectionNames.find(
+      (n) => n.toLowerCase() === header.toLowerCase()
+    );
+    if (matchedName && content) {
+      sections.push({ section: matchedName, content });
     }
+    i += 2;
   }
 
-  if (currentSection) {
-    sections.push({ section: currentSection, content: currentContent.join(" ").trim() });
+  if (sections.length < 3) {
+    const altPattern = /(Objectives?|Design|Results?|Conclusions?)\s*[:\.]\s*/gi;
+    const matches = [...abstract.matchAll(altPattern)];
+    if (matches.length >= 3) {
+      sections = [];
+      for (let i = 0; i < matches.length; i++) {
+        const start = matches[i].index + matches[i][0].length;
+        const end = i + 1 < matches.length ? matches[i + 1].index : abstract.length;
+        const content = abstract.slice(start, end).replace(/\n+/g, " ").trim();
+        sections.push({ section: matches[i][1], content });
+      }
+    }
   }
 
   return sections;
