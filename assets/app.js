@@ -893,7 +893,7 @@ function getAiAnalysis(paper) {
   return Object.values(values).some(Boolean) ? values : null;
 }
 
-const CF_WORKER_URL = "https://hearing-paper-analytics.mengq.workers.dev";
+const CF_WORKER_URL = "https://hearing-paper-monitor.mengqinglin08.workers.dev";
 
 async function generateAnalysis(paper) {
   const response = await fetch(CF_WORKER_URL, {
