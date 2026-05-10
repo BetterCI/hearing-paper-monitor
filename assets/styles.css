@@ -48,6 +48,14 @@ h1 {
   letter-spacing: 0;
 }
 
+.subtitle {
+  max-width: 760px;
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: clamp(0.98rem, 1.4vw, 1.15rem);
+  line-height: 1.45;
+}
+
 .status {
   display: flex;
   flex-direction: column;
