@@ -699,7 +699,6 @@ function paperRelevanceScore(paper) {
   ];
   const hasPriority = priorityTerms.some((term) => textLower.includes(term));
   if (hasPriority) score += 5;
-  if (isJasaSectionHighlight(paper)) score += 2;
   if (getAiAnalysis(paper)) score += 1;
   if (paper.abstract) score += 1;
   if (tags.some((tag) => ["Clinical Audiology", "Speech Perception", "Auditory Neuroscience", "Machine Learning", "Objective Evaluation"].includes(tag))) {
