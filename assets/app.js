@@ -745,7 +745,7 @@ function renderRecentOverview(papers = state.papers) {
   const sorted = sortedPapers(papers);
   renderCompactPaperList(els.latestUpdates, sorted.slice(0, 5), { featureFirst: true });
 
-  const highlights = sorted.filter(isJasaSectionHighlight).slice(0, 6);
+  const highlights = sorted.filter(isJasaSectionHighlight).slice(0, 4);
   renderCompactPaperList(els.sectionHighlights, highlights, { showAuthors: true, showAffiliation: true });
 
   const recentWindow = papersInLatestWindow(papers, 30);
