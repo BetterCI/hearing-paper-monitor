@@ -319,6 +319,17 @@ def all_papers(conn: sqlite3.Connection) -> list[dict]:
     return papers
 
 
+def earliest_publication_date(conn: sqlite3.Connection) -> str | None:
+    row = conn.execute(
+        """
+        SELECT MIN(publication_date)
+        FROM papers
+        WHERE publication_date GLOB '????-??-??'
+        """
+    ).fetchone()
+    return row[0] if row and row[0] else None
+
+
 def export_json(conn: sqlite3.Connection, output_path: Path) -> None:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     payload = {

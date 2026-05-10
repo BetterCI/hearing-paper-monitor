@@ -10,7 +10,10 @@
     <header class="topbar">
       <div>
         <h1>n³ Hearing Science Monitor</h1>
-        <p class="subtitle">Tracking recent publications in hearing science, audiology, and artificial hearing.</p>
+        <p class="subtitle">
+          <span class="subtitle-text">Tracking recent publications in hearing science, audiology, and artificial hearing.</span>
+          <button id="sourceInfoToggle" class="source-info-toggle" type="button" aria-label="About the monitored journals" aria-haspopup="dialog">i</button>
+        </p>
         <p class="lab-info">Developed by SLENT-SCUT Digital Hearing Healthcare Joint Lab</p>
       </div>
       <div class="status">
@@ -92,6 +95,70 @@
       <section id="papers" class="papers" aria-live="polite"></section>
       <p id="emptyState" class="empty" hidden>No papers match the current filters.</p>
     </main>
+
+    <dialog id="sourceInfoDialog" class="source-info-dialog" aria-labelledby="sourceInfoTitle">
+      <div class="source-info-panel">
+        <div class="source-info-header">
+          <h2 id="sourceInfoTitle">Why These Journals?</h2>
+          <button id="sourceInfoClose" class="source-info-close" type="button" aria-label="Close">x</button>
+        </div>
+        <p>
+          This monitor follows six core hearing-science journals because they regularly publish work that connects auditory theory, clinical audiology, speech perception, cochlear implants, hearing aids, and listening technologies.
+        </p>
+        <ul class="source-info-list">
+          <li><strong>JASA</strong><span>Foundational acoustics, psychoacoustics, speech communication, and auditory perception.</span></li>
+          <li><strong>JASA Express Letters</strong><span>Rapid reports across acoustics, speech, and hearing-related auditory science.</span></li>
+          <li><strong>Trends in Hearing</strong><span>Open-access research on hearing, communication, and translational auditory science.</span></li>
+          <li><strong>JARO</strong><span>Mechanistic auditory research from the cochlea through neural and perceptual systems.</span></li>
+          <li><strong>Ear and Hearing</strong><span>Clinical audiology, diagnostics, rehabilitation, amplification, and patient outcomes.</span></li>
+          <li><strong>Hearing Research</strong><span>Basic and applied auditory research spanning biology, neuroscience, and technology-relevant mechanisms.</span></li>
+        </ul>
+        <p>
+          Together, these sources capture basic and applied-basic research that is especially important for hearing technologies, including better models, measurements, devices, fitting strategies, and real-world listening outcomes.
+        </p>
+      </div>
+    </dialog>
+
+    <div id="hearingBunny" class="hearing-bunny" aria-hidden="true">
+      <div class="bunny-callout">boop!</div>
+      <svg class="bunny-svg" viewBox="0 0 150 170" role="img">
+        <g class="bunny-shadow">
+          <ellipse cx="78" cy="158" rx="44" ry="8" />
+        </g>
+        <g class="bunny-body">
+          <ellipse class="bunny-torso" cx="78" cy="107" rx="43" ry="48" />
+          <ellipse class="bunny-belly" cx="84" cy="115" rx="25" ry="29" />
+          <path class="bunny-tail" d="M36 112c-12 0-20 8-20 18s8 17 19 17c10 0 18-7 18-17s-7-18-17-18Z" />
+          <path class="bunny-foot bunny-foot-left" d="M49 145c-17 1-28 7-28 15 0 7 13 8 29 5 14-3 21-10 18-15-2-4-9-6-19-5Z" />
+          <path class="bunny-foot bunny-foot-right" d="M93 145c17 1 29 7 29 15 0 7-13 8-29 5-14-3-21-10-18-15 2-4 9-6 18-5Z" />
+          <path class="bunny-arm bunny-arm-left" d="M43 100c-13 9-16 24-9 28 7 5 18-6 22-19" />
+          <path class="bunny-arm bunny-arm-right" d="M108 99c14 8 18 22 12 28-7 6-18-5-23-18" />
+        </g>
+        <g class="bunny-head">
+          <path class="bunny-ear bunny-ear-left" d="M54 58C38 26 43 5 56 4c12-1 19 21 18 54" />
+          <path class="bunny-ear bunny-ear-right" d="M88 58c-4-34 4-56 17-54 13 2 16 25-1 56" />
+          <path class="bunny-ear-inner bunny-ear-inner-left" d="M58 49C50 29 53 15 58 14c6-1 10 14 9 36" />
+          <path class="bunny-ear-inner bunny-ear-inner-right" d="M94 50c-1-22 4-37 10-36 6 1 8 16-1 36" />
+          <circle class="hearing-aid-body" cx="107" cy="58" r="7" />
+          <path class="hearing-aid-hook" d="M105 61c-8 6-8 15 1 20" />
+          <circle class="hearing-aid-tip" cx="106" cy="81" r="3" />
+          <ellipse class="bunny-face" cx="78" cy="74" rx="40" ry="35" />
+          <circle class="bunny-cheek bunny-cheek-left" cx="55" cy="82" r="8" />
+          <circle class="bunny-cheek bunny-cheek-right" cx="101" cy="82" r="8" />
+          <g class="bunny-eye bunny-eye-left">
+            <circle cx="64" cy="68" r="4" />
+            <circle class="eye-spark" cx="65.5" cy="66.5" r="1.2" />
+          </g>
+          <g class="bunny-eye bunny-eye-right">
+            <circle cx="92" cy="68" r="4" />
+            <circle class="eye-spark" cx="93.5" cy="66.5" r="1.2" />
+          </g>
+          <path class="bunny-wink-line" d="M88 68c4-4 9-4 13 0" />
+          <path class="bunny-nose" d="M74 78c2-4 7-4 9 0-2 5-7 5-9 0Z" />
+          <path class="bunny-mouth" d="M78 82c-1 7-8 8-11 3M78 82c1 7 8 8 11 3" />
+        </g>
+      </svg>
+    </div>
 
     <script src="assets/app.js" type="module"></script>
   </body>

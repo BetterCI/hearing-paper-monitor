@@ -133,12 +133,25 @@ def fetch_crossref(journal: Journal, days: int) -> list[Paper]:
     if not journal.crossref:
         return []
     cutoff = dt.date.today() - dt.timedelta(days=days)
+    return _fetch_crossref_window(journal, cutoff)
+
+
+def fetch_crossref_between(journal: Journal, start_date: dt.date, end_date: dt.date) -> list[Paper]:
+    return _fetch_crossref_window(journal, start_date, end_date)
+
+
+def _fetch_crossref_window(journal: Journal, start_date: dt.date, end_date: dt.date | None = None) -> list[Paper]:
+    if not journal.crossref:
+        return []
     papers: list[Paper] = []
 
     for issn in journal.issn:
-        for date_filter in ("from-pub-date", "from-online-pub-date"):
+        for date_filter in ("pub-date", "online-pub-date"):
+            filters = [f"from-{date_filter}:{start_date.isoformat()}", "type:journal-article"]
+            if end_date:
+                filters.insert(1, f"until-{date_filter}:{end_date.isoformat()}")
             params = {
-                "filter": f"{date_filter}:{cutoff.isoformat()},type:journal-article",
+                "filter": ",".join(filters),
                 "sort": "published",
                 "order": "desc",
                 "rows": "100",
@@ -160,11 +173,15 @@ def fetch_crossref(journal: Journal, days: int) -> list[Paper]:
 
 
 def fetch_pubmed(journal: Journal, days: int) -> list[Paper]:
+    end_date = dt.date.today()
+    start_date = end_date - dt.timedelta(days=days)
+    return fetch_pubmed_between(journal, start_date, end_date)
+
+
+def fetch_pubmed_between(journal: Journal, start_date: dt.date, end_date: dt.date) -> list[Paper]:
     if not journal.pubmed:
         return []
 
-    end_date = dt.date.today()
-    start_date = end_date - dt.timedelta(days=days)
     query = " OR ".join(f'"{alias}"[Journal]' for alias in journal.aliases)
     date_range = f"{start_date:%Y/%m/%d}:{end_date:%Y/%m/%d}[Date - Publication]"
     params = {
@@ -193,12 +210,17 @@ def fetch_pubmed(journal: Journal, days: int) -> list[Paper]:
 
 
 def fetch_high_impact_crossref(config: MonitorConfig, days: int) -> list[Paper]:
-    cutoff = dt.date.today() - dt.timedelta(days=days)
+    end_date = dt.date.today()
+    start_date = end_date - dt.timedelta(days=days)
+    return fetch_high_impact_crossref_between(config, start_date, end_date)
+
+
+def fetch_high_impact_crossref_between(config: MonitorConfig, start_date: dt.date, end_date: dt.date) -> list[Paper]:
     papers: list[Paper] = []
 
     for journal_name in _high_impact_query_names(config.high_impact_journals):
         params = {
-            "filter": f"from-pub-date:{cutoff.isoformat()},type:journal-article",
+            "filter": f"from-pub-date:{start_date.isoformat()},until-pub-date:{end_date.isoformat()},type:journal-article",
             "query.container-title": journal_name,
             "sort": "published",
             "order": "desc",
@@ -226,6 +248,10 @@ def fetch_high_impact_crossref(config: MonitorConfig, days: int) -> list[Paper]:
 def fetch_high_impact_pubmed(config: MonitorConfig, days: int) -> list[Paper]:
     end_date = dt.date.today()
     start_date = end_date - dt.timedelta(days=days)
+    return fetch_high_impact_pubmed_between(config, start_date, end_date)
+
+
+def fetch_high_impact_pubmed_between(config: MonitorConfig, start_date: dt.date, end_date: dt.date) -> list[Paper]:
     journals = " OR ".join(f'"{journal}"[Journal]' for journal in _high_impact_query_names(config.high_impact_journals))
     date_range = f"{start_date:%Y/%m/%d}:{end_date:%Y/%m/%d}[Date - Publication]"
     params = {

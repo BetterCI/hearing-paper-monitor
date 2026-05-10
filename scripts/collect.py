@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import datetime as dt
 from pathlib import Path
 
 from paper_monitor.classifier import classify
@@ -8,14 +9,18 @@ from paper_monitor.config import load_config
 from paper_monitor.sources import (
     dedupe_high_impact_papers,
     fetch_crossref,
+    fetch_crossref_between,
     fetch_high_impact_crossref,
+    fetch_high_impact_crossref_between,
     fetch_high_impact_pubmed,
+    fetch_high_impact_pubmed_between,
     fetch_pubmed,
+    fetch_pubmed_between,
     fetch_rss,
     fetch_toc,
     merge_dedupe,
 )
-from paper_monitor.storage import connect, export_json, import_json, upsert_papers
+from paper_monitor.storage import connect, earliest_publication_date, export_json, import_json, upsert_papers
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -58,6 +63,30 @@ def main() -> None:
         total += changed
         print(f"High-impact Journals: {changed} records")
 
+    backfill_window = _backfill_window(conn)
+    if backfill_window:
+        start_date, end_date = backfill_window
+        print(f"Backfill window: {start_date.isoformat()} through {end_date.isoformat()}")
+        for journal in config.journals:
+            groups = [
+                _safe_fetch("Crossref backfill", journal.name, lambda journal=journal: fetch_crossref_between(journal, start_date, end_date)),
+                _safe_fetch("PubMed backfill", journal.name, lambda journal=journal: fetch_pubmed_between(journal, start_date, end_date)),
+            ]
+            papers = [classify(paper, journal, config) for paper in merge_dedupe(groups) if paper.title]
+            changed = upsert_papers(conn, papers)
+            total += changed
+            print(f"{journal.name} backfill: {changed} records")
+
+        if config.high_impact_journals:
+            groups = [
+                _safe_fetch("Crossref backfill", "High-impact Journals", lambda: fetch_high_impact_crossref_between(config, start_date, end_date)),
+                _safe_fetch("PubMed backfill", "High-impact Journals", lambda: fetch_high_impact_pubmed_between(config, start_date, end_date)),
+            ]
+            papers = dedupe_high_impact_papers([paper for paper in merge_dedupe(groups) if paper.title])
+            changed = upsert_papers(conn, papers)
+            total += changed
+            print(f"High-impact Journals backfill: {changed} records")
+
     export_json(conn, args.output)
     print(f"Exported {args.output} after processing {total} records")
 
@@ -68,6 +97,18 @@ def _safe_fetch(source: str, journal: str, fn):
     except Exception as exc:
         print(f"Warning: {source} fetch failed for {journal}: {exc}")
         return []
+
+
+def _backfill_window(conn):
+    earliest = earliest_publication_date(conn)
+    if not earliest:
+        return None
+    try:
+        end_date = dt.date.fromisoformat(earliest) - dt.timedelta(days=1)
+    except ValueError:
+        return None
+    start_date = end_date - dt.timedelta(days=6)
+    return start_date, end_date
 
 
 

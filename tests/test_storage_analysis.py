@@ -1,6 +1,7 @@
 import json
 
-from scripts.paper_monitor.storage import connect, export_json, import_json
+from scripts.paper_monitor.storage import connect, earliest_publication_date, export_json, import_json, upsert_papers
+from scripts.paper_monitor.models import Paper
 
 
 def test_storage_preserves_ai_analysis(tmp_path):
@@ -40,3 +41,30 @@ def test_storage_preserves_ai_analysis(tmp_path):
 
     exported = json.loads(output_path.read_text(encoding="utf-8"))
     assert exported["papers"][0]["ai_analysis"]["key_highlight"] == "Highlight"
+
+
+def test_earliest_publication_date_uses_existing_records(tmp_path):
+    conn = connect(tmp_path / "papers.sqlite")
+    upsert_papers(
+        conn,
+        [
+            Paper(
+                title="Newer paper",
+                authors=[],
+                journal="Ear and Hearing",
+                publication_date="2026-05-01",
+                doi="10.1234/newer",
+                url="https://doi.org/10.1234/newer",
+            ),
+            Paper(
+                title="Older paper",
+                authors=[],
+                journal="Hearing Research",
+                publication_date="2026-04-20",
+                doi="10.1234/older",
+                url="https://doi.org/10.1234/older",
+            ),
+        ],
+    )
+
+    assert earliest_publication_date(conn) == "2026-04-20"
