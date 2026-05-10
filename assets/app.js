@@ -370,7 +370,10 @@ function startBunnyMotions() {
   window.setTimeout(runAction, 1200);
   window.setInterval(runAction, 6200);
   window.addEventListener("scroll", () => queueBunnyMove(), { passive: true });
-  window.addEventListener("resize", () => queueBunnyMove());
+  window.addEventListener("resize", () => {
+    keepDraggedBunnyInView();
+    queueBunnyMove();
+  });
 }
 
 function queueBunnyMove() {
@@ -389,7 +392,6 @@ function moveBunnyToNextAbstract() {
   }
 
   const abstracts = [...document.querySelectorAll(".paper.has-abstract .abstract")].filter(isVisibleAbstract);
-  document.querySelectorAll(".paper.bunny-target").forEach((paper) => paper.classList.remove("bunny-target"));
   if (!abstracts.length) {
     parkBunny();
     return false;
@@ -465,6 +467,17 @@ function enableBunnyDrag() {
 function setBunnyPosition(left, top) {
   els.hearingBunny.style.setProperty("--bunny-left", `${Math.round(left)}px`);
   els.hearingBunny.style.setProperty("--bunny-top", `${Math.round(top)}px`);
+}
+
+function keepDraggedBunnyInView() {
+  if (!state.bunnyManualPosition || !els.hearingBunny) return;
+  const rect = els.hearingBunny.getBoundingClientRect();
+  const bunnyWidth = els.hearingBunny.offsetWidth || 112;
+  const bunnyHeight = els.hearingBunny.offsetHeight || 128;
+  setBunnyPosition(
+    clamp(rect.left, 8, window.innerWidth - bunnyWidth - 8),
+    clamp(rect.top, 8, window.innerHeight - bunnyHeight - 8)
+  );
 }
 
 function isVisibleAbstract(element) {
