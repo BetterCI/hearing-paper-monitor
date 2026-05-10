@@ -23,6 +23,10 @@ CREATE TABLE IF NOT EXISTS papers (
     abstract_zh TEXT,
     ai_analysis TEXT,
     first_author_affiliation TEXT,
+    last_author_affiliation TEXT,
+    last_author_lab_url TEXT,
+    last_author_lab_name TEXT,
+    last_author_lab_source TEXT,
     publication_stage TEXT,
     key_image_url TEXT,
     key_image_alt TEXT,
@@ -51,6 +55,10 @@ MIGRATIONS = [
     "ALTER TABLE papers ADD COLUMN abstract_zh TEXT",
     "ALTER TABLE papers ADD COLUMN ai_analysis TEXT",
     "ALTER TABLE papers ADD COLUMN first_author_affiliation TEXT",
+    "ALTER TABLE papers ADD COLUMN last_author_affiliation TEXT",
+    "ALTER TABLE papers ADD COLUMN last_author_lab_url TEXT",
+    "ALTER TABLE papers ADD COLUMN last_author_lab_name TEXT",
+    "ALTER TABLE papers ADD COLUMN last_author_lab_source TEXT",
     "ALTER TABLE papers ADD COLUMN full_text_url TEXT",
     "ALTER TABLE papers ADD COLUMN publication_stage TEXT",
     "ALTER TABLE papers ADD COLUMN key_image_url TEXT",
@@ -87,17 +95,22 @@ def import_json(conn: sqlite3.Connection, input_path: Path) -> int:
             """
             INSERT INTO papers (
                 id, title, title_zh, authors, journal, publication_date, doi, url, full_text_url,
-                abstract, abstract_zh, ai_analysis, first_author_affiliation, publication_stage,
+                abstract, abstract_zh, ai_analysis, first_author_affiliation,
+                last_author_affiliation, last_author_lab_url, last_author_lab_name, last_author_lab_source, publication_stage,
                 key_image_url, key_image_alt, key_formula, section, keywords, tags, source, available_online_date,
                 source_group, source_group_label, actual_journal, match_level, matched_keywords, match_fields, needs_review,
                 updated_at
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
             ON CONFLICT(id) DO UPDATE SET
                 title_zh=COALESCE(papers.title_zh, excluded.title_zh),
                 abstract_zh=COALESCE(papers.abstract_zh, excluded.abstract_zh),
                 ai_analysis=COALESCE(excluded.ai_analysis, papers.ai_analysis),
                 first_author_affiliation=COALESCE(papers.first_author_affiliation, excluded.first_author_affiliation),
+                last_author_affiliation=COALESCE(excluded.last_author_affiliation, papers.last_author_affiliation),
+                last_author_lab_url=COALESCE(papers.last_author_lab_url, excluded.last_author_lab_url),
+                last_author_lab_name=COALESCE(papers.last_author_lab_name, excluded.last_author_lab_name),
+                last_author_lab_source=COALESCE(papers.last_author_lab_source, excluded.last_author_lab_source),
                 publication_stage=COALESCE(excluded.publication_stage, papers.publication_stage),
                 full_text_url=COALESCE(papers.full_text_url, excluded.full_text_url),
                 key_image_url=COALESCE(papers.key_image_url, excluded.key_image_url),
@@ -127,6 +140,10 @@ def import_json(conn: sqlite3.Connection, input_path: Path) -> int:
                 item.get("abstract_zh") or item.get("chinese_abstract"),
                 _json_or_none(item.get("ai_analysis")),
                 item.get("first_author_affiliation"),
+                item.get("last_author_affiliation"),
+                item.get("last_author_lab_url"),
+                item.get("last_author_lab_name"),
+                item.get("last_author_lab_source"),
                 item.get("publication_stage") or ("early_access" if item.get("is_early_access") else None),
                 item.get("key_image_url"),
                 item.get("key_image_alt"),
@@ -161,11 +178,12 @@ def upsert_papers(conn: sqlite3.Connection, papers: list[Paper]) -> int:
             """
             INSERT INTO papers (
                 id, title, authors, journal, publication_date, doi, url, abstract,
-                first_author_affiliation, publication_stage, section, keywords, tags, source, available_online_date,
+                first_author_affiliation, last_author_affiliation, last_author_lab_url, last_author_lab_name,
+                last_author_lab_source, publication_stage, section, keywords, tags, source, available_online_date,
                 source_group, source_group_label, actual_journal, match_level, matched_keywords, match_fields, needs_review,
                 updated_at
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
             ON CONFLICT(id) DO UPDATE SET
                 title=excluded.title,
                 authors=excluded.authors,
@@ -178,6 +196,10 @@ def upsert_papers(conn: sqlite3.Connection, papers: list[Paper]) -> int:
                 abstract_zh=papers.abstract_zh,
                 ai_analysis=papers.ai_analysis,
                 first_author_affiliation=COALESCE(excluded.first_author_affiliation, papers.first_author_affiliation),
+                last_author_affiliation=COALESCE(excluded.last_author_affiliation, papers.last_author_affiliation),
+                last_author_lab_url=COALESCE(papers.last_author_lab_url, excluded.last_author_lab_url),
+                last_author_lab_name=COALESCE(papers.last_author_lab_name, excluded.last_author_lab_name),
+                last_author_lab_source=COALESCE(papers.last_author_lab_source, excluded.last_author_lab_source),
                 publication_stage=excluded.publication_stage,
                 full_text_url=papers.full_text_url,
                 key_image_url=papers.key_image_url,
@@ -207,6 +229,10 @@ def upsert_papers(conn: sqlite3.Connection, papers: list[Paper]) -> int:
                 paper.url,
                 paper.abstract,
                 paper.first_author_affiliation,
+                paper.last_author_affiliation,
+                paper.last_author_lab_url,
+                paper.last_author_lab_name,
+                paper.last_author_lab_source,
                 paper.publication_stage,
                 paper.section,
                 json.dumps(paper.keywords, ensure_ascii=False),
@@ -232,6 +258,7 @@ def all_papers(conn: sqlite3.Connection) -> list[dict]:
         """
         SELECT title, title_zh, authors, journal, publication_date, doi, url,
                full_text_url, abstract, abstract_zh, ai_analysis, first_author_affiliation,
+               last_author_affiliation, last_author_lab_url, last_author_lab_name, last_author_lab_source,
                publication_stage, key_image_url, key_image_alt, key_formula,
                section, keywords, tags, source, available_online_date,
                source_group, source_group_label, actual_journal, match_level,
@@ -253,6 +280,10 @@ def all_papers(conn: sqlite3.Connection) -> list[dict]:
         "abstract_zh",
         "ai_analysis",
         "first_author_affiliation",
+        "last_author_affiliation",
+        "last_author_lab_url",
+        "last_author_lab_name",
+        "last_author_lab_source",
         "publication_stage",
         "key_image_url",
         "key_image_alt",
@@ -289,6 +320,14 @@ def all_papers(conn: sqlite3.Connection) -> list[dict]:
             item.pop("ai_analysis", None)
         if not item.get("first_author_affiliation"):
             item.pop("first_author_affiliation", None)
+        if not item.get("last_author_affiliation"):
+            item.pop("last_author_affiliation", None)
+        if not item.get("last_author_lab_url"):
+            item.pop("last_author_lab_url", None)
+        if not item.get("last_author_lab_name"):
+            item.pop("last_author_lab_name", None)
+        if not item.get("last_author_lab_source"):
+            item.pop("last_author_lab_source", None)
         if not item.get("publication_stage"):
             item.pop("publication_stage", None)
         if not item.get("full_text_url"):

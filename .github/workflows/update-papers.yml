@@ -56,6 +56,10 @@ jobs:
       - name: Enrich media metadata
         run: python scripts/enrich_media.py --limit 80
 
+      - name: Enrich last-author lab homepages
+        continue-on-error: true
+        run: python scripts/enrich_labs.py --days 14 --limit 20
+
       - name: Check translation configuration
         run: |
           if [ -n "$BAIDU_TRANSLATE_APP_ID" ] && [ -n "$BAIDU_TRANSLATE_SECRET_KEY" ]; then

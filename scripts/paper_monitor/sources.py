@@ -355,6 +355,10 @@ def merge_dedupe(groups: Iterable[list[Paper]]) -> list[Paper]:
             existing.abstract = existing.abstract or paper.abstract
             existing.section = existing.section or paper.section
             existing.publication_stage = existing.publication_stage or paper.publication_stage
+            existing.last_author_affiliation = existing.last_author_affiliation or paper.last_author_affiliation
+            existing.last_author_lab_url = existing.last_author_lab_url or paper.last_author_lab_url
+            existing.last_author_lab_name = existing.last_author_lab_name or paper.last_author_lab_name
+            existing.last_author_lab_source = existing.last_author_lab_source or paper.last_author_lab_source
             existing.keywords = sorted(set(existing.keywords + paper.keywords))
             existing.authors = existing.authors or paper.authors
             existing.url = _prefer_url(existing.url, paper.url, existing.doi)
@@ -424,6 +428,7 @@ def _paper_from_crossref(item: dict, journal: Journal) -> Paper | None:
         url=_official_url(item.get("URL", ""), doi),
         abstract=abstract,
         first_author_affiliation=_crossref_first_author_affiliation(item.get("author", [])),
+        last_author_affiliation=_crossref_last_author_affiliation(item.get("author", [])),
         publication_stage=_crossref_publication_stage(item, journal_name, publication_date),
         keywords=subjects,
         source="crossref",
@@ -450,6 +455,7 @@ def _high_impact_paper_from_crossref(item: dict, actual_journal: str) -> Paper |
         url=_official_url(item.get("URL", ""), doi),
         abstract=_clean(item.get("abstract", "")) or None,
         first_author_affiliation=_crossref_first_author_affiliation(item.get("author", [])),
+        last_author_affiliation=_crossref_last_author_affiliation(item.get("author", [])),
         publication_stage=_crossref_publication_stage(item, actual_journal, _crossref_date(item)),
         keywords=subjects,
         source="crossref",
@@ -490,6 +496,7 @@ def _paper_from_pubmed(article: ET.Element, journal: Journal) -> Paper:
         url=f"https://doi.org/{doi}" if doi else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
         abstract=" ".join(abstract_parts) or None,
         first_author_affiliation=_pubmed_first_author_affiliation(article.findall(".//Author")),
+        last_author_affiliation=_pubmed_last_author_affiliation(article.findall(".//Author")),
         publication_stage=_pubmed_publication_stage(article, publication_date),
         keywords=[kw for kw in keywords if kw],
         source="pubmed",
@@ -526,6 +533,7 @@ def _high_impact_paper_from_pubmed(article: ET.Element, actual_journal: str) -> 
         url=f"https://doi.org/{doi}" if doi else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
         abstract=" ".join(abstract_parts) or None,
         first_author_affiliation=_pubmed_first_author_affiliation(article.findall(".//Author")),
+        last_author_affiliation=_pubmed_last_author_affiliation(article.findall(".//Author")),
         publication_stage=_pubmed_publication_stage(article, _pubmed_date(article)),
         keywords=sorted(set(keywords + mesh)),
         source="pubmed",
@@ -551,9 +559,17 @@ def _crossref_authors(authors: list[dict]) -> list[str]:
 
 
 def _crossref_first_author_affiliation(authors: list[dict]) -> str | None:
+    return _crossref_author_affiliation(authors, 0)
+
+
+def _crossref_last_author_affiliation(authors: list[dict]) -> str | None:
+    return _crossref_author_affiliation(authors, -1)
+
+
+def _crossref_author_affiliation(authors: list[dict], index: int) -> str | None:
     if not authors:
         return None
-    affiliations = authors[0].get("affiliation") or []
+    affiliations = authors[index].get("affiliation") or []
     for affiliation in affiliations:
         name = _clean(affiliation.get("name", ""))
         if name:
@@ -577,9 +593,17 @@ def _pubmed_authors(authors: list[ET.Element]) -> list[str]:
 
 
 def _pubmed_first_author_affiliation(authors: list[ET.Element]) -> str | None:
+    return _pubmed_author_affiliation(authors, 0)
+
+
+def _pubmed_last_author_affiliation(authors: list[ET.Element]) -> str | None:
+    return _pubmed_author_affiliation(authors, -1)
+
+
+def _pubmed_author_affiliation(authors: list[ET.Element], index: int) -> str | None:
     if not authors:
         return None
-    for node in authors[0].findall(".//Affiliation"):
+    for node in authors[index].findall(".//Affiliation"):
         affiliation = _clean("".join(node.itertext()))
         if affiliation:
             return affiliation

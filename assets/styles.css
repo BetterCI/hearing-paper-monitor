@@ -475,12 +475,23 @@ select:focus {
 }
 
 .compact-meta,
+.compact-authors,
+.compact-affiliation,
 .compact-translation,
 .panel-empty {
   margin: 0;
   color: var(--muted);
   font-size: 0.78rem;
   line-height: 1.35;
+}
+
+.compact-authors {
+  color: #35484f;
+  font-weight: 700;
+}
+
+.compact-affiliation {
+  color: #617179;
 }
 
 .compact-translation {
@@ -752,6 +763,24 @@ select:focus {
   object-fit: contain;
   border-radius: 6px;
   background: #f8fafc;
+}
+
+.last-author-lab {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid #e5eef0;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.last-author-lab a {
+  color: var(--journal-color);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.last-author-lab a:hover {
+  text-decoration: underline;
 }
 
 .key-figure figcaption {

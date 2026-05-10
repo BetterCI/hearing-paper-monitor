@@ -17,6 +17,10 @@ class Paper:
     url: str
     abstract: str | None = None
     first_author_affiliation: str | None = None
+    last_author_affiliation: str | None = None
+    last_author_lab_url: str | None = None
+    last_author_lab_name: str | None = None
+    last_author_lab_source: str | None = None
     publication_stage: str | None = None
     section: str | None = None
     keywords: list[str] = field(default_factory=list)

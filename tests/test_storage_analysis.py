@@ -22,6 +22,10 @@ def test_storage_preserves_ai_analysis(tmp_path):
                         "keywords": [],
                         "tags": ["speech perception"],
                         "source": "test",
+                        "last_author_affiliation": "Example Hearing Lab, Example University",
+                        "last_author_lab_url": "https://example.edu/hearing-lab",
+                        "last_author_lab_name": "Example Hearing Lab",
+                        "last_author_lab_source": "web_search",
                         "ai_analysis": {
                             "scientific_question": "Question",
                             "key_highlight": "Highlight",
@@ -41,6 +45,7 @@ def test_storage_preserves_ai_analysis(tmp_path):
 
     exported = json.loads(output_path.read_text(encoding="utf-8"))
     assert exported["papers"][0]["ai_analysis"]["key_highlight"] == "Highlight"
+    assert exported["papers"][0]["last_author_lab_url"] == "https://example.edu/hearing-lab"
 
 
 def test_earliest_publication_date_uses_existing_records(tmp_path):

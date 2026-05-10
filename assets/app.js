@@ -259,7 +259,6 @@ async function init() {
   bindFilters();
   startBunnyMotions();
   render();
-  renderVisitorMap();
 }
 
 async function loadData() {
@@ -707,7 +706,7 @@ function renderPaper(paper) {
 
   article.append(heading, meta);
 
-  if (abstractText) {
+  if (abstractText || paper.last_author_lab_url) {
     article.appendChild(renderAbstract(paper));
   }
 
@@ -756,7 +755,7 @@ function renderRecentOverview(papers = state.papers) {
   renderCompactPaperList(els.latestUpdates, sorted.slice(0, 5), { featureFirst: true });
 
   const highlights = sorted.filter(isJasaSectionHighlight).slice(0, 6);
-  renderCompactPaperList(els.sectionHighlights, highlights, { showSection: true });
+  renderCompactPaperList(els.sectionHighlights, highlights, { showAuthors: true, showAffiliation: true });
 
   const recentWindow = papersInLatestWindow(papers, 30);
   const overviewSource = recentWindow.length >= 8 ? recentWindow : sorted.slice(0, 30);
@@ -815,7 +814,7 @@ function renderCompactPaperList(container, papers, options = {}) {
     const meta = document.createElement("p");
     meta.className = "compact-meta";
     [
-      paper.journal,
+      sourceDisplayName(paper),
       displayDate(paper),
       options.showSection ? paper.section : null,
     ]
@@ -838,17 +837,34 @@ function renderCompactPaperList(container, papers, options = {}) {
     }
     item.appendChild(meta);
 
+    if (options.showAuthors) {
+      const authors = compactAuthorLine(paper.authors);
+      if (authors) {
+        const authorsLine = document.createElement("p");
+        authorsLine.className = "compact-authors";
+        authorsLine.textContent = authors;
+        item.appendChild(authorsLine);
+      }
+    }
+
+    if (options.showAffiliation && paper.first_author_affiliation) {
+      const affiliation = document.createElement("p");
+      affiliation.className = "compact-affiliation";
+      affiliation.textContent = `First affiliation: ${shortText(paper.first_author_affiliation, 120)}`;
+      item.appendChild(affiliation);
+    }
+
     if (options.showTags) {
       const tags = publicPaperTags(paper).slice(0, 4);
       if (tags.length) {
         const tagLine = document.createElement("div");
         tagLine.className = "mini-tags";
         tags.forEach((tag) => {
-        const chip = document.createElement("span");
-        chip.textContent = tag;
-        markTranslatable(chip, tag);
-        tagLine.appendChild(chip);
-      });
+          const chip = document.createElement("span");
+          chip.textContent = tag;
+          markTranslatable(chip, tag);
+          tagLine.appendChild(chip);
+        });
         item.appendChild(tagLine);
       }
     }
@@ -1354,6 +1370,7 @@ function renderAbstract(paper) {
   const wrapper = document.createElement("div");
   wrapper.className = "abstract";
   const text = displayAbstract(paper);
+  let renderedStructured = false;
 
   if (isEarAndHearing(paper)) {
     const sections = parseStructuredAbstract(text);
@@ -1371,15 +1388,39 @@ function renderAbstract(paper) {
         sectionEl.append(heading, contentEl);
         wrapper.appendChild(sectionEl);
       });
-      return wrapper;
+      renderedStructured = true;
     }
   }
 
-  splitParagraphs(text).forEach((paragraph) => {
-    const paragraphElement = document.createElement("p");
-    appendHighlightedParagraph(paragraphElement, paragraph);
-    wrapper.appendChild(paragraphElement);
-  });
+  if (!renderedStructured) {
+    splitParagraphs(text).forEach((paragraph) => {
+      const paragraphElement = document.createElement("p");
+      appendHighlightedParagraph(paragraphElement, paragraph);
+      wrapper.appendChild(paragraphElement);
+    });
+  }
+  const labHomepage = renderLastAuthorLab(paper);
+  if (labHomepage) wrapper.appendChild(labHomepage);
+  return wrapper;
+}
+
+function renderLastAuthorLab(paper) {
+  if (!paper.last_author_lab_url) return null;
+  const wrapper = document.createElement("p");
+  wrapper.className = "last-author-lab";
+
+  const label = document.createElement("span");
+  label.textContent = "Last-author lab: ";
+  markTranslatable(label, "Last-author lab");
+
+  const link = document.createElement("a");
+  link.href = paper.last_author_lab_url;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  link.textContent = paper.last_author_lab_name || "Lab homepage";
+  if (paper.last_author_affiliation) link.title = paper.last_author_affiliation;
+
+  wrapper.append(label, link);
   return wrapper;
 }
 
@@ -1797,6 +1838,18 @@ function authorLine(authors = []) {
   if (!authors.length) return "";
   if (authors.length <= 3) return authors.join(", ");
   return `${authors.slice(0, 3).join(", ")} et al.`;
+}
+
+function compactAuthorLine(authors = []) {
+  if (!authors.length) return "";
+  if (authors.length <= 2) return authors.join(", ");
+  return `${authors[0]}, ${authors[1]} et al.`;
+}
+
+function shortText(value, maxLength) {
+  const text = String(value || "").trim();
+  if (text.length <= maxLength) return text;
+  return `${text.slice(0, Math.max(0, maxLength - 1)).trim()}…`;
 }
 
 function formatDate(dateString) {
