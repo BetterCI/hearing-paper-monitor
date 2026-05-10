@@ -259,6 +259,7 @@ async function init() {
   bindFilters();
   startBunnyMotions();
   render();
+  renderVisitorMap();
 }
 
 async function loadData() {
@@ -2015,4 +2016,98 @@ function renderCiteButton(paper) {
 
   wrapper.append(button, menu);
   return wrapper;
+}
+
+const MOCK_VISITOR_DATA = [
+  { name: "Beijing", value: [116.4, 39.9, 85] },
+  { name: "Shanghai", value: [121.5, 31.2, 62] },
+  { name: "Guangzhou", value: [113.3, 23.1, 45] },
+  { name: "Shenzhen", value: [114.1, 22.5, 38] },
+  { name: "Hong Kong", value: [114.2, 22.3, 32] },
+  { name: "Singapore", value: [103.8, 1.4, 28] },
+  { name: "Tokyo", value: [139.7, 35.7, 41] },
+  { name: "Seoul", value: [126.9, 37.5, 22] },
+  { name: "London", value: [-0.1, 51.5, 35] },
+  { name: "Paris", value: [2.3, 48.9, 24] },
+  { name: "Berlin", value: [13.4, 52.5, 18] },
+  { name: "Amsterdam", value: [4.9, 52.4, 15] },
+  { name: "Zurich", value: [8.5, 47.4, 12] },
+  { name: "Stockholm", value: [18.6, 59.3, 10] },
+  { name: "Boston", value: [-71.1, 42.4, 28] },
+  { name: "New York", value: [-74.0, 40.7, 38] },
+  { name: "San Francisco", value: [-122.4, 37.8, 31] },
+  { name: "Los Angeles", value: [-118.2, 34.1, 25] },
+  { name: "Chicago", value: [-87.6, 41.9, 18] },
+  { name: "Toronto", value: [-79.4, 43.7, 20] },
+  { name: "Vancouver", value: [-123.1, 49.3, 14] },
+  { name: "Sydney", value: [151.2, -33.9, 22] },
+  { name: "Melbourne", value: [144.9, -37.8, 16] },
+  { name: "Bangalore", value: [77.6, 12.9, 30] },
+  { name: "Mumbai", value: [72.9, 19.1, 25] },
+  { name: "Dubai", value: [55.3, 25.2, 20] },
+  { name: "Istanbul", value: [28.9, 41.0, 15] },
+  { name: "Cairo", value: [31.2, 30.1, 12] },
+  { name: "Sao Paulo", value: [-46.6, -23.5, 24] },
+  { name: "Mexico City", value: [-99.1, 19.4, 18] },
+  { name: "Buenos Aires", value: [-58.4, -34.6, 14] },
+  { name: "Lagos", value: [3.4, 6.5, 10] },
+  { name: "Nairobi", value: [36.8, -1.3, 8] },
+];
+
+function renderVisitorMap() {
+  const container = document.getElementById("visitorMap");
+  if (!container || typeof echarts === "undefined") return;
+
+  const chart = echarts.init(container);
+
+  const option = {
+    backgroundColor: "transparent",
+    geo: {
+      map: "world",
+      roam: false,
+      silent: true,
+      itemStyle: {
+        areaColor: "#e8ecea",
+        borderColor: "transparent",
+      },
+      emphasis: {
+        disabled: true,
+      },
+    },
+    series: [
+      {
+        type: "effectScatter",
+        coordinateSystem: "geo",
+        data: MOCK_VISITOR_DATA.map((d) => ({
+          name: d.name,
+          value: d.value,
+        })),
+        symbolSize: function (val) {
+          const size = Math.sqrt(val[2]) * 1.8;
+          return Math.max(6, Math.min(28, size));
+        },
+        showEffectOn: "render",
+        rippleEffect: {
+          brushType: "stroke",
+          scale: 2,
+          period: 4,
+        },
+        itemStyle: {
+          color: "rgba(11, 111, 114, 0.55)",
+          shadowBlur: 10,
+          shadowColor: "rgba(11, 111, 114, 0.3)",
+        },
+        emphasis: {
+          scale: 1.3,
+        },
+      },
+    ],
+  };
+
+  chart.setOption(option);
+
+  const resizeObserver = new ResizeObserver(() => chart.resize());
+  resizeObserver.observe(container);
+
+  window.addEventListener("resize", () => chart.resize());
 }

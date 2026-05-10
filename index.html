@@ -93,6 +93,14 @@
 
       <section id="papers" class="papers" aria-live="polite"></section>
       <p id="emptyState" class="empty" hidden>No papers match the current filters.</p>
+
+      <section id="visitorFootprint" class="visitor-footprint" aria-labelledby="visitorFootprintTitle">
+        <div class="section-heading">
+          <h2 id="visitorFootprintTitle">Global Visitor Footprint</h2>
+        </div>
+        <div id="visitorMap" class="visitor-map"></div>
+        <p class="visitor-footprint-note">Approximate aggregated visitor locations. No personal IP addresses are displayed.</p>
+      </section>
     </main>
 
     <dialog id="sourceInfoDialog" class="source-info-dialog" aria-labelledby="sourceInfoTitle">
@@ -160,6 +168,7 @@
       </svg>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
     <script src="assets/app.js" type="module"></script>
   </body>
 </html>
