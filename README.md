@@ -80,12 +80,7 @@ The dashboard supports bilingual display when each paper includes optional field
 
 The collector keeps the official English metadata intact. Add translation generation as a separate step so DOI deduplication and publisher links remain unchanged.
 
-To generate Chinese translations automatically in GitHub Actions, add Baidu Translate secrets:
-
-- `BAIDU_TRANSLATE_APP_ID`
-- `BAIDU_TRANSLATE_SECRET_KEY`
-
-Baidu Translate is preferred for China-friendly access. The script also supports these fallback providers:
+To generate Chinese translations automatically in GitHub Actions, configure one of these providers:
 
 - `DEEPL_API_KEY`: uses DeepL Free by default.
 - `LIBRETRANSLATE_URL`: uses a LibreTranslate-compatible endpoint.
