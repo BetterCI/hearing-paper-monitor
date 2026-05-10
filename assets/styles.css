@@ -1099,6 +1099,12 @@ select:focus {
   transition: none;
 }
 
+.hearing-bunny:focus-visible {
+  outline: 3px solid rgba(11, 111, 114, 0.22);
+  outline-offset: 6px;
+  border-radius: 22px;
+}
+
 .bunny-svg {
   display: block;
   width: 100%;
@@ -1214,6 +1220,110 @@ select:focus {
   border-bottom: 1px solid rgba(11, 111, 114, 0.24);
   background: #ffffff;
   transform: rotate(45deg);
+}
+
+.bunny-quote {
+  position: absolute;
+  right: calc(100% - 8px);
+  bottom: 72%;
+  width: min(360px, calc(100vw - 32px));
+  max-width: 360px;
+  border: 1px solid rgba(255, 255, 255, 0.66);
+  border-radius: 18px;
+  padding: 14px 16px;
+  color: #14242b;
+  background: #ffffff;
+  font-size: clamp(0.82rem, 1.4vw, 0.98rem);
+  font-weight: 900;
+  line-height: 1.5;
+  letter-spacing: 0;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(12px, 18px) scale(0.9) rotate(-2deg);
+  box-shadow: 0 18px 50px rgba(23, 33, 38, 0.24);
+}
+
+.bunny-quote::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  z-index: -1;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #0b6f72, #7c3aed, #f97316, #22c55e);
+  filter: blur(10px);
+  opacity: 0.65;
+}
+
+.bunny-quote::after {
+  content: "";
+  position: absolute;
+  right: 18px;
+  bottom: -7px;
+  width: 14px;
+  height: 14px;
+  background: inherit;
+  transform: rotate(45deg);
+}
+
+.bunny-quote.quote-show {
+  opacity: 1;
+  animation:
+    quote-pop 0.62s cubic-bezier(0.18, 1.2, 0.28, 1) both,
+    quote-float 4.8s ease-in-out 0.62s infinite;
+}
+
+.quote-aurora {
+  background: linear-gradient(135deg, #d9fff6, #eff6ff 45%, #fff0f7);
+}
+
+.quote-sunburst {
+  background: radial-gradient(circle at 20% 20%, #fff7ad, transparent 32%), linear-gradient(135deg, #ffe4c7, #fff7ed 52%, #fef3c7);
+}
+
+.quote-neon {
+  color: #f8fbff;
+  background: linear-gradient(135deg, #182848, #7c3aed 48%, #0b6f72);
+}
+
+.quote-candy {
+  background: linear-gradient(135deg, #ffe4f1, #ecfeff 46%, #eef2ff);
+}
+
+.quote-ocean {
+  background: linear-gradient(135deg, #dff7ff, #e1f8ed 52%, #eef6ff);
+}
+
+.quote-starlight {
+  color: #ffffff;
+  background:
+    radial-gradient(circle at 14% 24%, rgba(255, 255, 255, 0.9) 0 2px, transparent 3px),
+    radial-gradient(circle at 88% 32%, rgba(255, 255, 255, 0.8) 0 1px, transparent 2px),
+    linear-gradient(135deg, #152238, #3b0764 50%, #0f766e);
+}
+
+@keyframes quote-pop {
+  0% {
+    opacity: 0;
+    transform: translate(12px, 18px) scale(0.9) rotate(-2deg);
+  }
+  65% {
+    opacity: 1;
+    transform: translate(-4px, -4px) scale(1.04) rotate(1deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1) rotate(0deg);
+  }
+}
+
+@keyframes quote-float {
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate(0, -7px) rotate(-1deg);
+  }
 }
 
 .bunny-hop {
@@ -1453,6 +1563,15 @@ select:focus {
     min-width: 36px;
     padding: 3px 7px;
     font-size: 0.64rem;
+  }
+
+  .bunny-quote {
+    right: auto;
+    left: auto;
+    bottom: 104%;
+    width: min(280px, calc(100vw - 24px));
+    transform: translate(-190px, 16px) scale(0.9) rotate(-2deg);
+    font-size: 0.76rem;
   }
 
   .translated-title {

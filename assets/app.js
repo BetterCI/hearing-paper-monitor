@@ -1,3 +1,5 @@
+import { BUNNY_QUOTES } from "./bunny_quotes.js";
+
 const state = {
   papers: [],
   targetLanguage: detectPreferredTargetLanguage(),
@@ -434,10 +436,12 @@ function enableBunnyDrag() {
     if (event.button !== 0 && event.pointerType === "mouse") return;
     event.preventDefault();
     const rect = els.hearingBunny.getBoundingClientRect();
-    state.bunnyManualPosition = true;
     state.bunnyDragging = {
+      startX: event.clientX,
+      startY: event.clientY,
       offsetX: event.clientX - rect.left,
       offsetY: event.clientY - rect.top,
+      moved: false,
     };
     els.hearingBunny.setPointerCapture(event.pointerId);
     els.hearingBunny.classList.add("bunny-following-abstract", "bunny-dragging");
@@ -446,6 +450,10 @@ function enableBunnyDrag() {
 
   els.hearingBunny.addEventListener("pointermove", (event) => {
     if (!state.bunnyDragging) return;
+    if (Math.abs(event.clientX - state.bunnyDragging.startX) > 5 || Math.abs(event.clientY - state.bunnyDragging.startY) > 5) {
+      state.bunnyDragging.moved = true;
+      state.bunnyManualPosition = true;
+    }
     const bunnyWidth = els.hearingBunny.offsetWidth || 112;
     const bunnyHeight = els.hearingBunny.offsetHeight || 128;
     setBunnyPosition(
@@ -456,12 +464,19 @@ function enableBunnyDrag() {
 
   const stopDragging = (event) => {
     if (!state.bunnyDragging) return;
+    const wasClick = !state.bunnyDragging.moved;
     state.bunnyDragging = null;
     els.hearingBunny.releasePointerCapture?.(event.pointerId);
     els.hearingBunny.classList.remove("bunny-dragging");
+    if (wasClick) showBunnyQuote();
   };
   els.hearingBunny.addEventListener("pointerup", stopDragging);
   els.hearingBunny.addEventListener("pointercancel", stopDragging);
+  els.hearingBunny.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" && event.key !== " ") return;
+    event.preventDefault();
+    showBunnyQuote();
+  });
 }
 
 function setBunnyPosition(left, top) {
@@ -478,6 +493,24 @@ function keepDraggedBunnyInView() {
     clamp(rect.left, 8, window.innerWidth - bunnyWidth - 8),
     clamp(rect.top, 8, window.innerHeight - bunnyHeight - 8)
   );
+}
+
+function showBunnyQuote() {
+  const quote = els.hearingBunny.querySelector(".bunny-quote");
+  if (!quote || !BUNNY_QUOTES.length) return;
+  const effects = ["quote-aurora", "quote-sunburst", "quote-neon", "quote-candy", "quote-ocean", "quote-starlight"];
+  quote.textContent = BUNNY_QUOTES[Math.floor(Math.random() * BUNNY_QUOTES.length)];
+  quote.className = `bunny-quote ${effects[Math.floor(Math.random() * effects.length)]}`;
+  els.hearingBunny.classList.remove("bunny-hop", "bunny-call", "bunny-wink", "bunny-wiggle");
+  requestAnimationFrame(() => {
+    quote.classList.add("quote-show");
+    els.hearingBunny.classList.add("bunny-wink");
+  });
+  window.clearTimeout(state.bunnyQuoteTimer);
+  state.bunnyQuoteTimer = window.setTimeout(() => {
+    quote.classList.remove("quote-show");
+    els.hearingBunny.classList.remove("bunny-wink");
+  }, 6200);
 }
 
 function isVisibleAbstract(element) {
@@ -1080,6 +1113,7 @@ function getAiAnalysis(paper) {
 }
 
 const CF_WORKER_URL = "https://hearing-paper-monitor.mengqinglin08.workers.dev";
+const ENABLE_INLINE_AI_ANALYSIS = false;
 
 async function generateAnalysis(paper) {
   const response = await fetch(CF_WORKER_URL, {
@@ -1097,11 +1131,20 @@ async function generateAnalysis(paper) {
       language: document.documentElement.lang || "en",
     }),
   });
-  if (!response.ok) throw new Error(`Analysis failed: ${response.status}`);
-  return response.json();
+  let result = null;
+  try {
+    result = await response.json();
+  } catch {
+    result = null;
+  }
+  if (!response.ok || result?.error) {
+    throw new Error(result?.error || `Analysis failed: ${response.status}`);
+  }
+  return result;
 }
 
 function createGenerateAnalysisButton(paper) {
+  if (!ENABLE_INLINE_AI_ANALYSIS) return null;
   if (!paper.abstract || paper.abstract.length < 120) return null;
   const btn = document.createElement("button");
   btn.type = "button";
@@ -1120,7 +1163,7 @@ function createGenerateAnalysisButton(paper) {
         model: result.model || "MiniMax-M2.7",
         generated_at: new Date().toISOString(),
       };
-      const card = btn.closest(".paper-card");
+      const card = btn.closest(".paper");
       if (card) {
         const existing = card.querySelector(".ai-analysis");
         if (existing) existing.remove();
@@ -1130,7 +1173,8 @@ function createGenerateAnalysisButton(paper) {
       btn.remove();
     } catch (err) {
       btn.disabled = false;
-      btn.textContent = "Retry";
+      btn.textContent = "Retry AI Analysis";
+      btn.title = err.message || "Analysis generation failed";
       console.error("Analysis generation failed:", err);
     }
   });
