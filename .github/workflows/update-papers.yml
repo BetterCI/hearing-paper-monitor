@@ -60,28 +60,6 @@ jobs:
         continue-on-error: true
         run: python scripts/enrich_labs.py --days 14 --limit 20
 
-      - name: Check translation configuration
-        run: |
-          if [ -n "$BAIDU_TRANSLATE_APP_ID" ] && [ -n "$BAIDU_TRANSLATE_SECRET_KEY" ]; then
-            echo "Baidu Translate secrets are configured."
-          else
-            echo "Baidu Translate secrets are not configured. Chinese translation will be skipped."
-          fi
-        env:
-          BAIDU_TRANSLATE_APP_ID: ${{ secrets.BAIDU_TRANSLATE_APP_ID }}
-          BAIDU_TRANSLATE_SECRET_KEY: ${{ secrets.BAIDU_TRANSLATE_SECRET_KEY }}
-
-      - name: Translate metadata to Chinese
-        continue-on-error: true
-        env:
-          BAIDU_TRANSLATE_APP_ID: ${{ secrets.BAIDU_TRANSLATE_APP_ID }}
-          BAIDU_TRANSLATE_SECRET_KEY: ${{ secrets.BAIDU_TRANSLATE_SECRET_KEY }}
-          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
-          DEEPL_API_URL: ${{ secrets.DEEPL_API_URL }}
-          LIBRETRANSLATE_URL: ${{ secrets.LIBRETRANSLATE_URL }}
-          LIBRETRANSLATE_API_KEY: ${{ secrets.LIBRETRANSLATE_API_KEY }}
-        run: python scripts/translate_zh.py
-
       - name: Analyze abstracts with MiniMax
         continue-on-error: true
         env:

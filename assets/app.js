@@ -2,7 +2,7 @@ import { BUNNY_QUOTES } from "./bunny_quotes.js";
 
 const state = {
   papers: [],
-  targetLanguage: detectPreferredTargetLanguage(),
+  targetLanguage: "original",
   translatedTitles: new Map(),
   titleTranslationStatus: "idle",
   filters: {
@@ -255,7 +255,6 @@ function detectPreferredTargetLanguage() {
 async function init() {
   await loadData();
   populateFilters();
-  addLanguageControl();
   bindFilters();
   startBunnyMotions();
   render();
@@ -333,7 +332,7 @@ function bindFilters() {
     setTranslatableText(els.refreshData, "Refresh");
     els.refreshData.disabled = false;
   });
-  els.language.addEventListener("change", () => {
+  els.language?.addEventListener("change", () => {
     state.targetLanguage = els.language.value;
     state.translatedTitles.clear();
     state.titleTranslationStatus = "idle";

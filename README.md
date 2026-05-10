@@ -41,7 +41,7 @@ All monitored journals are treated equally at the journal level. For JASA and JA
 - Renders a searchable, filterable static web dashboard.
 - Shows a Recent Overview with latest updates, JASA/JASA-EL section highlights, trending topics, and selected recent papers.
 - Provides a public Weekly Hearing Science Digest based on the most recent week available in `data/papers.json`.
-- Displays optional Chinese translations when `title_zh` and `abstract_zh` are present in `data/papers.json`.
+- Displays the original English metadata by default. Translation is not run automatically.
 - Never downloads or stores PDFs.
 - Links only to official publisher pages, PubMed pages, or DOI pages.
 - Exports each paper as RIS or BibTeX for reference managers such as Zotero, EndNote, Mendeley, and BibTeX workflows.
@@ -78,9 +78,9 @@ Journal sources and matching rules live in `config/journals.yml`.
 
 The first version uses Crossref and PubMed as the most robust sources. RSS and TOC fetching are supported by the collector, but publisher feed and page URLs are intentionally configurable because journals change those endpoints more often than Crossref/PubMed APIs.
 
-## Chinese Translation Fields
+## Optional Manual Translation
 
-The dashboard supports bilingual display when each paper includes optional fields:
+The dashboard defaults to English and does not translate papers automatically. The data schema still tolerates optional translated fields for backwards compatibility:
 
 ```json
 {
@@ -89,9 +89,9 @@ The dashboard supports bilingual display when each paper includes optional field
 }
 ```
 
-The collector keeps the official English metadata intact. Add translation generation as a separate step so DOI deduplication and publisher links remain unchanged.
+The collector keeps the official English metadata intact. If translation is needed, run it manually as a separate step so DOI deduplication and publisher links remain unchanged.
 
-To generate Chinese translations automatically in GitHub Actions, configure one of these providers:
+Optional manual translation providers:
 
 - `DEEPL_API_KEY`: uses DeepL Free by default.
 - `LIBRETRANSLATE_URL`: uses a LibreTranslate-compatible endpoint.
