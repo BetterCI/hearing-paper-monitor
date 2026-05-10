@@ -26,6 +26,7 @@ class MonitorConfig:
     journals: list[Journal]
     tags: dict[str, list[str]]
     section_rules: dict[str, list[str]]
+    high_impact_journals: list[str] = field(default_factory=list)
 
 
 def load_config(path: Path) -> MonitorConfig:
@@ -35,4 +36,5 @@ def load_config(path: Path) -> MonitorConfig:
         journals=journals,
         tags=raw.get("tags", {}),
         section_rules=raw.get("section_rules", {}),
+        high_impact_journals=raw.get("high_impact_journals", []),
     )

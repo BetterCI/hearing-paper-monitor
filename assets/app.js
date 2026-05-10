@@ -14,6 +14,7 @@ const state = {
 };
 
 const EARLY_ACCESS_MONTH = "__early_access";
+const HIGH_IMPACT_LABEL = "High-impact Journals";
 
 const LANGUAGE_OPTIONS = [
   ["zh", "简体中文"],
@@ -61,7 +62,18 @@ const JOURNAL_STYLES = {
   "Journal of the Association for Research in Otolaryngology": { color: "#2563eb", background: "#edf4ff", logo: "JARO", sublogo: "ARO" },
   "Ear and Hearing": { color: "#c026d3", background: "#fdf0ff", logo: "E&H", sublogo: "AAS" },
   "Hearing Research": { color: "#15803d", background: "#effaf2", logo: "HR", sublogo: "ELS" },
+  "High-impact Journals": { color: "#b45309", background: "#fff7ed", logo: "HI", sublogo: "JOURNALS" },
 };
+
+const SOURCE_FILTER_ORDER = [
+  "The Journal of the Acoustical Society of America",
+  "JASA Express Letters",
+  "Trends in Hearing",
+  "Journal of the Association for Research in Otolaryngology",
+  "Ear and Hearing",
+  "Hearing Research",
+  HIGH_IMPACT_LABEL,
+];
 
 const RELEVANT_TAGS = new Set([
   "cochlear implant",
@@ -314,7 +326,7 @@ function bindFilters() {
 }
 
 function populateFilters() {
-  fillSelect(els.journal, unique(state.papers.map((paper) => paper.journal)));
+  fillSelect(els.journal, orderedSourceFilters(state.papers.map(sourceFilterValue)));
   fillSelect(els.section, unique(state.papers.map((paper) => paper.section).filter(Boolean)));
   fillTagSelect();
   populateMonthFilter();
@@ -394,6 +406,7 @@ function matchesFilters(paper) {
     paper.chinese_title,
     (paper.authors || []).join(" "),
     paper.journal,
+    paper.actual_journal,
     paper.doi,
     paper.abstract,
     paper.abstract_zh,
@@ -410,7 +423,7 @@ function matchesFilters(paper) {
     .toLowerCase();
 
   if (state.filters.query && !queryText.includes(state.filters.query)) return false;
-  if (state.filters.journal && paper.journal !== state.filters.journal) return false;
+  if (state.filters.journal && sourceFilterValue(paper) !== state.filters.journal) return false;
   if (state.filters.section && paper.section !== state.filters.section) return false;
   if (state.filters.tag && !publicPaperTags(paper).includes(state.filters.tag)) return false;
   if (state.filters.month === EARLY_ACCESS_MONTH && !isEarlyAccess(paper)) return false;
@@ -454,7 +467,7 @@ function renderPaper(paper) {
   const meta = document.createElement("div");
   meta.className = "meta";
   [
-    journalDisplayName(paper.journal),
+    sourceDisplayName(paper),
     displayDate(paper),
     authorLine(paper.authors),
     paper.first_author_affiliation ? `First affiliation: ${paper.first_author_affiliation}` : null,
@@ -499,6 +512,13 @@ function renderPaper(paper) {
 
   const chips = document.createElement("div");
   chips.className = "chips";
+  if (isHighImpactPaper(paper)) {
+    const sourceChip = document.createElement("span");
+    sourceChip.className = "chip source-chip";
+    sourceChip.textContent = HIGH_IMPACT_LABEL;
+    markTranslatable(sourceChip, HIGH_IMPACT_LABEL);
+    chips.appendChild(sourceChip);
+  }
   publicPaperTags(paper).forEach((tag) => {
     const chip = document.createElement("span");
     chip.className = "chip";
@@ -973,10 +993,29 @@ const JOURNAL_ABBREV = {
   "Ear and Hearing": "Ear Hear",
   "Trends in Hearing": "Trends Hear",
   "Hearing Research": "Hear Res",
+  "High-impact Journals": "High-impact Journals",
 };
 
 function journalDisplayName(journal) {
   return JOURNAL_ABBREV[journal] || journal;
+}
+
+function sourceDisplayName(paper) {
+  return isHighImpactPaper(paper) ? paper.actual_journal || HIGH_IMPACT_LABEL : journalDisplayName(paper.journal);
+}
+
+function sourceFilterValue(paper) {
+  return isHighImpactPaper(paper) ? HIGH_IMPACT_LABEL : paper.journal;
+}
+
+function isHighImpactPaper(paper) {
+  return paper.source_group === "high_impact" || paper.journal === HIGH_IMPACT_LABEL;
+}
+
+function orderedSourceFilters(values) {
+  const present = new Set(values.filter(Boolean));
+  const extras = [...present].filter((value) => !SOURCE_FILTER_ORDER.includes(value)).sort((a, b) => a.localeCompare(b));
+  return [...SOURCE_FILTER_ORDER, ...extras];
 }
 
 function getFullTextUrl(paper) {

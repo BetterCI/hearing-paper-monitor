@@ -850,6 +850,12 @@ select:focus {
   font-weight: 700;
 }
 
+.source-chip {
+  background: #fff7ed;
+  color: #8a3f08;
+  box-shadow: inset 0 0 0 1px rgba(180, 83, 9, 0.2);
+}
+
 .cite-button {
   display: inline-flex;
   align-items: center;

@@ -5,7 +5,16 @@ from pathlib import Path
 
 from paper_monitor.classifier import classify
 from paper_monitor.config import load_config
-from paper_monitor.sources import fetch_crossref, fetch_pubmed, fetch_rss, fetch_toc, merge_dedupe
+from paper_monitor.sources import (
+    dedupe_high_impact_papers,
+    fetch_crossref,
+    fetch_high_impact_crossref,
+    fetch_high_impact_pubmed,
+    fetch_pubmed,
+    fetch_rss,
+    fetch_toc,
+    merge_dedupe,
+)
 from paper_monitor.storage import connect, export_json, import_json, upsert_papers
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -39,6 +48,16 @@ def main() -> None:
         total += changed
         print(f"{journal.name}: {changed} records")
 
+    if config.high_impact_journals:
+        groups = [
+            _safe_fetch("Crossref", "High-impact Journals", lambda: fetch_high_impact_crossref(config, args.days)),
+            _safe_fetch("PubMed", "High-impact Journals", lambda: fetch_high_impact_pubmed(config, args.days)),
+        ]
+        papers = dedupe_high_impact_papers([paper for paper in merge_dedupe(groups) if paper.title])
+        changed = upsert_papers(conn, papers)
+        total += changed
+        print(f"High-impact Journals: {changed} records")
+
     export_json(conn, args.output)
     print(f"Exported {args.output} after processing {total} records")
 
@@ -49,6 +68,7 @@ def _safe_fetch(source: str, journal: str, fn):
     except Exception as exc:
         print(f"Warning: {source} fetch failed for {journal}: {exc}")
         return []
+
 
 
 if __name__ == "__main__":
