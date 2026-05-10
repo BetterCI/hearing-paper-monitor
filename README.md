@@ -110,6 +110,7 @@ The dashboard can display optional AI-generated abstract analysis with three fie
 - main limitation
 
 The analysis is generated server-side and stored in `data/papers.json` as `ai_analysis`; the browser never sees the MiniMax API key.
+Each paper is analyzed only once by default. Future workflow runs skip papers that already have a complete `ai_analysis` block, so existing abstracts do not repeatedly spend MiniMax tokens. Use `--refresh` only when you intentionally want to recompute existing analyses.
 
 To enable it in GitHub Actions, add this repository secret:
 

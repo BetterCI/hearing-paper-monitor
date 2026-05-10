@@ -31,7 +31,7 @@ def test_validate_analysis_requires_all_fields():
     }
 
 
-def test_should_analyze_skips_matching_cached_analysis():
+def test_should_analyze_skips_any_complete_cached_analysis():
     paper = {
         "title": "Speech perception in noise",
         "abstract": "This abstract is intentionally long enough for the analysis script to consider it. " * 3,
@@ -44,6 +44,10 @@ def test_should_analyze_skips_matching_cached_analysis():
         "scientific_question": "Question",
         "key_highlight": "Highlight",
         "main_limitation": "Limitation",
-        "abstract_hash": abstract_hash(paper),
+        "abstract_hash": "older-hash",
     }
     assert not should_analyze(paper, refresh=False)
+
+    paper["abstract"] = paper["abstract"] + " A later metadata update appended one more sentence."
+    assert not should_analyze(paper, refresh=False)
+    assert should_analyze(paper, refresh=True)

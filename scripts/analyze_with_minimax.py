@@ -23,7 +23,7 @@ def main() -> None:
     parser.add_argument("--input", type=Path, default=ROOT / "data" / "papers.json")
     parser.add_argument("--output", type=Path, default=ROOT / "data" / "papers.json")
     parser.add_argument("--limit", type=int, default=40, help="Maximum abstracts to analyze per run. 0 means no limit.")
-    parser.add_argument("--refresh", action="store_true", help="Recompute existing MiniMax analyses.")
+    parser.add_argument("--refresh", action="store_true", help="Force recomputing existing MiniMax analyses.")
     parser.add_argument("--language", default=os.getenv("MINIMAX_ANALYSIS_LANGUAGE") or "en")
     args = parser.parse_args()
 
@@ -119,7 +119,7 @@ def should_analyze(paper: dict, refresh: bool) -> bool:
     if refresh:
         return True
     analysis = paper.get("ai_analysis") or {}
-    return analysis.get("abstract_hash") != abstract_hash(paper) or not all(analysis.get(field) for field in REQUIRED_FIELDS)
+    return not all(analysis.get(field) for field in REQUIRED_FIELDS)
 
 
 def prompt_for_paper(paper: dict, language: str) -> str:
