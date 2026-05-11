@@ -230,6 +230,8 @@ const els = {
   sectionHighlights: document.querySelector("#sectionHighlights"),
   trendingTopics: document.querySelector("#trendingTopics"),
   selectedRecentPapers: document.querySelector("#selectedRecentPapers"),
+  featuredFigurePanel: document.querySelector("#featuredFigurePanel"),
+  featuredFigure: document.querySelector("#featuredFigure"),
   weeklyDigestWindow: document.querySelector("#weeklyDigestWindow"),
   weeklyTotal: document.querySelector("#weeklyTotal"),
   weeklyJournalCounts: document.querySelector("#weeklyJournalCounts"),
@@ -761,6 +763,84 @@ function renderRecentOverview(papers = state.papers) {
 
   const selectedSource = papersInLatestWindow(papers, 7);
   renderCompactPaperList(els.selectedRecentPapers, selectRecentPapers(selectedSource, 6), { showTags: true });
+  renderFeaturedFigure(papers);
+}
+
+function renderFeaturedFigure(papers = state.papers) {
+  if (!els.featuredFigurePanel || !els.featuredFigure) return;
+  const paper = selectFeaturedFigurePaper(papers);
+  els.featuredFigure.replaceChildren();
+  els.featuredFigurePanel.hidden = !paper;
+  if (!paper) return;
+
+  const card = document.createElement("article");
+  card.className = "featured-figure";
+
+  const figure = document.createElement("figure");
+  figure.className = "featured-figure-media";
+  const image = document.createElement("img");
+  image.src = paper.key_image_url;
+  image.alt = paper.key_image_alt || `Key image from ${sourceDisplayName(paper)}`;
+  image.loading = "lazy";
+  image.referrerPolicy = "no-referrer";
+  image.addEventListener("error", () => {
+    els.featuredFigurePanel.hidden = true;
+  });
+  figure.appendChild(image);
+  if (paper.key_image_alt) {
+    const caption = document.createElement("figcaption");
+    caption.textContent = shortText(paper.key_image_alt, 150);
+    markTranslatable(caption, caption.textContent);
+    figure.appendChild(caption);
+  }
+
+  const body = document.createElement("div");
+  body.className = "featured-figure-body";
+  const link = document.createElement("a");
+  link.className = "featured-figure-title";
+  link.href = paper.url || (paper.doi ? doiUrl(paper.doi) : "#");
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  link.textContent = paper.title;
+  markTranslatable(link, paper.title);
+
+  const meta = document.createElement("p");
+  meta.className = "compact-meta";
+  [sourceDisplayName(paper), displayDate(paper)]
+    .filter(Boolean)
+    .forEach((part, index) => {
+      if (index > 0) meta.appendChild(document.createTextNode(" · "));
+      meta.appendChild(document.createTextNode(part));
+    });
+  const sourceUrl = paper.doi ? doiUrl(paper.doi) : paper.url;
+  if (sourceUrl) {
+    if (meta.childNodes.length) meta.appendChild(document.createTextNode(" / "));
+    const source = document.createElement("a");
+    source.className = "compact-source-link";
+    source.href = sourceUrl;
+    source.target = "_blank";
+    source.rel = "noopener noreferrer";
+    source.textContent = paper.doi ? "DOI" : "Publisher";
+    if (paper.doi) source.title = paper.doi;
+    meta.appendChild(source);
+  }
+
+  body.append(link, meta);
+  const tags = publicPaperTags(paper).slice(0, 3);
+  if (tags.length) {
+    const tagLine = document.createElement("div");
+    tagLine.className = "mini-tags";
+    tags.forEach((tag) => {
+      const chip = document.createElement("span");
+      chip.textContent = tag;
+      markTranslatable(chip, tag);
+      tagLine.appendChild(chip);
+    });
+    body.appendChild(tagLine);
+  }
+
+  card.append(figure, body);
+  els.featuredFigure.appendChild(card);
 }
 
 function renderWeeklyDigest(papers = state.papers) {
@@ -934,6 +1014,28 @@ function selectRecentPapers(papers, limit) {
   }
 
   return selected.slice(0, limit);
+}
+
+function selectFeaturedFigurePaper(papers) {
+  const candidates = papers
+    .filter((paper) => paper.key_image_url && !isPdfUrl(paper.key_image_url))
+    .filter((paper) => !isOtherJasaSectionPaper(paper))
+    .sort((left, right) => paperStableKey(left).localeCompare(paperStableKey(right)));
+  if (!candidates.length) return null;
+  const seed = hashString(`${state.generatedAt || "no-date"}|featured-figure|${candidates.length}`);
+  return candidates[seed % candidates.length];
+}
+
+function paperStableKey(paper) {
+  return paper.doi || `${paper.journal}|${paper.publication_date}|${paper.title}`;
+}
+
+function hashString(value) {
+  let hash = 0;
+  for (let index = 0; index < value.length; index += 1) {
+    hash = (hash * 31 + value.charCodeAt(index)) >>> 0;
+  }
+  return hash;
 }
 
 function paperRelevanceScore(paper) {

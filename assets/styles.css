@@ -332,7 +332,8 @@ select:focus {
   grid-template-columns: minmax(280px, 0.95fr) minmax(320px, 1.1fr) minmax(260px, 0.9fr);
   grid-template-areas:
     "new selected highlights"
-    "topics selected highlights";
+    "topics selected highlights"
+    ". figure figure";
   gap: 14px;
   align-items: start;
 }
@@ -379,6 +380,11 @@ select:focus {
 .overview-panel-selected {
   grid-area: selected;
   --overview-accent: #7c3aed;
+}
+
+.overview-panel-figure {
+  grid-area: figure;
+  --overview-accent: #15803d;
 }
 
 .overview-panel h3,
@@ -522,6 +528,58 @@ select:focus {
   background: #f0f5fb;
   color: #1f3d5c;
   box-shadow: inset 0 0 0 1px rgba(37, 99, 235, 0.08);
+}
+
+.featured-figure {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.72fr) minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.featured-figure-media {
+  display: grid;
+  gap: 7px;
+  margin: 0;
+}
+
+.featured-figure-media img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  border: 1px solid #e4ecee;
+  border-radius: 8px;
+  background: #f6faf9;
+}
+
+.featured-figure-media figcaption {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.35;
+}
+
+.featured-figure-body {
+  display: grid;
+  gap: 10px;
+  min-width: 0;
+}
+
+.featured-figure-title {
+  color: #16343a;
+  font-size: 1.02rem;
+  font-weight: 900;
+  line-height: 1.32;
+  text-decoration: none;
+}
+
+.featured-figure-title:hover {
+  text-decoration: underline;
 }
 
 .digest-grid {
@@ -1545,7 +1603,8 @@ select:focus {
   .overview-grid {
     grid-template-areas:
       "new selected"
-      "topics highlights";
+      "topics highlights"
+      "figure figure";
   }
 
   .digest-total,
@@ -1570,7 +1629,12 @@ select:focus {
       "new"
       "selected"
       "topics"
-      "highlights";
+      "highlights"
+      "figure";
+  }
+
+  .featured-figure {
+    grid-template-columns: 1fr;
   }
 
   .section-heading {
