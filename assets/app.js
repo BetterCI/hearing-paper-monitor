@@ -227,7 +227,6 @@ const els = {
   hearingBunny: document.querySelector("#hearingBunny"),
   translationStatus: null,
   newThisUpdate: document.querySelector("#newThisUpdate"),
-  latestUpdates: document.querySelector("#latestUpdates"),
   sectionHighlights: document.querySelector("#sectionHighlights"),
   trendingTopics: document.querySelector("#trendingTopics"),
   selectedRecentPapers: document.querySelector("#selectedRecentPapers"),
@@ -752,7 +751,6 @@ function renderRecentOverview(papers = state.papers) {
     showTags: true,
     emptyText: "No newly added papers were recorded in this update.",
   });
-  renderCompactPaperList(els.latestUpdates, sorted.slice(0, 5), { featureFirst: true });
 
   const highlights = sorted.filter(isJasaSectionHighlight).slice(0, 4);
   renderCompactPaperList(els.sectionHighlights, highlights, { showAuthors: true, showAffiliation: true });
