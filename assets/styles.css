@@ -740,14 +740,28 @@ select:focus {
   text-decoration: underline;
 }
 
-.stage-badge {
+.stage-badge,
+.oa-badge {
   display: inline-flex;
   align-items: center;
   border-radius: 999px;
   padding: 2px 8px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.stage-badge {
   color: #0f4f58;
   background: #dcf7f2;
-  font-weight: 900;
+}
+
+.oa-badge {
+  color: #116236;
+  background: #dcfce7;
+}
+
+.oa-badge:hover {
+  text-decoration: underline;
 }
 
 .match-badge {

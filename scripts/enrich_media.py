@@ -4,6 +4,7 @@ import argparse
 import json
 import re
 import time
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin
 
@@ -36,6 +37,18 @@ FULL_TEXT_META_NAMES = [
     "citation_public_url",
     "citation_abstract_html_url",
     "og:url",
+]
+
+OPEN_ACCESS_META_NAMES = [
+    "citation_open_access",
+    "citation_free_to_read",
+]
+
+LICENSE_META_NAMES = [
+    "citation_license",
+    "dc.rights",
+    "dc.rights.uri",
+    "license",
 ]
 
 BAD_IMAGE_TERMS = [
@@ -80,6 +93,10 @@ def main() -> None:
             if failed_url and not paper.get("full_text_url") and not is_pdf_url(failed_url):
                 paper["full_text_url"] = failed_url
                 changed += 1
+            status_code = getattr(getattr(exc, "response", None), "status_code", None)
+            if status_code in {403, 404, 410} and not paper.get("media_checked_at"):
+                paper["media_checked_at"] = utc_now()
+                changed += 1
             continue
         if apply_metadata(paper, metadata):
             changed += 1
@@ -91,11 +108,11 @@ def main() -> None:
 
 
 def has_media_metadata(paper: dict) -> bool:
-    return bool(paper.get("full_text_url") or paper.get("key_image_url") or paper.get("key_formula"))
+    return bool(paper.get("key_image_url") or paper.get("key_formula") or paper.get("media_checked_at"))
 
 
 def landing_url(paper: dict) -> str:
-    for candidate in [paper.get("full_text_url"), paper.get("url"), doi_url(paper.get("doi"))]:
+    for candidate in [paper.get("open_access_url"), paper.get("full_text_url"), paper.get("url"), doi_url(paper.get("doi"))]:
         if candidate and not is_pdf_url(candidate):
             return candidate
     return ""
@@ -115,8 +132,15 @@ def enrich_from_page(url: str) -> dict:
 
     soup = BeautifulSoup(response.text, "html.parser")
     base_url = response.url
+    license_url = find_license_url(soup, base_url)
+    open_access = is_open_access_page(soup, base_url, license_url)
     return {
         "full_text_url": first_meta_url(soup, FULL_TEXT_META_NAMES, base_url) or base_url,
+        "open_access": open_access,
+        "open_access_url": base_url if open_access else "",
+        "open_access_source": "page_license" if open_access and license_url else ("page_metadata" if open_access else ""),
+        "license_url": license_url,
+        "media_checked_at": utc_now(),
         "key_image_url": find_key_image(soup, base_url),
         "key_image_alt": find_key_image_alt(soup),
         "key_formula": find_key_formula(soup),
@@ -132,6 +156,44 @@ def first_meta_url(soup: BeautifulSoup, names: list[str], base_url: str) -> str:
     return ""
 
 
+def find_license_url(soup: BeautifulSoup, base_url: str) -> str:
+    for name in LICENSE_META_NAMES:
+        tag = soup.find("meta", attrs={"name": name}) or soup.find("meta", attrs={"property": name})
+        content = tag.get("content", "").strip() if tag else ""
+        if content and "http" in content.lower():
+            return urljoin(base_url, content)
+
+    for tag in soup.find_all("link", href=True):
+        rel = " ".join(tag.get("rel", [])).lower() if isinstance(tag.get("rel"), list) else str(tag.get("rel", "")).lower()
+        href = tag.get("href", "").strip()
+        if "license" in rel and href:
+            return urljoin(base_url, href)
+
+    for tag in soup.find_all("a", href=True):
+        href = tag.get("href", "").strip()
+        if "creativecommons.org" in href.lower():
+            return urljoin(base_url, href)
+    return ""
+
+
+def is_open_access_page(soup: BeautifulSoup, base_url: str, license_url: str) -> bool:
+    if "pmc.ncbi.nlm.nih.gov" in base_url.lower():
+        return True
+    if is_open_license_url(license_url):
+        return True
+    for name in OPEN_ACCESS_META_NAMES:
+        tag = soup.find("meta", attrs={"name": name}) or soup.find("meta", attrs={"property": name})
+        content = (tag.get("content", "") if tag else "").strip().lower()
+        if content in {"true", "yes", "y", "1", "open", "free", "free_to_read"}:
+            return True
+    return False
+
+
+def is_open_license_url(url: str) -> bool:
+    value = (url or "").lower()
+    return "creativecommons.org" in value or "open-access" in value or "openaccess" in value
+
+
 def find_key_image(soup: BeautifulSoup, base_url: str) -> str:
     for name in IMAGE_META_NAMES:
         tag = soup.find("meta", attrs={"name": name}) or soup.find("meta", attrs={"property": name})
@@ -141,10 +203,15 @@ def find_key_image(soup: BeautifulSoup, base_url: str) -> str:
             return url
 
     scored: list[tuple[int, str]] = []
-    for image in soup.find_all("img", src=True):
+    seen: set[str] = set()
+    preferred_images = []
+    for selector in ["figure img[src]", ".figure img[src]", ".fig img[src]", "article img[src]", "[class*='fig'] img[src]"]:
+        preferred_images.extend(soup.select(selector))
+    for image in [*preferred_images, *soup.find_all("img", src=True)]:
         src = normalize_image_url(image.get("src", ""), base_url)
-        if not src:
+        if not src or src in seen:
             continue
+        seen.add(src)
         text = " ".join(
             [
                 image.get("alt", ""),
@@ -153,6 +220,8 @@ def find_key_image(soup: BeautifulSoup, base_url: str) -> str:
             ]
         ).lower()
         score = 0
+        if image in preferred_images:
+            score += 1
         for term in ["graphical", "abstract", "figure", "fig.", "equation", "formula", "toc"]:
             if term in text:
                 score += 2
@@ -224,7 +293,21 @@ def apply_metadata(paper: dict, metadata: dict) -> bool:
         if metadata.get(key) and not paper.get(key):
             paper[key] = metadata[key]
             changed = True
+    for key in ["open_access_url", "open_access_source", "media_checked_at"]:
+        if metadata.get(key) and not paper.get(key):
+            paper[key] = metadata[key]
+            changed = True
+    if metadata.get("license_url") and (metadata.get("open_access") or paper.get("open_access")) and not paper.get("license_url"):
+        paper["license_url"] = metadata["license_url"]
+        changed = True
+    if metadata.get("open_access") and not paper.get("open_access"):
+        paper["open_access"] = True
+        changed = True
     return changed
+
+
+def utc_now() -> str:
+    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
 def sync_sqlite(json_path: Path) -> None:

@@ -1,4 +1,7 @@
-from scripts.paper_monitor.sources import _crossref_publication_stage
+import xml.etree.ElementTree as ET
+
+from scripts.paper_monitor.config import Journal
+from scripts.paper_monitor.sources import _crossref_open_access_metadata, _crossref_publication_stage, _paper_from_pubmed
 
 
 def test_crossref_online_first_without_issue_assignment_is_early_access():
@@ -23,3 +26,67 @@ def test_future_publication_date_is_early_access():
     item = {"title": ["An article in press"]}
 
     assert _crossref_publication_stage(item, "Hearing Research", "2999-01-01") == "early_access"
+
+
+def test_crossref_open_license_marks_open_access():
+    metadata = _crossref_open_access_metadata(
+        {
+            "URL": "https://doi.org/10.1234/open",
+            "license": [{"URL": "https://creativecommons.org/licenses/by/4.0/"}],
+            "link": [{"URL": "https://example.org/full-text"}],
+        },
+        "10.1234/open",
+    )
+
+    assert metadata["open_access"] is True
+    assert metadata["open_access_url"] == "https://example.org/full-text"
+    assert metadata["open_access_source"] == "crossref_license"
+    assert metadata["license_url"] == "https://creativecommons.org/licenses/by/4.0/"
+
+
+def test_crossref_closed_license_is_not_marked_open_access():
+    metadata = _crossref_open_access_metadata(
+        {"license": [{"URL": "https://publisher.example/license"}]},
+        "10.1234/closed",
+    )
+
+    assert metadata["open_access"] is None
+    assert metadata["open_access_url"] is None
+    assert metadata["license_url"] is None
+
+
+def test_pubmed_pmc_id_marks_open_access():
+    article = ET.fromstring(
+        """
+        <PubmedArticle>
+          <MedlineCitation>
+            <PMID>123456</PMID>
+            <Article>
+              <Journal>
+                <JournalIssue>
+                  <PubDate><Year>2026</Year><Month>5</Month><Day>1</Day></PubDate>
+                </JournalIssue>
+              </Journal>
+              <ArticleTitle>Speech perception in hearing loss</ArticleTitle>
+              <Abstract><AbstractText>Example abstract.</AbstractText></Abstract>
+              <AuthorList>
+                <Author><ForeName>A.</ForeName><LastName>Author</LastName></Author>
+              </AuthorList>
+            </Article>
+          </MedlineCitation>
+          <PubmedData>
+            <ArticleIdList>
+              <ArticleId IdType="doi">10.1234/pmc-open</ArticleId>
+              <ArticleId IdType="pmc">PMC1234567</ArticleId>
+            </ArticleIdList>
+          </PubmedData>
+        </PubmedArticle>
+        """
+    )
+    journal = Journal(key="ear-hearing", name="Ear and Hearing", aliases=[], issn=[])
+
+    paper = _paper_from_pubmed(article, journal)
+
+    assert paper.open_access is True
+    assert paper.open_access_url == "https://pmc.ncbi.nlm.nih.gov/articles/PMC1234567/"
+    assert paper.open_access_source == "pubmed_pmc"

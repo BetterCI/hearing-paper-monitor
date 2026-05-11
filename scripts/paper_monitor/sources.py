@@ -359,6 +359,10 @@ def merge_dedupe(groups: Iterable[list[Paper]]) -> list[Paper]:
             existing.last_author_lab_url = existing.last_author_lab_url or paper.last_author_lab_url
             existing.last_author_lab_name = existing.last_author_lab_name or paper.last_author_lab_name
             existing.last_author_lab_source = existing.last_author_lab_source or paper.last_author_lab_source
+            existing.open_access = existing.open_access or paper.open_access
+            existing.open_access_url = existing.open_access_url or paper.open_access_url
+            existing.open_access_source = existing.open_access_source or paper.open_access_source
+            existing.license_url = existing.license_url or paper.license_url
             existing.keywords = sorted(set(existing.keywords + paper.keywords))
             existing.authors = existing.authors or paper.authors
             existing.url = _prefer_url(existing.url, paper.url, existing.doi)
@@ -419,6 +423,7 @@ def _paper_from_crossref(item: dict, journal: Journal) -> Paper | None:
     journal_name = normalize_journal_name(_clean((item.get("container-title") or [journal.name])[0]))
     publication_date = _crossref_date(item)
     available_online_date = _crossref_available_online_date(item)
+    open_access = _crossref_open_access_metadata(item, doi)
     return Paper(
         title=_clean(titles[0]),
         authors=_crossref_authors(item.get("author", [])),
@@ -429,6 +434,10 @@ def _paper_from_crossref(item: dict, journal: Journal) -> Paper | None:
         abstract=abstract,
         first_author_affiliation=_crossref_first_author_affiliation(item.get("author", [])),
         last_author_affiliation=_crossref_last_author_affiliation(item.get("author", [])),
+        open_access=open_access["open_access"],
+        open_access_url=open_access["open_access_url"],
+        open_access_source=open_access["open_access_source"],
+        license_url=open_access["license_url"],
         publication_stage=_crossref_publication_stage(item, journal_name, publication_date),
         keywords=subjects,
         source="crossref",
@@ -446,6 +455,7 @@ def _high_impact_paper_from_crossref(item: dict, actual_journal: str) -> Paper |
     if not match:
         return None
     doi = normalize_doi(item.get("DOI"))
+    open_access = _crossref_open_access_metadata(item, doi)
     paper = Paper(
         title=title,
         authors=_crossref_authors(item.get("author", [])),
@@ -456,6 +466,10 @@ def _high_impact_paper_from_crossref(item: dict, actual_journal: str) -> Paper |
         abstract=_clean(item.get("abstract", "")) or None,
         first_author_affiliation=_crossref_first_author_affiliation(item.get("author", [])),
         last_author_affiliation=_crossref_last_author_affiliation(item.get("author", [])),
+        open_access=open_access["open_access"],
+        open_access_url=open_access["open_access_url"],
+        open_access_source=open_access["open_access_source"],
+        license_url=open_access["license_url"],
         publication_stage=_crossref_publication_stage(item, actual_journal, _crossref_date(item)),
         keywords=subjects,
         source="crossref",
@@ -485,6 +499,7 @@ def _paper_from_pubmed(article: ET.Element, journal: Journal) -> Paper:
             doi = normalize_doi(node.text)
             break
     pmid = article.findtext(".//PMID")
+    pmc_id = _pubmed_pmc_id(article)
     keywords = [_clean("".join(node.itertext())) for node in article.findall(".//Keyword")]
     publication_date = _pubmed_date(article)
     return Paper(
@@ -497,6 +512,9 @@ def _paper_from_pubmed(article: ET.Element, journal: Journal) -> Paper:
         abstract=" ".join(abstract_parts) or None,
         first_author_affiliation=_pubmed_first_author_affiliation(article.findall(".//Author")),
         last_author_affiliation=_pubmed_last_author_affiliation(article.findall(".//Author")),
+        open_access=True if pmc_id else None,
+        open_access_url=_pmc_url(pmc_id),
+        open_access_source="pubmed_pmc" if pmc_id else None,
         publication_stage=_pubmed_publication_stage(article, publication_date),
         keywords=[kw for kw in keywords if kw],
         source="pubmed",
@@ -519,6 +537,7 @@ def _high_impact_paper_from_pubmed(article: ET.Element, actual_journal: str) -> 
             doi = normalize_doi(node.text)
             break
     pmid = article.findtext(".//PMID")
+    pmc_id = _pubmed_pmc_id(article)
     keywords = [_clean("".join(node.itertext())) for node in article.findall(".//Keyword") if _clean("".join(node.itertext()))]
     mesh = _pubmed_mesh_terms(article)
     match = high_impact_match(title=title, keywords=keywords, mesh=mesh)
@@ -534,6 +553,9 @@ def _high_impact_paper_from_pubmed(article: ET.Element, actual_journal: str) -> 
         abstract=" ".join(abstract_parts) or None,
         first_author_affiliation=_pubmed_first_author_affiliation(article.findall(".//Author")),
         last_author_affiliation=_pubmed_last_author_affiliation(article.findall(".//Author")),
+        open_access=True if pmc_id else None,
+        open_access_url=_pmc_url(pmc_id),
+        open_access_source="pubmed_pmc" if pmc_id else None,
         publication_stage=_pubmed_publication_stage(article, _pubmed_date(article)),
         keywords=sorted(set(keywords + mesh)),
         source="pubmed",
@@ -545,6 +567,57 @@ def _high_impact_paper_from_pubmed(article: ET.Element, actual_journal: str) -> 
         match_fields=match["match_fields"],
         needs_review=match["needs_review"],
     )
+
+
+def _crossref_open_access_metadata(item: dict, doi: str | None) -> dict[str, str | bool | None]:
+    license_url = _crossref_license_url(item)
+    if license_url and _is_open_license_url(license_url):
+        return {
+            "open_access": True,
+            "open_access_url": _crossref_full_text_link(item) or _official_url(item.get("URL", ""), doi),
+            "open_access_source": "crossref_license",
+            "license_url": license_url,
+        }
+    return {
+        "open_access": None,
+        "open_access_url": None,
+        "open_access_source": None,
+        "license_url": None,
+    }
+
+
+def _crossref_license_url(item: dict) -> str | None:
+    for license_item in item.get("license") or []:
+        url = _clean(str(license_item.get("URL") or license_item.get("url") or ""))
+        if url:
+            return url
+    return None
+
+
+def _crossref_full_text_link(item: dict) -> str | None:
+    for link in item.get("link") or []:
+        url = _clean(str(link.get("URL") or link.get("url") or ""))
+        if url and not url.lower().endswith(".pdf"):
+            return url
+    return None
+
+
+def _is_open_license_url(url: str) -> bool:
+    value = (url or "").lower()
+    return "creativecommons.org" in value or "open-access" in value or "openaccess" in value
+
+
+def _pubmed_pmc_id(article: ET.Element) -> str | None:
+    for node in article.findall(".//ArticleId"):
+        if node.attrib.get("IdType") == "pmc" and node.text:
+            return node.text.strip()
+    return None
+
+
+def _pmc_url(pmc_id: str | None) -> str | None:
+    if not pmc_id:
+        return None
+    return f"https://pmc.ncbi.nlm.nih.gov/articles/{pmc_id}/"
 
 
 def _crossref_authors(authors: list[dict]) -> list[str]:

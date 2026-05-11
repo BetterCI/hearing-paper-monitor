@@ -27,6 +27,11 @@ CREATE TABLE IF NOT EXISTS papers (
     last_author_lab_url TEXT,
     last_author_lab_name TEXT,
     last_author_lab_source TEXT,
+    open_access INTEGER,
+    open_access_url TEXT,
+    open_access_source TEXT,
+    license_url TEXT,
+    media_checked_at TEXT,
     publication_stage TEXT,
     key_image_url TEXT,
     key_image_alt TEXT,
@@ -60,6 +65,11 @@ MIGRATIONS = [
     "ALTER TABLE papers ADD COLUMN last_author_lab_url TEXT",
     "ALTER TABLE papers ADD COLUMN last_author_lab_name TEXT",
     "ALTER TABLE papers ADD COLUMN last_author_lab_source TEXT",
+    "ALTER TABLE papers ADD COLUMN open_access INTEGER",
+    "ALTER TABLE papers ADD COLUMN open_access_url TEXT",
+    "ALTER TABLE papers ADD COLUMN open_access_source TEXT",
+    "ALTER TABLE papers ADD COLUMN license_url TEXT",
+    "ALTER TABLE papers ADD COLUMN media_checked_at TEXT",
     "ALTER TABLE papers ADD COLUMN full_text_url TEXT",
     "ALTER TABLE papers ADD COLUMN publication_stage TEXT",
     "ALTER TABLE papers ADD COLUMN key_image_url TEXT",
@@ -98,13 +108,14 @@ def import_json(conn: sqlite3.Connection, input_path: Path) -> int:
             INSERT INTO papers (
                 id, title, title_zh, authors, journal, publication_date, doi, url, full_text_url,
                 abstract, abstract_zh, ai_analysis, first_author_affiliation,
-                last_author_affiliation, last_author_lab_url, last_author_lab_name, last_author_lab_source, publication_stage,
+                last_author_affiliation, last_author_lab_url, last_author_lab_name, last_author_lab_source,
+                open_access, open_access_url, open_access_source, license_url, media_checked_at, publication_stage,
                 key_image_url, key_image_alt, key_formula, section, keywords, tags, source, available_online_date,
                 source_group, source_group_label, actual_journal, match_level, matched_keywords, match_fields, needs_review,
                 first_seen_at,
                 updated_at
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
             ON CONFLICT(id) DO UPDATE SET
                 title_zh=COALESCE(papers.title_zh, excluded.title_zh),
                 abstract_zh=COALESCE(papers.abstract_zh, excluded.abstract_zh),
@@ -114,6 +125,11 @@ def import_json(conn: sqlite3.Connection, input_path: Path) -> int:
                 last_author_lab_url=COALESCE(papers.last_author_lab_url, excluded.last_author_lab_url),
                 last_author_lab_name=COALESCE(papers.last_author_lab_name, excluded.last_author_lab_name),
                 last_author_lab_source=COALESCE(papers.last_author_lab_source, excluded.last_author_lab_source),
+                open_access=COALESCE(excluded.open_access, papers.open_access),
+                open_access_url=COALESCE(excluded.open_access_url, papers.open_access_url),
+                open_access_source=COALESCE(excluded.open_access_source, papers.open_access_source),
+                license_url=COALESCE(excluded.license_url, papers.license_url),
+                media_checked_at=COALESCE(excluded.media_checked_at, papers.media_checked_at),
                 publication_stage=COALESCE(excluded.publication_stage, papers.publication_stage),
                 full_text_url=COALESCE(papers.full_text_url, excluded.full_text_url),
                 key_image_url=COALESCE(papers.key_image_url, excluded.key_image_url),
@@ -148,6 +164,11 @@ def import_json(conn: sqlite3.Connection, input_path: Path) -> int:
                 item.get("last_author_lab_url"),
                 item.get("last_author_lab_name"),
                 item.get("last_author_lab_source"),
+                _bool_or_none(item.get("open_access")),
+                item.get("open_access_url"),
+                item.get("open_access_source"),
+                item.get("license_url") if item.get("open_access") else None,
+                item.get("media_checked_at"),
                 item.get("publication_stage") or ("early_access" if item.get("is_early_access") else None),
                 item.get("key_image_url"),
                 item.get("key_image_alt"),
@@ -184,12 +205,13 @@ def upsert_papers(conn: sqlite3.Connection, papers: list[Paper]) -> int:
             INSERT INTO papers (
                 id, title, authors, journal, publication_date, doi, url, abstract,
                 first_author_affiliation, last_author_affiliation, last_author_lab_url, last_author_lab_name,
-                last_author_lab_source, publication_stage, section, keywords, tags, source, available_online_date,
+                last_author_lab_source, open_access, open_access_url, open_access_source, license_url, media_checked_at,
+                publication_stage, section, keywords, tags, source, available_online_date,
                 source_group, source_group_label, actual_journal, match_level, matched_keywords, match_fields, needs_review,
                 first_seen_at,
                 updated_at
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
             ON CONFLICT(id) DO UPDATE SET
                 title=excluded.title,
                 authors=excluded.authors,
@@ -206,6 +228,11 @@ def upsert_papers(conn: sqlite3.Connection, papers: list[Paper]) -> int:
                 last_author_lab_url=COALESCE(papers.last_author_lab_url, excluded.last_author_lab_url),
                 last_author_lab_name=COALESCE(papers.last_author_lab_name, excluded.last_author_lab_name),
                 last_author_lab_source=COALESCE(papers.last_author_lab_source, excluded.last_author_lab_source),
+                open_access=COALESCE(excluded.open_access, papers.open_access),
+                open_access_url=COALESCE(excluded.open_access_url, papers.open_access_url),
+                open_access_source=COALESCE(excluded.open_access_source, papers.open_access_source),
+                license_url=COALESCE(excluded.license_url, papers.license_url),
+                media_checked_at=COALESCE(papers.media_checked_at, excluded.media_checked_at),
                 publication_stage=excluded.publication_stage,
                 full_text_url=papers.full_text_url,
                 key_image_url=papers.key_image_url,
@@ -240,6 +267,11 @@ def upsert_papers(conn: sqlite3.Connection, papers: list[Paper]) -> int:
                 paper.last_author_lab_url,
                 paper.last_author_lab_name,
                 paper.last_author_lab_source,
+                _bool_or_none(paper.open_access),
+                paper.open_access_url,
+                paper.open_access_source,
+                paper.license_url,
+                paper.media_checked_at,
                 paper.publication_stage,
                 paper.section,
                 json.dumps(paper.keywords, ensure_ascii=False),
@@ -267,6 +299,7 @@ def all_papers(conn: sqlite3.Connection) -> list[dict]:
         SELECT title, title_zh, authors, journal, publication_date, doi, url,
                full_text_url, abstract, abstract_zh, ai_analysis, first_author_affiliation,
                last_author_affiliation, last_author_lab_url, last_author_lab_name, last_author_lab_source,
+               open_access, open_access_url, open_access_source, license_url, media_checked_at,
                publication_stage, key_image_url, key_image_alt, key_formula,
                section, keywords, tags, source, available_online_date,
                source_group, source_group_label, actual_journal, match_level,
@@ -292,6 +325,11 @@ def all_papers(conn: sqlite3.Connection) -> list[dict]:
         "last_author_lab_url",
         "last_author_lab_name",
         "last_author_lab_source",
+        "open_access",
+        "open_access_url",
+        "open_access_source",
+        "license_url",
+        "media_checked_at",
         "publication_stage",
         "key_image_url",
         "key_image_alt",
@@ -320,6 +358,8 @@ def all_papers(conn: sqlite3.Connection) -> list[dict]:
         item["match_fields"] = json.loads(item["match_fields"]) if item.get("match_fields") else []
         if item.get("needs_review") is not None:
             item["needs_review"] = bool(item["needs_review"])
+        if item.get("open_access") is not None:
+            item["open_access"] = bool(item["open_access"])
         item["ai_analysis"] = json.loads(item["ai_analysis"]) if item.get("ai_analysis") else None
         if not item.get("title_zh"):
             item.pop("title_zh", None)
@@ -337,6 +377,16 @@ def all_papers(conn: sqlite3.Connection) -> list[dict]:
             item.pop("last_author_lab_name", None)
         if not item.get("last_author_lab_source"):
             item.pop("last_author_lab_source", None)
+        if item.get("open_access") is not True:
+            item.pop("open_access", None)
+        if not item.get("open_access_url"):
+            item.pop("open_access_url", None)
+        if not item.get("open_access_source"):
+            item.pop("open_access_source", None)
+        if not item.get("open_access") or not item.get("license_url"):
+            item.pop("license_url", None)
+        if not item.get("media_checked_at"):
+            item.pop("media_checked_at", None)
         if not item.get("publication_stage"):
             item.pop("publication_stage", None)
         if not item.get("full_text_url"):

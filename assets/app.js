@@ -687,6 +687,9 @@ function renderPaper(paper) {
   if (isEarlyAccess(paper)) {
     meta.appendChild(renderStageBadge("Early access"));
   }
+  if (isOpenAccess(paper)) {
+    meta.appendChild(renderOpenAccessBadge(paper));
+  }
   if (isHighImpactPaper(paper) && paper.match_level) {
     meta.appendChild(renderHighImpactMatchBadge(paper));
   }
@@ -824,6 +827,10 @@ function renderFeaturedFigure(papers = state.papers) {
     if (paper.doi) source.title = paper.doi;
     meta.appendChild(source);
   }
+  if (isOpenAccess(paper)) {
+    if (meta.childNodes.length) meta.appendChild(document.createTextNode(" / "));
+    meta.appendChild(renderOpenAccessBadge(paper));
+  }
 
   body.append(link, meta);
   const tags = publicPaperTags(paper).slice(0, 3);
@@ -912,6 +919,10 @@ function renderCompactPaperList(container, papers, options = {}) {
       source.textContent = paper.doi ? "DOI" : "Publisher";
       if (paper.doi) source.title = paper.doi;
       meta.appendChild(source);
+    }
+    if (isOpenAccess(paper)) {
+      if (meta.childNodes.length) meta.appendChild(document.createTextNode(" / "));
+      meta.appendChild(renderOpenAccessBadge(paper));
     }
     item.appendChild(meta);
 
@@ -1118,6 +1129,20 @@ function renderStageBadge(text) {
   span.textContent = text;
   markTranslatable(span, text);
   return span;
+}
+
+function renderOpenAccessBadge(paper) {
+  const url = paper.open_access_url || getFullTextUrl(paper) || paper.url;
+  const badge = url ? document.createElement("a") : document.createElement("span");
+  badge.className = "oa-badge";
+  if (url) {
+    badge.href = url;
+    badge.target = "_blank";
+    badge.rel = "noopener noreferrer";
+  }
+  badge.textContent = "OA";
+  badge.title = paper.license_url ? `Open access: ${paper.license_url}` : "Open access";
+  return badge;
 }
 
 function renderHighImpactMatchBadge(paper) {
@@ -1379,6 +1404,10 @@ function getFullTextUrl(paper) {
   ].filter(Boolean);
   const url = candidates.find((candidate) => !isPdfUrl(candidate));
   return url || "";
+}
+
+function isOpenAccess(paper) {
+  return paper.open_access === true || paper.is_open_access === true || Boolean(paper.open_access_url);
 }
 
 function isPdfUrl(url) {
