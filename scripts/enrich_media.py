@@ -74,6 +74,7 @@ def main() -> None:
     parser.add_argument("--output", type=Path, default=ROOT / "data" / "papers.json")
     parser.add_argument("--limit", type=int, default=80, help="Maximum official pages to inspect per run. 0 means no limit.")
     parser.add_argument("--pubmed-full-text-only", action="store_true", help="Only inspect PubMed/PMC full-text records missing images.")
+    parser.add_argument("--open-access-only", action="store_true", help="Only inspect open-access records missing images.")
     args = parser.parse_args()
 
     payload = json.loads(args.input.read_text(encoding="utf-8"))
@@ -82,6 +83,8 @@ def main() -> None:
 
     for paper in payload.get("papers", []):
         if args.pubmed_full_text_only and not needs_pubmed_full_text_image(paper):
+            continue
+        if args.open_access_only and not needs_open_access_image(paper):
             continue
         if has_media_metadata(paper):
             continue
@@ -92,7 +95,12 @@ def main() -> None:
             continue
         inspected += 1
         try:
-            metadata = enrich_pubmed_full_text_image(paper) if needs_pubmed_full_text_image(paper) else enrich_from_page(url)
+            if needs_pubmed_full_text_image(paper):
+                metadata = enrich_pubmed_full_text_image(paper)
+            elif needs_open_access_image(paper):
+                metadata = enrich_open_access_image(paper)
+            else:
+                metadata = enrich_from_page(url)
         except requests.RequestException as exc:
             print(f"Warning: media enrichment failed for {paper.get('doi') or paper.get('title')}: {exc}")
             failed_url = getattr(getattr(exc, "response", None), "url", "") or url
@@ -102,6 +110,9 @@ def main() -> None:
             status_code = getattr(getattr(exc, "response", None), "status_code", None)
             if status_code in {403, 404, 410} and not paper.get("media_checked_at"):
                 paper["media_checked_at"] = utc_now()
+                changed += 1
+            if status_code in {403, 404, 410} and needs_open_access_image(paper):
+                paper["open_access_image_checked_at"] = utc_now()
                 changed += 1
             continue
         if apply_metadata(paper, metadata):
@@ -114,7 +125,7 @@ def main() -> None:
 
 
 def has_media_metadata(paper: dict) -> bool:
-    if needs_pubmed_full_text_image(paper):
+    if needs_pubmed_full_text_image(paper) or needs_open_access_image(paper):
         return False
     return bool(paper.get("key_image_url") or paper.get("key_formula") or paper.get("media_checked_at"))
 
@@ -125,6 +136,14 @@ def needs_pubmed_full_text_image(paper: dict) -> bool:
         and paper.get("pubmed_full_text_url")
         and not paper.get("key_image_url")
         and not paper.get("pubmed_full_text_image_checked_at")
+    )
+
+
+def needs_open_access_image(paper: dict) -> bool:
+    return bool(
+        paper.get("open_access")
+        and not paper.get("key_image_url")
+        and not paper.get("open_access_image_checked_at")
     )
 
 
@@ -175,8 +194,22 @@ def enrich_pubmed_full_text_image(paper: dict) -> dict:
             metadata["pubmed_full_text_image_checked_at"] = checked_at
         except requests.RequestException as exc:
             print(f"Warning: Europe PMC figure lookup failed for {pmc_id}: {exc}")
+            status_code = getattr(getattr(exc, "response", None), "status_code", None)
+            if status_code in {404, 410}:
+                metadata["media_checked_at"] = checked_at
+                metadata["pubmed_full_text_image_checked_at"] = checked_at
+                if paper.get("open_access"):
+                    metadata["open_access_image_checked_at"] = checked_at
         except ET.ParseError as exc:
             print(f"Warning: Europe PMC XML parsing failed for {pmc_id}: {exc}")
+    return metadata
+
+
+def enrich_open_access_image(paper: dict) -> dict:
+    checked_at = utc_now()
+    metadata = enrich_from_page(landing_url(paper))
+    metadata["media_checked_at"] = metadata.get("media_checked_at") or checked_at
+    metadata["open_access_image_checked_at"] = checked_at
     return metadata
 
 
@@ -294,6 +327,10 @@ def find_key_image(soup: BeautifulSoup, base_url: str) -> str:
         if url:
             return url
 
+    figure_one = find_figure_one_image(soup, base_url)
+    if figure_one:
+        return figure_one
+
     scored: list[tuple[int, str]] = []
     seen: set[str] = set()
     preferred_images = []
@@ -321,6 +358,26 @@ def find_key_image(soup: BeautifulSoup, base_url: str) -> str:
             scored.append((score, src))
     scored.sort(reverse=True)
     return scored[0][1] if scored else ""
+
+
+def find_figure_one_image(soup: BeautifulSoup, base_url: str) -> str:
+    candidates = []
+    candidates.extend(soup.select("figure, .figure, .fig, [id*='fig'], [id*='Fig'], [id^='F']"))
+    for container in candidates:
+        text = " ".join(
+            [
+                container.get("id", ""),
+                " ".join(container.get("class", [])) if isinstance(container.get("class"), list) else str(container.get("class", "")),
+                clean_text(container.get_text(" "))[:300],
+            ]
+        ).lower()
+        if not re.search(r"\b(fig(?:ure)?[.\s-]*1|f1)\b", text):
+            continue
+        for image in container.find_all("img", src=True):
+            url = normalize_image_url(image.get("src", ""), base_url)
+            if url:
+                return url
+    return ""
 
 
 def normalize_image_url(value: str, base_url: str) -> str:
@@ -385,7 +442,7 @@ def apply_metadata(paper: dict, metadata: dict) -> bool:
         if metadata.get(key) and not paper.get(key):
             paper[key] = metadata[key]
             changed = True
-    for key in ["open_access_url", "open_access_source", "media_checked_at", "pubmed_full_text_image_checked_at"]:
+    for key in ["open_access_url", "open_access_source", "media_checked_at", "pubmed_full_text_image_checked_at", "open_access_image_checked_at"]:
         if metadata.get(key) and not paper.get(key):
             paper[key] = metadata[key]
             changed = True

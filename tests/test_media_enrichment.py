@@ -2,15 +2,18 @@ from pathlib import Path
 import sys
 
 from bs4 import BeautifulSoup
+import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
 from enrich_media import (
     apply_metadata,
     figure_metadata_from_pmc_xml,
+    find_figure_one_image,
     has_media_metadata,
     is_open_access_page,
     landing_url,
+    needs_open_access_image,
     needs_pubmed_full_text_image,
 )
 
@@ -45,6 +48,18 @@ def test_pubmed_full_text_image_target_bypasses_prior_media_check():
     assert landing_url(paper) == "https://pmc.ncbi.nlm.nih.gov/articles/PMC1234567/"
 
 
+def test_open_access_image_target_bypasses_prior_media_check():
+    paper = {
+        "open_access": True,
+        "open_access_url": "https://example.org/open-article",
+        "media_checked_at": "2026-05-11T00:00:00Z",
+    }
+
+    assert needs_open_access_image(paper) is True
+    assert has_media_metadata(paper) is False
+    assert landing_url(paper) == "https://example.org/open-article"
+
+
 def test_pmc_xml_uses_figure_1_image_when_no_key_image_is_known():
     xml = """
     <article xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -68,6 +83,42 @@ def test_pmc_xml_uses_figure_1_image_when_no_key_image_is_known():
 
     assert metadata["key_image_url"] == "https://pmc.ncbi.nlm.nih.gov/articles/PMC1234567/bin/first.jpg"
     assert metadata["key_image_alt"] == "Fig. 1. First figure caption."
+
+
+def test_html_figure_one_image_is_preferred():
+    soup = BeautifulSoup(
+        """
+        <article>
+          <figure id="fig2"><img src="/two.png" alt="Figure 2"></figure>
+          <figure id="fig1"><figcaption>Figure 1.</figcaption><img src="/one.png" alt="Figure 1"></figure>
+        </article>
+        """,
+        "html.parser",
+    )
+
+    assert find_figure_one_image(soup, "https://example.org/article") == "https://example.org/one.png"
+
+
+def test_missing_europe_pmc_xml_marks_image_checked(monkeypatch):
+    from enrich_media import enrich_pubmed_full_text_image
+
+    response = requests.Response()
+    response.status_code = 404
+    error = requests.HTTPError("not found", response=response)
+
+    def fail_lookup(pmc_id):
+        raise error
+
+    monkeypatch.setattr("enrich_media.enrich_from_europe_pmc_xml", fail_lookup)
+    metadata = enrich_pubmed_full_text_image(
+        {
+            "open_access": True,
+            "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1234567/",
+        }
+    )
+
+    assert metadata["pubmed_full_text_image_checked_at"].endswith("Z")
+    assert metadata["open_access_image_checked_at"].endswith("Z")
 
 
 def test_creative_commons_license_marks_page_open_access():
