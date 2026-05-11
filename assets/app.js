@@ -1022,20 +1022,11 @@ function selectFeaturedFigurePaper(papers) {
     .filter((paper) => !isOtherJasaSectionPaper(paper))
     .sort((left, right) => paperStableKey(left).localeCompare(paperStableKey(right)));
   if (!candidates.length) return null;
-  const seed = hashString(`${state.generatedAt || "no-date"}|featured-figure|${candidates.length}`);
-  return candidates[seed % candidates.length];
+  return candidates[Math.floor(Math.random() * candidates.length)];
 }
 
 function paperStableKey(paper) {
   return paper.doi || `${paper.journal}|${paper.publication_date}|${paper.title}`;
-}
-
-function hashString(value) {
-  let hash = 0;
-  for (let index = 0; index < value.length; index += 1) {
-    hash = (hash * 31 + value.charCodeAt(index)) >>> 0;
-  }
-  return hash;
 }
 
 function paperRelevanceScore(paper) {
