@@ -4,6 +4,7 @@ import argparse
 import json
 import re
 import time
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin
@@ -20,7 +21,7 @@ SESSION = requests.Session()
 SESSION.headers.update(
     {
         "User-Agent": "hearing-paper-monitor/0.1 (+https://github.com/BetterCI/hearing-paper-monitor)",
-        "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.5",
+        "Accept": "application/xml,text/html,application/xhtml+xml;q=0.9,*/*;q=0.5",
     }
 )
 
@@ -62,6 +63,8 @@ BAD_IMAGE_TERMS = [
     "facebook",
     "twitter",
     "linkedin",
+    "card-share",
+    "pmc-card-share",
 ]
 
 
@@ -70,6 +73,7 @@ def main() -> None:
     parser.add_argument("--input", type=Path, default=ROOT / "data" / "papers.json")
     parser.add_argument("--output", type=Path, default=ROOT / "data" / "papers.json")
     parser.add_argument("--limit", type=int, default=80, help="Maximum official pages to inspect per run. 0 means no limit.")
+    parser.add_argument("--pubmed-full-text-only", action="store_true", help="Only inspect PubMed/PMC full-text records missing images.")
     args = parser.parse_args()
 
     payload = json.loads(args.input.read_text(encoding="utf-8"))
@@ -77,6 +81,8 @@ def main() -> None:
     changed = 0
 
     for paper in payload.get("papers", []):
+        if args.pubmed_full_text_only and not needs_pubmed_full_text_image(paper):
+            continue
         if has_media_metadata(paper):
             continue
         if args.limit and inspected >= args.limit:
@@ -86,7 +92,7 @@ def main() -> None:
             continue
         inspected += 1
         try:
-            metadata = enrich_from_page(url)
+            metadata = enrich_pubmed_full_text_image(paper) if needs_pubmed_full_text_image(paper) else enrich_from_page(url)
         except requests.RequestException as exc:
             print(f"Warning: media enrichment failed for {paper.get('doi') or paper.get('title')}: {exc}")
             failed_url = getattr(getattr(exc, "response", None), "url", "") or url
@@ -108,11 +114,22 @@ def main() -> None:
 
 
 def has_media_metadata(paper: dict) -> bool:
+    if needs_pubmed_full_text_image(paper):
+        return False
     return bool(paper.get("key_image_url") or paper.get("key_formula") or paper.get("media_checked_at"))
 
 
+def needs_pubmed_full_text_image(paper: dict) -> bool:
+    return bool(
+        paper.get("pubmed_full_text_available")
+        and paper.get("pubmed_full_text_url")
+        and not paper.get("key_image_url")
+        and not paper.get("pubmed_full_text_image_checked_at")
+    )
+
+
 def landing_url(paper: dict) -> str:
-    for candidate in [paper.get("open_access_url"), paper.get("full_text_url"), paper.get("url"), doi_url(paper.get("doi"))]:
+    for candidate in [paper.get("pubmed_full_text_url"), paper.get("open_access_url"), paper.get("full_text_url"), paper.get("url"), doi_url(paper.get("doi"))]:
         if candidate and not is_pdf_url(candidate):
             return candidate
     return ""
@@ -145,6 +162,81 @@ def enrich_from_page(url: str) -> dict:
         "key_image_alt": find_key_image_alt(soup),
         "key_formula": find_key_formula(soup),
     }
+
+
+def enrich_pubmed_full_text_image(paper: dict) -> dict:
+    checked_at = utc_now()
+    metadata = {}
+    pmc_id = extract_pmc_id(paper.get("pubmed_full_text_url") or paper.get("open_access_url") or "")
+    if pmc_id:
+        try:
+            metadata.update(enrich_from_europe_pmc_xml(pmc_id))
+            metadata["media_checked_at"] = checked_at
+            metadata["pubmed_full_text_image_checked_at"] = checked_at
+        except requests.RequestException as exc:
+            print(f"Warning: Europe PMC figure lookup failed for {pmc_id}: {exc}")
+        except ET.ParseError as exc:
+            print(f"Warning: Europe PMC XML parsing failed for {pmc_id}: {exc}")
+    return metadata
+
+
+def enrich_from_europe_pmc_xml(pmc_id: str) -> dict:
+    response = SESSION.get(f"https://www.ebi.ac.uk/europepmc/webservices/rest/{pmc_id}/fullTextXML", timeout=25)
+    response.raise_for_status()
+    return figure_metadata_from_pmc_xml(response.text, pmc_id)
+
+
+def figure_metadata_from_pmc_xml(xml_text: str, pmc_id: str) -> dict:
+    root = ET.fromstring(xml_text.encode("utf-8"))
+    figures = list(root.iterfind(".//fig"))
+    if not figures:
+        return {}
+    figure = sorted(figures, key=figure_rank)[0]
+    href = figure_graphic_href(figure)
+    if not href:
+        return {}
+    label = clean_text("".join(figure.findtext("label") or ""))
+    caption_node = figure.find("caption")
+    caption = clean_text("".join(caption_node.itertext())) if caption_node is not None else ""
+    alt = clean_text(" ".join(part for part in [label, caption] if part))
+    return {
+        "key_image_url": pmc_image_url(pmc_id, href),
+        "key_image_alt": alt or "Figure 1 from the PubMed Central full text",
+    }
+
+
+def figure_rank(figure: ET.Element) -> tuple[int, int]:
+    figure_id = (figure.attrib.get("id") or "").lower()
+    label = clean_text("".join(figure.findtext("label") or "")).lower()
+    text = f"{figure_id} {label}"
+    is_figure_1 = bool(re.search(r"\b(fig(?:ure)?[.\s-]*1|f1)\b", text))
+    return (0 if is_figure_1 else 1, 0)
+
+
+def figure_graphic_href(figure: ET.Element) -> str:
+    graphics = [node for node in figure.iter() if node.tag.endswith("graphic")]
+    preferred = sorted(graphics, key=lambda node: 0 if node.attrib.get("content-type") == "image" else 1)
+    for graphic in preferred:
+        for key, value in graphic.attrib.items():
+            if key.endswith("href") and value:
+                return value
+    return ""
+
+
+def pmc_image_url(pmc_id: str, href: str) -> str:
+    return f"https://pmc.ncbi.nlm.nih.gov/articles/{normalize_pmc_id(pmc_id)}/bin/{href}"
+
+
+def extract_pmc_id(url: str) -> str:
+    match = re.search(r"\bPMC?\d+\b", url or "", flags=re.I)
+    return normalize_pmc_id(match.group(0)) if match else ""
+
+
+def normalize_pmc_id(value: str) -> str:
+    value = (value or "").strip().upper()
+    if value and not value.startswith("PMC"):
+        value = f"PMC{value.removeprefix('PM')}"
+    return value
 
 
 def first_meta_url(soup: BeautifulSoup, names: list[str], base_url: str) -> str:
@@ -293,7 +385,7 @@ def apply_metadata(paper: dict, metadata: dict) -> bool:
         if metadata.get(key) and not paper.get(key):
             paper[key] = metadata[key]
             changed = True
-    for key in ["open_access_url", "open_access_source", "media_checked_at"]:
+    for key in ["open_access_url", "open_access_source", "media_checked_at", "pubmed_full_text_image_checked_at"]:
         if metadata.get(key) and not paper.get(key):
             paper[key] = metadata[key]
             changed = True

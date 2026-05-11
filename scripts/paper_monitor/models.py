@@ -28,6 +28,7 @@ class Paper:
     pubmed_full_text_available: bool | None = None
     pubmed_full_text_url: str | None = None
     pubmed_full_text_source: str | None = None
+    pubmed_full_text_image_checked_at: str | None = None
     media_checked_at: str | None = None
     publication_stage: str | None = None
     section: str | None = None
