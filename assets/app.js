@@ -690,6 +690,9 @@ function renderPaper(paper) {
   if (isOpenAccess(paper)) {
     meta.appendChild(renderOpenAccessBadge(paper));
   }
+  if (hasPubMedFullText(paper)) {
+    meta.appendChild(renderPubMedFullTextBadge(paper));
+  }
   if (isHighImpactPaper(paper) && paper.match_level) {
     meta.appendChild(renderHighImpactMatchBadge(paper));
   }
@@ -831,6 +834,10 @@ function renderFeaturedFigure(papers = state.papers) {
     if (meta.childNodes.length) meta.appendChild(document.createTextNode(" / "));
     meta.appendChild(renderOpenAccessBadge(paper));
   }
+  if (hasPubMedFullText(paper)) {
+    if (meta.childNodes.length) meta.appendChild(document.createTextNode(" / "));
+    meta.appendChild(renderPubMedFullTextBadge(paper));
+  }
 
   body.append(link, meta);
   const tags = publicPaperTags(paper).slice(0, 3);
@@ -923,6 +930,10 @@ function renderCompactPaperList(container, papers, options = {}) {
     if (isOpenAccess(paper)) {
       if (meta.childNodes.length) meta.appendChild(document.createTextNode(" / "));
       meta.appendChild(renderOpenAccessBadge(paper));
+    }
+    if (hasPubMedFullText(paper)) {
+      if (meta.childNodes.length) meta.appendChild(document.createTextNode(" / "));
+      meta.appendChild(renderPubMedFullTextBadge(paper));
     }
     item.appendChild(meta);
 
@@ -1142,6 +1153,20 @@ function renderOpenAccessBadge(paper) {
   }
   badge.textContent = "OA";
   badge.title = paper.license_url ? `Open access: ${paper.license_url}` : "Open access";
+  return badge;
+}
+
+function renderPubMedFullTextBadge(paper) {
+  const url = getPubMedFullTextUrl(paper);
+  const badge = url ? document.createElement("a") : document.createElement("span");
+  badge.className = "pubmed-fulltext-badge";
+  if (url) {
+    badge.href = url;
+    badge.target = "_blank";
+    badge.rel = "noopener noreferrer";
+  }
+  badge.textContent = "PubMed full text";
+  badge.title = "Full text available via PubMed/PMC";
   return badge;
 }
 
@@ -1408,6 +1433,17 @@ function getFullTextUrl(paper) {
 
 function isOpenAccess(paper) {
   return paper.open_access === true || paper.is_open_access === true || Boolean(paper.open_access_url);
+}
+
+function getPubMedFullTextUrl(paper) {
+  if (paper.pubmed_full_text_url) return paper.pubmed_full_text_url;
+  if (paper.open_access_source === "pubmed_pmc" && paper.open_access_url) return paper.open_access_url;
+  if (paper.pmc_url) return paper.pmc_url;
+  return "";
+}
+
+function hasPubMedFullText(paper) {
+  return paper.pubmed_full_text_available === true || Boolean(getPubMedFullTextUrl(paper));
 }
 
 function isPdfUrl(url) {

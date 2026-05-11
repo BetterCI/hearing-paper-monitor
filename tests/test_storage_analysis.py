@@ -30,6 +30,9 @@ def test_storage_preserves_ai_analysis(tmp_path):
                         "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1234567/",
                         "open_access_source": "pubmed_pmc",
                         "license_url": "https://creativecommons.org/licenses/by/4.0/",
+                        "pubmed_full_text_available": True,
+                        "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1234567/",
+                        "pubmed_full_text_source": "pmc",
                         "media_checked_at": "2026-05-11T00:00:00Z",
                         "ai_analysis": {
                             "scientific_question": "Question",
@@ -53,6 +56,8 @@ def test_storage_preserves_ai_analysis(tmp_path):
     assert exported["papers"][0]["last_author_lab_url"] == "https://example.edu/hearing-lab"
     assert exported["papers"][0]["open_access"] is True
     assert exported["papers"][0]["open_access_url"] == "https://pmc.ncbi.nlm.nih.gov/articles/PMC1234567/"
+    assert exported["papers"][0]["pubmed_full_text_available"] is True
+    assert exported["papers"][0]["pubmed_full_text_url"] == "https://pmc.ncbi.nlm.nih.gov/articles/PMC1234567/"
     assert exported["papers"][0]["media_checked_at"] == "2026-05-11T00:00:00Z"
 
 

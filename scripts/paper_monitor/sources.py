@@ -363,6 +363,9 @@ def merge_dedupe(groups: Iterable[list[Paper]]) -> list[Paper]:
             existing.open_access_url = existing.open_access_url or paper.open_access_url
             existing.open_access_source = existing.open_access_source or paper.open_access_source
             existing.license_url = existing.license_url or paper.license_url
+            existing.pubmed_full_text_available = existing.pubmed_full_text_available or paper.pubmed_full_text_available
+            existing.pubmed_full_text_url = existing.pubmed_full_text_url or paper.pubmed_full_text_url
+            existing.pubmed_full_text_source = existing.pubmed_full_text_source or paper.pubmed_full_text_source
             existing.keywords = sorted(set(existing.keywords + paper.keywords))
             existing.authors = existing.authors or paper.authors
             existing.url = _prefer_url(existing.url, paper.url, existing.doi)
@@ -515,6 +518,9 @@ def _paper_from_pubmed(article: ET.Element, journal: Journal) -> Paper:
         open_access=True if pmc_id else None,
         open_access_url=_pmc_url(pmc_id),
         open_access_source="pubmed_pmc" if pmc_id else None,
+        pubmed_full_text_available=True if pmc_id else None,
+        pubmed_full_text_url=_pmc_url(pmc_id),
+        pubmed_full_text_source="pmc" if pmc_id else None,
         publication_stage=_pubmed_publication_stage(article, publication_date),
         keywords=[kw for kw in keywords if kw],
         source="pubmed",
@@ -556,6 +562,9 @@ def _high_impact_paper_from_pubmed(article: ET.Element, actual_journal: str) -> 
         open_access=True if pmc_id else None,
         open_access_url=_pmc_url(pmc_id),
         open_access_source="pubmed_pmc" if pmc_id else None,
+        pubmed_full_text_available=True if pmc_id else None,
+        pubmed_full_text_url=_pmc_url(pmc_id),
+        pubmed_full_text_source="pmc" if pmc_id else None,
         publication_stage=_pubmed_publication_stage(article, _pubmed_date(article)),
         keywords=sorted(set(keywords + mesh)),
         source="pubmed",
@@ -617,6 +626,9 @@ def _pubmed_pmc_id(article: ET.Element) -> str | None:
 def _pmc_url(pmc_id: str | None) -> str | None:
     if not pmc_id:
         return None
+    pmc_id = pmc_id.strip()
+    if pmc_id and not pmc_id.upper().startswith("PMC"):
+        pmc_id = f"PMC{pmc_id}"
     return f"https://pmc.ncbi.nlm.nih.gov/articles/{pmc_id}/"
 
 

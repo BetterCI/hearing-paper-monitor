@@ -90,3 +90,36 @@ def test_pubmed_pmc_id_marks_open_access():
     assert paper.open_access is True
     assert paper.open_access_url == "https://pmc.ncbi.nlm.nih.gov/articles/PMC1234567/"
     assert paper.open_access_source == "pubmed_pmc"
+    assert paper.pubmed_full_text_available is True
+    assert paper.pubmed_full_text_url == "https://pmc.ncbi.nlm.nih.gov/articles/PMC1234567/"
+    assert paper.pubmed_full_text_source == "pmc"
+
+
+def test_numeric_pubmed_pmc_id_is_normalized_for_full_text_url():
+    article = ET.fromstring(
+        """
+        <PubmedArticle>
+          <MedlineCitation>
+            <PMID>123456</PMID>
+            <Article>
+              <Journal>
+                <JournalIssue>
+                  <PubDate><Year>2026</Year><Month>5</Month><Day>1</Day></PubDate>
+                </JournalIssue>
+              </Journal>
+              <ArticleTitle>Auditory full text article</ArticleTitle>
+            </Article>
+          </MedlineCitation>
+          <PubmedData>
+            <ArticleIdList>
+              <ArticleId IdType="pmc">1234567</ArticleId>
+            </ArticleIdList>
+          </PubmedData>
+        </PubmedArticle>
+        """
+    )
+    journal = Journal(key="jaro", name="Journal of the Association for Research in Otolaryngology", aliases=[], issn=[])
+
+    paper = _paper_from_pubmed(article, journal)
+
+    assert paper.pubmed_full_text_url == "https://pmc.ncbi.nlm.nih.gov/articles/PMC1234567/"

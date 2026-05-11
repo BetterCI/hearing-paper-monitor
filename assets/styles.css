@@ -741,7 +741,8 @@ select:focus {
 }
 
 .stage-badge,
-.oa-badge {
+.oa-badge,
+.pubmed-fulltext-badge {
   display: inline-flex;
   align-items: center;
   border-radius: 999px;
@@ -760,7 +761,13 @@ select:focus {
   background: #dcfce7;
 }
 
-.oa-badge:hover {
+.pubmed-fulltext-badge {
+  color: #1d4ed8;
+  background: #dbeafe;
+}
+
+.oa-badge:hover,
+.pubmed-fulltext-badge:hover {
   text-decoration: underline;
 }
 
