@@ -749,7 +749,7 @@ function renderPaper(paper) {
 
 function renderRecentOverview(papers = state.papers) {
   const sorted = sortedPapers(papers);
-  renderCompactPaperList(els.newThisUpdate, newPapersInCurrentUpdate(papers).slice(0, 6), {
+  renderCompactPaperList(els.newThisUpdate, newPapersInCurrentUpdate(papers).slice(0, 5), {
     showTags: true,
     emptyText: "No newly added papers were recorded in this update.",
   });
@@ -762,7 +762,7 @@ function renderRecentOverview(papers = state.papers) {
   renderTopicList(els.trendingTopics, topTagCounts(overviewSource, 8));
 
   const selectedSource = papersInLatestWindow(papers, 7);
-  renderCompactPaperList(els.selectedRecentPapers, selectRecentPapers(selectedSource, 6), { showTags: true });
+  renderCompactPaperList(els.selectedRecentPapers, selectRecentPapers(selectedSource, 5), { showTags: true });
   renderFeaturedFigure(papers);
 }
 
