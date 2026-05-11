@@ -2,6 +2,7 @@ import { BUNNY_QUOTES } from "./bunny_quotes.js";
 
 const state = {
   papers: [],
+  generatedAt: "",
   targetLanguage: "original",
   translatedTitles: new Map(),
   titleTranslationStatus: "idle",
@@ -17,6 +18,7 @@ const state = {
 
 const EARLY_ACCESS_MONTH = "__early_access";
 const HIGH_IMPACT_LABEL = "High-impact Journals";
+const CURRENT_UPDATE_WINDOW_MS = 4 * 60 * 60 * 1000;
 
 const NON_RESEARCH_TITLE_PATTERNS = [
   /^editorial board\b/i,
@@ -224,6 +226,7 @@ const els = {
   sourceInfoClose: document.querySelector("#sourceInfoClose"),
   hearingBunny: document.querySelector("#hearingBunny"),
   translationStatus: null,
+  newThisUpdate: document.querySelector("#newThisUpdate"),
   latestUpdates: document.querySelector("#latestUpdates"),
   sectionHighlights: document.querySelector("#sectionHighlights"),
   trendingTopics: document.querySelector("#trendingTopics"),
@@ -266,12 +269,14 @@ async function loadData() {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const payload = await response.json();
     state.papers = payload.papers || [];
+    state.generatedAt = payload.generated_at || "";
     state.translatedTitles.clear();
     state.titleTranslationStatus = "idle";
     setTranslatableText(els.generatedAt, payload.generated_at ? `Updated ${formatDateTime(payload.generated_at)}` : "Not yet updated");
   } catch (error) {
     setTranslatableText(els.generatedAt, "No data file found");
     state.papers = [];
+    state.generatedAt = "";
   }
 }
 
@@ -743,6 +748,10 @@ function renderPaper(paper) {
 
 function renderRecentOverview(papers = state.papers) {
   const sorted = sortedPapers(papers);
+  renderCompactPaperList(els.newThisUpdate, newPapersInCurrentUpdate(papers).slice(0, 6), {
+    showTags: true,
+    emptyText: "No newly added papers were recorded in this update.",
+  });
   renderCompactPaperList(els.latestUpdates, sorted.slice(0, 5), { featureFirst: true });
 
   const highlights = sorted.filter(isJasaSectionHighlight).slice(0, 4);
@@ -777,7 +786,7 @@ function renderCompactPaperList(container, papers, options = {}) {
   if (!papers.length) {
     const empty = document.createElement("p");
     empty.className = "panel-empty";
-    setTranslatableText(empty, "No papers available for this view.");
+    setTranslatableText(empty, options.emptyText || "No papers available for this view.");
     container.appendChild(empty);
     return;
   }
@@ -1744,6 +1753,19 @@ function papersInLatestWindow(papers, days) {
   });
 }
 
+function newPapersInCurrentUpdate(papers) {
+  const generatedAt = parseDateTime(state.generatedAt);
+  if (Number.isNaN(generatedAt)) return [];
+  const start = generatedAt - CURRENT_UPDATE_WINDOW_MS;
+  const end = generatedAt + 5 * 60 * 1000;
+  return sortedPapers(
+    papers.filter((paper) => {
+      const firstSeenAt = parseDateTime(paper.first_seen_at);
+      return !Number.isNaN(firstSeenAt) && firstSeenAt >= start && firstSeenAt <= end;
+    }),
+  );
+}
+
 function papersFromRecentPastThroughFuture(papers, daysBack) {
   const today = currentLocalDate();
   const start = addDays(today, -daysBack);
@@ -1769,6 +1791,15 @@ function effectiveDate(paper) {
 function parsePaperDate(dateString) {
   const date = new Date(`${dateString || ""}T00:00:00`);
   return Number.isNaN(date.valueOf()) ? null : date;
+}
+
+function parseDateTime(dateString) {
+  const text = String(dateString || "").trim();
+  if (!text) return Number.NaN;
+  if (/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/.test(text)) {
+    return Date.parse(`${text.replace(" ", "T")}Z`);
+  }
+  return Date.parse(text);
 }
 
 function currentLocalDate() {

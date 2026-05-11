@@ -43,6 +43,7 @@ CREATE TABLE IF NOT EXISTS papers (
     matched_keywords TEXT,
     match_fields TEXT,
     needs_review INTEGER,
+    first_seen_at TEXT,
     updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 CREATE INDEX IF NOT EXISTS idx_papers_date ON papers(publication_date);
@@ -72,6 +73,7 @@ MIGRATIONS = [
     "ALTER TABLE papers ADD COLUMN matched_keywords TEXT",
     "ALTER TABLE papers ADD COLUMN match_fields TEXT",
     "ALTER TABLE papers ADD COLUMN needs_review INTEGER",
+    "ALTER TABLE papers ADD COLUMN first_seen_at TEXT",
 ]
 
 
@@ -99,9 +101,10 @@ def import_json(conn: sqlite3.Connection, input_path: Path) -> int:
                 last_author_affiliation, last_author_lab_url, last_author_lab_name, last_author_lab_source, publication_stage,
                 key_image_url, key_image_alt, key_formula, section, keywords, tags, source, available_online_date,
                 source_group, source_group_label, actual_journal, match_level, matched_keywords, match_fields, needs_review,
+                first_seen_at,
                 updated_at
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
             ON CONFLICT(id) DO UPDATE SET
                 title_zh=COALESCE(papers.title_zh, excluded.title_zh),
                 abstract_zh=COALESCE(papers.abstract_zh, excluded.abstract_zh),
@@ -124,6 +127,7 @@ def import_json(conn: sqlite3.Connection, input_path: Path) -> int:
                 matched_keywords=COALESCE(excluded.matched_keywords, papers.matched_keywords),
                 match_fields=COALESCE(excluded.match_fields, papers.match_fields),
                 needs_review=COALESCE(excluded.needs_review, papers.needs_review),
+                first_seen_at=COALESCE(papers.first_seen_at, excluded.first_seen_at),
                 updated_at=CURRENT_TIMESTAMP
             """,
             (
@@ -160,6 +164,7 @@ def import_json(conn: sqlite3.Connection, input_path: Path) -> int:
                 json.dumps(item.get("matched_keywords") or [], ensure_ascii=False),
                 json.dumps(item.get("match_fields") or [], ensure_ascii=False),
                 _bool_or_none(item.get("needs_review")),
+                item.get("first_seen_at"),
             ),
         )
         imported += 1
@@ -181,9 +186,10 @@ def upsert_papers(conn: sqlite3.Connection, papers: list[Paper]) -> int:
                 first_author_affiliation, last_author_affiliation, last_author_lab_url, last_author_lab_name,
                 last_author_lab_source, publication_stage, section, keywords, tags, source, available_online_date,
                 source_group, source_group_label, actual_journal, match_level, matched_keywords, match_fields, needs_review,
+                first_seen_at,
                 updated_at
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
             ON CONFLICT(id) DO UPDATE SET
                 title=excluded.title,
                 authors=excluded.authors,
@@ -217,6 +223,7 @@ def upsert_papers(conn: sqlite3.Connection, papers: list[Paper]) -> int:
                 matched_keywords=COALESCE(excluded.matched_keywords, papers.matched_keywords),
                 match_fields=COALESCE(excluded.match_fields, papers.match_fields),
                 needs_review=COALESCE(excluded.needs_review, papers.needs_review),
+                first_seen_at=papers.first_seen_at,
                 updated_at=CURRENT_TIMESTAMP
             """,
             (
@@ -246,6 +253,7 @@ def upsert_papers(conn: sqlite3.Connection, papers: list[Paper]) -> int:
                 json.dumps(paper.matched_keywords, ensure_ascii=False),
                 json.dumps(paper.match_fields, ensure_ascii=False),
                 _bool_or_none(paper.needs_review),
+                _utc_now(),
             ),
         )
         changed += 1
@@ -262,7 +270,7 @@ def all_papers(conn: sqlite3.Connection) -> list[dict]:
                publication_stage, key_image_url, key_image_alt, key_formula,
                section, keywords, tags, source, available_online_date,
                source_group, source_group_label, actual_journal, match_level,
-               matched_keywords, match_fields, needs_review
+               matched_keywords, match_fields, needs_review, first_seen_at
         FROM papers
         ORDER BY publication_date DESC, title ASC
         """
@@ -300,6 +308,7 @@ def all_papers(conn: sqlite3.Connection) -> list[dict]:
         "matched_keywords",
         "match_fields",
         "needs_review",
+        "first_seen_at",
     ]
     papers = []
     for row in rows:
@@ -354,6 +363,8 @@ def all_papers(conn: sqlite3.Connection) -> list[dict]:
             item.pop("match_fields", None)
         if item.get("needs_review") is None:
             item.pop("needs_review", None)
+        if not item.get("first_seen_at"):
+            item.pop("first_seen_at", None)
         papers.append(item)
     return papers
 

@@ -73,3 +73,44 @@ def test_earliest_publication_date_uses_existing_records(tmp_path):
     )
 
     assert earliest_publication_date(conn) == "2026-04-20"
+
+
+def test_new_papers_get_first_seen_at_once(tmp_path):
+    output_path = tmp_path / "exported.json"
+    conn = connect(tmp_path / "papers.sqlite")
+
+    upsert_papers(
+        conn,
+        [
+            Paper(
+                title="Newly tracked paper",
+                authors=["A. Author"],
+                journal="Ear and Hearing",
+                publication_date="2026-05-01",
+                doi="10.1234/first-seen",
+                url="https://doi.org/10.1234/first-seen",
+            )
+        ],
+    )
+    export_json(conn, output_path)
+    first_export = json.loads(output_path.read_text(encoding="utf-8"))
+    first_seen_at = first_export["papers"][0]["first_seen_at"]
+
+    upsert_papers(
+        conn,
+        [
+            Paper(
+                title="Newly tracked paper",
+                authors=["A. Author", "B. Author"],
+                journal="Ear and Hearing",
+                publication_date="2026-05-01",
+                doi="10.1234/first-seen",
+                url="https://doi.org/10.1234/first-seen",
+            )
+        ],
+    )
+    export_json(conn, output_path)
+    second_export = json.loads(output_path.read_text(encoding="utf-8"))
+
+    assert first_seen_at.endswith("Z")
+    assert second_export["papers"][0]["first_seen_at"] == first_seen_at
