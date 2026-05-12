@@ -16,6 +16,10 @@ permissions:
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
+concurrency:
+  group: update-paper-monitor-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -38,9 +42,12 @@ jobs:
     needs: test
     if: github.event_name != 'push' && needs.test.result == 'success'
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
+        with:
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -51,23 +58,27 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Collect papers
+        timeout-minutes: 10
         run: python scripts/collect.py --days 45
 
-      - name: Enrich media metadata
-        run: python scripts/enrich_media.py --limit 80
+      - name: Enrich OA and PubMed full-text figures
+        timeout-minutes: 5
+        run: python scripts/enrich_media.py --open-access-only --limit 25
 
       - name: Enrich last-author lab homepages
         continue-on-error: true
-        run: python scripts/enrich_labs.py --days 14 --limit 20
+        timeout-minutes: 3
+        run: python scripts/enrich_labs.py --days 14 --limit 8
 
       - name: Analyze abstracts with MiniMax
         continue-on-error: true
+        timeout-minutes: 10
         env:
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
           MINIMAX_API_BASE: ${{ secrets.MINIMAX_API_BASE }}
           MINIMAX_MODEL: ${{ secrets.MINIMAX_MODEL }}
           MINIMAX_ANALYSIS_LANGUAGE: ${{ vars.MINIMAX_ANALYSIS_LANGUAGE }}
-        run: python scripts/analyze_with_minimax.py --limit 40
+        run: python scripts/analyze_with_minimax.py --limit 10
 
       - name: Commit refreshed data
         uses: stefanzweifel/git-auto-commit-action@v7
