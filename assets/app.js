@@ -303,7 +303,7 @@ function addLanguageControl() {
     els.language.appendChild(option);
   });
   els.language.value = state.targetLanguage;
-  markTranslatablePlaceholder(els.search, "Title, author, DOI, abstract...");
+  markTranslatablePlaceholder(els.search, "Title or author...");
 }
 
 function bindFilters() {
@@ -621,23 +621,12 @@ function populateMonthFilter(papers = state.papers) {
 }
 
 function matchesFilters(paper) {
+  const hasSearchQuery = Boolean(state.filters.query);
   const queryText = [
     paper.title,
     paper.title_zh,
     paper.chinese_title,
     (paper.authors || []).join(" "),
-    paper.journal,
-    paper.actual_journal,
-    paper.doi,
-    paper.abstract,
-    paper.abstract_zh,
-    paper.chinese_abstract,
-    paper.section,
-    paper.publication_stage,
-    ...analysisSearchTerms(paper),
-    ...publicPaperTags(paper),
-    (paper.keywords || []).join(" "),
-    (paper.tags || []).join(" "),
   ]
     .filter(Boolean)
     .join(" ")
@@ -647,9 +636,11 @@ function matchesFilters(paper) {
   if (state.filters.journal && sourceFilterValue(paper) !== state.filters.journal) return false;
   if (state.filters.section && paper.section !== state.filters.section) return false;
   if (state.filters.tag && !publicPaperTags(paper).includes(state.filters.tag)) return false;
-  if (state.filters.month === CURRENT_UPDATE_FILTER && !isPaperInCurrentUpdate(paper)) return false;
-  if (state.filters.month === EARLY_ACCESS_MONTH && !isEarlyAccess(paper)) return false;
-  if (state.filters.month && ![CURRENT_UPDATE_FILTER, EARLY_ACCESS_MONTH].includes(state.filters.month) && getPaperMonth(paper) !== state.filters.month) return false;
+  if (!hasSearchQuery) {
+    if (state.filters.month === CURRENT_UPDATE_FILTER && !isPaperInCurrentUpdate(paper)) return false;
+    if (state.filters.month === EARLY_ACCESS_MONTH && !isEarlyAccess(paper)) return false;
+    if (state.filters.month && ![CURRENT_UPDATE_FILTER, EARLY_ACCESS_MONTH].includes(state.filters.month) && getPaperMonth(paper) !== state.filters.month) return false;
+  }
   if (!state.filters.showOtherJasaSections && isOtherJasaSectionPaper(paper)) return false;
   return true;
 }
@@ -1702,7 +1693,7 @@ function markStaticUiForTranslation() {
   document
     .querySelectorAll("#journalFilter option[value=''], #sectionFilter option[value=''], #tagFilter option")
     .forEach((option) => markTranslatable(option, option.dataset.sourceText || option.textContent.trim()));
-  markTranslatablePlaceholder(els.search, "Title, author, DOI, abstract...");
+  markTranslatablePlaceholder(els.search, "Title or author...");
 }
 
 function restoreOriginalPageText() {
