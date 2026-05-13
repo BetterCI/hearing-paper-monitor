@@ -1,6 +1,6 @@
 const MODEL = "MiniMax-M2.7";
 const API_BASE = "https://api.minimaxi.com/v1";
-const REQUIRED_FIELDS = ["scientific_question", "key_highlight", "main_limitation", "methodology_steps", "research_implication"];
+const REQUIRED_FIELDS = ["scientific_question", "key_highlight", "main_limitation", "research_implication"];
 
 async function handleRequest(request, env) {
   if (request.method !== "POST") {
@@ -96,11 +96,8 @@ Return a compact JSON object with exactly these keys:
   "scientific_question": "one sentence describing the central scientific question",
   "key_highlight": "one sentence describing the strongest finding or methodological highlight",
   "main_limitation": "one sentence describing the main limitation or uncertainty inferred from the study design, sample, or methodology; if nothing substantial can be inferred, write 'Limited generalizability due to small or specific sample' or 'Potential confounding factors not fully controlled' based on typical study weaknesses",
-  "methodology_steps": "semicolon-separated ordered workflow with 3-6 concrete experimental or analytical steps; each step should be 4-10 words and use methods actually stated in the abstract",
   "research_implication": "one sentence describing what this study implies for hearing aid, cochlear implant, or speech perception research; if the study is not directly related to these topics, write 'General research findings' or focus on broader hearing science implications"
 }
-
-For methodology_steps, reconstruct the study pipeline in temporal order when supported: participants/samples/data source; stimulus/intervention/device/task; recording or measurement; preprocessing/modeling/statistical comparison; validation or outcome assessment. Prefer specific method names from the abstract. Avoid vague steps such as "data collection", "analysis", or "result evaluation" unless the abstract gives no more detail. If the paper is a review, commentary, or modeling-only paper, still provide an abstract-supported workflow such as literature selection, evidence synthesis, model construction, simulation, or validation. Do not number the steps.
 
 Write the values in ${target}. Avoid hype. Do not mention PDFs. Do not invent sample sizes, methods, or conclusions. Infer limitations only from what is present in the abstract or commonly implied by the study design.
 

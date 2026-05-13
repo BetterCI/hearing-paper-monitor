@@ -23,7 +23,6 @@ def test_validate_analysis_requires_all_fields():
             "scientific_question": " Question? ",
             "key_highlight": " Main result. ",
             "main_limitation": " Not stated in the abstract. ",
-            "methodology_steps": " Step one ; step two ",
             "research_implication": " Useful implication. ",
         }
     )
@@ -32,7 +31,6 @@ def test_validate_analysis_requires_all_fields():
         "scientific_question": "Question?",
         "key_highlight": "Main result.",
         "main_limitation": "Not stated in the abstract.",
-        "methodology_steps": "Step one ; step two",
         "research_implication": "Useful implication.",
     }
 
@@ -42,7 +40,6 @@ def test_validate_analysis_requires_all_fields():
                 "scientific_question": "Question?",
                 "key_highlight": "Main result.",
                 "main_limitation": "Not stated in the abstract.",
-                "methodology_steps": "Step one; step two",
             }
         )
 
@@ -60,7 +57,6 @@ def test_should_analyze_skips_any_complete_cached_analysis():
         "scientific_question": "Question",
         "key_highlight": "Highlight",
         "main_limitation": "Limitation",
-        "methodology_steps": "Recruit listeners; Measure thresholds; Compare groups",
         "research_implication": "Implication",
         "prompt_version": ANALYSIS_PROMPT_VERSION,
         "abstract_hash": "older-hash",
@@ -80,7 +76,6 @@ def test_should_analyze_refreshes_old_prompt_version():
             "scientific_question": "Question",
             "key_highlight": "Highlight",
             "main_limitation": "Limitation",
-            "methodology_steps": "Recruit listeners; Measure thresholds; Compare groups",
             "research_implication": "Implication",
         },
     }
@@ -88,7 +83,24 @@ def test_should_analyze_refreshes_old_prompt_version():
     assert should_analyze(paper, refresh=False)
 
 
-def test_prompt_guides_methodology_steps_as_ordered_workflow():
+def test_should_not_refresh_previous_methodology_prompt_version():
+    paper = {
+        "title": "Speech perception in noise",
+        "abstract": "This abstract is intentionally long enough for the analysis script to consider it. " * 3,
+        "ai_analysis": {
+            "scientific_question": "Question",
+            "key_highlight": "Highlight",
+            "main_limitation": "Limitation",
+            "methodology_steps": "Recruit listeners; Measure thresholds; Compare groups",
+            "research_implication": "Implication",
+            "prompt_version": "2026-05-11-methodology-flow-v2",
+        },
+    }
+
+    assert not should_analyze(paper, refresh=False)
+
+
+def test_prompt_does_not_request_methodology_flow():
     prompt = prompt_for_paper(
         {
             "title": "Speech perception in noise",
@@ -98,6 +110,6 @@ def test_prompt_guides_methodology_steps_as_ordered_workflow():
         "en",
     )
 
-    assert "semicolon-separated ordered workflow" in prompt
-    assert "reconstruct the study pipeline in temporal order" in prompt
-    assert "Avoid vague steps" in prompt
+    assert "methodology_steps" not in prompt
+    assert "ordered workflow" not in prompt
+    assert "research_implication" in prompt
