@@ -604,8 +604,8 @@ function populateMonthFilter(papers = state.papers) {
     els.month.appendChild(option);
   }
 
-  if (!options.includes(state.filters.month)) {
-    state.filters.month = "";
+  if (!state.filters.month || !options.includes(state.filters.month)) {
+    state.filters.month = months[0] || "";
   }
   els.month.value = state.filters.month;
 }
