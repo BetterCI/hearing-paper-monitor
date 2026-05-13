@@ -614,7 +614,8 @@ function populateMonthFilter(papers = state.papers) {
   }
 
   if (!state.filters.month || !options.includes(state.filters.month)) {
-    state.filters.month = hasCurrentUpdate ? CURRENT_UPDATE_FILTER : months[0] || "";
+    const currentMonth = toDateString(currentLocalDate()).slice(0, 7);
+    state.filters.month = months.includes(currentMonth) ? currentMonth : months[0] || "";
   }
   els.month.value = state.filters.month;
 }
