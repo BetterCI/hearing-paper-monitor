@@ -451,6 +451,12 @@ select:focus {
   text-decoration: none;
 }
 
+.compact-list li.compact-full-title > a {
+  display: block;
+  overflow: visible;
+  -webkit-line-clamp: unset;
+}
+
 .compact-list a:hover {
   text-decoration: underline;
 }
@@ -462,6 +468,10 @@ select:focus {
 
 .overview-panel-selected .compact-list li > a {
   -webkit-line-clamp: 2;
+}
+
+.overview-panel-selected .compact-list li.compact-full-title > a {
+  -webkit-line-clamp: unset;
 }
 
 .compact-meta,
@@ -527,6 +537,50 @@ select:focus {
   background: #f0f5fb;
   color: #1f3d5c;
   box-shadow: inset 0 0 0 1px rgba(37, 99, 235, 0.08);
+}
+
+.title-keyword {
+  border-radius: 5px;
+  padding: 0 4px;
+  color: inherit;
+  font-weight: 900;
+  box-shadow: inset 0 0 0 1px var(--keyword-border);
+}
+
+.title-keyword.tone-teal {
+  --keyword-border: #99f6e4;
+  color: #115e59;
+  background: #ccfbf1;
+}
+
+.title-keyword.tone-blue {
+  --keyword-border: #bfdbfe;
+  color: #1d4ed8;
+  background: #dbeafe;
+}
+
+.title-keyword.tone-violet {
+  --keyword-border: #ddd6fe;
+  color: #6d28d9;
+  background: #ede9fe;
+}
+
+.title-keyword.tone-rose {
+  --keyword-border: #fecdd3;
+  color: #be123c;
+  background: #ffe4e6;
+}
+
+.title-keyword.tone-amber {
+  --keyword-border: #fde68a;
+  color: #92400e;
+  background: #fef3c7;
+}
+
+.title-keyword.tone-emerald {
+  --keyword-border: #bbf7d0;
+  color: #047857;
+  background: #dcfce7;
 }
 
 .featured-figure {

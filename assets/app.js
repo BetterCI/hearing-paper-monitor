@@ -215,6 +215,36 @@ const CODE_CUES = [
   "huggingface.co",
 ];
 
+const TITLE_HIGHLIGHT_KEYWORDS = [
+  "cochlear implant",
+  "cochlear implants",
+  "hearing aid",
+  "hearing aids",
+  "hearing loss",
+  "deafness",
+  "tinnitus",
+  "hyperacusis",
+  "speech recognition",
+  "speech perception",
+  "speech intelligibility",
+  "speech-in-noise",
+  "listening effort",
+  "sound quality",
+  "auditory brainstem response",
+  "auditory nerve",
+  "auditory cortex",
+  "gene therapy",
+  "deep neural network",
+  "deep learning",
+  "machine learning",
+  "artificial intelligence",
+  "digital therapeutic",
+  "noise reduction",
+  "older adults",
+  "children",
+  "pediatric",
+];
+
 const els = {
   papers: document.querySelector("#papers"),
   empty: document.querySelector("#emptyState"),
@@ -819,6 +849,8 @@ function renderRecentOverview(papers = state.papers) {
   const sorted = sortedPapers(papers);
   renderCompactPaperList(els.newThisUpdate, newPapersInCurrentUpdate(papers).slice(0, 5), {
     showAffiliation: true,
+    highlightTitleKeywords: true,
+    fullTitle: true,
     emptyText: "No newly added papers were recorded in this update.",
   });
 
@@ -830,7 +862,11 @@ function renderRecentOverview(papers = state.papers) {
   renderTopicList(els.trendingTopics, topTagCounts(overviewSource, 8));
 
   const selectedSource = papersInLatestWindow(papers, 7);
-  renderCompactPaperList(els.selectedRecentPapers, selectRecentPapers(selectedSource, 5), { showAffiliation: true });
+  renderCompactPaperList(els.selectedRecentPapers, selectRecentPapers(selectedSource, 5), {
+    showAffiliation: true,
+    highlightTitleKeywords: true,
+    fullTitle: true,
+  });
   renderFeaturedFigure(papers);
 }
 
@@ -950,11 +986,16 @@ function renderCompactPaperList(container, papers, options = {}) {
   papers.forEach((paper, index) => {
     const item = document.createElement("li");
     if (options.featureFirst && index === 0) item.className = "compact-feature";
+    if (options.fullTitle) item.classList.add("compact-full-title");
     const link = document.createElement("a");
     link.href = paper.url || (paper.doi ? doiUrl(paper.doi) : "#");
     link.target = "_blank";
     link.rel = "noopener noreferrer";
-    link.textContent = paper.title;
+    if (options.highlightTitleKeywords) {
+      renderHighlightedTitle(link, paper.title || "");
+    } else {
+      link.textContent = paper.title;
+    }
     markTranslatable(link, paper.title);
     item.appendChild(link);
 
@@ -1034,6 +1075,47 @@ function renderCompactPaperList(container, papers, options = {}) {
     list.appendChild(item);
   });
   container.appendChild(list);
+}
+
+function renderHighlightedTitle(element, title) {
+  const matches = titleKeywordMatches(title);
+  if (!matches.length) {
+    element.textContent = title;
+    return;
+  }
+  let cursor = 0;
+  matches.forEach((match) => {
+    if (match.start > cursor) element.appendChild(document.createTextNode(title.slice(cursor, match.start)));
+    const mark = document.createElement("mark");
+    mark.className = keywordToneClass(match.term);
+    mark.textContent = title.slice(match.start, match.end);
+    element.appendChild(mark);
+    cursor = match.end;
+  });
+  if (cursor < title.length) element.appendChild(document.createTextNode(title.slice(cursor)));
+}
+
+function titleKeywordMatches(title) {
+  const lower = String(title || "").toLowerCase();
+  const matches = [];
+  TITLE_HIGHLIGHT_KEYWORDS.forEach((term) => {
+    const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const pattern = new RegExp(`(^|[^a-z0-9])(${escaped})(?=$|[^a-z0-9])`, "gi");
+    let match;
+    while ((match = pattern.exec(lower))) {
+      const start = match.index + match[1].length;
+      matches.push({ start, end: start + match[2].length, term });
+    }
+  });
+  return matches
+    .sort((left, right) => left.start - right.start || right.end - right.start - (left.end - left.start))
+    .filter((match, index, all) => index === 0 || match.start >= all[index - 1].end);
+}
+
+function keywordToneClass(label) {
+  const tones = ["tone-teal", "tone-blue", "tone-violet", "tone-rose", "tone-amber", "tone-emerald"];
+  const index = [...String(label || "")].reduce((sum, ch) => sum + ch.charCodeAt(0), 0) % tones.length;
+  return `title-keyword ${tones[index]}`;
 }
 
 function renderTopicList(container, counts) {
