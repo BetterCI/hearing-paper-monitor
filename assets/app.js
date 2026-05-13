@@ -694,7 +694,7 @@ function renderPaper(paper) {
     sourceDisplayName(paper),
     displayDate(paper),
     authorLine(paper.authors),
-    paper.first_author_affiliation ? `First affiliation: ${paper.first_author_affiliation}` : null,
+    paper.first_author_affiliation,
   ]
     .filter(Boolean)
     .forEach((text) => {
@@ -966,7 +966,7 @@ function renderCompactPaperList(container, papers, options = {}) {
     if (options.showAffiliation && paper.first_author_affiliation) {
       const affiliation = document.createElement("p");
       affiliation.className = "compact-affiliation";
-      affiliation.textContent = `First affiliation: ${shortText(paper.first_author_affiliation, 120)}`;
+      affiliation.textContent = shortText(paper.first_author_affiliation, 120);
       item.appendChild(affiliation);
     }
 
