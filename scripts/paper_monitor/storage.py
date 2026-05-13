@@ -131,6 +131,7 @@ def import_json(conn: sqlite3.Connection, input_path: Path) -> int:
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
             ON CONFLICT(id) DO UPDATE SET
                 title_zh=COALESCE(papers.title_zh, excluded.title_zh),
+                abstract=COALESCE(excluded.abstract, papers.abstract),
                 abstract_zh=COALESCE(papers.abstract_zh, excluded.abstract_zh),
                 ai_analysis=COALESCE(excluded.ai_analysis, papers.ai_analysis),
                 first_author_affiliation=COALESCE(papers.first_author_affiliation, excluded.first_author_affiliation),

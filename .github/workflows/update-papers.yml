@@ -61,6 +61,11 @@ jobs:
         timeout-minutes: 10
         run: python scripts/collect.py --days 45
 
+      - name: Backfill missing abstracts
+        continue-on-error: true
+        timeout-minutes: 3
+        run: python scripts/backfill_abstracts.py --limit 25
+
       - name: Enrich OA and PubMed full-text figures
         timeout-minutes: 5
         run: python scripts/enrich_media.py --open-access-only --limit 25

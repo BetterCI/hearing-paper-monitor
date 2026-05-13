@@ -88,6 +88,36 @@ def test_earliest_publication_date_uses_existing_records(tmp_path):
     assert earliest_publication_date(conn) == "2026-04-20"
 
 
+def test_import_json_updates_missing_abstract(tmp_path):
+    first_path = tmp_path / "first.json"
+    second_path = tmp_path / "second.json"
+    output_path = tmp_path / "exported.json"
+    base_paper = {
+        "title": "Speech perception in noise",
+        "authors": ["A. Author"],
+        "journal": "Ear and Hearing",
+        "publication_date": "2026-05-01",
+        "doi": "10.1234/abstract-sync",
+        "url": "https://doi.org/10.1234/abstract-sync",
+        "keywords": [],
+        "tags": [],
+        "source": "crossref",
+    }
+    first_path.write_text(json.dumps({"papers": [base_paper]}), encoding="utf-8")
+    second_path.write_text(
+        json.dumps({"papers": [{**base_paper, "abstract": "A later PubMed abstract."}]}),
+        encoding="utf-8",
+    )
+
+    conn = connect(tmp_path / "papers.sqlite")
+    import_json(conn, first_path)
+    import_json(conn, second_path)
+    export_json(conn, output_path)
+
+    exported = json.loads(output_path.read_text(encoding="utf-8"))
+    assert exported["papers"][0]["abstract"] == "A later PubMed abstract."
+
+
 def test_new_papers_get_first_seen_at_once(tmp_path):
     output_path = tmp_path / "exported.json"
     conn = connect(tmp_path / "papers.sqlite")
