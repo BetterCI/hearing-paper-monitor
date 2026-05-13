@@ -6,6 +6,8 @@ const state = {
   targetLanguage: "original",
   translatedTitles: new Map(),
   titleTranslationStatus: "idle",
+  paperListLimit: 18,
+  paperListObserver: null,
   filters: {
     query: "",
     journal: "",
@@ -20,6 +22,8 @@ const EARLY_ACCESS_MONTH = "__early_access";
 const CURRENT_UPDATE_FILTER = "__current_update";
 const HIGH_IMPACT_LABEL = "High-impact Journals";
 const CURRENT_UPDATE_WINDOW_MS = 4 * 60 * 60 * 1000;
+const INITIAL_PAPER_LIST_LIMIT = 18;
+const PAPER_LIST_BATCH_SIZE = 12;
 
 const NON_RESEARCH_TITLE_PATTERNS = [
   /^editorial board\b/i,
@@ -309,26 +313,32 @@ function addLanguageControl() {
 function bindFilters() {
   els.search.addEventListener("input", () => {
     state.filters.query = els.search.value.trim().toLowerCase();
+    resetPaperListLimit();
     render();
   });
   els.journal.addEventListener("change", () => {
     state.filters.journal = els.journal.value;
+    resetPaperListLimit();
     render();
   });
   els.section.addEventListener("change", () => {
     state.filters.section = els.section.value;
+    resetPaperListLimit();
     render();
   });
   els.tag.addEventListener("change", () => {
     state.filters.tag = els.tag.value;
+    resetPaperListLimit();
     render();
   });
   els.month.addEventListener("change", () => {
     state.filters.month = els.month.value;
+    resetPaperListLimit();
     render();
   });
   els.showOtherJasaSections.addEventListener("change", () => {
     state.filters.showOtherJasaSections = els.showOtherJasaSections.checked;
+    resetPaperListLimit();
     render();
   });
   els.language?.addEventListener("change", () => {
@@ -351,6 +361,10 @@ function bindFilters() {
       els.sourceInfoDialog.close();
     }
   });
+}
+
+function resetPaperListLimit() {
+  state.paperListLimit = INITIAL_PAPER_LIST_LIMIT;
 }
 
 function startBunnyMotions() {
@@ -566,19 +580,60 @@ function render() {
   try {
     const sourcePapers = dashboardPapers();
     const papers = sortedPapers(sourcePapers.filter(matchesFilters));
+    const visiblePapers = papers.slice(0, Math.min(state.paperListLimit, papers.length));
     setTranslatableText(els.paperCount, `${papers.length} ${papers.length === 1 ? "paper" : "papers"}`);
 
     renderRecentOverview(sourcePapers);
     renderWeeklyDigest(sourcePapers);
-    els.papers.replaceChildren(...papers.map(renderPaper));
+    renderPaperList(visiblePapers, papers.length);
     els.empty.hidden = papers.length > 0;
     markStaticUiForTranslation();
-    translateVisibleTitles(papers);
+    translateVisibleTitles(visiblePapers);
     translateRenderedPage();
     queueBunnyMove();
   } catch (e) {
     console.error("Render error:", e);
   }
+}
+
+function renderPaperList(visiblePapers, totalCount) {
+  disconnectPaperListObserver();
+  const nodes = visiblePapers.map(renderPaper);
+  if (visiblePapers.length < totalCount) {
+    nodes.push(renderPaperListSentinel(visiblePapers.length, totalCount));
+  }
+  els.papers.replaceChildren(...nodes);
+  observePaperListSentinel();
+}
+
+function renderPaperListSentinel(visibleCount, totalCount) {
+  const sentinel = document.createElement("div");
+  sentinel.className = "paper-list-sentinel";
+  sentinel.dataset.paperListSentinel = "true";
+  sentinel.textContent = `Showing ${visibleCount} of ${totalCount}. Scroll to reveal more.`;
+  markTranslatable(sentinel, sentinel.textContent);
+  return sentinel;
+}
+
+function observePaperListSentinel() {
+  const sentinel = els.papers.querySelector("[data-paper-list-sentinel='true']");
+  if (!sentinel) return;
+  if (!("IntersectionObserver" in window)) return;
+  state.paperListObserver = new IntersectionObserver(
+    (entries) => {
+      if (!entries.some((entry) => entry.isIntersecting)) return;
+      state.paperListLimit += PAPER_LIST_BATCH_SIZE;
+      disconnectPaperListObserver();
+      render();
+    },
+    { rootMargin: "600px 0px" },
+  );
+  state.paperListObserver.observe(sentinel);
+}
+
+function disconnectPaperListObserver() {
+  state.paperListObserver?.disconnect();
+  state.paperListObserver = null;
 }
 
 function populateMonthFilter(papers = state.papers) {

@@ -662,6 +662,16 @@ select:focus {
     inset 0 4px 0 #d6b64c;
 }
 
+.paper-list-sentinel {
+  padding: 18px;
+  text-align: center;
+  color: var(--muted);
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  font-weight: 800;
+}
+
 .paper-heading {
   display: grid;
   grid-template-columns: 74px minmax(0, 1fr);
