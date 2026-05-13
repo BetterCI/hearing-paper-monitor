@@ -17,6 +17,7 @@ const state = {
 };
 
 const EARLY_ACCESS_MONTH = "__early_access";
+const CURRENT_UPDATE_FILTER = "__current_update";
 const HIGH_IMPACT_LABEL = "High-impact Journals";
 const CURRENT_UPDATE_WINDOW_MS = 4 * 60 * 60 * 1000;
 
@@ -583,13 +584,21 @@ function render() {
 function populateMonthFilter(papers = state.papers) {
   const months = unique(papers.map(getPaperMonth).filter(Boolean)).sort().reverse();
   const hasEarlyAccess = papers.some(isEarlyAccess);
-  const options = hasEarlyAccess ? ["", ...months, EARLY_ACCESS_MONTH] : ["", ...months];
+  const hasCurrentUpdate = newPapersInCurrentUpdate(papers).length > 0;
+  const options = ["", ...(hasCurrentUpdate ? [CURRENT_UPDATE_FILTER] : []), ...months, ...(hasEarlyAccess ? [EARLY_ACCESS_MONTH] : [])];
   els.month.replaceChildren();
   const allOption = document.createElement("option");
   allOption.value = "";
   allOption.textContent = "All months";
   markTranslatable(allOption, "All months");
   els.month.appendChild(allOption);
+  if (hasCurrentUpdate) {
+    const updateOption = document.createElement("option");
+    updateOption.value = CURRENT_UPDATE_FILTER;
+    updateOption.textContent = "New in this update";
+    markTranslatable(updateOption, "New in this update");
+    els.month.appendChild(updateOption);
+  }
   months.forEach((month) => {
     const option = document.createElement("option");
     option.value = month;
@@ -605,7 +614,7 @@ function populateMonthFilter(papers = state.papers) {
   }
 
   if (!state.filters.month || !options.includes(state.filters.month)) {
-    state.filters.month = months[0] || "";
+    state.filters.month = hasCurrentUpdate ? CURRENT_UPDATE_FILTER : months[0] || "";
   }
   els.month.value = state.filters.month;
 }
@@ -637,8 +646,9 @@ function matchesFilters(paper) {
   if (state.filters.journal && sourceFilterValue(paper) !== state.filters.journal) return false;
   if (state.filters.section && paper.section !== state.filters.section) return false;
   if (state.filters.tag && !publicPaperTags(paper).includes(state.filters.tag)) return false;
+  if (state.filters.month === CURRENT_UPDATE_FILTER && !isPaperInCurrentUpdate(paper)) return false;
   if (state.filters.month === EARLY_ACCESS_MONTH && !isEarlyAccess(paper)) return false;
-  if (state.filters.month && state.filters.month !== EARLY_ACCESS_MONTH && getPaperMonth(paper) !== state.filters.month) return false;
+  if (state.filters.month && ![CURRENT_UPDATE_FILTER, EARLY_ACCESS_MONTH].includes(state.filters.month) && getPaperMonth(paper) !== state.filters.month) return false;
   if (!state.filters.showOtherJasaSections && isOtherJasaSectionPaper(paper)) return false;
   return true;
 }
@@ -1915,16 +1925,17 @@ function papersInLatestWindow(papers, days) {
 }
 
 function newPapersInCurrentUpdate(papers) {
+  return sortedPapers(papers.filter(isPaperInCurrentUpdate));
+}
+
+function isPaperInCurrentUpdate(paper) {
   const generatedAt = parseDateTime(state.generatedAt);
-  if (Number.isNaN(generatedAt)) return [];
+  if (Number.isNaN(generatedAt)) return false;
+  const firstSeenAt = parseDateTime(paper.first_seen_at);
+  if (Number.isNaN(firstSeenAt)) return false;
   const start = generatedAt - CURRENT_UPDATE_WINDOW_MS;
   const end = generatedAt + 5 * 60 * 1000;
-  return sortedPapers(
-    papers.filter((paper) => {
-      const firstSeenAt = parseDateTime(paper.first_seen_at);
-      return !Number.isNaN(firstSeenAt) && firstSeenAt >= start && firstSeenAt <= end;
-    }),
-  );
+  return firstSeenAt >= start && firstSeenAt <= end;
 }
 
 function papersFromRecentPastThroughFuture(papers, daysBack) {
