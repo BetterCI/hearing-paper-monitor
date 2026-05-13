@@ -564,7 +564,7 @@ function fillTagSelect(papers = state.papers) {
 function render() {
   try {
     const sourcePapers = dashboardPapers();
-    const papers = sourcePapers.filter(matchesFilters);
+    const papers = sortedPapers(sourcePapers.filter(matchesFilters));
     setTranslatableText(els.paperCount, `${papers.length} ${papers.length === 1 ? "paper" : "papers"}`);
 
     renderRecentOverview(sourcePapers);
@@ -583,8 +583,13 @@ function render() {
 function populateMonthFilter(papers = state.papers) {
   const months = unique(papers.map(getPaperMonth).filter(Boolean)).sort().reverse();
   const hasEarlyAccess = papers.some(isEarlyAccess);
-  const options = hasEarlyAccess ? [...months, EARLY_ACCESS_MONTH] : months;
+  const options = hasEarlyAccess ? ["", ...months, EARLY_ACCESS_MONTH] : ["", ...months];
   els.month.replaceChildren();
+  const allOption = document.createElement("option");
+  allOption.value = "";
+  allOption.textContent = "All months";
+  markTranslatable(allOption, "All months");
+  els.month.appendChild(allOption);
   months.forEach((month) => {
     const option = document.createElement("option");
     option.value = month;
@@ -599,8 +604,8 @@ function populateMonthFilter(papers = state.papers) {
     els.month.appendChild(option);
   }
 
-  if (!state.filters.month || !options.includes(state.filters.month)) {
-    state.filters.month = months[0] || "";
+  if (!options.includes(state.filters.month)) {
+    state.filters.month = "";
   }
   els.month.value = state.filters.month;
 }
