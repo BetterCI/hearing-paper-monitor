@@ -84,6 +84,7 @@ LEVEL_2_HEARING_KEYWORDS = (
     "audiometry",
     "speech-in-noise",
     "speech in noise",
+    "speech perception",
 )
 
 LEVEL_3_AUDITORY_NEUROSCIENCE_KEYWORDS = (
@@ -98,7 +99,6 @@ LEVEL_3_AUDITORY_NEUROSCIENCE_KEYWORDS = (
     "sound localization",
     "temporal coding",
     "neural coding of sound",
-    "speech perception",
     "speech recognition",
     "speech intelligibility",
 )

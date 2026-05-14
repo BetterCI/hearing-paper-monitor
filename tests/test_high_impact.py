@@ -51,6 +51,19 @@ def test_high_impact_level_3_requires_level_2_context():
     assert match["match_fields"] == ["title"]
 
 
+def test_high_impact_speech_perception_is_level_2():
+    match = high_impact_match(
+        title="Real-time brain-controlled selective hearing enhances speech perception in multi-talker environments"
+    )
+
+    assert match == {
+        "match_level": "level_2_hearing_specific",
+        "matched_keywords": ["speech perception"],
+        "match_fields": ["title"],
+        "needs_review": False,
+    }
+
+
 def test_high_impact_duplicate_doi_keeps_original_journal_entry(tmp_path):
     conn = connect(tmp_path / "papers.sqlite")
     original = Paper(
