@@ -680,8 +680,8 @@ function populateMonthFilter(papers = state.papers) {
   if (hasCurrentUpdate) {
     const updateOption = document.createElement("option");
     updateOption.value = CURRENT_UPDATE_FILTER;
-    updateOption.textContent = "New in this update";
-    markTranslatable(updateOption, "New in this update");
+    updateOption.textContent = "Newly added";
+    markTranslatable(updateOption, "Newly added");
     els.month.appendChild(updateOption);
   }
   months.forEach((month) => {
@@ -2053,10 +2053,19 @@ function maxPaperDate(papers) {
 }
 
 function effectiveDate(paper) {
-  if ((isEarlyAccess(paper) || isFutureDate(paper.publication_date)) && paper.available_online_date) {
+  if (shouldUseOnlineDate(paper)) {
     return paper.available_online_date;
   }
   return paper.publication_date;
+}
+
+function shouldUseOnlineDate(paper) {
+  if (!paper.available_online_date) return false;
+  return isEarlyAccess(paper) || isFutureDate(paper.publication_date) || datePrecision(paper) !== "day";
+}
+
+function datePrecision(paper) {
+  return paper.publication_date_precision || paper.publicationDatePrecision || "day";
 }
 
 function parsePaperDate(dateString) {
@@ -2119,7 +2128,7 @@ function withinDays(dateString, days) {
 
 function getPaperMonth(paper) {
   let dateString = paper.publication_date || "";
-  if ((isEarlyAccess(paper) || isFutureDate(paper.publication_date)) && paper.available_online_date) {
+  if (shouldUseOnlineDate(paper)) {
     dateString = paper.available_online_date;
   }
   return /^\d{4}-\d{2}/.test(dateString) ? dateString.slice(0, 7) : "";
@@ -2150,8 +2159,14 @@ function formatDate(dateString) {
 }
 
 function displayDate(paper) {
-  if ((isEarlyAccess(paper) || isFutureDate(paper.publication_date)) && paper.available_online_date) {
+  if (shouldUseOnlineDate(paper)) {
     return `${formatDate(paper.available_online_date)} (online)`;
+  }
+  if (datePrecision(paper) === "month" && /^\d{4}-\d{2}/.test(paper.publication_date || "")) {
+    return formatMonth(paper.publication_date.slice(0, 7));
+  }
+  if (datePrecision(paper) === "year" && /^\d{4}/.test(paper.publication_date || "")) {
+    return paper.publication_date.slice(0, 4);
   }
   return formatDate(paper.publication_date);
 }

@@ -16,6 +16,7 @@ CREATE TABLE IF NOT EXISTS papers (
     authors TEXT NOT NULL,
     journal TEXT NOT NULL,
     publication_date TEXT NOT NULL,
+    publication_date_precision TEXT,
     doi TEXT,
     url TEXT NOT NULL,
     full_text_url TEXT,
@@ -64,6 +65,7 @@ CREATE UNIQUE INDEX IF NOT EXISTS idx_papers_doi ON papers(doi) WHERE doi IS NOT
 MIGRATIONS = [
     "ALTER TABLE papers ADD COLUMN title_zh TEXT",
     "ALTER TABLE papers ADD COLUMN abstract_zh TEXT",
+    "ALTER TABLE papers ADD COLUMN publication_date_precision TEXT",
     "ALTER TABLE papers ADD COLUMN ai_analysis TEXT",
     "ALTER TABLE papers ADD COLUMN first_author_affiliation TEXT",
     "ALTER TABLE papers ADD COLUMN last_author_affiliation TEXT",
@@ -109,6 +111,7 @@ def import_json(conn: sqlite3.Connection, input_path: Path) -> int:
     if not input_path.exists():
         return 0
     payload = json.loads(input_path.read_text(encoding="utf-8"))
+    payload_generated_at = payload.get("generated_at")
     imported = 0
     for item in payload.get("papers", []):
         doi = normalize_doi(item.get("doi"))
@@ -116,7 +119,7 @@ def import_json(conn: sqlite3.Connection, input_path: Path) -> int:
         conn.execute(
             """
             INSERT INTO papers (
-                id, title, title_zh, authors, journal, publication_date, doi, url, full_text_url,
+                id, title, title_zh, authors, journal, publication_date, publication_date_precision, doi, url, full_text_url,
                 abstract, abstract_zh, ai_analysis, first_author_affiliation,
                 last_author_affiliation, last_author_lab_url, last_author_lab_name, last_author_lab_source,
                 open_access, open_access_url, open_access_source, license_url,
@@ -128,7 +131,7 @@ def import_json(conn: sqlite3.Connection, input_path: Path) -> int:
                 first_seen_at,
                 updated_at
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
             ON CONFLICT(id) DO UPDATE SET
                 title_zh=COALESCE(papers.title_zh, excluded.title_zh),
                 abstract=COALESCE(excluded.abstract, papers.abstract),
@@ -150,6 +153,7 @@ def import_json(conn: sqlite3.Connection, input_path: Path) -> int:
                 pubmed_full_text_image_checked_at=COALESCE(excluded.pubmed_full_text_image_checked_at, papers.pubmed_full_text_image_checked_at),
                 media_checked_at=COALESCE(excluded.media_checked_at, papers.media_checked_at),
                 publication_stage=COALESCE(excluded.publication_stage, papers.publication_stage),
+                publication_date_precision=COALESCE(excluded.publication_date_precision, papers.publication_date_precision),
                 full_text_url=COALESCE(papers.full_text_url, excluded.full_text_url),
                 key_image_url=COALESCE(papers.key_image_url, excluded.key_image_url),
                 key_image_alt=COALESCE(papers.key_image_alt, excluded.key_image_alt),
@@ -172,6 +176,7 @@ def import_json(conn: sqlite3.Connection, input_path: Path) -> int:
                 json.dumps(item.get("authors") or [], ensure_ascii=False),
                 normalize_journal_name(item.get("journal")),
                 item.get("publication_date") or "",
+                item.get("publication_date_precision"),
                 doi,
                 item.get("url") or (f"https://doi.org/{doi}" if doi else ""),
                 item.get("full_text_url") or item.get("fullTextUrl") or item.get("html_url"),
@@ -209,7 +214,7 @@ def import_json(conn: sqlite3.Connection, input_path: Path) -> int:
                 json.dumps(item.get("matched_keywords") or [], ensure_ascii=False),
                 json.dumps(item.get("match_fields") or [], ensure_ascii=False),
                 _bool_or_none(item.get("needs_review")),
-                item.get("first_seen_at"),
+                item.get("first_seen_at") or payload_generated_at,
             ),
         )
         imported += 1
@@ -227,7 +232,7 @@ def upsert_papers(conn: sqlite3.Connection, papers: list[Paper]) -> int:
         conn.execute(
             """
             INSERT INTO papers (
-                id, title, authors, journal, publication_date, doi, url, abstract,
+                id, title, authors, journal, publication_date, publication_date_precision, doi, url, abstract,
                 first_author_affiliation, last_author_affiliation, last_author_lab_url, last_author_lab_name,
                 last_author_lab_source, open_access, open_access_url, open_access_source, license_url,
                 open_access_image_checked_at,
@@ -238,12 +243,13 @@ def upsert_papers(conn: sqlite3.Connection, papers: list[Paper]) -> int:
                 first_seen_at,
                 updated_at
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
             ON CONFLICT(id) DO UPDATE SET
                 title=excluded.title,
                 authors=excluded.authors,
                 journal=excluded.journal,
                 publication_date=excluded.publication_date,
+                publication_date_precision=COALESCE(excluded.publication_date_precision, papers.publication_date_precision),
                 doi=excluded.doi,
                 url=excluded.url,
                 abstract=COALESCE(excluded.abstract, papers.abstract),
@@ -282,7 +288,7 @@ def upsert_papers(conn: sqlite3.Connection, papers: list[Paper]) -> int:
                 matched_keywords=COALESCE(excluded.matched_keywords, papers.matched_keywords),
                 match_fields=COALESCE(excluded.match_fields, papers.match_fields),
                 needs_review=COALESCE(excluded.needs_review, papers.needs_review),
-                first_seen_at=papers.first_seen_at,
+                first_seen_at=COALESCE(papers.first_seen_at, excluded.first_seen_at),
                 updated_at=CURRENT_TIMESTAMP
             """,
             (
@@ -291,6 +297,7 @@ def upsert_papers(conn: sqlite3.Connection, papers: list[Paper]) -> int:
                 json.dumps(paper.authors, ensure_ascii=False),
                 normalize_journal_name(paper.journal),
                 paper.publication_date,
+                paper.publication_date_precision,
                 doi,
                 paper.url,
                 paper.abstract,
@@ -333,7 +340,7 @@ def upsert_papers(conn: sqlite3.Connection, papers: list[Paper]) -> int:
 def all_papers(conn: sqlite3.Connection) -> list[dict]:
     rows = conn.execute(
         """
-        SELECT title, title_zh, authors, journal, publication_date, doi, url,
+        SELECT title, title_zh, authors, journal, publication_date, publication_date_precision, doi, url,
                full_text_url, abstract, abstract_zh, ai_analysis, first_author_affiliation,
                last_author_affiliation, last_author_lab_url, last_author_lab_name, last_author_lab_source,
                open_access, open_access_url, open_access_source, license_url,
@@ -354,6 +361,7 @@ def all_papers(conn: sqlite3.Connection) -> list[dict]:
         "authors",
         "journal",
         "publication_date",
+        "publication_date_precision",
         "doi",
         "url",
         "full_text_url",
@@ -446,6 +454,8 @@ def all_papers(conn: sqlite3.Connection) -> list[dict]:
             item.pop("media_checked_at", None)
         if not item.get("publication_stage"):
             item.pop("publication_stage", None)
+        if not item.get("publication_date_precision"):
+            item.pop("publication_date_precision", None)
         if not item.get("full_text_url"):
             item.pop("full_text_url", None)
         if not item.get("key_image_url"):

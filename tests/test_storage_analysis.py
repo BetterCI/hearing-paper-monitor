@@ -1,6 +1,7 @@
 import json
 
 from scripts.paper_monitor.storage import connect, earliest_publication_date, export_json, import_json, upsert_papers
+import scripts.paper_monitor.storage as storage
 from scripts.paper_monitor.models import Paper
 
 
@@ -16,6 +17,7 @@ def test_storage_preserves_ai_analysis(tmp_path):
                         "authors": ["A. Author"],
                         "journal": "Ear and Hearing",
                         "publication_date": "2026-05-01",
+                        "publication_date_precision": "month",
                         "doi": "10.1234/example",
                         "url": "https://doi.org/10.1234/example",
                         "abstract": "A long enough abstract for storage testing.",
@@ -59,6 +61,7 @@ def test_storage_preserves_ai_analysis(tmp_path):
     assert exported["papers"][0]["pubmed_full_text_available"] is True
     assert exported["papers"][0]["pubmed_full_text_url"] == "https://pmc.ncbi.nlm.nih.gov/articles/PMC1234567/"
     assert exported["papers"][0]["media_checked_at"] == "2026-05-11T00:00:00Z"
+    assert exported["papers"][0]["publication_date_precision"] == "month"
 
 
 def test_earliest_publication_date_uses_existing_records(tmp_path):
@@ -118,10 +121,11 @@ def test_import_json_updates_missing_abstract(tmp_path):
     assert exported["papers"][0]["abstract"] == "A later PubMed abstract."
 
 
-def test_new_papers_get_first_seen_at_once(tmp_path):
+def test_new_papers_get_first_seen_at_once(tmp_path, monkeypatch):
     output_path = tmp_path / "exported.json"
     conn = connect(tmp_path / "papers.sqlite")
 
+    monkeypatch.setattr(storage, "_utc_now", lambda: "2026-05-01T00:00:00Z")
     upsert_papers(
         conn,
         [
@@ -139,6 +143,7 @@ def test_new_papers_get_first_seen_at_once(tmp_path):
     first_export = json.loads(output_path.read_text(encoding="utf-8"))
     first_seen_at = first_export["papers"][0]["first_seen_at"]
 
+    monkeypatch.setattr(storage, "_utc_now", lambda: "2026-05-02T00:00:00Z")
     upsert_papers(
         conn,
         [

@@ -15,6 +15,7 @@ class Paper:
     publication_date: str
     doi: str | None
     url: str
+    publication_date_precision: str | None = None
     abstract: str | None = None
     first_author_affiliation: str | None = None
     last_author_affiliation: str | None = None

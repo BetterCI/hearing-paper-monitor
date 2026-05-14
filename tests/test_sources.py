@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 
 from scripts.paper_monitor.config import Journal
-from scripts.paper_monitor.sources import _crossref_open_access_metadata, _crossref_publication_stage, _paper_from_pubmed
+from scripts.paper_monitor.sources import _crossref_open_access_metadata, _crossref_publication_stage, _paper_from_crossref, _paper_from_pubmed
 
 
 def test_crossref_online_first_without_issue_assignment_is_early_access():
@@ -26,6 +26,49 @@ def test_future_publication_date_is_early_access():
     item = {"title": ["An article in press"]}
 
     assert _crossref_publication_stage(item, "Hearing Research", "2999-01-01") == "early_access"
+
+
+def test_crossref_month_only_date_keeps_month_precision():
+    item = {
+        "title": ["A Hearing Research issue paper"],
+        "DOI": "10.1234/month-only",
+        "URL": "https://doi.org/10.1234/month-only",
+        "published-print": {"date-parts": [[2026, 5]]},
+    }
+    journal = Journal(key="hearing-research", name="Hearing Research", aliases=[], issn=[])
+
+    paper = _paper_from_crossref(item, journal)
+
+    assert paper.publication_date == "2026-05-01"
+    assert paper.publication_date_precision == "month"
+
+
+def test_pubmed_article_date_is_kept_as_online_date():
+    article = ET.fromstring(
+        """
+        <PubmedArticle>
+          <MedlineCitation>
+            <PMID>123456</PMID>
+            <Article>
+              <Journal>
+                <JournalIssue>
+                  <PubDate><Year>2026</Year><Month>May</Month></PubDate>
+                </JournalIssue>
+              </Journal>
+              <ArticleTitle>Online date for a monthly issue paper</ArticleTitle>
+              <ArticleDate DateType="Electronic"><Year>2026</Year><Month>03</Month><Day>18</Day></ArticleDate>
+            </Article>
+          </MedlineCitation>
+        </PubmedArticle>
+        """
+    )
+    journal = Journal(key="hearing-research", name="Hearing Research", aliases=[], issn=[])
+
+    paper = _paper_from_pubmed(article, journal)
+
+    assert paper.publication_date == "2026-05-01"
+    assert paper.publication_date_precision == "month"
+    assert paper.available_online_date == "2026-03-18"
 
 
 def test_crossref_open_license_marks_open_access():

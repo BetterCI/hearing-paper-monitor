@@ -303,6 +303,7 @@ def fetch_rss(journal: Journal) -> list[Paper]:
                     authors=[author.get("name", "") for author in getattr(entry, "authors", []) if author.get("name")],
                     journal=normalize_journal_name(journal.name),
                     publication_date=published,
+                    publication_date_precision="day",
                     doi=doi,
                     url=_official_url(getattr(entry, "link", ""), doi),
                     abstract=_clean(getattr(entry, "summary", "")) or None,
@@ -334,6 +335,7 @@ def fetch_toc(journal: Journal) -> list[Paper]:
                     authors=[],
                     journal=normalize_journal_name(journal.name),
                     publication_date=dt.date.today().isoformat(),
+                    publication_date_precision="day",
                     doi=doi,
                     url=_official_url(href, doi),
                     publication_stage=_text_publication_stage(f"{title} {href} {url}") or _date_publication_stage(dt.date.today().isoformat()),
@@ -352,6 +354,11 @@ def merge_dedupe(groups: Iterable[list[Paper]]) -> list[Paper]:
             if existing is None:
                 merged[key] = paper
                 continue
+            if _date_precision_rank(paper.publication_date_precision) > _date_precision_rank(existing.publication_date_precision):
+                existing.publication_date = paper.publication_date
+                existing.publication_date_precision = paper.publication_date_precision
+            else:
+                existing.publication_date_precision = existing.publication_date_precision or paper.publication_date_precision
             existing.abstract = existing.abstract or paper.abstract
             existing.section = existing.section or paper.section
             existing.publication_stage = existing.publication_stage or paper.publication_stage
@@ -363,9 +370,13 @@ def merge_dedupe(groups: Iterable[list[Paper]]) -> list[Paper]:
             existing.open_access_url = existing.open_access_url or paper.open_access_url
             existing.open_access_source = existing.open_access_source or paper.open_access_source
             existing.license_url = existing.license_url or paper.license_url
+            existing.open_access_image_checked_at = existing.open_access_image_checked_at or paper.open_access_image_checked_at
             existing.pubmed_full_text_available = existing.pubmed_full_text_available or paper.pubmed_full_text_available
             existing.pubmed_full_text_url = existing.pubmed_full_text_url or paper.pubmed_full_text_url
             existing.pubmed_full_text_source = existing.pubmed_full_text_source or paper.pubmed_full_text_source
+            existing.pubmed_full_text_image_checked_at = existing.pubmed_full_text_image_checked_at or paper.pubmed_full_text_image_checked_at
+            existing.media_checked_at = existing.media_checked_at or paper.media_checked_at
+            existing.available_online_date = existing.available_online_date or paper.available_online_date
             existing.keywords = sorted(set(existing.keywords + paper.keywords))
             existing.authors = existing.authors or paper.authors
             existing.url = _prefer_url(existing.url, paper.url, existing.doi)
@@ -425,6 +436,7 @@ def _paper_from_crossref(item: dict, journal: Journal) -> Paper | None:
     subjects = item.get("subject") or []
     journal_name = normalize_journal_name(_clean((item.get("container-title") or [journal.name])[0]))
     publication_date = _crossref_date(item)
+    publication_date_precision = _crossref_date_precision(item)
     available_online_date = _crossref_available_online_date(item)
     open_access = _crossref_open_access_metadata(item, doi)
     return Paper(
@@ -432,6 +444,7 @@ def _paper_from_crossref(item: dict, journal: Journal) -> Paper | None:
         authors=_crossref_authors(item.get("author", [])),
         journal=journal_name,
         publication_date=publication_date,
+        publication_date_precision=publication_date_precision,
         doi=doi,
         url=_official_url(item.get("URL", ""), doi),
         abstract=abstract,
@@ -464,6 +477,7 @@ def _high_impact_paper_from_crossref(item: dict, actual_journal: str) -> Paper |
         authors=_crossref_authors(item.get("author", [])),
         journal=HIGH_IMPACT_SOURCE_LABEL,
         publication_date=_crossref_date(item),
+        publication_date_precision=_crossref_date_precision(item),
         doi=doi,
         url=_official_url(item.get("URL", ""), doi),
         abstract=_clean(item.get("abstract", "")) or None,
@@ -505,11 +519,13 @@ def _paper_from_pubmed(article: ET.Element, journal: Journal) -> Paper:
     pmc_id = _pubmed_pmc_id(article)
     keywords = [_clean("".join(node.itertext())) for node in article.findall(".//Keyword")]
     publication_date = _pubmed_date(article)
+    publication_date_precision = _pubmed_date_precision(article)
     return Paper(
         title=title,
         authors=_pubmed_authors(article.findall(".//Author")),
         journal=normalize_journal_name(journal.name),
         publication_date=publication_date,
+        publication_date_precision=publication_date_precision,
         doi=doi,
         url=f"https://doi.org/{doi}" if doi else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
         abstract=" ".join(abstract_parts) or None,
@@ -524,6 +540,7 @@ def _paper_from_pubmed(article: ET.Element, journal: Journal) -> Paper:
         publication_stage=_pubmed_publication_stage(article, publication_date),
         keywords=[kw for kw in keywords if kw],
         source="pubmed",
+        available_online_date=_pubmed_article_date(article),
     )
 
 
@@ -549,11 +566,13 @@ def _high_impact_paper_from_pubmed(article: ET.Element, actual_journal: str) -> 
     match = high_impact_match(title=title, keywords=keywords, mesh=mesh)
     if not match:
         return None
+    publication_date = _pubmed_date(article)
     return Paper(
         title=title,
         authors=_pubmed_authors(article.findall(".//Author")),
         journal=HIGH_IMPACT_SOURCE_LABEL,
-        publication_date=_pubmed_date(article),
+        publication_date=publication_date,
+        publication_date_precision=_pubmed_date_precision(article),
         doi=doi,
         url=f"https://doi.org/{doi}" if doi else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
         abstract=" ".join(abstract_parts) or None,
@@ -565,9 +584,10 @@ def _high_impact_paper_from_pubmed(article: ET.Element, actual_journal: str) -> 
         pubmed_full_text_available=True if pmc_id else None,
         pubmed_full_text_url=_pmc_url(pmc_id),
         pubmed_full_text_source="pmc" if pmc_id else None,
-        publication_stage=_pubmed_publication_stage(article, _pubmed_date(article)),
+        publication_stage=_pubmed_publication_stage(article, publication_date),
         keywords=sorted(set(keywords + mesh)),
         source="pubmed",
+        available_online_date=_pubmed_article_date(article),
         source_group=HIGH_IMPACT_SOURCE_GROUP,
         source_group_label=HIGH_IMPACT_SOURCE_LABEL,
         actual_journal=actual_journal,
@@ -714,22 +734,22 @@ def _crossref_date(item: dict) -> str:
     for key in ("published-online", "published-print", "published"):
         date_parts = item.get(key, {}).get("date-parts", [])
         if date_parts and date_parts[0]:
-            parts = date_parts[0]
-            year = parts[0]
-            month = parts[1] if len(parts) > 1 else 1
-            day = parts[2] if len(parts) > 2 else 1
-            return dt.date(year, month, day).isoformat()
+            return _date_from_parts(date_parts[0])
     return dt.date.today().isoformat()
+
+
+def _crossref_date_precision(item: dict) -> str:
+    for key in ("published-online", "published-print", "published"):
+        date_parts = item.get(key, {}).get("date-parts", [])
+        if date_parts and date_parts[0]:
+            return _date_precision_from_parts(date_parts[0])
+    return "day"
 
 
 def _crossref_available_online_date(item: dict) -> str | None:
     date_parts = item.get("published-online", {}).get("date-parts", [])
     if date_parts and date_parts[0]:
-        parts = date_parts[0]
-        year = parts[0]
-        month = parts[1] if len(parts) > 1 else 1
-        day = parts[2] if len(parts) > 2 else 1
-        return dt.date(year, month, day).isoformat()
+        return _date_from_parts(date_parts[0]) if len(date_parts[0]) >= 3 else None
 
     has_online_date = _has_crossref_date(item, "published-online")
     has_print_date = _has_crossref_date(item, "published-print")
@@ -770,6 +790,46 @@ def _pubmed_date(article: ET.Element) -> str:
     month = _month_to_int(pub_date.findtext("Month") or "1")
     day = int(pub_date.findtext("Day") or 1)
     return dt.date(year, month, day).isoformat()
+
+
+def _pubmed_date_precision(article: ET.Element) -> str:
+    pub_date = article.find(".//Article/Journal/JournalIssue/PubDate")
+    if pub_date is None:
+        return "day"
+    if pub_date.findtext("Day"):
+        return "day"
+    if pub_date.findtext("Month"):
+        return "month"
+    return "year"
+
+
+def _pubmed_article_date(article: ET.Element) -> str | None:
+    for node in article.findall(".//ArticleDate"):
+        year = node.findtext("Year")
+        month = node.findtext("Month")
+        day = node.findtext("Day")
+        if year and month and day:
+            return dt.date(int(year), int(month), int(day)).isoformat()
+    return None
+
+
+def _date_from_parts(parts: list[int]) -> str:
+    year = parts[0]
+    month = parts[1] if len(parts) > 1 else 1
+    day = parts[2] if len(parts) > 2 else 1
+    return dt.date(year, month, day).isoformat()
+
+
+def _date_precision_from_parts(parts: list[int]) -> str:
+    if len(parts) >= 3:
+        return "day"
+    if len(parts) == 2:
+        return "month"
+    return "year"
+
+
+def _date_precision_rank(precision: str | None) -> int:
+    return {"year": 1, "month": 2, "day": 3}.get(precision or "", 0)
 
 
 def _crossref_publication_stage(item: dict, journal_name: str, publication_date: str) -> str | None:
