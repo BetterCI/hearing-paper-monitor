@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T06:02:26Z",
+  "generated_at": "2026-05-14T13:43:36Z",
   "papers": [
     {
       "title": "Bone-Conducted Responses Using the Parallel Auditory Brainstem Response Paradigm",
@@ -577,6 +577,58 @@
         "abstract_hash": "2468ada7431794f6",
         "updated_at": "2026-05-14T06:05:35Z"
       }
+    },
+    {
+      "title": "Real-time brain-controlled selective hearing enhances speech perception in multi-talker environments",
+      "authors": [
+        "Vishal Choudhari",
+        "Maximilian Nentwich",
+        "Sarah Johnson",
+        "Jose L. Herrero",
+        "Stephan Bickel",
+        "Ashesh D. Mehta",
+        "Daniel Friedman",
+        "Adeen Flinker",
+        "Edward F. Chang",
+        "Nima Mesgarani"
+      ],
+      "journal": "High-impact Journals",
+      "publication_date": "2026-05-11",
+      "publication_date_precision": "day",
+      "doi": "10.1038/s41593-026-02281-5",
+      "url": "https://doi.org/10.1038/s41593-026-02281-5",
+      "full_text_url": "https://www.nature.com/articles/s41593-026-02281-5",
+      "abstract": "Understanding speech in noisy environments is difficult for many people, and current hearing aids often fail because they amplify all sounds rather than the talker of interest. Auditory attention decoding (AAD) offers a potential solution by using the listener's brain signals to identify and enhance the attended speaker, but it has been unclear whether this can provide real-time perceptual benefits. Here we used high-resolution intracranial electroencephalography in patients undergoing neurosurgical procedures to implement a closed-loop system that achieves the decoding fidelity necessary to dynamically amplify the attended talker. Across multiple experiments, the system improved speech intelligibility, reduced listening effort and was consistently preferred by subjects. It also tracked both instructed and self-initiated attention shifts. By providing direct evidence that a real-time, brain-controlled hearing system can enhance perception, this work establishes a key performance benchmark for future auditory brain-computer interfaces and advances AAD from a theoretical concept to a validated solution for personalized assistive hearing.",
+      "first_author_affiliation": "Department of Electrical Engineering, Columbia University, New York, NY, USA.",
+      "last_author_affiliation": "Department of Electrical Engineering, Columbia University, New York, NY, USA.",
+      "open_access": true,
+      "open_access_url": "https://www.nature.com/articles/s41593-026-02281-5",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+      "section": "Speech Communication",
+      "keywords": [
+        "Attention",
+        "Cortex"
+      ],
+      "tags": [
+        "auditory physiology",
+        "hearing aid",
+        "real-world listening",
+        "speech perception"
+      ],
+      "source": "manual+crossref+pubmed",
+      "source_group": "high_impact",
+      "source_group_label": "High-impact Journals",
+      "actual_journal": "Nature Neuroscience",
+      "match_level": "level_3_context_dependent",
+      "matched_keywords": [
+        "speech perception"
+      ],
+      "match_fields": [
+        "title"
+      ],
+      "needs_review": true,
+      "first_seen_at": "2026-05-14T13:43:36Z"
     },
     {
       "title": "Acoustic radiosity simulation with custom bidirectional reflectance distribution implementation in three dimensions",
