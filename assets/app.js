@@ -756,6 +756,7 @@ function renderPaper(paper) {
   link.target = "_blank";
   link.rel = "noopener noreferrer";
   link.textContent = displayTitle(paper);
+  if (isManualAddedPaper(paper)) title.appendChild(renderManualPaperMarker());
   title.appendChild(link);
   heading.appendChild(title);
 
@@ -994,9 +995,10 @@ function renderCompactPaperList(container, papers, options = {}) {
     if (options.highlightTitleKeywords) {
       renderHighlightedTitle(link, paper.title || "");
     } else {
-      link.textContent = paper.title;
+      link.appendChild(document.createTextNode(paper.title || ""));
     }
     markTranslatable(link, paper.title);
+    if (isManualAddedPaper(paper)) item.appendChild(renderManualPaperMarker());
     item.appendChild(link);
 
     if (options.showChineseTitle && paper.title_zh) {
@@ -1080,7 +1082,7 @@ function renderCompactPaperList(container, papers, options = {}) {
 function renderHighlightedTitle(element, title) {
   const matches = titleKeywordMatches(title);
   if (!matches.length) {
-    element.textContent = title;
+    element.appendChild(document.createTextNode(title));
     return;
   }
   let cursor = 0;
@@ -1116,6 +1118,18 @@ function keywordToneClass(label) {
   const tones = ["tone-teal", "tone-blue", "tone-violet", "tone-rose", "tone-amber", "tone-emerald"];
   const index = [...String(label || "")].reduce((sum, ch) => sum + ch.charCodeAt(0), 0) % tones.length;
   return `title-keyword ${tones[index]}`;
+}
+
+function isManualAddedPaper(paper) {
+  return paper.manual_added === true || String(paper.source || "").split("+").includes("manual");
+}
+
+function renderManualPaperMarker() {
+  const marker = document.createElement("span");
+  marker.className = "manual-paper-marker";
+  marker.textContent = "Manual pick";
+  marker.title = "Manually added paper";
+  return marker;
 }
 
 function renderTopicList(container, counts) {
