@@ -998,8 +998,14 @@ function renderCompactPaperList(container, papers, options = {}) {
       link.appendChild(document.createTextNode(paper.title || ""));
     }
     markTranslatable(link, paper.title);
-    if (isManualAddedPaper(paper)) item.appendChild(renderManualPaperMarker());
-    item.appendChild(link);
+    if (isManualAddedPaper(paper)) {
+      const titleRow = document.createElement("div");
+      titleRow.className = "compact-title-row";
+      titleRow.append(renderManualPaperMarker(), link);
+      item.appendChild(titleRow);
+    } else {
+      item.appendChild(link);
+    }
 
     if (options.showChineseTitle && paper.title_zh) {
       const chineseTitle = document.createElement("p");

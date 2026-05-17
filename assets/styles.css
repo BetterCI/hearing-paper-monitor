@@ -439,7 +439,8 @@ select:focus {
   padding: 0 0 12px;
 }
 
-.compact-list li > a {
+.compact-list li > a,
+.compact-title-row > a {
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
@@ -451,7 +452,21 @@ select:focus {
   text-decoration: none;
 }
 
-.compact-list li.compact-full-title > a {
+.compact-title-row {
+  display: flex;
+  min-width: 0;
+  align-items: baseline;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.compact-title-row > a {
+  min-width: min(260px, 100%);
+  flex: 1 1 0;
+}
+
+.compact-list li.compact-full-title > a,
+.compact-list li.compact-full-title .compact-title-row > a {
   display: block;
   overflow: visible;
   -webkit-line-clamp: unset;
@@ -461,14 +476,14 @@ select:focus {
   display: inline-flex;
   width: max-content;
   align-items: center;
-  margin: 0 7px 3px 0;
-  border: 1px solid #f59e0b;
+  margin: 0 5px 2px 0;
+  border: 1px solid #fdba74;
   border-radius: 999px;
-  padding: 2px 7px;
-  color: #7c2d12;
-  background: #ffedd5;
-  font-size: 0.68rem;
-  font-weight: 950;
+  padding: 1px 5px;
+  color: #9a3412;
+  background: #fff7ed;
+  font-size: 0.58rem;
+  font-weight: 900;
   line-height: 1.2;
   text-transform: uppercase;
   vertical-align: 0.15em;
@@ -484,11 +499,13 @@ select:focus {
   line-height: 1.32;
 }
 
-.overview-panel-selected .compact-list li > a {
+.overview-panel-selected .compact-list li > a,
+.overview-panel-selected .compact-title-row > a {
   -webkit-line-clamp: 2;
 }
 
-.overview-panel-selected .compact-list li.compact-full-title > a {
+.overview-panel-selected .compact-list li.compact-full-title > a,
+.overview-panel-selected .compact-list li.compact-full-title .compact-title-row > a {
   -webkit-line-clamp: unset;
 }
 
@@ -787,7 +804,7 @@ select:focus {
 }
 
 .paper h2 .manual-paper-marker {
-  margin-right: 9px;
+  margin-right: 7px;
   transform: translateY(-1px);
 }
 
