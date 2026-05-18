@@ -89,7 +89,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Update paper metadata"
-          file_pattern: data/papers.json
+          file_pattern: data/papers.json data/backfill_state.json
 
   deploy-pages:
     needs:

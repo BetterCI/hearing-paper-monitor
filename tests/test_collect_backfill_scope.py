@@ -1,9 +1,10 @@
+import datetime as dt
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path("scripts").resolve()))
 
-from collect import _backfill_papers_for_journal
+from collect import _backfill_papers_for_journal, _backfill_window, _save_backfill_state
 from paper_monitor.config import Journal
 from paper_monitor.models import Paper
 
@@ -53,3 +54,22 @@ def test_backfill_keeps_all_non_jasa_core_journal_papers():
     ]
 
     assert _backfill_papers_for_journal(papers, journal) == papers
+
+
+def test_backfill_window_starts_before_regular_lookback_when_state_is_missing(tmp_path):
+    state_path = tmp_path / "backfill_state.json"
+
+    start_date, end_date = _backfill_window(state_path, lookback_days=45, today=dt.date(2026, 5, 18))
+
+    assert start_date == dt.date(2026, 3, 27)
+    assert end_date == dt.date(2026, 4, 2)
+
+
+def test_backfill_window_uses_saved_cutoff_instead_of_earliest_paper(tmp_path):
+    state_path = tmp_path / "backfill_state.json"
+    _save_backfill_state(state_path, dt.date(2026, 3, 27), dt.date(2026, 4, 2))
+
+    start_date, end_date = _backfill_window(state_path, lookback_days=45, today=dt.date(2026, 5, 18))
+
+    assert start_date == dt.date(2026, 3, 20)
+    assert end_date == dt.date(2026, 3, 26)
