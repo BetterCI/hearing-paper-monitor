@@ -23,6 +23,7 @@ from paper_monitor.sources import (
 from paper_monitor.storage import connect, earliest_publication_date, export_json, import_json, upsert_papers
 
 ROOT = Path(__file__).resolve().parents[1]
+BACKFILL_PRIORITY_SECTION_JOURNALS = {"jasa", "jasael"}
 
 
 def main() -> None:
@@ -72,7 +73,10 @@ def main() -> None:
                 _safe_fetch("Crossref backfill", journal.name, lambda journal=journal: fetch_crossref_between(journal, start_date, end_date)),
                 _safe_fetch("PubMed backfill", journal.name, lambda journal=journal: fetch_pubmed_between(journal, start_date, end_date)),
             ]
-            papers = [classify(paper, journal, config) for paper in merge_dedupe(groups) if paper.title]
+            papers = _backfill_papers_for_journal(
+                [classify(paper, journal, config) for paper in merge_dedupe(groups) if paper.title],
+                journal,
+            )
             changed = upsert_papers(conn, papers)
             total += changed
             print(f"{journal.name} backfill: {changed} records")
@@ -110,6 +114,12 @@ def _backfill_window(conn):
     start_date = end_date - dt.timedelta(days=6)
     return start_date, end_date
 
+
+def _backfill_papers_for_journal(papers, journal):
+    if journal.key not in BACKFILL_PRIORITY_SECTION_JOURNALS:
+        return papers
+    priority_sections = set(journal.priority_sections)
+    return [paper for paper in papers if paper.section in priority_sections]
 
 
 if __name__ == "__main__":
