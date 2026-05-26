@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T06:50:32Z",
+  "generated_at": "2026-05-26T06:20:39Z",
   "papers": [
     {
       "title": "A method to record drilling noise during skull surgery for the development of noise-reducing assistance systems",
@@ -237,20 +237,12 @@
       "media_checked_at": "2026-05-11T10:27:43Z",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Deep neural network",
-        "Hearing aid",
-        "Mismatch negativity",
-        "Sensorineural hearing loss",
-        "Speech perception"
-      ],
+      "keywords": [],
       "tags": [
-        "clinical audiology",
         "hearing aid",
-        "machine learning",
-        "speech perception"
+        "machine learning"
       ],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-04-10",
       "first_seen_at": "2026-05-13T14:35:06Z"
     },
@@ -316,6 +308,7 @@
       "publication_date_precision": "day",
       "doi": "10.1097/aud.0000000000001838",
       "url": "https://doi.org/10.1097/aud.0000000000001838",
+      "full_text_url": "https://journals.lww.com/10.1097/AUD.0000000000001838",
       "abstract": "Objectives: Sensory gating (SG) is the ability to differentiate novel or salient sensory input from known or irrelevant information. In tinnitus, SG is considered dysfunctional, as the brain fails to inhibit internal auditory neural activity before it reaches conscious perception. As a result, the brain continuously processes the tinnitus signal as if it was a new and relevant stimulus. SG can be assessed with a self-report tool, the Sensory Gating Inventory (SGI). Design: A prospective questionnaire study was performed in persons with tinnitus (n = 358) and a control group without tinnitus (n = 436). Tinnitus severity was assessed with the tinnitus questionnaire (TQ) and used to split the tinnitus group into subgroups of persons with compensated and decompensated tinnitus. The decompensated tinnitus subgroup consisted of persons suffering from severe tinnitus, while the compensated subgroup consisted of persons with less severe tinnitus. Systematic covariation measures were applied to assess the association between the TQ and the SGI results. Results: SG was impaired in the domains of Perceptual Modulation, Distractibility, and Vulnerability to Fatigue and Stress as well as in the auditory modality in persons with tinnitus when compared with persons without tinnitus. When the tinnitus group was divided into the subgroups, higher SGI scores on all subscales were prevalent in the decompensated tinnitus subgroup. The results in the compensated tinnitus subgroup were more similar to the control group, except for the auditory modality. Conclusions: The decompensated tinnitus subgroup showed higher scores on all SGI subscales, which might indicate a more substantial SG impairment. The relation between TQ and the SGI results and the subgrouping of persons with tinnitus can consequently inform and improve future research about the transitional period and the processes that dysregulate when compensated tinnitus turns into decompensated tinnitus.",
       "first_author_affiliation": "Mental Health and Neuroscience Research Institute, Maastricht University, Maastricht, the Netherlands",
       "last_author_affiliation": "Department of Neuropsychology and Psychofarmaology, Faculty of Psychology and Neuroscience, Maastricht University, the Netherlands",
@@ -323,18 +316,35 @@
       "open_access_url": "https://journals.lww.com/10.1097/AUD.0000000000001838",
       "open_access_source": "crossref_license",
       "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-05-25T06:50:48Z",
+      "media_checked_at": "2026-05-25T06:50:48Z",
       "publication_stage": "early_access",
       "section": null,
-      "keywords": [],
+      "keywords": [
+        "Questionnaire study",
+        "Sensory Gating",
+        "Sensory Gating Inventory",
+        "Tinnitus",
+        "Tinnitus Questionnaire"
+      ],
       "tags": [
         "clinical audiology"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-05-25",
       "first_seen_at": "2026-05-25T06:49:10Z",
-      "full_text_url": "https://journals.lww.com/10.1097/AUD.0000000000001838",
-      "media_checked_at": "2026-05-25T06:50:48Z",
-      "open_access_image_checked_at": "2026-05-25T06:50:48Z"
+      "ai_analysis": {
+        "scientific_question": "感官门控功能障碍在代偿性耳鸣与失代偿性耳鸣患者之间存在何种差异？",
+        "key_highlight": "失代偿性耳鸣患者在感知调节、分心性以及对疲劳和压力的易感性等多个领域均表现出显著更高的感官门控损害。",
+        "main_limitation": "研究采用自我报告式问卷，缺乏客观生理指标验证，且横断面设计无法追踪耳鸣从代偿向失代偿转变的动态过程。",
+        "research_implication": "该研究为理解耳鸣从代偿向失代偿转变的过程提供了参考，可能有助于临床耳鸣干预策略的优化。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "a43c4d629583a097",
+        "updated_at": "2026-05-26T06:21:23Z"
+      }
     },
     {
       "title": "An Evaluation of Preset Collection Size in Over-the-Counter Hearing Aids",
@@ -1043,6 +1053,50 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-05-19",
       "first_seen_at": "2026-05-20T06:29:40Z"
+    },
+    {
+      "title": "Bioinformatics Re-analysis of murine transcriptomic datasets identifies SASP and MAPK/NF-κB signaling pathways in noise-accelerated cochlear aging",
+      "authors": [
+        "Guoping Zhang",
+        "Dandan Ren",
+        "Suju Wang"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-05-19",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109679",
+      "url": "https://doi.org/10.1016/j.heares.2026.109679",
+      "abstract": "Noise exposure is an important contributor to age-related hearing loss (ARHL) or presbycusis; however, the underlying mechanism remains elusive. This study re-analyzed two Mus musculus cochlear transcriptomic datasets on acoustic trauma from the Gene Expression Omnibus (GEO) database to investigate mechanisms underlying noise-accelerated cochlear aging. We defined age-related differentially expressed genes (ARDEGs) as those genes that were both differentially expressed in response to noise exposure in cochleae and belonged to the aging-related genes (ARGs) set. This analytical step yielded 14 ARDEGs: Il6, Cxcl1, Ccl2, Ccl7, Icam1, Gdf15, Mmp10, Jun, Fos, Atf3, Gadd45b, Mbl1, Gem, and Atm. Functional enrichment analyses, including Gene Ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG), and gene set enrichment analysis (GSEA), revealed multiple biological processes and signaling pathways significantly associated with noise-accelerated cochlear aging. These pathways include the MAPK (notably the ERK cascade), NF-κB, JAK-STAT, and IL-18 signaling pathways. Using the ARDEGs, we constructed a classification model and identified signature genes associated with noise-induced cochlear injury within these two datasets. Exploratory analysis of the signature genes in a separate M. musculus dataset suggested their classification value and relevance in auditory tissue. Regulatory networks of the signature genes were constructed. Finally, immune cell infiltration was also analyzed. Our integrative analysis implicated inflammation, cell cycle arrest, aberrant extracellular matrix remodeling, and lipid peroxidation-associated atherosclerosis as potential mechanisms through which noise exposure accelerates cochlear aging.",
+      "last_author_affiliation": "Department of Otorhinolaryngology Head and Neck Surgery, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China. Electronic address: wsjwsjfp@126.com.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Age-related hearing loss",
+        "Aging",
+        "Bioinformatics",
+        "Cochlea",
+        "Mus musculus",
+        "Noise-induced hearing loss"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-05-19",
+      "first_seen_at": "2026-05-20T06:29:50Z",
+      "ai_analysis": {
+        "scientific_question": "噪声暴露加速耳蜗老化的分子机制是什么？",
+        "key_highlight": "通过重新分析小鼠耳蜗转录组数据，识别出14个与噪声加速老化相关的差异表达基因，并发现MAPK/NF-κB等炎症信号通路参与其中。",
+        "main_limitation": "数据来源于公开数据库的已有小鼠数据集，且分类模型仅在有限的独立数据集中进行了探索性验证，人类适用性存在不确定性。",
+        "research_implication": "该研究为理解噪声暴露与老年性听力损失之间的病理机制提供了分子层面的线索，但其发现尚未直接转化为临床干预手段。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "b657004b51e7cdee",
+        "updated_at": "2026-05-26T06:21:33Z"
+      }
     },
     {
       "title": "Comparison among four psychophysical procedures used to assess sound localization",
@@ -3092,22 +3146,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -3120,6 +3158,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Effect of length variations in 3D-printed middle-ear prostheses on ossicular chain mobility",
@@ -4791,27 +4845,6 @@
       "first_seen_at": "2026-05-20T06:29:50Z"
     },
     {
-      "title": "Bioinformatics Re-analysis of Murine Transcriptomic Datasets Identifies SASP and MAPK/NF-κB Signaling Pathways in Noise-Accelerated Cochlear Aging",
-      "authors": [
-        "Guoping Zhang",
-        "Dandan Ren",
-        "Suju Wang"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-05-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109679",
-      "url": "https://doi.org/10.1016/j.heares.2026.109679",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-05-20T06:29:50Z"
-    },
-    {
       "title": "Cognitive load in noise: Neural signatures of speech recognition challenges in children with hearing aids",
       "authors": [
         "Zhihan Lin",
@@ -5742,6 +5775,18 @@
       "url": "https://doi.org/10.1016/j.heares.2026.109651",
       "full_text_url": "https://linkinghub.elsevier.com/retrieve/pii/S0378595526001279",
       "abstract": "Auditory, cognitive, and physical capacity are key domains of functioning, recently referred to as \"intrinsic capacity\" (IC), in older adults. While growing evidence suggests interrelated declines across these domains, few studies have concurrently examined their longitudinal trajectories. This study used Latent Growth Mixture Modeling (LGMM) to identify patterns of decline in hearing, cognition, and physical function over three years among 326 older adults (aged≥60) in a health screening cohort in Hangzhou, China, and further explored the interrelationships among these three functions. After a three-year follow-up assessment, three distinct trajectories were identified for both Pure-Tone Average (PTA) and Mini-Cog scores using LGMM, and four trajectories were identified for the Short Physical Performance Battery (SPPB). Multidomain analysis showed that hearing loss was significantly associated with both cognitive function (Cramér's V = 0.317) and physical function (Cramér's V = 0.232; both p < 0.001). The three-dimensional trajectories revealed clear cluster differentiation, with only 14.7% (n = 15) of individuals with no hearing loss exhibiting poor cognitive and physical function, compared to 50.8% (n = 93) among those with moderate hearing loss. These findings suggest that individuals with greater hearing loss are more likely to cluster into subtypes characterized by significant declines in both cognitive and physical function. The results support a pattern of synergistic deterioration across auditory, cognitive, and physical domains in older adults, indicating that early identification and intervention for hearing loss may help delay declines in cognitive and physical function.",
+      "ai_analysis": {
+        "scientific_question": "老年人听力、认知和身体功能在三年内的纵向衰退轨迹及其相互关联模式是什么？",
+        "key_highlight": "研究识别出三类衰退轨迹，发现听力损失程度与认知和身体功能下降显著相关，听力损失越严重的个体越容易聚集出现多领域功能衰退的亚类型。",
+        "main_limitation": "样本来自杭州市单个健康筛查队列，仅326名≥60岁受试者，地域和人群代表性有限。",
+        "research_implication": "研究支持早期听力损失干预可能有助于延缓认知和身体功能衰退的假设，对听力助听设备的临床应用和老年人听力健康管理具有参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "04e2ef8af977464a",
+        "updated_at": "2026-05-25T06:52:04Z"
+      },
       "last_author_affiliation": "Health Management Center, Hangzhou Wuyunshan Hospital (Hangzhou Institute for Health Promotion), Hangzhou, China.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
@@ -5760,19 +5805,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-04-30",
-      "first_seen_at": "2026-05-13T14:35:06Z",
-      "ai_analysis": {
-        "scientific_question": "老年人听力、认知和身体功能在三年内的纵向衰退轨迹及其相互关联模式是什么？",
-        "key_highlight": "研究识别出三类衰退轨迹，发现听力损失程度与认知和身体功能下降显著相关，听力损失越严重的个体越容易聚集出现多领域功能衰退的亚类型。",
-        "main_limitation": "样本来自杭州市单个健康筛查队列，仅326名≥60岁受试者，地域和人群代表性有限。",
-        "research_implication": "研究支持早期听力损失干预可能有助于延缓认知和身体功能衰退的假设，对听力助听设备的临床应用和老年人听力健康管理具有参考价值。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "04e2ef8af977464a",
-        "updated_at": "2026-05-25T06:52:04Z"
-      }
+      "first_seen_at": "2026-05-13T14:35:06Z"
     },
     {
       "title": "A systematic review of noise pollution in hospitals",
@@ -5921,15 +5954,15 @@
       "abstract": "The angular spectrum method (ASM) is rarely employed directly in the rapid design of acoustic metalenses, due to significant aliasing artifacts in long-distance diffraction calculations. For axisymmetric systems, although ASM based on radial transforms holds promise for dimensionality reduction and acceleration, its application in on-demand focusing design remains underdeveloped. This paper presents a modified ASM that significantly enhances both the speed and accuracy of diffraction simulations. Compared to the finite-element method as the accuracy benchmark, the modified method reduces the relative error by a factor of 2–3 and is approximately 100 times faster than the direct Hankel transform ASM. Additionally, it produces results consistent with the Rayleigh–Sommerfeld integral, with a 95 times speed increase, enabling millisecond-scale computation at a grid size of λ/15 on a standard desktop. By integrating the method with an evolutionary algorithm, this method efficiently optimized binary acoustic metalenses and experimentally demonstrated complex focal shapes. This approach provides a practical, cost-effective, and efficient solution for the rapid on-demand design of axisymmetric acoustic focusing devices.",
       "ai_analysis": {
         "scientific_question": "如何改进角谱法以实现轴对称声学超透镜的快速按需设计？",
-        "key_highlight": "改进的角谱法相比有限元方法误差降低2-3倍，计算速度比直接Hankel变换快约100倍，实现了标准台式机上的毫秒级计算。",
-        "main_limitation": "该方法仅限于轴对称系统，复杂非对称声学结构的适用性未经验证。",
-        "methodology_steps": "修改角谱法算法结构；与有限元方法进行精度基准对比；计算速度性能测试评估；结合进化算法优化二元声学超透镜；复杂焦场形状的实验验证",
-        "research_implication": "通用声学物理研究进展，为声学聚焦器件的快速设计提供了计算工具。",
+        "key_highlight": "改进后的角谱法在保持2-3倍精度提升的同时，计算速度比直接汉克尔变换角谱法快约100倍，实现了毫秒级计算。",
+        "main_limitation": "该方法主要针对轴对称系统设计，其在其他非对称或更复杂几何结构中的适用性有待进一步验证。",
+        "research_implication": "General research findings",
         "provider": "minimax",
         "model": "MiniMax-M2.7",
         "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "af24bf459d209f13",
-        "updated_at": "2026-05-11T06:20:01Z"
+        "updated_at": "2026-05-26T06:21:39Z"
       },
       "first_author_affiliation": "College of Physics, Center of Quantum Materials and Devices, Chongqing University 1 , Chongqing 401331,",
       "last_author_affiliation": "College of Physics, Center of Quantum Materials and Devices, Chongqing University 1 , Chongqing 401331,",
@@ -5958,16 +5991,16 @@
       "full_text_url": "https://pubs.aip.org/jasa/article/159/4/3733/3388362/An-active-control-approach-for-improvement-of",
       "abstract": "Double-panel structures (DPSs) have wide applications in noise control engineering, but their sound insulation (SI) performances deteriorate rapidly in the low-frequency range. To make up for this deficiency, an active control strategy through controlling the boundary conditions of the sound field is presented to improve the SI performance of DPSs. A controllable plate as a controllable boundary condition is incorporated into the boundaries of the interlayer sound field (ISF), and it can be actively controlled by applying control forces. The control forces are optimized by three control objectives, i.e., minimization of kinetic energy of the radiation panel, minimization of acoustical potential energy of the ISF, and minimization of radiation sound power of the low-order acoustic radiation modes. The control effects, control mechanism, and the influences of the geometrical parameters, number of controllable plates, and location of control force on the SI performance are investigated. The results indicate that in the low-frequency range, all three active control strategies can enhance the SI performance of a DPS. And the modal response calculations indicate that the control mechanism belongs to the acoustical and structural modal suppression and rearrangement. This research provides a solution for improving the low-frequency SI performance of engineering structures.",
       "ai_analysis": {
-        "scientific_question": "如何通过主动控制边界条件来改善双层板结构在低频段的隔声性能",
-        "key_highlight": "基于三种优化控制目标的有源控制策略均可有效提升双层板结构的低频隔声性能",
-        "main_limitation": "研究主要为数值模拟分析，缺乏实验验证和实际工程应用可行性验证",
-        "methodology_steps": "可控制板边界条件设计;控制力多目标优化设计;隔声性能数值仿真;几何参数影响分析;模态响应计算验证;声-结构模态抑制机制分析",
-        "research_implication": "General research findings (建筑噪声控制相关研究，非助听器或言语感知直接相关)",
+        "scientific_question": "如何利用主动控制策略改善双层板结构在低频段的隔声性能。",
+        "key_highlight": "三种主动控制目标（辐射板动能、层间声场声势能、低阶声辐射模态声功率）均能有效提升低频隔声效果。",
+        "main_limitation": "研究主要基于理论计算和模态响应分析，缺乏实验验证或实际工程应用条件的检验。",
+        "research_implication": "为工程结构低频噪声控制提供参考，但其方法属于建筑或工业噪声控制范畴，与助听设备或言语感知研究无直接关联。",
         "provider": "minimax",
         "model": "MiniMax-M2.7",
         "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "e3dcf6c2549921ee",
-        "updated_at": "2026-05-11T06:20:17Z"
+        "updated_at": "2026-05-26T06:21:52Z"
       },
       "first_author_affiliation": "Key Laboratory of Microgravity, Institute of Mechanics, Chinese Academy of Sciences 1 , Beijing 100190,",
       "last_author_affiliation": "Applied Mechanics Laboratory, School of Aerospace Engineering, Tsinghua University 4 , Beijing 100084,",
@@ -5995,16 +6028,16 @@
       "full_text_url": "https://pubs.aip.org/jasa/article/159/4/3713/3388374/Can-adults-and-children-use-phonotactic-knowledge",
       "abstract": "Word recognition is facilitated by a listener's phonotactic knowledge—rules that govern how speech sounds combine to form words in language. Spectrally degrading speech disrupts the representations of speech sounds, however, making it more difficult to recognize words. Because phonotactic knowledge increases with language experience, individuals with more mature language may be better able to leverage phonotactic knowledge when attempting to recognize degraded speech. In this study, we tested the hypotheses that (1) adults are more sensitive to phonotactic information during word recognition than children; (2) children with larger vocabularies are more sensitive to phonotactic information; and (3) spectral degradation disrupts sensitivity to phonotactic cues during word recognition. To test these ideas, 36 adults and 36 school-aged children completed English Decision and Lexical Decision tasks. Both were presented with high-fidelity (unprocessed) and 16-channel noiseband vocoded (degraded) speech. Adults were more accurate and faster than children in the tasks. Performance declined in both groups when the speech stimuli were degraded. Among child participants, those with larger vocabularies were faster at making lexical decisions. The results provide insight into how adults and children leverage phonotactic information when processing speech and how those strategies are influenced when speech is degraded.",
       "ai_analysis": {
-        "scientific_question": "成人和儿童在识别频谱降级语音时如何使用音位统计知识，以及语言经验如何影响这种能力",
-        "key_highlight": "成人比儿童更依赖音位统计信息进行词汇识别，但频谱降级会削弱两组被试对音位线索的敏感度",
-        "main_limitation": "仅使用16通道噪声带声码模拟降级语音，可能无法完全代表真实助听设备或人工耳蜗的频谱处理特性",
-        "methodology_steps": "英语词汇判断任务施测; 高保真与16通道声码语音呈现; 反应时与准确率测量; 词汇量评估(儿童组); 成人与儿童组间比较",
-        "research_implication": "研究结果提示人工耳蜗和助听设备需要考虑保留足够的频谱信息以支持听障者利用音位统计知识进行语音识别",
+        "scientific_question": "成人和儿童如何利用音位配列知识在识别频谱降级语音时存在哪些发展性差异？",
+        "key_highlight": "成人比儿童在单词识别任务中表现更好且更快，但两组受试者在语音被降级时表现均有所下降，且儿童词汇量越大其词汇决策速度越快。",
+        "main_limitation": "受样本量较小及仅以英语使用者为研究对象的限制，研究结论的跨语言和跨人群推广性可能受限。",
+        "research_implication": "该研究为理解频谱降级语音的处理机制提供了参考，对助听器、人工耳蜗等言语处理策略的设计及其康复训练具有潜在参考价值。",
         "provider": "minimax",
         "model": "MiniMax-M2.7",
         "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "d30cdf50f7da5b05",
-        "updated_at": "2026-05-11T06:20:42Z"
+        "updated_at": "2026-05-26T06:22:05Z"
       },
       "first_author_affiliation": "Department of Psychiatry, University of Illinois Chicago 1 , Chicago, Illinois 60612,",
       "last_author_affiliation": "Department of Psychiatry, University of Illinois Chicago 1 , Chicago, Illinois 60612,",
@@ -6093,7 +6126,19 @@
       ],
       "source": "crossref",
       "available_online_date": "2026-04-28",
-      "first_seen_at": "2026-05-13T14:35:06Z"
+      "first_seen_at": "2026-05-13T14:35:06Z",
+      "ai_analysis": {
+        "scientific_question": "如何通过调控被动耳塞中 Helmholtz 共振器的反射系数来提升低频噪声衰减效果？",
+        "key_highlight": "通过在耳塞内侧引入近反相或正交相位反射，可使 1 kHz 以下低频衰减提升高达 15 dB，且在存在中等声学泄漏时仍具效果。",
+        "main_limitation": "实验室条件下耳塞性能改善的效果和稳健性尚待在实际使用场景和更大样本人群中验证。",
+        "research_implication": "该被动式声学设计策略为更高效的听力保护器具研发提供了新思路，若能结合助听设备使用或改善言语感知环境，其应用范围有望进一步拓展。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "c580111749e18dcf",
+        "updated_at": "2026-05-26T06:22:33Z"
+      }
     },
     {
       "title": "An adaptive deep neural network for active road noise control",
@@ -6155,16 +6200,16 @@
       "full_text_url": "https://journals.lww.com/10.1097/AUD.0000000000001808",
       "abstract": "Objectives: To fully engage caregivers of children who are deaf or hard of hearing, audiologists need counseling tools that adequately convey the impact of permanent childhood hearing loss (HL) on development and the benefits of interventions like hearing technology. The present study examines the parent experience of receiving informational counseling during the diagnostic and intervention process with early amplification. We used qualitative methods to gather feedback on caregiver experiences with informational counseling. Based on themes identified from caregiver experiences, we sought to identify potential patterns that could inform counseling during early diagnosis and intervention appointments. Design: We used a semistructured interview design to collect perspectives from a group of parents with experience in the early HL diagnostic and intervention process. Fifteen mothers and 4 fathers took part. We developed an interview guide focused on parent perceptions of their early HL counseling experiences related to the diagnosis and recommendations for intervention such as hearing aids. We also described and discussed the use of audibility-based counseling strategies as a novel tool with parent stakeholders. Results: Several important themes emerged from our analysis of parent utterances, including difficulty explaining the diagnosis to others, challenges in understanding the implications of HL, and the broad acceptability of audibility-based counseling with some caveats. Parents in our sample tended to overestimate their child’s unaided audibility. Conclusions: Parents may struggle to take the information learned from audiologists and communicate information about HL to friends and family. Audibility-based counseling strategies are potentially more straightforward to understand than terms like “mild” and “moderate” when describing HL and the need for hearing technology to both parents and their extended network. While parents readily provided information about their child’s pure-tone average-based-based degree of HL, they tended to overestimate how much unaided audibility their child may experience. This mismatch may have clinical implications for adequately perceiving the need for intervention with hearing technology.",
       "ai_analysis": {
-        "scientific_question": "患儿听障诊断和早期干预过程中，照护者对信息咨询体验如何，以及如何改进相关咨询策略",
-        "key_highlight": "家长往往高估孩子的裸耳听敏度，而基于可听性的咨询策略比传统听损程度分级术语更易理解",
-        "main_limitation": "样本量较小且为特定人群（19名已历经过早期听障诊断和干预流程的家长），定性研究结论需谨慎推广",
-        "methodology_steps": "半结构化访谈设计；15名母亲和4名父亲参与访谈；开发聚焦于早期听障咨询体验的访谈指南；讨论基于可听性咨询策略；家长话语主题分析；识别咨询模式主题",
-        "research_implication": "研究提示在儿童听力学中采用基于可听性的咨询策略可能改善家长对助听设备的认知和干预决策",
+        "scientific_question": "听障儿童家长在早期听力损失诊断和干预过程中对信息咨询的体验如何，以及基于听觉能力的咨询策略是否更具优势？",
+        "key_highlight": "家长普遍认为基于听觉能力的咨询策略比传统听力损失分级术语更易理解，但研究显示他们往往高估了孩子的裸耳听觉能力。",
+        "main_limitation": "样本仅为19名有早期诊断和干预经历的家长（15名母亲和4名父亲），定性研究的发现可能不适用于所有家庭群体。",
+        "research_implication": "该研究为儿童听力损失干预中的助听器咨询实践提供了家长视角的反馈，提示需要更有效的沟通策略帮助家长准确理解干预必要性。",
         "provider": "minimax",
         "model": "MiniMax-M2.7",
         "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "2316a4acf4960bb6",
-        "updated_at": "2026-05-11T06:21:40Z"
+        "updated_at": "2026-05-26T06:22:57Z"
       },
       "first_author_affiliation": "Department of Pediatric Audiology, University of North Carolina Medical Center, Chapel Hill, North Carolina, USA",
       "last_author_affiliation": "Department of Communication Sciences and Disorders, University of Iowa, Iowa City, Iowa, USA.",
@@ -6228,7 +6273,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-04-27",
-      "first_seen_at": "2026-05-13T14:35:06Z"
+      "first_seen_at": "2026-05-13T14:35:06Z",
+      "ai_analysis": {
+        "scientific_question": "在正常听力成人中，耳蜗神经退化如何与耳鸣和声音敏感症相关，以及这些症状是否在听觉脑干内表现出不同的中枢增益模式。",
+        "key_highlight": "耳鸣和听敏症共享一个共同的外周关联物（耳蜗神经退化），但在脑干中表现出不同的增益特征：耳鸣患者耳蜗核增益选择性升高，而听敏症患者则表现为较晚期的脑干成分增加。",
+        "main_limitation": "样本为正常听力成人，其结果可能无法推广至其他听力状态人群；且横断面设计难以确立因果关系。",
+        "research_implication": "该研究为理解\"隐匿性听力损失\"中耳鸣和听敏症的神经机制提供了电生理学证据，提示两者可能需要不同的干预策略。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "cf8c76dc48440200",
+        "updated_at": "2026-05-26T06:23:10Z"
+      }
     },
     {
       "title": "Electrophysiological Assessment of Semantic Processing of Cochlear Implant Users Using an Audiobook",
@@ -9976,12 +10033,12 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -9993,12 +10050,12 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -10165,47 +10222,6 @@
       "tags": [],
       "source": "crossref",
       "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-13T14:35:06Z"
-    },
-    {
-      "title": "Hearing Aids: What Works Well and What Can Be Improved.",
-      "authors": [
-        "Brian C J Moore"
-      ],
-      "journal": "Journal of the Association for Research in Otolaryngology",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "month",
-      "doi": "10.1007/s10162-026-01031-5",
-      "url": "https://doi.org/10.1007/s10162-026-01031-5",
-      "full_text_url": "https://link.springer.com/article/10.1007/s10162-026-01031-5",
-      "abstract": "This paper evaluates the current performance of hearing aids, based on research findings and my experiences with hearing aids. The type of acoustic coupling to the ear is important. The fitting can be \"closed\" (sealing the ear canal), but this can lead to the occlusion effect; the user's own voice sounds too loud or too boomy. Alternatively, the fitting can be open (the eartip has a vent). This alleviates the occlusion effect, but it introduces comb-filtering (heard as perceptual coloration) and leads to little or no gain at low frequencies. Also, the highest frequency at which useful gain can be achieved is often about 5 kHz, which is lower than optimal. While acoustic feedback cancellation systems have improved markedly, they can still introduce artifacts and impair sound quality, especially for music. Hearing aids use multi-channel amplitude compression to compensate for the reduced dynamic range of hearing-impaired people, but they often fail to restore the audibility of soft sounds, especially at high frequencies, and the amount of compression is often limited (and less than indicated by the manufacturers' fitting software), leading to loudness discomfort (and sometimes reduced speech intelligibility) at high sound levels. Also, compression systems introduce cross-modulation, impairing sound quality. Most hearing aids incorporate directional processing and noise-reduction systems intended to improve the ability to understand speech in noisy situations. These systems can be effective with a closed fitting, but much of the benefit is lost with an open fitting because of leakage of background sounds through the vent.",
-      "first_author_affiliation": "Cambridge Hearing Group, Department of Psychology, University of Cambridge, Downing Street, Cambridge, CB2 3EB, UK. bcjm@cam.ac.uk.",
-      "last_author_affiliation": "Cambridge Hearing Group, Department of Psychology, University of Cambridge, Downing Street, Cambridge, CB2 3EB, UK. bcjm@cam.ac.uk.",
-      "open_access": true,
-      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13090441/",
-      "open_access_source": "pubmed_pmc",
-      "pubmed_full_text_available": true,
-      "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13090441/",
-      "pubmed_full_text_source": "pmc",
-      "key_image_url": "https://static-content.springer.com/image/art%3A10.1007%2Fs10162-026-01031-5/MediaObjects/10162_2026_1031_Fig1_HTML.jpg",
-      "key_image_alt": "Content cover image",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Amplitude compression",
-        "Closedness of fitting",
-        "Directional microphones",
-        "Feedback cancellation",
-        "Hearing aids",
-        "Noise reduction",
-        "Occlusion effect"
-      ],
-      "tags": [
-        "hearing aid",
-        "psychoacoustics",
-        "speech perception"
-      ],
-      "source": "pubmed",
-      "available_online_date": "2026-02-13",
       "first_seen_at": "2026-05-13T14:35:06Z"
     },
     {
@@ -13984,8 +14000,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -13999,8 +14015,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -14938,6 +14954,7 @@
       "publication_date_precision": "day",
       "doi": "10.1097/aud.0000000000001799",
       "url": "https://doi.org/10.1097/aud.0000000000001799",
+      "full_text_url": "https://journals.lww.com/10.1097/AUD.0000000000001799",
       "abstract": "Objectives: This study asked if Mandarin-speaking preschoolers with cochlear implants (CIs) can produce distinct prosodic cues for word boundary marking to disambiguate compounds from lists, and whether their productions are similar to those of their typically hearing (TH) peers. Design: Forty-two 4 to 6-year-old Mandarin-speaking preschoolers with CIs and 64 TH peers participated in an elicited production experiment. Preschoolers produced compounds and lists in carrier sentences. Syllable duration, pause insertion, pause duration, and tonal range were acoustically analyzed. Results: Overall, preschoolers with CIs can produce durational and pitch cues to disambiguate compounds and lists, but their syllable durations and some tonal ranges in lists differ from those of their TH peers, with more pauses and longer pause durations as well. Conclusions: These findings suggest that, despite using CIs, preschoolers can produce prosodic cues for postlexical meaning, but their productions are not yet fully like those of their TH peers.",
       "first_author_affiliation": "Department of Linguistics, Macquarie University, Sydney, Australia",
       "last_author_affiliation": "Department of Linguistics, Macquarie University, Sydney, Australia",
@@ -14945,6 +14962,8 @@
       "open_access_url": "https://journals.lww.com/10.1097/AUD.0000000000001799",
       "open_access_source": "crossref_license",
       "license_url": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "open_access_image_checked_at": "2026-05-25T06:50:48Z",
+      "media_checked_at": "2026-05-25T06:50:48Z",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [
@@ -14962,10 +14981,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-02-20",
-      "first_seen_at": "2026-05-25T06:49:49Z",
-      "full_text_url": "https://journals.lww.com/10.1097/AUD.0000000000001799",
-      "media_checked_at": "2026-05-25T06:50:48Z",
-      "open_access_image_checked_at": "2026-05-25T06:50:48Z"
+      "first_seen_at": "2026-05-25T06:49:49Z"
     },
     {
       "title": "Predicting Spectro-Temporal Modulation Detection Thresholds With a Functional Auditory Model",
@@ -14993,13 +15009,19 @@
       "pubmed_full_text_source": "pmc",
       "media_checked_at": "2026-05-11T16:03:27Z",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
+      "keywords": [
+        "auditory modeling",
+        "sensorineural hearing loss",
+        "spectro-temporal modulation processing",
+        "supra-threshold processing"
+      ],
       "tags": [
         "auditory physiology",
+        "clinical audiology",
         "psychoacoustics",
         "speech perception"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-02-19",
       "first_seen_at": "2026-05-13T14:35:06Z"
     },
@@ -15032,14 +15054,26 @@
       "pubmed_full_text_source": "pmc",
       "media_checked_at": "2026-05-11T16:03:27Z",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
+      "keywords": [
+        "Baha Connect",
+        "Osia",
+        "SSQ",
+        "bilateral conductive hearing loss and atresia",
+        "bone conduction hearing",
+        "percutaneous",
+        "sound localization/spatial hearing",
+        "speech perception and spatial release from masking",
+        "transcutaneous",
+        "unrestricted head movements"
+      ],
       "tags": [
         "auditory physiology",
+        "clinical audiology",
         "psychoacoustics",
         "real-world listening",
         "speech perception"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-02-18",
       "first_seen_at": "2026-05-13T14:35:06Z"
     },
@@ -15127,11 +15161,18 @@
       "pubmed_full_text_source": "pmc",
       "media_checked_at": "2026-05-11T16:03:28Z",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "auditory physiology"
+      "keywords": [
+        "auditory brainstem responses",
+        "cochlear synaptopathy",
+        "hidden hearing loss",
+        "paired-click stimulation paradigm",
+        "sound exposure"
       ],
-      "source": "crossref",
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
       "available_online_date": "2026-02-16",
       "first_seen_at": "2026-05-13T14:35:06Z"
     },
@@ -15169,6 +15210,192 @@
       "first_seen_at": "2026-05-25T06:49:49Z"
     },
     {
+      "title": "Abnormal iron homeostasis mediates cochlear hair cell impairment and hearing loss in Gprasp2-deficient mice",
+      "authors": [
+        "Yajie Lu",
+        "Fanghong Sheng",
+        "Jun Yao",
+        "Qinjun Wei",
+        "Haibing Chen",
+        "Zhibin Chen",
+        "Guangqian Xing",
+        "Xin Cao",
+        "Tianming Wang"
+      ],
+      "journal": "High-impact Journals",
+      "publication_date": "2026-02-13",
+      "publication_date_precision": "day",
+      "doi": "10.1038/s42003-026-09679-8",
+      "url": "https://doi.org/10.1038/s42003-026-09679-8",
+      "abstract": "The G protein-coupled receptor associated sorting protein 2 (GPRASP2) gene mutation is one of only three deafness genes identified to be implicated in X-linked recessive syndromic hearing loss (SHL) to date. However, the function of GPRASP2 in the auditory system has not yet been fully understood. In this study, we generated Gprasp2-deficient mice and found that they exhibited a hearing loss phenotype and depression-like behaviors. In addition, we observed a disordered arrangement of cochlear hair cells in Gprasp2-deficient mice. GPRASP2 binds to NCAM1. Gprasp2 deficiency decreased NCAM1 level and further enhanced ferritinophagy in cochlear hair cells. This study could improve our understanding of the role of GPRASP2 deficiency in auditory cells, which contributes to the pathophysiology of X-linked SHL.",
+      "last_author_affiliation": "Central Laboratory, Translational Medicine Research Center, The Affiliated Jiangning Hospital with Nanjing Medical University, Nanjing, China. wangtianming@njmu.edu.cn.",
+      "open_access": true,
+      "open_access_url": "https://www.nature.com/articles/s42003-026-09679-8",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+      "pubmed_full_text_available": true,
+      "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13013670/",
+      "pubmed_full_text_source": "pmc",
+      "section": null,
+      "keywords": [
+        "Animals",
+        "Hair Cells, Auditory",
+        "Hearing Loss",
+        "Homeostasis",
+        "Iron",
+        "Mice",
+        "Mice, Knockout",
+        "Receptors, G-Protein-Coupled",
+        "genetics",
+        "metabolism",
+        "pathology"
+      ],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-02-13",
+      "source_group": "high_impact",
+      "source_group_label": "High-impact Journals",
+      "actual_journal": "Communications Biology",
+      "match_level": "level_2_hearing_specific",
+      "matched_keywords": [
+        "hearing loss"
+      ],
+      "match_fields": [
+        "mesh",
+        "title"
+      ],
+      "needs_review": false,
+      "first_seen_at": "2026-05-26T06:20:39Z",
+      "key_image_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13013670/bin/42003_2026_9679_Fig1_HTML.jpg",
+      "key_image_alt": "Fig. 1 Effect of Gprasp2-deficient on auditory function and behaviors in mice models.A ABR tests of WT and Gprasp2-/y mice models. Click-evoked ABR waveforms in WT and Gprasp2-/y mice in six-month-old, n = 5; B ABR waveforms in WT and Gprasp2-/y mice at 16000 Hz. All the ABR traces were recorded at the same measurement range for latency (0–10 ms) and amplitude (0-1 μV), n = 5; C ABR thresholds in one-month-old and six-month-old WT and Gprasp2-/y mice at 2, 4, 8, 10, 16 and 32 kHz, n = 5; D Acoustic startle response on movement behavior between WT and Gprasp2-/y mice, n = 5; E Y maze tests of WT and Gprasp2-/y mouse models, n = 5; F Rotarod tests, n = 5; G Novelty suppressed-feeding tests, n = 5; H Tail suspension tests, n = 5; I Forced swim tests, n = 5. Each bar represents mean ± SEM. *P < 0.05; **P < 0.01; ***P < 0.001; n.s.: not significant.",
+      "media_checked_at": "2026-05-26T06:20:55Z",
+      "pubmed_full_text_image_checked_at": "2026-05-26T06:20:55Z"
+    },
+    {
+      "title": "Do Adolescent Hearing Aid Users Prefer Digital Noise Reduction to Be Activated? Findings From the Laboratory and Home Environments",
+      "authors": [
+        "Erin M. Picou",
+        "Kjersten Branscome",
+        "Kayleigh Pletch",
+        "Lisa Standaert",
+        "Andrea H. Dunn",
+        "Johanna Nelson"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-02-13",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001794",
+      "url": "https://doi.org/10.1097/aud.0000000000001794",
+      "abstract": "Objectives: The purpose of this study was to evaluate the effects of an advanced digital noise reduction algorithm on measures in the laboratory (double-blind paired comparison testing, unblinded slider setting, sentence recognition performance) and during a field trial (unblinded slider setting). A secondary purpose was to evaluate participants’ ability and willingness to use a smartphone application for controlling the algorithm in the field. Design: Laboratory procedures included the evaluation of subjective ratings of listening ease using a double-blinded, paired comparisons approach while listening to speech in background noise. Participants were trained to use a smartphone application for manually controlling the advanced digital noise reduction algorithm and they indicated their preferred setting using the smartphone application, also in the laboratory. In addition, they completed double-blinded, behavioral sentence recognition in noise testing with a variety of advanced noise reduction settings. Finally, participants wore the hearing aids at home during a field trial, with instructions to use the smartphone application during the trial in noisy situations and to report on their experiences using a bespoke questionnaire upon their return to the laboratory. Results: Double-blind, paired comparison testing revealed that most participants (80%) preferred to have advanced digital noise reduction active in the noisy, reverberant laboratory. These participants were also likely to demonstrate a preference for the advanced digital noise reduction to be active during the unblinded preference task. Advanced digital noise reduction did not affect sentence recognition in noise performance. During the field trial, participants could use the smartphone application to adjust the advanced noise reduction strength in noisy situations but did not choose to do so frequently. In addition, on average, participants did not activate the advanced digital noise reduction algorithm when in self-identified difficult listening situations during the field trial. Conclusions: The results of the current study demonstrate robust subjective benefits of advanced digital noise activation in the laboratory, with no effects on speech intelligibility. In addition, participants were internally consistent in the laboratory; their self-adjusted settings were consistent with the program they preferred during the double-blind, paired comparisons testing. However, the findings with the smartphone application demonstrate that, in general, they did not activate the advanced digital noise reduction during their self-identified difficult listening situations in the field. This result could partially be explained by the limited reported use of the smartphone application during the field trial. Future study is warranted to reconcile the laboratory and field trial findings in this study. In the interim, a reasonable clinical approach with limited negative speech intelligibility consequences might be to activate advanced digital noise reduction by default and provide smartphone application access in case a patient discovers a preference for an alternative noise reduction strength.",
+      "first_author_affiliation": "Department of Hearing and Speech Sciences, Vanderbilt University Medical Center, Stäfa, Switzerland",
+      "last_author_affiliation": "Sonova, AG, Stäfa, Switzerland.",
+      "open_access": true,
+      "open_access_url": "https://journals.lww.com/10.1097/AUD.0000000000001794",
+      "open_access_source": "crossref_license",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Children",
+        "Field trial",
+        "Hearing aid",
+        "Noise reduction",
+        "Preference",
+        "Speech in noise"
+      ],
+      "tags": [
+        "clinical audiology",
+        "hearing aid",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-02-13",
+      "first_seen_at": "2026-05-26T06:20:05Z",
+      "full_text_url": "https://journals.lww.com/10.1097/AUD.0000000000001794",
+      "media_checked_at": "2026-05-26T06:20:57Z",
+      "open_access_image_checked_at": "2026-05-26T06:20:57Z"
+    },
+    {
+      "title": "Exploring primary characteristics of occupational hearing loss in female manufacturing workers: A cross-sectional study",
+      "authors": [
+        "Changyan Yu",
+        "Yuwen Huang",
+        "Jinzhe Li",
+        "Hua Zou",
+        "Jiarui Xin",
+        "Anke Zeng",
+        "Xiaohan Li",
+        "Wei Qiu",
+        "Meibian Zhang"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-02-13",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0042446",
+      "url": "https://doi.org/10.1121/10.0042446",
+      "abstract": "As occupational hearing loss (OHL) is a concern among women, a cross-sectional study was conducted. Individual noise exposure energy and temporal structure were quantified using the 8 h continuous equivalent A-weighted sound pressure level (LAeq,8h) and kurtosis (β). High-frequency noise-induced hearing loss (HFNIHL) and noise-induced hearing impairment (NIHI) were calculated. The HFNIHL and NIHI prevalences were 13.45% and 13.20%, respectively. Hearing loss was symmetrically distributed, with the most significant threshold shifts occurring at 4.0 kHz. The OHL prevalence was significantly higher in individuals exposed to non-steady rather than steady noise. A marked increase in OHL prevalence was observed among women exposed to non-steady noise for 3 to 10 years. The steady noise group exhibited an increase, followed by a plateau or decline. Key influencing factors for women's OHL were LAeq,8h, age, and kurtosis, with odds ratios (ORs) ranked as follows: ORLAeq,8h > ORAge > ORKurtosis. After adjusting for kurtosis in LAeq,8h, the model fit (Akaike Information Criterion) of the dose–response relationship improved significantly. These findings suggested that female manufacturing workers were at high risk of OHL with significant clinical characteristics. Noise kurtosis could accelerate and exacerbate women's OHL development. Kurtosis adjustment for noise level could effectively evaluate women's OHL.",
+      "first_author_affiliation": "National Institute for Occupational Health and Poison Control, Chinese Center for Disease Control and Prevention 1 , Beijing 100050,",
+      "last_author_affiliation": "National Institute for Occupational Health and Poison Control, Chinese Center for Disease Control and Prevention 1 , Beijing 100050,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0042446",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology",
+        "priority section"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-02-13",
+      "first_seen_at": "2026-05-26T06:19:51Z",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/2/1489/3380049/Exploring-primary-characteristics-of-occupational",
+      "media_checked_at": "2026-05-26T06:20:57Z",
+      "open_access_image_checked_at": "2026-05-26T06:20:57Z"
+    },
+    {
+      "title": "Hearing Aids: What Works Well and What Can Be Improved",
+      "authors": [
+        "Brian C. J. Moore"
+      ],
+      "journal": "Journal of the Association for Research in Otolaryngology",
+      "publication_date": "2026-02-13",
+      "publication_date_precision": "day",
+      "doi": "10.1007/s10162-026-01031-5",
+      "url": "https://doi.org/10.1007/s10162-026-01031-5",
+      "full_text_url": "https://link.springer.com/article/10.1007/s10162-026-01031-5",
+      "abstract": "Abstract This paper evaluates the current performance of hearing aids, based on research findings and my experiences with hearing aids. The type of acoustic coupling to the ear is important. The fitting can be “closed” (sealing the ear canal), but this can lead to the occlusion effect; the user’s own voice sounds too loud or too boomy. Alternatively, the fitting can be open (the eartip has a vent). This alleviates the occlusion effect, but it introduces comb-filtering (heard as perceptual coloration) and leads to little or no gain at low frequencies. Also, the highest frequency at which useful gain can be achieved is often about 5 kHz, which is lower than optimal. While acoustic feedback cancellation systems have improved markedly, they can still introduce artifacts and impair sound quality, especially for music. Hearing aids use multi-channel amplitude compression to compensate for the reduced dynamic range of hearing-impaired people, but they often fail to restore the audibility of soft sounds, especially at high frequencies, and the amount of compression is often limited (and less than indicated by the manufacturers’ fitting software), leading to loudness discomfort (and sometimes reduced speech intelligibility) at high sound levels. Also, compression systems introduce cross-modulation, impairing sound quality. Most hearing aids incorporate directional processing and noise-reduction systems intended to improve the ability to understand speech in noisy situations. These systems can be effective with a closed fitting, but much of the benefit is lost with an open fitting because of leakage of background sounds through the vent.",
+      "first_author_affiliation": "Cambridge Hearing Group, Department of Psychology, University of Cambridge, Downing Street, Cambridge, CB2 3EB, UK. bcjm@cam.ac.uk.",
+      "last_author_affiliation": "Cambridge Hearing Group, Department of Psychology, University of Cambridge, Downing Street, Cambridge, CB2 3EB, UK. bcjm@cam.ac.uk.",
+      "open_access": true,
+      "open_access_url": "https://link.springer.com/article/10.1007/s10162-026-01031-5",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "pubmed_full_text_available": true,
+      "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13090441/",
+      "pubmed_full_text_source": "pmc",
+      "key_image_url": "https://static-content.springer.com/image/art%3A10.1007%2Fs10162-026-01031-5/MediaObjects/10162_2026_1031_Fig1_HTML.jpg",
+      "key_image_alt": "Content cover image",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Amplitude compression",
+        "Closedness of fitting",
+        "Directional microphones",
+        "Feedback cancellation",
+        "Hearing aids",
+        "Noise reduction",
+        "Occlusion effect"
+      ],
+      "tags": [
+        "hearing aid",
+        "psychoacoustics",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-02-13",
+      "first_seen_at": "2026-05-13T14:35:06Z"
+    },
+    {
       "title": "Integrative Modeling of Individual Differences Recognizing Speech in Noise by Hearing-Impaired Adults",
       "authors": [
         "Robert A Lutfi",
@@ -15195,21 +15422,84 @@
       "pubmed_full_text_source": "pmc",
       "media_checked_at": "2026-05-11T16:03:28Z",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "43.66Dc",
-        "PACS: 43.66.Ba",
-        "hearing loss",
-        "individual differences",
-        "integrative modeling",
-        "speech-in-noise recognition"
-      ],
+      "keywords": [],
       "tags": [
         "clinical audiology",
         "speech perception"
       ],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-02-13",
       "first_seen_at": "2026-05-13T14:35:06Z"
+    },
+    {
+      "title": "Optimizing the Chinese Zodiac-in-Noise Test With Antiphasic Stimuli for Better Hearing Loss Detection",
+      "authors": [
+        "Yanqing He",
+        "Nengheng Zheng",
+        "Huali Zhou",
+        "Qinglin Meng"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-02-13",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001791",
+      "url": "https://doi.org/10.1097/aud.0000000000001791",
+      "abstract": "Objectives: The antiphasic digit-in-noise test has demonstrated the advantages of antiphasic presentation in hearing screening. Inspired by this, this study explores whether incorporating antiphasic stimuli in the Chinese zodiac-in-noise (ZIN) test can enhance its sensitivity to detect hearing loss. Furthermore, this study investigates the relation between the binaural intelligibility level difference (BILD), calculated as the difference between antiphasic and diotic results, and hearing thresholds, and evaluates the potential of BILD as an indicator for hearing loss. Design: Normative data for the antiphasic ZIN test were established based on data from 117 normal-hearing listeners. Subsequently, the performance of the antiphasic ZIN test was evaluated in 195 listeners with varying degrees and types of hearing loss. Participants were classified into four groups based on their audiograms: normal hearing (n = 115), symmetric hearing loss (n = 37), asymmetric hearing loss (n = 14), and unilateral hearing loss (n = 29). BILD was further analyzed to assess its relation with high- and low-frequency hearing thresholds. Results: The antiphasic ZIN test has a cutoff value of −13.7 dB and a reference speech reception threshold of −19.0 ± 3.2 dB. The measurement error, as estimated from the test-retest reliability, was 1.2 dB. Partial correlation analysis controlling for age revealed comparable associations of hearing thresholds across ears with BILD ( ρ poorer-antiphasic = 0.65, 95% confidence interval [CI]: 0.54 to 0.74 versus ρ poorer-diotic = 0.43, 95% CI: 0.29 to 0.55). Compared with the diotic ZIN test, the antiphasic ZIN demonstrates higher sensitivity (0.88, 95% CI: 0.78 to 0.93 versus 0.49, 95% CI: 0.38 to 0.60) in detecting hearing loss of >25 dB HL in the poorer ear, with comparable specificity (0.86, 95% CI: 0.79 to 0.91 versus 0.97, 95% CI: 0.93 to 0.99). Compared with high-frequency hearing loss, BILD showed a stronger association with low-frequency hearing loss, with a more pronounced decrease as hearing impairment in the poorer ear worsened. Conclusions: The antiphasic ZIN test demonstrates higher screening sensitivity compared with the diotic ZIN, particularly in detecting asymmetric and unilateral hearing loss. BILD is more sensitive to low-frequency hearing impairments and shows substantial promise as an indicator for hearing loss.",
+      "first_author_affiliation": "School of Physics and Optoelectronics, South China University of Technology, Guangzhou, China",
+      "last_author_affiliation": "School of Physics and Optoelectronics, South China University of Technology, Guangzhou, China",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Antiphasic",
+        "Binaural intelligibility level difference",
+        "Hearing loss",
+        "Hearing screening",
+        "Zodiac-in-noise"
+      ],
+      "tags": [
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-02-13",
+      "first_seen_at": "2026-05-26T06:20:05Z"
+    },
+    {
+      "title": "Pre-Neural Source of the Envelope-Following Response Revealed in Cases of Auditory Neuropathy",
+      "authors": [
+        "Macarena Díaz",
+        "Federico Lucchetti",
+        "Paul Avan",
+        "Maxime Niesen",
+        "Benoit Devroede",
+        "Paul Deltenre",
+        "Antoine Nonclercq"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-02-13",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001790",
+      "url": "https://doi.org/10.1097/aud.0000000000001790",
+      "abstract": "Objectives: Complex stimuli such as two-tone stimuli (f 1 and f 2 ) elicit frequency-following responses that reflect phase-locking to the stimulus envelope (f 2 − f 1 ) and temporal fine structure at multiple stages of the auditory pathway, from the cochlea to the cortex. The relative contribution of these structures to the scalp-recorded envelope-following response (EFR) remains a matter of debate. Although subcortical sources have been proposed as the main contributors, near-field recordings close to the cochlea contain pre-neural components and have recently been reported in auditory steady-state responses (ASSRs), a version of the EFR used to measure thresholds at the four frequencies (0.5, 1, 2, 4 kHz) most relevant for objective audiogram estimations. The present study evaluated the EFR in 26 auditory neuropathy spectrum disorder (ANSD) cases and 79 children with normal electrophysiological thresholds and distortion product otoacoustic emissions (controls). In addition, this study presents data from a battery of auditory neurophysiological objective tests applied to the 26 ANSD cases. Design: EFRs were recorded using horizontal (EFR-H) and vertical (EFR-V) channels and the generalized primary tone phase variation method, allowing isolation of the EFR waveforms in the time domain to obtain direct latency and phase-locking value (PLV) measurements. EFRs detected in ANSD cases were compared with those of the controls. The standard audiological objective tests included tympanograms, distortion product otoacoustic emissions, click-evoked auditory brainstem responses (ABRs), and ASSRs. Results: EFR-H was detected in five ANSD cases, showing shorter onset latencies, shorter response durations, and lower PLVs than controls. Lower PLVs were also observed in the EFR-H from the contralateral ears of unilateral ANSD cases. The EFR-V was undetected in all ANSD patients except for two, who showed milder neural desynchronization in their click-evoked ABRs and exhibited the lowest ABR thresholds within the ANSD cases. In 15 ANSD cases, with totally absent neural click-evoked ABRs, ASSRs were detected for at least one tested frequency, indicating a discrepancy between ABR and ASSR-estimated thresholds. Conclusions: The EFR-H observations suggested a pre-neural origin, with the asymmetrical mechanoelectrical transduction process at the sensory hair cells as the main contributor. These findings provide further evidence of a pre-neural potential explaining the discrepancy between ABR and ASSR threshold estimations in ANSD. In addition, the results from the contralateral ears of unilateral ANSD cases may reveal subtle deficits typically undetected by standard audiological techniques. Overall, the study of noninvasive EFR recordings in ANSD may contribute to refining their diagnosis, ultimately improving their treatment.",
+      "first_author_affiliation": "Bio-, Electro- and Mechanical Systems, Université Libre de Bruxelles, Brussels, Belgium",
+      "last_author_affiliation": "Bio-, Electro- and Mechanical Systems, Université Libre de Bruxelles, Brussels, Belgium",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [
+        "Auditory evoked potentials",
+        "Auditory neuropathy spectrum disorder",
+        "Auditory steady-state response",
+        "Click-evoked auditory brainstem response",
+        "Envelope-following response",
+        "Pre-neural source"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology",
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-02-13",
+      "first_seen_at": "2026-05-26T06:20:05Z"
     },
     {
       "title": "Analysis of Spatial, Binaural, and Better-Ear Benefits for Different Degrees of Hearing Loss Using a Binaural Speech Intelligibility Model",
@@ -15238,21 +15528,411 @@
       "pubmed_full_text_source": "pmc",
       "media_checked_at": "2026-05-11T16:03:29Z",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "binaural",
-        "hearing impaired",
-        "model",
-        "speech perception",
-        "speech recognition"
-      ],
+      "keywords": [],
       "tags": [
         "clinical audiology",
         "psychoacoustics",
         "speech perception"
       ],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-02-12",
       "first_seen_at": "2026-05-13T14:35:06Z"
+    },
+    {
+      "title": "Gender, pitch variability, speaking rate, and low-frequency modulation affect judgments of anger in clear speech",
+      "authors": [
+        "Elizabeth D. Young",
+        "Shae D. Morgan",
+        "Sarah Hargus Ferguson"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-02-11",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0042447",
+      "url": "https://doi.org/10.1121/10.0042447",
+      "abstract": "Clear speech, a speaking style used to communicate with individuals with hearing loss and other communication difficulties, has been shown to sound “angry” more often than conversational speech [Morgan and Ferguson (2017). J. Speech. Lang. Hear. Res. 60, 2271–2280]. In this study, acoustic analyses of emotionally neutral sentences from a database of 41 talkers spoken both clearly and conversationally were analyzed in tandem with judgments of emotions for the same sentences to assess potential acoustic correlates of judgments of anger in clear speech. Principal component analyses were conducted to guide the selection of acoustic measures for statistical models. Decreases in speaking rate and increases in temporal fluctuations in amplitude centered at 1 Hz, both of which are prominent features of clear speech, were both associated with increases in judgments of anger. Increases in fundamental frequency variability, another common feature of clear speech, were associated with increases in judgments of any amount of anger but only in conversational speech. Finally, after controlling for speaking style and fundamental frequency variability, women were judged to sound angry more often than men. The results suggest that speaking rate, amount of word or phrase-level amplitude modulation, and fundamental frequency variability could possibly be manipulated to decrease judgments of anger in clear speech.",
+      "first_author_affiliation": "Department of Communication Sciences and Disorders, University of Utah 1 , Salt Lake City, Utah 84112,",
+      "last_author_affiliation": "Department of Communication Sciences and Disorders, University of Utah 1 , Salt Lake City, Utah 84112,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology",
+        "priority section",
+        "psychoacoustics"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-02-11",
+      "first_seen_at": "2026-05-26T06:19:51Z"
+    },
+    {
+      "title": "How does a deep neural network look at lexical stress in English words?",
+      "authors": [
+        "Itai Allouche",
+        "Itay Asael",
+        "Rotem Rousso",
+        "Vered Dassa",
+        "Ann Bradlow",
+        "Seung-Eun Kim",
+        "Matthew Goldrick",
+        "Joseph Keshet"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-02-11",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0042429",
+      "url": "https://doi.org/10.1121/10.0042429",
+      "abstract": "Despite their success in speech processing, neural networks often operate as black boxes, prompting the following questions: What informs their decisions, and how can we interpret them? This work examines this issue in the context of lexical stress. A dataset of English disyllabic words was automatically constructed from read and spontaneous speech. Several convolutional neural network (CNN) architectures were trained to predict stress position from a spectrographic representation of disyllabic words lacking minimal stress pairs (e.g., initial stress WAllet, final stress exTEND), achieving up to 92% accuracy on held-out test data. Layerwise relevance propagation, a technique for neural network interpretability analysis, revealed that predictions for held-out minimal pairs (PROtest vs proTEST) were most strongly influenced by information in stressed versus unstressed syllables, particularly the spectral properties of stressed vowels. However, the classifiers also attended to information throughout the word. A feature-specific relevance analysis is proposed, and its results suggest that the best-performing classifier is strongly influenced by the stressed vowel's first and second formants, with some evidence that its pitch and third formant also contribute. These results reveal deep learning's ability to acquire distributed cues to stress from naturally occurring data, extending traditional phonetic work based around highly controlled stimuli.",
+      "first_author_affiliation": "Faculty of Electrical and Computer Engineering, Technion—Israel Institute of Technology 1 , Haifa 3200003,",
+      "last_author_affiliation": "Faculty of Electrical and Computer Engineering, Technion—Israel Institute of Technology 1 , Haifa 3200003,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0042429",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "machine learning",
+        "priority section",
+        "psychoacoustics",
+        "speech perception"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-02-11",
+      "first_seen_at": "2026-05-26T06:19:51Z",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/2/1348/3379351/How-does-a-deep-neural-network-look-at-lexical",
+      "media_checked_at": "2026-05-26T06:20:57Z",
+      "open_access_image_checked_at": "2026-05-26T06:20:57Z"
+    },
+    {
+      "title": "Bilateral Speech-Evoked Envelope Following Responses: Benefit and Impact of Interaural Asymmetries",
+      "authors": [
+        "Vijayalakshmi Easwar",
+        "Michael Chesnaye",
+        "David W Purcell",
+        "Preeya Shete",
+        "Xin Zhou",
+        "Genevieve Olencewicz"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-02-10",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001777",
+      "url": "https://doi.org/10.1097/aud.0000000000001777",
+      "full_text_url": "https://journals.lww.com/10.1097/AUD.0000000000001777",
+      "abstract": "Objectives: Speech-evoked envelope following responses (EFRs) are a promising objective metric to assess aided access to speech. However, most studies have used unilateral stimulation and therefore do not reflect typical everyday listening, which is usually bilateral. The purpose of this study was to investigate: (i) the benefits of bilateral over unilateral stimulation in terms of increased EFR amplitudes, and (ii) the influence of clinically relevant interaural asymmetries, including relatively large interaural time and level differences (ITDs, ILDs) potentially caused by unilateral hearing aid fitting and asymmetry in hearing thresholds, respectively. Design: In 42 adults with normal hearing, EFRs were elicited by male-spoken tokens /sashi/ or /sa/. The tokens enabled eliciting multiple EFRs, one at the fundamental frequency (f0) of voice (f0 EFRs; typically at ~80 to 100 Hz) by low, mid and high frequency phoneme bands, and one by the syllabic structure (slow-rate EFRs; <8 Hz). To evaluate the benefit of bilateral over unilateral stimulation, stimuli were presented bilaterally and unilaterally at 65, 50, 35, and 15 dB SPL. To evaluate the effect of ILDs, the stimulus in the right ear was held constant at 65 dB SPL whilst the stimulus in the left ear was lowered to create ILDs of 15, 30, and 50 dB. To evaluate the effect of ITD, the stimulus was delayed by 5.6 msec in the left relative to the right ear to simulate a left unilateral hearing aid fitting. EFRs were measured with a non-inverting electrode at the vertex and an inverting electrode at the nape. Results: Between 35 and 65 dB SPL, bilateral f0 EFR amplitudes were 80 to 127% larger than their unilateral counterparts. Relatively smaller (20 to 46%) increases in amplitude were evident for the slow-rate EFRs. Detection rates improved mainly at lower levels, increasing by up to 50% and 15% in bilateral relative to unilateral conditions for f0 and slow-rate EFRs, respectively. The large 5.6-msec ITD attenuated f0 EFR amplitudes significantly, but had no significant effect on the slow-rate EFRs. ILD reduced f0 and slow-rate EFR amplitudes, but had no noticeable impact on detection rates. When stimuli were audible in both ears (ILD < 30 dB), the bilateral f0 and slow-rate EFR amplitudes were slightly smaller than the sum of their unilateral counterparts, suggesting the presence of binaural interactions. The ratio of the bilateral to the unilateral sum of response amplitudes was 88 to 93% and 62 to 73% for the f0 and slow-rate EFRs, respectively. Conclusions: The significant bilateral advantage in f0 and slow-rate EFR amplitudes, especially for stimuli closer to hearing thresholds, encourages the use of bilateral stimulation where appropriate. While a large 5.6 msec ITD—such as those introduced by a unilateral hearing aid—reduced f0 EFR amplitudes, slow-rate EFRs remained unaffected. Thus, unilateral hearing aid fittings in sound field might leverage slow-rate EFRs to prevent false negatives. Bilateral advantages were preserved despite ILDs, provided the better ear had sufficient audibility. This study provides the first evidence of observable binaural interactions in 80 to 100 Hz EFRs.",
+      "first_author_affiliation": "Communication Sciences, National Acoustic Laboratories, Sydney, New South Wales, Australia",
+      "last_author_affiliation": "Communication Sciences, National Acoustic Laboratories, Sydney, New South Wales, Australia",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Binaural interaction",
+        "Frequency following response",
+        "Phase interaction",
+        "Syllable",
+        "Vowel formant"
+      ],
+      "tags": [
+        "clinical audiology",
+        "hearing aid",
+        "real-world listening",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-02-10",
+      "first_seen_at": "2026-05-13T14:35:06Z"
+    },
+    {
+      "title": "Combining Speech-Evoked Potentials for More Sensitive Hearing Tests in Infants and Adults",
+      "authors": [
+        "Michael Alexander Chesnaye",
+        "David Wesley Purcell",
+        "Susan Diane Scollie",
+        "Vijayalakshmi Easwar"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-02-10",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001784",
+      "url": "https://doi.org/10.1097/aud.0000000000001784",
+      "abstract": "Objectives: Neural responses evoked by speech stimuli may help assess hearing in infants and young children who are unable to reliably participate in behavioral hearing tests. These responses entrain to the periodicity of the speech envelope and are therefore referred to as envelope-following responses (EFRs). EFRs occur at the voice’s fundamental frequency (f0; usually >80 Hz) and lower frequency (<10 Hz) periodicities associated with, for example, phoneme and syllable transitions. This study focuses on statistical approaches for inferring frequency-specific and non-frequency-specific audibility of speech from f0 (f0-EFRs) and slow-rate (<10 Hz) EFRs (SR-EFRs). The objective was to improve test sensitivity by combining f0-EFRs and SR-EFRs across multiple speech stimuli. Design: Test sensitivity was assessed using electroencephalogram recordings from 66 normal-hearing participants (22 adults, 44 infants) in response to a modified male-spoken /susa∫i/ (“susashee”) presented monaurally. The /susa∫i/ token evokes SR-EFRs and eight f0-EFRs: three f0-EFRs were evoked by the low frequency, first formants of the /u/, /a/, and /i/ vowels, three by the mid-frequency higher formants of the vowels, and two by the high frequency /s/ and /∫/ fricatives. The f0-EFRs were first analyzed separately, per fricative and per vowel formant, using Hotelling’s T 2 test (HT 2 ) or a modified HT 2 test (T 2 Diag ). Vowels and fricatives were subsequently pooled within each frequency band (low, mid, high), and “combination tests” were conducted to assess the audibility of each band. Two approaches were assessed: (1) all HT 2 - or T 2 Diag -generated p values were pooled, per frequency band, and evaluated while accounting for multiple comparisons using the Bonferroni or inverse χ 2 approach, or (2) a single high-dimensional f0-EFR feature set was constructed, per frequency band, and evaluated with a single HT 2 or T 2 Diag hypothesis test. Non-frequency-specific combination tests were also evaluated, which leveraged either all eight f0-EFRs simultaneously or all eight f0-EFRs in combination with SR-EFRs. Test specificity was evaluated using no-stimulus electroencephalogram background activity recorded from 10 adults. Results: For the frequency-band-specific assessments using f0-EFRs, test sensitivity was highest for the inverse χ 2 method: Compared with the non-combined (phoneme- and formant-specific) f0-EFR analyses, detection rates increased by 0.04, up to 0.35. When leveraging all eight f0-EFRs simultaneously in the non-frequency-specific audibility assessment, detection rates increased by up to 0.55 relative to the low- and mid-frequency-band assessments, but only by 0.03 compared with the high-frequency-band assessment. The non-frequency-specific assessment, leveraging f0-EFRs and SR-EFRs simultaneously, led to a small (nonsignificant) increase (up to 0.02) in detection rates compared with using f0-EFRs alone. Detection rates for the SR-EFRs were lower than those of the f0-EFRs but approached 100% detection after ~30 min of test time in some test conditions. Conclusions: Combining speech-evoked EFRs elicited by multiple phonemes and phoneme formants improved test sensitivities in frequency-band-specific and non-frequency-specific assessments of speech audibility. Such combination tests might be used to quickly obtain a preliminary, non-frequency-specific assessment of hearing, and then progressively home in on frequency-specific assessments. If testing terminates early, for example, due to the infant waking up, then the preliminary assessments may still provide useful information.",
+      "first_author_affiliation": "Communication Sciences, National Acoustic Laboratories, Sydney, Australia",
+      "last_author_affiliation": "Communication Sciences, National Acoustic Laboratories, Sydney, Australia",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Envelope-following response",
+        "Frequency following response",
+        "Objective detection methods",
+        "Speech-evoked potentials"
+      ],
+      "tags": [
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-02-10",
+      "first_seen_at": "2026-05-26T06:20:05Z"
+    },
+    {
+      "title": "Machine Learning-Based Diagnosis of Chronic Subjective Tinnitus With Altered Cognitive Function: An Event-Related Potential Study: Erratum",
+      "authors": [
+        "Jihoo Kim",
+        "Kang Hyeon Lim",
+        "Euijin Kim",
+        "Seunghu Kim",
+        "Hong Jin Kim",
+        "Ye Hwan Lee",
+        "Sungkean Kim",
+        "June Choi"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-02-10",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001800",
+      "url": "https://doi.org/10.1097/aud.0000000000001800",
+      "abstract": null,
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "clinical audiology",
+        "machine learning"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-02-10",
+      "first_seen_at": "2026-05-26T06:20:05Z"
+    },
+    {
+      "title": "Screening for Maternally Inherited Diabetes and Deafness in Large Cohorts of Hearing Impaired and Diabetic Patients",
+      "authors": [
+        "Lukas Varga",
+        "Silvia Borecka",
+        "Martina Skopkova",
+        "Vibhuti Rambani",
+        "Marek Sklenar",
+        "Klaudia Cipkova",
+        "Terezia Kickova",
+        "Diana Ugorova",
+        "Zuzana Kabatova",
+        "Juraj Stanik",
+        "Milan Profant",
+        "Daniela Gasperikova"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-02-10",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001780",
+      "url": "https://doi.org/10.1097/aud.0000000000001780",
+      "full_text_url": "https://journals.lww.com/10.1097/AUD.0000000000001780",
+      "abstract": "Objectives: Mitochondrial DNA (mtDNA) mutations account for up to 5% of hereditary hearing loss (HL) cases. Most commonly, the m.3243A>G mtDNA variant contributes to rare monogenic Maternally Inherited Diabetes and Deafness or Mitochondrial Encephalopathy, Lactic Acidosis, and Stroke-like episodes syndromes. Different proportions of the mutated mtDNA (heteroplasmy) among the affected tissues result in variability in the clinical manifestation and severity of the phenotype. The aim of the presented study was to establish the prevalence of the m.3243A>G variant in large cohorts of patients with HL and diabetes in Slovakia and to evaluate the genotype–phenotype correlations and long-term cochlear implantation outcomes in a small subset. Design: Probands (n = 5957) were recruited via 3 independent nationwide studies on HL (hereditary HL group, n = 1145) and diabetes (general diabetes group, n = 4158, and monogenic diabetes group, n = 654; total n = 4812). DNA from peripheral blood and/or buccal mucosa was tested for the presence of the m.3243A>G variant using two polymerase chain reaction (PCR) methods—quantitative real-time PCR and digital PCR. Audiological and other clinical data of the identified variant carriers were also collected for phenotype evaluation. Results: We identified 25 probands harboring the m.3243A>G variant (0.42%). The prevalence was higher in the groups where genetic etiology was suspected—0.79% in the hereditary HL group and 1.68% in the monogenic diabetes group versus 0.14% in the general diabetes group ( p < 0.001). Furthermore, we have identified the m.3243A>G variant in 38 family members. Heteroplasmy levels assessed by digital PCR ranged between 0.04 and 76% in peripheral blood and 0.01 and 92% in buccal samples. In most individuals, the symptoms manifested in the fourth decade of life in affected subjects with the Maternally Inherited Diabetes and Deafness phenotype or isolated HL/diabetes, but as early as in the second decade in the probands with Mitochondrial Encephalopathy, Lactic Acidosis, and Stroke-like episodes. We observed high phenotype variability, ranging from severe multisystemic involvement through isolated symptoms to asymptomatic young “dormant” or very low heteroplasmy carriers. Only 38% of individuals with the m.3243A>G variant had both diabetes and HL. The heteroplasmy levels from buccal swabs showed a better correlation with the age of onset of both HL and diabetes than the age-adjusted blood heteroplasmy. On the other hand, the age-adjusted blood heteroplasmy was associated with overall severity of the disease (i.e., with a higher number of clinical symptoms). We show that the most typical audiogram configurations are flat (28% of the affected ears) and sloping (42% of the affected ears). Three individuals identified as cochlear implant recipients showed excellent and long-term stable functional outcomes. In addition, the authors report the first case of successful stapes surgery in a patient with a confirmed mitochondrial disorder and otosclerosis. Conclusions: The diagnostic yield was higher in the hereditary HL and monogenic diabetes groups than in the general diabetes group. Implementation of rigorous inclusion criteria requiring the presence of both diabetes and HL may lead to a lower detection rate due to different or incomplete phenotype manifestation. Age-adjusted blood heteroplasmy levels seem to be a good predictor of overall severity of m.3243A>G-associated diseases, but buccal mucosa heteroplasmy predicted the age of HL and diabetes onset better.",
+      "first_author_affiliation": "Department of Otorhinolaryngology-Head and Neck Surgery, Faculty of Medicine and University Hospital Bratislava, Comenius University, Bratislava, Slovakia",
+      "last_author_affiliation": "Diabgene Laboratory, Institute of Experimental Endocrinology, Biomedical Research Center, Slovak Academy of Sciences, Bratislava, Slovakia",
+      "open_access": true,
+      "open_access_url": "https://journals.lww.com/10.1097/AUD.0000000000001780",
+      "open_access_source": "crossref_license",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "pubmed_full_text_available": true,
+      "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13068446/",
+      "pubmed_full_text_source": "pmc",
+      "pubmed_full_text_image_checked_at": "2026-05-11T15:54:50Z",
+      "media_checked_at": "2026-05-11T15:43:54Z",
+      "key_image_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13068446/bin/aud-47-863-g001.jpg",
+      "key_image_alt": "Fig. 1. Association of severity of hearing loss with age-adjusted blood heteroplasmy of the m.3243G>A pathogenic variant. The color of the points expresses the age at HL onset, while the point size is relative to the age at the last checkup. dPCR indicates digital polymerase chain reaction; HL, hearing loss; Mild, mild HL; Mod, moderate HL; Norm, normal hearing; Prof, profound HL; Sev, severe HL.",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Cochlear implant",
+        "Deafness",
+        "Diabetes",
+        "Heteroplasmy",
+        "Mitochondrial",
+        "Stapedotomy"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology",
+        "cochlear implant"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-02-10",
+      "first_seen_at": "2026-05-13T14:35:06Z"
+    },
+    {
+      "title": "The role of scalae geometry in cochlear mechanical responses: Pressure focusing in two and three dimensions",
+      "authors": [
+        "Alessandro Altoè"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-02-10",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0042381",
+      "url": "https://doi.org/10.1121/10.0042381",
+      "abstract": "This paper illustrates effects of model dimensionality, and of common simplifying assumptions, regarding the geometry of the scalae, on the solution of cochlear mechanical models. We extend a previous theoretical framework from Duifhuis [(1988). Auditory Function: Neurological Bases for Hearing (Wiley, New York), pp. 189–212] to study differences between models that consider three-dimensional (3D) and two-dimensional (2D) fluid motion in the scalae, and how these differences depend on the assumed cochlear geometry. Our results show that, while cochlear mechanical responses obtained in 2D and 3D are nearly identical over the mid- and apical cochlear turn, they are significantly different in the base—where the basilar membrane (BM) is narrow—especially in the presence of active amplification. Our analysis reveals that a narrower BM intensifies the 3D short-wave “pressure-focusing” effect, which boosts the vibration of the sensory tissue at locations tuned to the stimulus frequency. Importantly, these 3D short-wave effects can be accounted for in carefully constructed 2D models, by appropriately projecting the cochlear 3D geometry in 2D. Our work shows that the cochlear 3D geometry plays a major role to high-frequency cochlear amplification—a phenomenon with a straightforward explanation and that can be included in more tractable 2D theories.",
+      "first_author_affiliation": "Auditory Research Center, Caruso Department of Otolaryngology, University of Southern California , Los Angeles, California 90033,",
+      "last_author_affiliation": "Auditory Research Center, Caruso Department of Otolaryngology, University of Southern California , Los Angeles, California 90033,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "hearing aid",
+        "priority section"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-02-10",
+      "first_seen_at": "2026-05-26T06:19:51Z"
+    },
+    {
+      "title": "Validation of Count-the-Dots audiogram approaches to calculating speech intelligibility indices",
+      "authors": [
+        "Koenraad S. Rhebergen",
+        "Chaslav V. Pavlovic"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-02-10",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0042425",
+      "url": "https://doi.org/10.1121/10.0042425",
+      "abstract": "This study evaluates Count-the-Dots Audiogram approaches as a simplified clinically viable method to closely estimate the American National Standards Institute [ANSI (1997). S3.5–1997) Speech Intelligibility Index (SII)] standard in quiet environments. We compared audibility calculations and predicted intelligibility scores between Count-the-Dots methods and multiple ANSI [(1997). S3.5–1997)] SII variants, using eight frequency Band Importance Functions (BIF) for 14 776 audiograms from the National Health and Nutrition Examination Survey dataset. Results showed that Count-the-Dots methods closely approximate the ANSI [(1997). S3.5–1997)] SII model as long as the speech levels and the BIF used for calculations were equivalent between the two methods. This was true for audibility calculations and speech intelligibility predictions. However, deviations occurred at higher speech levels [≥65 dB sound pressure level (SPL)] because of differences in how masking is modeled. Count-the-Dots audiogram approaches offer a clinically viable, intuitive alternative for counseling purposes in quiet settings, particularly at natural speech levels (about 55 dB SPL). However, for speech-in-noise conditions, high-level speech, or aided speech inputs, the ANSI [(1997). S3.5–1997)] SII remains the preferred model because of its more detailed acoustic modeling.",
+      "first_author_affiliation": "Department of Otorhinolaryngology and Head and Neck Surgery, University Medical Center Utrecht 1 , Utrecht,",
+      "last_author_affiliation": "BatAndCat Sound Labs 3 , 602 Hawthorne Avenue, Palo Alto, California 94301,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0042425",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology",
+        "priority section",
+        "psychoacoustics",
+        "speech perception"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-02-10",
+      "first_seen_at": "2026-05-26T06:19:51Z",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/2/1337/3379072/Validation-of-Count-the-Dots-audiogram-approaches",
+      "media_checked_at": "2026-05-26T06:20:57Z",
+      "open_access_image_checked_at": "2026-05-26T06:20:57Z"
+    },
+    {
+      "title": "Word Identification in School-Aged Children: Effects of Pitch Contour, Word Position, and Musicianship",
+      "authors": [
+        "Husna Firdose",
+        "Yingjiu Nie",
+        "Victoria André",
+        "Victoria Whitney"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-02-10",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001788",
+      "url": "https://doi.org/10.1097/aud.0000000000001788",
+      "abstract": "Objectives: This study aimed to examine how two features—sentence pitch contour and word position—affect speech perception in noise among children and whether these effects differ between musicians and nonmusicians. Design: The study included 51 children (20 musicians and 31 nonmusicians) aged 93 to 179 months (7.75 to 14.92 years) with normal hearing. Participants completed word identification tasks using the Sung Speech Corpus, a set of closed-set matrix sentences. Stimuli included sentences of five words varying in three sentence pitch contours—naturally spoken, mixed-pitch (different pitch for each word), and fixed-pitch (same pitch for each word)—at two signal-to-noise ratios (SNRs) (0, +3 dB) using speech-shaped steady-state noise based on all the words combined. Neurocognitive functions, including nonverbal IQ, receptive vocabulary, and auditory short-term memory (STM) capacity, were assessed. Linear mixed-effects models analyzed the main effects and two-way interactions of pitch contour, word position in the sentence, SNR, and musicianship on word identification accuracy. Models were conducted with and without controlling for neurocognitive factors correlated with word identification accuracy to assess their impact. Recency-to-primacy differences (RP-differences) were calculated, and a separate linear mixed-effects model was used to examine the effects of pitch contour, SNR, and musicianship on RP-differences. Results: Significant main effects of pitch contour and SNR, as well as their interaction, were observed for word identification accuracy. Performance improved progressively from fixed-pitch to mixed-pitch to naturally spoken contours and with increasing SNR. The interaction indicated that unnatural pitch contours exacerbated the decline in word identification accuracy under the lower SNR. A U-shaped pattern emerged for word identification as a function of word position, with lower performance in the middle of a sentence and highest performance at the initial or final position, reflecting primacy and recency effects, respectively. The primacy effect was more negatively affected by unnatural pitch contours (mixed-pitch and fixed-pitch) than the recency effect, as indicated by larger RP-differences for distorted contours compared with the spoken contour. Musicians and nonmusicians had comparable nonverbal IQ and receptive vocabulary, but musicians demonstrated higher auditory STM capacity. While musicians outperformed nonmusicians in overall word identification, this advantage became nonsignificant when auditory STM capacity was controlled for. No significant interactions were found between musicianship and sentence pitch contour or SNR, suggesting that musician advantage did not specifically counteract pitch contour distortions or unfavorable SNRs. Both groups exhibited comparable RP-differences, indicating that enhanced auditory STM did not provide additional benefits for recalling words in challenging positions. Conclusions: These findings suggest that both types of unnatural pitch contours—mixed-pitch and fixed-pitch—reduced children’s speech perception in noise compared with the natural spoken contour, with the fixed-pitch condition producing the poorest performance. The primacy and recency effects in free recall were evident in school-aged children’s word identification with five-word sequences, with primacy more susceptible to pitch contour distortions. Musicians’ higher speech perception in noise was primarily attributed to their greater auditory STM capacity. However, this advantage did not extend to resilience against pitch contour distortions, unfavorable SNRs, or challenging word positions for recall.",
+      "first_author_affiliation": "Department of Communication Sciences and Disorders, James Madison University, Harrisonburg, Virginia, USA",
+      "last_author_affiliation": "Department of Communication Sciences and Disorders, James Madison University, Harrisonburg, Virginia, USA",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Auditory short-term memory",
+        "Children",
+        "Musical training",
+        "Pitch contour",
+        "Receptive vocabulary",
+        "Serial position",
+        "Speech perception in noise",
+        "Word position"
+      ],
+      "tags": [
+        "psychoacoustics",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-02-10",
+      "first_seen_at": "2026-05-26T06:20:05Z"
+    },
+    {
+      "title": "Cross-frequency interactions in band importance functions",
+      "authors": [
+        "Adam K. Bosen",
+        "Anastasia J. Rogers",
+        "Ryan W. McCreery",
+        "Emily Buss"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-02-09",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0042379",
+      "url": "https://doi.org/10.1121/10.0042379",
+      "abstract": "The Speech Intelligibility Index (SII) is a metric of the amount of information available in a degraded or masked speech signal. The SII is used to predict speech recognition outcomes and is part of hearing aid prescription formulae. A critical assumption in the calculation of the SII is that frequency bands contribute independently to speech recognition, i.e., the importance of a band does not change based on the context of speech cues in other bands. Prior work has challenged this assumption by demonstrating that pairs of bands can contain synergistic or redundant information. The present work extends these findings by directly measuring pairwise interactions between the 21 frequency bands defined by the Critical Band Procedure of the SII. Forty-one participants with normal hearing identified words filtered to contain pseudorandom combinations of four or five bands. Pairwise interactions indicated both synergy and redundancy and accounted for substantial variability in recognition accuracy. The importance of individual bands decreased when pairwise interactions were considered, with the largest decreases for frequency bands above 1 kHz. The spectral proximity and envelope correlation between pairs of bands predicted whether their combination was synergistic or redundant. Interactions between bands play a critical role in speech recognition.",
+      "first_author_affiliation": "Hearing Research, Boys Town National Research Hospital 1 , Omaha, Nebraska 68123,",
+      "last_author_affiliation": "Department of Otolaryngology/Head and Neck Surgery, University of North Carolina at Chapel Hill 2 , Chapel Hill, North Carolina 27599,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "hearing aid",
+        "priority section",
+        "speech perception"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-02-09",
+      "first_seen_at": "2026-05-26T06:19:51Z"
+    },
+    {
+      "title": "Emotional and autonomic responses to natural sounds in listeners with cochlear implants",
+      "authors": [
+        "Prabuddha Bhatarai",
+        "Kelly N. Jahn"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-02-09",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0042405",
+      "url": "https://doi.org/10.1121/10.0042405",
+      "abstract": "This study characterized emotional responses to environmental sounds in 35 adults, including 18 cochlear implant (CI) users and 17 listeners with normal hearing (NH), using a comprehensive battery of self-report, behavioral, and autonomic measures. Changes in emotional reactions, pupil dilation, and skin conductance were assessed while participants listened to a series of emotionally evocative, naturally occurring sounds. The CI listeners exhibited a constricted range of emotional responses to the sounds, wherein they perceived pleasant and unpleasant sounds to be significantly less pleasant and less unpleasant, respectively, than the NH listeners. This reduced valence range was statistically associated with self-reported emotional deficits in daily life. Furthermore, the CI listeners exhibited significantly slower sound-evoked pupil dilations than the NH listeners, suggesting that they were slower to process the emotionally evocative sounds. These findings can support clinicians in identifying targets for counseling and rehabilitation to improve quality of life for adult CI listeners. The differences in emotional responses to naturalistic stimuli in CI listeners also highlight the need for future research to explore ecologically valid measures of assessment and rehabilitation.",
+      "first_author_affiliation": "Department of Speech, Language, and Hearing, The University of Texas at Dallas 1 , Richardson, Texas 75080,",
+      "last_author_affiliation": "Department of Speech, Language, and Hearing, The University of Texas at Dallas 1 , Richardson, Texas 75080,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "cochlear implant",
+        "priority section",
+        "real-world listening"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-02-09",
+      "first_seen_at": "2026-05-26T06:19:51Z"
+    },
+    {
+      "title": "Remote audiogram and notched-noise tests using Gaussian processes",
+      "authors": [
+        "Emanuele Perugia",
+        "Michael A. Stone",
+        "Karolina Kluk",
+        "Josef Schlittenlacher"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-02-09",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0042400",
+      "url": "https://doi.org/10.1121/10.0042400",
+      "abstract": "The study aimed to develop and validate remote hearing detection (audiogram) and discrimination (notched-noise) tests, which used Bayesian active-learning based Gaussian processes, as a binary discriminator between audible and inaudible sounds, and to choose the stimulus parameters. Forty-two participants (aged 48–75 years) performed the two tests remotely using their own equipment. The participants were recruited with pure-tone audiometry known a priori. The agreements between the true and estimated hearing thresholds were assessed using Bland–Altman plots and concordance correlation coefficients (CCC). The notched-noise test was used to derive auditory filter shape parameters, from which equivalent rectangular bandwidths (ERBs) were estimated. The ERBs were correlated with participants' hearing thresholds and compared to published data. The agreement between the true and estimated hearing thresholds ranged between poor and fair (CCC = 0.19 and 0.34), with an average bias (±limit of agreements) of 27.3 (±17.8) dB. This was attributed to the lack of calibration of the participants' equipment. The estimated ERBs followed the trend of published data and were significantly correlated with pure-tone audiometry at 1000 Hz (rs = 0.36). Our findings indicate that the remote detection and discrimination tests can collectively track the breakpoints, slopes of thresholds, and the width of auditory filters.",
+      "first_author_affiliation": "Manchester Centre for Audiology and Deafness, Division of Psychology, Communication and Human Neuroscience, School of Health Sciences, Faculty of Biology, Medicine and Health, The University of Manchester, Manchester Academic Health Science Centre 1 , Manchester,",
+      "last_author_affiliation": "Speech, Hearing & Phonetic Sciences, Faculty of Brain Sciences, University College London 3 ,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0042400",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology",
+        "priority section",
+        "psychoacoustics"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-02-09",
+      "first_seen_at": "2026-05-26T06:19:51Z",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/2/1210/3378976/Remote-audiogram-and-notched-noise-tests-using",
+      "media_checked_at": "2026-05-26T06:20:57Z",
+      "open_access_image_checked_at": "2026-05-26T06:20:57Z"
     },
     {
       "title": "Benefits of Enhanced Phase-Locking for Binaural Coding of Amplitude-Modulated Sounds",
@@ -16230,43 +16910,6 @@
       ],
       "source": "pubmed",
       "available_online_date": "2025-12-02",
-      "first_seen_at": "2026-05-13T14:35:06Z"
-    },
-    {
-      "title": "Bilateral Speech-Evoked Envelope Following Responses: Benefit and Impact of Interaural Asymmetries.",
-      "authors": [
-        "Vijayalakshmi Easwar",
-        "Michael Chesnaye",
-        "David W Purcell",
-        "Preeya Shete",
-        "Xin Zhou",
-        "Genevieve Olencewicz"
-      ],
-      "journal": "Ear and Hearing",
-      "publication_date": "2026-01-01",
-      "publication_date_precision": "year",
-      "doi": "10.1097/aud.0000000000001777",
-      "url": "https://doi.org/10.1097/aud.0000000000001777",
-      "full_text_url": "https://journals.lww.com/10.1097/AUD.0000000000001777",
-      "abstract": "Speech-evoked envelope following responses (EFRs) are a promising objective metric to assess aided access to speech. However, most studies have used unilateral stimulation and therefore do not reflect typical everyday listening, which is usually bilateral. The purpose of this study was to investigate: (i) the benefits of bilateral over unilateral stimulation in terms of increased EFR amplitudes, and (ii) the influence of clinically relevant interaural asymmetries, including relatively large interaural time and level differences (ITDs, ILDs) potentially caused by unilateral hearing aid fitting and asymmetry in hearing thresholds, respectively. In 42 adults with normal hearing, EFRs were elicited by male-spoken tokens /sashi/ or /sa/. The tokens enabled eliciting multiple EFRs, one at the fundamental frequency (f0) of voice (f0 EFRs; typically at ~80 to 100 Hz) by low, mid and high frequency phoneme bands, and one by the syllabic structure (slow-rate EFRs; <8 Hz). To evaluate the benefit of bilateral over unilateral stimulation, stimuli were presented bilaterally and unilaterally at 65, 50, 35, and 15 dB SPL. To evaluate the effect of ILDs, the stimulus in the right ear was held constant at 65 dB SPL whilst the stimulus in the left ear was lowered to create ILDs of 15, 30, and 50 dB. To evaluate the effect of ITD, the stimulus was delayed by 5.6 msec in the left relative to the right ear to simulate a left unilateral hearing aid fitting. EFRs were measured with a non-inverting electrode at the vertex and an inverting electrode at the nape. Between 35 and 65 dB SPL, bilateral f0 EFR amplitudes were 80 to 127% larger than their unilateral counterparts. Relatively smaller (20 to 46%) increases in amplitude were evident for the slow-rate EFRs. Detection rates improved mainly at lower levels, increasing by up to 50% and 15% in bilateral relative to unilateral conditions for f0 and slow-rate EFRs, respectively. The large 5.6-msec ITD attenuated f0 EFR amplitudes significantly, but had no significant effect on the slow-rate EFRs. ILD reduced f0 and slow-rate EFR amplitudes, but had no noticeable impact on detection rates. When stimuli were audible in both ears (ILD < 30 dB), the bilateral f0 and slow-rate EFR amplitudes were slightly smaller than the sum of their unilateral counterparts, suggesting the presence of binaural interactions. The ratio of the bilateral to the unilateral sum of response amplitudes was 88 to 93% and 62 to 73% for the f0 and slow-rate EFRs, respectively. The significant bilateral advantage in f0 and slow-rate EFR amplitudes, especially for stimuli closer to hearing thresholds, encourages the use of bilateral stimulation where appropriate. While a large 5.6 msec ITD-such as those introduced by a unilateral hearing aid-reduced f0 EFR amplitudes, slow-rate EFRs remained unaffected. Thus, unilateral hearing aid fittings in sound field might leverage slow-rate EFRs to prevent false negatives. Bilateral advantages were preserved despite ILDs, provided the better ear had sufficient audibility. This study provides the first evidence of observable binaural interactions in 80 to 100 Hz EFRs.",
-      "first_author_affiliation": "Communication Sciences, National Acoustic Laboratories, Sydney, New South Wales, Australia.",
-      "last_author_affiliation": "Communication Sciences, National Acoustic Laboratories, Sydney, New South Wales, Australia.",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Binaural interaction",
-        "Frequency following response",
-        "Phase interaction",
-        "Syllable",
-        "Vowel formant"
-      ],
-      "tags": [
-        "clinical audiology",
-        "hearing aid",
-        "real-world listening",
-        "speech perception"
-      ],
-      "source": "pubmed",
-      "available_online_date": "2026-02-10",
       "first_seen_at": "2026-05-13T14:35:06Z"
     },
     {
@@ -18117,59 +18760,6 @@
       ],
       "source": "pubmed",
       "first_seen_at": "2026-05-12T03:41:12Z"
-    },
-    {
-      "title": "Screening for Maternally Inherited Diabetes and Deafness in Large Cohorts of Hearing Impaired and Diabetic Patients.",
-      "authors": [
-        "Lukas Varga",
-        "Silvia Borecka",
-        "Martina Skopkova",
-        "Vibhuti Rambani",
-        "Marek Sklenar",
-        "Klaudia Cipkova",
-        "Terezia Kickova",
-        "Diana Ugorova",
-        "Zuzana Kabatova",
-        "Juraj Stanik",
-        "Milan Profant",
-        "Daniela Gasperikova"
-      ],
-      "journal": "Ear and Hearing",
-      "publication_date": "2026-01-01",
-      "publication_date_precision": "year",
-      "doi": "10.1097/aud.0000000000001780",
-      "url": "https://doi.org/10.1097/aud.0000000000001780",
-      "full_text_url": "https://journals.lww.com/10.1097/AUD.0000000000001780",
-      "abstract": "Mitochondrial DNA (mtDNA) mutations account for up to 5% of hereditary hearing loss (HL) cases. Most commonly, the m.3243A>G mtDNA variant contributes to rare monogenic Maternally Inherited Diabetes and Deafness or Mitochondrial Encephalopathy, Lactic Acidosis, and Stroke-like episodes syndromes. Different proportions of the mutated mtDNA (heteroplasmy) among the affected tissues result in variability in the clinical manifestation and severity of the phenotype. The aim of the presented study was to establish the prevalence of the m.3243A>G variant in large cohorts of patients with HL and diabetes in Slovakia and to evaluate the genotype-phenotype correlations and long-term cochlear implantation outcomes in a small subset. Probands (n = 5957) were recruited via 3 independent nationwide studies on HL (hereditary HL group, n = 1145) and diabetes (general diabetes group, n = 4158, and monogenic diabetes group, n = 654; total n = 4812). DNA from peripheral blood and/or buccal mucosa was tested for the presence of the m.3243A>G variant using two polymerase chain reaction (PCR) methods-quantitative real-time PCR and digital PCR. Audiological and other clinical data of the identified variant carriers were also collected for phenotype evaluation. We identified 25 probands harboring the m.3243A>G variant (0.42%). The prevalence was higher in the groups where genetic etiology was suspected-0.79% in the hereditary HL group and 1.68% in the monogenic diabetes group versus 0.14% in the general diabetes group ( p < 0.001). Furthermore, we have identified the m.3243A>G variant in 38 family members. Heteroplasmy levels assessed by digital PCR ranged between 0.04 and 76% in peripheral blood and 0.01 and 92% in buccal samples. In most individuals, the symptoms manifested in the fourth decade of life in affected subjects with the Maternally Inherited Diabetes and Deafness phenotype or isolated HL/diabetes, but as early as in the second decade in the probands with Mitochondrial Encephalopathy, Lactic Acidosis, and Stroke-like episodes. We observed high phenotype variability, ranging from severe multisystemic involvement through isolated symptoms to asymptomatic young \"dormant\" or very low heteroplasmy carriers. Only 38% of individuals with the m.3243A>G variant had both diabetes and HL. The heteroplasmy levels from buccal swabs showed a better correlation with the age of onset of both HL and diabetes than the age-adjusted blood heteroplasmy. On the other hand, the age-adjusted blood heteroplasmy was associated with overall severity of the disease (i.e., with a higher number of clinical symptoms). We show that the most typical audiogram configurations are flat (28% of the affected ears) and sloping (42% of the affected ears). Three individuals identified as cochlear implant recipients showed excellent and long-term stable functional outcomes. In addition, the authors report the first case of successful stapes surgery in a patient with a confirmed mitochondrial disorder and otosclerosis. The diagnostic yield was higher in the hereditary HL and monogenic diabetes groups than in the general diabetes group. Implementation of rigorous inclusion criteria requiring the presence of both diabetes and HL may lead to a lower detection rate due to different or incomplete phenotype manifestation. Age-adjusted blood heteroplasmy levels seem to be a good predictor of overall severity of m.3243A>G-associated diseases, but buccal mucosa heteroplasmy predicted the age of HL and diabetes onset better.",
-      "first_author_affiliation": "Department of Otorhinolaryngology-Head and Neck Surgery, Faculty of Medicine and University Hospital Bratislava, Comenius University, Bratislava, Slovakia.",
-      "last_author_affiliation": "Diabgene Laboratory, Institute of Experimental Endocrinology, Biomedical Research Center, Slovak Academy of Sciences, Bratislava, Slovakia.",
-      "open_access": true,
-      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13068446/",
-      "open_access_source": "pubmed_pmc",
-      "pubmed_full_text_available": true,
-      "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13068446/",
-      "pubmed_full_text_source": "pmc",
-      "pubmed_full_text_image_checked_at": "2026-05-11T15:54:50Z",
-      "media_checked_at": "2026-05-11T15:43:54Z",
-      "key_image_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13068446/bin/aud-47-863-g001.jpg",
-      "key_image_alt": "Fig. 1. Association of severity of hearing loss with age-adjusted blood heteroplasmy of the m.3243G>A pathogenic variant. The color of the points expresses the age at HL onset, while the point size is relative to the age at the last checkup. dPCR indicates digital polymerase chain reaction; HL, hearing loss; Mild, mild HL; Mod, moderate HL; Norm, normal hearing; Prof, profound HL; Sev, severe HL.",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Cochlear implant",
-        "Deafness",
-        "Diabetes",
-        "Heteroplasmy",
-        "Mitochondrial",
-        "Stapedotomy"
-      ],
-      "tags": [
-        "auditory physiology",
-        "clinical audiology",
-        "cochlear implant"
-      ],
-      "source": "pubmed",
-      "available_online_date": "2026-02-10",
-      "first_seen_at": "2026-05-13T14:35:06Z"
     },
     {
       "title": "Seeing a Talker's Mouth Reduces the Effort of Perceiving Speech and Repairing Perceptual Mistakes for Listeners With Cochlear Implants.",
