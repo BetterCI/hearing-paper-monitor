@@ -194,6 +194,44 @@ h1 {
   white-space: nowrap;
 }
 
+.github-cta {
+  display: grid;
+  gap: 3px;
+  width: min(300px, 100%);
+  margin-bottom: 6px;
+  padding: 10px 12px;
+  border: 1px solid rgba(11, 111, 114, 0.28);
+  border-radius: 8px;
+  color: inherit;
+  background: linear-gradient(135deg, #eef8f7, #fff7ed);
+  text-align: left;
+  text-decoration: none;
+  white-space: normal;
+  box-shadow: 0 10px 24px rgba(23, 33, 38, 0.08);
+}
+
+.github-cta:hover,
+.github-cta:focus-visible {
+  border-color: rgba(11, 111, 114, 0.48);
+  outline: 2px solid rgba(11, 111, 114, 0.18);
+  outline-offset: 2px;
+  transform: translateY(-1px);
+}
+
+.github-cta-title {
+  color: var(--accent-dark);
+  font-size: 0.74rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.github-cta-text {
+  color: #30434a;
+  font-size: 0.82rem;
+  font-weight: 650;
+  line-height: 1.32;
+}
+
 main {
   width: min(1440px, 100%);
   margin: 0 auto;
