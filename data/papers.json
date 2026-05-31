@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-05-30T05:58:15Z",
+  "generated_at": "2026-05-31T06:37:16Z",
   "papers": [
+    {
+      "title": "Stress across timescales: differential effects of acute and chronic stress on auditory processing and perception",
+      "authors": [
+        "Lior Dor",
+        "Jennifer Resnik"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-08-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109684",
+      "url": "https://doi.org/10.1016/j.heares.2026.109684",
+      "abstract": null,
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-26",
+      "first_seen_at": "2026-05-27T06:42:22Z"
+    },
     {
       "title": "Reading ability in both deaf and hearing adults is linked to neural representations of abstract phonology derived from visual speech.",
       "authors": [
@@ -147,20 +167,11 @@
       "media_checked_at": "2026-05-11T10:27:41Z",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Anesthesia",
-        "Auditory brainstem responses",
-        "Dexmedetomidine",
-        "Isoflurane",
-        "Ketamine",
-        "Medetomidine",
-        "Phase-coherence",
-        "Xylazine"
-      ],
+      "keywords": [],
       "tags": [
         "auditory physiology"
       ],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-04-15",
       "first_seen_at": "2026-05-13T14:35:06Z"
     },
@@ -1015,6 +1026,18 @@
       "doi": "10.1016/j.heares.2026.109685",
       "url": "https://doi.org/10.1016/j.heares.2026.109685",
       "abstract": "Current cochlear implant systems do not yet provide recipients invisible, carefree, and 24/7 hearing. The main technical challenge for a totally implantable cochlear implant (TICI) system is the development of a suitable implantable microphone (IM). One promising approach involves an IM that detects sound pressure within the middle ear cavity (MEC), eliminating the need for complex mechanical coupling with the ossicular chain. The present study investigates whether and under what conditions an MEC microphone (MECM) can meet the performance criteria required for TICI systems. The analysis considers an MECM design concept that uses a micro-electromechanical systems (MEMS) microphone enclosed in a hermetic and biocompatible housing. A lumped element model (LEM) of the MECM, combined with sound pressure measurements in an intact and surgically modified MEC of human cadaver temporal bones, was employed to address the research question. The experimental study showed that sealing the MEC at the aditus ad antrum increases sound pressure by up to 15 dB at frequencies below 3 kHz compared to an MEC configuration with an intact mastoid. However, a decrease of approximately 10 dB in the middle ear transfer function (METF) was observed due to stiffening of the middle ear caused by a smaller MEC size. The LEM indicated that an MECM with a 5 mm diameter and optimized enclosure geometry meets the performance criteria for a TICI, but only when the MEC is acoustically isolated from the mastoid cavity. Our analysis shows that the MECM can be seen as a promising IM concept for TICIs.",
+      "ai_analysis": {
+        "scientific_question": "中耳腔麦克风是否能满足全植入式人工耳蜗系统的性能要求，以及在何种条件下能够实现。",
+        "key_highlight": "结合集中参数模型和尸检颞骨实验的研究表明，中耳腔麦克风需在对乳突腔进行声学隔离的条件下才能满足全植入式人工耳蜗的性能标准，但代价是因中耳腔体积减小导致中耳传递函数下降约10 dB。",
+        "main_limitation": "基于尸检颞骨标本的可行性分析无法完全反映活体解剖结构差异、长期组织反应或设备生物相容性的实际影响。",
+        "research_implication": "该研究为全植入式人工耳蜗的声学传感器设计提供了理论依据，但实现临床应用仍需解决中耳腔隔离与声学性能之间的平衡问题。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "19403ffb99e919b7",
+        "updated_at": "2026-05-30T05:58:49Z"
+      },
       "last_author_affiliation": "Department of Otorhinolaryngology, Head & Neck Surgery, University Hospital Zurich, University of Zurich, Switzerland; Department of Otorhinolaryngology Head and Neck Surgery, The First Affiliated Hospital of Sun Yat-sen University, Guangzhou, China. Electronic address: weifanq@mail.sysu.edu.cn.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
@@ -1031,19 +1054,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-05-26",
-      "first_seen_at": "2026-05-27T06:42:22Z",
-      "ai_analysis": {
-        "scientific_question": "中耳腔麦克风是否能满足全植入式人工耳蜗系统的性能要求，以及在何种条件下能够实现。",
-        "key_highlight": "结合集中参数模型和尸检颞骨实验的研究表明，中耳腔麦克风需在对乳突腔进行声学隔离的条件下才能满足全植入式人工耳蜗的性能标准，但代价是因中耳腔体积减小导致中耳传递函数下降约10 dB。",
-        "main_limitation": "基于尸检颞骨标本的可行性分析无法完全反映活体解剖结构差异、长期组织反应或设备生物相容性的实际影响。",
-        "research_implication": "该研究为全植入式人工耳蜗的声学传感器设计提供了理论依据，但实现临床应用仍需解决中耳腔隔离与声学性能之间的平衡问题。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "19403ffb99e919b7",
-        "updated_at": "2026-05-30T05:58:49Z"
-      }
+      "first_seen_at": "2026-05-27T06:42:22Z"
     },
     {
       "title": "Monitoring coastal ocean dynamics under typhoon conditions using submarine distributed optical-fiber acoustic sensing",
@@ -1221,7 +1232,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-05-25",
-      "first_seen_at": "2026-05-25T06:49:12Z"
+      "first_seen_at": "2026-05-25T06:49:12Z",
+      "ai_analysis": {
+        "scientific_question": "WHRN基因突变导致的听力损失在发病后是否可以通过重新激活该基因来实现逆转。",
+        "key_highlight": "在小鼠中于听力损失发生后激活Whrn基因表达未能改善听性脑干反应阈值，扫描电镜显示这与外毛细胞静纤毛的不可逆发育缺陷相关。",
+        "main_limitation": "Limited generalizability due to small or specific sample（该研究仅使用单一基因敲低小鼠模型，其结论能否推广至人类WHRN相关听力损失尚需进一步验证）。",
+        "research_implication": "该研究表明WHRN相关听力损失可能在发育早期存在干预窗口期，一旦静纤毛结构发育缺陷形成后，基因层面的干预将难以奏效，这对基因治疗时机选择具有参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "2cecb3e76a3c1639",
+        "updated_at": "2026-05-31T06:37:46Z"
+      }
     },
     {
       "title": "Multiple Modalities of Sensory Gating Are Affected in Decompensated Tinnitus",
@@ -2626,6 +2649,18 @@
       "doi": "10.1016/j.heares.2026.109676",
       "url": "https://doi.org/10.1016/j.heares.2026.109676",
       "abstract": "It is widely acknowledged that top-down influences such as our prior experiences, knowledge, and expectations influence the way in which we perceive information. However, little is known how different sources of top-down influences interact when modifying sensory information. This study combined behavioural and EEG measures to investigate the effects and interactions of two expectation sources - informative hints (semantic priming) and stimulus repetition - in an auditory task requiring the recognition of spoken words embedded in noise. We manipulated participants' (N = 23) prior knowledge of the target stimuli by presenting valid, invalid, or no hints (presented acoustically or visually) and then assessed how their performance differed over multiple repetition blocks. Initial differences across hint types emerged but diminished over repetitions. In contrast, repetition-based learning showed stronger and more sustained effects, overriding both hint type and modality. While the interactive effects between hints and repetitions were also observed, they were less consistent across hint types and modalities. These findings suggest that informative cues and repetition rely on distinct learning mechanisms that jointly shape speech perception.",
+      "ai_analysis": {
+        "scientific_question": "不同的自上而下影响因素（如语义提示和重复）在修改感觉信息时如何相互作用并共同塑造言语感知？",
+        "key_highlight": "重复学习表现出比语义提示更强的持续效应，并能覆盖提示类型和模态的影响，提示两类线索依赖不同的学习机制。",
+        "main_limitation": "样本量较小（N=23）可能限制统计效能和结果的可推广性。",
+        "research_implication": "该研究结果对理解噪声环境下的言语识别机制具有参考价值，可能有助于优化助听器或人工耳蜗使用者的言语增强策略。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "96583925bc906c46",
+        "updated_at": "2026-05-30T05:59:00Z"
+      },
       "last_author_affiliation": "Department of Neuroscience, City University of Hong Kong, Hong Kong SAR; Gerald Choa Neuroscience Institute, Chinese University of Hong Kong, Hong Kong SAR. Electronic address: jschnupp@cuhk.edu.hk.",
       "publication_stage": "early_access",
       "section": "Speech Communication",
@@ -2642,19 +2677,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-05-19",
-      "first_seen_at": "2026-05-20T06:29:50Z",
-      "ai_analysis": {
-        "scientific_question": "不同的自上而下影响因素（如语义提示和重复）在修改感觉信息时如何相互作用并共同塑造言语感知？",
-        "key_highlight": "重复学习表现出比语义提示更强的持续效应，并能覆盖提示类型和模态的影响，提示两类线索依赖不同的学习机制。",
-        "main_limitation": "样本量较小（N=23）可能限制统计效能和结果的可推广性。",
-        "research_implication": "该研究结果对理解噪声环境下的言语识别机制具有参考价值，可能有助于优化助听器或人工耳蜗使用者的言语增强策略。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "96583925bc906c46",
-        "updated_at": "2026-05-30T05:59:00Z"
-      }
+      "first_seen_at": "2026-05-20T06:29:50Z"
     },
     {
       "title": "Whistle characteristics of free-ranging rough-toothed dolphins ( Steno bredanensis ) in the South China Sea",
@@ -4350,22 +4373,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -4378,6 +4385,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Effect of length variations in 3D-printed middle-ear prostheses on ossicular chain mobility",
@@ -6468,6 +6491,31 @@
       "first_seen_at": "2026-05-13T14:35:06Z"
     },
     {
+      "title": "Laminar segregation of excitatory and inhibitory projections from the inferior colliculus to the superior colliculus",
+      "authors": [
+        "Khaleeq Ahmad Saqib",
+        "Katsumasa Takahashi",
+        "Kazuma Hase",
+        "Takumi Miyajima",
+        "Mamiko Yamamoto",
+        "Ryo Yamamoto",
+        "Megumu Takahashi",
+        "Hiroyuki Hioki",
+        "Tetsufumi Ito"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-05-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109692",
+      "url": "https://doi.org/10.1016/j.heares.2026.109692",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-05-31T06:36:20Z"
+    },
+    {
       "title": "Mapping whole-brain auditory activation with 3T multi-echo fMRI at the group and individual-subject level",
       "authors": [
         "Michelle C. Medina",
@@ -6723,24 +6771,6 @@
       ],
       "source": "crossref",
       "first_seen_at": "2026-05-29T06:35:13Z"
-    },
-    {
-      "title": "Stress across timescales: differential effects of acute and chronic stress on auditory processing and perception",
-      "authors": [
-        "Lior Dor",
-        "Jennifer Resnik"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-05-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109684",
-      "url": "https://doi.org/10.1016/j.heares.2026.109684",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-05-27T06:42:22Z"
     },
     {
       "title": "Synchronization of two active ears via binaural coupling",
@@ -7229,6 +7259,18 @@
       "url": "https://doi.org/10.1038/s41467-026-71918-7",
       "full_text_url": "https://www.nature.com/articles/s41467-026-71918-7",
       "abstract": "Hemispheric specialization is a hallmark of brain organization, yet how functionally specialized circuits develop remains unclear. In humans, the developmental shift toward left-hemisphere dominance for language offers a well-characterized model for investigating this question. Here, we built personalized whole-brain neurophysiological models in children and adolescents to simulate task-evoked dynamics from auditory perception to language production. We demonstrate that expressive language lateralization emerges through distinct inhibitory processes. In early childhood, interhemispheric inhibitory asymmetry is present, characterized by stronger projections from left pyramidal neurons to right interneurons, but is insufficient to drive functional specialization. Using in silico manipulations, we show that developmental reduction in local inhibition is necessary to unmask the functional influence of early structural asymmetries. Our findings provide a mechanistic account in which expressive language specialization emerges from the interaction between early structural asymmetry and developmental disinhibition, and offer a generalizable computational framework for studying circuit specialization across species and cognitive domains.",
+      "ai_analysis": {
+        "scientific_question": "人类大脑的功能专门化回路如何在发育过程中形成？",
+        "key_highlight": "研究通过个性化全脑神经生理学模型证明，表达性语言偏侧化通过早期半球间抑制不对称和随后局部抑制的发育性减少这两个过程而出现。",
+        "main_limitation": "计算模型是对复杂神经系统的简化，其预测结论需要在真实神经数据中进一步验证。",
+        "research_implication": "该研究为理解语言处理的神经发育基础提供了理论框架，但与听力辅助设备或人工耳蜗的直接关联有限。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "cfeec4fee7650cb2",
+        "updated_at": "2026-05-30T05:59:10Z"
+      },
       "first_author_affiliation": "Department of Physiology, University of Toronto, Toronto, ON, Canada.",
       "last_author_affiliation": "Department of Physiology, University of Toronto, Toronto, ON, Canada.",
       "open_access": true,
@@ -7254,19 +7296,7 @@
       "source_group_label": "High-impact Journals",
       "actual_journal": "Nature Communications",
       "needs_review": true,
-      "first_seen_at": "2026-05-17T05:59:04Z",
-      "ai_analysis": {
-        "scientific_question": "人类大脑的功能专门化回路如何在发育过程中形成？",
-        "key_highlight": "研究通过个性化全脑神经生理学模型证明，表达性语言偏侧化通过早期半球间抑制不对称和随后局部抑制的发育性减少这两个过程而出现。",
-        "main_limitation": "计算模型是对复杂神经系统的简化，其预测结论需要在真实神经数据中进一步验证。",
-        "research_implication": "该研究为理解语言处理的神经发育基础提供了理论框架，但与听力辅助设备或人工耳蜗的直接关联有限。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "cfeec4fee7650cb2",
-        "updated_at": "2026-05-30T05:59:10Z"
-      }
+      "first_seen_at": "2026-05-17T05:59:04Z"
     },
     {
       "title": "Improving low-frequency attenuation of passive earplugs using Helmholtz resonators",
@@ -7330,16 +7360,16 @@
       "full_text_url": "https://pubs.aip.org/jasa/article/159/4/3674/3387986/An-adaptive-deep-neural-network-for-active-road",
       "abstract": "Active road noise control (ARNC) systems have been widely used for low-frequency noise control in vehicle cabins. To address nonlinear distortions in ARNC systems, prior work introduced a fully causal deep neural network (DNN)–based ANC framework [WaveNet-Volterra Neural Network (WaveNet-VNN)], which achieves superior performance over the ideal Wiener solution and conventional adaptive algorithms under rigorous and fair comparisons. However, real-world road noise exhibits significant distribution shifts caused by varying road conditions, traffic density, and vehicle speed, limiting the generalization of DNN-based ANC methods in practical ARNC systems, especially with scarce training data. This paper presents an adaptive neural network that integrates an online adaptation mechanism while preserving the high performance of causal neural networks. Specifically, lightweight Adapter modules are inserted into several layers of the pre-trained WaveNet-VNN model to serve as fine-tuning components during online adaptation, increasing model parameters, and computational cost by only 5%. Experimental results on a 42 × 2 × 2 ARNC system demonstrate that the proposed approach outperforms the ideal Wiener solution under cross-day distribution shifts and consistently delivers superior performance across different vehicle speeds. It also achieves convergence speed comparable to state-of-the-art traditional algorithms while demonstrating strong robustness across various scenarios, providing a feasible and effective solution for real-world DNN-based ARNC.",
       "ai_analysis": {
-        "scientific_question": "如何在稀缺训练数据条件下，使深度神经网络主动道路噪声控制系统适应真实世界中由路况、车速等因素导致的分布变化？",
-        "key_highlight": "在预训练WaveNet-VNN模型中插入轻量级Adapter模块，仅增加5%参数和计算成本即可在跨日分布偏移和不同车速下超越理想维纳解。",
-        "main_limitation": "实验验证仅基于特定规格的42×2×2主动噪声控制系统，方法在各类车型和噪声场景中的适用性有待进一步验证。",
-        "methodology_steps": "预训练WaveNet-VNN因果神经网络模型；在网络多个层级插入轻量级Adapter模块；设计在线适配机制进行微调；构建42×2×2主动噪声控制系统进行实验；跨日分布偏移条件下性能对比；不同车速下鲁棒性测试。",
-        "research_implication": "为车内噪声主动控制提供了一种参数高效的在线自适应方案，可提升实际应用中深度学习方法的工程可行性。",
+        "scientific_question": "如何使深度神经网络在真实道路噪声的分布变化中保持高性能同时实现高效的在线自适应？",
+        "key_highlight": "通过在预训练模型中插入轻量级适配器模块，仅增加5%的参数量和计算成本即可实现跨日期分布偏移下的优越降噪性能。",
+        "main_limitation": "实验在42×2×2的ARNC系统上进行，特定测试条件下的结果需要进一步验证其普适性。",
+        "research_implication": "该自适应学习框架为嘈杂环境下的聆听辅助设备提供了在线鲁棒优化的参考思路。",
         "provider": "minimax",
         "model": "MiniMax-M2.7",
         "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "3771de1725394855",
-        "updated_at": "2026-05-11T06:21:25Z"
+        "updated_at": "2026-05-31T06:37:50Z"
       },
       "first_author_affiliation": "Key Laboratory of Modern Acoustics and Institute of Acoustics, Nanjing University 1 , Nanjing 210093,",
       "last_author_affiliation": "Key Laboratory of Modern Acoustics and Institute of Acoustics, Nanjing University 1 , Nanjing 210093,",
@@ -7617,6 +7647,18 @@
       "url": "https://doi.org/10.1177/23312165261441694",
       "full_text_url": "https://journals.sagepub.com/doi/10.1177/23312165261441694",
       "abstract": "This study investigated whether sustained listening effort (sLE) contributes to measurable changes in fatigue, defined here as a decline in performance and/or motivation to sustain effort over time and to fatigue-related sleepiness, defined as a physiological state indexed by spontaneous pupil fluctuations. We further evaluated whether the Pupil Unrest Index (PUI) can serve as an objective marker of these processes. Twenty young adults with normal hearing completed a sustained listening task under speech-on-speech masking while simultaneously performing a secondary memory task, tested across four acoustic processing conditions. PUI increased from pre- to posttest in most participants, with the largest rise in the most difficult (unprocessed colocated) condition. Subjective fatigue ratings also increased across sessions, though without systematic differences between conditions. Behavioral results showed sequence effects: performance declined in intermediate conditions, whereas it remained stable in the easiest and hardest conditions, suggesting that both fatigue and motivational regulation shaped outcomes. Together, these findings demonstrate that sLE is associated with increased subjective fatigue and fatigue-related sleepiness. They further support the PUI as a promising objective physiological marker of fatigue-related sleepiness associated with sLE, complementing subjective and behavioral assessments.",
+      "ai_analysis": {
+        "scientific_question": "研究持续聆听努力（sLE）是否会导致可测量的疲劳和困倦相关生理变化，以及瞳孔不稳定指数（PUI）是否能作为这些过程的客观标记。",
+        "key_highlight": "PUI在大多数参与者的测试后显著升高，且在最难聆听听音条件下增幅最大，同时主观疲劳评分也随会话进行而增加。",
+        "main_limitation": "样本仅有20名听力正常的年轻人，且实验任务可能无法完全代表真实世界中的持续聆听场景。",
+        "research_implication": "为助听器或人工耳蜗用户在困难聆听条件下的疲劳监测和干预策略提供了基于PUI的客观评估方法参考。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "c923faae752763d6",
+        "updated_at": "2026-05-30T05:59:48Z"
+      },
       "first_author_affiliation": "Universität Oldenburg and Cluster of Excellence Hearing4all",
       "last_author_affiliation": "Universität Oldenburg and Cluster of Excellence Hearing4all",
       "open_access": true,
@@ -7641,19 +7683,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-04-27",
-      "first_seen_at": "2026-05-13T14:35:06Z",
-      "ai_analysis": {
-        "scientific_question": "研究持续聆听努力（sLE）是否会导致可测量的疲劳和困倦相关生理变化，以及瞳孔不稳定指数（PUI）是否能作为这些过程的客观标记。",
-        "key_highlight": "PUI在大多数参与者的测试后显著升高，且在最难聆听听音条件下增幅最大，同时主观疲劳评分也随会话进行而增加。",
-        "main_limitation": "样本仅有20名听力正常的年轻人，且实验任务可能无法完全代表真实世界中的持续聆听场景。",
-        "research_implication": "为助听器或人工耳蜗用户在困难聆听条件下的疲劳监测和干预策略提供了基于PUI的客观评估方法参考。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "c923faae752763d6",
-        "updated_at": "2026-05-30T05:59:48Z"
-      }
+      "first_seen_at": "2026-05-13T14:35:06Z"
     },
     {
       "title": "Underwater Doppler-bearing pulse source tracking based on an outlier-tolerant variational Bayesian adaptive Kalman filter",
@@ -7673,16 +7703,16 @@
       "full_text_url": "https://pubs.aip.org/jasa/article/159/4/3686/3387985/Underwater-Doppler-bearing-pulse-source-tracking",
       "abstract": "Tracking underwater non-cooperative targets with Doppler-bearing target motion analysis relies on pulse signal parameters estimated via sonar arrays. However, successfully implementing a Kalman filter for this purpose requires key parameters, including the noise covariance matrices, which cannot be known a priori in practical scenarios. A more critical challenge is that uncertainties in the marine environment and target-array geometry corrupt the parameter estimates with measurement outliers. Existing nonlinear variational Bayesian (VB) filters are not robust to this issue, as their fundamental reliance on Gaussian models and deterministic sampling degrades their convergence rate and tracking accuracy. For high-precision tracking under these conditions, this paper proposes an outlier-tolerant nonlinear VB adaptive Kalman filter that utilizes a hierarchical inverse-Wishart-gamma mixture distribution model to robustly identify outliers and more accurately approximate the measurement noise covariance matrix, while also employing the adaptive high-order cubature sampling method to improve the estimation accuracy of the expectation. The validity of this combined method is verified via rigorous numerical simulations and sea trials. Simulation results highlight the performance superiority of the proposed filter over traditional approaches utilizing inverse Wishart noise modeling and deterministic integral sampling. Furthermore, superior performance on sea trial data confirmed the filter's effectiveness and robustness.",
       "ai_analysis": {
-        "scientific_question": "如何在海洋环境噪声和测量异常值干扰下实现水下非合作目标的精确多普勒-方位跟踪",
-        "key_highlight": "提出一种基于逆Wishart-伽马混合分布模型的异常值容忍变分贝叶斯自适应卡尔曼滤波器",
+        "scientific_question": "如何在海洋环境不确定性和测量异常值影响下实现水下非合作目标的高精度多普勒-方位目标运动分析跟踪",
+        "key_highlight": "提出了一种基于层次化逆Wishart-gamma混合分布模型的自适应Kalman滤波器，通过鲁棒异常值识别和高阶容积采样改进估计精度",
         "main_limitation": "Limited generalizability due to small or specific sample",
-        "methodology_steps": "层次化逆Wishart-伽马混合分布建模; 自适应高阶球面卡尔曼采样; 数值仿真与海试验证; 与传统逆Wishart噪声模型对比",
         "research_implication": "General research findings",
         "provider": "minimax",
         "model": "MiniMax-M2.7",
         "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "894490224d39d77a",
-        "updated_at": "2026-05-11T06:23:22Z"
+        "updated_at": "2026-05-31T06:37:55Z"
       },
       "first_author_affiliation": "Key Laboratory of Underwater Acoustic Signal Processing (Southeast University), Ministry of Education , Nanjing, 210096,",
       "last_author_affiliation": "Key Laboratory of Underwater Acoustic Signal Processing (Southeast University), Ministry of Education , Nanjing, 210096,",
@@ -7712,16 +7742,16 @@
       "full_text_url": "https://pubs.aip.org/jasa/article/159/4/3611/3387942/Broadband-noise-reduction-under-grazing-flow-via",
       "abstract": "Achieving stable broadband noise reduction under grazing flow using a structurally simple configuration remains a challenge. To address this issue, a broadband noise control design based on the coupling of interference and resonance mechanisms is proposed. In this study, side branch ducts generate destructive interference, whereas internally extended neck resonators provide resonant damping. The acoustic behavior of the structure was elucidated through analysis of the flow field and phase distribution using the k-ε turbulence model and the linearized Navier–Stokes equations. An analytical model formulated using the transfer matrix method was developed and validated against numerical simulations and experimental measurements conducted in a custom-designed grazing flow duct facility. The results demonstrate that the broadband performance originates from the interaction between interference and resonance effects. Specifically, the side-branch ducts generate stable broadband destructive interference that remains robust under grazing flow, whereas the extended-neck resonators introduce resonant dissipation at discrete frequencies. Notably, at a grazing flow velocity of 60 m/s and a sound pressure level of 140 dB, noise reduction is maintained over the frequency range of 700–2000 Hz. The proposed strategy therefore provides a practical design framework for broadband flow-noise control, with potential for implementation in complex duct systems.",
       "ai_analysis": {
-        "scientific_question": "如何通过耦合干涉与共振机制实现 grazing flow 条件下的稳定宽带噪声控制",
-        "key_highlight": "侧支管道与扩展颈谐振器的耦合设计在60 m/s流速和140 dB声压级下仍能在700-2000 Hz频段内保持有效的宽带降噪效果",
-        "main_limitation": "Limited generalizability due to small or specific sample",
-        "methodology_steps": "耦合干涉与共振结构设计; k-ε湍流模型与线性化Navier-Stokes方程分析; 传递矩阵法解析模型构建; 数值仿真与实验验证",
-        "research_implication": "General research findings",
+        "scientific_question": "如何利用结构简单的配置在grazing流条件下实现稳定的宽频带噪声 reduction",
+        "key_highlight": "耦合旁支管道相消干涉与延伸颈谐振器共振阻尼机制，可在60 m/s流速和140 dB声压级条件下于700–2000 Hz频率范围实现稳定宽频带降噪",
+        "main_limitation": "实验验证在定制化实验室管道装置中进行，实际复杂管道系统中的普适性有待验证",
+        "research_implication": "为管道系统宽带流动噪声控制提供实用设计框架，对Hearing Protection领域噪声控制技术具有潜在参考价值",
         "provider": "minimax",
         "model": "MiniMax-M2.7",
         "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "bfaa0cec40f4e132",
-        "updated_at": "2026-05-11T06:23:57Z"
+        "updated_at": "2026-05-31T06:37:59Z"
       },
       "first_author_affiliation": "College of Mechanical and Vehicle Engineering, Chongqing University 1 , Chongqing 400044,",
       "last_author_affiliation": "College of Mechanical and Vehicle Engineering, Chongqing University 1 , Chongqing 400044,",
@@ -7747,16 +7777,16 @@
       "full_text_url": "https://pubs.aip.org/jasa/article/159/4/3656/3387921/Noise-The-unseen-impact-of-deep-sea-mining-on",
       "abstract": "Deep-sea mining (DSM) introduces persistent industrial noise and other anthropogenic pressures into an undisturbed environment. Yet, there are few data on potential impacts of DSM on deep-sea fishes and invertebrates. In particular, noise from DSM in the deep-sea environment can be persistent, intense, and potentially range over wide areas both in the water column and in the substrate. Since all deep-sea fishes, and many invertebrates, use the particle motion component of sound for sensing their environment and for communications, DSM noise potentially disrupts behaviors. Moreover, these taxa, unlike marine mammals, cannot move away quickly from disturbances. Thus, DSM activities, including seafloor collectors, riser pumps, and surface vessels, all of which generate continuous broadband sound across a large region, potentially disrupt communication, foraging, and behavior in the stable abyssal soundscape. As fishes and invertebrates are integral parts of the marine ecosystem and are far more numerous in terms of individuals and species compared to marine mammals, they must be integrated into DSM planning and in any proposed biologically grounded risk framework. However, to do this, it is critical to fill major data gaps in understanding of hearing, behavior, and exposure pathways for at least a select group of these species.",
       "ai_analysis": {
-        "scientific_question": "深海底采矿产生的持续性工业噪声对深海鱼类和无脊椎动物的通讯、觅食及行为可能产生何种影响？",
-        "key_highlight": "深海底采矿的持续性宽频噪声可能通过干扰依赖粒子运动感知的深海生物，对广泛区域的通讯和生态行为造成干扰。",
-        "main_limitation": "缺乏深海生物听觉能力、行为反应及暴露途径的实证数据，研究结论基于有限的现有知识推断。",
-        "methodology_steps": "梳理现有深海生物声学数据；评估物种粒子运动感知能力；分析噪声暴露途径；提出风险评估框架需求",
-        "research_implication": "该综述强调需要建立基于生物学的深海采矿风险评估框架，为海洋生态保护和声学生态学研究提供基础参考。",
+        "scientific_question": "深海采矿噪声对深海鱼类和无脊椎动物的潜在影响是什么？",
+        "key_highlight": "该综述指出深海鱼类和无脊椎动物在深海采矿活动中面临行为和通讯干扰风险，但目前关于其听觉和暴露途径的数据严重不足。",
+        "main_limitation": "现有数据有限，缺乏关于深海物种听觉敏感度、行为反应和噪声暴露途径的实证研究。",
+        "research_implication": "该研究呼吁建立基于生物学的深海采矿风险评估框架，强调需要填补深海物种声学感知的知识空白，以制定环境保护政策。",
         "provider": "minimax",
         "model": "MiniMax-M2.7",
         "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "8c73d22c0f125d5e",
-        "updated_at": "2026-05-11T06:24:18Z"
+        "updated_at": "2026-05-31T06:38:11Z"
       },
       "first_author_affiliation": "Department of Biology, University of Maryland 1 , College Park, Maryland 20742,",
       "last_author_affiliation": "DHI A/S • Biodiversity and Ecology Team 2 , Hørsholm 2970,",
@@ -7792,7 +7822,19 @@
       "tags": [],
       "source": "crossref",
       "available_online_date": "2026-04-24",
-      "first_seen_at": "2026-05-13T14:35:06Z"
+      "first_seen_at": "2026-05-13T14:35:06Z",
+      "ai_analysis": {
+        "scientific_question": "如何计算随机激励下有限结构表面辐射声功率的非负声强（NN）分布",
+        "key_highlight": "提出了两种新方法来处理随机激励下有限辐射结构的非负声强计算问题，分别是基于波数空间的解析方法和基于确定性壁面压力场的数值方法",
+        "main_limitation": "验证仅基于与先前数值研究的对比，缺乏实验测量或实际应用场景的验证",
+        "research_implication": "general research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "4382a0d87144e235",
+        "updated_at": "2026-05-31T06:38:16Z"
+      }
     },
     {
       "title": "Spectrum-adaptive physics-informed neural network for rapid ocean acoustic field prediction",
@@ -7809,16 +7851,16 @@
       "full_text_url": "https://pubs.aip.org/jel/article/6/4/040001/3387929/Spectrum-adaptive-physics-informed-neural-network",
       "abstract": "To address the slow convergence of physics-informed neural networks (PINNs) in ocean acoustics, this work proposes a spectrum-adaptive physics-informed neural network (SA-PINN) built on OceanPINN for efficient modeling. SA-PINN estimates effective physical bandwidths from prior data to determine direction-dependent cutoff frequencies for normalized range and depth. This calibrates the sinusoidal representation network's maximum frequency hyperparameters, ensuring the network's spectral capacity aligns with inherent wavefield characteristics for a superior initialization. Compared with standard OceanPINN, SA-PINN achieves state-of-the-art convergence speed, significantly reducing computational costs while enhancing accuracy. Simulations and experimental data rigorously validate its effectiveness.",
       "ai_analysis": {
-        "scientific_question": "如何提高物理信息神经网络在海洋声场预测中的收敛速度",
-        "key_highlight": "SA-PINN通过频谱自适应方法估计有效物理带宽，实现最先进的收敛速度并显著降低计算成本",
-        "main_limitation": "Limited generalizability due to small or specific sample",
-        "methodology_steps": "基于OceanPINN构建SA-PINN框架；从先验数据估计有效物理带宽；确定方向相关截止频率；校准正弦表示网络超参数；与标准OceanPINN比较收敛速度；使用模拟和实验数据验证",
+        "scientific_question": "如何加快物理信息神经网络在海洋声学中的收敛速度以提高计算效率？",
+        "key_highlight": "该方法通过从先验数据中估计有效物理带宽来确定归一化距离和深度的方向相关截止频率，实现了优于标准OceanPINN的收敛速度和计算成本。",
+        "main_limitation": "方法在受控仿真和实验数据中得到验证，但未说明在实际复杂海洋环境条件下的适用性和泛化能力。",
         "research_implication": "General research findings",
         "provider": "minimax",
         "model": "MiniMax-M2.7",
         "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "25f3237094346601",
-        "updated_at": "2026-05-11T06:25:08Z"
+        "updated_at": "2026-05-31T06:38:21Z"
       },
       "first_author_affiliation": "School of Ocean Engineering and Technology, Sun Yat-sen University & Southern Marine Science and Engineering Guangdong Laboratory (Zhuhai) 1 , Zhuhai 519000,",
       "last_author_affiliation": "School of Ocean Engineering and Technology, Sun Yat-sen University & Southern Marine Science and Engineering Guangdong Laboratory (Zhuhai) 1 , Zhuhai 519000,",
@@ -7854,16 +7896,16 @@
       "full_text_url": "https://pubs.aip.org/jasa/article/159/4/3623/3387928/Three-dimensional-tracking-using-one-dimensional",
       "abstract": "Three-dimensional tracking that relies solely on one-dimensional bearing measurements from multiple horizontal linear arrays is particularly challenging in underwater environments. Depth-dependent variations in sound speed cause acoustic rays to bend, leading to deviations in the incident bearing angles. Moreover, the relatively low sound speed in water makes the propagation delay non-negligible, a bearing angle measured at the current time instant typically corresponds to an earlier target state. To address these issues, we formulate a bearing measurement model under an isogradient sound speed profile that jointly accounts for ray bending and propagation delay. Bearing angles measured by multiple arrays at a common time correspond to target states at different emission times, which are coupled with unknown propagation delays through an implicit constraint. To handle this coupling, we propose a centralized particle filter with an iterative procedure to jointly estimate the propagation delay and the target state at the emission time for each array. The resulting emission-time state estimates are then marginalized to obtain the posterior estimate of the target state at the common measurement time. Finally, we derive the posterior Cramér–Rao lower bound to provide a performance benchmark. Simulation studies and sea-trial data demonstrate the effectiveness of the proposed approach.",
       "ai_analysis": {
-        "scientific_question": "如何在水下环境中仅使用多个水平线阵的一维方位测量实现三维目标跟踪",
-        "key_highlight": "提出了一种在等梯度声速剖面下联合处理射线弯曲和传播延迟的方位测量模型，并采用集中式粒子滤波器迭代估计传播延迟和发射时刻目标状态",
-        "main_limitation": "等梯度声速剖面假设可能无法完全描述实际海洋环境中更复杂的声速变化",
-        "methodology_steps": "建立等梯度声速剖面下方位测量模型; 提出集中式粒子滤波器迭代估计目标状态; 对发射时刻状态估计进行边际化处理; 推导后验克拉美尔-罗下界作为性能基准; 通过仿真和海试数据验证方法有效性",
+        "scientific_question": "如何在仅使用多个水平线阵的一维方位测量条件下，通过考虑声速梯度引起的射线弯曲和传播延迟来精确追踪水下三维目标？",
+        "key_highlight": "提出一种集中式粒子滤波器，通过迭代程序联合估计各阵列的传播延迟和发射时刻目标状态，从而有效解决等梯度声速剖面下的射线弯曲和时延耦合问题。",
+        "main_limitation": "方法的有效性主要通过仿真验证，真实海试数据的规模和代表性在摘要中未明确说明，实际复杂环境下的稳健性有待进一步验证。",
         "research_implication": "General research findings",
         "provider": "minimax",
         "model": "MiniMax-M2.7",
         "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "7f5a3353ddd1de36",
-        "updated_at": "2026-05-11T06:25:27Z"
+        "updated_at": "2026-05-31T06:38:27Z"
       },
       "first_author_affiliation": "National Key Laboratory of Underwater Acoustic Technology, Harbin Engineering University 1 , Harbin 150001,",
       "last_author_affiliation": "National Key Laboratory of Underwater Acoustic Technology, Harbin Engineering University 1 , Harbin 150001,",
@@ -7897,16 +7939,16 @@
       "full_text_url": "https://journals.lww.com/10.1097/AUD.0000000000001828",
       "abstract": "Objectives: To assess the association between access challenges, measured by the Access Challenge Index (ACI), and baseline language performance in young children with hearing loss. Children with hearing loss are at increased risk of language delays, which can be influenced by access to specialized care. However, the impact of access challenges on these disparities requires further study to develop targeted interventions. Design: An analysis of two prospective cohort studies’ (NCT04928209) baseline assessments conducted at enrollment. This is a multicenter study, including four tertiary children’s hospitals in California and Washington, with the cohort including 182 children, aged 0 to 27 months, with bilateral hearing loss, from diverse sociodemographic backgrounds. Language performance was measured using the Preschool Language Scales and Receptive-Expressive Emergent Language Scale, with scores analyzed against ACI. Expressive, receptive, and total language outcomes were included for analysis. Results: Of the 182 children who met inclusion criteria, 117 (64.3%) were lower income (defined as below the 266% of the federal poverty level), 85 (46.7%) were assigned female at birth, 99 (54.4%) had public health insurance, 45 (24.7%) identified as non-Hispanic White, and 71 (39.0%) used a language other than English primarily at home. Higher ACI scores were associated with worse total language scores in both PLS (−1.25, 95% confidence interval [CI]: −2.00, −0.50, p = 0.0012) and REEL (−2.31, 95% CI: −3.36, −1.26, p < 0.0001) after inverse probability weighting of the propensity score. Subsequent analysis with ACI subscales indicated Family Support to be a strong predictor of PLS total language outcome (−4.63, 95% CI: −7.48, −1.79, p = 0.0016) and for REEL total language (−9.01, 95% CI: −12.89, −5.12, p ≤ 0.0001). Conclusions: Family support appears to be a key modifiable factor influencing language disparities for children with hearing loss. Targeted interventions to support families may improve language outcomes.",
       "ai_analysis": {
-        "scientific_question": "评估获取专业护理的挑战是否与幼儿听力损失患者的基线语言表现存在关联",
-        "key_highlight": "家庭支持维度在控制获取挑战总分后仍成为语言结局的强预测因子",
-        "main_limitation": "基线横断面分析限制了因果推断的强度，且研究仅覆盖加州和华盛顿州四家中心的幼儿",
-        "methodology_steps": "多中心前瞻性队列招募;基线获取挑战指数测量;PLS和REEL量表语言评估;逆概率加权倾向得分分析;ACI亚维度回归分析",
-        "research_implication": "研究提示针对家庭支持的系统性干预可能是改善听力损失儿童语言发育差距的关键可改变因素",
+        "scientific_question": "评估获取医疗服务的挑战（以访问挑战指数衡量）与听障幼儿基线语言表现之间的关联",
+        "key_highlight": "在控制混杂因素后，家庭支持是预测听障幼儿语言结局的最强因素，家庭支持挑战越大，语言得分越低",
+        "main_limitation": "为横断面基线分析，无法建立因果关系；样本仅来自两州四所三级儿童医院，推广性受限",
+        "research_implication": "研究提示针对家庭支持的干预措施可能改善听障幼儿的语言发展，对临床听力康复服务具有参考价值",
         "provider": "minimax",
         "model": "MiniMax-M2.7",
         "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "3ef4240c39e105f3",
-        "updated_at": "2026-05-11T06:25:55Z"
+        "updated_at": "2026-05-31T06:38:33Z"
       },
       "first_author_affiliation": "Department of Otolaryngology-Head & Neck Surgery, University of California, San Francisco, San Francisco, California, USA",
       "last_author_affiliation": "Department of Otolaryngology-Head & Neck Surgery, University of California, San Francisco, San Francisco, California, USA",
@@ -7940,16 +7982,16 @@
       "full_text_url": "https://pubs.aip.org/jasa/article/159/4/3584/3387730/Complex-upper-ocean-sound-speed-structure-measured",
       "abstract": "The Canada Basin's upper ocean structure is undergoing swift changes with the intrusion of warmer Pacific waters and sea ice loss with profound implications for sound propagation in this region. Two Seagliders measured high-resolution transects of temperature, salinity, and pressure across fronts and eddies, providing estimates of the spatial sound–speed variability in the upper ocean along transmission paths of an acoustic tomography array during the summer months of 2016 and 2017. The spatial analysis highlights the importance of placing the results within the context of the structure of the Beaufort Gyre. The measured profiles are used to quantify the depth-dependent contributions of internal waves, halocline eddies, and spice on sound–speed fluctuations. Results support and complement measurements from a sub-surface distributed vertical line array mooring and extend observations into the mixed layer. In the upper 100 m, spice is found to be the major driver of sound–speed fluctuations with a maximum of 3 m/s rms at 23 m, which corresponds to the bottom of the mixed layer. Fluctuations from the vertical displacement of isopycnals driven by halocline eddies and internal waves have three distinct peaks at 25, 60, and 270 m, with values of 0.73, 0.43, and 0.2 m/s rms respectively.",
       "ai_analysis": {
-        "scientific_question": "加拿大盆地上层海洋声速结构如何随太平洋暖水入侵和海冰消退而变化，其对声传播的影响机制是什么？",
-        "key_highlight": "研究发现上层100米中香料（spice）是声速变化的主要驱动因素，在混合层底部23米处达到3 m/s的最大均方根值。",
-        "main_limitation": "仅基于2016-2017年夏季测量数据，区域仅限于加拿大盆地，季节代表性有限。",
-        "methodology_steps": "两个Seaglider测量温盐压；跨锋面和涡旋的高分辨率横断面；与水下垂直线阵锚系数据对比；深度分层量化内波、涡旋和香料贡献。",
-        "research_implication": "该研究为北极海域水下声传播建模提供实测数据支持，对海洋声学监测和海洋动力学研究具有参考价值。",
+        "scientific_question": "加拿大海域上层海洋的声音速度结构如何随暖太平洋水的侵入和海冰减少而变化，以及其空间变异性主要由哪些物理过程驱动。",
+        "key_highlight": "在上层100米深度范围内，spice（沿等密度面温度盐度变化）是声音速度波动的主导因素，其均方根值在23米深处达到最大值3 m/s。",
+        "main_limitation": "观测仅覆盖2016和2017年夏季月份，且局限于加拿大海域，样本的时空覆盖范围有限。",
+        "research_implication": "该研究属于水下声学海洋学范畴，与助听器、人工耳蜗或言语感知研究无直接关联，仅提供一般性的声传播波动特征研究发现。",
         "provider": "minimax",
         "model": "MiniMax-M2.7",
         "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "87bd2d855f67031f",
-        "updated_at": "2026-05-11T06:26:11Z"
+        "updated_at": "2026-05-31T06:38:41Z"
       },
       "first_author_affiliation": "Graduate School of Oceanography University of Rhode Island 1 , Narragansett, Rhode Island 02882,",
       "last_author_affiliation": "Department Ocean Engineering, University of Rhode Island 3 , Narragansett, Rhode Island 02882,",
@@ -11174,12 +11216,12 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -11191,12 +11233,12 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -15038,8 +15080,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -15053,8 +15095,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -18745,9 +18787,12 @@
       "open_access": true,
       "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12849700/",
       "open_access_source": "pubmed_pmc",
+      "open_access_image_checked_at": "2026-05-30T05:58:34Z",
       "pubmed_full_text_available": true,
       "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12849700/",
       "pubmed_full_text_source": "pmc",
+      "pubmed_full_text_image_checked_at": "2026-05-30T05:58:34Z",
+      "media_checked_at": "2026-05-30T05:58:34Z",
       "section": null,
       "keywords": [
         "Animals",
@@ -18786,10 +18831,7 @@
         "title"
       ],
       "needs_review": false,
-      "first_seen_at": "2026-05-30T05:58:15Z",
-      "media_checked_at": "2026-05-30T05:58:34Z",
-      "pubmed_full_text_image_checked_at": "2026-05-30T05:58:34Z",
-      "open_access_image_checked_at": "2026-05-30T05:58:34Z"
+      "first_seen_at": "2026-05-30T05:58:15Z"
     },
     {
       "title": "Effects of Gap Junctions and Inhibition on the Synchronization Behavior of a Biophysically Detailed Neural Network Model of Bushy Cells",
@@ -18916,6 +18958,7 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0042222",
       "url": "https://doi.org/10.1121/10.0042222",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/1/647/3378001/Are-individual-differences-in-lexical-and",
       "abstract": "Individuals vary in their tendency to be biased by lexical and coarticulatory information during speech perception, though the sources of these differences remain debated. One suggestion is that lexical and coarticulatory bias trade-off with each other due to differences in processing style. This study explores the nature of this individual variation through three speech sound categorization tasks: one where both lexical and coarticulatory biases are present simultaneously for the /s-ʃ/ sibilants, a replication of Lai, Wade, and Tamminga [(2022) Linguist. Vanguard 8, 29–39]; the second where only lexical bias is present for /ɛ/-/ɪ/ vowels; and finally /d/-/g/ stops following /r/ or /l/ coarticulatory biasing contexts. Across 89 native Canadian English listeners, we replicated the within-task trade-off between lexical and coarticulatory effects (r = −0.19), weaker but consistent with Lai, Wade, and Tamminga [(2022) Linguist. Vanguard 8, 29–39]. There was no evidence for a trade-off across tasks; a joint Bayesian model that estimated individual-level correlations across tasks showed that lexical and coarticulatory effects were not credibly related. Participants' consistency in categorizing the acoustic continuum (effect of continuum step) was consistent across tasks. Overall, the findings suggest that while trade-off patterns can be replicated within specific tasks, they are not robust across tasks, indicating possible task-specific effects or contrast-specific perceptual strategies.",
       "first_author_affiliation": "Department of Linguistics, McGill University 1 , Montreal, Québec H3A 1A7,",
       "last_author_affiliation": "Department of Linguistics, McGill University 1 , Montreal, Québec H3A 1A7,",
@@ -18923,6 +18966,8 @@
       "open_access_url": "https://doi.org/10.1121/10.0042222",
       "open_access_source": "crossref_license",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-05-30T05:58:36Z",
+      "media_checked_at": "2026-05-30T05:58:36Z",
       "section": "Speech Communication",
       "keywords": [],
       "tags": [
@@ -18931,10 +18976,7 @@
       ],
       "source": "crossref",
       "available_online_date": "2026-01-23",
-      "first_seen_at": "2026-05-30T05:57:48Z",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/1/647/3378001/Are-individual-differences-in-lexical-and",
-      "media_checked_at": "2026-05-30T05:58:36Z",
-      "open_access_image_checked_at": "2026-05-30T05:58:36Z"
+      "first_seen_at": "2026-05-30T05:57:48Z"
     },
     {
       "title": "A model of the reference frame of the ventriloquism aftereffect and saccade adaptation",
@@ -18947,6 +18989,7 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0042261",
       "url": "https://doi.org/10.1121/10.0042261",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/1/014403/3377869/A-model-of-the-reference-frame-of-the",
       "abstract": "Lokša and Kopco [Trends Hearing. 27, 23312165231201020 (2023)] introduced a model of the reference frame of the ventriloquism aftereffect (RFoVAE) that described many but not all available RFoVAE data by assuming that the auditory spatial map, natively using the head-centered RF, is adapted by visual signals in both eye-centered and head-centered RFs. Here, the model is extended primarily by considering that, when saccade-to-sound responses are used to measure ventriloquism, the saccades also undergo an adaptation. The extended model can explain all available data, suggesting that the RFoVAE is largely head-centered, while saccadic adaptation, which is nominally eye-centered, accounts for the mixed RF observed experimentally.",
       "first_author_affiliation": "Institute of Computer Science, Safarik University , Košice 04001,",
       "last_author_affiliation": "Institute of Computer Science, Safarik University , Košice 04001,",
@@ -18954,6 +18997,8 @@
       "open_access_url": "https://doi.org/10.1121/10.0042261",
       "open_access_source": "crossref_license",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-05-30T05:58:36Z",
+      "media_checked_at": "2026-05-30T05:58:36Z",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [],
       "tags": [
@@ -18961,10 +19006,7 @@
       ],
       "source": "crossref",
       "available_online_date": "2026-01-22",
-      "first_seen_at": "2026-05-30T05:57:49Z",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/1/014403/3377869/A-model-of-the-reference-frame-of-the",
-      "media_checked_at": "2026-05-30T05:58:36Z",
-      "open_access_image_checked_at": "2026-05-30T05:58:36Z"
+      "first_seen_at": "2026-05-30T05:57:49Z"
     },
     {
       "title": "Differences in Intracochlear Electrocochleography Signal Characteristics of Meniere’s Disease, Noise-Induced Hearing Loss, and Sudden Sensorineural Hearing Loss",
