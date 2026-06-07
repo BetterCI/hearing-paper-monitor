@@ -9,6 +9,9 @@ from paper_monitor.classifier import classify
 from paper_monitor.config import load_config
 from paper_monitor.sources import (
     dedupe_high_impact_papers,
+    dedupe_topic_filtered_papers,
+    fetch_arxiv_preprints,
+    fetch_arxiv_preprints_between,
     fetch_crossref,
     fetch_crossref_between,
     fetch_high_impact_crossref,
@@ -18,6 +21,10 @@ from paper_monitor.sources import (
     fetch_pubmed,
     fetch_pubmed_between,
     fetch_rss,
+    fetch_topic_filtered_crossref,
+    fetch_topic_filtered_crossref_between,
+    fetch_topic_filtered_pubmed,
+    fetch_topic_filtered_pubmed_between,
     fetch_toc,
     merge_dedupe,
 )
@@ -67,6 +74,22 @@ def main() -> None:
         total += changed
         print(f"High-impact Journals: {changed} records")
 
+    if config.topic_filtered_journals:
+        groups = [
+            _safe_fetch("Crossref", "Topic-filtered Journals", lambda: fetch_topic_filtered_crossref(config, args.days)),
+            _safe_fetch("PubMed", "Topic-filtered Journals", lambda: fetch_topic_filtered_pubmed(config, args.days)),
+        ]
+        papers = dedupe_topic_filtered_papers([paper for paper in merge_dedupe(groups) if paper.title])
+        changed = upsert_papers(conn, papers)
+        total += changed
+        print(f"Topic-filtered Journals: {changed} records")
+
+    if config.arxiv_preprints.get("enabled", False):
+        papers = _safe_fetch("arXiv", "Preprints", lambda: fetch_arxiv_preprints(config, args.days))
+        changed = upsert_papers(conn, papers)
+        total += changed
+        print(f"Preprints (arXiv): {changed} records")
+
     backfill_window = _backfill_window(args.backfill_state, args.days)
     if backfill_window:
         start_date, end_date = backfill_window
@@ -98,6 +121,28 @@ def main() -> None:
             changed = upsert_papers(conn, papers)
             total += changed
             print(f"High-impact Journals backfill: {changed} records")
+
+        if config.topic_filtered_journals:
+            fetches = [
+                _safe_fetch_with_status("Crossref backfill", "Topic-filtered Journals", lambda: fetch_topic_filtered_crossref_between(config, start_date, end_date)),
+                _safe_fetch_with_status("PubMed backfill", "Topic-filtered Journals", lambda: fetch_topic_filtered_pubmed_between(config, start_date, end_date)),
+            ]
+            backfill_complete = backfill_complete and all(ok for _, ok in fetches)
+            groups = [papers for papers, _ in fetches]
+            papers = dedupe_topic_filtered_papers([paper for paper in merge_dedupe(groups) if paper.title])
+            changed = upsert_papers(conn, papers)
+            total += changed
+            print(f"Topic-filtered Journals backfill: {changed} records")
+
+        if config.arxiv_preprints.get("enabled", False):
+            fetches = [
+                _safe_fetch_with_status("arXiv backfill", "Preprints", lambda: fetch_arxiv_preprints_between(config, start_date, end_date)),
+            ]
+            backfill_complete = backfill_complete and all(ok for _, ok in fetches)
+            papers = [paper for papers, _ in fetches for paper in papers]
+            changed = upsert_papers(conn, papers)
+            total += changed
+            print(f"Preprints (arXiv) backfill: {changed} records")
 
         if backfill_complete:
             _save_backfill_state(args.backfill_state, start_date, end_date)

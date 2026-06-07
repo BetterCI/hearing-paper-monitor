@@ -47,6 +47,11 @@ ONLINE_ONLY_JOURNALS = {
 
 HIGH_IMPACT_SOURCE_GROUP = "high_impact"
 HIGH_IMPACT_SOURCE_LABEL = "High-impact Journals"
+TOPIC_FILTERED_SOURCE_GROUP = "topic_filtered"
+TOPIC_FILTERED_SOURCE_LABEL = "Topic-filtered Journals"
+PREPRINT_SOURCE_GROUP = "preprint_filtered"
+PREPRINT_SOURCE_LABEL = "Preprints (arXiv)"
+ARXIV_API_URL = "https://export.arxiv.org/api/query"
 
 LEVEL_1_DIRECT_KEYWORDS = (
     "cochlear implant",
@@ -101,6 +106,27 @@ LEVEL_3_AUDITORY_NEUROSCIENCE_KEYWORDS = (
     "neural coding of sound",
     "speech recognition",
     "speech intelligibility",
+)
+
+TOPIC_FILTERED_KEYWORDS = (
+    "hearing aid",
+    "hearing aids",
+    "hearing-aid",
+    "hearing-aids",
+    "cochlear implant",
+    "cochlear implants",
+    "cochlear implantation",
+    "cochlear implant users",
+    "cochlear implant recipients",
+    "hearing loss",
+    "hearing impairment",
+    "hearing impaired",
+    "sensorineural hearing loss",
+    "age-related hearing loss",
+    "speech perception",
+    "speech intelligibility",
+    "speech-in-noise",
+    "speech in noise",
 )
 
 HIGH_IMPACT_JOURNAL_ALIASES = {
@@ -287,6 +313,83 @@ def fetch_high_impact_pubmed_between(config: MonitorConfig, start_date: dt.date,
     return papers
 
 
+def fetch_topic_filtered_crossref(config: MonitorConfig, days: int) -> list[Paper]:
+    end_date = dt.date.today()
+    start_date = end_date - dt.timedelta(days=days)
+    return fetch_topic_filtered_crossref_between(config, start_date, end_date)
+
+
+def fetch_topic_filtered_crossref_between(config: MonitorConfig, start_date: dt.date, end_date: dt.date) -> list[Paper]:
+    papers: list[Paper] = []
+
+    for journal in config.topic_filtered_journals:
+        for paper in fetch_crossref_between(journal, start_date, end_date):
+            filtered = _topic_filtered_paper(paper, journal.name)
+            if filtered:
+                papers.append(filtered)
+
+    return papers
+
+
+def fetch_topic_filtered_pubmed(config: MonitorConfig, days: int) -> list[Paper]:
+    end_date = dt.date.today()
+    start_date = end_date - dt.timedelta(days=days)
+    return fetch_topic_filtered_pubmed_between(config, start_date, end_date)
+
+
+def fetch_topic_filtered_pubmed_between(config: MonitorConfig, start_date: dt.date, end_date: dt.date) -> list[Paper]:
+    papers: list[Paper] = []
+
+    for journal in config.topic_filtered_journals:
+        for paper in fetch_pubmed_between(journal, start_date, end_date):
+            filtered = _topic_filtered_paper(paper, journal.name)
+            if filtered:
+                papers.append(filtered)
+
+    return papers
+
+
+def fetch_arxiv_preprints(config: MonitorConfig, days: int) -> list[Paper]:
+    settings = config.arxiv_preprints or {}
+    lookback_days = max(days, int(settings.get("lookback_days") or 0))
+    end_date = dt.date.today()
+    start_date = end_date - dt.timedelta(days=lookback_days)
+    return fetch_arxiv_preprints_between(config, start_date, end_date)
+
+
+def fetch_arxiv_preprints_between(config: MonitorConfig, start_date: dt.date, end_date: dt.date) -> list[Paper]:
+    settings = config.arxiv_preprints or {}
+    if not settings.get("enabled", False):
+        return []
+
+    queries = [str(query).strip() for query in settings.get("queries", []) if str(query).strip()]
+    categories = [str(category).strip() for category in settings.get("categories", []) if str(category).strip()]
+    max_results = int(settings.get("max_results_per_query") or 25)
+    if not queries:
+        return []
+
+    papers: list[Paper] = []
+    for query in queries:
+        search_query = _arxiv_search_query(query, categories)
+        params = {
+            "search_query": search_query,
+            "sortBy": "submittedDate",
+            "sortOrder": "descending",
+            "start": "0",
+            "max_results": str(max_results),
+        }
+        response = SESSION.get(f"{ARXIV_API_URL}?{urlencode(params)}", timeout=30)
+        response.raise_for_status()
+        feed = feedparser.parse(response.text)
+        for entry in feed.entries:
+            paper = _paper_from_arxiv_entry(entry, start_date, end_date)
+            if paper:
+                papers.append(paper)
+        time.sleep(0.3)
+
+    return dedupe_topic_filtered_papers(papers)
+
+
 def fetch_rss(journal: Journal) -> list[Paper]:
     papers: list[Paper] = []
     for url in journal.rss:
@@ -418,6 +521,26 @@ def high_impact_match(
     return None
 
 
+def topic_filtered_match(
+    title: str,
+    abstract: str | None = None,
+    keywords: list[str] | None = None,
+    subjects: list[str] | None = None,
+    mesh: list[str] | None = None,
+) -> dict | None:
+    fields = {
+        "title": [title],
+        "abstract": [abstract] if abstract else [],
+        "keywords": keywords or [],
+        "subjects": subjects or [],
+        "mesh": mesh or [],
+    }
+    matches = _matched_terms(fields, TOPIC_FILTERED_KEYWORDS)
+    if not matches:
+        return None
+    return _match_result("topic_filtered_hearing_speech", matches, needs_review=False)
+
+
 def dedupe_high_impact_papers(papers: list[Paper]) -> list[Paper]:
     merged: dict[str, Paper] = {}
     for paper in papers:
@@ -425,6 +548,10 @@ def dedupe_high_impact_papers(papers: list[Paper]) -> list[Paper]:
         if key not in merged:
             merged[key] = paper
     return list(merged.values())
+
+
+def dedupe_topic_filtered_papers(papers: list[Paper]) -> list[Paper]:
+    return dedupe_high_impact_papers(papers)
 
 
 def _paper_from_crossref(item: dict, journal: Journal) -> Paper | None:
@@ -542,6 +669,69 @@ def _paper_from_pubmed(article: ET.Element, journal: Journal) -> Paper:
         source="pubmed",
         available_online_date=_pubmed_article_date(article),
     )
+
+
+def _topic_filtered_paper(paper: Paper, configured_journal_name: str) -> Paper | None:
+    actual_journal = normalize_journal_name(paper.journal or configured_journal_name)
+    match = topic_filtered_match(
+        title=paper.title,
+        abstract=paper.abstract,
+        keywords=paper.keywords,
+        subjects=paper.keywords,
+    )
+    if not match:
+        return None
+
+    paper.journal = actual_journal
+    paper.source_group = TOPIC_FILTERED_SOURCE_GROUP
+    paper.source_group_label = TOPIC_FILTERED_SOURCE_LABEL
+    paper.actual_journal = actual_journal
+    paper.match_level = match["match_level"]
+    paper.matched_keywords = match["matched_keywords"]
+    paper.match_fields = match["match_fields"]
+    paper.needs_review = match["needs_review"]
+    return paper
+
+
+def _paper_from_arxiv_entry(entry, start_date: dt.date, end_date: dt.date) -> Paper | None:
+    title = _clean(getattr(entry, "title", ""))
+    abstract = _clean(getattr(entry, "summary", "")) or None
+    if not title:
+        return None
+
+    published = _arxiv_entry_date(getattr(entry, "published", ""))
+    if not published or published < start_date or published > end_date:
+        return None
+
+    categories = _arxiv_categories(entry)
+    match = topic_filtered_match(title=title, abstract=abstract, keywords=categories, subjects=categories)
+    if not match:
+        return None
+
+    arxiv_id = _arxiv_id(getattr(entry, "id", "") or getattr(entry, "link", ""))
+    url = _arxiv_abs_url(arxiv_id) if arxiv_id else getattr(entry, "link", "")
+    paper = Paper(
+        title=title,
+        authors=_arxiv_authors(entry),
+        journal="arXiv",
+        publication_date=published.isoformat(),
+        publication_date_precision="day",
+        doi=None,
+        url=url,
+        abstract=abstract,
+        publication_stage="preprint",
+        keywords=categories,
+        source="arxiv",
+        available_online_date=published.isoformat(),
+        source_group=PREPRINT_SOURCE_GROUP,
+        source_group_label=PREPRINT_SOURCE_LABEL,
+        actual_journal="arXiv",
+        match_level=match["match_level"],
+        matched_keywords=match["matched_keywords"],
+        match_fields=match["match_fields"],
+        needs_review=True,
+    )
+    return paper
 
 
 def _high_impact_paper_from_pubmed(article: ET.Element, actual_journal: str) -> Paper | None:
@@ -928,6 +1118,56 @@ def _clean(value: str) -> str:
 def _extract_doi(value: str) -> str | None:
     match = re.search(r"10\.\d{4,9}/[-._;()/:A-Za-z0-9]+", value or "")
     return normalize_doi(match.group(0)) if match else None
+
+
+def _arxiv_search_query(query: str, categories: list[str]) -> str:
+    phrase = f'all:"{query}"'
+    if not categories:
+        return phrase
+    category_query = " OR ".join(f"cat:{category}" for category in categories)
+    return f"({category_query}) AND {phrase}"
+
+
+def _arxiv_entry_date(value: str) -> dt.date | None:
+    if not value:
+        return None
+    try:
+        return dt.datetime.fromisoformat(value.replace("Z", "+00:00")).date()
+    except ValueError:
+        try:
+            return parsedate_to_datetime(value).date()
+        except (TypeError, ValueError):
+            return None
+
+
+def _arxiv_authors(entry) -> list[str]:
+    authors = getattr(entry, "authors", []) or []
+    names = []
+    for author in authors:
+        name = author.get("name") if isinstance(author, dict) else getattr(author, "name", "")
+        if name:
+            names.append(_clean(name))
+    return names
+
+
+def _arxiv_categories(entry) -> list[str]:
+    categories = []
+    for tag in getattr(entry, "tags", []) or []:
+        term = tag.get("term") if isinstance(tag, dict) else getattr(tag, "term", "")
+        if term:
+            categories.append(_clean(term))
+    return sorted(set(categories))
+
+
+def _arxiv_id(value: str) -> str | None:
+    match = re.search(r"arxiv\.org/(?:abs|pdf)/([^?#]+)", value or "", re.IGNORECASE)
+    if not match:
+        return None
+    return match.group(1).removesuffix(".pdf")
+
+
+def _arxiv_abs_url(arxiv_id: str) -> str:
+    return f"https://arxiv.org/abs/{arxiv_id}"
 
 
 def _official_url(url: str, doi: str | None) -> str:

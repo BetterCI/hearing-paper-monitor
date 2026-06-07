@@ -2,7 +2,7 @@ from pathlib import Path
 
 from scripts.paper_monitor.config import load_config
 from scripts.paper_monitor.models import Paper
-from scripts.paper_monitor.sources import dedupe_high_impact_papers, high_impact_match
+from scripts.paper_monitor.sources import dedupe_high_impact_papers, high_impact_match, topic_filtered_match
 from scripts.paper_monitor.storage import all_papers, connect, upsert_papers
 
 
@@ -17,6 +17,23 @@ def test_existing_six_journal_keys_remain_unchanged():
         "ear-hearing",
         "hearing-research",
     ]
+
+
+def test_topic_filtered_journals_are_separate_from_core_six():
+    config = load_config(Path("config/journals.yml"))
+
+    assert [journal.key for journal in config.topic_filtered_journals] == [
+        "ieee-taslp",
+        "speech-communication",
+    ]
+
+
+def test_arxiv_preprints_are_enabled_with_strict_queries():
+    config = load_config(Path("config/journals.yml"))
+
+    assert config.arxiv_preprints["enabled"] is True
+    assert "speech recognition" not in config.arxiv_preprints["queries"]
+    assert "cochlear implant" in config.arxiv_preprints["queries"]
 
 
 def test_high_impact_level_1_direct_title_match():
@@ -62,6 +79,23 @@ def test_high_impact_speech_perception_is_level_2():
         "match_fields": ["title"],
         "needs_review": False,
     }
+
+
+def test_topic_filtered_match_keeps_requested_hearing_and_speech_topics():
+    match = topic_filtered_match(title="Speech perception with cochlear implants in noise")
+
+    assert match == {
+        "match_level": "topic_filtered_hearing_speech",
+        "matched_keywords": ["cochlear implant", "cochlear implants", "speech perception"],
+        "match_fields": ["title"],
+        "needs_review": False,
+    }
+
+
+def test_topic_filtered_match_rejects_general_asr_paper():
+    match = topic_filtered_match(title="A transformer model for automatic speech recognition")
+
+    assert match is None
 
 
 def test_high_impact_duplicate_doi_keeps_original_journal_entry(tmp_path):

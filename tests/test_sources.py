@@ -1,7 +1,16 @@
 import xml.etree.ElementTree as ET
+import datetime as dt
+
+import feedparser
 
 from scripts.paper_monitor.config import Journal
-from scripts.paper_monitor.sources import _crossref_open_access_metadata, _crossref_publication_stage, _paper_from_crossref, _paper_from_pubmed
+from scripts.paper_monitor.sources import (
+    _crossref_open_access_metadata,
+    _crossref_publication_stage,
+    _paper_from_arxiv_entry,
+    _paper_from_crossref,
+    _paper_from_pubmed,
+)
 
 
 def test_crossref_online_first_without_issue_assignment_is_early_access():
@@ -166,3 +175,72 @@ def test_numeric_pubmed_pmc_id_is_normalized_for_full_text_url():
     paper = _paper_from_pubmed(article, journal)
 
     assert paper.pubmed_full_text_url == "https://pmc.ncbi.nlm.nih.gov/articles/PMC1234567/"
+
+
+def test_arxiv_entry_matching_requested_topic_becomes_review_preprint():
+    feed = feedparser.parse(
+        """
+        <feed xmlns="http://www.w3.org/2005/Atom">
+          <entry>
+            <id>http://arxiv.org/abs/2606.01234v1</id>
+            <published>2026-06-06T00:00:00Z</published>
+            <title>Speech perception with cochlear implants in noisy rooms</title>
+            <summary>We study speech perception outcomes for cochlear implant listeners.</summary>
+            <author><name>A. Author</name></author>
+            <category term="cs.SD" />
+          </entry>
+        </feed>
+        """
+    )
+
+    paper = _paper_from_arxiv_entry(feed.entries[0], dt.date(2026, 6, 1), dt.date(2026, 6, 7))
+
+    assert paper is not None
+    assert paper.journal == "arXiv"
+    assert paper.url == "https://arxiv.org/abs/2606.01234v1"
+    assert paper.publication_stage == "preprint"
+    assert paper.source_group == "preprint_filtered"
+    assert paper.needs_review is True
+    assert paper.matched_keywords == ["cochlear implant", "cochlear implants", "speech perception"]
+
+
+def test_arxiv_entry_rejects_general_speech_recognition_preprint():
+    feed = feedparser.parse(
+        """
+        <feed xmlns="http://www.w3.org/2005/Atom">
+          <entry>
+            <id>http://arxiv.org/abs/2606.01235v1</id>
+            <published>2026-06-06T00:00:00Z</published>
+            <title>A transformer model for automatic speech recognition</title>
+            <summary>We improve ASR benchmarks.</summary>
+            <author><name>A. Author</name></author>
+            <category term="cs.SD" />
+          </entry>
+        </feed>
+        """
+    )
+
+    paper = _paper_from_arxiv_entry(feed.entries[0], dt.date(2026, 6, 1), dt.date(2026, 6, 7))
+
+    assert paper is None
+
+
+def test_arxiv_entry_outside_date_window_is_ignored():
+    feed = feedparser.parse(
+        """
+        <feed xmlns="http://www.w3.org/2005/Atom">
+          <entry>
+            <id>http://arxiv.org/abs/2605.01234v1</id>
+            <published>2026-05-01T00:00:00Z</published>
+            <title>Hearing loss and speech perception</title>
+            <summary>Relevant but too old for this window.</summary>
+            <author><name>A. Author</name></author>
+            <category term="cs.SD" />
+          </entry>
+        </feed>
+        """
+    )
+
+    paper = _paper_from_arxiv_entry(feed.entries[0], dt.date(2026, 6, 1), dt.date(2026, 6, 7))
+
+    assert paper is None

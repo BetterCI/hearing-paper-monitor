@@ -120,6 +120,64 @@ high_impact_journals:
   - BMJ
   - BMJ Medicine
 
+topic_filtered_journals:
+  - key: ieee-taslp
+    name: IEEE Transactions on Audio, Speech and Language Processing
+    aliases:
+      - IEEE Transactions on Audio, Speech and Language Processing
+      - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+      - IEEE Trans Audio Speech Lang Process
+      - IEEE ACM Trans Audio Speech Lang Process
+    issn:
+      - 2998-4173
+      - 2329-9290
+      - 2329-9304
+      - 1558-7916
+      - 1558-7924
+    crossref: true
+    pubmed: false
+    rss: []
+    toc: []
+
+  - key: speech-communication
+    name: Speech Communication
+    aliases:
+      - Speech Communication
+      - Speech Commun
+    issn:
+      - 0167-6393
+      - 1872-7182
+    crossref: true
+    pubmed: true
+    rss: []
+    toc: []
+
+arxiv_preprints:
+  enabled: true
+  lookback_days: 14
+  max_results_per_query: 25
+  categories:
+    - cs.SD
+    - eess.AS
+    - q-bio.NC
+    - q-bio.QM
+    - cs.HC
+    - cs.LG
+    - stat.ML
+  queries:
+    - hearing aid
+    - hearing aids
+    - cochlear implant
+    - cochlear implants
+    - cochlear implantation
+    - hearing loss
+    - hearing impairment
+    - sensorineural hearing loss
+    - speech perception
+    - speech intelligibility
+    - speech-in-noise
+    - speech in noise
+
 tags:
   cochlear implant:
     - cochlear implant

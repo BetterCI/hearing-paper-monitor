@@ -225,7 +225,7 @@ def import_json(conn: sqlite3.Connection, input_path: Path) -> int:
 def upsert_papers(conn: sqlite3.Connection, papers: list[Paper]) -> int:
     changed = 0
     for paper in papers:
-        if paper.source_group == "high_impact" and _has_existing_non_high_impact_duplicate(conn, paper):
+        if paper.source_group in {"high_impact", "topic_filtered", "preprint_filtered"} and _has_existing_primary_duplicate(conn, paper):
             continue
         doi = normalize_doi(paper.doi)
         paper.doi = doi
@@ -541,14 +541,14 @@ def _bool_or_none(value) -> int | None:
     return 1 if bool(value) else 0
 
 
-def _has_existing_non_high_impact_duplicate(conn: sqlite3.Connection, paper: Paper) -> bool:
+def _has_existing_primary_duplicate(conn: sqlite3.Connection, paper: Paper) -> bool:
     doi = normalize_doi(paper.doi)
     if doi:
-        row = conn.execute("SELECT journal FROM papers WHERE doi = ?", (doi,)).fetchone()
-        return bool(row and row[0] != "High-impact Journals")
+        row = conn.execute("SELECT source_group FROM papers WHERE doi = ?", (doi,)).fetchone()
+        return bool(row and row[0] != paper.source_group)
 
     target_title = normalize_title(paper.title)
     if not target_title:
         return False
-    rows = conn.execute("SELECT title, journal FROM papers").fetchall()
-    return any(normalize_title(title) == target_title and journal != "High-impact Journals" for title, journal in rows)
+    rows = conn.execute("SELECT title, source_group FROM papers").fetchall()
+    return any(normalize_title(title) == target_title and source_group != paper.source_group for title, source_group in rows)
