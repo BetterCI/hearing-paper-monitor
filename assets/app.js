@@ -8,6 +8,7 @@ const state = {
   titleTranslationStatus: "idle",
   paperListLimit: 18,
   paperListObserver: null,
+  randomPaperKey: "",
   filters: {
     query: "",
     journal: "",
@@ -263,7 +264,8 @@ const els = {
   translationStatus: null,
   newThisUpdate: document.querySelector("#newThisUpdate"),
   sectionHighlights: document.querySelector("#sectionHighlights"),
-  trendingTopics: document.querySelector("#trendingTopics"),
+  randomPaperButton: document.querySelector("#randomPaperButton"),
+  randomPaperSpotlight: document.querySelector("#randomPaperSpotlight"),
   selectedRecentPapers: document.querySelector("#selectedRecentPapers"),
   featuredFigurePanel: document.querySelector("#featuredFigurePanel"),
   featuredFigure: document.querySelector("#featuredFigure"),
@@ -370,6 +372,11 @@ function bindFilters() {
     state.filters.showOtherJasaSections = els.showOtherJasaSections.checked;
     resetPaperListLimit();
     render();
+  });
+  els.randomPaperButton?.addEventListener("click", () => {
+    pickRandomPaper();
+    renderRandomPaperSpotlight(dashboardPapers());
+    translateRenderedPage();
   });
   els.language?.addEventListener("change", () => {
     state.targetLanguage = els.language.value;
@@ -858,9 +865,7 @@ function renderRecentOverview(papers = state.papers) {
   const highlights = sorted.filter(isJasaSectionHighlight).slice(0, 4);
   renderCompactPaperList(els.sectionHighlights, highlights, { showAuthors: true, showAffiliation: true });
 
-  const recentWindow = papersInLatestWindow(papers, 30);
-  const overviewSource = recentWindow.length >= 8 ? recentWindow : sorted.slice(0, 30);
-  renderTopicList(els.trendingTopics, topTagCounts(overviewSource, 8));
+  renderRandomPaperSpotlight(papers);
 
   const selectedSource = papersInLatestWindow(papers, 7);
   renderCompactPaperList(els.selectedRecentPapers, selectRecentPapers(selectedSource, 5), {
@@ -1083,6 +1088,107 @@ function renderCompactPaperList(container, papers, options = {}) {
     list.appendChild(item);
   });
   container.appendChild(list);
+}
+
+function renderRandomPaperSpotlight(papers = dashboardPapers()) {
+  if (!els.randomPaperSpotlight) return;
+  const pool = papers.filter((paper) => paper.title);
+  if (els.randomPaperButton) els.randomPaperButton.disabled = pool.length === 0;
+  if (!pool.length) {
+    const empty = document.createElement("p");
+    empty.className = "panel-empty";
+    setTranslatableText(empty, "No papers available yet.");
+    els.randomPaperSpotlight.replaceChildren(empty);
+    return;
+  }
+
+  let paper = pool.find((candidate) => paperStableKey(candidate) === state.randomPaperKey);
+  if (!paper) paper = pickRandomPaper(pool);
+  els.randomPaperSpotlight.replaceChildren(renderRandomPaperCard(paper));
+}
+
+function pickRandomPaper(papers = dashboardPapers()) {
+  const pool = papers.filter((paper) => paper.title);
+  if (!pool.length) {
+    state.randomPaperKey = "";
+    return null;
+  }
+  const previousKey = state.randomPaperKey;
+  let candidates = pool;
+  if (pool.length > 1 && previousKey) {
+    candidates = pool.filter((paper) => paperStableKey(paper) !== previousKey);
+  }
+  const paper = candidates[Math.floor(Math.random() * candidates.length)];
+  state.randomPaperKey = paperStableKey(paper);
+  return paper;
+}
+
+function renderRandomPaperCard(paper) {
+  const card = document.createElement("article");
+  card.className = "random-paper-card";
+
+  const title = document.createElement("a");
+  title.className = "random-paper-title";
+  title.href = paper.url || (paper.doi ? doiUrl(paper.doi) : "#");
+  title.target = "_blank";
+  title.rel = "noopener noreferrer";
+  title.textContent = paper.title || "";
+  markTranslatable(title, paper.title);
+  card.appendChild(title);
+
+  const meta = document.createElement("p");
+  meta.className = "compact-meta random-paper-meta";
+  [sourceDisplayName(paper), displayDate(paper)]
+    .filter(Boolean)
+    .forEach((part, index) => {
+      if (index > 0) meta.appendChild(document.createTextNode(" / "));
+      meta.appendChild(document.createTextNode(part));
+    });
+  const sourceUrl = paper.doi ? doiUrl(paper.doi) : paper.url;
+  if (sourceUrl) {
+    if (meta.childNodes.length) meta.appendChild(document.createTextNode(" / "));
+    const source = document.createElement("a");
+    source.className = "compact-source-link";
+    source.href = sourceUrl;
+    source.target = "_blank";
+    source.rel = "noopener noreferrer";
+    source.textContent = paper.doi ? "DOI" : "Source";
+    if (paper.doi) source.title = paper.doi;
+    meta.appendChild(source);
+  }
+  card.appendChild(meta);
+
+  const authors = compactAuthorLine(paper.authors);
+  if (authors) {
+    const authorsLine = document.createElement("p");
+    authorsLine.className = "compact-authors random-paper-authors";
+    authorsLine.textContent = authors;
+    card.appendChild(authorsLine);
+  }
+
+  const abstract = displayAbstract(paper);
+  if (abstract) {
+    const abstractLine = document.createElement("p");
+    abstractLine.className = "random-paper-abstract";
+    abstractLine.textContent = shortText(abstract, 260);
+    markTranslatable(abstractLine, abstractLine.textContent);
+    card.appendChild(abstractLine);
+  }
+
+  const tags = publicPaperTags(paper).slice(0, 4);
+  if (tags.length) {
+    const tagLine = document.createElement("div");
+    tagLine.className = "mini-tags random-paper-tags";
+    tags.forEach((tag) => {
+      const chip = document.createElement("span");
+      chip.textContent = tag;
+      markTranslatable(chip, tag);
+      tagLine.appendChild(chip);
+    });
+    card.appendChild(tagLine);
+  }
+
+  return card;
 }
 
 function renderHighlightedTitle(element, title) {

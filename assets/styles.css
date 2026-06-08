@@ -409,7 +409,7 @@ select:focus {
   --overview-accent: #c69122;
 }
 
-.overview-panel-topics {
+.overview-panel-random {
   grid-area: topics;
   --overview-accent: #2563eb;
 }
@@ -580,6 +580,79 @@ select:focus {
 
 .compact-source-link:hover {
   text-decoration: underline;
+}
+
+.random-paper-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.random-paper-header h3 {
+  margin: 0;
+}
+
+.random-paper-button {
+  flex: 0 0 auto;
+  border: 1px solid rgba(37, 99, 235, 0.22);
+  border-radius: 999px;
+  padding: 6px 10px;
+  color: #1d4ed8;
+  background: #eff6ff;
+  font: inherit;
+  font-size: 0.75rem;
+  font-weight: 900;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.random-paper-button:hover,
+.random-paper-button:focus-visible {
+  border-color: rgba(37, 99, 235, 0.42);
+  background: #dbeafe;
+  outline: 2px solid rgba(37, 99, 235, 0.18);
+  outline-offset: 2px;
+}
+
+.random-paper-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.random-paper-card {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+
+.random-paper-title {
+  display: block;
+  color: #16343a;
+  font-size: 0.95rem;
+  font-weight: 900;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.random-paper-title:hover {
+  text-decoration: underline;
+}
+
+.random-paper-abstract {
+  display: -webkit-box;
+  overflow: hidden;
+  margin: 0;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  color: #35484f;
+  font-size: 0.8rem;
+  line-height: 1.45;
+}
+
+.random-paper-tags {
+  padding-top: 2px;
 }
 
 .topic-list,

@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Hearing Science Monitor</title>
-    <link rel="stylesheet" href="assets/styles.css?v=20260526-1" />
+    <link rel="stylesheet" href="assets/styles.css?v=20260608-1" />
   </head>
   <body>
     <header class="topbar">
@@ -36,9 +36,12 @@
             <h3>JASA/JASA-EL Section Highlights</h3>
             <div id="sectionHighlights" class="compact-list"></div>
           </article>
-          <article class="overview-panel overview-panel-topics">
-            <h3>Trending Topics</h3>
-            <div id="trendingTopics" class="topic-list"></div>
+          <article class="overview-panel overview-panel-random">
+            <div class="random-paper-header">
+              <h3>Random Paper</h3>
+              <button id="randomPaperButton" class="random-paper-button" type="button">Shuffle</button>
+            </div>
+            <div id="randomPaperSpotlight" class="random-paper-spotlight" aria-live="polite"></div>
           </article>
           <article class="overview-panel overview-panel-selected">
             <h3>Weekly Digest</h3>
@@ -171,6 +174,6 @@
       </svg>
     </div>
 
-    <script src="assets/app.js?v=20260517-2" type="module"></script>
+    <script src="assets/app.js?v=20260608-1" type="module"></script>
   </body>
 </html>
