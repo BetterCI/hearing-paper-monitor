@@ -155,7 +155,8 @@ topic_filtered_journals:
 arxiv_preprints:
   enabled: true
   lookback_days: 14
-  max_results_per_query: 25
+  max_papers_per_update: 3
+  max_results_per_query: 10
   categories:
     - cs.SD
     - eess.AS

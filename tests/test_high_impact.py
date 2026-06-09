@@ -32,6 +32,7 @@ def test_arxiv_preprints_are_enabled_with_strict_queries():
     config = load_config(Path("config/journals.yml"))
 
     assert config.arxiv_preprints["enabled"] is True
+    assert config.arxiv_preprints["max_papers_per_update"] == 3
     assert "speech recognition" not in config.arxiv_preprints["queries"]
     assert "cochlear implant" in config.arxiv_preprints["queries"]
 

@@ -351,7 +351,7 @@ def fetch_topic_filtered_pubmed_between(config: MonitorConfig, start_date: dt.da
 
 def fetch_arxiv_preprints(config: MonitorConfig, days: int) -> list[Paper]:
     settings = config.arxiv_preprints or {}
-    lookback_days = max(days, int(settings.get("lookback_days") or 0))
+    lookback_days = int(settings.get("lookback_days") or days)
     end_date = dt.date.today()
     start_date = end_date - dt.timedelta(days=lookback_days)
     return fetch_arxiv_preprints_between(config, start_date, end_date)
@@ -387,7 +387,26 @@ def fetch_arxiv_preprints_between(config: MonitorConfig, start_date: dt.date, en
                 papers.append(paper)
         time.sleep(0.3)
 
-    return dedupe_topic_filtered_papers(papers)
+    return _limit_arxiv_preprints(dedupe_topic_filtered_papers(papers), settings)
+
+
+def _limit_arxiv_preprints(papers: list[Paper], settings: dict) -> list[Paper]:
+    max_papers = int(settings.get("max_papers_per_update") or 0)
+    if max_papers <= 0:
+        return papers
+    return _sort_preprints_for_limit(papers)[:max_papers]
+
+
+def _sort_preprints_for_limit(papers: list[Paper]) -> list[Paper]:
+    return sorted(
+        papers,
+        key=lambda paper: (
+            paper.publication_date or "",
+            paper.available_online_date or "",
+            paper.title or "",
+        ),
+        reverse=True,
+    )
 
 
 def fetch_rss(journal: Journal) -> list[Paper]:

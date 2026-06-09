@@ -7,10 +7,12 @@ from scripts.paper_monitor.config import Journal
 from scripts.paper_monitor.sources import (
     _crossref_open_access_metadata,
     _crossref_publication_stage,
+    _limit_arxiv_preprints,
     _paper_from_arxiv_entry,
     _paper_from_crossref,
     _paper_from_pubmed,
 )
+from scripts.paper_monitor.models import Paper
 
 
 def test_crossref_online_first_without_issue_assignment_is_early_access():
@@ -244,3 +246,14 @@ def test_arxiv_entry_outside_date_window_is_ignored():
     paper = _paper_from_arxiv_entry(feed.entries[0], dt.date(2026, 6, 1), dt.date(2026, 6, 7))
 
     assert paper is None
+
+
+def test_arxiv_preprints_are_limited_to_latest_three():
+    papers = [
+        Paper(title=f"Paper {index}", authors=[], journal="arXiv", publication_date=f"2026-06-0{index}", doi=None, url=f"https://arxiv.org/abs/{index}")
+        for index in range(1, 6)
+    ]
+
+    limited = _limit_arxiv_preprints(papers, {"max_papers_per_update": 3})
+
+    assert [paper.title for paper in limited] == ["Paper 5", "Paper 4", "Paper 3"]
