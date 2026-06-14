@@ -14,7 +14,7 @@ async function handleRequest(request, env) {
     return json({ error: "Invalid JSON" }, 400);
   }
 
-  const { paper, language = "en" } = body;
+  const { paper, language = "zh" } = body;
   if (!paper || !paper.abstract) {
     return json({ error: "Missing paper abstract" }, 400);
   }

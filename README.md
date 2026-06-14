@@ -126,7 +126,7 @@ Optional settings:
 
 - `MINIMAX_API_BASE`: defaults to `https://api.minimaxi.com/v1`. Set to `https://api.minimax.io/v1` if your account uses the international endpoint.
 - `MINIMAX_MODEL`: defaults to `MiniMax-M2.7`.
-- Repository variable `MINIMAX_ANALYSIS_LANGUAGE`: defaults to `en`; set to `zh` for Chinese analysis text.
+- Repository variable `MINIMAX_ANALYSIS_LANGUAGE`: defaults to `zh`; set to `en` only if English analysis text is needed.
 
 Run locally:
 

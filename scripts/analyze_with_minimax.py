@@ -26,7 +26,7 @@ def main() -> None:
     parser.add_argument("--output", type=Path, default=ROOT / "data" / "papers.json")
     parser.add_argument("--limit", type=int, default=40, help="Maximum abstracts to analyze per run. 0 means no limit.")
     parser.add_argument("--refresh", action="store_true", help="Force recomputing existing MiniMax analyses.")
-    parser.add_argument("--language", default=os.getenv("MINIMAX_ANALYSIS_LANGUAGE") or "en")
+    parser.add_argument("--language", default=os.getenv("MINIMAX_ANALYSIS_LANGUAGE") or "zh")
     args = parser.parse_args()
 
     api_key = os.getenv("MINIMAX_API_KEY")
