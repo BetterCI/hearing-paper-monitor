@@ -52,6 +52,7 @@ TOPIC_FILTERED_SOURCE_LABEL = "Topic-filtered Journals"
 PREPRINT_SOURCE_GROUP = "preprint_filtered"
 PREPRINT_SOURCE_LABEL = "Preprints (arXiv)"
 ARXIV_API_URL = "https://export.arxiv.org/api/query"
+REQUEST_TIMEOUT_SECONDS = 15
 
 LEVEL_1_DIRECT_KEYWORDS = (
     "cochlear implant",
@@ -229,7 +230,7 @@ def fetch_pubmed_between(journal: Journal, start_date: dt.date, end_date: dt.dat
     }
     xml_text = SESSION.get(
         f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?{urlencode(fetch_params)}",
-        timeout=30,
+        timeout=REQUEST_TIMEOUT_SECONDS,
     ).text
     root = ET.fromstring(xml_text)
     return [_paper_from_pubmed(article, journal) for article in root.findall(".//PubmedArticle")]
@@ -299,7 +300,7 @@ def fetch_high_impact_pubmed_between(config: MonitorConfig, start_date: dt.date,
     }
     xml_text = SESSION.get(
         f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?{urlencode(fetch_params)}",
-        timeout=30,
+        timeout=REQUEST_TIMEOUT_SECONDS,
     ).text
     root = ET.fromstring(xml_text)
     papers: list[Paper] = []
@@ -378,7 +379,7 @@ def fetch_arxiv_preprints_between(config: MonitorConfig, start_date: dt.date, en
             "start": "0",
             "max_results": str(max_results),
         }
-        response = SESSION.get(f"{ARXIV_API_URL}?{urlencode(params)}", timeout=30)
+        response = SESSION.get(f"{ARXIV_API_URL}?{urlencode(params)}", timeout=REQUEST_TIMEOUT_SECONDS)
         response.raise_for_status()
         feed = feedparser.parse(response.text)
         for entry in feed.entries:
@@ -442,7 +443,7 @@ def fetch_rss(journal: Journal) -> list[Paper]:
 def fetch_toc(journal: Journal) -> list[Paper]:
     papers: list[Paper] = []
     for url in journal.toc:
-        response = SESSION.get(url, timeout=30)
+        response = SESSION.get(url, timeout=REQUEST_TIMEOUT_SECONDS)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
         for link in soup.select("a[href]"):
@@ -1121,7 +1122,7 @@ def _month_to_int(value: str) -> int:
 
 
 def _get_json(url: str) -> dict:
-    response = SESSION.get(url, timeout=30)
+    response = SESSION.get(url, timeout=REQUEST_TIMEOUT_SECONDS)
     response.raise_for_status()
     return response.json()
 

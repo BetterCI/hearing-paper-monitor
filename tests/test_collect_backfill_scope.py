@@ -4,7 +4,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path("scripts").resolve()))
 
-from collect import _backfill_papers_for_journal, _backfill_window, _save_backfill_state
+from collect import _backfill_papers_for_journal, _backfill_window, _journal_lookback_days, _save_backfill_state
 from paper_monitor.config import Journal
 from paper_monitor.models import Paper
 
@@ -73,3 +73,16 @@ def test_backfill_window_uses_saved_cutoff_instead_of_earliest_paper(tmp_path):
 
     assert start_date == dt.date(2026, 3, 20)
     assert end_date == dt.date(2026, 3, 26)
+
+
+def test_daily_run_can_cap_a_journal_lookback_override():
+    journal = Journal(
+        key="trends-hearing",
+        name="Trends in Hearing",
+        aliases=[],
+        issn=[],
+        lookback_days=180,
+    )
+
+    assert _journal_lookback_days(journal, default_days=14, max_days=30) == 30
+    assert _journal_lookback_days(journal, default_days=14) == 180

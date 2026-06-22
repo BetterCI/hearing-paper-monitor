@@ -31,6 +31,7 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+          cache: pip
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -53,37 +54,39 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+          cache: pip
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
       - name: Collect papers
-        timeout-minutes: 10
-        run: python scripts/collect.py --days 45
+        timeout-minutes: 8
+        run: python -u scripts/collect.py --days 14 --max-journal-lookback-days 30 --skip-backfill --skip-high-impact-crossref
 
       - name: Backfill missing abstracts
         continue-on-error: true
-        timeout-minutes: 3
-        run: python scripts/backfill_abstracts.py --limit 25
+        timeout-minutes: 2
+        run: python scripts/backfill_abstracts.py --limit 12
 
       - name: Enrich OA and PubMed full-text figures
-        timeout-minutes: 5
-        run: python scripts/enrich_media.py --open-access-only --limit 25
+        continue-on-error: true
+        timeout-minutes: 3
+        run: python scripts/enrich_media.py --open-access-only --limit 12
 
       - name: Enrich last-author lab homepages
         continue-on-error: true
-        timeout-minutes: 3
-        run: python scripts/enrich_labs.py --days 14 --limit 8
+        timeout-minutes: 2
+        run: python scripts/enrich_labs.py --days 14 --limit 4
 
       - name: Analyze abstracts with MiniMax
         continue-on-error: true
-        timeout-minutes: 10
+        timeout-minutes: 6
         env:
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
           MINIMAX_API_BASE: ${{ secrets.MINIMAX_API_BASE }}
           MINIMAX_MODEL: ${{ secrets.MINIMAX_MODEL }}
           MINIMAX_ANALYSIS_LANGUAGE: ${{ vars.MINIMAX_ANALYSIS_LANGUAGE }}
-        run: python scripts/analyze_with_minimax.py --limit 10
+        run: python scripts/analyze_with_minimax.py --limit 6
 
       - name: Commit refreshed data
         uses: stefanzweifel/git-auto-commit-action@v7

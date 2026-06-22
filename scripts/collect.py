@@ -42,6 +42,18 @@ def main() -> None:
     parser.add_argument("--output", type=Path, default=ROOT / "data" / "papers.json")
     parser.add_argument("--backfill-state", type=Path, default=ROOT / "data" / "backfill_state.json")
     parser.add_argument("--days", type=int, default=45)
+    parser.add_argument(
+        "--max-journal-lookback-days",
+        type=int,
+        default=None,
+        help="Cap per-journal lookback overrides during lightweight runs.",
+    )
+    parser.add_argument("--skip-backfill", action="store_true", help="Skip the historical backfill window.")
+    parser.add_argument(
+        "--skip-high-impact-crossref",
+        action="store_true",
+        help="Use the batched PubMed query only for high-impact journals.",
+    )
     args = parser.parse_args()
 
     config = load_config(args.config)
@@ -52,7 +64,7 @@ def main() -> None:
     total = 0
 
     for journal in config.journals:
-        days = max(args.days, journal.lookback_days or args.days)
+        days = _journal_lookback_days(journal, args.days, args.max_journal_lookback_days)
         groups = [
             _safe_fetch("Crossref", journal.name, lambda: fetch_crossref(journal, days)),
             _safe_fetch("PubMed", journal.name, lambda: fetch_pubmed(journal, days)),
@@ -65,10 +77,12 @@ def main() -> None:
         print(f"{journal.name}: {changed} records")
 
     if config.high_impact_journals:
-        groups = [
-            _safe_fetch("Crossref", "High-impact Journals", lambda: fetch_high_impact_crossref(config, args.days)),
-            _safe_fetch("PubMed", "High-impact Journals", lambda: fetch_high_impact_pubmed(config, args.days)),
-        ]
+        groups = []
+        if not args.skip_high_impact_crossref:
+            groups.append(
+                _safe_fetch("Crossref", "High-impact Journals", lambda: fetch_high_impact_crossref(config, args.days))
+            )
+        groups.append(_safe_fetch("PubMed", "High-impact Journals", lambda: fetch_high_impact_pubmed(config, args.days)))
         papers = dedupe_high_impact_papers([paper for paper in merge_dedupe(groups) if paper.title])
         changed = upsert_papers(conn, papers)
         total += changed
@@ -90,7 +104,7 @@ def main() -> None:
         total += changed
         print(f"Preprints (arXiv): {changed} records")
 
-    backfill_window = _backfill_window(args.backfill_state, args.days)
+    backfill_window = None if args.skip_backfill else _backfill_window(args.backfill_state, args.days)
     if backfill_window:
         start_date, end_date = backfill_window
         backfill_complete = True
@@ -177,6 +191,13 @@ def _backfill_window(state_path: Path, lookback_days: int, today: dt.date | None
         end_date = latest_backfill_end
     start_date = end_date - dt.timedelta(days=BACKFILL_WINDOW_DAYS - 1)
     return start_date, end_date
+
+
+def _journal_lookback_days(journal, default_days: int, max_days: int | None = None) -> int:
+    days = max(default_days, journal.lookback_days or default_days)
+    if max_days is not None:
+        days = min(days, max(default_days, max_days))
+    return days
 
 
 def _read_backfill_end_date(state_path: Path) -> dt.date | None:
