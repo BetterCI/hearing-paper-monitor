@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T06:02:47Z",
+  "generated_at": "2026-07-28T05:26:22Z",
   "papers": [
     {
       "title": "Hearing healthy: physical activity moderates the association between age-related hearing loss and brain volume",
@@ -36,6 +36,116 @@
       "source": "crossref",
       "available_online_date": "2026-07-13",
       "first_seen_at": "2026-07-13T05:49:52Z"
+    },
+    {
+      "title": "Implicit auditory sensory memory and short–term memory for musical and verbal stimuli in children with cochlear implants",
+      "authors": [
+        "Ahmet Alperen Akbulut",
+        "Ayça Çiprut",
+        "Nilüfer Bal"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109750",
+      "url": "https://doi.org/10.1016/j.heares.2026.109750",
+      "abstract": "The spectrally degraded signal delivered by cochlear implants (CIs) has been suggested to constrain the encoding and temporary retention of sequential auditory information. However, research on short-term memory (STM) in children with CIs has predominantly focused on the verbal domain, with musical STM and implicit auditory sensory memory receiving comparatively limited attention. This study investigated the domain-specific nature of auditory STM in children with CIs relative to typically hearing (TH) peers, alongside implicit auditory sensory memory and music perception. Seventy-five children aged 7-15 years participated: 23 TH, 22 unilateral CI, and 30 bilateral CI users. Verbal and musical STM were assessed using a delayed matching-to-sample paradigm with signal detection measures (d', c). Implicit auditory sensory memory was evaluated with a tone pattern detection task (TP-Detect). Music perception was measured using Timbre Identification and Pitch Direction Discrimination. Children with CIs showed lower d' than TH peers on both verbal and musical STM, with a larger deficit for musical material. This verbal advantage persisted after controlling for timbre identification ability, suggesting that the musical STM impairment may not be attributable solely to degraded spectral encoding at the perceptual level. Bilateral CI children performed near chance on TP-Detect, whereas TH and unilateral CI children detected regularity transitions above chance. These findings indicate that children with CIs exhibit auditory memory deficits extending beyond the verbal domain and position musical memory and implicit sensory processing as clinically relevant dimensions of auditory function that may contribute to real-world auditory scene analysis and warrant targeted assessment.",
+      "ai_analysis": {
+        "scientific_question": "人工耳蜗儿童在音乐和言语领域的短时记忆是否存在领域特异性缺陷，以及其隐式听觉感觉记忆功能如何。",
+        "key_highlight": "人工耳蜗儿童在言语和音乐短时记忆上均表现出低于健听儿童的成绩，其中音乐领域的缺陷更为显著，且双侧人工耳蜗儿童在隐式感觉记忆任务中接近随机水平。",
+        "main_limitation": "实验室任务与真实世界听觉场景分析之间可能存在生态效度差异，且研究对象年龄范围限定于7至15岁儿童，对其他年龄段的推广性有限。",
+        "research_implication": "研究结果支持将音乐记忆和隐式感觉记忆纳入人工耳蜗植入儿童的临床评估维度，以更全面地预测其实环境听觉功能。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "5ce2a2066efd0ebb",
+        "updated_at": "2026-07-24T05:32:59Z"
+      },
+      "last_author_affiliation": "Department of Audiology, Faculty of Medicine, Marmara University, 34899, Istanbul, Türkiye. Electronic address: nilufer.bal@marmara.edu.tr.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "cochlear implant"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-07-18",
+      "first_seen_at": "2026-07-23T05:35:35Z"
+    },
+    {
+      "title": "Near-field recordings expose the limits of far-field measures of peripheral vestibular nerve activity: implications for experimental controls",
+      "authors": [
+        "Jade D. Mansell",
+        "Ángel Ramos de Miguel",
+        "Ya Lang Enke",
+        "Robert Gay",
+        "Mohsen Asadnia",
+        "Ian S. Curthoys",
+        "Christopher J. Pastras"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109751",
+      "url": "https://doi.org/10.1016/j.heares.2026.109751",
+      "abstract": "Vestibular short-latency evoked potentials (VsEPs) provide an objective measure of otolith-driven vestibular nerve activity but remain technically challenging to record when compared with cochlear evoked responses. This difficulty arises from the location of the vestibular system, in close proximity to the cochlea, which generates large biopotentials to similar stimuli. In experimental animal models, VsEPs are commonly recorded using far-field (FF) scalp electrodes, however the extent to which this approach faithfully reflects near-field (NF) recordings remains unclear. Here, we directly compare simultaneous NF facial nerve canal (FNC) VsEPs and FF scalp responses in vivo in the guinea pig in response to interaural bone-conducted vibration (BCV). NF VsEPs were recorded from within the FNC adjacent to the vestibular nerve bundle, while FF responses were recorded from the scalp. NF FNC VsEPs exhibited amplitudes roughly 20-fold larger, with SNR values approximately 10-15 dB higher than FF scalp responses across animals. NF responses revealed a ∼90% reduction during transient hypoxia and an almost complete abolition following tetrodotoxin application to the otolithic macula. In contrast, FF scalp VsEPs underestimated vestibular hypofunction and retained residual responses following neural blockade and death, consistent with non-neural origins. Micro-CT imaging of the guinea pig temporal bone confirmed the close anatomical proximity of the utricular macula to the FNC, providing the anatomical basis for the superior signal amplitude recorded at this site. Together, these findings demonstrate that NF FNC recordings provide a more sensitive and selective measure of peripheral vestibular nerve activity than FF scalp electrodes in the guinea pig, demonstrating the important need for optimising recording location and experimental controls when recording vestibular evoked potentials.",
+      "ai_analysis": {
+        "scientific_question": "远场头皮电极记录在多大程度上能够真实反映近场记录所测量的外周前庭神经活动？",
+        "key_highlight": "近场面神经管记录的前庭诱发电位振幅约为远场头皮记录的20倍，信噪比高10-15分贝，且远场记录在神经阻滞和动物死亡后仍保留残余响应，提示存在非神经来源的干扰信号。",
+        "main_limitation": "研究仅在豚鼠中进行，动物模型的解剖结构与人类存在差异，结论向人类研究转化的有效性尚需验证。",
+        "research_implication": "该研究提示前庭功能研究需优化记录位置和实验对照设计，未来临床前庭诱发电位检测方法可能需要重新评估电极放置策略。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "6d9c9b694d725a85",
+        "updated_at": "2026-07-27T06:04:45Z"
+      },
+      "last_author_affiliation": "Faculty of Science and Engineering, School of Engineering, Macquarie University, Sydney, NSW, 2109, Australia. Electronic address: christopher.pastras@mq.edu.au.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-07-22",
+      "first_seen_at": "2026-07-27T06:02:33Z"
+    },
+    {
+      "title": "An optimized tissue processing pipeline for multiscale imaging of the intact peripheral auditory pathway",
+      "authors": [
+        "Jan Frederik Ahrend",
+        "Louisa S. Kuenkel",
+        "Gerald Degenhart",
+        "Christian Vogl"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109748",
+      "url": "https://doi.org/10.1016/j.heares.2026.109748",
+      "abstract": "We present a comprehensive tissue processing and imaging pipeline tailored for multiscale analyses of the intact peripheral auditory pathway, encompassing the cochlea, cochlear root, and cochlear nucleus (CN) within a single specimen. This workflow integrates advanced imaging modalities - including micro-computed tomography (µCT), light-sheet fluorescence microscopy, confocal microscopy, and super-resolution STED microscopy - to enable a holistic assessment of fixed temporal bones. This methodological pipeline incorporates a unique and novel dissection technique that maintains the delicate connection between the cochlea and CN, facilitating volumetric imaging of neuronal populations and precise quantification of spiral and vestibular ganglion neurons without sectioning-related loss. The presented workflow further supports vascular network segmentation and nanoscale protein distribution analyses, thus offering versatility for diverse cochlear research applications. To promote widespread adoption, an adapted ethyl cinnamate-based clearing protocol, a novel slice preparation procedure as well as a validated antibody library are provided that enable robust labeling of cochlear structures ranging from whole-organ visualization to synaptic-scale analyses. By maximizing information extraction from individual specimens, this accessible pipeline aligns with 3R principles and provides a unified framework for investigating auditory function and pathology, advancing the study of hearing impairment and related genetic models.",
+      "ai_analysis": {
+        "scientific_question": "如何实现完整的周围听觉通路的从器官到突触尺度的多尺度整合成像？",
+        "key_highlight": "该pipeline通过保持耳蜗与蜗神经核的连接，结合多种成像模态，实现了固定颞骨标本的完整三维成像和量化分析。",
+        "main_limitation": "Limited generalizability due to small or specific sample",
+        "research_implication": "该pipeline为耳蜗结构、神经元计数、血管分割和突触蛋白分布等研究提供了统一的标准化工具，有望推动听力损伤机制和相关基因模型的研究。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "9f0ead4918e971c7",
+        "updated_at": "2026-07-26T05:43:47Z"
+      },
+      "last_author_affiliation": "Auditory Neuroscience Group, Institute of Physiology, Medical University Innsbruck, Innsbruck, Austria. Electronic address: christian.vogl@i-med.ac.at.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-07-14",
+      "first_seen_at": "2026-07-15T05:11:16Z"
     },
     {
       "title": "Anatomical feasibility and experimental evaluation of sensor coupling sites for fully implantable active middle ear implants",
@@ -837,6 +947,47 @@
       "first_seen_at": "2026-07-07T06:28:36Z"
     },
     {
+      "title": "Peripheral phoneme encoding and discrimination in aging and hearing impairment",
+      "authors": [
+        "Marjoleen Wouters",
+        "Etienne Gaudrain",
+        "Konrad Dapper",
+        "Jakob Schirmer",
+        "Deniz Başkent",
+        "Lukas Rüttiger",
+        "Marlies Knipper",
+        "Sarah Verhulst"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109747",
+      "url": "https://doi.org/10.1016/j.heares.2026.109747",
+      "abstract": "Speech perception difficulties in noise are common among older adults and individuals with hearing impairment, but also occur among younger adults whose audiometric thresholds are within the clinically-normal range. We examined how aging, cochlear synaptopathy (CS), and outer hair cell (OHC) damage affect speech encoding and phoneme discrimination. Envelope-following responses (EFRs) to rectangular amplitude-modulated (RAM) tones and speech-like phoneme pairs were recorded in quiet using EEG, and behavioral discrimination was assessed in quiet, and with ipsilateral and contralateral noise. Stimuli were designed to target temporal envelope (TENV) or temporal fine structure (TFS) encoding. Results showed that RAM-EFR amplitudes decreased gradually with increasing age, consistent with emerging CS, while magnitudes of high-frequency TENV-based EFRs in quiet were most reduced in older hearing-impaired subjects with combined CS and OHC damage. In contrast, EFRs targeting low-frequency TENV encoding in quiet remained preserved. Behaviorally, discrimination of predominantly TFS-based phoneme contrasts worsened with OHC loss and age in quiet and contralateral noise, respectively, whereas discrimination of predominantly TENV-based contrasts showed no significant age effect. Considering that high-frequency contrasts are discriminated via place-based spectral cues, low-frequency contrasts rely on TFS, and the EFR reflects primarily TENV, this framework explains why EFRs decline for high-frequency cues without perceptual loss, while EFRs remain stable for low-frequency cues even as TFS-based discrimination deteriorates. These findings highlight the need to investigate how neural coding deficits relate to perception. Combining electrophysiological and behavioral measures might provide a framework for detecting subclinical auditory deficits to earlier diagnose age-related and hidden hearing loss.",
+      "ai_analysis": {
+        "scientific_question": "本研究探讨衰老、蜗突触病变和外毛细胞损伤如何分别或共同影响言语编码和音素辨别能力。",
+        "key_highlight": "研究发现高频时域包络编码的电生理指标随蜗突触病变和外毛细胞损伤而下降，但低频时域精细结构编码的行为辨别力仅随衰老而恶化，两者之间存在明显的分离现象。",
+        "main_limitation": "脑电响应仅在安静条件下测量，未能反映真实噪声环境下的神经编码特征。",
+        "research_implication": "结合电生理和行为测量可能有助于早期检测亚临床听觉缺陷，为年龄相关性和隐匿性听力损失的诊断提供框架。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "e58d3124761c2872",
+        "updated_at": "2026-07-26T05:43:54Z"
+      },
+      "last_author_affiliation": "Hearing Technology at Wireless, Acoustics, Environment and Expert Systems, Department of Information Technology, Ghent University, Technologiepark 126, 9052, Zwijnaarde, Belgium.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "speech perception"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-07-18",
+      "first_seen_at": "2026-07-21T05:31:14Z"
+    },
+    {
       "title": "Polygenic risk score analysis of noise-induced hearing loss: An integrated cross-sectional and longitudinal study",
       "authors": [
         "Jiayu Li",
@@ -970,6 +1121,48 @@
       "source": "crossref",
       "available_online_date": "2026-06-23",
       "first_seen_at": "2026-06-28T06:38:49Z"
+    },
+    {
+      "title": "Speech perception deficits and neural network alterations during cocktail-party listening in age-related hearing loss",
+      "authors": [
+        "Hui Liu",
+        "Xuexin Tian",
+        "Aifang Fu",
+        "Jieqing Cai",
+        "Yifan Zhang",
+        "Anning Chen",
+        "Hongzheng Zhang"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109749",
+      "url": "https://doi.org/10.1016/j.heares.2026.109749",
+      "abstract": "Age-related hearing loss (ARHL) is associated with difficulty understanding speech in complex listening environments, yet its neural basis remains unclear. We combined behavioral measures with functional near-infrared spectroscopy (fNIRS) to examine speech perception and neural responses during cocktail-party listening. Sixty-eight participants (Young-NH, Older-NH, ARHL) completed a spatialized speech-recognition task under different masker types and signal-to-noise ratios, together with resting-state and task-based fNIRS recordings. ARHL showed poorer speech perception and reduced self-reported hearing ability across listening conditions. At rest, ARHL exhibited increased frontotemporal connectivity and greater local network organization. During the task, cortical responses showed a group gradient, with attenuation in Older-NH and predominantly negative responses in ARHL, and diminished modulation by listening demands. In addition, brain-behavior coupling observed in Young-NH was absent in both older groups. These findings indicate that speech perception deficits in ARHL are associated with altered neural responses and reduced flexibility in adapting to listening demands, accompanied by disrupted brain-behavior relationships.",
+      "ai_analysis": {
+        "scientific_question": "老年性听力损失（ARHL）患者在鸡尾酒会聆听场景中的言语感知困难是否存在神经基础？",
+        "key_highlight": "ARHL患者在安静状态下面向额颞叶连接增强和局部网络组织增加，但任务执行时皮层反应减弱且对听音需求变化的调制能力下降，Young-NH组中观察到的脑-行为耦合在两个老年组中均消失。",
+        "main_limitation": "fNIRS技术空间分辨率有限且无法探测深层脑结构，可能制约了对全脑神经网络变化的全面评估。",
+        "research_implication": "研究结果提示助听设备研发需考虑如何补偿ARHL患者神经网络的适应性下降和脑-行为耦合缺失，以改善复杂聆听环境中的言语感知。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "ee4b22863a11544d",
+        "updated_at": "2026-07-26T05:44:02Z"
+      },
+      "last_author_affiliation": "Department of Otolaryngology Head & Neck Surgery, Zhujiang Hospital, Southern Medical University, Guangzhou, 510282, China; Ear Research Institute, Zhujiang Hospital, Southern Medical University, Guangzhou, 510282, China; Zhujiang Hospital Institute for Brain Science and Intelligence, Southern Medical University, Guangzhou, 510282, China. Electronic address: redtrue@smu.edu.cn.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology",
+        "machine learning",
+        "speech perception"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-07-14",
+      "first_seen_at": "2026-07-15T05:11:16Z"
     },
     {
       "title": "Speech-in-noise recognition during hearing protector use: Human performance and acoustic prediction",
@@ -1124,6 +1317,208 @@
       "source": "crossref",
       "available_online_date": "2026-07-06",
       "first_seen_at": "2026-07-07T06:28:36Z"
+    },
+    {
+      "title": "A National Cohort Study of Tinnitus and Hearing Loss in the Million Veteran Program",
+      "authors": [
+        "Royce E. Clifford",
+        "Chiara Casolani",
+        "Daniel B. Polley",
+        "M. Charles Liberman",
+        "Stéphane F. Maison"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-08-04",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001873",
+      "url": "https://doi.org/10.1097/aud.0000000000001873",
+      "abstract": "Objectives: To characterize the prevalence, severity, and correlates of hearing loss and tinnitus in U.S. Veterans enrolled in the Million Veteran Program, and, secondarily, to contextualize audiometric patterns relative to an age-matched civilian cohort. Design: Retrospective cross-sectional cohort study. Audiometric thresholds and word recognition scores were analyzed for 267,395 Veterans (1999–2021) with linked demographics and self-reported health data. Findings were compared descriptively with 40,912 adults from a clinical cohort at Massachusetts Eye and Ear. Primary outcomes included the prevalence of hearing loss and tinnitus, age- and sex-specific audiometric thresholds, word recognition in quiet, and associations between tinnitus and selected comorbidities. Results: Among 267,395 Veterans (94% male), 86% had hearing loss and 47% reported tinnitus. In multivariable models, word recognition was independently associated with older age and worse hearing thresholds. Because Veterans with tinnitus were younger for a given degree of hearing loss, word recognition scores were similar between groups when adjusting for hearing thresholds alone; however, after accounting for age, Veterans with tinnitus showed slightly poorer word recognition. Tinnitus prevalence was higher among Veterans with traumatic brain injury or concussion and among those reporting anxiety or depression, with smaller increases associated with sleep disturbance and alcohol use. Tobacco use showed no association with tinnitus prevalence. African American Veterans had better hearing thresholds and lower tinnitus prevalence than other racial groups, whereas Asian Veterans showed greater hearing loss at older ages. Compared with the civilian cohort, Veterans showed earlier and greater hearing loss, particularly at 4 kHz. Men showed greater high-frequency loss, whereas women showed steeper low-frequency declines at older ages. Conclusions: Hearing loss and tinnitus are highly prevalent among VA healthcare-using Veterans and appear to occur earlier and with greater severity than in a clinic-based civilian cohort. These patterns, including the occurrence of tinnitus in some individuals with preserved audiometric thresholds and subtle suprathreshold deficits, are consistent with mechanisms such as cochlear nerve degeneration that are not captured by conventional audiometry. The findings highlight the need for improved diagnostic approaches for suprathreshold auditory dysfunction, objective measures of tinnitus, and integrated clinical care addressing both auditory and neuropsychiatric comorbidities. The Million Veteran Program cohort provides a powerful platform for future studies examining the biological and genetic determinants of hearing loss and tinnitus.",
+      "first_author_affiliation": "Department of Otolaryngology – Head and Neck Surgery, University of California School of Health Sciences, San Diego, California, USA;",
+      "last_author_affiliation": "Research Department, VA Hospitals, San Diego, California, USA; and",
+      "open_access": true,
+      "open_access_url": "https://journals.lww.com/10.1097/AUD.0000000000001873",
+      "open_access_source": "crossref_license",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-04",
+      "first_seen_at": "2026-07-28T05:26:11Z",
+      "full_text_url": "https://journals.lww.com/10.1097/AUD.0000000000001873",
+      "media_checked_at": "2026-07-28T05:26:30Z",
+      "open_access_image_checked_at": "2026-07-28T05:26:30Z",
+      "ai_analysis": {
+        "scientific_question": "美国退伍军人人群中听力损失和耳鸣的患病率、严重程度及相关因素是什么，且其听力学模式与普通人群有何差异？",
+        "key_highlight": "在267,395名退伍军人中，86%存在听力损失、47%报告耳鸣，且退伍军人的听力损失比平民临床队列出现更早、程度更重。",
+        "main_limitation": "该研究为回顾性横断面研究，94%为男性，且仅纳入使用VA医疗服务的退伍军人，因此结论向一般人群及女性推广的能力有限。",
+        "research_implication": "研究提示传统纯音测听可能遗漏阈上听觉功能障碍，支持需要开发更灵敏的诊断方法来评估听力损失和耳鸣。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "313764515cf661c9",
+        "updated_at": "2026-07-28T05:26:50Z"
+      }
+    },
+    {
+      "title": "Cochlear Implant and Age-Dependent Cortical Dynamics: A Multilevel Meta-Analysis of Mismatch Negativity Latency and Amplitude Divergences",
+      "authors": [
+        "Zhe Yang",
+        "Yusen Fu",
+        "Rui Zhu",
+        "Shaohua Wan",
+        "Nianhong Wang",
+        "Rong Jin"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-08-04",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001857",
+      "url": "https://doi.org/10.1097/aud.0000000000001857",
+      "abstract": "Objectives: This study quantitatively assessed the neurophysiological differences in mismatch negativity (MMN) responses between cochlear implant (CI) users and normal hearing (NH) listeners. Through meta-analysis, we examined effect size differences and statistical significance in MMN latency and amplitude between these groups. Age-stratified subgroup analyses further explored MMN morphology variations in adults and children to evaluate age-related outcomes of cochlear implantation. Design: Systematic searches were conducted in PubMed, Embase, Medline (Ovid), and Cochrane Library up to February 24, 2025. Records (published in English) comparing MMN latency and amplitude between CI users and NH listeners were included. Eligible studies were analyzed using multilevel modeling. Publication bias was assessed using funnel plots and Egger’s test. Results: The meta-analysis incorporated 21 latency and 23 amplitude data points from 11 studies. Pooled analyses revealed significantly prolonged MMN latency and reduced amplitude in CI users compared to NH listeners. Subgroup analyses demonstrated that pediatric CI users showed no statistically significant MMN differences (latency or amplitude) relative to NH peers, with low heterogeneity. In contrast, adult CI users exhibited significantly smaller MMN amplitudes (low heterogeneity) and longer latencies (high heterogeneity) compared to NH adults. Conclusions: This study confirms that adult CI users exhibit slower neural processing speeds and weaker neural response magnitudes than adult NH listeners, as reflected in MMN latency and amplitude. It quantitatively validates MMN as an objective electrophysiological assessment tool for auditory function in CI users. Furthermore, the observed group-level differences between pediatric and adult cohorts highlight age as a critical factor. However, more evidence is needed to conclude that earlier implantation preserves MMN morphology long-term. With caution, the review acknowledges potential limitations, including possible publication bias from unpublished nonsignificant studies and high heterogeneity in some outcomes.",
+      "first_author_affiliation": "Shanghai Yangzhi Rehabilitation Hospital (Shanghai Sunshine Rehabilitation Center), School of Medicine, Tongji University, Shanghai, China;",
+      "last_author_affiliation": "Shanghai Yangzhi Rehabilitation Hospital (Shanghai Sunshine Rehabilitation Center), School of Medicine, Tongji University, Shanghai, China;",
+      "open_access": true,
+      "open_access_url": "https://journals.lww.com/10.1097/AUD.0000000000001857",
+      "open_access_source": "crossref_license",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "cochlear implant"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-04",
+      "first_seen_at": "2026-07-28T05:26:11Z",
+      "full_text_url": "https://journals.lww.com/10.1097/AUD.0000000000001857",
+      "media_checked_at": "2026-07-28T05:26:30Z",
+      "open_access_image_checked_at": "2026-07-28T05:26:30Z",
+      "ai_analysis": {
+        "scientific_question": "本研究系统评估了人工耳蜗植入者与正常听力者在失匹配负波(MMN)的潜伏期和振幅方面的神经生理学差异，并探讨了年龄因素的影响。",
+        "key_highlight": "成人人工耳蜗植入者表现出显著延长的MMN潜伏期和减小的振幅，而儿童植入者与正常听力儿童在MMN指标上无显著差异。",
+        "main_limitation": "部分结局指标存在较高异质性，且可能存在发表偏倚。",
+        "research_implication": "研究验证了MMN可作为评估人工耳蜗植入者听觉功能的客观电生理工具，并强调年龄是影响CI术后神经处理效果的关键因素。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "841919fd3237bd30",
+        "updated_at": "2026-07-28T05:27:00Z"
+      }
+    },
+    {
+      "title": "Effects of Hearing Loss and Hearing Aid Directionality on Performance and Orienting Behavior in a Multi-Talker Audiovisual Search Task",
+      "authors": [
+        "Sreeram Kaithali Narayanan",
+        "Axel Ahrens",
+        "Filip Rønne",
+        "Torsten Dau",
+        "Virginia Best",
+        "Tobias Neher"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-08-04",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001872",
+      "url": "https://doi.org/10.1097/aud.0000000000001872",
+      "abstract": "Objectives: Hearing-impaired (HI) individuals experience substantial difficulties with speech perception in reverberant environments with multiple simultaneous talkers. Hearing aids equipped with directional microphones are designed to support listening in such situations, but their effectiveness can be compromised by changes in target talker location and listener head movements. The present study used a complex audiovisual search task to investigate performance and orienting behavior for listeners with and without hearing loss under unaided and aided conditions. The authors hypothesized that hearing loss would lead to poorer performance and more complex orienting behavior, and that directional microphone processing would affect performance and orienting behavior further due to altered spatial cues. Design: Twenty normal-hearing (NH) and 22 HI participants completed a task requiring them to locate and identify a target narrative in a moderately reverberant audiovisual environment containing multiple competing narratives. The environment was rendered using a 64-channel loudspeaker array and virtual-reality glasses, with 15 possible target azimuths. Head and eye movements were tracked using the built-in sensors of the virtual-reality glasses. Testing was conducted under unaided conditions and aided conditions with either omnidirectional or directional microphone settings. Task performance was assessed using response accuracy, localization error, and response time. Orienting behavior was quantified using misorientation rate, head-gaze ratio, scan-path efficiency, and head and gaze orientation offsets. Results: Compared with the NH participants, the HI participants showed significantly lower response accuracy, larger localization errors, and longer response times across all conditions. They also exhibited less direct search behavior, characterized by more frequent initial head turns away from the target and a greater reliance on eye rather than head movements. When aided, the NH participants showed reduced accuracy and increased localization errors, particularly with the directional microphone setting, and they relied slightly more on head movements. For both groups, eye-movement complexity increased under aided conditions, with the HI participants showing more complex gaze patterns. Unlike the NH participants, the HI individuals often aligned their gaze—but not their head—with the target location when responding. Conclusions: The results demonstrate fundamental differences in task performance and orienting behavior between HI and NH listeners in complex multi-talker environments. Although directional microphones are designed to improve speech understanding in noise, they introduce challenges in tasks that require accurate target localization. Overall, these findings highlight both the impact of hearing loss and the limitations of hearing aid directionality in complex listening environments.",
+      "first_author_affiliation": "Hearing Systems Section, Department of Health Technology, Technical University of Denmark, Kongens Lyngby, Denmark",
+      "last_author_affiliation": "Department of Clinical Research, University of Southern Denmark, Odense, Denmark",
+      "open_access": true,
+      "open_access_url": "https://journals.lww.com/10.1097/AUD.0000000000001872",
+      "open_access_source": "crossref_license",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology",
+        "hearing aid",
+        "speech perception"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-04",
+      "first_seen_at": "2026-07-28T05:26:11Z",
+      "full_text_url": "https://journals.lww.com/10.1097/AUD.0000000000001872",
+      "media_checked_at": "2026-07-28T05:26:30Z",
+      "open_access_image_checked_at": "2026-07-28T05:26:30Z",
+      "ai_analysis": {
+        "scientific_question": "探究听力损失和助听器方向性麦克风如何影响复杂多说话人视听环境中的任务表现和定向行为",
+        "key_highlight": "尽管方向性麦克风旨在改善噪声中的言语理解，但在需要精确定位的任务中反而会引入挑战，且听力损失者在复杂环境中表现出不同于正常听力者的搜索策略",
+        "main_limitation": "样本量较小（各组仅20-22人）且实验环境为高度控制的虚拟现实场景，可能难以完全代表真实世界中的复杂聆听情境",
+        "research_implication": "研究结果提示助听器方向性麦克风的设计需权衡噪声衰减与空间定位需求，对听力辅助设备的算法优化具有直接参考价值",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "ffaa073dcd1dea5d",
+        "updated_at": "2026-07-28T05:27:14Z"
+      }
+    },
+    {
+      "title": "Intraoperative Visual Identification of Extra-Cochlear Electrodes in Cochlear Implantation Using Stimulation Current-Induced Non-Stimulating Electrode Voltages",
+      "authors": [
+        "Daniele Borsetto",
+        "Charlotte Garcia",
+        "Marina Salorio-Corbetto",
+        "Susan Eitutis",
+        "Robert P. Carlyon",
+        "James R. Tysome",
+        "Neil P. Donnelly",
+        "Patrick R. Axon",
+        "Matthew E. Smith",
+        "Chloe Swords",
+        "Yu Chuen Tam",
+        "Sophie McKenny",
+        "John Deeks",
+        "Dakota Bysouth-Young",
+        "Manohar Bance"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-08-04",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001864",
+      "url": "https://doi.org/10.1097/aud.0000000000001864",
+      "abstract": "Objectives: Extra-cochlear electrodes (EEs) are a frequent complication in cochlear implant (CI) surgery, potentially leading to reduced speech-perception outcomes. Standard intraoperative tools such as contact impedances and electrically evoked compound action potentials often fail to detect these misplaced electrodes. Stimulation Current-Induced Non-Stimulating Electrode Voltages (SCINSEVs), or electrical field imaging (EFI) in the advanced bionics device, are presented here as a faster and more accurate intraoperative measure for identifying EE. Adopting this method clinically could reduce reliance on intraoperative or postoperative imaging and allow EE identification in the critical window of surgery, when immediate correction can occur. Design: This prospective intraoperative study tested adult CI candidates or users undergoing new or revision surgery at a single institution. EFI measurements were recorded during electrode insertion, where the surgeon was asked to hold a randomly selected number of 1 to 6 electrodes outside of the cochlea before full insertion. Visual confirmation of the number of EE electrode positions was achieved with the surgical microscope. Recordings were taken simulating postoperative conditions (with EE surrounded by blood or fascia). Three expert reviewers blinded to surgical outcomes reviewed EFI data to identify the number of EEs. Agreement between reviewers and surgeons was analyzed using correlations, receiver operating characteristic plots, and sensitivity and specificity calculations. Results: General linear models revealed significant effects of the number of EEs not inserted by the surgeon (0 to 6 EEs) and the reviewer (1 to 3) on the EE ranking error, and no effects of the surgery type (revision or first-time cochlear implantation), nor of the material used (blood or fascia). A correlation was observed between the number of not-inserted EEs and EEs ranked based on the EFIs ( r = 0.63, p < 0.0001). For identification of the presence or absence of EEs based on visual inspection of SCINSEVs, an overall sensitivity of 95.9% and a specificity of 40.7% were achieved (97.9% and 65.7% with ±2 EE reviewer-surgeon agreement tolerance). Conclusions: SCINSEVs are a rapid, reliable tool for intraoperative EE detection. With high sensitivity and moderate specificity, they offer a non-radiative alternative to postoperative computerized tomography, with results available during the surgical procedure. Use of this tool may improve CI outcomes through immediate surgical correction. The authors recommend training of relevant clinical staff to record and interpret these measurements for use within clinical practice.",
+      "first_author_affiliation": "Department of ENT, Cambridge University Hospitals National Health Service Foundation Trust, Cambridge, United Kingdom",
+      "last_author_affiliation": "Department of ENT, Cambridge University Hospitals National Health Service Foundation Trust, Cambridge, United Kingdom",
+      "open_access": true,
+      "open_access_url": "https://journals.lww.com/10.1097/AUD.0000000000001864",
+      "open_access_source": "crossref_license",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology",
+        "cochlear implant"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-04",
+      "first_seen_at": "2026-07-28T05:26:11Z",
+      "full_text_url": "https://journals.lww.com/10.1097/AUD.0000000000001864",
+      "media_checked_at": "2026-07-28T05:26:30Z",
+      "open_access_image_checked_at": "2026-07-28T05:26:30Z",
+      "ai_analysis": {
+        "scientific_question": "研究探讨SCINSEVs（电流刺激诱发的非刺激电极电压）是否可以作为可靠的术中工具，用于识别人工耳蜗植入手术中的耳蜗外电极。",
+        "key_highlight": "SCINSEVs检测耳蜗外电极的灵敏度达95.9%，提供了一种可在手术过程中实时应用的快速、非辐射性检测方法。",
+        "main_limitation": "该方法的特异性较低（40.7%），存在较多假阳性结果；此外，研究在单一机构进行且采用人工模拟的耳蜗外电极条件，真实临床场景的适用性仍需验证。",
+        "research_implication": "该技术若获临床推广，可能通过术中即时检测并纠正错位电极，改善人工耳蜗植入手术效果并减少对术后影像学检查的依赖。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "f14c807c428a2319",
+        "updated_at": "2026-07-28T05:27:26Z"
+      }
     },
     {
       "title": "Aging-related reconfiguration of auditory working-memory control under converging phonological and executive demands: EEG signatures and speech-in-noise performance",
@@ -2069,6 +2464,73 @@
       "first_seen_at": "2026-07-26T05:43:02Z"
     },
     {
+      "title": "Influence of cochlear amplifier gain and operating point on distortion-product otoacoustic emissions in a cochlear model",
+      "authors": [
+        "Václav Vencovský",
+        "Yi-Wen Liu",
+        "Aleš Vetešník"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-07-27",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044329",
+      "url": "https://doi.org/10.1121/10.0044329",
+      "abstract": "A cochlear model composed of fluid-coupled oscillators was used to predict cubic difference tone (CDT) and quadratic difference tone (QDT) distortion-product otoacoustic emissions (DPOAEs). The model contains a nonlinear feedback force term with either a symmetrically saturating first-order Boltzmann function (BF) or an asymmetrically saturating second-order BF. We directly varied the force gain and also explored how changes in the force operating point (OP), which inherently influence the force amplitude, affect CDT and QDT DPOAEs. CDT DPOAEs evoked by low-level stimuli were more sensitive to the gain manipulations than high-level CDT DPOAEs. However, direct force gain reduction decreased high-level CDT DPOAEs more than the OP shift, which could even increase high-level DPOAEs in the case of the second-order BF. The effects of the gain decline on QDT DPOAEs are more variable across levels than for CDT DPOAEs due to the larger role of distributed sources in QDT DPOAE generation. The presented results suggest that DPOAE growth functions could be used to detect and distinguish between changes in cochlear mechanics due to OP shift and direct gain changes.",
+      "first_author_affiliation": "Department of Radio Engineering, Czech Technical University in Prague 1 , Technická 2, 166 27 Prague,",
+      "last_author_affiliation": "Department of Nuclear Chemistry, Czech Technical University in Prague 3 , Břehová 7, 115 19 Prague,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-07-27",
+      "first_seen_at": "2026-07-28T05:26:08Z"
+    },
+    {
+      "title": "Integrating atmospheric fluctuations into the image source method",
+      "authors": [
+        "Jeremy Lawrence",
+        "Zeyu Xu",
+        "Andreas Walther",
+        "Nils Peters",
+        "Emanuël A. P. Habets"
+      ],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-07-27",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044473",
+      "url": "https://doi.org/10.1121/10.0044473",
+      "abstract": "Successive room impulse response (RIR) measurements exhibit subtle variations, mainly caused by atmospheric fluctuations due to spatiotemporal air-temperature differences. This work extends the image source method by incorporating temperature-induced variability through global deterministic drift and stochastic local volatility. Measurements in a shoebox room show that the proposed model reproduces key behaviors observed in practice, including the structure of differential RIRs, temporal variance of early reflections and coherence of late reverb, which fluctuation-free simulations fail to capture. The method increases realism without increasing the algorithmic complexity, enabling simulations that better reflect the variability encountered by algorithms in real measurement scenarios.",
+      "first_author_affiliation": "International Audio Laboratories Erlangen 1 ,",
+      "last_author_affiliation": "International Audio Laboratories Erlangen 1 ,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0044473",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-07-27",
+      "first_seen_at": "2026-07-28T05:26:08Z",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/7/072401/3399324/Integrating-atmospheric-fluctuations-into-the",
+      "media_checked_at": "2026-07-28T05:26:31Z",
+      "open_access_image_checked_at": "2026-07-28T05:26:31Z",
+      "ai_analysis": {
+        "scientific_question": "如何将大气波动（由空气温度时空差异引起）纳入图像源方法以模拟房间脉冲响应的变化性？",
+        "key_highlight": "该方法能够在不增加算法复杂度的情况下，再现实践中观察到的差分房间脉冲响应结构、早期反射的时间方差和晚期混响的相干性等关键行为。",
+        "main_limitation": "实验仅在矩形（shoebox）房间中进行，缺乏对更复杂房间几何形状的验证。",
+        "research_implication": "该方法可为需要真实房间声学模拟的听觉相关研究提供更接近实际测量场景的声学环境建模工具。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "0f3e9bac9023640a",
+        "updated_at": "2026-07-28T05:28:09Z"
+      }
+    },
+    {
       "title": "Limited Interchangeability of Cochlear Tuning Estimates Across Fast Psychophysical Tuning Curve, Distortion-Product Otoacoustic-Emission Level-Ratio Function, and Stimulus-Frequency Otoacoustic Emission-Phase Methods at 2 to 8 kHz",
       "authors": [
         "Tong Wu",
@@ -2082,6 +2544,18 @@
       "doi": "10.1097/aud.0000000000001868",
       "url": "https://doi.org/10.1097/aud.0000000000001868",
       "abstract": "Objectives: Auditory frequency selectivity is a critical determinant of speech intelligibility in noise. Although fast psychophysical tuning curves (fPTCs) and otoacoustic emission (OAE)-based metrics are often interpreted as indirect estimates of cochlear tuning, they differ in measurement pathway and physiological source. It remains unclear whether these methods provide interchangeable estimates at the individual-listener level. This study evaluated the correlation, absolute agreement, and Bland–Altman limits of agreement among behavioral and OAE-based tuning estimates to determine whether one method can serve as a reliable proxy for another in clinical or translational assessments. Design: A secondary analysis was performed on a dataset of 67 adults with hearing profiles ranging from normal to moderate high-frequency loss. Frequency selectivity was quantified at 2, 4, and 8 kHz using three methods: fPTCs, distortion product OAE-level ratio function estimates, and stimulus-frequency otoacoustic emission (SFOAE) phase-gradient delays. Tuning sharpness, quantified as the equivalent-rectangular-bandwidth quality factor (QERB), was compared across methods using Pearson correlations, intraclass correlation coefficients, and Bland–Altman limits of agreement. The impact of high-frequency thresholds and signal to noise ratio on method discrepancy was also modeled. Results: Intermethod associations were weak and inconsistent across frequencies. Absolute agreement was poor, with intraclass correlation coefficient [(2,1)] values near or below zero across method pairs. Bland–Altman analyses showed wide limits of agreement, indicating substantial individual-level disagreement. At 4 kHz, the fPTC–SFOAE comparison showed limits of agreement from approximately −2.11 to 1.53 log units, corresponding to multiplicative limits of approximately 0.12× to 4.63× on the original QERB scale. Higher high-frequency thresholds and lower SFOAE signal to noise ratio were associated with greater intermethod disagreement. Conclusions: Behavioral and OAE-based tuning metrics were not interchangeable at the individual-listener level. The weak correlations, poor absolute agreement, and wide limits of agreement suggest that fPTC, distortion product OAE-level ratio function, and SFOAE phase estimates should be treated as complementary rather than redundant measures. Future work should determine whether intermethod mismatch provides diagnostic information beyond any single tuning metric.",
+      "ai_analysis": {
+        "scientific_question": "行为学调谐曲线（fPTC）与耳声发射（OAE）指标在个体水平上能否提供可互换的耳蜗调谐估计值？",
+        "key_highlight": "三种调谐估计方法之间的相关性较弱且不一致，绝对一致性较差，Bland-Altman分析显示个体间差异显著，表明行为学与OAE指标不能相互替代。",
+        "main_limitation": "高频听阈升高和SFOAE信噪比降低与更大的方法间差异相关，提示测量可靠性可能影响结果一致性。",
+        "research_implication": "该研究提示临床或转化评估中不宜将fPTC与OAE指标作为冗余方法使用，而应作为互补指标分别提供耳蜗频率选择性的不同维度的信息。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "e5396156be814208",
+        "updated_at": "2026-07-27T06:03:23Z"
+      },
       "first_author_affiliation": "Department of Otorhinolaryngology, Head and Neck Surgery, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
       "last_author_affiliation": "Department of Otorhinolaryngology, Head and Neck Surgery, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
       "publication_stage": "early_access",
@@ -2098,19 +2572,35 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-07-27",
-      "first_seen_at": "2026-07-26T05:43:02Z",
-      "ai_analysis": {
-        "scientific_question": "行为学调谐曲线（fPTC）与耳声发射（OAE）指标在个体水平上能否提供可互换的耳蜗调谐估计值？",
-        "key_highlight": "三种调谐估计方法之间的相关性较弱且不一致，绝对一致性较差，Bland-Altman分析显示个体间差异显著，表明行为学与OAE指标不能相互替代。",
-        "main_limitation": "高频听阈升高和SFOAE信噪比降低与更大的方法间差异相关，提示测量可靠性可能影响结果一致性。",
-        "research_implication": "该研究提示临床或转化评估中不宜将fPTC与OAE指标作为冗余方法使用，而应作为互补指标分别提供耳蜗频率选择性的不同维度的信息。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "e5396156be814208",
-        "updated_at": "2026-07-27T06:03:23Z"
-      }
+      "first_seen_at": "2026-07-26T05:43:02Z"
+    },
+    {
+      "title": "Pinna shape similarity from excitation-inhibition patterns",
+      "authors": [
+        "Hsuan-Yang Wang",
+        "Christine Evers",
+        "Philip Nelson",
+        "Noriyuki Ohashi",
+        "Kazunobu Kondo",
+        "Jorge Trevino",
+        "Yasuo Shiozawa"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-07-27",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044385",
+      "url": "https://doi.org/10.1121/10.0044385",
+      "abstract": "This study assesses pinna shape similarity using excitation-inhibition (EI) patterns as a compact feature embedding of interaural spectral symmetry, motivated by auditory brainstem models. Pinna-related impulse responses were extracted from head-related impulse responses (HRIRs) along the median plane and converted into EI patterns. Ear similarity was quantified with Euclidean distances over EI peak values. Clustering of 144 individuals first separated them into spectral clusters (S-clusters) based on interaural spectral difference (ISD), distinguishing spectrally balanced from imbalanced ears. To isolate morphology from spectral asymmetry, the 119 individuals with balanced ISD were re-clustered into five morphological clusters (M-clusters). Representative average ear shapes (RAES) were derived for each M-cluster and used to synthesise HRIRs with a common head and torso but different pinna morphologies. A virtual listening experiment provided a preliminary perceptual test of whether these EI-derived differences affected median plane elevation localisation. Listeners who achieved reliable externalisation showed reduced accuracy when the RAES had larger conchae than their own ears, with errors increasing with concha antihelix valley to intertragic notch mismatch. These results suggest that EI-based clustering captures pinna morphology relevant to elevation localisation.",
+      "first_author_affiliation": "School of Electronics and Computer Science, University of Southampton 1 , Southampton SO17 1BJ,",
+      "last_author_affiliation": "Research and Development Division, Yamaha Corporation 3 , Hamamatsu, Shizuoka 430-8650,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-07-27",
+      "first_seen_at": "2026-07-28T05:26:08Z"
     },
     {
       "title": "Excess Vowel Fusion in Hearing-Impaired Listeners Across Fundamental Frequency and Spatial Separation in the Free Field: An Alternative Mechanism for Difficulties With Speech in Noise",
@@ -2127,6 +2617,18 @@
       "url": "https://doi.org/10.1177/23312165261473398",
       "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261473398",
       "abstract": "Binaural fusion occurs when signals arriving separately at the two ears are perceived as one sound. Previously, it was shown that normal-hearing (NH) or hearing-impaired (HI) listeners fused and perceptually averaged dichotic vowels presented through headphones. HI listeners even fused vowels with different fundamental frequencies (F 0 s), indicating a new alternative mechanism underlying difficulties with speech segregation. To extend these findings to a more real-world listening context, the current study investigated if vowel fusion and averaging would also occur in the free field. Synthesized vowels/with F 0 s of 106.9, 151.2, or 201.8 Hz and were presented simultaneously via loudspeakers located on the left and right at ±60° relative to the listener’s head. Listeners indicated which single vowel or two vowels they heard. Similar trends of vowel fusion were observed as in the previous study. For ΔF 0 =0, both groups showed high rates of vowel fusion. For ΔF 0 >0, NH listeners showed decreased fusion, but fusion remained high for HI listeners. Compared to headphone presentation, overall vowel fusion occurred less frequently under free field presentation, with different patterns of perceptual averaging. Results suggest that cues available in the free field may help reduce vowel fusion, especially in NH listeners and for vowels with the same F0. However, HI listeners still experience excessive vowel fusion in the free field, even with ΔF 0 as large as 6–11 semitones. These findings reinforce the importance of reducing both the blending of multiple speech streams and excessive fusion to address difficulties with understanding speech in noise.",
+      "ai_analysis": {
+        "scientific_question": "在更接近真实世界的自由场条件下，听力损失者是否仍会出现类似耳机条件下的过度元音融合现象？",
+        "key_highlight": "与正常听力者不同，听力损失者在自由场条件下即使F0差异达到6-11个半音仍保持较高的元音融合率，但自由场线索总体上确实能降低两组的融合程度。",
+        "main_limitation": "使用合成元音和有限的空间位置设置可能限制结果向更复杂的真实聆听场景推广。",
+        "research_implication": "研究提示减少语音流混合和过度融合对于改善听力损失者在噪声环境中的言语理解至关重要，对助听器和人工耳蜗的降噪策略设计具有参考意义。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "f12708952b702268",
+        "updated_at": "2026-07-27T06:03:46Z"
+      },
       "first_author_affiliation": "VA Portland Health Care System",
       "last_author_affiliation": "Oregon Health and Science University",
       "open_access": true,
@@ -2143,19 +2645,7 @@
       ],
       "source": "crossref",
       "available_online_date": "2026-07-25",
-      "first_seen_at": "2026-07-26T05:43:00Z",
-      "ai_analysis": {
-        "scientific_question": "在更接近真实世界的自由场条件下，听力损失者是否仍会出现类似耳机条件下的过度元音融合现象？",
-        "key_highlight": "与正常听力者不同，听力损失者在自由场条件下即使F0差异达到6-11个半音仍保持较高的元音融合率，但自由场线索总体上确实能降低两组的融合程度。",
-        "main_limitation": "使用合成元音和有限的空间位置设置可能限制结果向更复杂的真实聆听场景推广。",
-        "research_implication": "研究提示减少语音流混合和过度融合对于改善听力损失者在噪声环境中的言语理解至关重要，对助听器和人工耳蜗的降噪策略设计具有参考意义。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "f12708952b702268",
-        "updated_at": "2026-07-27T06:03:46Z"
-      }
+      "first_seen_at": "2026-07-26T05:43:00Z"
     },
     {
       "title": "A Biophysical Model for Simultaneous Cochlear and Vestibular Nerve Stimulation: Insights into Neural Activation and Crosstalk in Inner Ear Implants",
@@ -2332,6 +2822,41 @@
       "first_seen_at": "2026-07-25T05:25:33Z"
     },
     {
+      "title": "Cycles of Discourse, Speech Dysfluency, and Active Inference",
+      "authors": [
+        "Thomas Parr",
+        "Birtan Demirel",
+        "Youssuf Saleh",
+        "Sanjay Manohar"
+      ],
+      "journal": "arXiv",
+      "publication_date": "2026-07-24",
+      "publication_date_precision": "day",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2607.22180v1",
+      "abstract": "Speech is a complex motor and social act. We must not only produce and understand sequences of variable-length words formed of ordered syllables but also speak and listen in turn. This theoretical paper introduces a computational model of speech production and auditory segmentation based upon sequences of discrete phonemes. The purpose of this is to develop a vehicle to test (in silico) hypotheses about the mechanisms that govern loss of speech fluency, something that may happen transiently in people who stutter or progressively in various neurodegenerative conditions. The modelling here appeals to Partially Observable Markov Decision Processes that provide a useful generic formulation for specifying the internal model our brains might use to describe dynamic environments in which they can exert partial control and make partial observations. The core features of the specific model used here are: (1) a reciprocal mapping from words to sequences of varying numbers of phonemes (2) a common subset of states for both speech generation and speech perception. A further novel feature is a social component, in which one must infer who is speaking (self or other). We propose a series of hypotheses about the computational mechanisms that might underwrite speech breakdown. For example, we demonstrate that reducing the precision in the next word introduces pauses and start-of-word repetitions of the sort associated with stuttering. We examine the patterns of behaviour and belief-updating predicted by each of these hypotheses, with implications for both speaking and listening. Finally, we discuss plausible neural substrates for the underlying message passing that might be amenable to interrogation with functional imaging.",
+      "publication_stage": "preprint",
+      "section": null,
+      "keywords": [
+        "q-bio.NC"
+      ],
+      "tags": [],
+      "source": "arxiv",
+      "available_online_date": "2026-07-24",
+      "source_group": "preprint_filtered",
+      "source_group_label": "Preprints (arXiv)",
+      "actual_journal": "arXiv",
+      "match_level": "topic_filtered_hearing_speech",
+      "matched_keywords": [
+        "speech perception"
+      ],
+      "match_fields": [
+        "abstract"
+      ],
+      "needs_review": true,
+      "first_seen_at": "2026-07-28T05:26:22Z"
+    },
+    {
       "title": "Introduction to the special issue on ecological perspectives on hearing",
       "authors": [
         "Laurie M. Heller",
@@ -2345,6 +2870,18 @@
       "doi": "10.1121/10.0044474",
       "url": "https://doi.org/10.1121/10.0044474",
       "abstract": "This special issue explores an ecological perspective to hearing in human and non-human animals. The goal is to understand the relationship between the auditory system and the natural sounds of real-world environments, including animal vocalizations such as birdsongs or insect stridulations and geophysical sounds such as stream, wind, or rainfall sounds. Furthering this understanding requires drawing insights from evolution, behavior, acoustics, modeling, and more. The articles in this issue span diverse disciplines such as evolutionary biology, soundscape ecology and ecoacoustics, neuro-ethology and bioacoustics, computational acoustics, psychoacoustics, machine learning, clinical audiology, and physiology. Collectively, the articles in this joint issue with JASA and JASA Express Letters demonstrate how this interdisciplinary approach to hearing can advance our understanding of auditory monitoring and comprehension of natural sounds and scenes.",
+      "ai_analysis": {
+        "scientific_question": "如何从生态学视角理解人类和非人类动物的听觉系统与自然环境声音之间的关系。",
+        "key_highlight": "本特刊汇集了来自进化生物学、声音景观生态学、神经行为学、计算声学、心理声学、机器学习、临床听力学和生理学等多个学科的研究，展示了跨学科方法在听觉研究中的应用潜力。",
+        "main_limitation": "作为特刊导言而非实证研究，缺乏具体实验数据或单一主题的系统性验证。",
+        "research_implication": "生态学视角可能为理解真实环境中的听觉机制提供新思路，但其对助听器、人工耳蜗或言语感知等临床应用的直接指导意义有待后续实证研究进一步明确。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "66f5790673e6d665",
+        "updated_at": "2026-07-27T06:04:05Z"
+      },
       "first_author_affiliation": "Department of Psychology, Carnegie Mellon University 1 , Pittsburgh, Pennsylvania 15217,",
       "last_author_affiliation": "Department of Integrative Biology, University of California 4 , Berkeley, California 94720-1650,",
       "section": "Psychological and Physiological Acoustics",
@@ -2358,19 +2895,7 @@
       ],
       "source": "crossref",
       "available_online_date": "2026-07-24",
-      "first_seen_at": "2026-07-25T05:25:33Z",
-      "ai_analysis": {
-        "scientific_question": "如何从生态学视角理解人类和非人类动物的听觉系统与自然环境声音之间的关系。",
-        "key_highlight": "本特刊汇集了来自进化生物学、声音景观生态学、神经行为学、计算声学、心理声学、机器学习、临床听力学和生理学等多个学科的研究，展示了跨学科方法在听觉研究中的应用潜力。",
-        "main_limitation": "作为特刊导言而非实证研究，缺乏具体实验数据或单一主题的系统性验证。",
-        "research_implication": "生态学视角可能为理解真实环境中的听觉机制提供新思路，但其对助听器、人工耳蜗或言语感知等临床应用的直接指导意义有待后续实证研究进一步明确。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "66f5790673e6d665",
-        "updated_at": "2026-07-27T06:04:05Z"
-      }
+      "first_seen_at": "2026-07-25T05:25:33Z"
     },
     {
       "title": "Quasi-psychoacoustic metrics for sound quality analysis of low-resolution data",
@@ -2418,6 +2943,46 @@
       "first_seen_at": "2026-07-25T05:25:34Z"
     },
     {
+      "title": "Synthetic Speech, Real Signal: Paralinguistic Preservation and Cross-Lingual Augmentation via Voice Cloning",
+      "authors": [
+        "Roseline Polle",
+        "Owen Parsons",
+        "George Fairs",
+        "Luis Miguel San Martin Fernandez",
+        "Cole Looney",
+        "Xiaoliang Wu",
+        "Alexandra Livia Georgescu",
+        "Stefano Goria"
+      ],
+      "journal": "arXiv",
+      "publication_date": "2026-07-24",
+      "publication_date_precision": "day",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2607.22304v1",
+      "abstract": "Synthetic data augmentation in speech is common practice for linguistic tasks like ASR, but has seen far less work for paralinguistic ones, especially clinical tasks where labelled data is expensive and some patient groups are underrepresented. Voice cloning is one such augmentation approach, but is typically evaluated on speech intelligibility (WER) or speaker similarity (SS) rather than on downstream performance, and it remains unclear whether these preserve the paralinguistic signal such tasks depend on. We benchmark eight voice cloning models on five paralinguistic tasks across public and clinical datasets, showing most preserve signal with modest degradation. We then clone English clinical speech into Japanese and find that training on cloned data outperforms raw cross-lingual transfer for depression and anxiety detection on real Japanese speech, suggesting voice cloning is a promising direction for augmenting clinical speech data in low-resource languages.",
+      "publication_stage": "preprint",
+      "section": null,
+      "keywords": [
+        "cs.LG",
+        "cs.SD"
+      ],
+      "tags": [],
+      "source": "arxiv",
+      "available_online_date": "2026-07-24",
+      "source_group": "preprint_filtered",
+      "source_group_label": "Preprints (arXiv)",
+      "actual_journal": "arXiv",
+      "match_level": "topic_filtered_hearing_speech",
+      "matched_keywords": [
+        "speech intelligibility"
+      ],
+      "match_fields": [
+        "abstract"
+      ],
+      "needs_review": true,
+      "first_seen_at": "2026-07-28T05:26:22Z"
+    },
+    {
       "title": "Using cross-spectral phase to characterize individual targets in clutter: Application to broadband echosounders",
       "authors": [
         "Miad Al Mursaline",
@@ -2431,6 +2996,18 @@
       "url": "https://doi.org/10.1121/10.0044241",
       "full_text_url": "https://pubs.aip.org/jasa/article/160/1/773/3399207/Using-cross-spectral-phase-to-characterize",
       "abstract": "A method is presented to distinguish single finite targets from acoustic clutter, that is, unresolvable echoes associated with multiple targets. It exploits frequency-dependent interference of multiple targets and the resultant frequency-dependent variation of cross-spectral phase to differentiate between echoes from single targets and coincident echoes from multiple targets. The method is demonstrated, in the context of split-beam echosounders, through mathematical modeling of the cross-spectral phase for an arbitrary number of targets as well as through laboratory and at-sea experiments on elastic spheres. Fresnel zone and resonance effects are used to interpret the findings, providing insights into the connection between the underlying scattering physics and the effects of coincident echoes on cross-spectral phase. False acceptance rates of the method are then calculated and compared with those of existing approaches in the literature. Finally, the method is applied to infer the in situ target strengths of individual gas-bearing organisms.",
+      "ai_analysis": {
+        "scientific_question": "如何利用跨频谱相位特征区分单个有限目标与声学杂波中的多个目标回波？",
+        "key_highlight": "该方法通过利用多目标产生的频率依赖干涉效应及其导致的跨频谱相位变化，实现了对单目标与多目标回波的区分，并通过数学建模及实验室和海上实验进行了验证。",
+        "main_limitation": "Limited generalizability due to small or specific sample",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "fe8e1e0c13ab3ea6",
+        "updated_at": "2026-07-27T06:04:14Z"
+      },
       "first_author_affiliation": "Department of Mechanical Engineering, Massachusetts Institute of Technology 1 , Cambridge, Massachusetts 02139,",
       "last_author_affiliation": "Department of Applied Ocean Physics and Engineering, Woods Hole Oceanographic Institution 2 , Woods Hole, Massachusetts 02543,",
       "open_access": true,
@@ -2444,19 +3021,7 @@
       "tags": [],
       "source": "crossref",
       "available_online_date": "2026-07-24",
-      "first_seen_at": "2026-07-25T05:25:33Z",
-      "ai_analysis": {
-        "scientific_question": "如何利用跨频谱相位特征区分单个有限目标与声学杂波中的多个目标回波？",
-        "key_highlight": "该方法通过利用多目标产生的频率依赖干涉效应及其导致的跨频谱相位变化，实现了对单目标与多目标回波的区分，并通过数学建模及实验室和海上实验进行了验证。",
-        "main_limitation": "Limited generalizability due to small or specific sample",
-        "research_implication": "General research findings",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "fe8e1e0c13ab3ea6",
-        "updated_at": "2026-07-27T06:04:14Z"
-      }
+      "first_seen_at": "2026-07-25T05:25:33Z"
     },
     {
       "title": "Perceiving temporal rhythms in Sahelian soundscapes of Senegal: A pilot interdisciplinary study bridging psychoacoustics, ecology, and anthropology",
@@ -2618,54 +3183,6 @@
       "source": "crossref",
       "available_online_date": "2026-07-22",
       "first_seen_at": "2026-07-23T05:35:30Z"
-    },
-    {
-      "title": "Near-field recordings expose the limits of far-field measures of peripheral vestibular nerve activity: implications for experimental controls",
-      "authors": [
-        "Jade D. Mansell",
-        "Ángel Ramos de Miguel",
-        "Ya Lang Enke",
-        "Robert Gay",
-        "Mohsen Asadnia",
-        "Ian S. Curthoys",
-        "Christopher J. Pastras"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-07-22",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109751",
-      "url": "https://doi.org/10.1016/j.heares.2026.109751",
-      "abstract": "Vestibular short-latency evoked potentials (VsEPs) provide an objective measure of otolith-driven vestibular nerve activity but remain technically challenging to record when compared with cochlear evoked responses. This difficulty arises from the location of the vestibular system, in close proximity to the cochlea, which generates large biopotentials to similar stimuli. In experimental animal models, VsEPs are commonly recorded using far-field (FF) scalp electrodes, however the extent to which this approach faithfully reflects near-field (NF) recordings remains unclear. Here, we directly compare simultaneous NF facial nerve canal (FNC) VsEPs and FF scalp responses in vivo in the guinea pig in response to interaural bone-conducted vibration (BCV). NF VsEPs were recorded from within the FNC adjacent to the vestibular nerve bundle, while FF responses were recorded from the scalp. NF FNC VsEPs exhibited amplitudes roughly 20-fold larger, with SNR values approximately 10-15 dB higher than FF scalp responses across animals. NF responses revealed a ∼90% reduction during transient hypoxia and an almost complete abolition following tetrodotoxin application to the otolithic macula. In contrast, FF scalp VsEPs underestimated vestibular hypofunction and retained residual responses following neural blockade and death, consistent with non-neural origins. Micro-CT imaging of the guinea pig temporal bone confirmed the close anatomical proximity of the utricular macula to the FNC, providing the anatomical basis for the superior signal amplitude recorded at this site. Together, these findings demonstrate that NF FNC recordings provide a more sensitive and selective measure of peripheral vestibular nerve activity than FF scalp electrodes in the guinea pig, demonstrating the important need for optimising recording location and experimental controls when recording vestibular evoked potentials.",
-      "last_author_affiliation": "Faculty of Science and Engineering, School of Engineering, Macquarie University, Sydney, NSW, 2109, Australia. Electronic address: christopher.pastras@mq.edu.au.",
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [
-        "Bone-conducted vibration",
-        "Facial nerve canal",
-        "Far-field recording",
-        "Guinea pig",
-        "Near-field recording",
-        "Otolith",
-        "Vestibular evoked potential"
-      ],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-07-22",
-      "first_seen_at": "2026-07-27T06:02:33Z",
-      "ai_analysis": {
-        "scientific_question": "远场头皮电极记录在多大程度上能够真实反映近场记录所测量的外周前庭神经活动？",
-        "key_highlight": "近场面神经管记录的前庭诱发电位振幅约为远场头皮记录的20倍，信噪比高10-15分贝，且远场记录在神经阻滞和动物死亡后仍保留残余响应，提示存在非神经来源的干扰信号。",
-        "main_limitation": "研究仅在豚鼠中进行，动物模型的解剖结构与人类存在差异，结论向人类研究转化的有效性尚需验证。",
-        "research_implication": "该研究提示前庭功能研究需优化记录位置和实验对照设计，未来临床前庭诱发电位检测方法可能需要重新评估电极放置策略。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "6d9c9b694d725a85",
-        "updated_at": "2026-07-27T06:04:45Z"
-      }
     },
     {
       "title": "Aeroacoustic characterization of rotor–wing interaction noise in Lift+Cruise vertical takeoff and landing aircraft",
@@ -3209,6 +3726,18 @@
       "doi": null,
       "url": "https://arxiv.org/abs/2607.18345v1",
       "abstract": "Limited training data constrains deep learning models for Auditory Attention Decoding (AAD) in hearing aids (HAs). AAD uses electroencephalogram (EEG) data to decode listener's attention, enabling real-time tracking of specific sound sources. However, achieving high AAD performance with short time windows typical in HAs (<=1s) is challenging due to the scarcity of real-world speech-evoked EEG data. To address this issue, we investigate diffusion probabilistic models (DPMs) for generating synthetic speech-evoked EEG data. DPMs learn the underlying complex data structure through a denoising process and can generate realistic samples suitable for data augmentation. We evaluate the use of synthetic EEG data for augmenting datasets in locus-of-attention (LoA) classification tasks. Our experiments demonstrate that DPMs can generate realistic EEG signals and that incorporating synthetic data significantly improves AAD performance compared to models trained solely on measured EEG data (p<0.05). These results highlight the potential of diffusion-based data augmentation to mitigate training data limitations and improve the robustness of short-window AAD models in HA applications.",
+      "ai_analysis": {
+        "scientific_question": "如何解决深度学习模型在助听器听者注意解码（AAD）应用中面临的训练数据不足问题？",
+        "key_highlight": "扩散概率模型可生成逼真的合成语音诱发脑电数据，用于数据增强后能显著提升AAD性能（p<0.05）。",
+        "main_limitation": "合成数据增强方法的泛化能力尚未在多样化真实世界数据中得到充分验证。",
+        "research_implication": "扩散模型数据增强为改善助听器短时窗AAD模型的鲁棒性提供了新思路。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "67dedcf673368980",
+        "updated_at": "2026-07-27T06:05:04Z"
+      },
       "publication_stage": "preprint",
       "section": null,
       "keywords": [
@@ -3231,19 +3760,7 @@
         "abstract"
       ],
       "needs_review": true,
-      "first_seen_at": "2026-07-22T05:30:34Z",
-      "ai_analysis": {
-        "scientific_question": "如何解决深度学习模型在助听器听者注意解码（AAD）应用中面临的训练数据不足问题？",
-        "key_highlight": "扩散概率模型可生成逼真的合成语音诱发脑电数据，用于数据增强后能显著提升AAD性能（p<0.05）。",
-        "main_limitation": "合成数据增强方法的泛化能力尚未在多样化真实世界数据中得到充分验证。",
-        "research_implication": "扩散模型数据增强为改善助听器短时窗AAD模型的鲁棒性提供了新思路。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "67dedcf673368980",
-        "updated_at": "2026-07-27T06:05:04Z"
-      }
+      "first_seen_at": "2026-07-22T05:30:34Z"
     },
     {
       "title": "Lifetime Noise Exposure and Its Interaction With Ageing: Effects on Audiometric Thresholds, Speech-In-Noise Perception, and Tinnitus for Palestinian Workers",
@@ -3422,54 +3939,6 @@
       "first_seen_at": "2026-07-21T05:31:08Z"
     },
     {
-      "title": "Implicit auditory sensory memory and short–term memory for musical and verbal stimuli in children with cochlear implants",
-      "authors": [
-        "Ahmet Alperen Akbulut",
-        "Ayça Çiprut",
-        "Nilüfer Bal"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-07-18",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109750",
-      "url": "https://doi.org/10.1016/j.heares.2026.109750",
-      "abstract": "The spectrally degraded signal delivered by cochlear implants (CIs) has been suggested to constrain the encoding and temporary retention of sequential auditory information. However, research on short-term memory (STM) in children with CIs has predominantly focused on the verbal domain, with musical STM and implicit auditory sensory memory receiving comparatively limited attention. This study investigated the domain-specific nature of auditory STM in children with CIs relative to typically hearing (TH) peers, alongside implicit auditory sensory memory and music perception. Seventy-five children aged 7-15 years participated: 23 TH, 22 unilateral CI, and 30 bilateral CI users. Verbal and musical STM were assessed using a delayed matching-to-sample paradigm with signal detection measures (d', c). Implicit auditory sensory memory was evaluated with a tone pattern detection task (TP-Detect). Music perception was measured using Timbre Identification and Pitch Direction Discrimination. Children with CIs showed lower d' than TH peers on both verbal and musical STM, with a larger deficit for musical material. This verbal advantage persisted after controlling for timbre identification ability, suggesting that the musical STM impairment may not be attributable solely to degraded spectral encoding at the perceptual level. Bilateral CI children performed near chance on TP-Detect, whereas TH and unilateral CI children detected regularity transitions above chance. These findings indicate that children with CIs exhibit auditory memory deficits extending beyond the verbal domain and position musical memory and implicit sensory processing as clinically relevant dimensions of auditory function that may contribute to real-world auditory scene analysis and warrant targeted assessment.",
-      "ai_analysis": {
-        "scientific_question": "人工耳蜗儿童在音乐和言语领域的短时记忆是否存在领域特异性缺陷，以及其隐式听觉感觉记忆功能如何。",
-        "key_highlight": "人工耳蜗儿童在言语和音乐短时记忆上均表现出低于健听儿童的成绩，其中音乐领域的缺陷更为显著，且双侧人工耳蜗儿童在隐式感觉记忆任务中接近随机水平。",
-        "main_limitation": "实验室任务与真实世界听觉场景分析之间可能存在生态效度差异，且研究对象年龄范围限定于7至15岁儿童，对其他年龄段的推广性有限。",
-        "research_implication": "研究结果支持将音乐记忆和隐式感觉记忆纳入人工耳蜗植入儿童的临床评估维度，以更全面地预测其实环境听觉功能。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "5ce2a2066efd0ebb",
-        "updated_at": "2026-07-24T05:32:59Z"
-      },
-      "last_author_affiliation": "Department of Audiology, Faculty of Medicine, Marmara University, 34899, Istanbul, Türkiye. Electronic address: nilufer.bal@marmara.edu.tr.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Auditory sensory memory",
-        "Children",
-        "Cochlear implant",
-        "Domain specificity",
-        "Music perception",
-        "Short–term memory",
-        "Tone pattern detection"
-      ],
-      "tags": [
-        "auditory physiology",
-        "clinical audiology",
-        "cochlear implant",
-        "psychoacoustics",
-        "real-world listening"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-07-18",
-      "first_seen_at": "2026-07-23T05:35:35Z"
-    },
-    {
       "title": "Perceptual Adaptation to Noise-Vocoded Voice Clones",
       "authors": [
         "Han Wang",
@@ -3509,55 +3978,6 @@
       "source": "crossref",
       "available_online_date": "2026-07-18",
       "first_seen_at": "2026-07-19T05:32:54Z"
-    },
-    {
-      "title": "Peripheral phoneme encoding and discrimination in aging and hearing impairment",
-      "authors": [
-        "Marjoleen Wouters",
-        "Etienne Gaudrain",
-        "Konrad Dapper",
-        "Jakob Schirmer",
-        "Deniz Başkent",
-        "Lukas Rüttiger",
-        "Marlies Knipper",
-        "Sarah Verhulst"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-07-18",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109747",
-      "url": "https://doi.org/10.1016/j.heares.2026.109747",
-      "abstract": "Speech perception difficulties in noise are common among older adults and individuals with hearing impairment, but also occur among younger adults whose audiometric thresholds are within the clinically-normal range. We examined how aging, cochlear synaptopathy (CS), and outer hair cell (OHC) damage affect speech encoding and phoneme discrimination. Envelope-following responses (EFRs) to rectangular amplitude-modulated (RAM) tones and speech-like phoneme pairs were recorded in quiet using EEG, and behavioral discrimination was assessed in quiet, and with ipsilateral and contralateral noise. Stimuli were designed to target temporal envelope (TENV) or temporal fine structure (TFS) encoding. Results showed that RAM-EFR amplitudes decreased gradually with increasing age, consistent with emerging CS, while magnitudes of high-frequency TENV-based EFRs in quiet were most reduced in older hearing-impaired subjects with combined CS and OHC damage. In contrast, EFRs targeting low-frequency TENV encoding in quiet remained preserved. Behaviorally, discrimination of predominantly TFS-based phoneme contrasts worsened with OHC loss and age in quiet and contralateral noise, respectively, whereas discrimination of predominantly TENV-based contrasts showed no significant age effect. Considering that high-frequency contrasts are discriminated via place-based spectral cues, low-frequency contrasts rely on TFS, and the EFR reflects primarily TENV, this framework explains why EFRs decline for high-frequency cues without perceptual loss, while EFRs remain stable for low-frequency cues even as TFS-based discrimination deteriorates. These findings highlight the need to investigate how neural coding deficits relate to perception. Combining electrophysiological and behavioral measures might provide a framework for detecting subclinical auditory deficits to earlier diagnose age-related and hidden hearing loss.",
-      "ai_analysis": {
-        "scientific_question": "本研究探讨衰老、蜗突触病变和外毛细胞损伤如何分别或共同影响言语编码和音素辨别能力。",
-        "key_highlight": "研究发现高频时域包络编码的电生理指标随蜗突触病变和外毛细胞损伤而下降，但低频时域精细结构编码的行为辨别力仅随衰老而恶化，两者之间存在明显的分离现象。",
-        "main_limitation": "脑电响应仅在安静条件下测量，未能反映真实噪声环境下的神经编码特征。",
-        "research_implication": "结合电生理和行为测量可能有助于早期检测亚临床听觉缺陷，为年龄相关性和隐匿性听力损失的诊断提供框架。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "e58d3124761c2872",
-        "updated_at": "2026-07-26T05:43:54Z"
-      },
-      "last_author_affiliation": "Hearing Technology at Wireless, Acoustics, Environment and Expert Systems, Department of Information Technology, Ghent University, Technologiepark 126, 9052, Zwijnaarde, Belgium.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Age-related hearing loss",
-        "Auditory-evoked potentials",
-        "Cochlear synaptopathy",
-        "Phoneme discrimination"
-      ],
-      "tags": [
-        "auditory physiology",
-        "clinical audiology",
-        "psychoacoustics",
-        "speech perception"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-07-18",
-      "first_seen_at": "2026-07-21T05:31:14Z"
     },
     {
       "title": "Adaptive acoustic beamforming in a turbulent atmosphere",
@@ -4664,50 +5084,6 @@
       "first_seen_at": "2026-07-16T05:21:52Z"
     },
     {
-      "title": "An optimized tissue processing pipeline for multiscale imaging of the intact peripheral auditory pathway",
-      "authors": [
-        "Jan Frederik Ahrend",
-        "Louisa S. Kuenkel",
-        "Gerald Degenhart",
-        "Christian Vogl"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-07-14",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109748",
-      "url": "https://doi.org/10.1016/j.heares.2026.109748",
-      "abstract": "We present a comprehensive tissue processing and imaging pipeline tailored for multiscale analyses of the intact peripheral auditory pathway, encompassing the cochlea, cochlear root, and cochlear nucleus (CN) within a single specimen. This workflow integrates advanced imaging modalities - including micro-computed tomography (µCT), light-sheet fluorescence microscopy, confocal microscopy, and super-resolution STED microscopy - to enable a holistic assessment of fixed temporal bones. This methodological pipeline incorporates a unique and novel dissection technique that maintains the delicate connection between the cochlea and CN, facilitating volumetric imaging of neuronal populations and precise quantification of spiral and vestibular ganglion neurons without sectioning-related loss. The presented workflow further supports vascular network segmentation and nanoscale protein distribution analyses, thus offering versatility for diverse cochlear research applications. To promote widespread adoption, an adapted ethyl cinnamate-based clearing protocol, a novel slice preparation procedure as well as a validated antibody library are provided that enable robust labeling of cochlear structures ranging from whole-organ visualization to synaptic-scale analyses. By maximizing information extraction from individual specimens, this accessible pipeline aligns with 3R principles and provides a unified framework for investigating auditory function and pathology, advancing the study of hearing impairment and related genetic models.",
-      "ai_analysis": {
-        "scientific_question": "如何实现完整的周围听觉通路的从器官到突触尺度的多尺度整合成像？",
-        "key_highlight": "该pipeline通过保持耳蜗与蜗神经核的连接，结合多种成像模态，实现了固定颞骨标本的完整三维成像和量化分析。",
-        "main_limitation": "Limited generalizability due to small or specific sample",
-        "research_implication": "该pipeline为耳蜗结构、神经元计数、血管分割和突触蛋白分布等研究提供了统一的标准化工具，有望推动听力损伤机制和相关基因模型的研究。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "9f0ead4918e971c7",
-        "updated_at": "2026-07-26T05:43:47Z"
-      },
-      "last_author_affiliation": "Auditory Neuroscience Group, Institute of Physiology, Medical University Innsbruck, Innsbruck, Austria. Electronic address: christian.vogl@i-med.ac.at.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Auditory system",
-        "Hair cells",
-        "Immunofluorescence analysis",
-        "Light-sheet fluorescence microscopy (LSFM)",
-        "Spiral ganglion neurons",
-        "Vestibular ganglion neurons"
-      ],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-07-14",
-      "first_seen_at": "2026-07-15T05:11:16Z"
-    },
-    {
       "title": "Associations Between Extended High-Frequency Thresholds and Middle Ear Muscle Reflex Growth Functions in Adults With Normal Audiograms",
       "authors": [
         "Sajana Aryal",
@@ -4877,55 +5253,6 @@
       "source": "crossref",
       "available_online_date": "2026-07-14",
       "first_seen_at": "2026-07-15T05:11:09Z"
-    },
-    {
-      "title": "Speech perception deficits and neural network alterations during cocktail-party listening in age-related hearing loss",
-      "authors": [
-        "Hui Liu",
-        "Xuexin Tian",
-        "Aifang Fu",
-        "Jieqing Cai",
-        "Yifan Zhang",
-        "Anning Chen",
-        "Hongzheng Zhang"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-07-14",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109749",
-      "url": "https://doi.org/10.1016/j.heares.2026.109749",
-      "abstract": "Age-related hearing loss (ARHL) is associated with difficulty understanding speech in complex listening environments, yet its neural basis remains unclear. We combined behavioral measures with functional near-infrared spectroscopy (fNIRS) to examine speech perception and neural responses during cocktail-party listening. Sixty-eight participants (Young-NH, Older-NH, ARHL) completed a spatialized speech-recognition task under different masker types and signal-to-noise ratios, together with resting-state and task-based fNIRS recordings. ARHL showed poorer speech perception and reduced self-reported hearing ability across listening conditions. At rest, ARHL exhibited increased frontotemporal connectivity and greater local network organization. During the task, cortical responses showed a group gradient, with attenuation in Older-NH and predominantly negative responses in ARHL, and diminished modulation by listening demands. In addition, brain-behavior coupling observed in Young-NH was absent in both older groups. These findings indicate that speech perception deficits in ARHL are associated with altered neural responses and reduced flexibility in adapting to listening demands, accompanied by disrupted brain-behavior relationships.",
-      "ai_analysis": {
-        "scientific_question": "老年性听力损失（ARHL）患者在鸡尾酒会聆听场景中的言语感知困难是否存在神经基础？",
-        "key_highlight": "ARHL患者在安静状态下面向额颞叶连接增强和局部网络组织增加，但任务执行时皮层反应减弱且对听音需求变化的调制能力下降，Young-NH组中观察到的脑-行为耦合在两个老年组中均消失。",
-        "main_limitation": "fNIRS技术空间分辨率有限且无法探测深层脑结构，可能制约了对全脑神经网络变化的全面评估。",
-        "research_implication": "研究结果提示助听设备研发需考虑如何补偿ARHL患者神经网络的适应性下降和脑-行为耦合缺失，以改善复杂聆听环境中的言语感知。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "ee4b22863a11544d",
-        "updated_at": "2026-07-26T05:44:02Z"
-      },
-      "last_author_affiliation": "Department of Otolaryngology Head & Neck Surgery, Zhujiang Hospital, Southern Medical University, Guangzhou, 510282, China; Ear Research Institute, Zhujiang Hospital, Southern Medical University, Guangzhou, 510282, China; Zhujiang Hospital Institute for Brain Science and Intelligence, Southern Medical University, Guangzhou, 510282, China. Electronic address: redtrue@smu.edu.cn.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Age-related hearing loss",
-        "Cortical responses",
-        "Functional connectivity",
-        "Functional near-infrared spectroscopy",
-        "Multi-talker listening",
-        "Speech perception"
-      ],
-      "tags": [
-        "clinical audiology",
-        "machine learning",
-        "speech perception"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-07-14",
-      "first_seen_at": "2026-07-15T05:11:16Z"
     },
     {
       "title": "Behavioral and predictive relationships between spectral and temporal auditory processing",
@@ -7630,17 +7957,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -7661,18 +7989,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -17599,22 +17926,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -17627,6 +17938,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -25192,23 +25519,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -25222,6 +25532,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -28715,8 +29042,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -28730,8 +29057,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -33895,8 +34222,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -33910,8 +34237,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
