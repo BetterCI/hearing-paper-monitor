@@ -1,34 +1,6 @@
 {
-  "generated_at": "2026-08-01T05:37:43Z",
+  "generated_at": "2026-08-02T05:38:38Z",
   "papers": [
-    {
-      "title": "Experimental analysis of cartilage graft positioning in tympanoplasty and its impact on middle ear mechanics",
-      "authors": [
-        "Oestreicher David",
-        "Winkler Simon Tobias",
-        "Zhang Biru",
-        "Effertz Thomas",
-        "Hüser Marc Albert",
-        "Meyer Tim",
-        "Sackmann Benjamin",
-        "Lauxmann Michael",
-        "Beutner Dirk",
-        "Bevis Nicholas"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109752",
-      "url": "https://doi.org/10.1016/j.heares.2026.109752",
-      "abstract": null,
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-07-24",
-      "first_seen_at": "2026-08-01T05:37:31Z"
-    },
     {
       "title": "Hearing healthy: physical activity moderates the association between age-related hearing loss and brain volume",
       "authors": [
@@ -64,6 +36,43 @@
       "source": "crossref",
       "available_online_date": "2026-07-13",
       "first_seen_at": "2026-07-13T05:49:52Z"
+    },
+    {
+      "title": "Implicit auditory sensory memory and short–term memory for musical and verbal stimuli in children with cochlear implants",
+      "authors": [
+        "Ahmet Alperen Akbulut",
+        "Ayça Çiprut",
+        "Nilüfer Bal"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109750",
+      "url": "https://doi.org/10.1016/j.heares.2026.109750",
+      "abstract": "The spectrally degraded signal delivered by cochlear implants (CIs) has been suggested to constrain the encoding and temporary retention of sequential auditory information. However, research on short-term memory (STM) in children with CIs has predominantly focused on the verbal domain, with musical STM and implicit auditory sensory memory receiving comparatively limited attention. This study investigated the domain-specific nature of auditory STM in children with CIs relative to typically hearing (TH) peers, alongside implicit auditory sensory memory and music perception. Seventy-five children aged 7-15 years participated: 23 TH, 22 unilateral CI, and 30 bilateral CI users. Verbal and musical STM were assessed using a delayed matching-to-sample paradigm with signal detection measures (d', c). Implicit auditory sensory memory was evaluated with a tone pattern detection task (TP-Detect). Music perception was measured using Timbre Identification and Pitch Direction Discrimination. Children with CIs showed lower d' than TH peers on both verbal and musical STM, with a larger deficit for musical material. This verbal advantage persisted after controlling for timbre identification ability, suggesting that the musical STM impairment may not be attributable solely to degraded spectral encoding at the perceptual level. Bilateral CI children performed near chance on TP-Detect, whereas TH and unilateral CI children detected regularity transitions above chance. These findings indicate that children with CIs exhibit auditory memory deficits extending beyond the verbal domain and position musical memory and implicit sensory processing as clinically relevant dimensions of auditory function that may contribute to real-world auditory scene analysis and warrant targeted assessment.",
+      "ai_analysis": {
+        "scientific_question": "人工耳蜗儿童在音乐和言语领域的短时记忆是否存在领域特异性缺陷，以及其隐式听觉感觉记忆功能如何。",
+        "key_highlight": "人工耳蜗儿童在言语和音乐短时记忆上均表现出低于健听儿童的成绩，其中音乐领域的缺陷更为显著，且双侧人工耳蜗儿童在隐式感觉记忆任务中接近随机水平。",
+        "main_limitation": "实验室任务与真实世界听觉场景分析之间可能存在生态效度差异，且研究对象年龄范围限定于7至15岁儿童，对其他年龄段的推广性有限。",
+        "research_implication": "研究结果支持将音乐记忆和隐式感觉记忆纳入人工耳蜗植入儿童的临床评估维度，以更全面地预测其实环境听觉功能。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "5ce2a2066efd0ebb",
+        "updated_at": "2026-07-24T05:32:59Z"
+      },
+      "last_author_affiliation": "Department of Audiology, Faculty of Medicine, Marmara University, 34899, Istanbul, Türkiye. Electronic address: nilufer.bal@marmara.edu.tr.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "cochlear implant"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-07-18",
+      "first_seen_at": "2026-07-23T05:35:35Z"
     },
     {
       "title": "An optimized tissue processing pipeline for multiscale imaging of the intact peripheral auditory pathway",
@@ -949,19 +958,11 @@
       "last_author_affiliation": "Hearing Technology at Wireless, Acoustics, Environment and Expert Systems, Department of Information Technology, Ghent University, Technologiepark 126, 9052, Zwijnaarde, Belgium.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Age-related hearing loss",
-        "Auditory-evoked potentials",
-        "Cochlear synaptopathy",
-        "Phoneme discrimination"
-      ],
+      "keywords": [],
       "tags": [
-        "auditory physiology",
-        "clinical audiology",
-        "psychoacoustics",
         "speech perception"
       ],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-07-18",
       "first_seen_at": "2026-07-21T05:31:14Z"
     },
@@ -1727,9 +1728,12 @@
       "open_access": true,
       "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13343138/",
       "open_access_source": "pubmed_pmc",
+      "open_access_image_checked_at": "2026-08-01T05:37:51Z",
       "pubmed_full_text_available": true,
       "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13343138/",
       "pubmed_full_text_source": "pmc",
+      "pubmed_full_text_image_checked_at": "2026-08-01T05:37:51Z",
+      "media_checked_at": "2026-08-01T05:37:51Z",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [
         "Computational model",
@@ -1742,10 +1746,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-05-15",
-      "first_seen_at": "2026-05-16T05:37:10Z",
-      "media_checked_at": "2026-08-01T05:37:51Z",
-      "pubmed_full_text_image_checked_at": "2026-08-01T05:37:51Z",
-      "open_access_image_checked_at": "2026-08-01T05:37:51Z"
+      "first_seen_at": "2026-05-16T05:37:10Z"
     },
     {
       "title": "Corrigendum to “Non-invasive testing to diagnose the underlying auditory pathology of hearing impairment” [Hearing Research Volume 466 (2025) Article number 109391]",
@@ -2494,17 +2495,6 @@
       "doi": "10.1121/10.0044377",
       "url": "https://doi.org/10.1121/10.0044377",
       "abstract": "Understanding how listeners adapt to temporally altered speech and the extent to which training effects generalize across different speech materials and forms remains an important open question in auditory perception research. This study examined these issues using a multi-session time-compressed speech (TCS) training protocol in Arabic. We assessed whether adaptive training in Modern Standard Arabic improves TCS perception and whether training-related gains extend to novel items and to a related but acoustically distinct speech form (spoken Palestinian Arabic). Fifty-one participants took part in the study: 13 young adults (20–30 years) and 12 older adults (55–65 years) completed four training sessions, while age-matched controls (13 young, 13 older) received no training. Two additional sessions assessed generalization. Both trained groups showed significant improvement in TCS perception compared to controls, demonstrating robust auditory learning despite baseline differences. Learning gains generalized to untrained content within the trained speech form, but transfer to the alternate speech form was limited, highlighting that generalization may be tied to the acoustic–phonetic structure of the trained form. These preliminary results offer new evidence on age-independent constraints in perceptual learning and can inform more tailored clinical assessment and intervention strategies.",
-      "first_author_affiliation": "The Department of Communication Disorders, Steyer School of Health Professions, Gray Faculty of Medical & Health Sciences, Tel Aviv University 1 ,",
-      "last_author_affiliation": "The Department of Communication Disorders, Steyer School of Health Professions, Gray Faculty of Medical & Health Sciences, Tel Aviv University 1 ,",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "clinical audiology",
-        "priority section"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-07-31",
-      "first_seen_at": "2026-08-01T05:37:26Z",
       "ai_analysis": {
         "scientific_question": "听众如何适应时间压缩语音，以及训练效果能否泛化至不同的语音材料和年龄组。",
         "key_highlight": "尽管不同年龄组均表现出显著的时间压缩语音听知觉学习，但学习效果仅泛化至训练语音形式内的未训练内容，无法迁移至声学-音系特征不同的另一种阿拉伯语变体。",
@@ -2516,6 +2506,61 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "1148964772f254f5",
         "updated_at": "2026-08-01T05:38:11Z"
+      },
+      "first_author_affiliation": "The Department of Communication Disorders, Steyer School of Health Professions, Gray Faculty of Medical & Health Sciences, Tel Aviv University 1 ,",
+      "last_author_affiliation": "The Department of Communication Disorders, Steyer School of Health Professions, Gray Faculty of Medical & Health Sciences, Tel Aviv University 1 ,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology",
+        "priority section"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-07-31",
+      "first_seen_at": "2026-08-01T05:37:26Z"
+    },
+    {
+      "title": "Noninvasive indirect intracochlear pressure monitoring during cochlear implantation",
+      "authors": [
+        "Nora M. Weiss",
+        "Kiran K. Sriperumbudur",
+        "Anandhan Dhanasingh",
+        "Wilhelm Wimmer"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-07-31",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109753",
+      "url": "https://doi.org/10.1016/j.heares.2026.109753",
+      "abstract": "Outcomes following cochlear implantation remain highly variable, particularly with respect to hearing preservation. While surgical techniques aim to minimize intracochlear trauma, no objective intraoperative method currently exists to monitor intracochlear pressure dynamics. We present a feasibility study of indirect, noninvasive monitoring of intracochlear pressure using a calibrated probe microphone positioned in the external auditory canal. Measurements were performed in fresh-frozen temporal bones and during five clinical cochlear implantation procedures. Ear-canal pressure signals were transformed using a reverse middle-ear transfer function to estimate intracochlear pressure in the scala vestibuli, and sound pressure levels were derived to characterize acoustic exposure during surgical stages. Transient high-amplitude events were observed throughout the procedure. Round window opening produced peak intracochlear pressures exceeding 140 dB SPL. Electrode array insertion generated peak levels between 132 and 172 dB SPL, consistent with direct intracochlear measurements, supporting the validity of the approach during insertion. Post-insertion implant management produced pressures comparable to or exceeding insertion, indicating substantial acoustic exposure. Drilling and suction during mastoidectomy resulted in very high estimated levels (up to 178 dB SPL); however, these measurements are affected by contamination from airborne and structure-borne noise. Ex vivo experiments demonstrated temporally correlated responses between ear-canal recordings and a mechanically coupled sensor, supporting a middle-ear transmission pathway. These findings demonstrate the feasibility of noninvasively capturing acoustic signatures during cochlear implantation and support the development of intraoperative noise dosimetry to optimize hearing-preservation techniques.",
+      "last_author_affiliation": "Department of Otorhinolaryngology, TUM University Hospital, Technical University of Munich, Munich, Germany. Electronic address: wilhelm.wimmer@tum.de.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Hearing preservation",
+        "Intracochlear pressure",
+        "Noise dosimetry",
+        "Objective monitoring"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology",
+        "cochlear implant"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-07-31",
+      "first_seen_at": "2026-08-02T05:38:25Z",
+      "ai_analysis": {
+        "scientific_question": "能否通过外耳道探管麦克风结合反向中耳传递函数实现微创的术中耳蜗内压监测？",
+        "key_highlight": "该可行性研究验证了间接无创方法可捕获电极插入期间高达132至172 dB SPL的耳蜗内压峰值，表明其具有术中声暴露监测的潜力。",
+        "main_limitation": "临床样本仅包含5例手术，且钻磨和吸引过程中的测量受到空气及结构传导噪声干扰，测量准确性受限。",
+        "research_implication": "该方法为人工耳蜗植入术中噪声剂量监测奠定了技术基础，有望优化听功能保留策略。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "abd040213831f07d",
+        "updated_at": "2026-08-02T05:39:20Z"
       }
     },
     {
@@ -2704,6 +2749,37 @@
       "source": "crossref",
       "available_online_date": "2026-07-29",
       "first_seen_at": "2026-07-30T05:20:08Z"
+    },
+    {
+      "title": "Early maladaptive schemas and misophonia: Incremental contributions beyond personality traits and general psychopathology.",
+      "authors": [
+        "Michela Fazi",
+        "Francesco Mancini",
+        "Allison Uvelli",
+        "Sofia Mattioli",
+        "Chiara Tonasso",
+        "Lucia Fiumalbi",
+        "Giuseppe Romano"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-07-29",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109756",
+      "url": "https://doi.org/10.1016/j.heares.2026.109756",
+      "abstract": "Misophonia is a sound sensitivity disorder characterized by heightened emotional, physiological, and behavioral reactions to specific auditory stimuli. Although prior research has linked misophonia to maladaptive personality traits and internalizing symptoms, the role of early maladaptive schemas (EMSs) remains underexplored. The present study examined the associations between misophonia severity, EMSs, personality trait domains, and psychological symptoms, and tested whether EMSs accounted for incremental variance beyond these factors. A total of 144 adults (72 with misophonia and 72 matched controls) completed self-report measures of misophonia, EMSs, personality traits, depression, and anxiety. Misophonia severity was positively associated with most EMSs, as well as with negative affectivity, detachment, psychoticism, and symptoms of depression and anxiety. Individuals with misophonia reported significantly higher levels across all EMSs, personality domains, and psychological symptoms compared to controls. Regression analyses indicated that several EMSs predicted misophonia severity, with Entitlement and Emotional Inhibition emerging as the strongest independent predictors. In a hierarchical regression model, EMSs accounted for additional variance beyond personality traits and psychological symptoms. In the final model, Entitlement and Negative Affectivity remained significant predictors. These findings support a hierarchical framework in which personality trait domains reflect a broad dispositional vulnerability, whereas EMSs represent more specific cognitive-emotional processes that may shape the appraisal and perceived meaning of trigger sounds. Targeting EMSs may enhance psychological interventions by addressing maladaptive appraisals and emotional regulation difficulties underlying misophonic responses.",
+      "first_author_affiliation": "Department of Human Sciences, Guglielmo Marconi University, Via Plinio 44, 00193, Roma, Italy. Electronic address: m.fazi@unimarconi.it.",
+      "last_author_affiliation": "Department of Human Sciences, Guglielmo Marconi University, Via Plinio 44, 00193, Roma, Italy. Electronic address: g.romano@unimarconi.it.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [
+        "Early maladaptive schemas",
+        "Misophonia",
+        "Personality traits"
+      ],
+      "tags": [],
+      "source": "pubmed",
+      "available_online_date": "2026-07-29",
+      "first_seen_at": "2026-08-02T05:38:25Z"
     },
     {
       "title": "Adults With Mild to Moderate Hearing Loss.",
@@ -3609,6 +3685,53 @@
       "source": "crossref",
       "available_online_date": "2026-07-24",
       "first_seen_at": "2026-07-25T05:25:33Z"
+    },
+    {
+      "title": "Experimental analysis of cartilage graft positioning in tympanoplasty and its impact on middle ear mechanics",
+      "authors": [
+        "Oestreicher David",
+        "Winkler Simon Tobias",
+        "Zhang Biru",
+        "Effertz Thomas",
+        "Hüser Marc Albert",
+        "Meyer Tim",
+        "Sackmann Benjamin",
+        "Lauxmann Michael",
+        "Beutner Dirk",
+        "Bevis Nicholas"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-07-23",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109752",
+      "url": "https://doi.org/10.1016/j.heares.2026.109752",
+      "abstract": "Cartilage is widely used for tympanic membrane (TM) reconstruction, but the impact of graft position relative to the bony ear canal on middle ear mechanics remains unclear. This study examined how cartilage placement affects the middle ear transfer function (METF) and TM vibration. Single‑point Laser Doppler Vibrometry (LDV) was performed on five fresh frozen human temporal bones before and after creating a 2.5 mm perforation in the posterior inferior TM quadrant and after reconstruction with a round-shaped cartilage graft of 4 mm diameter and 0.5 mm thickness placed either on (on‑bony) or separated from (off‑bony) the bony ear canal. TM motion was further assessed using a scanning LDV in a technical membrane model. A validated finite element (FE) model of the middle ear was used to replicate temporal bone measurements and the effect of an experimentally opened versus closed tympanic cavity, representing the in-vivo condition in patients, was evaluated by FE modelling. After TM perforation, the METF significantly decreased between 562 - 2094 Hz, and 2951 - 3194 Hz, while showing increased measurement variability below 500 Hz. When performing reconstruction with either the on-bony or the off-bony technique, the METFs partially recover, but show a significant difference in METF compared to the intact TM in the frequency range of 146 - 195, 200 - 217, 739 - 933 Hz (on-bony) and 146 - 295, 718 - 930, 722 - 930 and 1332 - 1719 Hz (off-bony). No significant difference in METF between the on-bony and off-bony reconstruction were found (p > 0.05). Scanning LDV analysis of a technical membrane model showed similar membrane peak velocities between the two graft positions, although the off‑bony configuration shifted the best frequency to lower values. FE simulations of the middle ear confirmed the findings of the temporal bone measurements. Additionally, the model work showed that middle ear transmission with an experimentally opened tympanic cavity differed by <2 dB after on- or off-bony reconstruction compared to a closed tympanic cavity. This was different for the perforated TM: While the transmission loss was nearly constant with an experimentally opened tympanic cavity, a closed tympanic cavity produced frequency‑dependent transmission loss exceeding 40 dB. In this temporal bone study, placing the cartilage on the bony ear canal wall did not have an impact on the METF. FE modeling supported the temporal bone findings and suggested that similar behavior could be expected in vivo with a closed tympanic cavity. However, the FE-model suggests that perforation‑induced losses were substantially underestimated in the temporal bone measurements with an experimentally opened tympanic cavity. Positioning of the cartilage graft on the bony ear canal can be advantageous in patients with chronic middle-ear disease to reduce the risk of medialization and formation of retraction pockets without compromising the patients hearing outcome.",
+      "last_author_affiliation": "Department of Otorhinolaryngology, Head and Neck Surgery, University Medical Center Göttingen, Robert-Koch-Str. 40, 37075, Göttingen, Germany.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Cartilage",
+        "Finite element model",
+        "Laser Doppler Vibrometry",
+        "Middle ear transfer function",
+        "Tympanoplasty"
+      ],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-07-24",
+      "first_seen_at": "2026-08-01T05:37:31Z",
+      "ai_analysis": {
+        "scientific_question": "软骨移植物在骨性耳道壁上(on-bony)或分离放置(off-bony)对中耳传递函数和鼓膜振动的影响是否存在差异。",
+        "key_highlight": "在颞骨实验中，on-bony和off-bony两种软骨移植技术的中耳传递函数无显著差异，有限元模型进一步验证了这一结果并提示在活体闭合中耳腔条件下可能表现相似。",
+        "main_limitation": "该研究基于5例冷冻人颞骨样本，且有限元模型显示开放中耳腔条件下测量的穿孔相关传导损失可能被低估。",
+        "research_implication": "慢性中耳疾病患者可采用on-bony技术固定软骨移植物以降低内陷袋形成风险，同时不损害听觉效果。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "bfa71e4807ee7b87",
+        "updated_at": "2026-08-02T05:39:40Z"
+      }
     },
     {
       "title": "Perceiving temporal rhythms in Sahelian soundscapes of Senegal: A pilot interdisciplinary study bridging psychoacoustics, ecology, and anthropology",
@@ -4572,54 +4695,6 @@
       "source": "crossref",
       "available_online_date": "2026-07-20",
       "first_seen_at": "2026-07-21T05:31:08Z"
-    },
-    {
-      "title": "Implicit auditory sensory memory and short–term memory for musical and verbal stimuli in children with cochlear implants",
-      "authors": [
-        "Ahmet Alperen Akbulut",
-        "Ayça Çiprut",
-        "Nilüfer Bal"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-07-18",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109750",
-      "url": "https://doi.org/10.1016/j.heares.2026.109750",
-      "abstract": "The spectrally degraded signal delivered by cochlear implants (CIs) has been suggested to constrain the encoding and temporary retention of sequential auditory information. However, research on short-term memory (STM) in children with CIs has predominantly focused on the verbal domain, with musical STM and implicit auditory sensory memory receiving comparatively limited attention. This study investigated the domain-specific nature of auditory STM in children with CIs relative to typically hearing (TH) peers, alongside implicit auditory sensory memory and music perception. Seventy-five children aged 7-15 years participated: 23 TH, 22 unilateral CI, and 30 bilateral CI users. Verbal and musical STM were assessed using a delayed matching-to-sample paradigm with signal detection measures (d', c). Implicit auditory sensory memory was evaluated with a tone pattern detection task (TP-Detect). Music perception was measured using Timbre Identification and Pitch Direction Discrimination. Children with CIs showed lower d' than TH peers on both verbal and musical STM, with a larger deficit for musical material. This verbal advantage persisted after controlling for timbre identification ability, suggesting that the musical STM impairment may not be attributable solely to degraded spectral encoding at the perceptual level. Bilateral CI children performed near chance on TP-Detect, whereas TH and unilateral CI children detected regularity transitions above chance. These findings indicate that children with CIs exhibit auditory memory deficits extending beyond the verbal domain and position musical memory and implicit sensory processing as clinically relevant dimensions of auditory function that may contribute to real-world auditory scene analysis and warrant targeted assessment.",
-      "ai_analysis": {
-        "scientific_question": "人工耳蜗儿童在音乐和言语领域的短时记忆是否存在领域特异性缺陷，以及其隐式听觉感觉记忆功能如何。",
-        "key_highlight": "人工耳蜗儿童在言语和音乐短时记忆上均表现出低于健听儿童的成绩，其中音乐领域的缺陷更为显著，且双侧人工耳蜗儿童在隐式感觉记忆任务中接近随机水平。",
-        "main_limitation": "实验室任务与真实世界听觉场景分析之间可能存在生态效度差异，且研究对象年龄范围限定于7至15岁儿童，对其他年龄段的推广性有限。",
-        "research_implication": "研究结果支持将音乐记忆和隐式感觉记忆纳入人工耳蜗植入儿童的临床评估维度，以更全面地预测其实环境听觉功能。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "5ce2a2066efd0ebb",
-        "updated_at": "2026-07-24T05:32:59Z"
-      },
-      "last_author_affiliation": "Department of Audiology, Faculty of Medicine, Marmara University, 34899, Istanbul, Türkiye. Electronic address: nilufer.bal@marmara.edu.tr.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Auditory sensory memory",
-        "Children",
-        "Cochlear implant",
-        "Domain specificity",
-        "Music perception",
-        "Short–term memory",
-        "Tone pattern detection"
-      ],
-      "tags": [
-        "auditory physiology",
-        "clinical audiology",
-        "cochlear implant",
-        "psychoacoustics",
-        "real-world listening"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-07-18",
-      "first_seen_at": "2026-07-23T05:35:35Z"
     },
     {
       "title": "Perceptual Adaptation to Noise-Vocoded Voice Clones",
@@ -6313,6 +6388,18 @@
       "doi": null,
       "url": "https://arxiv.org/abs/2607.10191v1",
       "abstract": "Generative streaming models for Target Speaker Extraction (TSE) commonly exhibit a quality--intelligibility trade-off, wherein naive optimization for perceptual audio quality tends to degrade speech intelligibility, and conversely. We reveal that this trade-off arises not from the constraints of streaming architectures, but from an inappropriate choice of optimization anchor. Directly optimizing against audio quality metrics induces catastrophic reward hacking, where content critical to pronunciation and intelligibility is systematically erased to maximize a proxy score. To break this bottleneck, we propose two complementary improvements: an enlarged Conformer convolution kernel for richer local spectro-temporal modeling, and WavLM-anchored Direct Preference Optimization (DPO) fine-tuning strategy. DPO preference pairs are ranked by WavLM cosine similarity, a deep acoustic feature encoding both phonetic structure and speaker identity, providing an optimization anchor that resists hacking. Under a 560 ms streaming chunk size, the proposed method achieves a 10.9% relative intelligibility improvement (word error rate: 0.138 to 0.123), with marginal simultaneous gains in audio quality and speaker similarity.",
+      "ai_analysis": {
+        "scientific_question": "流式目标说话人提取模型中感知质量与语音可懂度之间的权衡是否源于优化锚点选择不当而非流式架构本身的限制。",
+        "key_highlight": "基于WavLM深度声学特征的偏好优化微调策略可有效抵抗奖励黑客，在保持音频质量的同时实现10.9%的相对可懂度提升。",
+        "main_limitation": "Limited generalizability due to small or specific sample",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "ace30ca5c4ddbc3e",
+        "updated_at": "2026-08-01T05:38:20Z"
+      },
       "publication_stage": "preprint",
       "section": null,
       "keywords": [
@@ -6333,19 +6420,7 @@
         "abstract"
       ],
       "needs_review": true,
-      "first_seen_at": "2026-07-14T05:11:03Z",
-      "ai_analysis": {
-        "scientific_question": "流式目标说话人提取模型中感知质量与语音可懂度之间的权衡是否源于优化锚点选择不当而非流式架构本身的限制。",
-        "key_highlight": "基于WavLM深度声学特征的偏好优化微调策略可有效抵抗奖励黑客，在保持音频质量的同时实现10.9%的相对可懂度提升。",
-        "main_limitation": "Limited generalizability due to small or specific sample",
-        "research_implication": "General research findings",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "ace30ca5c4ddbc3e",
-        "updated_at": "2026-08-01T05:38:20Z"
-      }
+      "first_seen_at": "2026-07-14T05:11:03Z"
     },
     {
       "title": "Corrigendum to \"Dynamics of Intra- and Inter-Regional Activities of the Auditory 'Where' Pathway during Sound Localization: An fMRI Study\" [Hearing Research 477 (2026) 109650].",
@@ -8724,18 +8799,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -8756,17 +8830,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -9711,14 +9786,6 @@
       "doi": "10.1121/10.0044234",
       "url": "https://doi.org/10.1121/10.0044234",
       "abstract": "Monitoring whale vocalization is of scientific importance and has practical value for marine ecology, hydroacoustics, and geophysics. Conventional monitoring approaches, including hydrophone arrays, ocean-bottom seismometers, and satellite tagging, are limited by sparse spatial coverage, potential biological disturbance, and high cost. Distributed acoustic sensing (DAS) is an emerging method that uses submarine optical cables as dense acoustic arrays, potentially enabling large-scale, high-resolution monitoring of whale vocalization. We investigated the features of the wavefields of fin whale vocalization by integrating DAS observations with numerical modeling. Three distinct features—insensitive response segments (IRSs), high-frequency component loss, and acoustic notches—were identified in the observed wavefields. DAS response modeling based on ray theory indicates that the length of the IRS is correlated positively with the vertical distance between the source and cable, and the gauge length is responsible for the high-frequency loss in whale calls. Furthermore, wavefield modeling using the spectral-element method demonstrates that the notches represent transitions between transmission zones of waterborne multipath waves entering the seafloor and are sensitive to the seafloor P-wave velocity, water depth, and bathymetry. These findings not only improve our understanding of DAS-observed wavefields but also highlight the potential of DAS for ocean environmental parameter estimation and three-dimensional whale localization.",
-      "first_author_affiliation": "State Key Laboratory of Ocean Sensing & Ocean College, Zhejiang University 1 , Zhoushan, 316021,",
-      "last_author_affiliation": "State Key Laboratory of Ocean Sensing & Ocean College, Zhejiang University 1 , Zhoushan, 316021,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:32Z",
       "ai_analysis": {
         "scientific_question": "如何利用分布式声学传感技术识别和分析蓝鲸发声的波场特征及其物理成因？",
         "key_highlight": "研究通过集成 DAS 观测与数值模拟，识别出三类波场特征（不敏感响应段、高频损失和声学缺口）并揭示了其与声源-电缆距离、传感间距及海底地质参数的关联。",
@@ -9730,7 +9797,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "990c5153e67f3eac",
         "updated_at": "2026-08-01T05:38:39Z"
-      }
+      },
+      "first_author_affiliation": "State Key Laboratory of Ocean Sensing & Ocean College, Zhejiang University 1 , Zhoushan, 316021,",
+      "last_author_affiliation": "State Key Laboratory of Ocean Sensing & Ocean College, Zhejiang University 1 , Zhoushan, 316021,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:32Z"
     },
     {
       "title": "Computational Model for Synthesizing Auditory Brainstem Responses to Assess Neuronal Alterations in Aging and Autistic Animal Models",
@@ -18615,22 +18690,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -18643,6 +18702,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -25323,7 +25398,19 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-04-06",
-      "first_seen_at": "2026-05-14T02:28:38Z"
+      "first_seen_at": "2026-05-14T02:28:38Z",
+      "ai_analysis": {
+        "scientific_question": "风力发电机之间相互作用如何影响声传播特性",
+        "key_highlight": "当第二台风机位于下游正后方时，尾流引起的流动聚焦效应可使下游声压级和振幅调制增加数分贝",
+        "main_limitation": "基于数值模拟的研究可能未能完全反映真实大气条件下的声传播复杂性",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "bdb03924a35217df",
+        "updated_at": "2026-08-02T05:39:46Z"
+      }
     },
     {
       "title": "Acoustic radiation force exerted by progressive waves on subwavelength inhomogeneous scatterers",
@@ -25340,14 +25427,6 @@
       "url": "https://doi.org/10.1121/10.0043002",
       "full_text_url": "https://pubs.aip.org/jasa/article/159/4/3030/3386145/Acoustic-radiation-force-exerted-by-progressive",
       "abstract": "The acoustic radiation force exerted by plane progressive waves with wavenumber k on a scatterer of characteristic size a is calculated in the Born approximation using Westervelt's far-field integral [J. Acoust. Soc. Am. 29, 26–29 (1957), Eq. (2)]. In the subwavelength limit ka≪1 of the Born approximation, closed-form analytical expressions for the radiation force are obtained in terms of acoustic polarizabilities, which represent the response of the scatterer to dipole order. For subwavelength scatterers whose relative compressibility and density are even functions about their centroid, Gor'kov's O[(ka)4] force [Sov. Phys. Dokl. 6, 773–775 (1962), Eq. (10)] is recovered, whereas the radiation force on scatterers characterized by odd distributions is O[(ka)6]. Radiation forces on homogeneous and inhomogeneous spheres and cubes are considered as examples, for which the analytical expressions agree with solutions based on spherical wave expansions and Fourier transforms for ka≲0.8. The present work complements the volume integral obtained by Jerome and Hamilton [J. Acoust. Soc. Am. 150, 3417–3427 (2021), Eq. (16)] for the radiation force exerted by standing waves in the subwavelength limit of the Born approximation.",
-      "first_author_affiliation": "Applied Research Laboratories, The University of Texas at Austin 1 , Austin, Texas 78766-9767,",
-      "last_author_affiliation": "Applied Research Laboratories, The University of Texas at Austin 1 , Austin, Texas 78766-9767,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-04-03",
-      "first_seen_at": "2026-05-14T02:28:38Z",
       "ai_analysis": {
         "scientific_question": "在Born近似的亚波长极限下，平面行波对特征尺寸远小于波长的散射体施加的声辐射力如何通过声学极化率进行解析计算？",
         "key_highlight": "得到了声辐射力在亚波长极限ka≪1下的闭式解析表达式，对于具有偶函数分布的散射体可退化为Gor'kov公式，而对于奇函数分布的散射体则为O[(ka)^6]阶。",
@@ -25359,7 +25438,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "9d188b883cfcf3ec",
         "updated_at": "2026-08-01T05:39:16Z"
-      }
+      },
+      "first_author_affiliation": "Applied Research Laboratories, The University of Texas at Austin 1 , Austin, Texas 78766-9767,",
+      "last_author_affiliation": "Applied Research Laboratories, The University of Texas at Austin 1 , Austin, Texas 78766-9767,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-04-03",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Coupled-mode modeling of sound propagation in range-dependent fluid–solid media",
@@ -25373,14 +25460,6 @@
       "url": "https://doi.org/10.1121/10.0043243",
       "full_text_url": "https://pubs.aip.org/jasa/article/159/4/3018/3386154/Coupled-mode-modeling-of-sound-propagation-in",
       "abstract": "This paper develops a discrete coupled-mode method for wave propagation in a cylindrically symmetric fluid–solid medium with a symmetric point source on the vertical symmetry axis. Range dependence is handled by a discretization of the medium into laterally homogeneous ring regions. Modal reflection (or scattering) matrices, recursively computed by an initial inward propagation step using mode orthogonality, relate the expansion coefficients for outgoing and incoming (back-scattered) normal modes. Incorporation of the source condition yields the field in the innermost ring region. A subsequent outward propagation step, stabilized by the stored reflection matrices to satisfy the outer boundary condition, yields the modal expansion coefficients of the field in each ring region. With fluid overlying a solid bottom, upsloping and downsloping parts of the medium require different propagation equations to satisfy the continuity conditions at the vertical ring-region interfaces. An approximate solution appears by replacing the involved Hankel functions by their asymptotic expressions for large arguments. Compared to the solution for a symmetric horizontal line source in a corresponding medium, invariant in the line-source direction, the approximate solution involves a back-scattering term as well as a mode-dependent and phase-changing source-correction factor in addition to the correction factor for the different geometrical spreading.",
-      "first_author_affiliation": "Stockholm , SE-11529,",
-      "last_author_affiliation": "Stockholm , SE-11529,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-04-03",
-      "first_seen_at": "2026-05-14T02:28:38Z",
       "ai_analysis": {
         "scientific_question": "如何利用离散耦合模式法在柱对称流体-固体介质中建立具有对称点源的变程传播模型？",
         "key_highlight": "该方法通过将介质离散化为侧向均匀的环形区域，并利用递归计算的模式反射矩阵处理出射和背散射正规模式的关系。",
@@ -25392,7 +25471,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "f54f6cb1ad33b31e",
         "updated_at": "2026-08-01T05:39:25Z"
-      }
+      },
+      "first_author_affiliation": "Stockholm , SE-11529,",
+      "last_author_affiliation": "Stockholm , SE-11529,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-04-03",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Extraction of the direct scattering of a sphere in a vortex beam: Theory and experiment",
@@ -25421,7 +25508,19 @@
       "tags": [],
       "source": "crossref",
       "available_online_date": "2026-04-03",
-      "first_seen_at": "2026-05-14T02:28:42Z"
+      "first_seen_at": "2026-05-14T02:28:42Z",
+      "ai_analysis": {
+        "scientific_question": "研究如何在涡旋波束中提取和分析球体的前向声散射的横向空间相位特征。",
+        "key_highlight": "通过扣除稳定的入射贡献成功提取前向散射分量，发现相位奇点偏移与球体偏离光轴的距离呈线性关系，该特征有望用于水下目标探测定位。",
+        "main_limitation": "研究对象仅为理想球体，在复杂形状物体或非均匀水体环境中的适用性仍需进一步验证。",
+        "research_implication": "该成果属于水下声学目标探测领域，为声学散射理论提供了新的空间相位自由度，但不直接涉及助听器、人工耳蜗或言语感知研究。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "0a1b126a759419bc",
+        "updated_at": "2026-08-02T05:39:55Z"
+      }
     },
     {
       "title": "Modal excitation and variable-band operation of piezoelectric tonpilz transducers",
@@ -25445,7 +25544,19 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-04-03",
-      "first_seen_at": "2026-05-14T02:28:38Z"
+      "first_seen_at": "2026-05-14T02:28:38Z",
+      "ai_analysis": {
+        "scientific_question": "如何通过模态激励方法实现单个压电Tonpilz换能器的多频段可变工作而无需改变其物理结构",
+        "key_highlight": "通过施加与各阶模态应力分布匹配的电压分布实现单模态激励，可在不改变换能器物理结构的情况下实现可变频段工作，且电声效率提升至31%至34%",
+        "main_limitation": "实验验证仅基于单一换能器设计且频率范围有限（仅测试前三阶），结果的可推广性有待进一步验证",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "20b61d7c8a04f076",
+        "updated_at": "2026-08-02T05:40:09Z"
+      }
     },
     {
       "title": "Perception and comprehension of environmental sounds and auditory scenes in cochlear implant users",
@@ -26232,23 +26343,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -26262,6 +26356,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -29755,8 +29866,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -29770,8 +29881,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -34935,8 +35046,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -34950,8 +35061,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
