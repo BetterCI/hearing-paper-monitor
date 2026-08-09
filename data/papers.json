@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T03:45:50Z",
+  "generated_at": "2026-08-09T03:54:39Z",
   "papers": [
     {
       "title": "Corrigendum to “Dynamics of Intra- and Inter-Regional Activities of the Auditory ‘Where’ Pathway during Sound Localization: An fMRI Study” [Hearing Research 477 (2026) 109650]",
@@ -29,6 +29,45 @@
       "source": "crossref",
       "available_online_date": "2026-07-13",
       "first_seen_at": "2026-07-12T05:40:11Z"
+    },
+    {
+      "title": "Effects of Wbp2 gene activation and the modifier Cdh23ahl on progressive hearing loss in Wbp2 mouse mutants",
+      "authors": [
+        "Rechal Kumar",
+        "Daniel R Pentland",
+        "Neil J Ingham",
+        "Morag A Lewis",
+        "Elisa Martelletti",
+        "Karen P. Steel"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109754",
+      "url": "https://doi.org/10.1016/j.heares.2026.109754",
+      "abstract": "Synapses are thought to be a vulnerable site in hearing loss. One gene required for normal synapse maintenance is Wbp2, which encodes a transcriptional co-activator of oestrogen and progesterone receptors. The Wbp2tm2a mouse mutant allele knocks down transcription to minimal levels and leads to progressive increase in ABR thresholds for high frequencies from 4 weeks onwards in homozygotes. This is accompanied by swelling of nerve terminals below inner hair cells and dysregulation of key post-synaptic proteins. We have used the design of the Wbp2tm2a mutation to investigate whether the synaptic swelling and increase in auditory thresholds can be prevented or reversed by activating the Wbp2 gene either prior to or after the onset of hearing loss, respectively. The influence of a common modifier of auditory function, Cdh23ahl, was also studied by crossing a repaired Cdh23 allele into the Wbp2tm2a colony. We found that activation of Wbp2 at either 4 weeks old or postnatal day 4 failed to halt or prevent the progression of hearing loss in Wbp2tm2a homozygous mutant mice. Surprisingly, correction of the Cdh23ahl allele in Wbp2tm2a/tm2a mice completely abolished the auditory phenotype, restoring hearing thresholds to normal up to 26 weeks of age. These findings reveal the difficulty in reversing early-onset synaptic defects and highlight genetic background, including known modifiers like Cdh23ahl, as a critical factor in auditory research.",
+      "ai_analysis": {
+        "scientific_question": "Wbp2基因激活或Cdh23ahl等位基因校正能否预防或逆转Wbp2tm2a纯合突变小鼠的进行性听力损失？",
+        "key_highlight": "Cdh23ahl等位基因校正可完全消除Wbp2tm2a纯合突变小鼠的听觉表型，使其听力阈值在26周龄前恢复至正常水平，而4周龄或出生后4天的Wbp2基因激活均未能阻止听力损失进展。",
+        "main_limitation": "作为特定遗传背景的转基因小鼠模型研究，其结论向其他基因型或人类患者的转化应用存在局限；且干预时机仅限于4周龄和出生后4天，无法评估更早期干预的可能性。",
+        "research_implication": "研究强调了遗传背景及已知修饰因子在听觉功能中的关键作用，并提示早期突触损伤可能难以逆转，这对理解听力损失干预的时间窗口具有参考意义。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "cf8675c6873109b7",
+        "updated_at": "2026-07-31T05:47:41Z"
+      },
+      "last_author_affiliation": "Wolfson Sensory, Pain and Regeneration Centre, King's College London, London SE1 1UL, UK. Electronic address: karen.steel@kcl.ac.uk.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-07-25",
+      "first_seen_at": "2026-07-31T05:46:39Z"
     },
     {
       "title": "Experimental analysis of cartilage graft positioning in tympanoplasty and its impact on middle ear mechanics",
@@ -1420,14 +1459,6 @@
       "doi": "10.1121/10.0044586",
       "url": "https://doi.org/10.1121/10.0044586",
       "abstract": "Acoustic levitation and manipulation with phased arrays have advanced significantly. However, achieving simultaneous stable levitation and dexterous pose control of irregularly shaped objects remains a challenge. This paper introduces a cluster-optimization method for generating a radially asymmetric enhanced standing-wave field (RA-ESWF) using opposed ultrasonic arrays. The method dynamically derives feature phase patterns from a field-phase mapping dataset, avoiding predefined templates, and integrates them with parametric optimization to decouple orientation-locking and positional-focusing functions. Experiments demonstrate that the RA-ESWF effectively balances strong levitation force with precise orientation control. It enables pose manipulation of objects with diverse shapes and sizes (including near-spherical and rod-like samples) while maintaining high angular stability (standard deviation: 0.614°) and positional precision (0.048 mm in X, 0.069 mm in Y). The proposed method extends the functionality of conventional opposed-array levitators and offers a robust, optimization-driven framework for advanced acoustic trapping and manipulation in applications such as micro-reactors, biological sample handling, and non-contact assembly.",
-      "first_author_affiliation": "College of Communication Engineering, Jilin University , Changchun 130022,",
-      "last_author_affiliation": "College of Communication Engineering, Jilin University , Changchun 130022,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-08-07",
-      "first_seen_at": "2026-08-08T03:45:35Z",
       "ai_analysis": {
         "scientific_question": "如何利用相对排列的超声波阵列实现对不规则形状物体的同时稳定悬浮和精确姿态控制？",
         "key_highlight": "该研究提出了一种聚类优化方法，通过动态生成场-相映射数据集并结合参数化优化，成功解耦了方位锁定与位置聚焦功能，实现了高角稳定性（标准差0.614°）和位置精度（X方向0.048mm，Y方向0.069mm）的姿态操控。",
@@ -1439,7 +1470,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "81434afd96309b58",
         "updated_at": "2026-08-08T03:46:26Z"
-      }
+      },
+      "first_author_affiliation": "College of Communication Engineering, Jilin University , Changchun 130022,",
+      "last_author_affiliation": "College of Communication Engineering, Jilin University , Changchun 130022,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-07",
+      "first_seen_at": "2026-08-08T03:45:35Z"
     },
     {
       "title": "Auditory Differences in Occupationally Noise-Exposed Workers With Normal Conventional Audiograms: A Multi-Measure Surveillance Approach",
@@ -1461,6 +1500,7 @@
       "publication_date_precision": "day",
       "doi": "10.1177/23312165261477842",
       "url": "https://doi.org/10.1177/23312165261477842",
+      "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261477842",
       "abstract": "Young adults with normal conventional audiograms may nonetheless show early noise-related auditory differences that routine surveillance misses. We evaluated a clinically feasible test battery using 280 occupationally noise-exposed workers and 100 age-matched low-noise controls (20-40 years; ≤20 dB HL at 0.5-8 kHz). Measures included conventional and extended high-frequency (EHF; 9-16 kHz) audiometry, distortion-product otoacoustic emissions (DPOAEs; 0.5-10 kHz), ipsilateral acoustic reflex thresholds (ARTs; 0.5, 1, and 2 kHz; 226-Hz probe tone), click-evoked auditory brainstem responses (ABR; wave I, wave V, and V/I ratio at 50 and 90 dBnHL), and Mandarin Bamford-Kowal-Bench speech-in-noise testing (SiN). Noise-exposed participants showed elevated ARTs at all elicitor frequencies, with the largest elevation at 2 kHz, as well as poorer EHF thresholds and lower DPOAE levels. In contrast, click-evoked ABR metrics did not differ between groups. After controlling for conventional-frequency pure-tone average (PTA 4 ; 0.5, 1, 2, and 4 kHz) and extended high-frequency pure-tone average (PTA EHF ; 9–16 kHz), lower DPOAE amplitudes were associated with higher ARTs. ARTs were not significantly associated with SiN performance, quantified as the signal-to-noise ratio (SNR) required for 50% correct recognition (SNR-50), cumulative noise exposure, or ABR measures. The noise-exposed group showed higher SNR-50 values, indicating poorer speech-in-noise performance. Within the noise-exposed group, SNR-50 was associated with PTA 4 and cumulative noise exposure, whereas its association with PTA EHF was weaker and did not remain significant after correction for multiple comparisons. Together, these findings suggest that cochlear-status measures, conventional ARTs, and functional SiN performance provide complementary information beyond the conventional audiogram in occupational hearing surveillance.",
       "first_author_affiliation": "Zhejiang Chinese Medical University",
       "last_author_affiliation": "Yangtze Delta Region Institute of Tsinghua University",
@@ -1468,6 +1508,8 @@
       "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261477842",
       "open_access_source": "crossref_license",
       "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "open_access_image_checked_at": "2026-08-08T03:45:57Z",
+      "media_checked_at": "2026-08-08T03:45:57Z",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [],
       "tags": [
@@ -1478,9 +1520,18 @@
       "source": "crossref",
       "available_online_date": "2026-08-07",
       "first_seen_at": "2026-08-08T03:45:36Z",
-      "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261477842",
-      "media_checked_at": "2026-08-08T03:45:57Z",
-      "open_access_image_checked_at": "2026-08-08T03:45:57Z"
+      "ai_analysis": {
+        "scientific_question": "常规纯音测听正常的年轻噪声暴露工人是否已存在早期噪声相关听觉损伤，且现有临床可行测试组合能否有效检测这些差异。",
+        "key_highlight": "噪声暴露组在扩展高频听力、畸变产物耳声发射、声反射阈值和噪声下言语识别方面均表现出显著异常，且这些指标与传统听力图之间存在互补关系。",
+        "main_limitation": "研究仅纳入20-40岁人群且为横断面设计，无法确定长期噪声暴露的因果效应，且样本特异性可能限制结论向其他年龄群体或职业场景推广。",
+        "research_implication": "该研究表明扩展高频测听、耳声发射和言语感知测试可作为常规纯音测听的补充手段，有助于早期识别临床检查看似正常但已受噪声影响的听觉系统改变。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "012b529d70144cf9",
+        "updated_at": "2026-08-09T03:55:05Z"
+      }
     },
     {
       "title": "Bayesian characterization of porous media using three-microphone tube method in extended frequency ranges",
@@ -1494,14 +1545,6 @@
       "doi": "10.1121/10.0044569",
       "url": "https://doi.org/10.1121/10.0044569",
       "abstract": "The characteristic impedance and the propagation coefficient are among the most important parameters for evaluating the acoustic performance of porous materials. This work investigates the influence of cylindrical modes in an impermeable tube and applies multiple microphones distributed along the tube circumference within the three-microphone framework to extend the valid frequency range of characteristic impedance measurement. During the extended broadband measurements, discontinuities or phase jumps are observed in the experimentally measured propagation coefficient of the porous material under test. A Bayesian inference is applied in a sequential manner to estimate the unwrapped propagation coefficient and characteristic impedance. The results demonstrate that the inferred parameters accurately capture the behavior of the transfer function, allowing accurate parameter estimation.",
-      "first_author_affiliation": "Graduate Program in Architectural Acoustics, School of Architecture, Rensselaer Polytechnic Institute , Troy, New York 12180,",
-      "last_author_affiliation": "Graduate Program in Architectural Acoustics, School of Architecture, Rensselaer Polytechnic Institute , Troy, New York 12180,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-08-07",
-      "first_seen_at": "2026-08-08T03:45:35Z",
       "ai_analysis": {
         "scientific_question": "如何利用多麦克风分布的三麦克风管方法结合贝叶斯推断来扩展多孔材料特征阻抗测量的有效频率范围并处理传播系数的相位跳变问题？",
         "key_highlight": "通过顺序贝叶斯推断成功估计了解卷后的传播系数和特征阻抗参数，实现了对传递函数行为的精确捕获。",
@@ -1513,7 +1556,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "e87475887ddeeb97",
         "updated_at": "2026-08-08T03:47:01Z"
-      }
+      },
+      "first_author_affiliation": "Graduate Program in Architectural Acoustics, School of Architecture, Rensselaer Polytechnic Institute , Troy, New York 12180,",
+      "last_author_affiliation": "Graduate Program in Architectural Acoustics, School of Architecture, Rensselaer Polytechnic Institute , Troy, New York 12180,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-07",
+      "first_seen_at": "2026-08-08T03:45:35Z"
     },
     {
       "title": "Classifying bioacoustic data without individual call annotations using temporal convolutional networks and feature extractors",
@@ -1539,7 +1590,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-08-07",
-      "first_seen_at": "2026-08-08T03:45:35Z"
+      "first_seen_at": "2026-08-08T03:45:35Z",
+      "ai_analysis": {
+        "scientific_question": "如何在弱标注（仅存在/不存在物种信息）条件下，无需逐个标注叫声即可有效分类生物声学数据？",
+        "key_highlight": "基于时间卷积网络（TCN）的分类框架在鲸类叫声数据上实现了超过0.83的召回率， variational autoencoders特征提取方法在不同数据集和录音条件下表现更稳定。",
+        "main_limitation": "以抹香鲸点击声序列作为唯一案例研究，其方法对其他物种叫声类型的普适性有待验证。",
+        "research_implication": "通用声学信号处理与分类技术进展，对被动声学监测领域的方法论具有参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "5100468b2dde91b0",
+        "updated_at": "2026-08-09T03:55:20Z"
+      }
     },
     {
       "title": "Estimating ship source levels using distributed acoustic sensing data and validation with hydrophone measurements",
@@ -1551,22 +1614,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0043900",
       "url": "https://doi.org/10.1121/10.0043900",
-      "abstract": "This study quantifies the relationship between distributed acoustic sensing (DAS) and traditional hydrophone measurements of ship noise. Analyzing a cargo ship's transit recorded by a DAS array and a nearby hydrophone, a conversion factor of 177.7 ± 3.5 dB (30–50 Hz) was derived, relating DAS strain to hydrophone pressure. A comparison of this conversion factor with a few existing studies highlights the variability in reported values and methodologies, underscoring the need for more extensive analysis and dedicated research to fully characterize DAS calibration.",
-      "first_author_affiliation": "School of Oceanography, University of Washington , Seattle, Washington 98195,",
-      "last_author_affiliation": "School of Oceanography, University of Washington , Seattle, Washington 98195,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0043900",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-07",
-      "first_seen_at": "2026-08-08T03:45:35Z",
       "full_text_url": "https://pubs.aip.org/jel/article/6/8/087501/3400548/Estimating-ship-source-levels-using-distributed",
-      "media_checked_at": "2026-08-08T03:45:57Z",
-      "open_access_image_checked_at": "2026-08-08T03:45:57Z",
+      "abstract": "This study quantifies the relationship between distributed acoustic sensing (DAS) and traditional hydrophone measurements of ship noise. Analyzing a cargo ship's transit recorded by a DAS array and a nearby hydrophone, a conversion factor of 177.7 ± 3.5 dB (30–50 Hz) was derived, relating DAS strain to hydrophone pressure. A comparison of this conversion factor with a few existing studies highlights the variability in reported values and methodologies, underscoring the need for more extensive analysis and dedicated research to fully characterize DAS calibration.",
       "ai_analysis": {
         "scientific_question": "分布式光纤传感（DAS）与传统水听器测量船舶噪声之间的换算关系如何量化？",
         "key_highlight": "基于一艘货船的通航数据，获得了DAS应变与水听器压力之间的换算系数177.7 ± 3.5 dB（30–50 Hz）。",
@@ -1578,7 +1627,21 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "ddc708ed89d45117",
         "updated_at": "2026-08-08T03:47:35Z"
-      }
+      },
+      "first_author_affiliation": "School of Oceanography, University of Washington , Seattle, Washington 98195,",
+      "last_author_affiliation": "School of Oceanography, University of Washington , Seattle, Washington 98195,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0043900",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-08-08T03:45:57Z",
+      "media_checked_at": "2026-08-08T03:45:57Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-07",
+      "first_seen_at": "2026-08-08T03:45:35Z"
     },
     {
       "title": "Low-frequency geoacoustic inversion of abyssal plain deep sediment properties near the Atlantis II Seamount",
@@ -1594,22 +1657,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0044576",
       "url": "https://doi.org/10.1121/10.0044576",
-      "abstract": "Impulsive airgun transmissions collected during the New England Seamount Acoustics pilot experiments are used to investigate deep sediment structure in the Sohm abyssal plain south of the Atlantis II Seamount. Airgun signals from a moving source were recorded on a fixed vertical line array, deployed at a depth of 5050 m, which was equipped with six receivers spanning water depths from 304 to 1434 m and environmental sensors. Distinct arrivals consistent with sub-bottom eigenray paths are identified at ranges up to 15 km. Geoacoustic inversion is performed using the relative arrival time (ΔT) between single-bottom-interacting and corresponding single-sub-bottom-interacting eigenray arrivals. Modeled ΔT is computed using BELLHOP eigenrays in the water column combined with analytic formulas for layered sediment models in the sub-bottom. Constant sound speed and n2 linear parameterizations are evaluated for geoacoustic inversion. Layer parameters, including thicknesses, sound speeds, and gradients, are estimated using adaptive simplex simulated annealing, and model selection is performed using the Bayesian information criterion. Results favor a model with a constant sound speed upper layer over a deeper n2 gradient layer, indicating the presence of two resolvable sub-bottom layers with a combined thickness of approximately 500 m and sound speeds consistent with consolidated sediments.",
-      "first_author_affiliation": "The MIT-WHOI Joint Program in Oceanography/Applied Ocean Science and Engineering 1 , Cambridge and Woods Hole, Massachusetts 02543,",
-      "last_author_affiliation": "Marine Physical Laboratory, Scripps Institution of Oceanography, University of California 5 , San Diego, La Jolla, California 92093,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0044576",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-08-07",
-      "first_seen_at": "2026-08-08T03:45:35Z",
       "full_text_url": "https://pubs.aip.org/jasa/article/160/2/1147/3400547/Low-frequency-geoacoustic-inversion-of-abyssal",
-      "media_checked_at": "2026-08-08T03:45:57Z",
-      "open_access_image_checked_at": "2026-08-08T03:45:57Z",
+      "abstract": "Impulsive airgun transmissions collected during the New England Seamount Acoustics pilot experiments are used to investigate deep sediment structure in the Sohm abyssal plain south of the Atlantis II Seamount. Airgun signals from a moving source were recorded on a fixed vertical line array, deployed at a depth of 5050 m, which was equipped with six receivers spanning water depths from 304 to 1434 m and environmental sensors. Distinct arrivals consistent with sub-bottom eigenray paths are identified at ranges up to 15 km. Geoacoustic inversion is performed using the relative arrival time (ΔT) between single-bottom-interacting and corresponding single-sub-bottom-interacting eigenray arrivals. Modeled ΔT is computed using BELLHOP eigenrays in the water column combined with analytic formulas for layered sediment models in the sub-bottom. Constant sound speed and n2 linear parameterizations are evaluated for geoacoustic inversion. Layer parameters, including thicknesses, sound speeds, and gradients, are estimated using adaptive simplex simulated annealing, and model selection is performed using the Bayesian information criterion. Results favor a model with a constant sound speed upper layer over a deeper n2 gradient layer, indicating the presence of two resolvable sub-bottom layers with a combined thickness of approximately 500 m and sound speeds consistent with consolidated sediments.",
       "ai_analysis": {
         "scientific_question": "利用低频空气枪信号和深海垂直阵列，对阿特兰提斯二号海山海相平原地区的深层沉积物进行地声学参数反演，确定其地下结构特征。",
         "key_highlight": "通过相对到达时间反演方法成功分辨出两层海底沉积物，总厚度约500米，且模型选择支持上层为恒定声速层的沉积结构。",
@@ -1621,7 +1670,21 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "630128f96ca10352",
         "updated_at": "2026-08-08T03:47:53Z"
-      }
+      },
+      "first_author_affiliation": "The MIT-WHOI Joint Program in Oceanography/Applied Ocean Science and Engineering 1 , Cambridge and Woods Hole, Massachusetts 02543,",
+      "last_author_affiliation": "Marine Physical Laboratory, Scripps Institution of Oceanography, University of California 5 , San Diego, La Jolla, California 92093,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0044576",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-08-08T03:45:57Z",
+      "media_checked_at": "2026-08-08T03:45:57Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-07",
+      "first_seen_at": "2026-08-08T03:45:35Z"
     },
     {
       "title": "Machine learning surrogate forward models for biomechanical laryngeal control",
@@ -1672,7 +1735,19 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-08-07",
-      "first_seen_at": "2026-08-08T03:45:35Z"
+      "first_seen_at": "2026-08-08T03:45:35Z",
+      "ai_analysis": {
+        "scientific_question": "近场到远场的过渡距离与细长旋转椭球体和鱼的背向散射之间存在什么数学关系？",
+        "key_highlight": "推导出声呐散射中体长与波长比值与过渡距离的近似函数关系 0.025L/λ^1.4，并验证该公式适用于鱼体而非超声换能器。",
+        "main_limitation": "研究仅基于特定鱼种（大西洋鲑鱼）的目标强度数据，模型假设与实际生物体的复杂几何结构可能存在偏差。",
+        "research_implication": "属于一般声学物理研究范畴，主要为水下声学探测提供理论依据，与助听器、人工耳蜗或言语感知研究无直接关联。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "0ed350c172b63c3c",
+        "updated_at": "2026-08-09T03:55:42Z"
+      }
     },
     {
       "title": "Rhythm-aware adaptive spectro-temporal enhancement for underwater acoustic target recognition",
@@ -1699,7 +1774,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-08-07",
-      "first_seen_at": "2026-08-08T03:45:35Z"
+      "first_seen_at": "2026-08-08T03:45:35Z",
+      "ai_analysis": {
+        "scientific_question": "如何在复杂多变的海洋环境中实现水下目标识别方法在物理可解释性与判别能力之间的平衡。",
+        "key_highlight": "所提出的RASTE方法能够自适应提取节奏特征并在非平稳条件下保持有效，在保证可解释性的同时达到具有竞争力的识别性能。",
+        "main_limitation": "实验仅基于开源数据集进行验证，真实海洋环境的复杂性和多样性可能未被充分覆盖。",
+        "research_implication": "该研究展示了自适应频谱时域增强方法在非平稳信号条件下的应用潜力，其设计思路可能为听觉信号处理中的自适应特征提取提供参考。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "6852c43789ecbd8f",
+        "updated_at": "2026-08-09T03:56:20Z"
+      }
     },
     {
       "title": "Surrogate-guided parametric inverse design of periodic labyrinthine ventilated acoustic metamaterials",
@@ -1714,6 +1801,7 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0044534",
       "url": "https://doi.org/10.1121/10.0044534",
+      "full_text_url": "https://pubs.aip.org/jasa/article/160/2/1096/3400550/Surrogate-guided-parametric-inverse-design-of",
       "abstract": "Labyrinthine ventilated acoustic metamaterials (LVAMs) enable simultaneous sound insulation and air ventilation but remain difficult to design due to their geometric complexity. This study develops a surrogate-guided inverse design framework for LVAMs with target phononic bandgaps. A parametric LVAM model is constructed, and a large finite element dataset is generated to link geometry with band structure. The framework integrates a finite-element–trained forward predictor with an inverse generator, allowing feasible designs to be directly generated from target bandgaps without repeated simulations during inverse training. Numerical and experimental results show high design accuracy, with R2=0.9975 and 0.9908 for the lower and upper bandgap bounds, respectively, surpassing a baseline inverse model. The results demonstrate that the proposed framework provides an efficient surrogate-guided approach for the parametric inverse design of complex acoustic metamaterials.",
       "first_author_affiliation": "Department of Mechanical and Mechatronics Engineering, The University of Auckland 1 , Auckland 1010,",
       "last_author_affiliation": "Institute of Vibration Engineering Research, Nanjing University of Aeronautics and Astronautics 2 , Nanjing 210016,",
@@ -1721,15 +1809,26 @@
       "open_access_url": "https://doi.org/10.1121/10.0044534",
       "open_access_source": "crossref_license",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-08-08T03:45:57Z",
+      "media_checked_at": "2026-08-08T03:45:57Z",
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-08-07",
       "first_seen_at": "2026-08-08T03:45:35Z",
-      "full_text_url": "https://pubs.aip.org/jasa/article/160/2/1096/3400550/Surrogate-guided-parametric-inverse-design-of",
-      "media_checked_at": "2026-08-08T03:45:57Z",
-      "open_access_image_checked_at": "2026-08-08T03:45:57Z"
+      "ai_analysis": {
+        "scientific_question": "如何利用代理模型引导的逆向设计框架高效生成具有目标声子带隙的迷宫式通风声学超材料几何构型？",
+        "key_highlight": "该框架通过整合有限元训练的向前预测器与逆向生成器，在数值和实验验证中实现了极高的设计精度（R²分别为0.9975和0.9908）。",
+        "main_limitation": "作为声学超材料设计方法研究，缺乏对实际声学环境中长期性能表现及工程应用可行性的评估。",
+        "research_implication": "该研究属于声学超材料设计方法范畴，其成果或可为声学结构优化提供计算工具，但与助听器、人工耳蜗或言语感知研究无直接关联。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "e7311393d675dddb",
+        "updated_at": "2026-08-09T03:56:35Z"
+      }
     },
     {
       "title": "Auditory Working Memory Mediates the Relationship Between Musical Sophistication and Speech-In-Noise Perception",
@@ -2575,22 +2674,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044504",
-      "url": "https://doi.org/10.1121/10.0044504",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:37Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -2603,6 +2686,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:36Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044504",
+      "url": "https://doi.org/10.1121/10.0044504",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:37Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -3288,6 +3387,32 @@
       "first_seen_at": "2026-06-19T07:32:49Z"
     },
     {
+      "title": "Cortical speech-in-noise processing reflects subcortical syllable encoding and lexical attention",
+      "authors": [
+        "Subong Kim",
+        "Susan Arzac",
+        "Natalie Dokic",
+        "Jenn Donnelly",
+        "Nicole Genser",
+        "Kristen Nortwich",
+        "Melissa Rafaniello",
+        "Grace Vericker"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-08-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109773",
+      "url": "https://doi.org/10.1016/j.heares.2026.109773",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "speech perception"
+      ],
+      "source": "crossref",
+      "first_seen_at": "2026-08-09T03:54:29Z"
+    },
+    {
       "title": "Current status and future prospects of research on psilocybin's regulation of neurotransmitters and their receptors related to the pathogenesis of tinnitus",
       "authors": [
         "Shuhan Lu",
@@ -3691,6 +3816,23 @@
       "first_seen_at": "2026-06-10T06:45:10Z"
     },
     {
+      "title": "Is vocal emotional processing fine-tuned to speaker gender, identity and phonetic content? - Evidence from simultaneous opposite adaptation",
+      "authors": [
+        "Christine Nussbaum"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-08-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109771",
+      "url": "https://doi.org/10.1016/j.heares.2026.109771",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-08-09T03:54:29Z"
+    },
+    {
       "title": "Laminar segregation of excitatory and inhibitory projections from the inferior colliculus to the superior colliculus",
       "authors": [
         "Khaleeq Ahmad Saqib",
@@ -3889,6 +4031,24 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-05-28",
       "first_seen_at": "2026-05-29T06:35:13Z"
+    },
+    {
+      "title": "Special issue on Misophonia and Hyperacusis",
+      "authors": [
+        "Emily B.J. Coffey",
+        "Philippe Fournier"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-08-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109772",
+      "url": "https://doi.org/10.1016/j.heares.2026.109772",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-08-09T03:54:29Z"
     },
     {
       "title": "Stress across timescales: differential effects of acute and chronic stress on auditory processing and perception",
@@ -4903,52 +5063,6 @@
       "source": "crossref",
       "available_online_date": "2026-07-27",
       "first_seen_at": "2026-07-28T05:26:08Z"
-    },
-    {
-      "title": "Effects of Wbp2 gene activation and the modifier Cdh23ahl on progressive hearing loss in Wbp2 mouse mutants",
-      "authors": [
-        "Rechal Kumar",
-        "Daniel R Pentland",
-        "Neil J Ingham",
-        "Morag A Lewis",
-        "Elisa Martelletti",
-        "Karen P. Steel"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-07-25",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109754",
-      "url": "https://doi.org/10.1016/j.heares.2026.109754",
-      "abstract": "Synapses are thought to be a vulnerable site in hearing loss. One gene required for normal synapse maintenance is Wbp2, which encodes a transcriptional co-activator of oestrogen and progesterone receptors. The Wbp2tm2a mouse mutant allele knocks down transcription to minimal levels and leads to progressive increase in ABR thresholds for high frequencies from 4 weeks onwards in homozygotes. This is accompanied by swelling of nerve terminals below inner hair cells and dysregulation of key post-synaptic proteins. We have used the design of the Wbp2tm2a mutation to investigate whether the synaptic swelling and increase in auditory thresholds can be prevented or reversed by activating the Wbp2 gene either prior to or after the onset of hearing loss, respectively. The influence of a common modifier of auditory function, Cdh23ahl, was also studied by crossing a repaired Cdh23 allele into the Wbp2tm2a colony. We found that activation of Wbp2 at either 4 weeks old or postnatal day 4 failed to halt or prevent the progression of hearing loss in Wbp2tm2a homozygous mutant mice. Surprisingly, correction of the Cdh23ahl allele in Wbp2tm2a/tm2a mice completely abolished the auditory phenotype, restoring hearing thresholds to normal up to 26 weeks of age. These findings reveal the difficulty in reversing early-onset synaptic defects and highlight genetic background, including known modifiers like Cdh23ahl, as a critical factor in auditory research.",
-      "ai_analysis": {
-        "scientific_question": "Wbp2基因激活或Cdh23ahl等位基因校正能否预防或逆转Wbp2tm2a纯合突变小鼠的进行性听力损失？",
-        "key_highlight": "Cdh23ahl等位基因校正可完全消除Wbp2tm2a纯合突变小鼠的听觉表型，使其听力阈值在26周龄前恢复至正常水平，而4周龄或出生后4天的Wbp2基因激活均未能阻止听力损失进展。",
-        "main_limitation": "作为特定遗传背景的转基因小鼠模型研究，其结论向其他基因型或人类患者的转化应用存在局限；且干预时机仅限于4周龄和出生后4天，无法评估更早期干预的可能性。",
-        "research_implication": "研究强调了遗传背景及已知修饰因子在听觉功能中的关键作用，并提示早期突触损伤可能难以逆转，这对理解听力损失干预的时间窗口具有参考意义。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "cf8675c6873109b7",
-        "updated_at": "2026-07-31T05:47:41Z"
-      },
-      "last_author_affiliation": "Wolfson Sensory, Pain and Regeneration Centre, King's College London, London SE1 1UL, UK. Electronic address: karen.steel@kcl.ac.uk.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Cdh23",
-        "Genetic background",
-        "Hearing loss",
-        "Mouse mutant",
-        "Wbp2"
-      ],
-      "tags": [
-        "auditory physiology",
-        "clinical audiology"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-07-25",
-      "first_seen_at": "2026-07-31T05:46:39Z"
     },
     {
       "title": "Excess Vowel Fusion in Hearing-Impaired Listeners Across Fundamental Frequency and Spatial Separation in the Free Field: An Alternative Mechanism for Difficulties With Speech in Noise",
@@ -10384,17 +10498,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -10415,18 +10530,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -20275,22 +20389,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -20303,6 +20401,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -27976,23 +28090,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -28006,6 +28103,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -31499,8 +31613,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -31514,8 +31628,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -36679,8 +36793,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -36694,8 +36808,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
