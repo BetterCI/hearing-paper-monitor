@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T03:56:47Z",
+  "generated_at": "2026-08-12T04:19:02Z",
   "papers": [
     {
       "title": "Corrigendum to “Dynamics of Intra- and Inter-Regional Activities of the Auditory ‘Where’ Pathway during Sound Localization: An fMRI Study” [Hearing Research 477 (2026) 109650]",
@@ -1445,6 +1445,345 @@
       "first_seen_at": "2026-07-07T06:28:36Z"
     },
     {
+      "title": "A dual-branch fusion network for footstep sound source localization in non-line-of-sight corridors",
+      "authors": [
+        "Xiaonan Wang",
+        "Zhe Chen",
+        "Fuliang Yin"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-11",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044386",
+      "url": "https://doi.org/10.1121/10.0044386",
+      "abstract": "Non-line-of-sight (NLOS) acoustic source localization using microphone arrays has attracted increasing attention in robotics due to its non-intrusive nature, low cost, and ease of integration. However, existing methods typically rely on accurate environmental models and ideal propagation assumptions, resulting in limited robustness in complex multipath environments. To address these issues, this paper proposes CorridorLocNet, a dual-branch fusion network for footstep sound source localization in NLOS corridors. Specifically, Mel-spectrogram and generalized cross correlation with phase transform features are first concatenated into a joint input. Subsequently, a dual-branch architecture is proposed, comprising a residual convolutional branch to extract local time-frequency patterns and a lightweight Conformer branch to capture global temporal dependencies. Furthermore, a cross-attention module adaptively fuses high-dimensional representations from both branches. Finally, a multi-layer perceptron outputs the estimated position. By learning the complex mapping from spatial sound field variations to source positions, the proposed method provides a robust solution in NLOS corridors. Additionally, a real-world dataset of footsteps occurring behind a corridor corner is constructed for evaluation. Experimental results demonstrate that CorridorLocNet achieves 98.83% classification accuracy and reduces the average error by 2.56 m compared with the reflection-aware localization approach, validating its feasibility in NLOS localization scenarios.",
+      "first_author_affiliation": "School of Information and Communication Engineering, Dalian University of Technology , Dalian 116024,",
+      "last_author_affiliation": "School of Information and Communication Engineering, Dalian University of Technology , Dalian 116024,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "real-world listening"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-11",
+      "first_seen_at": "2026-08-12T04:18:43Z",
+      "ai_analysis": {
+        "scientific_question": "如何实现非视距走廊环境中基于麦克风阵列的脚步声声源鲁棒定位？",
+        "key_highlight": "该研究提出的双分支融合网络结合Mel频谱图和广义互相关相位变换特征，在非视距走廊场景下达到98.83%的分类准确率，平均误差较反射感知定位方法降低2.56米。",
+        "main_limitation": "研究仅针对脚步声这一特定声源类型进行验证，且实验数据来自单一场景构建的数据集，方法在其他声源类型或更复杂声学环境中的泛化能力尚未验证。",
+        "research_implication": "该研究属于声学定位与机器人感知领域，与助听器、人工耳蜗或言语感知研究无直接关联。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "6c90dd90066e93ea",
+        "updated_at": "2026-08-12T04:19:25Z"
+      }
+    },
+    {
+      "title": "Active noise control incorporating external wireless acoustic sensors",
+      "authors": [
+        "De Hu",
+        "Yanrong He",
+        "Qingying Zhao",
+        "Junfeng Li"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-11",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044566",
+      "url": "https://doi.org/10.1121/10.0044566",
+      "abstract": "Wireless devices with one or more acoustic sensors (e.g., smartphones and laptops) have become ubiquitous in our daily life. Their distribution in the environment can be beneficially exploited for active noise control (ANC) systems to sample the sound field with a higher spatial resolution. In this study, an ANC system incorporating external wireless acoustic sensors (WASs) is introduced. Unlike conventional Wiener/adaptive filters, the filters are designed after taking the communication delay of WASs into account. Specifically, to achieve real-time processing, the filters are determined by minimizing the error signal power while forcing partial filter coefficients that correspond to WAS signals unavailable in time at the ANC controller to zero. Under this criterion, both optimal and adaptive filters are derived, where the former provides the theoretical bound on performance, while the latter supports real-time noise reduction. Due to the joint impact of communication and acoustic propagation delays, some WASs provide limited benefit to the local ANC system and may even degrade the adaptive filtering performance. To this end, the theoretical performance gain offered by WASs is analyzed, from which the most informative WASs are selected to improve computational efficiency. Simulation and real-world experiments show the validity of the proposed methods.",
+      "first_author_affiliation": "College of Computer Science, Inner Mongolia University 1 , Hohhot, Inner Mongolia 010021,",
+      "last_author_affiliation": "Key Laboratory of Speech Acoustics and Content Understanding, Institute of Acoustics, Chinese Academy of Sciences 2 , Beijing 100190,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "real-world listening"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-11",
+      "first_seen_at": "2026-08-12T04:18:43Z",
+      "ai_analysis": {
+        "scientific_question": "如何将外部无线声学传感器有效融入主动降噪系统，同时克服通信延迟对滤波器设计的不利影响？",
+        "key_highlight": "通过强制将对应延迟信号的滤波器系数置零，在考虑通信延迟的条件下推导出兼顾理论最优性能与实时处理能力的自适应滤波器。",
+        "main_limitation": "实验验证基于模拟和有限数量的真实场景测试，未涉及实际听力障碍用户的助听设备集成应用。",
+        "research_implication": "为助听器等需要考虑无线传感器通信延迟的主动降噪系统提供了潜在的滤波算法改进思路。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "800ad2fd05828d5b",
+        "updated_at": "2026-08-12T04:19:39Z"
+      }
+    },
+    {
+      "title": "Auditory distance estimation of virtual sound sources with bilateral bone conduction stimulation",
+      "authors": [
+        "Jie Wang",
+        "Wanyang Wu",
+        "Hang Zeng",
+        "Stefan Stenfelt",
+        "Xiaoya Wang",
+        "Zhenyu Guo",
+        "Min Shen",
+        "Jinqiu Sang"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-11",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044607",
+      "url": "https://doi.org/10.1121/10.0044607",
+      "abstract": "Auditory distance perception relies on multiple acoustic cues, with sound level serving as the dominant cue. While near-field distance perception under air conduction (AC) stimulation has been extensively studied, comparatively little knowledge is known about distance perception under bilateral bone conduction (BC) stimulation. The present study investigated near-field auditory distance perception under AC and BC stimulation using virtual sound sources presented at distances between 0.2 and 1.0 m and at azimuths of 45°, 90°, and 135°. Two experiments were conducted, one with natural distance-dependent level cues preserved and one with level cues removed via normalization. Distance estimates were quantified using power-function exponents as a measure of perceptual distance compression. When level cues were preserved, distance perception did not differ significantly between AC and BC stimulation. Under level-normalized conditions, perceived distance ranges were significantly reduced for BC compared with AC at lateral azimuths. These results are consistent with the interpretation that sound level is the primary cue for auditory distance perception under both stimulation modalities, and that binaural cue degradation under BC stimulation limits distance accuracy when level cues are unavailable. The findings have implications for the design and signal processing of BC auditory devices intended to support spatial hearing.",
+      "first_author_affiliation": "School of Electronics and Communication Engineering, Guangzhou University 1 , Guangzhou 510006,",
+      "last_author_affiliation": "East China Normal University 5 , Shanghai 200062,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "priority section",
+        "real-world listening"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-11",
+      "first_seen_at": "2026-08-12T04:18:43Z",
+      "ai_analysis": {
+        "scientific_question": "在近场条件下，双侧骨传导刺激与气传导刺激的听觉距离感知是否存在差异？",
+        "key_highlight": "当保持声级线索时，BC与AC的距离感知无显著差异，但在去除声级线索后，BC刺激在侧向方位角的感知距离范围显著小于AC。",
+        "main_limitation": "使用虚拟声源的受控实验环境可能无法完全反映真实世界中的距离感知表现。",
+        "research_implication": "该研究为支持空间听觉的骨传导听觉设备的设计与信号处理提供了参考依据。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "48e2b6d817d3d438",
+        "updated_at": "2026-08-12T04:19:53Z"
+      }
+    },
+    {
+      "title": "Estimating the minimum numbers of calling mysticetes using passive acoustic bearings",
+      "authors": [
+        "S. Bruce Martin",
+        "Julien J.-Y. Delarue",
+        "Ildar R. Urazghildiiev",
+        "Briand J. Gaudet",
+        "Eloise T. Callaghan",
+        "Kerkeslin MacDonald",
+        "Joanna E. Mills Flemming",
+        "Jennifer L. Miksis-Olds"
+      ],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-11",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044581",
+      "url": "https://doi.org/10.1121/10.0044581",
+      "abstract": "Monitoring the abundance and distribution of marine mammals is essential for evaluating human and environmental effects. Passive acoustic monitoring offers a non-visual alternative, but estimating animal numbers remains difficult. We introduce Spatial Counting of Animal Numbers (SCAN), a method that counts unique bearings of detected calls to estimate a conservative minimum number of animals present. SCAN is a complementary metric to traditional presence/absence results and calibrated density estimates. The method is demonstrated using sei whale calls recorded by a four-element array on an autonomous glider. SCAN increases the information on marine mammal populations derived from passive acoustic recordings.",
+      "first_author_affiliation": "JASCO Applied Sciences 1 , 32 Troop Avenue, Suite 202, Dartmouth, Nova Scotia B3B 1Z1,",
+      "last_author_affiliation": "Center for Acoustics Research and Education, University of New Hampshire 4 , 8 College Road, Durham, New Hampshire 03824,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0044581",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-11",
+      "first_seen_at": "2026-08-12T04:18:43Z",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/8/081201/3400790/Estimating-the-minimum-numbers-of-calling",
+      "media_checked_at": "2026-08-12T04:19:10Z",
+      "open_access_image_checked_at": "2026-08-12T04:19:10Z",
+      "ai_analysis": {
+        "scientific_question": "如何利用被动声学监测数据估算发出叫声的海洋哺乳动物的最小数量？",
+        "key_highlight": "该研究提出了SCAN方法，通过计算检测到的叫声的唯一方位来保守估计动物数量，作为传统存在/absence结果的补充指标。",
+        "main_limitation": "该方法仅在单个物种（sei whale）和特定配置（四元阵列）下进行了演示，在不同物种或阵列条件下的适用性有待验证。",
+        "research_implication": "一般研究结果，该研究属于海洋哺乳动物被动声学监测方法学范畴，与助听器、人工耳蜗或言语感知研究无直接关联。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "ee3b5f8247d9d056",
+        "updated_at": "2026-08-12T04:20:07Z"
+      }
+    },
+    {
+      "title": "Fusing line spectrum enhancement, physics-informed features, and data-driven models: Underwater weak acoustic source ranging using deep learning",
+      "authors": [
+        "Ziyu Yan",
+        "Xinyu Zhang",
+        "Zailei Luo",
+        "Tongsheng Shen",
+        "Xionghui Li",
+        "Jianzhong Tang",
+        "Zhengxiong Li"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-11",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044574",
+      "url": "https://doi.org/10.1121/10.0044574",
+      "abstract": "Accurate ranging of underwater weak acoustic sources remains a critical challenge in complex marine environments due to severe acoustic energy attenuation, multipath interference, and strong ambient background noise. This work proposes an integrated framework combining line spectrum enhancement, conventional beamforming-based feature extraction, and data-driven learning for weak acoustic source ranging. Test datasets were collected from a 2025 sea trial, using a 24-element array with Global Positioning System-synchronized ground truth. After quality screening, 2584 valid samples were obtained from nine stations. For training, bellhop-based simulation was used, which involves seven key parameters, including the sound speed profile and sound source depth, with a maximum ranging distance of 13 km and 30 000 training samples generated. Comparative experiments against multipath matching of arrival angles, machine learning methods, a convolutional neural network (CNN), and Transformer achieves the best performance across all metrics [mean absolute error (MAE) = 477.09 m, root mean square error (RMSE) = 809.93 m, mean absolute percentage error (MAPE) = 8.90%]. Compared with CNN (MAE = 527.73 m, RMSE = 907.65 m, MAPE = 9.68%), the Transformer reduces RMSE, MAE, and MAPE by approximately 9.60%, 10.77%, and 8.06%, respectively. Experimental results and arrival angle perturbation tests verify the effectiveness of the presented framework in weak acoustic source ranging.",
+      "first_author_affiliation": "Zhejiang University, College of Oceanography 1 , Zhoushan 316021, Zhejiang,",
+      "last_author_affiliation": "Zhejiang University, College of Oceanography 1 , Zhoushan 316021, Zhejiang,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "machine learning"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-11",
+      "first_seen_at": "2026-08-12T04:18:43Z"
+    },
+    {
+      "title": "Generation of the second mode in the hypersonic boundary layer by wavy wall",
+      "authors": [
+        "Chong Cai",
+        "Bingyin Du",
+        "Cunbiao Lee"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-11",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044593",
+      "url": "https://doi.org/10.1121/10.0044593",
+      "abstract": "The present study experimentally and numerically investigates the evolution of the original dominant second mode in a Mach 6 hypersonic boundary layer over a flared cone, together with two additional disturbances that arise over a wavy wall. The results show that these additional disturbances are dominated by dilatational motion and are identified as second-mode instabilities rather than first-mode waves. Owing to the excitation of these additional second-mode components, the original dominant second mode is effectively suppressed, leading to a substantial reduction in the overall disturbance amplitude and the complete elimination of the associated localized surface-heating peak, in agreement with the experimental observations of Si et al. [(2019). Phys. Fluids 31(5), 051702] and Zhu et al. [(2018). J. Fluid Mech. 855, 152–180]. This effect is attributed to a redistribution of disturbance energy from the original dominant second mode into two additional, lower-frequency second-mode components induced by the wavy-wall modulation of the mean boundary-layer profile.",
+      "first_author_affiliation": "State Key Laboratory for Turbulence and Complex Systems, School of Mechanics and Engineering Science, Peking University , Beijing 100871,",
+      "last_author_affiliation": "State Key Laboratory for Turbulence and Complex Systems, School of Mechanics and Engineering Science, Peking University , Beijing 100871,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-11",
+      "first_seen_at": "2026-08-12T04:18:43Z",
+      "ai_analysis": {
+        "scientific_question": "波纹壁调制如何影响马赫6高超声速边界层中第二模态不稳定波的演化和能量分布？",
+        "key_highlight": "波纹壁激发的附加第二模态分量能有效抑制原有的主导第二模态，显著降低整体扰动振幅并消除局部表面加热峰值。",
+        "main_limitation": "基于特定几何构型（锥形曲面）和特定马赫数条件下的研究，其发现在其他流场条件或几何形状中的适用性可能有限。",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "3a76ba73f2cc6e37",
+        "updated_at": "2026-08-12T04:20:30Z"
+      }
+    },
+    {
+      "title": "Horizontal tunneling of sound in three-dimensional idealized curved nonlinear internal wave ducts",
+      "authors": [
+        "Ying-Tsong Lin",
+        "Matthew A. Milone",
+        "William L. Siegmann"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-11",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044582",
+      "url": "https://doi.org/10.1121/10.0044582",
+      "abstract": "Nonlinear internal waves (NIWs) in the ocean can produce substantial effects on acoustic propagation, including three-dimensional reflection, refraction, and diffraction in the sound ducts bounded and formed by individual NIWs. Feature models for analyzing such effects frequently use a well approximation, which neglects the finite width of NIWs. This paper examines consequences of more realistic conditions including finite wave width and curvature. This curved duct model produces acoustic horizontal modes in the radial direction with a distinct characteristic of enhanced horizontal tunneling through the curved NIW that forms the sound duct. Also, because of the proximity of their modal wavenumbers to those of classical horizontal trapped modes, these enhanced tunneling modes are named companion modes. Conditions for the occurrence of these modes can be derived as physically interpretable bounds on acoustic modal wavenumber values. Furthermore, companion modes decay in sufficiently long distances, representing proper mode contributions to the acoustic total field. Theoretical and numerical analyses presented in this paper further suggest that the phenomena of enhanced tunneling is a result of joint wave tunneling and whispering gallery effects.",
+      "first_author_affiliation": "Scripps Institution of Oceanography, University of California, San Diego 1 , 9500 Gilman Drive, La Jolla, California 92093,",
+      "last_author_affiliation": "Mathematical Sciences Department, Rensselaer Polytechnic Institute 2 , Troy, New York 12180,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-11",
+      "first_seen_at": "2026-08-12T04:18:43Z"
+    },
+    {
+      "title": "Multi-target azimuth estimation using a single acoustic vector sensor via a mixture of wrapped Cauchy distributions",
+      "authors": [
+        "Jiayao Shi",
+        "Junyuan Guo",
+        "Shengchun Piao",
+        "Vladimir A. Chupin",
+        "Yuchen Jiang"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-11",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044585",
+      "url": "https://doi.org/10.1121/10.0044585",
+      "abstract": "A single acoustic vector sensor (AVS) enables collocated measurements of acoustic pressure and three orthogonal particle velocity components, providing unambiguous azimuth estimation. However, azimuth estimation methods adapted from array signal processing to a single AVS often suffer from limited robustness and angular resolution. Conventional active sound intensity approaches are likewise challenged in multi-target scenarios and require prior knowledge of the signal-to-noise ratio. To address these limitations, this study preserves the frequency-domain processing framework of the complex sound intensity method and introduces a mixture of wrapped Cauchy distribution (MWC) to characterize the statistical distribution of sound intensity-derived direction angles. The expectation–maximization algorithm clusters frequency-dependent azimuth estimates within a specified frequency band, enabling multi-target azimuth estimation without prior SNR knowledge. To assess algorithmic performance, the influence of multi-target signal coherence and energy ratios on azimuth estimation based on the complex sound intensity method is analytically derived and examined. Three simulations are included: MWC goodness-of-fit under different conditions, comparison with existing methods, and assessment of multi-target tracking. Finally, experimental data acquired in the South China Sea are used to validate the proposed method, demonstrating its capability to accurately estimate the azimuths of multiple targets.",
+      "first_author_affiliation": "National Key Laboratory of Underwater Acoustic Technology, Harbin Engineering University 1 , Harbin 150001,",
+      "last_author_affiliation": "National Key Laboratory of Underwater Acoustic Technology, Harbin Engineering University 1 , Harbin 150001,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-11",
+      "first_seen_at": "2026-08-12T04:18:43Z"
+    },
+    {
+      "title": "Physics and artificial intelligence collaborative evaluation-prediction framework for rapid underwater acoustic transmission loss modeling",
+      "authors": [
+        "Jiawei Jiang",
+        "Jianxin Wu",
+        "Peng Qian",
+        "Lin Zhang"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-11",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044872",
+      "url": "https://doi.org/10.1121/10.0044872",
+      "abstract": "Artificial intelligence (AI) has recently attracted considerable attention for low-cost acoustic field prediction. However, existing AI methods struggle with uncontrollable prediction reliability across diverse marine environments and lack confidence evaluation mechanisms, hindering their direct application in practical engineering. To address these issues, this paper proposes a physics-AI collaborative evaluation-prediction framework. Inspired by uncertainty assessment, we construct an AI prediction quality evaluation module to conduct environmental confidence assessments and automate task routing: acceptable samples are assigned to AI for rapid prediction, while unacceptable ones revert to physical models to ensure accuracy. Additionally, principal component analysis is utilized to linearly compress the high-dimensional acoustic field, further alleviating the model's computational and storage burdens. Validated on Bellhop-generated data using fixed bottom parameters, experiments demonstrate that the evaluation model identifies acceptable samples with 94.38% precision. By effectively isolating acceptable predictions [average root mean square error (RMSE) 2.614 dB] from unacceptable ones (average RMSE 4.508 dB), overall computation time is reduced by over 50%. Notably, this flexible framework requires only lightweight fine-tuning to adapt to existing neural networks, providing a viable paradigm for applying intelligent underwater acoustic models in practical engineering.",
+      "first_author_affiliation": "Institute of Marine Science and Technology, Shandong University 1 , Qingdao 266237,",
+      "last_author_affiliation": "Laoshan Laboratory 2 , Qingdao 266237,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "machine learning"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-11",
+      "first_seen_at": "2026-08-12T04:18:43Z"
+    },
+    {
+      "title": "Social trills of the pipistrelle bat ( Pipistrellus pipistrellus ) are quieter than their echolocation calls, but have a greater range",
+      "authors": [
+        "Karl-Heinz Frommolt",
+        "Elisa Wencke Schmidt",
+        "Mirjam Knörnschild"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-11",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044584",
+      "url": "https://doi.org/10.1121/10.0044584",
+      "abstract": "Under natural conditions, the sound pressure level of social trills and echolocation calls of pipistrelle bats was measured as peak equivalent sound pressure level (peSPL) with the aim of estimating the range of the signals. Thirty-eight echolocation calls and 55 social trills, whose distance from the microphone was known, were evaluated. The social trills were approximately 8 dB quieter than the echolocation calls but had a significantly greater range because of their lower call frequency. Based on the American National Standards Institute/Acoustical Society of America [ANSI/ASA (2024) S1.26-2014, Methods for Calculation of the Absorption of Sound by the Atmosphere (Acoustical Society of America, New York)] standard, we examined the propagation of the signals under different conditions of humidity, temperature, and air pressure. The results show that in calm weather the potential ranges can vary by a factor of two to three. Assuming a detection threshold of 20 dB, we determined ranges for an echolocation call of between approximately 30 and 80 m under realistic conditions and for a social trill of between 60 and more than 120 m.",
+      "first_author_affiliation": "Department of Evolutionary Diversity Dynamics, Museum für Naturkunde–Leibniz Institute for Evolution and Biodiversity Science 1 , Invalidenstraße 43, Berlin 10115,",
+      "last_author_affiliation": "Department of Evolutionary Diversity Dynamics, Museum für Naturkunde–Leibniz Institute for Evolution and Biodiversity Science 1 , Invalidenstraße 43, Berlin 10115,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-11",
+      "first_seen_at": "2026-08-12T04:18:43Z"
+    },
+    {
+      "title": "The Cremer impedance revisited: Investigating passivity at low frequencies for uniform and sheared mean flows",
+      "authors": [
+        "Zhao-Huan Wang",
+        "Qirui He",
+        "Chenyang Weng",
+        "Long Xu"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-11",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044502",
+      "url": "https://doi.org/10.1121/10.0044502",
+      "abstract": "The Cremer impedance identifies the optimal wall treatment for maximizing the axial attenuation in a waveguide by enforcing the coalescence of the least-attenuated modes. At low frequencies, however, models employing the Ingard–Myers boundary condition often yield negative resistances. This study shows that these results are a mathematical consequence of combining the coalescence criterion with the impedance boundary condition, with neither enforcing acoustic passivity. As frequency decreases, the region of admissible impedances with positive resistance contracts significantly, while the unconstrained coalescence condition may drive the optimized solution outside this shrinking passive domain. In uniform flow, the classical continuity of velocity condition from Abom and Jacob [JASA Express Lett. 1, 022801 (2021)] restores passivity by forcing the resistance toward zero, but numerical evaluations using realistic no-slip shear profiles reveal that velocity gradients can still reintroduce negative resistances even when the wall velocity is zero. Together, these findings indicate that achieving strictly passive Cremer-optimized impedances remains a fundamental challenge in low-frequency inviscid duct acoustics.",
+      "first_author_affiliation": "College of Sciences, China Jiliang University 1 , Hangzhou 310018,",
+      "last_author_affiliation": "College of Sciences, China Jiliang University 1 , Hangzhou 310018,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-11",
+      "first_seen_at": "2026-08-12T04:18:43Z"
+    },
+    {
       "title": "A lightweight conditional mean-field network for predicting azimuth-range acoustic transmission loss in dynamic ocean environments",
       "authors": [
         "Wenbin Xiao",
@@ -1485,22 +1824,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0044578",
       "url": "https://doi.org/10.1121/10.0044578",
-      "abstract": "Previous research has shown that tire noise can be modelled through equivalent monopoles and acoustic transfer functions (ATFs). In this study, the numerical modelling of ATFs and their use for the prediction of tire/road noise is investigated as an alternative to ATFs derived from experimental measurements, aiming to reduce the experimental effort required during testing campaigns. Numerical models are developed to reproduce the acoustic characteristics of the environments where tire/road noise tests are conducted, both indoor and outdoor. To assess the reliability of the simulations in representing the actual acoustic propagation conditions, the computed ATFs are validated against experimental measurements. The numerical transfer functions are then employed for the synthesis of equivalent monopoles and for the prediction of coast-by noise levels. The predicted results are finally compared with experimental coast-by data to evaluate the accuracy of the proposed approach.",
-      "first_author_affiliation": "Department of Mechanical Engineering, Politecnico di Milano 1 , Milano 20156,",
-      "last_author_affiliation": "Department of Mechanical Engineering, Politecnico di Milano 1 , Milano 20156,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0044578",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-08-10",
-      "first_seen_at": "2026-08-11T03:56:19Z",
       "full_text_url": "https://pubs.aip.org/jasa/article/160/2/1240/3400620/Acoustic-transfer-functions-for-tire-road-noise",
-      "media_checked_at": "2026-08-11T03:56:54Z",
-      "open_access_image_checked_at": "2026-08-11T03:56:54Z",
+      "abstract": "Previous research has shown that tire noise can be modelled through equivalent monopoles and acoustic transfer functions (ATFs). In this study, the numerical modelling of ATFs and their use for the prediction of tire/road noise is investigated as an alternative to ATFs derived from experimental measurements, aiming to reduce the experimental effort required during testing campaigns. Numerical models are developed to reproduce the acoustic characteristics of the environments where tire/road noise tests are conducted, both indoor and outdoor. To assess the reliability of the simulations in representing the actual acoustic propagation conditions, the computed ATFs are validated against experimental measurements. The numerical transfer functions are then employed for the synthesis of equivalent monopoles and for the prediction of coast-by noise levels. The predicted results are finally compared with experimental coast-by data to evaluate the accuracy of the proposed approach.",
       "ai_analysis": {
         "scientific_question": "如何通过数值建模生成声学传递函数以替代实验测量来预测轮胎/道路噪声，从而减少测试过程中的实验工作量。",
         "key_highlight": "数值模型计算的声学传递函数经过实验验证，可用于等效单极子合成和滑行噪声水平预测。",
@@ -1512,7 +1837,21 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "b6ee111d4cdb524b",
         "updated_at": "2026-08-11T03:57:43Z"
-      }
+      },
+      "first_author_affiliation": "Department of Mechanical Engineering, Politecnico di Milano 1 , Milano 20156,",
+      "last_author_affiliation": "Department of Mechanical Engineering, Politecnico di Milano 1 , Milano 20156,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0044578",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-08-11T03:56:54Z",
+      "media_checked_at": "2026-08-11T03:56:54Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-10",
+      "first_seen_at": "2026-08-11T03:56:19Z"
     },
     {
       "title": "Acoustical localized approximation for acoustical fields with axicon angles",
@@ -1526,14 +1865,6 @@
       "doi": "10.1121/10.0044527",
       "url": "https://doi.org/10.1121/10.0044527",
       "abstract": "An acoustical field may be expanded over spherical wave functions with the expansion coefficients expressed in terms of beam shape coefficients. Adapting a technique established in the case of electromagnetic beams, a localized approximation has been developed for a large class of acoustical fields, in particular Gaussian beams, allowing one to evaluate efficiently and rapidly these coefficients. This paper discusses the fact that the acoustical localized approximation so established is of limited validity in the case of acoustical fields exhibiting an axicon angle.",
-      "first_author_affiliation": "CORIA–UMR 6614–Normandie Université. CNRS–Université et INSA de Rouen 1 . Campus Universitaire du Madrillet. 76800, Saint-Etienne du Rouvray,",
-      "last_author_affiliation": "CORIA–UMR 6614–Normandie Université. CNRS–Université et INSA de Rouen 1 . Campus Universitaire du Madrillet. 76800, Saint-Etienne du Rouvray,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-08-10",
-      "first_seen_at": "2026-08-11T03:56:19Z",
       "ai_analysis": {
         "scientific_question": "针对具有阿基米德锥透镜角（axicon angle）的声场，如何建立有效的局域近似方法来快速计算球面波展开系数？",
         "key_highlight": "成功将电磁波束的局域近似技术移植到声场领域，但发现该近似方法在处理具有锥透镜角的声场时存在有效性限制。",
@@ -1545,7 +1876,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "4119c9980edba12f",
         "updated_at": "2026-08-11T03:58:07Z"
-      }
+      },
+      "first_author_affiliation": "CORIA–UMR 6614–Normandie Université. CNRS–Université et INSA de Rouen 1 . Campus Universitaire du Madrillet. 76800, Saint-Etienne du Rouvray,",
+      "last_author_affiliation": "CORIA–UMR 6614–Normandie Université. CNRS–Université et INSA de Rouen 1 . Campus Universitaire du Madrillet. 76800, Saint-Etienne du Rouvray,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-10",
+      "first_seen_at": "2026-08-11T03:56:19Z"
     },
     {
       "title": "Both fast and slow speech can increase listening effort and impair speech comprehension in young listeners",
@@ -1561,18 +1900,6 @@
       "doi": "10.1121/10.0044520",
       "url": "https://doi.org/10.1121/10.0044520",
       "abstract": "Speech rate can vary under different communicative circumstances (e.g., listener demands, speaking style), and such variation can affect the cognitive effort required to process speech. The present study examined how different speech rates, including both fast and slow rates, affect listening effort and speech comprehension in normal-hearing young listeners using a dual-task paradigm. The results showed that the recognition accuracy of key content words decreased under fast conditions for both the single-task and dual-task groups. In contrast, the number of comprehension errors increased under both the fast and slow speech conditions in the dual-task group. This was found using an additional method of evaluating speech comprehension, demonstrating that linguistic and mnemonic processes required for successful speech comprehension can be impaired when listening to slow speech, especially under high cognitive load. The subjective effort ratings similarly increased for fast and slow speech, but this was shown only in the control group, whereas the dual-task group showed no changes in the ratings by speech rates. This suggests that the subjective awareness of listening difficulty was reduced in dual-tasking situations. This study highlights the importance of multi-level assessment of speech perception, especially in cognitively challenging situations.",
-      "first_author_affiliation": "Graduate School of Culture Technology, Korea Advanced Institute of Science and Technology 1 , Daejeon 34141,",
-      "last_author_affiliation": "Graduate School of Culture Technology, Korea Advanced Institute of Science and Technology 1 , Daejeon 34141,",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "priority section",
-        "real-world listening",
-        "speech perception"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-08-10",
-      "first_seen_at": "2026-08-11T03:56:19Z",
       "ai_analysis": {
         "scientific_question": "本研究探讨了不同语速（包括快速和慢速）如何影响正常听力年轻听众的聆听努力和言语理解。",
         "key_highlight": "在双重任务条件下，快速和慢速言语均会损害言语理解，且主观努力评分未能反映实际困难。",
@@ -1584,7 +1911,19 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "1a99b2e519314f2b",
         "updated_at": "2026-08-11T03:58:39Z"
-      }
+      },
+      "first_author_affiliation": "Graduate School of Culture Technology, Korea Advanced Institute of Science and Technology 1 , Daejeon 34141,",
+      "last_author_affiliation": "Graduate School of Culture Technology, Korea Advanced Institute of Science and Technology 1 , Daejeon 34141,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "priority section",
+        "real-world listening",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-10",
+      "first_seen_at": "2026-08-11T03:56:19Z"
     },
     {
       "title": "Correlation analysis of the spatial phase of acoustic scattering from a sphere by a vortex beam",
@@ -1599,14 +1938,6 @@
       "doi": "10.1121/10.0044591",
       "url": "https://doi.org/10.1121/10.0044591",
       "abstract": "Although the pressure amplitude of scattering and related nonlinear effects (e.g., the acoustic radiation force and torque) are widely studied, the modulation of spatial phase resulting from the interaction of vortex beams with scatterers has been less explored. In this paper, we investigate the lateral spatial phase of the backward scattering from an underwater elastic sphere in a Bessel vortex with the angular spectrum method. The resonance scattering is isolated by subtracting the background contribution from the total field based on the resonance scattering theory. A cross correlation method is proposed to locate the positions of singularities of spatial phase from scattering fields precisely. Our theoretical analysis shows that in a limited regime, the offset of the singularities of the spatial phase for the backscattering from a sphere is linearly proportional to the sphere's positions although, beyond this limit, the linear relation breaks. In addition, the modulation of the singularity offset versus the dimensionless frequency ka provides a possible way to evaluate the target size even though the resonance scattering is suppressed at a specific frequency. This work may facilitate an alternative method for the detection/classification of underwater targets with a new degree of freedom of the spatial phase.",
-      "first_author_affiliation": "State Key Laboratory of Ocean Engineering, School of Ocean and Civil Engineering, Shanghai Jiao Tong University 1 , Shanghai 200240,",
-      "last_author_affiliation": "State Key Laboratory of Ocean Engineering, School of Ocean and Civil Engineering, Shanghai Jiao Tong University 1 , Shanghai 200240,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-08-10",
-      "first_seen_at": "2026-08-11T03:56:19Z",
       "ai_analysis": {
         "scientific_question": "涡旋波束与水下弹性球体相互作用产生的后向散射空间相位特性及其规律是什么？",
         "key_highlight": "提出交叉相关方法定位散射场空间相位奇点，发现在有限范围内奇点偏移与球体位置呈线性关系，并可用于目标尺寸评估。",
@@ -1618,7 +1949,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "58805cd97d1548b1",
         "updated_at": "2026-08-11T03:58:59Z"
-      }
+      },
+      "first_author_affiliation": "State Key Laboratory of Ocean Engineering, School of Ocean and Civil Engineering, Shanghai Jiao Tong University 1 , Shanghai 200240,",
+      "last_author_affiliation": "State Key Laboratory of Ocean Engineering, School of Ocean and Civil Engineering, Shanghai Jiao Tong University 1 , Shanghai 200240,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-10",
+      "first_seen_at": "2026-08-11T03:56:19Z"
     },
     {
       "title": "Real-Time Conversation Comprehension in Younger and Older Adults: The Effects of Noise, Visual Speech, Speaker Switch, and Context",
@@ -1633,22 +1972,8 @@
       "publication_date_precision": "day",
       "doi": "10.1177/23312165261477134",
       "url": "https://doi.org/10.1177/23312165261477134",
-      "abstract": "This study investigated older and younger adults’ conversational speech understanding using an established topic monitoring task to assess real-time semantic processing. Twenty-three younger adults (mean age = 26.5 years) and 19 older adults (mean age = 71.3 years) monitored for topic targets in 24 dialogues (2-3 minutes each). The impact on monitoring response time and accuracy of two message-level factors (when speakers switch; contextual predictability) was assessed while manipulating two signal-level factors (presentation modality; noise level). Results showed that presentation modality affected response times, with faster correct responses for audio-visual versus audio-only presentation, an effect that interacted with age (older adults had a larger visual speech benefit). Noise (0 dB SNR) increased response times and decreased accuracy compared to presentation in quiet. A speaker switch delayed response time to the first target after the switch compared to non-switch targets. When the target occurred relatively soon after a speaker switch, older adults showed a significant switch cost, whereas younger adults did not. Targets that were more predictable from context (low surprisal) had faster response times. In the most challenging listening condition (Audio-only presentation in noise), the effect of contextual predictability for older adults was marginally larger than for younger adults, suggesting greater use of context. These findings highlight the utility of the topic monitoring task for probing conversational speech comprehension across the lifespan.",
-      "first_author_affiliation": "Western Sydney University",
-      "last_author_affiliation": "Western Sydney University",
-      "open_access": true,
-      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261477134",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-10",
-      "first_seen_at": "2026-08-11T03:56:25Z",
       "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261477134",
-      "media_checked_at": "2026-08-11T03:56:54Z",
-      "open_access_image_checked_at": "2026-08-11T03:56:54Z",
+      "abstract": "This study investigated older and younger adults’ conversational speech understanding using an established topic monitoring task to assess real-time semantic processing. Twenty-three younger adults (mean age = 26.5 years) and 19 older adults (mean age = 71.3 years) monitored for topic targets in 24 dialogues (2-3 minutes each). The impact on monitoring response time and accuracy of two message-level factors (when speakers switch; contextual predictability) was assessed while manipulating two signal-level factors (presentation modality; noise level). Results showed that presentation modality affected response times, with faster correct responses for audio-visual versus audio-only presentation, an effect that interacted with age (older adults had a larger visual speech benefit). Noise (0 dB SNR) increased response times and decreased accuracy compared to presentation in quiet. A speaker switch delayed response time to the first target after the switch compared to non-switch targets. When the target occurred relatively soon after a speaker switch, older adults showed a significant switch cost, whereas younger adults did not. Targets that were more predictable from context (low surprisal) had faster response times. In the most challenging listening condition (Audio-only presentation in noise), the effect of contextual predictability for older adults was marginally larger than for younger adults, suggesting greater use of context. These findings highlight the utility of the topic monitoring task for probing conversational speech comprehension across the lifespan.",
       "ai_analysis": {
         "scientific_question": "老年人和年轻人在实时对话理解中，如何受到噪声、视觉语音、说话者转换和上下文可预测性等因素的不同影响？",
         "key_highlight": "老年人比年轻人从视觉语音线索中获得更大收益，且在最具挑战性的听觉条件下更依赖上下文信息来辅助对话理解。",
@@ -1660,7 +1985,21 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "f60bb0dd091e5453",
         "updated_at": "2026-08-11T03:59:18Z"
-      }
+      },
+      "first_author_affiliation": "Western Sydney University",
+      "last_author_affiliation": "Western Sydney University",
+      "open_access": true,
+      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261477134",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "open_access_image_checked_at": "2026-08-11T03:56:54Z",
+      "media_checked_at": "2026-08-11T03:56:54Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-10",
+      "first_seen_at": "2026-08-11T03:56:25Z"
     },
     {
       "title": "Target discrimination during active swimming in bottlenose dolphins ( Tursiops truncatus )",
@@ -1707,6 +2046,43 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-08-10",
       "first_seen_at": "2026-08-11T03:56:19Z"
+    },
+    {
+      "title": "Cortical speech-in-noise processing reflects subcortical syllable encoding and lexical attention",
+      "authors": [
+        "Subong Kim",
+        "Susan Arzac",
+        "Natalie Dokic",
+        "Jenn Donnelly",
+        "Nicole Genser",
+        "Kristen Nortwich",
+        "Melissa Rafaniello",
+        "Grace Vericker"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-08-08",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109773",
+      "url": "https://doi.org/10.1016/j.heares.2026.109773",
+      "abstract": "Speech-in-noise performance varies among individuals with similar hearing sensitivity. Such variability may manifest as varying cortical representations of speech in noise, which may stem from peripheral sensory fidelity and the efficacy of top-down attention. The present study examined how subcortical speech-syllable encoding and lexical attention shape cortical speech-in-noise representation, as measured by neural signal-to-noise ratio (SNR) based on the amplitude ratio of auditory-evoked responses to the target speech onset and the noise onset. The result indicated that neural SNR significantly correlated with behavioral speech-in-noise performance in the moderate-difficulty acoustic condition. The regression model showed that subcortical syllable encoding fidelity and lexical attentional performance independently predicted the neural SNR, suggesting converging contributions from both bottom-up sensory encoding and top-down attention. In addition, syllable encoding, lexical attention, and neural SNR collectively accounted for individual variability in behavioral performance, indicating a shared, partially overlapped contribution from sensory, attentional, and cortical measures to behavioral speech-in-noise perception. Our findings highlight that individual neural SNR serves as a behaviorally relevant cortical speech-in-noise representation reflecting both sensory and attentional mechanisms.",
+      "last_author_affiliation": "Department of Communication Sciences and Disorders, Montclair State University, Montclair, NJ, USA.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Attentional",
+        "Cortical",
+        "Lexical attention",
+        "Neural SNR",
+        "Sensory",
+        "Speech perception",
+        "Syllable encoding"
+      ],
+      "tags": [
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-08",
+      "first_seen_at": "2026-08-09T03:54:29Z"
     },
     {
       "title": "A cluster-optimization method for enhanced standing-wave acoustic fields: Stable levitation and pose manipulation of irregularly shaped objects",
@@ -2950,22 +3326,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -2978,6 +3338,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -3733,32 +4109,6 @@
       "first_seen_at": "2026-06-19T07:32:49Z"
     },
     {
-      "title": "Cortical speech-in-noise processing reflects subcortical syllable encoding and lexical attention",
-      "authors": [
-        "Subong Kim",
-        "Susan Arzac",
-        "Natalie Dokic",
-        "Jenn Donnelly",
-        "Nicole Genser",
-        "Kristen Nortwich",
-        "Melissa Rafaniello",
-        "Grace Vericker"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-08-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109773",
-      "url": "https://doi.org/10.1016/j.heares.2026.109773",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "speech perception"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-08-09T03:54:29Z"
-    },
-    {
       "title": "Current status and future prospects of research on psilocybin's regulation of neurotransmitters and their receptors related to the pathogenesis of tinnitus",
       "authors": [
         "Shuhan Lu",
@@ -4296,6 +4646,27 @@
       ],
       "source": "crossref",
       "first_seen_at": "2026-08-07T04:33:41Z"
+    },
+    {
+      "title": "Role of Harmonicity in Counting and Hearing Out Voices in Polyphonic Music: Effects of Hearing Loss",
+      "authors": [
+        "Lisanne G. Bogaard",
+        "Juraj Mesik",
+        "Andrew J. Oxenham"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-08-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109775",
+      "url": "https://doi.org/10.1016/j.heares.2026.109775",
+      "abstract": null,
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology"
+      ],
+      "source": "crossref",
+      "first_seen_at": "2026-08-12T04:18:51Z"
     },
     {
       "title": "Role of neural activity during inter-token intervals in sound sequence discrimination-1, Primary Auditory Cortex",
@@ -10844,18 +11215,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -10876,17 +11246,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -20735,22 +21106,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -20763,6 +21118,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -28436,23 +28807,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -28466,6 +28820,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -31959,8 +32330,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -31974,8 +32345,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -37139,8 +37510,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -37154,8 +37525,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
