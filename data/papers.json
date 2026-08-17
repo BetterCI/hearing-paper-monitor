@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T03:15:04Z",
+  "generated_at": "2026-08-17T03:15:00Z",
   "papers": [
     {
       "title": "Corrigendum to “Dynamics of Intra- and Inter-Regional Activities of the Auditory ‘Where’ Pathway during Sound Localization: An fMRI Study” [Hearing Research 477 (2026) 109650]",
@@ -336,34 +336,6 @@
       "first_seen_at": "2026-08-02T05:38:25Z"
     },
     {
-      "title": "Relationship between age-related hearing loss, phonological working memory, and global cognitive performance",
-      "authors": [
-        "Meisam K. Arjmandi",
-        "Julius Fridriksson",
-        "Samin Ashjaei",
-        "Cara Vandergriff",
-        "Sarah Newman Norlund",
-        "Samaneh Nemati",
-        "Leonardo Bonilha",
-        "Jean Neils-Strunjas"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109767",
-      "url": "https://doi.org/10.1016/j.heares.2026.109767",
-      "abstract": null,
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "clinical audiology"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-08-06",
-      "first_seen_at": "2026-08-07T04:33:41Z"
-    },
-    {
       "title": "Relationships between ECAP amplitude growth functions and perceptual growth in cochlear implant users: Implications for individualized cochlear implant fitting",
       "authors": [
         "Andreas Büchner",
@@ -403,29 +375,6 @@
       "source": "crossref",
       "available_online_date": "2026-07-29",
       "first_seen_at": "2026-08-08T03:45:40Z"
-    },
-    {
-      "title": "Role of harmonicity in counting and hearing out voices in polyphonic music: Effects of hearing loss",
-      "authors": [
-        "Lisanne G. Bogaard",
-        "Juraj Mesik",
-        "Andrew J. Oxenham"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109775",
-      "url": "https://doi.org/10.1016/j.heares.2026.109775",
-      "abstract": null,
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "clinical audiology"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-08-11",
-      "first_seen_at": "2026-08-12T04:18:51Z"
     },
     {
       "title": "An optimized tissue processing pipeline for multiscale imaging of the intact peripheral auditory pathway",
@@ -1916,14 +1865,6 @@
       "doi": "10.1121/10.0044611",
       "url": "https://doi.org/10.1121/10.0044611",
       "abstract": "The objective of similitude theory is to establish scaling conditions and laws by which the response of a given system can be scaled to infer that of another, distinct system. Exact similitude laws for the structural acoustic response of thin cylindrical shells exist only in the trivial case where length, radius and thickness are scaled equally, because of the coupling between in-plane and transverse deformations. However, under the bending approximation, which applies when bending wavelengths are one order of magnitude smaller than the length and radius of the shell, thickness can be scaled differently to length and radius. This work focuses on similitude laws and conditions for the structural acoustic response of fluid-loaded cylindrical shells, under the bending approximation. The scaling parameters include the shell dimensions, material parameters and the properties of the acoustic domain. A criterion for validity of the bending approximation based on ring frequencies of the reference and scaled in vacuo shells is proposed. In the case of fluid-loaded cylindrical shells, new similitude conditions and laws are derived for exact scaling of the modal radiation impedance. When these conditions are satisfied, satisfactory re-scaling of both the spatially-averaged vibration response and the radiated sound power is obtained.",
-      "first_author_affiliation": "CRASH-UdeS, Department of Mechanical Engineering, Université de Sherbrooke 1 , Sherbrooke, Qc J1K2R1,",
-      "last_author_affiliation": "INSA Lyon, Laboratoire Vibrations-Acoustique (LVA), UR677 4 , Villeurbanne 69621,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-14",
-      "first_seen_at": "2026-08-15T03:07:23Z",
       "ai_analysis": {
         "scientific_question": "如何在弯曲近似条件下建立流体负载薄圆柱壳振动声响应的比例缩放定律",
         "key_highlight": "推导了流体负载圆柱壳模态辐射阻抗精确缩放的新相似条件，并在满足条件时可实现振动响应和辐射声功率的满意重缩放",
@@ -1935,7 +1876,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "00fc22ac702308d7",
         "updated_at": "2026-08-16T03:15:26Z"
-      }
+      },
+      "first_author_affiliation": "CRASH-UdeS, Department of Mechanical Engineering, Université de Sherbrooke 1 , Sherbrooke, Qc J1K2R1,",
+      "last_author_affiliation": "INSA Lyon, Laboratoire Vibrations-Acoustique (LVA), UR677 4 , Villeurbanne 69621,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-14",
+      "first_seen_at": "2026-08-15T03:07:23Z"
     },
     {
       "title": "Synaptic zinc plasticity shapes adaptive and maladaptive cortical plasticity following cochlear injury.",
@@ -2255,7 +2204,19 @@
       "tags": [],
       "source": "crossref",
       "available_online_date": "2026-08-13",
-      "first_seen_at": "2026-08-14T04:19:13Z"
+      "first_seen_at": "2026-08-14T04:19:13Z",
+      "ai_analysis": {
+        "scientific_question": "如何预测、测量和理解新兴电动分布式推进飞行器产生的噪声特性，以支持其适航认证和公众接受度？",
+        "key_highlight": "本特刊汇集了24篇论文，从噪声预测、测量和人类感知三个维度探讨电动垂直起降飞行器噪声的综合研究方法。",
+        "main_limitation": "大部分测量研究基于模型尺度实验，可能难以完全反映实际全尺寸飞行条件下的噪声特性。",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "08324791b6e113bd",
+        "updated_at": "2026-08-17T03:15:28Z"
+      }
     },
     {
       "title": "Investigation of acoustic performance and noise reduction optimization for ventilation duct elbows with a guide vane",
@@ -2270,16 +2231,6 @@
       "doi": "10.1121/10.0044871",
       "url": "https://doi.org/10.1121/10.0044871",
       "abstract": "Elbow noise constitutes a significant issue in ship ventilation systems. Guide vanes are commonly used to mitigate this noise, and their geometric configuration exerts a substantial influence on acoustic performance. The study concentrates on rectangular elbows utilized in cruise ship ventilation systems and systematically investigates the effects of guide vane geometry on acoustic behavior. A coupled optimization framework is established, integrating a radial basis function neural network response surface model with the fast-elitist non-dominated sorting genetic algorithm. The results indicate that an optimal low noise elbow design is realized through a combination of a shorter inlet length, a moderate outlet length, an appropriate radius, a smaller thickness, and a larger angle. The optimized guide vane enhances flow uniformity while reducing pressure drop, peak velocity, and turbulent kinetic energy. Furthermore, an 8.64 dB reduction in sound pressure level at the monitoring point is achieved. The study elucidates the influence of guide vane geometry on flow induced noise and proposes a multi-objective optimization framework for low noise design in cruise ship ventilation systems, providing both theoretical insight and practical guidance.",
-      "first_author_affiliation": "Green & Smart River-Sea-Going Ship, Cruise and Yacht Research Center, Wuhan University of Technology , Wuhan 430063,",
-      "last_author_affiliation": "Green & Smart River-Sea-Going Ship, Cruise and Yacht Research Center, Wuhan University of Technology , Wuhan 430063,",
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "machine learning"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-08-13",
-      "first_seen_at": "2026-08-14T04:19:13Z",
       "ai_analysis": {
         "scientific_question": "如何通过优化导流叶片几何构型来降低船舶通风管道弯头的流动诱发声噪声？",
         "key_highlight": "基于径向基函数神经网络响应面模型与非支配排序遗传算法相结合的优化框架，成功将监测点声压级降低8.64 dB。",
@@ -2291,7 +2242,17 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "f6ff7b9e63055eed",
         "updated_at": "2026-08-16T03:15:46Z"
-      }
+      },
+      "first_author_affiliation": "Green & Smart River-Sea-Going Ship, Cruise and Yacht Research Center, Wuhan University of Technology , Wuhan 430063,",
+      "last_author_affiliation": "Green & Smart River-Sea-Going Ship, Cruise and Yacht Research Center, Wuhan University of Technology , Wuhan 430063,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "machine learning"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-13",
+      "first_seen_at": "2026-08-14T04:19:13Z"
     },
     {
       "title": "Physics-informed learning for end-to-end acoustic scattering of wavelength-order axisymmetric objects: From geometric profiles to acoustic radiation forces",
@@ -2306,17 +2267,6 @@
       "doi": "10.1121/10.0044901",
       "url": "https://doi.org/10.1121/10.0044901",
       "abstract": "Theoretical computations of scattering fields and radiation forces for axisymmetric objects typically rely on coordinate mapping techniques to parameterize geometric features and coordinate transformations to enforce boundary conditions within a closed-form governing framework. However, these approaches often suffer from computational inefficiency. Here, we propose a two-stage physics-informed neural network framework that decomposes the cross-scale mapping task into two specialized sub-networks. The first stage, the physics-informed geometric mapping network, integrates conformal transformation theory to efficiently encode raw spatial coordinate distributions into a compact set of mapping coefficients. The second stage, the physics-informed partial-wave network, expands the input dimensions to include these geometric descriptors alongside incident field parameters, encompassing the complete state-space of the scattering problem. By embedding the Helmholtz equation and corresponding boundary conditions as explicit physical constraints within the partial-wave expansion framework, the network is guided toward physically consistent solutions: Near-instantaneous and accurate prediction of scalar scattering coefficients for given object–wave configurations, with inference times of approximately 5–4 s for physics-informed geometric mapping network and 6.5–4 s for physics-informed partial-wave network. The well-trained model is further employed to reconstruct the scattered fields and evaluate the radiation forces in real-world wavelength-order objects. The predicted results basically agree with those obtained from numerical simulations, while achieving significantly improved in computational efficiency.",
-      "first_author_affiliation": "School of Mechatronic Engineering and Automation, Foshan University 1 , 33 Guangyun Road, Nanhai District, Foshan,",
-      "last_author_affiliation": "Department of Mechanical Engineering, The University of Hong Kong 3 , Pokfulam, Hong Kong SAR,",
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "machine learning",
-        "real-world listening"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-08-13",
-      "first_seen_at": "2026-08-14T04:19:13Z",
       "ai_analysis": {
         "scientific_question": "如何利用物理信息神经网络高效计算轴对称物体的声散射场和辐射力，以克服传统坐标映射方法的计算效率问题？",
         "key_highlight": "该研究提出两阶段物理信息神经网络框架，通过几何映射网络和部分波网络分解任务，实现了对声散射系数 near-instantaneous 预测，计算效率较数值模拟显著提升。",
@@ -2328,7 +2278,18 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "7438fc8614217bfa",
         "updated_at": "2026-08-16T03:15:53Z"
-      }
+      },
+      "first_author_affiliation": "School of Mechatronic Engineering and Automation, Foshan University 1 , 33 Guangyun Road, Nanhai District, Foshan,",
+      "last_author_affiliation": "Department of Mechanical Engineering, The University of Hong Kong 3 , Pokfulam, Hong Kong SAR,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "machine learning",
+        "real-world listening"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-13",
+      "first_seen_at": "2026-08-14T04:19:13Z"
     },
     {
       "title": "Spatiotemporal tensor reconstruction for echocardiography: Effects of multidimensional structure and motion",
@@ -2344,14 +2305,6 @@
       "doi": "10.1121/10.0044876",
       "url": "https://doi.org/10.1121/10.0044876",
       "abstract": "It is a common desire to break traditional limits of sampling, circumventing Nyquist requirements using advanced statistical algorithms. In cardiac ultrasound imaging, reducing the number of transmissions per frame, thereby breaking spatial sampling restrictions, enables capturing faster moving structures or larger fields of view. However, the spatial and temporal image properties that may enable such acceleration have been underexplored in the ultrasound literature. This work provides a fundamental study of the structure of ultrasound images using simulations, phantoms, and in vivo cardiac data to quantify tensor rank and spatial/temporal roughness and explores the implications for tensor completion algorithms. Although low-rank reconstruction is a powerful approach that has been previously applied in this context, these data do not appear to be sufficiently low-rank for high-quality reconstructions. Two methods relying on local information—inverse distance-weighted (IDW) interpolation and the fast multiway delay-embedding transform—demonstrate significantly more accurate reconstruction (e.g., structured similarity index measure 0.76 vs 0.67 at 25% sampling and 0.63 vs 0.38 at 10% sampling for IDW versus low-rank reconstruction). Roughness in both space and time is shown to inversely correlate with tensor completion success. Motion compensation is shown to reduce both temporal roughness and rank, improving tensor completion.",
-      "first_author_affiliation": "Biomedical Engineering, University of Colorado Boulder 1 , Boulder, Colorado 80309,",
-      "last_author_affiliation": "Biomedical Engineering, University of Colorado Boulder 1 , Boulder, Colorado 80309,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-13",
-      "first_seen_at": "2026-08-14T04:19:13Z",
       "ai_analysis": {
         "scientific_question": "如何通过分析超声图像的空间和时间结构特性来突破传统采样限制并提高张量重建算法在心脏超声成像中的准确性。",
         "key_highlight": "基于局部信息的重建方法（IDW插值和多路延迟嵌入变换）在低采样率下显著优于低秩重建方法，在10%和25%采样率下均展现出更高的结构相似性指数。",
@@ -2363,7 +2316,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "c16a116650e27343",
         "updated_at": "2026-08-16T03:16:06Z"
-      }
+      },
+      "first_author_affiliation": "Biomedical Engineering, University of Colorado Boulder 1 , Boulder, Colorado 80309,",
+      "last_author_affiliation": "Biomedical Engineering, University of Colorado Boulder 1 , Boulder, Colorado 80309,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-13",
+      "first_seen_at": "2026-08-14T04:19:13Z"
     },
     {
       "title": "Beijing Mandarin nasalization upon r-suffixation is phonologized: A nasometry study",
@@ -2527,6 +2488,18 @@
       "doi": null,
       "url": "https://arxiv.org/abs/2608.11804v1",
       "abstract": "Generating coherent audio scenes that simultaneously blend speech, music, and sound effects remains a significant challenge. Current approaches typically rely on a disjointed pipeline where a frozen, decoupled text encoder feeds a separate audio decoder, limiting cross-modal optimization and leading to poor speech intelligibility. To overcome these limitations, we introduce MiDashengLM-Gen, an end-to-end framework that couples a pre-trained Large Language Model (LLM) with per-token conditional flow matching for autoregressive, variable-length mixed-audio scene generation. MiDashengLM-Gen represents a first approach for general text-to-audio generation with one end-to-end trained model. Empirical evaluations demonstrate that MiDashengLM-Gen drastically improves speech intelligibility over existing unified models. On the Seed-TTS benchmark, English Word Error Rate (WER) drops from 12.15% to 2.79%, approaching the performance of dedicated Text-to-Speech (TTS) systems (1.24%). Furthermore, the framework extends effectively to multilingual settings, yielding highly competitive multilingual WERs compared to existing baselines. Lastly, the model maintains competitive mixed-audio generation quality on the MECAT benchmark. Code and checkpoints are available at https://github.com/xiaomi-research/midashenglm-gen and https://huggingface.co/mispeech/midashenglm-gen, and the demo page is available at https://xingws.github.io/midashenglm-gen-demo/.",
+      "ai_analysis": {
+        "scientific_question": "如何通过端到端统一框架实现语音、音乐和音效混合音频场景的高质量同步生成。",
+        "key_highlight": "MiDashengLM-Gen将大语言模型与逐标记条件流匹配相结合，在英语词错误率上从12.15%显著降至2.79%。",
+        "main_limitation": "缺乏人类主观听感评估，词错误率的改善主要基于自动指标验证。",
+        "research_implication": "该语音生成技术的进展可能为语音合成和听觉辅助设备相关研究提供参考。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "00de92a0054f4cf8",
+        "updated_at": "2026-08-16T03:16:18Z"
+      },
       "publication_stage": "preprint",
       "section": null,
       "keywords": [
@@ -2547,19 +2520,7 @@
         "abstract"
       ],
       "needs_review": true,
-      "first_seen_at": "2026-08-13T04:22:40Z",
-      "ai_analysis": {
-        "scientific_question": "如何通过端到端统一框架实现语音、音乐和音效混合音频场景的高质量同步生成。",
-        "key_highlight": "MiDashengLM-Gen将大语言模型与逐标记条件流匹配相结合，在英语词错误率上从12.15%显著降至2.79%。",
-        "main_limitation": "缺乏人类主观听感评估，词错误率的改善主要基于自动指标验证。",
-        "research_implication": "该语音生成技术的进展可能为语音合成和听觉辅助设备相关研究提供参考。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "00de92a0054f4cf8",
-        "updated_at": "2026-08-16T03:16:18Z"
-      }
+      "first_seen_at": "2026-08-13T04:22:40Z"
     },
     {
       "title": "Multiplexed parametric vortex beams for underwater communications",
@@ -2581,7 +2542,19 @@
       "tags": [],
       "source": "crossref",
       "available_online_date": "2026-08-12",
-      "first_seen_at": "2026-08-13T04:22:10Z"
+      "first_seen_at": "2026-08-13T04:22:10Z",
+      "ai_analysis": {
+        "scientific_question": "能否利用参数声学阵列产生的涡旋声束同时传输多个拓扑荷来实现水声通信？",
+        "key_highlight": "模拟结果表明，在约40厘米孔径、40 kHz载波频率下可成功恢复6个ASCII字符，验证了基于傅里叶级数的解复用方法在米级距离内检测拓扑荷的可行性。",
+        "main_limitation": "该研究基于均匀水域的数值模拟，尚未在真实复杂环境中进行实验验证。",
+        "research_implication": "本研究属于水声物理与通信工程领域，非听觉辅助设备或言语感知直接相关，为一般声学研究发现。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "7be29972ed02009b",
+        "updated_at": "2026-08-17T03:15:39Z"
+      }
     },
     {
       "title": "Phoenix TTS: High-Fidelity Synthesis and Voice Conversion via Flow-Matching-Driven Speech Tokenization",
@@ -2623,7 +2596,19 @@
         "abstract"
       ],
       "needs_review": true,
-      "first_seen_at": "2026-08-13T04:22:40Z"
+      "first_seen_at": "2026-08-13T04:22:40Z",
+      "ai_analysis": {
+        "scientific_question": "如何通过联合优化表示学习和生成式声学建模来弥合离散语义标记与连续声学特征空间之间的差距，从而提升零样本TTS的说话人相似度。",
+        "key_highlight": "Phoenix TTS通过Flow Matching驱动的联合训练范式实现了低于真人录音的词错误率和可媲美大规模基线模型的零样本说话人相似度。",
+        "main_limitation": "研究主要基于自动评估指标(WER)进行评估，缺乏人类主观感知实验验证其在实际语音感知场景中的效果。",
+        "research_implication": "该研究主要贡献于语音合成技术而非助听器或人工耳蜗相关的听感知研究，但其高质量语音生成技术可能为未来语音感知实验材料开发提供工具支持。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "8eba6439c3f1451c",
+        "updated_at": "2026-08-17T03:16:02Z"
+      }
     },
     {
       "title": "A dual-branch fusion network for footstep sound source localization in non-line-of-sight corridors",
@@ -2795,7 +2780,19 @@
         "title"
       ],
       "needs_review": false,
-      "first_seen_at": "2026-08-13T04:22:25Z"
+      "first_seen_at": "2026-08-13T04:22:25Z",
+      "ai_analysis": {
+        "scientific_question": "TMC1基因突变如何通过降低MET通道的钙离子通透性影响外毛细胞静纤毛中PMCA2钙泵的表达，并最终导致毛细胞死亡的机制。",
+        "key_highlight": "TMC1突变体中MET通道的钙离子内流减少与PMCA2密度下降直接相关，而PMCA2的持续降低可能促成毛细胞死亡。",
+        "main_limitation": "研究仅聚焦于Tmc1特定点突变的小鼠模型，其机制是否适用于人类TMC1相关耳聋及其他类型突变尚不明确。",
+        "research_implication": "该研究揭示了钙离子稳态在毛细胞存活中的关键作用，为理解遗传性耳聋的分子机制及潜在干预靶点提供了重要线索。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "86ee0480c90db3f7",
+        "updated_at": "2026-08-17T03:16:14Z"
+      }
     },
     {
       "title": "Estimating the minimum numbers of calling mysticetes using passive acoustic bearings",
@@ -2869,7 +2866,19 @@
       ],
       "source": "crossref",
       "available_online_date": "2026-08-11",
-      "first_seen_at": "2026-08-12T04:18:43Z"
+      "first_seen_at": "2026-08-12T04:18:43Z",
+      "ai_analysis": {
+        "scientific_question": "如何在复杂海洋环境中实现水下弱声源的准确定距？",
+        "key_highlight": "基于线谱增强、传统波束形成特征提取与Transformer数据驱动学习的集成框架在弱声源测距任务中取得了最优性能。",
+        "main_limitation": "训练数据来自单一海试且基于仿真生成，可能存在仿真环境与真实海洋条件之间的域偏移问题。",
+        "research_implication": "通用机器学习特征提取与物理建模相结合的思路或可为其他水声应用提供参考。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "1f6a5b68f72090e5",
+        "updated_at": "2026-08-17T03:16:23Z"
+      }
     },
     {
       "title": "Generation of the second mode in the hypersonic boundary layer by wavy wall",
@@ -2925,7 +2934,19 @@
       "tags": [],
       "source": "crossref",
       "available_online_date": "2026-08-11",
-      "first_seen_at": "2026-08-12T04:18:43Z"
+      "first_seen_at": "2026-08-12T04:18:43Z",
+      "ai_analysis": {
+        "scientific_question": "有限宽度和弯曲度如何影响非线性内波形成的声导管中声波的水平和三维传播特性？",
+        "key_highlight": "建立了弯曲 duct 模型，发现了一种由波隧穿和回音壁效应共同作用产生的增强水平隧穿模式（伴随模式）。",
+        "main_limitation": "采用理想化弯曲 duct 模型的理论数值分析，可能无法完全反映实际海洋环境的复杂性。",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "a85e24d1fc778d76",
+        "updated_at": "2026-08-17T03:16:34Z"
+      }
     },
     {
       "title": "Multi-target azimuth estimation using a single acoustic vector sensor via a mixture of wrapped Cauchy distributions",
@@ -2975,6 +2996,37 @@
       "source": "crossref",
       "available_online_date": "2026-08-11",
       "first_seen_at": "2026-08-12T04:18:43Z"
+    },
+    {
+      "title": "Role of harmonicity in counting and hearing out voices in polyphonic music: Effects of hearing loss",
+      "authors": [
+        "Lisanne G. Bogaard",
+        "Juraj Mesik",
+        "Andrew J. Oxenham"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-08-11",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109775",
+      "url": "https://doi.org/10.1016/j.heares.2026.109775",
+      "abstract": "Music plays an important role in many people's lives. While the effects of hearing loss on speech are well studied, its impact on music perception is less understood. To address this gap, the current study utilized polyphonic female vocal passages in an enumeration and a voice-tracking task to investigate how normal-hearing (NH) and hearing-impaired (HI) listeners with mild to moderate sensorineural hearing loss perceive individual voices in polyphonic music. We hypothesized that hearing loss would hinder listeners' ability to distinguish voices in music due to impaired frequency selectivity, but that inharmonicity, introduced separately into each voice, would impact HI listeners less, due to their potentially reduced sensitivity to inharmonicity and pitch. Results indicated that NH listeners outperformed HI listeners in the enumeration task, but that performance in the voice-tracking task was not significantly different between groups. Although inharmonicity degraded performance across tasks, particularly in the enumeration task, HI listeners were less affected than NH listeners, at least at higher voice numbers. Exploratory analyses showed modest influences of age and musicianship on HI listeners' performance in the enumeration task and provide promising avenues for future research. Overall, these findings point toward a task-dependent effect of hearing loss on music perception, impacting dense auditory scenes more severely, while leaving some ability to track a cued voice within polyphonic music. Taken together, these results may help inform future research exploring targeted interventions to support music listening for HI listeners.",
+      "last_author_affiliation": "Department of Psychology, University of Minnesota, USA.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Auditory streaming",
+        "Harmonicity",
+        "Hearing loss",
+        "Music perception",
+        "Pitch"
+      ],
+      "tags": [
+        "clinical audiology",
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-11",
+      "first_seen_at": "2026-08-12T04:18:51Z"
     },
     {
       "title": "SIX1 is required for adult cochlear sensory epithelium homeostasis and auditory function.",
@@ -3968,9 +4020,12 @@
       "open_access": true,
       "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13475778/",
       "open_access_source": "pubmed_pmc",
+      "open_access_image_checked_at": "2026-08-16T03:15:11Z",
       "pubmed_full_text_available": true,
       "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13475778/",
       "pubmed_full_text_source": "pmc",
+      "pubmed_full_text_image_checked_at": "2026-08-16T03:15:11Z",
+      "media_checked_at": "2026-08-16T03:15:11Z",
       "publication_stage": "early_access",
       "section": null,
       "keywords": [
@@ -3987,10 +4042,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-08-06",
-      "first_seen_at": "2026-08-07T04:33:41Z",
-      "media_checked_at": "2026-08-16T03:15:11Z",
-      "pubmed_full_text_image_checked_at": "2026-08-16T03:15:11Z",
-      "open_access_image_checked_at": "2026-08-16T03:15:11Z"
+      "first_seen_at": "2026-08-07T04:33:41Z"
     },
     {
       "title": "Enhancing Externalization of Frontal Virtual Sound Sources in Binaural Synthesis via Level and Reflection Adjustment of Non-individualized BRIRs",
@@ -4031,6 +4083,42 @@
       "source": "crossref",
       "available_online_date": "2026-08-06",
       "first_seen_at": "2026-08-07T04:33:35Z"
+    },
+    {
+      "title": "Relationship between age-related hearing loss, phonological working memory, and global cognitive performance",
+      "authors": [
+        "Meisam K. Arjmandi",
+        "Julius Fridriksson",
+        "Samin Ashjaei",
+        "Cara Vandergriff",
+        "Sarah Newman Norlund",
+        "Samaneh Nemati",
+        "Leonardo Bonilha",
+        "Jean Neils-Strunjas"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-08-06",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109767",
+      "url": "https://doi.org/10.1016/j.heares.2026.109767",
+      "abstract": "Age-related hearing loss is associated with lower cognitive performance in later life, but the behavioral pathways linking these domains remain unclear. Phonological working memory, as assessed by nonword repetition, depends on both auditory input quality and availability of cognitive resources and may represent a candidate pathway linking hearing and cognition. This study examined whether hearing sensitivity and global cognitive performance are independently associated with nonword repetition and whether nonword repetition accounts for part of their association. One hundred twenty adults aged 55-80 years completed pure-tone audiometry, a standardized nonword repetition task, and the Montreal Cognitive Assessment (MoCA). Associations among hearing sensitivity, nonword repetition, and global cognitive performance were examined using regression and mediation analyses controlling for age, sex, and education. Poorer hearing sensitivity and poorer cognitive performance were each independently associated with reduced nonword repetition accuracy, with hearing sensitivity showing a stronger association. Both factors explained unique variance in performance, with additive (non-interactive) effects. Mediation analyses indicated that nonword repetition accounted for part of the association between hearing sensitivity and global cognitive performance. The results showed that nonword repetition is a task that is independently associated with hearing sensitivity and global cognition in older adults. The findings support a framework in which degraded auditory input imposes primary constraints on phonological processing, with cognitive resources providing limited compensation. Nonword repetition may offer a useful behavioral measure for assessing combined auditory and cognitive variability in adults in mid-to-late life.",
+      "last_author_affiliation": "Department of Communication Sciences and Disorders, University of South Carolina, Columbia, SC, USA.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Age-related hearing loss",
+        "Aging",
+        "Cognitive function",
+        "Hearing sensitivity",
+        "Nonword repetition",
+        "Phonological working memory"
+      ],
+      "tags": [
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-06",
+      "first_seen_at": "2026-08-07T04:33:41Z"
     },
     {
       "title": "The decline of progranulin expression in cochlear Microglia-Like Cells accelerates the progression of age-related hearing loss",
@@ -4761,22 +4849,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044504",
-      "url": "https://doi.org/10.1121/10.0044504",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:37Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -4789,6 +4861,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:36Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044504",
+      "url": "https://doi.org/10.1121/10.0044504",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:37Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -12398,17 +12486,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -12429,18 +12518,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -22289,22 +22377,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -22317,6 +22389,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -29990,23 +30078,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -30020,6 +30091,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -33513,8 +33601,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -33528,8 +33616,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -38693,8 +38781,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -38708,8 +38796,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
