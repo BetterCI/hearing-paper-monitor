@@ -1,29 +1,35 @@
 {
-  "generated_at": "2026-08-19T03:13:20Z",
+  "generated_at": "2026-08-20T03:12:48Z",
   "papers": [
     {
-      "title": "Biomarkers of Subjective Tinnitus Presence and Clinical Burden: A Systematic Review",
+      "title": "Seven-day hypobaric hypoxia induces early basal cochlear presynaptic ribbon injury and oxidative stress in mice before overt cellular loss",
       "authors": [
-        "Nathan Shields",
-        "Elva Arulchelvan",
-        "Fabian Broecker",
-        "Sven Vanneste"
+        "Qingping Zhang",
+        "Xiaoli Zhang",
+        "Ying Zhang",
+        "Benhong Ren",
+        "Chaohua Wang",
+        "Wanru Chen",
+        "Wenyuan Gan",
+        "Yi Wang",
+        "Bin Guo",
+        "Tana Wuren"
       ],
       "journal": "Hearing Research",
       "publication_date": "2026-11-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109770",
-      "url": "https://doi.org/10.1016/j.heares.2026.109770",
+      "doi": "10.1016/j.heares.2026.109755",
+      "url": "https://doi.org/10.1016/j.heares.2026.109755",
       "abstract": null,
       "publication_stage": "early_access",
       "section": null,
       "keywords": [],
       "tags": [
-        "clinical audiology"
+        "auditory physiology"
       ],
       "source": "crossref",
-      "available_online_date": "2026-08-07",
-      "first_seen_at": "2026-08-08T03:45:40Z"
+      "available_online_date": "2026-07-27",
+      "first_seen_at": "2026-08-20T03:12:32Z"
     },
     {
       "title": "Corrigendum to “Dynamics of Intra- and Inter-Regional Activities of the Auditory ‘Where’ Pathway during Sound Localization: An fMRI Study” [Hearing Research 477 (2026) 109650]",
@@ -412,13 +418,6 @@
       "doi": "10.1016/j.heares.2026.109757",
       "url": "https://doi.org/10.1016/j.heares.2026.109757",
       "abstract": "Infrequent pitch changes can usually elicit an electroencephalography (EEG) response, the mismatch negativity (MMN). By using a fixed five-tone sequence (AAAAB) composed of two pitches (A and B), Sussman and Gumenyuk (2005) found that the repetition of AAAAB patterns with a narrow stimulus onset asynchrony (SOA), but without inter-group intervals, eliminated the MMN to B tones. They attributed those outcomes to sensory memory formation of the AAAAB sequence. On the other hand, many studies have revealed the enhanced MMN to sound groups by introducing inter-group intervals. In the current study, we compared two experimental conditions with and without inter-group intervals for the research paradigm of Sussman and Gumenyuk (2005). With inter-group intervals, the AAAAB pattern repetition did not prevent the MMN elicitation to B tones for any SOA. Without inter-group intervals, however, the MMN to B tones was reduced for narrow SOAs. Considering the role of inter-group intervals as an enhancer of an auditory group representation, the present outcomes were interpreted.",
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-07-27",
-      "first_seen_at": "2026-08-18T03:11:28Z",
       "ai_analysis": {
         "scientific_question": "间隔组间期如何影响基于五音序列（AAAAB）的失匹配负波（MMN）对B音的诱发？",
         "key_highlight": "在有组间期条件下，即使使用较窄的刺激起始间隔（SOA），AAAAB模式的重复仍能有效诱发对B音的MMN；而在无组间期条件下，MMN在窄SOA时被抑制。",
@@ -430,7 +429,14 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "e57ad27f08982613",
         "updated_at": "2026-08-19T03:13:45Z"
-      }
+      },
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-07-27",
+      "first_seen_at": "2026-08-18T03:11:28Z"
     },
     {
       "title": "An optimized tissue processing pipeline for multiscale imaging of the intact peripheral auditory pathway",
@@ -1656,6 +1662,304 @@
       "first_seen_at": "2026-07-07T06:28:36Z"
     },
     {
+      "title": "A corrected wideband ambiguity function for robust biosonar strategy analysis",
+      "authors": [
+        "Nicolas Deloustal",
+        "Herve Glotin",
+        "Sebastien Paris"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-19",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046097",
+      "url": "https://doi.org/10.1121/10.0046097",
+      "abstract": "The wideband ambiguity function (WAF) is a foundational tool for analyzing sonar signals, as it jointly characterizes time delay and Doppler-induced time stretching. However, when applied to nonstationary biological signals, this function is sensitive to temporal misalignment and integration-window effects, which can bias estimates of sonar performance. This paper proposes a corrected formulation of the WAF that compensates for Doppler-induced temporal shifts by centering the analysis around the energy centroid of the emitted signal. The corrected wideband ambiguity function (CWAF) preserves the intrinsic resolution properties imposed by signal bandwidth and duration, while ensuring invariance to time translation and integration time within the analysis window. This method is applied to field recordings of echolocation during foraging and depredation, produced by bats (Pipistrellus kuhlii) and sperm whales (Physeter macrocephalus). The results reveal contrasting biosonar strategies: bats dynamically modulate spectral and temporal parameters across foraging phases, whereas sperm whales emit spectrally stable, Doppler tolerant pulses and primarily adjust inter-click intervals and output levels. Additionally, analyzing the resolution of pulses P0 and P1 lends support to the hypothesis of a three-dimensional sperm whale biosonar model. Overall, the CWAF provides a robust framework for linking biosonar signal design, estimator theory, and animal behavior.",
+      "first_author_affiliation": "Univ Toulon, Aix Marseille Univ, CNRS, LIS 1 , Toulon,",
+      "last_author_affiliation": "Univ Toulon, Aix Marseille Univ, CNRS, LIS 1 , Toulon,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-19",
+      "first_seen_at": "2026-08-20T03:12:12Z",
+      "ai_analysis": {
+        "scientific_question": "如何修正宽频带模糊函数以解决其在分析非平稳生物声纳信号时的时间对齐偏差和积分窗口效应问题？",
+        "key_highlight": "修正后的宽频带模糊函数成功揭示了蝙蝠动态调节声谱和时间参数与抹香鲸保持声谱稳定但调节脉冲间隔和输出电平的两种截然不同的声纳策略。",
+        "main_limitation": "研究仅涵盖两种野生动物物种的野外录音，未在受控条件下进行验证。",
+        "research_implication": "为声纳信号设计原理提供理论框架，其发现可能对生物声学信号处理机制研究具有参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "f2a162764c39db78",
+        "updated_at": "2026-08-20T03:13:42Z"
+      }
+    },
+    {
+      "title": "Classroom-based speech recognition better predicts listening comprehension than clinic-based measures in primary school children",
+      "authors": [
+        "Pasquale Bottalico",
+        "Virginia Tardini",
+        "Silvia Murgia",
+        "Josephine R. LaPapa",
+        "Charles J. Nudelman"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-19",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046105",
+      "url": "https://doi.org/10.1121/10.0046105",
+      "abstract": "Classroom noise can substantially interfere with children's access to spoken instruction, yet speech perception is typically assessed using clinic-based measures collected under controlled listening conditions. This study examined (1) how classroom signal-to-noise ratio (SNR) and developmental level influence speech recognition (SR) and listening comprehension (LC), and (2) whether clinic-based SR predicts classroom LC as effectively as classroom-based SR. One hundred eleven normal-hearing students in Grades 2–5 completed SR (WIPI) and LC (TROG-2) tasks in occupied classrooms under multiple noise levels, as well as SR testing in a clinic setting. Generalized linear mixed-effects models were used to estimate acoustic and developmental effects, and receiver operating characteristic analyses compared predictive accuracy. Higher SNR was associated with significant improvements in both SR and LC, and older students consistently outperformed younger students across acoustic conditions. Although SR performance was higher in the clinic than in the classroom, classroom-based SR provided substantially better prediction of classroom LC than clinic-based SR. These findings demonstrate that assessment context shapes observed listening performance and underscore the importance of ecologically valid measures for predicting functional comprehension outcomes in real educational environments.",
+      "first_author_affiliation": "Department of Speech and Hearing Science, University of Illinois 1 , Champaign, Illinois 61820,",
+      "last_author_affiliation": "Department of Speech and Hearing Science, University of Illinois 1 , Champaign, Illinois 61820,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "priority section",
+        "real-world listening",
+        "speech perception"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-19",
+      "first_seen_at": "2026-08-20T03:12:12Z",
+      "ai_analysis": {
+        "scientific_question": "教室信噪比和儿童发育水平如何影响言语识别和聆听理解，以及诊所环境的言语识别测试是否能像教室环境一样有效预测课堂聆听理解能力。",
+        "key_highlight": "尽管诊室环境中的言语识别表现优于教室环境，但基于教室环境的言语识别测试比诊室测试能更有效地预测课堂聆听理解。",
+        "main_limitation": "研究仅纳入二至五年级正常听力儿童，研究结果可能不适用于听力损失儿童、更年幼或更高年级的学生。",
+        "research_implication": "研究强调了生态效度评估对预测实际聆听功能的重要性，提示听力辅助设备的评估应结合真实环境测试。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "c2c923c9f80bda1f",
+        "updated_at": "2026-08-20T03:13:49Z"
+      }
+    },
+    {
+      "title": "Longitudinal Analysis of Cochlear Implant Stimulation Levels in the First Year: Optimizing Adult Fitting",
+      "authors": [
+        "Maryam Hussain",
+        "Hylke F. E. van der Toom",
+        "Mats Voogelaar",
+        "Bernd Kremer",
+        "Jantien L. Vroegop"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-08-19",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001875",
+      "url": "https://doi.org/10.1097/aud.0000000000001875",
+      "abstract": "Objectives: The main objective of this study was to investigate the evolution in stimulation levels (C-/M- and T-levels) in adult cochlear implant users from both Advanced Bionics and Cochlear, and to assess whether this trajectory differs between the two brands. The secondary objective was to assess individual patterns of stimulation levels during the first year post-implantation. Design: This retrospective study was conducted at the Erasmus University Medical Center in Rotterdam, the Netherlands. A total of 183 postlingually deaf adults with a unilateral cochlear implant from either Advanced Bionics or Cochlear were included. Stimulation levels (C-, M-, and T-levels) were collected from these adults for six fitting sessions during the first year postimplantation. Linear mixed-effects models were used to analyze longitudinal changes. Results: Our findings were comparable for both Advanced Bionics and Cochlear implant users. Mean M/C and T levels changed over time, showing a similar characteristic pattern for each patient with a rapid increase during the initial period, followed by gradual stabilization. Post hoc comparisons revealed significant differences between appointments up to the fourth fitting session for M/C levels and up to the third fitting session for T-levels. There were no significant differences after these fitting sessions. These findings were consistent across the different electrode segments (apical, medial, upper basal, lower basal), although earlier stabilization occurred in the lower basal segment for M/C-levels and in both basal segments for T-levels. Conclusions: The present study gave valuable insights into the temporal evolution of M/C- and T-levels during the first year postimplantation for both Advanced Bionics and Cochlear implant users. The mean M/C- and T-levels stabilized after approximately 3 months and 5 weeks, respectively, showing equivalent trajectories between the two brands. A consistent pattern was observed across patients, with stimulation levels rising significantly in the first few months and gradually stabilizing over time.",
+      "first_author_affiliation": "Department of Otorhinolaryngology and Head and Neck Surgery, Erasmus University Medical Center, Rotterdam, the Netherlands",
+      "last_author_affiliation": "Department of Otorhinolaryngology and Head and Neck Surgery, Erasmus University Medical Center, Rotterdam, the Netherlands",
+      "open_access": true,
+      "open_access_url": "https://www.ovid.com/10.1097/AUD.0000000000001875",
+      "open_access_source": "crossref_license",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [
+        "Adults",
+        "Cochlear implant",
+        "Linear mixed model",
+        "Postlingual",
+        "Rehabilitation",
+        "Stimulation levels"
+      ],
+      "tags": [
+        "auditory physiology",
+        "cochlear implant",
+        "hearing aid"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-19",
+      "first_seen_at": "2026-08-20T03:12:29Z",
+      "full_text_url": "https://www.ovid.com/jnls/ear-hearing/fulltext/10.1097/aud.0000000000001875~longitudinal-analysis-of-cochlear-implant-stimulation-levels",
+      "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
+      "media_checked_at": "2026-08-20T03:12:58Z",
+      "open_access_image_checked_at": "2026-08-20T03:12:57Z",
+      "ai_analysis": {
+        "scientific_question": "成年人工耳蜗使用者在植入后第一年内电刺激水平（C-/M-和T-levels）如何演变，以及不同品牌之间是否存在差异？",
+        "key_highlight": "两种品牌用户的人工耳蜗刺激参数均呈现相似的演变模式，即初期快速上升后逐渐稳定，其中M/C水平约在3个月后稳定，T水平约在5周后稳定，且电极各节段均遵循此规律。",
+        "main_limitation": "作为单中心回顾性研究，且仅纳入语后聋成人及单侧植入患者，其结论对其他人群（如语前聋、儿童或双侧植入者）的适用性可能受限。",
+        "research_implication": "该研究为人工耳蜗调试策略提供了时间参考，表明在植入后前几个月需频繁调整刺激参数，此后可根据患者稳定情况减少调试频率。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "9ca4e93cf8ede825",
+        "updated_at": "2026-08-20T03:14:10Z"
+      }
+    },
+    {
+      "title": "Mapping the spatial distribution of chorusing oyster toadfish ( Opsanus tau ) with distributed acoustic sensing",
+      "authors": [
+        "Daniel Duane",
+        "Michael Walsh",
+        "Darren Flynn",
+        "Lauren A. Freeman"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-19",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044594",
+      "url": "https://doi.org/10.1121/10.0044594",
+      "abstract": "Passive acoustic surveys of soniferous marine communities can provide useful metrics for characterizing behavior, abundance, and ecological influences; however, they typically offer limited information about the spatial distribution of biological sources. Recent advances in distributed acoustic sensing (DAS) offer the potential to conduct wide-area surveys of bioacoustic activity that would be logistically infeasible with traditional hydrophone measurements. Here, a 2.2 km DAS cable deployed in Narragansett Bay, RI, was used to map the spatial distribution of oyster toadfish chorusing over a 24-h period during their spawning season in June 2025. A localization technique was developed where nearfield beamforming was performed along a rolling subaperture across the entire array, in order to account for the lack of coherence across widely spaced channels. This method allowed for the localization of biological hotspots, which were concentrated along a breakwater at the east side of Narragansett Bay. Long-term, single-hydrophone recordings also reveal seasonal and diel patterns for the same toadfish chorus, demonstrating how temporal data from traditional acoustic sensors can complement spatial DAS measurements.",
+      "first_author_affiliation": "Naval Undersea Warfare Center , Newport, Rhode Island 02841,",
+      "last_author_affiliation": "Naval Undersea Warfare Center , Newport, Rhode Island 02841,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "real-world listening"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-19",
+      "first_seen_at": "2026-08-20T03:12:12Z",
+      "ai_analysis": {
+        "scientific_question": "如何利用分布式声学传感技术对海洋生物声源进行大范围空间分布测绘？",
+        "key_highlight": "研究团队在纳拉甘西特湾部署2.2公里DAS光缆，通过滑动子阵列近场波束形成技术成功定位了蟾鱼合唱的生物热点区域。",
+        "main_limitation": "研究仅在特定地点和单一24小时时段进行，样本的时间和空间覆盖范围有限。",
+        "research_implication": "该研究属于海洋生物声学范畴，与人类助听设备或言语感知研究无直接关联。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "ef4280b5279b9b61",
+        "updated_at": "2026-08-20T03:14:18Z"
+      }
+    },
+    {
+      "title": "Multimodal ultrasound-based localization of surgical mesh using Nakagami parametric imaging and shear wave elastography—An in vitro and ex vivo study",
+      "authors": [
+        "Jayashree Karmakar",
+        "Kamal M. F. Itani",
+        "Timothy Bigelow"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-19",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046096",
+      "url": "https://doi.org/10.1121/10.0046096",
+      "abstract": "Surgical mesh is widely used in soft tissue reinforcement treatments as it results in a lower recurrence rate of complications. However, there is a possibility of abnormalities after mesh implantation. These problems can result in chronic discomfort and demand further surgical procedures and postoperative monitoring. Hence, mesh visualization and detection are essential for understanding postoperative outcomes and surgical planning. However, using traditional imaging modalities, these meshes are difficult to visualize after implantation against surrounding tissues. Therefore, it is challenging to locate the implanted mesh accurately. The hypothesis for this work was that ultrasound shear wave elastography (SWE) and Nakagami parametric imaging could be useful methods for localizing and assessing the implanted mesh, as the mesh differs in mechanical stiffness, along with its echogenicity and the statistical distribution of backscattered signals compared to the surrounding tissue. This study demonstrates the potential of Nakagami imaging and SWE for accurately localizing surgical meshes. While both methods allowed for accurate mesh location recognition, Nakagami imaging provided better localization for meshes located at larger depths. According to these findings, this method could especially be helpful for patients with thick abdominal walls. This could enhance the clinical evaluation of hernia mesh implantation and improve diagnostic accuracy.",
+      "first_author_affiliation": "Department of Electrical and Computer Engineering, Iowa State University 1 , Ames, Iowa 50011,",
+      "last_author_affiliation": "Department of Electrical and Computer Engineering, Iowa State University 1 , Ames, Iowa 50011,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "clinical audiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-19",
+      "first_seen_at": "2026-08-20T03:12:12Z",
+      "ai_analysis": {
+        "scientific_question": "超声剪切波弹性成像和Nakagami参数成像能否准确定位植入的外科网片？",
+        "key_highlight": "两种超声方法均能准确识别网片位置，其中Nakagami成像对较深位置网片的定位效果更优。",
+        "main_limitation": "研究仅基于体外和离体实验，缺乏体内临床验证，其在实际患者应用中的可行性尚不确定。",
+        "research_implication": "该研究属于医学超声成像范畴，与助听器、人工耳蜗或言语感知研究无直接关联。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "947d68bdbd33b0d8",
+        "updated_at": "2026-08-20T03:14:29Z"
+      }
+    },
+    {
+      "title": "Simultaneous Recording of Multiple Auditory Brainstem Responses at Clinical Discharge Level",
+      "authors": [
+        "Sinnet Greve Bjerge Kristensen",
+        "Jaime A. Undurraga",
+        "Torsten Dau",
+        "James Michael Harte",
+        "Søren Laugesen"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-08-19",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001877",
+      "url": "https://doi.org/10.1097/aud.0000000000001877",
+      "abstract": "Objectives: This study investigated changes in auditory brainstem response (ABR) wave-V morphology when multiple ABRs were recorded simultaneously using MultiBand ABR, compared with the traditional method of consecutive stimulus presentation. Design: ABRs were elicited using narrow-band (NB) CE-Chirps centered at 500, 1000, 2000, and 4000 Hz, presented at clinical discharge levels and 10 dB above these levels. Both simultaneous and consecutive presentation modes were conducted at a nominal rate of 40 stimuli per second for each NB CE-Chirp. A total of 24 young participants with normal hearing were included, resulting in data from 48 ears at the discharge level and 20 participants (40 ears) at discharge level +10 dB. Results: In the consecutive presentation mode, ABR wave-V morphology exhibited typical mean latency and amplitude characteristics for each NB CE-Chirp at both discharge level and discharge level +10 dB. However, in the simultaneous recording condition, ABRs demonstrated significantly longer wave-V latencies for the 500 and 1000 Hz stimuli at discharge level, and for the 500, 1000, and 2000 Hz stimuli at discharge level +10 dB, compared with the consecutive presentation. Furthermore, at both discharge and discharge level +10 dB, wave-V amplitudes were significantly reduced for all NB CE-Chirp stimulus frequencies in the simultaneous mode compared with the consecutive mode. Within-session test-retest evaluations were performed for the simultaneous presentation at discharge level, revealing no significant differences in wave-V amplitude or latency between the two recordings. Conclusions: These findings support the hypothesis of a partial masking effect on the compound neural response to the target NB CE-Chirp caused by the presence of the adjacent off-frequency stimuli, suggesting a potential increase in ABR place specificity when using the simultaneous presentation method.",
+      "first_author_affiliation": "Interacoustics Research Unit, Interacoustics A/S, Kongens Lyngby, Denmark",
+      "last_author_affiliation": "Interacoustics Research Unit, Interacoustics A/S, Kongens Lyngby, Denmark",
+      "open_access": true,
+      "open_access_url": "https://www.ovid.com/10.1097/AUD.0000000000001877",
+      "open_access_source": "crossref_license",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Auditory brainstem response",
+        "Clinical discharge level",
+        "Electrophysiology",
+        "MultiBand ABR",
+        "NB CE-Chirps",
+        "Simultaneous presentation",
+        "Wave V"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology",
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-19",
+      "first_seen_at": "2026-08-20T03:12:29Z",
+      "full_text_url": "https://www.ovid.com/jnls/ear-hearing/fulltext/10.1097/aud.0000000000001877~simultaneous-recording-of-multiple-auditory-brainstem",
+      "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
+      "media_checked_at": "2026-08-20T03:12:58Z",
+      "open_access_image_checked_at": "2026-08-20T03:12:58Z",
+      "ai_analysis": {
+        "scientific_question": "探究使用MultiBand ABR同时记录多个听觉脑干反应（ABR）时，波V形态相较于传统连续刺激呈现方式的变化情况。",
+        "key_highlight": "同时记录模式显著延长了波V潜伏期并降低了振幅，提示相邻频率刺激对目标窄带CE-Chirp的复合神经反应产生部分掩蔽效应。",
+        "main_limitation": "样本仅限于24名年轻正常听力成人，缺乏跨session信度数据及对临床人群的适用性验证。",
+        "research_implication": "该研究为ABR临床测量方法学提供了参考，其发现可能影响听力评估及听觉装置调试中的电生理检测应用。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "cf701dbfdaa21d36",
+        "updated_at": "2026-08-20T03:14:46Z"
+      }
+    },
+    {
+      "title": "Spectro-Temporal Modulation Sensitivity Prospectively Predicts Speech-in-Noise Recognition in Cochlear Implant Users",
+      "authors": [
+        "Julia Erb",
+        "Malte Wöstmann",
+        "Jens Kreitewolf",
+        "Jan Peter Thomas",
+        "Christiane Völter",
+        "Jonas Obleser"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-08-19",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001881",
+      "url": "https://doi.org/10.1097/aud.0000000000001881",
+      "abstract": "Objectives: For cochlear implant (CI) patients, reliable predictors of speech outcome are desirable. In this longitudinal study, we examined the contributions of spectro-temporal sensitivity to successful speech recognition following cochlear implantation. Design: We assessed N = 46 recently implanted adult patients shortly after CI activation (T1) and 6 months later (T2) with an adaptive ripple discrimination paradigm where dynamic ripples varied around the temporal rate of 4 Hz and spectral scale of 0.5 cyc/oct. At time points T1 and T2, we evaluated speech-in-quiet recognition using the Freiburg number and monosyllabic word test. The Oldenburg speech-in-noise test was administered 1 year after implantation (T3) to a subset of N = 36 CI recipients. Results: Shortly after implantation (T1), temporal ripple discrimination thresholds predicted speech-in-noise recognition 1 year later (T3; Pearson’s r = 0.51). In a linear model predicting 1-year speech-in-noise outcome, the predictors temporal or spectral thresholds at T1 and age performed better than speech measures such as Freiburg wordrecognition. Conclusions: A simple spectro-temporal ripple discrimination test is a reliable predictor of speech-in-noise outcome 1 year after cochlear implantation, over and above established clinical speech tests. It offers an efficient method in clinical settings to improve the early prediction of speech outcome.",
+      "first_author_affiliation": "Institute for Systems and Robotics – Lisboa and Department of Bioengineering, Instituto Superior Técnico, Universidade de Lisboa, Lisbon, Portugal",
+      "last_author_affiliation": "Department of Psychology, University of Lübeck, Lübeck, Germany",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Cochlear implantation",
+        "Psychoacoustics",
+        "Spectro-temporal ripple discrimination",
+        "Speech outcome",
+        "Speech-in-noise recognition"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology",
+        "cochlear implant",
+        "psychoacoustics",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-19",
+      "first_seen_at": "2026-08-20T03:12:29Z"
+    },
+    {
       "title": "DNN-Based Frequency-Dependent Estimation of Speech, Music, and Noise Power in Acoustic Mixtures for Hearing-Aid Scene Analysis",
       "authors": [
         "Mats Lang",
@@ -1670,6 +1974,18 @@
       "doi": null,
       "url": "https://arxiv.org/abs/2608.17482v1",
       "abstract": "Acoustic scene analysis is essential for adapting hearing-aid signal processing algorithms to the current listening environment. However, state-of-the-art (SOTA) systems typically rely on multiple independent estimators for tasks such as scene classification, Voice Activity Detection (VAD), or Signal-to-Noise Ratio estimation, which increases computational complexity and fails to exploit dependencies between related tasks. To address this problem, we propose a unified and interpretable acoustic scene representation by decomposing the observed mixture spectrum into speech, music, and noise power components. This is motivated by the typical listening targets of hearing-aid users. In particular, we estimate time- and frequency-dependent power proportions by a causal low-complexity Deep Neural Network, from which multiple downstream acoustic scene analysis measures can in principle be derived by simple post-processing. In this work, we validate the proposed representation using VAD as a representative downstream task and show performance comparable to a SOTA estimator while providing a substantially richer scene description.",
+      "ai_analysis": {
+        "scientific_question": "如何通过单一深度神经网络统一估计声学混合信号中语音、音乐和噪声的时频功率比例，从而实现更高效且解释性更强的助听器场景分析？",
+        "key_highlight": "提出了一种因果低复杂度的深度神经网络，通过分解声谱获得语音、音乐和噪声的时频功率比例，并在语音活动检测下游任务上验证了与先进方法相当的性能。",
+        "main_limitation": "仅通过语音活动检测单一任务验证了该表示的有效性，其他下游声学分析任务的适用性尚未充分验证。",
+        "research_implication": "该统一表示有望简化助听器信号处理流程，通过单一模型支持多种场景分析任务，降低计算复杂度的同时保持性能。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "7368781d47cd1cde",
+        "updated_at": "2026-08-19T03:14:07Z"
+      },
       "publication_stage": "preprint",
       "section": null,
       "keywords": [
@@ -1690,19 +2006,7 @@
         "title"
       ],
       "needs_review": true,
-      "first_seen_at": "2026-08-19T03:13:20Z",
-      "ai_analysis": {
-        "scientific_question": "如何通过单一深度神经网络统一估计声学混合信号中语音、音乐和噪声的时频功率比例，从而实现更高效且解释性更强的助听器场景分析？",
-        "key_highlight": "提出了一种因果低复杂度的深度神经网络，通过分解声谱获得语音、音乐和噪声的时频功率比例，并在语音活动检测下游任务上验证了与先进方法相当的性能。",
-        "main_limitation": "仅通过语音活动检测单一任务验证了该表示的有效性，其他下游声学分析任务的适用性尚未充分验证。",
-        "research_implication": "该统一表示有望简化助听器信号处理流程，通过单一模型支持多种场景分析任务，降低计算复杂度的同时保持性能。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "7368781d47cd1cde",
-        "updated_at": "2026-08-19T03:14:07Z"
-      }
+      "first_seen_at": "2026-08-19T03:13:20Z"
     },
     {
       "title": "FireRedTTS3: Unified Speech Generation and Editing with Semantically Enriched Speech Representations",
@@ -1725,6 +2029,18 @@
       "doi": null,
       "url": "https://arxiv.org/abs/2608.17492v1",
       "abstract": "Recent continuous autoregressive TTS models operate directly on continuous speech representations, preserving rich acoustic details while leveraging the instruction-following capabilities of text LLMs. This paradigm opens new possibilities for voice cloning, instruction-controlled voice design, and speech editing, but remains susceptible to error accumulation during autoregressive generation. Existing solutions often require additional semantic modules, multi-stage tokenizer training pipelines, or complex autoregressive architectures. In this work, we propose FireRedTTS3, a simple yet effective speech generation and editing framework that mitigates error accumulation at the representation level. Specifically, we leverage a frozen Audio Encoder trained on diverse speech understanding tasks as a semantic teacher to regularize the audio feature space. This improves text-speech alignment and stabilizes autoregressive generation while keeping the overall system simple. FireRedTTS3 provides two variants: FireRedTTS3-Base for multilingual and multi-dialect zero-shot voice cloning, and FireRedTTS3-Instruct for unified voice cloning, instruction-controlled voice design, and speech editing. Experiments show that FireRedTTS3-Base achieves the best average speech intelligibility and speaker similarity among compared systems on Seed-TTS-Eval and MiniMax-MLS-Test, while FireRedTTS3-Instruct outperforms competing systems on InstructTTSEval and Ming-Freeform-Audio-Edit. These results demonstrate that semantically enriched continuous speech representations, combined with a simple architecture, enable stable, controllable, and high-fidelity speech generation and editing. Code and models are available at https://github.com/FireRedTeam/FireRedTTS3.",
+      "ai_analysis": {
+        "scientific_question": "如何利用语义丰富的连续语音表示来解决自回归语音生成中的错误累积问题",
+        "key_highlight": "利用在语音理解任务上预训练的冻结音频编码器作为语义教师来正则化音频特征空间，改善文本-语音对齐并稳定自回归生成",
+        "main_limitation": "方法的有效性依赖于预训练音频编码器的语义表征能力，且实验仅在标准基准数据集上评估，泛化性有待验证",
+        "research_implication": "该研究属于语音合成领域，为高保真可控语音生成提供了技术基础，但对助听器、人工耳蜗或临床言语感知研究的直接意义有限",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "a7a3be9a143a9ca8",
+        "updated_at": "2026-08-19T03:14:18Z"
+      },
       "publication_stage": "preprint",
       "section": null,
       "keywords": [
@@ -1744,19 +2060,7 @@
         "abstract"
       ],
       "needs_review": true,
-      "first_seen_at": "2026-08-19T03:13:20Z",
-      "ai_analysis": {
-        "scientific_question": "如何利用语义丰富的连续语音表示来解决自回归语音生成中的错误累积问题",
-        "key_highlight": "利用在语音理解任务上预训练的冻结音频编码器作为语义教师来正则化音频特征空间，改善文本-语音对齐并稳定自回归生成",
-        "main_limitation": "方法的有效性依赖于预训练音频编码器的语义表征能力，且实验仅在标准基准数据集上评估，泛化性有待验证",
-        "research_implication": "该研究属于语音合成领域，为高保真可控语音生成提供了技术基础，但对助听器、人工耳蜗或临床言语感知研究的直接意义有限",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "a7a3be9a143a9ca8",
-        "updated_at": "2026-08-19T03:14:18Z"
-      }
+      "first_seen_at": "2026-08-19T03:13:20Z"
     },
     {
       "title": "Systematic F1 increase in Korean aegyo speech may signal childlike qualities",
@@ -1769,22 +2073,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0044475",
       "url": "https://doi.org/10.1121/10.0044475",
-      "abstract": "Korean aegyo is a socially recognized childlike speaking style used predominantly in romantic interactions among adults. This study examined vowel space modification in aegyo by analyzing formant frequencies from twelve Seoul Korean speakers who produced identical scripts in aegyo and non-aegyo styles. Results show that aegyo speech features a significant increase in F1 values across vowels and selective fronting of front vowels, leading to some expansion of the vowel space but mainly shifting to higher F1. These findings motivate the hypothesis that adult speakers construct a childlike vocal quality by increasing F1, possibly through a combination of different factors like global vowel lowering and partial fronting.",
-      "first_author_affiliation": "Department of Korean Language and Literature, Duksung Women's University 1 , Seoul, 01369,",
-      "last_author_affiliation": "Department of Computational Linguistics, University of Zurich 2 , Zürich, 8050,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0044475",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-18",
-      "first_seen_at": "2026-08-19T03:13:01Z",
       "full_text_url": "https://pubs.aip.org/jel/article/6/8/085204/3401298/Systematic-F1-increase-in-Korean-aegyo-speech-may",
-      "media_checked_at": "2026-08-19T03:13:29Z",
-      "open_access_image_checked_at": "2026-08-19T03:13:29Z",
+      "abstract": "Korean aegyo is a socially recognized childlike speaking style used predominantly in romantic interactions among adults. This study examined vowel space modification in aegyo by analyzing formant frequencies from twelve Seoul Korean speakers who produced identical scripts in aegyo and non-aegyo styles. Results show that aegyo speech features a significant increase in F1 values across vowels and selective fronting of front vowels, leading to some expansion of the vowel space but mainly shifting to higher F1. These findings motivate the hypothesis that adult speakers construct a childlike vocal quality by increasing F1, possibly through a combination of different factors like global vowel lowering and partial fronting.",
       "ai_analysis": {
         "scientific_question": "韩语撒娇语（aegyo）中说话者如何通过元音空间的声学调节来模拟儿童化的语音特征？",
         "key_highlight": "撒娇语显著提高了各元音的F1值，并伴随部分前元音前移，扩展了元音空间的高位区域。",
@@ -1796,7 +2086,21 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "14754b16aba896f0",
         "updated_at": "2026-08-19T03:14:25Z"
-      }
+      },
+      "first_author_affiliation": "Department of Korean Language and Literature, Duksung Women's University 1 , Seoul, 01369,",
+      "last_author_affiliation": "Department of Computational Linguistics, University of Zurich 2 , Zürich, 8050,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0044475",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-08-19T03:13:29Z",
+      "media_checked_at": "2026-08-19T03:13:29Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-18",
+      "first_seen_at": "2026-08-19T03:13:01Z"
     },
     {
       "title": "Target Speaker Identification: A Low-Latency Streaming Pipeline",
@@ -1811,6 +2115,18 @@
       "doi": null,
       "url": "https://arxiv.org/abs/2608.17972v1",
       "abstract": "We present a real-time pipeline of open source, pretrained models for streaming identification of a target speaker, motivated by hearing-aid applications where latency as low as 10 ms can be perceptible. We formulate a two-step approach in which incoming audio is first segmented by speaker using low-latency streaming diarization, followed by speaker verification against a registered target speaker. To emulate conversational speech while minimizing overlap, we use the This American Life Podcast Transcripts dataset and select the host as a consistent target speaker. We benchmark offline diarization with Pyannote and LIUM using diarization error rate (DER) and select Pyannote based on baseline performance and compatibility with streaming. We then evaluate speaker verification using Pyannote and TitaNet-Large and generate ROC curves to select an operating region. We integrate Diart and tune clustering parameters to reduce DER while maintaining real-time operation. We pair Diart with Pyannote verification and evaluate system-level performance by converting predicted and ground-truth speech regions into 100 ms binary masks. Across 17 evaluation episodes, the system achieves greater than 0.90 median accuracy with high specificity (0.95-0.98) at cosine distance thresholds of 0.7-0.75, demonstrating a practical proof of concept for downstream low-latency selective amplification.",
+      "ai_analysis": {
+        "scientific_question": "如何在低延迟（低至10毫秒）的条件下实现实时流音频中目标说话人的识别，以满足助听器应用需求？",
+        "key_highlight": "该系统结合流式说话人日志分割与说话人验证的两步方法，在17个评估片段中实现了0.90以上的中位准确率和高特异性（0.95-0.98），证明了低延迟选择性放大应用的可行概念。",
+        "main_limitation": "实验仅基于单一播客数据集中的单一目标说话人（主持人），缺乏对多样化真实会话场景和多名说话人情况的泛化验证。",
+        "research_implication": "该研究为助听器的低延迟选择性语音增强提供了技术验证，但实际应用于真实助听设备仍需在更广泛的声学环境和用户群体中进行测试。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "7029ea0db1247493",
+        "updated_at": "2026-08-19T03:14:33Z"
+      },
       "publication_stage": "preprint",
       "section": null,
       "keywords": [
@@ -1830,19 +2146,7 @@
         "abstract"
       ],
       "needs_review": true,
-      "first_seen_at": "2026-08-19T03:13:20Z",
-      "ai_analysis": {
-        "scientific_question": "如何在低延迟（低至10毫秒）的条件下实现实时流音频中目标说话人的识别，以满足助听器应用需求？",
-        "key_highlight": "该系统结合流式说话人日志分割与说话人验证的两步方法，在17个评估片段中实现了0.90以上的中位准确率和高特异性（0.95-0.98），证明了低延迟选择性放大应用的可行概念。",
-        "main_limitation": "实验仅基于单一播客数据集中的单一目标说话人（主持人），缺乏对多样化真实会话场景和多名说话人情况的泛化验证。",
-        "research_implication": "该研究为助听器的低延迟选择性语音增强提供了技术验证，但实际应用于真实助听设备仍需在更广泛的声学环境和用户群体中进行测试。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "7029ea0db1247493",
-        "updated_at": "2026-08-19T03:14:33Z"
-      }
+      "first_seen_at": "2026-08-19T03:13:20Z"
     },
     {
       "title": "The effect of an interaural time difference to level difference transformation method on speech intelligibility in a multi-talker setting",
@@ -1860,6 +2164,18 @@
       "doi": "10.1121/10.0046102",
       "url": "https://doi.org/10.1121/10.0046102",
       "abstract": "The human auditory system is able to improve speech intelligibility in challenging multi-talker scenarios by using the binaural cues [Interaural Time Differences (ITDs) and Interaural Level Differences (ILDs)] for spatially separated talkers. However, aging and hearing loss can vastly degrade a listener's ability to perceive ITDs, resulting in a decreased binaural benefit. For this reason, we investigated a method to transform imperceptible ITDs (artificially removed to simulate ITD sensitivity loss) into low-frequency ILDs to assess the binaural benefit that can be gained this way, based on listening experiments with normal-hearing listeners. In a reverberant environment, no binaural benefit was found. In an anechoic environment and with a central target speaker, the decrease in speech reception tresholds because of removed ITDs was almost completely compensated when low-frequency ILDs were added. For a lateral target speaker, the low-frequency ILDs even provided a significant improvement over the baseline where ITDs and ILDs are available. Simulations using the binaural speech intelligibility model (BSIM) supported the measured results from the listening experiment. These findings suggest that this cue conversion method could potentially bring a benefit to hearing impaired and elderly listeners when implemented in cochlear implants and hearing aids.",
+      "ai_analysis": {
+        "scientific_question": "如何将不可感知的双耳时间差转化为低频双耳强度差，以改善多说话人场景下的言语识别？",
+        "key_highlight": "在无回声环境中，低频双耳强度差可以几乎完全补偿移除双耳时间差导致的言语接收阈下降，且对侧向目标说话者的改善效果甚至优于完整的双耳线索条件。",
+        "main_limitation": "混响环境中未发现双耳收益，且实验仅在受控实验室条件下使用正常听力受试者，其在真实聆听环境及听损人群中的适用性尚不明确。",
+        "research_implication": "该线索转换方法提示可通过助听设备实现对退化双耳时间差感知的功能补偿，对改善听损及老年用户在嘈杂环境下的空间听觉表现具有潜在应用价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "5cb2ff08cf9668dd",
+        "updated_at": "2026-08-19T03:14:55Z"
+      },
       "first_author_affiliation": "Department of Medical Physics and Acoustics, Cluster of Excellence Hearing4all, Carl von Ossietzky Universität Oldenburg 1 , Oldenburg 26129,",
       "last_author_affiliation": "Department of Medical Physics and Acoustics, Cluster of Excellence Hearing4all, Carl von Ossietzky Universität Oldenburg 1 , Oldenburg 26129,",
       "section": "Psychological and Physiological Acoustics",
@@ -1874,19 +2190,7 @@
       ],
       "source": "crossref",
       "available_online_date": "2026-08-18",
-      "first_seen_at": "2026-08-19T03:13:01Z",
-      "ai_analysis": {
-        "scientific_question": "如何将不可感知的双耳时间差转化为低频双耳强度差，以改善多说话人场景下的言语识别？",
-        "key_highlight": "在无回声环境中，低频双耳强度差可以几乎完全补偿移除双耳时间差导致的言语接收阈下降，且对侧向目标说话者的改善效果甚至优于完整的双耳线索条件。",
-        "main_limitation": "混响环境中未发现双耳收益，且实验仅在受控实验室条件下使用正常听力受试者，其在真实聆听环境及听损人群中的适用性尚不明确。",
-        "research_implication": "该线索转换方法提示可通过助听设备实现对退化双耳时间差感知的功能补偿，对改善听损及老年用户在嘈杂环境下的空间听觉表现具有潜在应用价值。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "5cb2ff08cf9668dd",
-        "updated_at": "2026-08-19T03:14:55Z"
-      }
+      "first_seen_at": "2026-08-19T03:13:01Z"
     },
     {
       "title": "A Novel Binaural Cue Preservation Loss for DNN-Based Binaural Speech Enhancement",
@@ -4124,6 +4428,37 @@
       "first_seen_at": "2026-08-08T03:45:35Z"
     },
     {
+      "title": "Biomarkers of Subjective Tinnitus Presence and Clinical Burden: A Systematic Review",
+      "authors": [
+        "Nathan Shields",
+        "Elva Arulchelvan",
+        "Fabian Broecker",
+        "Sven Vanneste"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-08-07",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109770",
+      "url": "https://doi.org/10.1016/j.heares.2026.109770",
+      "abstract": "Despite being common and clinically burdensome, subjective tinnitus is diagnosed and characterised primarily through subjective reporting. Objective biomarkers could transform tinnitus care by enabling reproducible identification, stratification, and monitoring, but their clinical utility for detecting tinnitus and quantifying its severity remains unclear. We conducted a PRISMA-guided systematic review of tinnitus biomarkers, critically evaluating their clinical and diagnostic relevance, methodological quality, and readiness for clinical translation. PubMed, Scopus, and Web of Science were searched for human studies reporting objective measures linked to tinnitus presence, severity, or diagnostic accuracy. Risk of bias was assessed using Joanna Briggs Institute tools, and results were synthesised narratively due to heterogeneity. We included 69 studies spanning neurophysiological, neuroimaging, cognitive-behavioural, and molecular approaches. Although many studies reported tinnitus-related group differences, convergence across studies was limited. Common limitations included small cohorts, inconsistent phenotyping, heterogenous methodologies, and inadequate adjustment for major confounders, especially hearing loss. Cognitive-behavioural paradigms, particularly attention-modulated cortical responses, showed the strongest and most consistent association with tinnitus burden and the greatest translational potential. Molecular biomarkers, notably metabolomics, showed early promise but currently lack replication and external validation. Neurophysiological and neuroimaging markers provided mechanistic insights but were constrained by reproducibility and feasibility for routine clinical use. In summary, tinnitus biomarkers are advancing, but no single measure currently supports stand-alone clinical diagnosis. Progress will require harmonised methods, large well-characterised samples, severity-stratified designs, and validated multimodal panels aligned to mechanistic models. Systematic review registration: PROSPERO (CRD420261449639).",
+      "last_author_affiliation": "Lab for Clinical and Integrative Neuroscience, Trinity Institute for Neuroscience, School of Psychology, Trinity College Dublin, Ireland; School of Psychology, Trinity College Dublin, Dublin, Ireland; Global Brain Health Institute of Neuroscience, Trinity College Dublin, Dublin, Ireland. Electronic address: sven.vanneste@tcd.ie.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Cognitive–behavioural markers",
+        "Diagnostic biomarkers",
+        "Neurophysiology",
+        "Objective biomarkers",
+        "Tinnitus"
+      ],
+      "tags": [
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-07",
+      "first_seen_at": "2026-08-08T03:45:40Z"
+    },
+    {
       "title": "Classifying bioacoustic data without individual call annotations using temporal convolutional networks and feature extractors",
       "authors": [
         "Laia Garrobé Fonollosa",
@@ -5358,22 +5693,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -5386,6 +5705,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -12933,18 +13268,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -12965,17 +13299,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -22824,22 +23159,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -22852,6 +23171,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -30525,23 +30860,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -30555,6 +30873,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -34048,8 +34383,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -34063,8 +34398,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -39228,8 +39563,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -39243,8 +39578,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
