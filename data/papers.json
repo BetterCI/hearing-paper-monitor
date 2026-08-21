@@ -1,6 +1,32 @@
 {
-  "generated_at": "2026-08-20T03:12:48Z",
+  "generated_at": "2026-08-21T03:18:30Z",
   "papers": [
+    {
+      "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
+      "authors": [
+        "Andrew J. Kolarik",
+        "Anna Koblitz",
+        "Brian C.J. Moore",
+        "Ian van der Linde",
+        "William Campbell",
+        "Shahina Pardhan"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109777",
+      "url": "https://doi.org/10.1016/j.heares.2026.109777",
+      "abstract": null,
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "psychoacoustics"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-18",
+      "first_seen_at": "2026-08-21T03:18:19Z"
+    },
     {
       "title": "Seven-day hypobaric hypoxia induces early basal cochlear presynaptic ribbon injury and oxidative stress in mice before overt cellular loss",
       "authors": [
@@ -20,16 +46,28 @@
       "publication_date_precision": "month",
       "doi": "10.1016/j.heares.2026.109755",
       "url": "https://doi.org/10.1016/j.heares.2026.109755",
-      "abstract": null,
+      "abstract": "BACKGROUND/OBJECTIVES: Acute hypobaric hypoxia at high altitude may impair hearing, but the earliest cochlear lesion site and associated biological responses remain unclear. We aimed to characterize the early cochlear phenotype after 7 days of hypobaric hypoxia in adult C57BL/6J mice. METHODS: Mice were exposed to simulated hypobaric hypoxia equivalent to 5500 m altitude for 7 days. Auditory brainstem response (ABR), electrocochleography (ECochG), cochlear immunofluorescence, presynaptic ribbon quantification, oxidative-stress marker analysis, and bulk RNA sequencing were used to assess early functional, structural, and molecular changes. RESULTS: Hypoxia induced predominantly high-frequency auditory dysfunction, including elevated ABR thresholds at 16 kHz, reduced suprathreshold ABR wave I amplitude, and an increased SP/AP area ratio on ECochG. Gross hair-cell and spiral-ganglion-cell counts were preserved, whereas CtBP2-positive presynaptic ribbons were reduced, with the most prominent change in the basal turn. Oxidative-stress-associated immunolabeling was increased, as shown by elevated 4-HNE and 8-OHdG-related signals in hair cells and increased 4-HNE in spiral-ganglion tissue. Transcriptomic analysis identified 676 differentially expressed genes enriched in synaptic transmission, neurotransmitter transport, postsynaptic membrane organization, ion-channel activity, and calcium signaling. CONCLUSIONS: Seven-day hypobaric hypoxia induces an early cochlear injury state characterized by basal-turn-predominant presynaptic ribbon injury, oxidative stress, and reduced suprathreshold auditory-nerve output before overt cellular loss. Transcriptomic findings support glutamatergic and calcium-signaling remodeling as mechanistic directions but do not establish individual hub genes as validated causal drivers.",
       "publication_stage": "early_access",
       "section": null,
       "keywords": [],
       "tags": [
         "auditory physiology"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-07-27",
-      "first_seen_at": "2026-08-20T03:12:32Z"
+      "first_seen_at": "2026-08-20T03:12:32Z",
+      "ai_analysis": {
+        "scientific_question": "急性低压缺氧暴露7天是否会首先在耳蜗基底转引起突触带损伤和氧化应激，且不伴随明显的毛细胞或螺旋神经节细胞丢失？",
+        "key_highlight": "7天低压缺氧主要导致耳蜗基底转突触前带损伤、氧化应激标记物升高以及听神经超阈值输出下降，但尚未发生明显的毛细胞或螺旋神经节细胞丢失。",
+        "main_limitation": "C57BL/6J小鼠模型与人类听觉系统的种属差异可能限制结果转化，且转录组分析仅提示谷氨酸能和钙信号通路重塑的潜在方向，尚未验证关键基因的因果作用。",
+        "research_implication": "该研究为高原低氧环境相关的听神经病变机制提供了基础证据，其关于突触损伤早于细胞丢失的发现可能对理解噪声性或老年性听力损失中神经递质传递障碍具有参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "9a20bf65b05e2a3b",
+        "updated_at": "2026-08-21T03:19:00Z"
+      }
     },
     {
       "title": "Corrigendum to “Dynamics of Intra- and Inter-Regional Activities of the Auditory ‘Where’ Pathway during Sound Localization: An fMRI Study” [Hearing Research 477 (2026) 109650]",
@@ -137,6 +175,53 @@
       "source": "crossref",
       "available_online_date": "2026-07-25",
       "first_seen_at": "2026-07-31T05:46:39Z"
+    },
+    {
+      "title": "Electrically evoked compound action potentials in adult and pediatric cochlear implant users: I. Cochlear nerve responsiveness and electrode-neuron interface index",
+      "authors": [
+        "Zi Gao",
+        "Jacob J. Oleson",
+        "René H. Gifford",
+        "Shuman He"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109769",
+      "url": "https://doi.org/10.1016/j.heares.2026.109769",
+      "abstract": "Adult and pediatric cochlear implant (CI) users differ in age, duration of deafness, and etiology, yet cochlear nerve (CN) response properties have not been systematically compared between these populations. To address this gap, this study examined electrically evoked compound action potentials (eCAPs) in pediatric and postlingually deafened adult CI users. Seven eCAP-derived indices were evaluated, including threshold, amplitude at the maximum comfortable level, overall and maximal slopes of the amplitude growth function (AGF), absolute and relative refractory periods (t0 and τ), and the local electrode-neuron interface (ENI) index. Sixty-four adult and 56 pediatric users of Cochlear™ Nucleus® CI devices were tested. eCAP AGFs and refractory recovery functions (RRFs) were measured at three to seven electrodes along the array. AGF slopes were quantified using linear regression and the window method, while t0 and τ were derived by fitting RRFs with exponential decay functions. Local ENI index was calculated using a machine-learning model incorporating several eCAP measurements. Linear mixed-effects models revealed both shared and distinct patterns of CN responsiveness between pediatric and adult CI users. Pediatric users demonstrated lower eCAP thresholds than adults when pooled across electrode locations. Adults exhibited shallower AGF slopes at basal electrodes than middle and apical electrodes. RRF-derived indices revealed shorter refractory periods in adults, likely influenced by group differences in maximum comfortable stimulation levels. Across both groups, several eCAP measures showed poorer responses at middle electrode locations relative to apical and/or basal sites. Future studies incorporating additional eCAP metrics may further clarify group differences in CN health and function.",
+      "last_author_affiliation": "Department of Otolaryngology - Head and Neck Surgery, The Ohio State University, 915 Olentangy River Road, Columbus, OH 43212, USA. Electronic address: Shuman.He@osumc.edu.",
+      "open_access": true,
+      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13475778/",
+      "open_access_source": "pubmed_pmc",
+      "open_access_image_checked_at": "2026-08-16T03:15:11Z",
+      "pubmed_full_text_available": true,
+      "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13475778/",
+      "pubmed_full_text_source": "pmc",
+      "pubmed_full_text_image_checked_at": "2026-08-16T03:15:11Z",
+      "media_checked_at": "2026-08-16T03:15:11Z",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "cochlear implant"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-06",
+      "first_seen_at": "2026-08-07T04:33:41Z",
+      "ai_analysis": {
+        "scientific_question": "儿童和成人人工耳蜗使用者的耳蜗神经电诱发复合动作电位响应是否存在系统性差异？",
+        "key_highlight": "研究发现儿童和成人人工耳蜗使用者在eCAP阈值、振幅增长函数斜率和不应期等指标上存在既有共性也有差异的耳蜗神经响应模式。",
+        "main_limitation": "横断面设计未能控制两组间耳聋时长和病因等潜在混杂因素的影响，且eCAP作为间接测量指标可能无法完全反映神经功能状态。",
+        "research_implication": "该研究为理解不同年龄段人工耳蜗使用者神经响应差异提供了电生理学依据，对优化人工耳蜗编程策略和评估电极-神经界面功能具有参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "87aa38102dc643c2",
+        "updated_at": "2026-08-21T03:19:12Z"
+      }
     },
     {
       "title": "Experimental analysis of cartilage graft positioning in tympanoplasty and its impact on middle ear mechanics",
@@ -366,6 +451,35 @@
       "first_seen_at": "2026-08-02T05:38:25Z"
     },
     {
+      "title": "Relationship between age-related hearing loss, phonological working memory, and global cognitive performance",
+      "authors": [
+        "Meisam K. Arjmandi",
+        "Julius Fridriksson",
+        "Samin Ashjaei",
+        "Cara Vandergriff",
+        "Sarah Newman Norlund",
+        "Samaneh Nemati",
+        "Leonardo Bonilha",
+        "Jean Neils-Strunjas"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109767",
+      "url": "https://doi.org/10.1016/j.heares.2026.109767",
+      "abstract": "Age-related hearing loss is associated with lower cognitive performance in later life, but the behavioral pathways linking these domains remain unclear. Phonological working memory, as assessed by nonword repetition, depends on both auditory input quality and availability of cognitive resources and may represent a candidate pathway linking hearing and cognition. This study examined whether hearing sensitivity and global cognitive performance are independently associated with nonword repetition and whether nonword repetition accounts for part of their association. One hundred twenty adults aged 55-80 years completed pure-tone audiometry, a standardized nonword repetition task, and the Montreal Cognitive Assessment (MoCA). Associations among hearing sensitivity, nonword repetition, and global cognitive performance were examined using regression and mediation analyses controlling for age, sex, and education. Poorer hearing sensitivity and poorer cognitive performance were each independently associated with reduced nonword repetition accuracy, with hearing sensitivity showing a stronger association. Both factors explained unique variance in performance, with additive (non-interactive) effects. Mediation analyses indicated that nonword repetition accounted for part of the association between hearing sensitivity and global cognitive performance. The results showed that nonword repetition is a task that is independently associated with hearing sensitivity and global cognition in older adults. The findings support a framework in which degraded auditory input imposes primary constraints on phonological processing, with cognitive resources providing limited compensation. Nonword repetition may offer a useful behavioral measure for assessing combined auditory and cognitive variability in adults in mid-to-late life.",
+      "last_author_affiliation": "Department of Communication Sciences and Disorders, University of South Carolina, Columbia, SC, USA.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-06",
+      "first_seen_at": "2026-08-07T04:33:41Z"
+    },
+    {
       "title": "Relationships between ECAP amplitude growth functions and perceptual growth in cochlear implant users: Implications for individualized cochlear implant fitting",
       "authors": [
         "Andreas Büchner",
@@ -405,6 +519,36 @@
       "source": "crossref",
       "available_online_date": "2026-07-29",
       "first_seen_at": "2026-08-08T03:45:40Z"
+    },
+    {
+      "title": "The decline of progranulin expression in cochlear Microglia-Like Cells accelerates the progression of age-related hearing loss",
+      "authors": [
+        "Qi Li",
+        "Mengxiao Liu",
+        "Huan Yin",
+        "Huan Cao",
+        "Jiantao Wang",
+        "Jianwang Yang",
+        "Tao Liu",
+        "Baoshan Wang"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109768",
+      "url": "https://doi.org/10.1016/j.heares.2026.109768",
+      "abstract": "Accumulating evidence indicates that crosstalk between immune cells and intrinsic cochlear cells is critical for maintaining auditory homeostasis. However, the activation profile of cochlear microglia-like cells (MLCs) and their mechanistic role in age-related hearing loss (ARHL) remain poorly defined. Here, we show that MLCs are robustly activated in the cochlea of aged mice, and that pharmacologic depletion of cochlear MLCs significantly attenuates ARHL progression. To dissect the mechanisms underlying MLC-driven cochlear damage in ARHL, we leveraged the single-cell transcriptomic landscape of the aged mouse cochlea previously generated by our research group, and conducted the related functional validation. We identified prominent age-related alterations in cochlear MLCs, and revealed that AAV-mediated (via posterior semicircular canal microinjection) upregulation of progranulin (GRN) in MLCs mitigates aging-associated oxidative stress damage in the cochlea. Collectively, our work demonstrates that targeting GRN signaling in cochlear MLCs alleviates aging-related oxidative stress in the cochlea, and thereby delays ARHL progression.",
+      "last_author_affiliation": "Department of Otolaryngology-Head and Neck Surgery, The Second Hospital of Hebei Medical University, Shijiazhuang, China. Electronic address: wangbaoshan@hebmu.edu.cn.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-06",
+      "first_seen_at": "2026-08-07T04:33:41Z"
     },
     {
       "title": "The mismatch negativity emergence with auditory pattern segmentation: A revisit of the paradigm by Sussman and Gumenyuk (2005)",
@@ -1662,6 +1806,158 @@
       "first_seen_at": "2026-07-07T06:28:36Z"
     },
     {
+      "title": "Compressional wave attenuation inversion in the New England Mud Patch",
+      "authors": [
+        "Gopu R. Potty",
+        "James H. Miller"
+      ],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-20",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046128",
+      "url": "https://doi.org/10.1121/10.0046128",
+      "abstract": "The goal of this study was to implement a geoacoustic inversion scheme using broadband data from New England Mud Patch to estimate sediment attenuation. The bottom sediments at this location consisted of a layer of mud over sand. The inversion was based on matching measured modal amplitude ratios with predictions. The inversion mitigates the effect of shear conversion in the sandy layer and sediments below that by incorporating shear effects in the inversion. The attenuation estimates compare well with predictions from viscous grain shearing theory and previously published values from the New England Mud Patch and other locations.",
+      "first_author_affiliation": "Department of Ocean Engineering, University of Rhode Island , Narragansett, Rhode Island 02882,",
+      "last_author_affiliation": "Department of Ocean Engineering, University of Rhode Island , Narragansett, Rhode Island 02882,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046128",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "priority section"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-20",
+      "first_seen_at": "2026-08-21T03:18:14Z",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/8/080802/3402669/Compressional-wave-attenuation-inversion-in-the",
+      "media_checked_at": "2026-08-21T03:18:39Z",
+      "open_access_image_checked_at": "2026-08-21T03:18:39Z",
+      "ai_analysis": {
+        "scientific_question": "如何利用宽带数据的模态振幅比匹配方法对泥沙覆盖砂层的沉积物衰减进行地声学反演估计",
+        "key_highlight": "通过在反演中纳入剪切效应来减轻砂层及以下地层剪切转换的影响，获得了与粘性颗粒剪切理论一致的衰减估计结果",
+        "main_limitation": "研究仅针对新英格兰泥潭这一特定地点，其结果在海底条件差异较大地区的适用性可能有限",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "c4e934796216094b",
+        "updated_at": "2026-08-21T03:20:08Z"
+      }
+    },
+    {
+      "title": "Multipaths in acoustic tomography of aero-propulsion flows",
+      "authors": [
+        "John L. Gillespie",
+        "Todd Lowe",
+        "Wing F. Ng"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-20",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044588",
+      "url": "https://doi.org/10.1121/10.0044588",
+      "abstract": "Acoustic tomography is of great interest for aero-propulsion applications due to its potential for low-cost, robust, non-intrusive measurements of fluid velocities and temperatures. Recent work has shown the promise of this technique even in high subsonic flows. However, this prior work does not consider the possibility of multiple ray paths existing between the same acoustic source–receiver pair. By measuring the flow properties of a TFE731 turbofan engine with a Pitot rake probe, then using the measured properties to numerically calculate ray paths, we show that acoustic multipaths can occur in realistic environments. Using a pneumatic horn and several microphones located near the exhaust nozzle of this engine, we detect these multipaths, validating the predictions from ray theory. Furthermore, when these multipaths are unaccounted for, a fundamental ambiguity results in the tomographic reconstruction—multiple different flow profiles can produce identical first-arrival travel times. The later-arriving multipaths must be accounted for in order to produce a unique reconstruction. As a first step toward multipath-capable acoustic tomography of aero-propulsion flows, we adapt the Herglotz–Wiechert inverse (a technique from seismology) to account for high-speed fluid flows. This generalized technique can potentially be used to accurately reconstruct these flow profiles in the presence of multipaths.",
+      "first_author_affiliation": "Kevin T. Crofton Department of Aerospace Engineering, Virginia Tech 1 , Blacksburg, Virginia 24060,",
+      "last_author_affiliation": "Department of Mechanical Engineering, Virginia Tech 2 , Blacksburg, Virginia 24060,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-20",
+      "first_seen_at": "2026-08-21T03:18:13Z",
+      "ai_analysis": {
+        "scientific_question": "声学层析成像如何在实际航空发动机环境中处理多路径效应以实现唯一的流场重建。",
+        "key_highlight": "通过数值计算和实验验证表明，涡轮风扇发动机排气管附近确实存在声学多路径，并成功将地震学中的Herglotz-Wiechert逆方法适配到高速流场环境。",
+        "main_limitation": "Limited generalizability due to small or specific sample",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "4f8146306329f7bb",
+        "updated_at": "2026-08-21T03:20:23Z"
+      }
+    },
+    {
+      "title": "Test–Retest Reliability and Preliminary Validation of Smartphone-Based Threshold and Categorical loudness Measures in Home Settings",
+      "authors": [
+        "Chen Xu",
+        "Lena Schell-Majoor",
+        "Birger Kollmeier"
+      ],
+      "journal": "Trends in Hearing",
+      "publication_date": "2026-08-20",
+      "publication_date_precision": "day",
+      "doi": "10.1177/23312165261471286",
+      "url": "https://doi.org/10.1177/23312165261471286",
+      "abstract": "Reliable hearing assessment at home can improve accessibility and reduce dependence on in-clinic testing. To be viable, home-based procedures must provide accurate results within short measurement times and remain robust to factors such as ambient noise and variable user attention. In this proof-of-concept study with a limited sample size, we evaluated two such procedures—a Graded Response Bracketing method (GRaBr) for pure-tone threshold estimation and a reinforced adaptive categorical loudness scaling method (rACALOS) for loudness-growth assessment - using remote, smartphone-based testing, and compared their outcomes with those obtained inside the laboratory using established reference procedures. Fifteen young adults with normal hearing completed the tasks at home and in the laboratory. Test–retest reliability was assessed by repeating the home measurements within one week of the initial session. Ambient noise levels in home environments were also recorded. The intraclass correlation coefficients for GRaBr measured at home exceeded 0.75, indicating good test–retest reliability. Similarly, home-based rACALOS showed generally high reliability, with across-run biases below 5 dB at all frequencies; however, mean interquartile ranges reached up to 18.4 dB at some loudness categories. Remote GRaBr measurements showed small, non-significant deviations from laboratory audiometry (0.4 ± 7.1 dB); however, frequency-specific biases of approximately ±5 dB were observed at 250 Hz and 4 kHz, with root-mean-square errors ranging from 4.6 to 8.0 dB across frequencies. Compared with the in-lab ACALOS, remote rACALOS showed an overall bias of 3.38 ± 11.8 dB across loudness categories, with no significant overall effect of test environment. These findings suggest that smartphone-based pure-tone audiometry and loudness-scaling assessments provide accurate and reliable results when using these procedures at home, at least in normal-hearing young adults, who are experienced loudness raters, under suitable acoustic conditions with low ambient noise.",
+      "first_author_affiliation": "Universität Oldenburg",
+      "last_author_affiliation": "Universität Oldenburg",
+      "open_access": true,
+      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261471286",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "psychoacoustics"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-20",
+      "first_seen_at": "2026-08-21T03:18:14Z",
+      "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261471286",
+      "media_checked_at": "2026-08-21T03:18:39Z",
+      "open_access_image_checked_at": "2026-08-21T03:18:39Z"
+    },
+    {
+      "title": "The Failure Index as Marker of the Neural Health Profile in MED-EL CI Users: A Retrospective Analysis",
+      "authors": [
+        "Wiebke Konerding",
+        "Cornelia Batsoulis",
+        "Peter Baumhoff",
+        "Heval Benav",
+        "Lutz Gärtner",
+        "Annette Günther",
+        "Onhintz de Olano Dieterich",
+        "Daniel Schurzig",
+        "Stefan Strahl",
+        "Jochen Tillein",
+        "Sarah Vormelcher",
+        "Andreas Büchner",
+        "Carolyn Garnham",
+        "Andrej Kral"
+      ],
+      "journal": "Trends in Hearing",
+      "publication_date": "2026-08-20",
+      "publication_date_precision": "day",
+      "doi": "10.1177/23312165261477505",
+      "url": "https://doi.org/10.1177/23312165261477505",
+      "abstract": "Cochlear implants (CIs) enable hearing via direct electrical stimulation of the spiral ganglion neurons (SGN). Outcomes with a CI depend, in part, on the number and excitability of the SGNs. In an animal model, we introduced the Failure Index (FI) as an electrically-evoked compound action potential (eCAP)-derived marker of cochlear health. The FI informs about the presence, site, and size of SGN lesions. Here, we translated the FI to clinical recordings from human MED-EL CI users. In this retrospective study, we included patient data recorded between 2016 and 2024 from 199 ears with postlingual hearing loss and 79 ears with prelingual hearing loss. The averaged FI values over all contacts of the array were stable within the analysis period (3 rd month to 1 st year postoperatively). The FI increased with age and was elevated in etiologies associated with higher SGN loss. Using 3D reconstruction from cone-beam computed tomography scans, we confirmed that the FI was independent of electrode-to-modiolus distance (0.1–2.5 mm). The FI showed individual patterns along the array, with maxima usually found at basal contacts, corresponding to reduced neural health at high-frequency cochlear regions. In a selected group of postlingual-deaf ears, we found higher correlation coefficients between speech-perception scores and the FI compared to other eCAP-derived markers (i.e., threshold, slope, and amplitude). These results were in line with the hypothesis that the FI may serve as a clinical tool to identify implanted ears with reduced neural health and to identify contacts stimulating areas of reduced SGN survival and integrity.",
+      "first_author_affiliation": "Hannover Medical School",
+      "last_author_affiliation": "Hannover Medical School",
+      "open_access": true,
+      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261477505",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology",
+        "cochlear implant"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-20",
+      "first_seen_at": "2026-08-21T03:18:14Z",
+      "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261477505",
+      "media_checked_at": "2026-08-21T03:18:39Z",
+      "open_access_image_checked_at": "2026-08-21T03:18:39Z"
+    },
+    {
       "title": "A corrected wideband ambiguity function for robust biosonar strategy analysis",
       "authors": [
         "Nicolas Deloustal",
@@ -1674,14 +1970,6 @@
       "doi": "10.1121/10.0046097",
       "url": "https://doi.org/10.1121/10.0046097",
       "abstract": "The wideband ambiguity function (WAF) is a foundational tool for analyzing sonar signals, as it jointly characterizes time delay and Doppler-induced time stretching. However, when applied to nonstationary biological signals, this function is sensitive to temporal misalignment and integration-window effects, which can bias estimates of sonar performance. This paper proposes a corrected formulation of the WAF that compensates for Doppler-induced temporal shifts by centering the analysis around the energy centroid of the emitted signal. The corrected wideband ambiguity function (CWAF) preserves the intrinsic resolution properties imposed by signal bandwidth and duration, while ensuring invariance to time translation and integration time within the analysis window. This method is applied to field recordings of echolocation during foraging and depredation, produced by bats (Pipistrellus kuhlii) and sperm whales (Physeter macrocephalus). The results reveal contrasting biosonar strategies: bats dynamically modulate spectral and temporal parameters across foraging phases, whereas sperm whales emit spectrally stable, Doppler tolerant pulses and primarily adjust inter-click intervals and output levels. Additionally, analyzing the resolution of pulses P0 and P1 lends support to the hypothesis of a three-dimensional sperm whale biosonar model. Overall, the CWAF provides a robust framework for linking biosonar signal design, estimator theory, and animal behavior.",
-      "first_author_affiliation": "Univ Toulon, Aix Marseille Univ, CNRS, LIS 1 , Toulon,",
-      "last_author_affiliation": "Univ Toulon, Aix Marseille Univ, CNRS, LIS 1 , Toulon,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-19",
-      "first_seen_at": "2026-08-20T03:12:12Z",
       "ai_analysis": {
         "scientific_question": "如何修正宽频带模糊函数以解决其在分析非平稳生物声纳信号时的时间对齐偏差和积分窗口效应问题？",
         "key_highlight": "修正后的宽频带模糊函数成功揭示了蝙蝠动态调节声谱和时间参数与抹香鲸保持声谱稳定但调节脉冲间隔和输出电平的两种截然不同的声纳策略。",
@@ -1693,7 +1981,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "f2a162764c39db78",
         "updated_at": "2026-08-20T03:13:42Z"
-      }
+      },
+      "first_author_affiliation": "Univ Toulon, Aix Marseille Univ, CNRS, LIS 1 , Toulon,",
+      "last_author_affiliation": "Univ Toulon, Aix Marseille Univ, CNRS, LIS 1 , Toulon,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-19",
+      "first_seen_at": "2026-08-20T03:12:12Z"
     },
     {
       "title": "Classroom-based speech recognition better predicts listening comprehension than clinic-based measures in primary school children",
@@ -1710,18 +2006,6 @@
       "doi": "10.1121/10.0046105",
       "url": "https://doi.org/10.1121/10.0046105",
       "abstract": "Classroom noise can substantially interfere with children's access to spoken instruction, yet speech perception is typically assessed using clinic-based measures collected under controlled listening conditions. This study examined (1) how classroom signal-to-noise ratio (SNR) and developmental level influence speech recognition (SR) and listening comprehension (LC), and (2) whether clinic-based SR predicts classroom LC as effectively as classroom-based SR. One hundred eleven normal-hearing students in Grades 2–5 completed SR (WIPI) and LC (TROG-2) tasks in occupied classrooms under multiple noise levels, as well as SR testing in a clinic setting. Generalized linear mixed-effects models were used to estimate acoustic and developmental effects, and receiver operating characteristic analyses compared predictive accuracy. Higher SNR was associated with significant improvements in both SR and LC, and older students consistently outperformed younger students across acoustic conditions. Although SR performance was higher in the clinic than in the classroom, classroom-based SR provided substantially better prediction of classroom LC than clinic-based SR. These findings demonstrate that assessment context shapes observed listening performance and underscore the importance of ecologically valid measures for predicting functional comprehension outcomes in real educational environments.",
-      "first_author_affiliation": "Department of Speech and Hearing Science, University of Illinois 1 , Champaign, Illinois 61820,",
-      "last_author_affiliation": "Department of Speech and Hearing Science, University of Illinois 1 , Champaign, Illinois 61820,",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "priority section",
-        "real-world listening",
-        "speech perception"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-08-19",
-      "first_seen_at": "2026-08-20T03:12:12Z",
       "ai_analysis": {
         "scientific_question": "教室信噪比和儿童发育水平如何影响言语识别和聆听理解，以及诊所环境的言语识别测试是否能像教室环境一样有效预测课堂聆听理解能力。",
         "key_highlight": "尽管诊室环境中的言语识别表现优于教室环境，但基于教室环境的言语识别测试比诊室测试能更有效地预测课堂聆听理解。",
@@ -1733,7 +2017,19 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "c2c923c9f80bda1f",
         "updated_at": "2026-08-20T03:13:49Z"
-      }
+      },
+      "first_author_affiliation": "Department of Speech and Hearing Science, University of Illinois 1 , Champaign, Illinois 61820,",
+      "last_author_affiliation": "Department of Speech and Hearing Science, University of Illinois 1 , Champaign, Illinois 61820,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "priority section",
+        "real-world listening",
+        "speech perception"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-19",
+      "first_seen_at": "2026-08-20T03:12:12Z"
     },
     {
       "title": "Longitudinal Analysis of Cochlear Implant Stimulation Levels in the First Year: Optimizing Adult Fitting",
@@ -1749,14 +2045,30 @@
       "publication_date_precision": "day",
       "doi": "10.1097/aud.0000000000001875",
       "url": "https://doi.org/10.1097/aud.0000000000001875",
+      "full_text_url": "https://www.ovid.com/jnls/ear-hearing/fulltext/10.1097/aud.0000000000001875~longitudinal-analysis-of-cochlear-implant-stimulation-levels",
       "abstract": "Objectives: The main objective of this study was to investigate the evolution in stimulation levels (C-/M- and T-levels) in adult cochlear implant users from both Advanced Bionics and Cochlear, and to assess whether this trajectory differs between the two brands. The secondary objective was to assess individual patterns of stimulation levels during the first year post-implantation. Design: This retrospective study was conducted at the Erasmus University Medical Center in Rotterdam, the Netherlands. A total of 183 postlingually deaf adults with a unilateral cochlear implant from either Advanced Bionics or Cochlear were included. Stimulation levels (C-, M-, and T-levels) were collected from these adults for six fitting sessions during the first year postimplantation. Linear mixed-effects models were used to analyze longitudinal changes. Results: Our findings were comparable for both Advanced Bionics and Cochlear implant users. Mean M/C and T levels changed over time, showing a similar characteristic pattern for each patient with a rapid increase during the initial period, followed by gradual stabilization. Post hoc comparisons revealed significant differences between appointments up to the fourth fitting session for M/C levels and up to the third fitting session for T-levels. There were no significant differences after these fitting sessions. These findings were consistent across the different electrode segments (apical, medial, upper basal, lower basal), although earlier stabilization occurred in the lower basal segment for M/C-levels and in both basal segments for T-levels. Conclusions: The present study gave valuable insights into the temporal evolution of M/C- and T-levels during the first year postimplantation for both Advanced Bionics and Cochlear implant users. The mean M/C- and T-levels stabilized after approximately 3 months and 5 weeks, respectively, showing equivalent trajectories between the two brands. A consistent pattern was observed across patients, with stimulation levels rising significantly in the first few months and gradually stabilizing over time.",
+      "ai_analysis": {
+        "scientific_question": "成年人工耳蜗使用者在植入后第一年内电刺激水平（C-/M-和T-levels）如何演变，以及不同品牌之间是否存在差异？",
+        "key_highlight": "两种品牌用户的人工耳蜗刺激参数均呈现相似的演变模式，即初期快速上升后逐渐稳定，其中M/C水平约在3个月后稳定，T水平约在5周后稳定，且电极各节段均遵循此规律。",
+        "main_limitation": "作为单中心回顾性研究，且仅纳入语后聋成人及单侧植入患者，其结论对其他人群（如语前聋、儿童或双侧植入者）的适用性可能受限。",
+        "research_implication": "该研究为人工耳蜗调试策略提供了时间参考，表明在植入后前几个月需频繁调整刺激参数，此后可根据患者稳定情况减少调试频率。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "9ca4e93cf8ede825",
+        "updated_at": "2026-08-20T03:14:10Z"
+      },
       "first_author_affiliation": "Department of Otorhinolaryngology and Head and Neck Surgery, Erasmus University Medical Center, Rotterdam, the Netherlands",
       "last_author_affiliation": "Department of Otorhinolaryngology and Head and Neck Surgery, Erasmus University Medical Center, Rotterdam, the Netherlands",
       "open_access": true,
       "open_access_url": "https://www.ovid.com/10.1097/AUD.0000000000001875",
       "open_access_source": "crossref_license",
       "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-08-20T03:12:57Z",
+      "media_checked_at": "2026-08-20T03:12:58Z",
       "publication_stage": "early_access",
+      "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
       "section": null,
       "keywords": [
         "Adults",
@@ -1773,23 +2085,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-08-19",
-      "first_seen_at": "2026-08-20T03:12:29Z",
-      "full_text_url": "https://www.ovid.com/jnls/ear-hearing/fulltext/10.1097/aud.0000000000001875~longitudinal-analysis-of-cochlear-implant-stimulation-levels",
-      "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
-      "media_checked_at": "2026-08-20T03:12:58Z",
-      "open_access_image_checked_at": "2026-08-20T03:12:57Z",
-      "ai_analysis": {
-        "scientific_question": "成年人工耳蜗使用者在植入后第一年内电刺激水平（C-/M-和T-levels）如何演变，以及不同品牌之间是否存在差异？",
-        "key_highlight": "两种品牌用户的人工耳蜗刺激参数均呈现相似的演变模式，即初期快速上升后逐渐稳定，其中M/C水平约在3个月后稳定，T水平约在5周后稳定，且电极各节段均遵循此规律。",
-        "main_limitation": "作为单中心回顾性研究，且仅纳入语后聋成人及单侧植入患者，其结论对其他人群（如语前聋、儿童或双侧植入者）的适用性可能受限。",
-        "research_implication": "该研究为人工耳蜗调试策略提供了时间参考，表明在植入后前几个月需频繁调整刺激参数，此后可根据患者稳定情况减少调试频率。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "9ca4e93cf8ede825",
-        "updated_at": "2026-08-20T03:14:10Z"
-      }
+      "first_seen_at": "2026-08-20T03:12:29Z"
     },
     {
       "title": "Mapping the spatial distribution of chorusing oyster toadfish ( Opsanus tau ) with distributed acoustic sensing",
@@ -1805,16 +2101,6 @@
       "doi": "10.1121/10.0044594",
       "url": "https://doi.org/10.1121/10.0044594",
       "abstract": "Passive acoustic surveys of soniferous marine communities can provide useful metrics for characterizing behavior, abundance, and ecological influences; however, they typically offer limited information about the spatial distribution of biological sources. Recent advances in distributed acoustic sensing (DAS) offer the potential to conduct wide-area surveys of bioacoustic activity that would be logistically infeasible with traditional hydrophone measurements. Here, a 2.2 km DAS cable deployed in Narragansett Bay, RI, was used to map the spatial distribution of oyster toadfish chorusing over a 24-h period during their spawning season in June 2025. A localization technique was developed where nearfield beamforming was performed along a rolling subaperture across the entire array, in order to account for the lack of coherence across widely spaced channels. This method allowed for the localization of biological hotspots, which were concentrated along a breakwater at the east side of Narragansett Bay. Long-term, single-hydrophone recordings also reveal seasonal and diel patterns for the same toadfish chorus, demonstrating how temporal data from traditional acoustic sensors can complement spatial DAS measurements.",
-      "first_author_affiliation": "Naval Undersea Warfare Center , Newport, Rhode Island 02841,",
-      "last_author_affiliation": "Naval Undersea Warfare Center , Newport, Rhode Island 02841,",
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "real-world listening"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-08-19",
-      "first_seen_at": "2026-08-20T03:12:12Z",
       "ai_analysis": {
         "scientific_question": "如何利用分布式声学传感技术对海洋生物声源进行大范围空间分布测绘？",
         "key_highlight": "研究团队在纳拉甘西特湾部署2.2公里DAS光缆，通过滑动子阵列近场波束形成技术成功定位了蟾鱼合唱的生物热点区域。",
@@ -1826,7 +2112,17 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "ef4280b5279b9b61",
         "updated_at": "2026-08-20T03:14:18Z"
-      }
+      },
+      "first_author_affiliation": "Naval Undersea Warfare Center , Newport, Rhode Island 02841,",
+      "last_author_affiliation": "Naval Undersea Warfare Center , Newport, Rhode Island 02841,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "real-world listening"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-19",
+      "first_seen_at": "2026-08-20T03:12:12Z"
     },
     {
       "title": "Multimodal ultrasound-based localization of surgical mesh using Nakagami parametric imaging and shear wave elastography—An in vitro and ex vivo study",
@@ -1841,16 +2137,6 @@
       "doi": "10.1121/10.0046096",
       "url": "https://doi.org/10.1121/10.0046096",
       "abstract": "Surgical mesh is widely used in soft tissue reinforcement treatments as it results in a lower recurrence rate of complications. However, there is a possibility of abnormalities after mesh implantation. These problems can result in chronic discomfort and demand further surgical procedures and postoperative monitoring. Hence, mesh visualization and detection are essential for understanding postoperative outcomes and surgical planning. However, using traditional imaging modalities, these meshes are difficult to visualize after implantation against surrounding tissues. Therefore, it is challenging to locate the implanted mesh accurately. The hypothesis for this work was that ultrasound shear wave elastography (SWE) and Nakagami parametric imaging could be useful methods for localizing and assessing the implanted mesh, as the mesh differs in mechanical stiffness, along with its echogenicity and the statistical distribution of backscattered signals compared to the surrounding tissue. This study demonstrates the potential of Nakagami imaging and SWE for accurately localizing surgical meshes. While both methods allowed for accurate mesh location recognition, Nakagami imaging provided better localization for meshes located at larger depths. According to these findings, this method could especially be helpful for patients with thick abdominal walls. This could enhance the clinical evaluation of hernia mesh implantation and improve diagnostic accuracy.",
-      "first_author_affiliation": "Department of Electrical and Computer Engineering, Iowa State University 1 , Ames, Iowa 50011,",
-      "last_author_affiliation": "Department of Electrical and Computer Engineering, Iowa State University 1 , Ames, Iowa 50011,",
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "clinical audiology"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-08-19",
-      "first_seen_at": "2026-08-20T03:12:12Z",
       "ai_analysis": {
         "scientific_question": "超声剪切波弹性成像和Nakagami参数成像能否准确定位植入的外科网片？",
         "key_highlight": "两种超声方法均能准确识别网片位置，其中Nakagami成像对较深位置网片的定位效果更优。",
@@ -1862,7 +2148,17 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "947d68bdbd33b0d8",
         "updated_at": "2026-08-20T03:14:29Z"
-      }
+      },
+      "first_author_affiliation": "Department of Electrical and Computer Engineering, Iowa State University 1 , Ames, Iowa 50011,",
+      "last_author_affiliation": "Department of Electrical and Computer Engineering, Iowa State University 1 , Ames, Iowa 50011,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "clinical audiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-19",
+      "first_seen_at": "2026-08-20T03:12:12Z"
     },
     {
       "title": "Simultaneous Recording of Multiple Auditory Brainstem Responses at Clinical Discharge Level",
@@ -1878,14 +2174,30 @@
       "publication_date_precision": "day",
       "doi": "10.1097/aud.0000000000001877",
       "url": "https://doi.org/10.1097/aud.0000000000001877",
+      "full_text_url": "https://www.ovid.com/jnls/ear-hearing/fulltext/10.1097/aud.0000000000001877~simultaneous-recording-of-multiple-auditory-brainstem",
       "abstract": "Objectives: This study investigated changes in auditory brainstem response (ABR) wave-V morphology when multiple ABRs were recorded simultaneously using MultiBand ABR, compared with the traditional method of consecutive stimulus presentation. Design: ABRs were elicited using narrow-band (NB) CE-Chirps centered at 500, 1000, 2000, and 4000 Hz, presented at clinical discharge levels and 10 dB above these levels. Both simultaneous and consecutive presentation modes were conducted at a nominal rate of 40 stimuli per second for each NB CE-Chirp. A total of 24 young participants with normal hearing were included, resulting in data from 48 ears at the discharge level and 20 participants (40 ears) at discharge level +10 dB. Results: In the consecutive presentation mode, ABR wave-V morphology exhibited typical mean latency and amplitude characteristics for each NB CE-Chirp at both discharge level and discharge level +10 dB. However, in the simultaneous recording condition, ABRs demonstrated significantly longer wave-V latencies for the 500 and 1000 Hz stimuli at discharge level, and for the 500, 1000, and 2000 Hz stimuli at discharge level +10 dB, compared with the consecutive presentation. Furthermore, at both discharge and discharge level +10 dB, wave-V amplitudes were significantly reduced for all NB CE-Chirp stimulus frequencies in the simultaneous mode compared with the consecutive mode. Within-session test-retest evaluations were performed for the simultaneous presentation at discharge level, revealing no significant differences in wave-V amplitude or latency between the two recordings. Conclusions: These findings support the hypothesis of a partial masking effect on the compound neural response to the target NB CE-Chirp caused by the presence of the adjacent off-frequency stimuli, suggesting a potential increase in ABR place specificity when using the simultaneous presentation method.",
+      "ai_analysis": {
+        "scientific_question": "探究使用MultiBand ABR同时记录多个听觉脑干反应（ABR）时，波V形态相较于传统连续刺激呈现方式的变化情况。",
+        "key_highlight": "同时记录模式显著延长了波V潜伏期并降低了振幅，提示相邻频率刺激对目标窄带CE-Chirp的复合神经反应产生部分掩蔽效应。",
+        "main_limitation": "样本仅限于24名年轻正常听力成人，缺乏跨session信度数据及对临床人群的适用性验证。",
+        "research_implication": "该研究为ABR临床测量方法学提供了参考，其发现可能影响听力评估及听觉装置调试中的电生理检测应用。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "cf701dbfdaa21d36",
+        "updated_at": "2026-08-20T03:14:46Z"
+      },
       "first_author_affiliation": "Interacoustics Research Unit, Interacoustics A/S, Kongens Lyngby, Denmark",
       "last_author_affiliation": "Interacoustics Research Unit, Interacoustics A/S, Kongens Lyngby, Denmark",
       "open_access": true,
       "open_access_url": "https://www.ovid.com/10.1097/AUD.0000000000001877",
       "open_access_source": "crossref_license",
       "license_url": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "open_access_image_checked_at": "2026-08-20T03:12:58Z",
+      "media_checked_at": "2026-08-20T03:12:58Z",
       "publication_stage": "early_access",
+      "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [
         "Auditory brainstem response",
@@ -1903,23 +2215,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-08-19",
-      "first_seen_at": "2026-08-20T03:12:29Z",
-      "full_text_url": "https://www.ovid.com/jnls/ear-hearing/fulltext/10.1097/aud.0000000000001877~simultaneous-recording-of-multiple-auditory-brainstem",
-      "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
-      "media_checked_at": "2026-08-20T03:12:58Z",
-      "open_access_image_checked_at": "2026-08-20T03:12:58Z",
-      "ai_analysis": {
-        "scientific_question": "探究使用MultiBand ABR同时记录多个听觉脑干反应（ABR）时，波V形态相较于传统连续刺激呈现方式的变化情况。",
-        "key_highlight": "同时记录模式显著延长了波V潜伏期并降低了振幅，提示相邻频率刺激对目标窄带CE-Chirp的复合神经反应产生部分掩蔽效应。",
-        "main_limitation": "样本仅限于24名年轻正常听力成人，缺乏跨session信度数据及对临床人群的适用性验证。",
-        "research_implication": "该研究为ABR临床测量方法学提供了参考，其发现可能影响听力评估及听觉装置调试中的电生理检测应用。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "cf701dbfdaa21d36",
-        "updated_at": "2026-08-20T03:14:46Z"
-      }
+      "first_seen_at": "2026-08-20T03:12:29Z"
     },
     {
       "title": "Spectro-Temporal Modulation Sensitivity Prospectively Predicts Speech-in-Noise Recognition in Cochlear Implant Users",
@@ -4487,6 +4783,10 @@
       },
       "first_author_affiliation": "Sea Mammal Research Unit, School of Biology, University of St 1 . Andrews, KY16 9TH, St. Andrews,",
       "last_author_affiliation": "Sea Mammal Research Unit, School of Biology, University of St 1 . Andrews, KY16 9TH, St. Andrews,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0044583",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "section": null,
       "keywords": [],
       "tags": [
@@ -4494,7 +4794,10 @@
       ],
       "source": "crossref",
       "available_online_date": "2026-08-07",
-      "first_seen_at": "2026-08-08T03:45:35Z"
+      "first_seen_at": "2026-08-08T03:45:35Z",
+      "full_text_url": "https://pubs.aip.org/jasa/article/160/2/1159/3400555/Classifying-bioacoustic-data-without-individual",
+      "media_checked_at": "2026-08-21T03:18:39Z",
+      "open_access_image_checked_at": "2026-08-21T03:18:39Z"
     },
     {
       "title": "Estimating ship source levels using distributed acoustic sensing data and validation with hydrophone measurements",
@@ -4847,48 +5150,6 @@
       "first_seen_at": "2026-08-07T04:33:35Z"
     },
     {
-      "title": "Electrically evoked compound action potentials in adult and pediatric cochlear implant users: I. Cochlear nerve responsiveness and electrode-neuron interface index",
-      "authors": [
-        "Zi Gao",
-        "Jacob J. Oleson",
-        "René H. Gifford",
-        "Shuman He"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-08-06",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109769",
-      "url": "https://doi.org/10.1016/j.heares.2026.109769",
-      "abstract": "Adult and pediatric cochlear implant (CI) users differ in age, duration of deafness, and etiology, yet cochlear nerve (CN) response properties have not been systematically compared between these populations. To address this gap, this study examined electrically evoked compound action potentials (eCAPs) in pediatric and postlingually deafened adult CI users. Seven eCAP-derived indices were evaluated, including threshold, amplitude at the maximum comfortable level, overall and maximal slopes of the amplitude growth function (AGF), absolute and relative refractory periods (t0 and τ), and the local electrode-neuron interface (ENI) index. Sixty-four adult and 56 pediatric users of Cochlear™ Nucleus® CI devices were tested. eCAP AGFs and refractory recovery functions (RRFs) were measured at three to seven electrodes along the array. AGF slopes were quantified using linear regression and the window method, while t0 and τ were derived by fitting RRFs with exponential decay functions. Local ENI index was calculated using a machine-learning model incorporating several eCAP measurements. Linear mixed-effects models revealed both shared and distinct patterns of CN responsiveness between pediatric and adult CI users. Pediatric users demonstrated lower eCAP thresholds than adults when pooled across electrode locations. Adults exhibited shallower AGF slopes at basal electrodes than middle and apical electrodes. RRF-derived indices revealed shorter refractory periods in adults, likely influenced by group differences in maximum comfortable stimulation levels. Across both groups, several eCAP measures showed poorer responses at middle electrode locations relative to apical and/or basal sites. Future studies incorporating additional eCAP metrics may further clarify group differences in CN health and function.",
-      "last_author_affiliation": "Department of Otolaryngology - Head and Neck Surgery, The Ohio State University, 915 Olentangy River Road, Columbus, OH 43212, USA. Electronic address: Shuman.He@osumc.edu.",
-      "open_access": true,
-      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13475778/",
-      "open_access_source": "pubmed_pmc",
-      "open_access_image_checked_at": "2026-08-16T03:15:11Z",
-      "pubmed_full_text_available": true,
-      "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13475778/",
-      "pubmed_full_text_source": "pmc",
-      "pubmed_full_text_image_checked_at": "2026-08-16T03:15:11Z",
-      "media_checked_at": "2026-08-16T03:15:11Z",
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [
-        "Amplitude growth function",
-        "Cochlear implant",
-        "Electrode-neuron interface",
-        "Refractory recovery",
-        "eCAP"
-      ],
-      "tags": [
-        "auditory physiology",
-        "cochlear implant",
-        "hearing aid"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-08-06",
-      "first_seen_at": "2026-08-07T04:33:41Z"
-    },
-    {
       "title": "Enhancing Externalization of Frontal Virtual Sound Sources in Binaural Synthesis via Level and Reflection Adjustment of Non-individualized BRIRs",
       "authors": [
         "Kai-Lin Shen",
@@ -4927,79 +5188,6 @@
       "source": "crossref",
       "available_online_date": "2026-08-06",
       "first_seen_at": "2026-08-07T04:33:35Z"
-    },
-    {
-      "title": "Relationship between age-related hearing loss, phonological working memory, and global cognitive performance",
-      "authors": [
-        "Meisam K. Arjmandi",
-        "Julius Fridriksson",
-        "Samin Ashjaei",
-        "Cara Vandergriff",
-        "Sarah Newman Norlund",
-        "Samaneh Nemati",
-        "Leonardo Bonilha",
-        "Jean Neils-Strunjas"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-08-06",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109767",
-      "url": "https://doi.org/10.1016/j.heares.2026.109767",
-      "abstract": "Age-related hearing loss is associated with lower cognitive performance in later life, but the behavioral pathways linking these domains remain unclear. Phonological working memory, as assessed by nonword repetition, depends on both auditory input quality and availability of cognitive resources and may represent a candidate pathway linking hearing and cognition. This study examined whether hearing sensitivity and global cognitive performance are independently associated with nonword repetition and whether nonword repetition accounts for part of their association. One hundred twenty adults aged 55-80 years completed pure-tone audiometry, a standardized nonword repetition task, and the Montreal Cognitive Assessment (MoCA). Associations among hearing sensitivity, nonword repetition, and global cognitive performance were examined using regression and mediation analyses controlling for age, sex, and education. Poorer hearing sensitivity and poorer cognitive performance were each independently associated with reduced nonword repetition accuracy, with hearing sensitivity showing a stronger association. Both factors explained unique variance in performance, with additive (non-interactive) effects. Mediation analyses indicated that nonword repetition accounted for part of the association between hearing sensitivity and global cognitive performance. The results showed that nonword repetition is a task that is independently associated with hearing sensitivity and global cognition in older adults. The findings support a framework in which degraded auditory input imposes primary constraints on phonological processing, with cognitive resources providing limited compensation. Nonword repetition may offer a useful behavioral measure for assessing combined auditory and cognitive variability in adults in mid-to-late life.",
-      "last_author_affiliation": "Department of Communication Sciences and Disorders, University of South Carolina, Columbia, SC, USA.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Age-related hearing loss",
-        "Aging",
-        "Cognitive function",
-        "Hearing sensitivity",
-        "Nonword repetition",
-        "Phonological working memory"
-      ],
-      "tags": [
-        "clinical audiology"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-08-06",
-      "first_seen_at": "2026-08-07T04:33:41Z"
-    },
-    {
-      "title": "The decline of progranulin expression in cochlear Microglia-Like Cells accelerates the progression of age-related hearing loss",
-      "authors": [
-        "Qi Li",
-        "Mengxiao Liu",
-        "Huan Yin",
-        "Huan Cao",
-        "Jiantao Wang",
-        "Jianwang Yang",
-        "Tao Liu",
-        "Baoshan Wang"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-08-06",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109768",
-      "url": "https://doi.org/10.1016/j.heares.2026.109768",
-      "abstract": "Accumulating evidence indicates that crosstalk between immune cells and intrinsic cochlear cells is critical for maintaining auditory homeostasis. However, the activation profile of cochlear microglia-like cells (MLCs) and their mechanistic role in age-related hearing loss (ARHL) remain poorly defined. Here, we show that MLCs are robustly activated in the cochlea of aged mice, and that pharmacologic depletion of cochlear MLCs significantly attenuates ARHL progression. To dissect the mechanisms underlying MLC-driven cochlear damage in ARHL, we leveraged the single-cell transcriptomic landscape of the aged mouse cochlea previously generated by our research group, and conducted the related functional validation. We identified prominent age-related alterations in cochlear MLCs, and revealed that AAV-mediated (via posterior semicircular canal microinjection) upregulation of progranulin (GRN) in MLCs mitigates aging-associated oxidative stress damage in the cochlea. Collectively, our work demonstrates that targeting GRN signaling in cochlear MLCs alleviates aging-related oxidative stress in the cochlea, and thereby delays ARHL progression.",
-      "last_author_affiliation": "Department of Otolaryngology-Head and Neck Surgery, The Second Hospital of Hebei Medical University, Shijiazhuang, China. Electronic address: wangbaoshan@hebmu.edu.cn.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "ARHL",
-        "Aging",
-        "Crosstalk",
-        "GRN",
-        "Hair cells",
-        "MLCs"
-      ],
-      "tags": [
-        "auditory physiology",
-        "clinical audiology"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-08-06",
-      "first_seen_at": "2026-08-07T04:33:41Z"
     },
     {
       "title": "The influence of traffic noise on restorative effects in green space",
@@ -5693,22 +5881,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044504",
-      "url": "https://doi.org/10.1121/10.0044504",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:37Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -5721,6 +5893,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:36Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044504",
+      "url": "https://doi.org/10.1121/10.0044504",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:37Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -13268,17 +13456,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -13299,18 +13488,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -23159,22 +23347,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -23187,6 +23359,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -30860,23 +31048,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -30890,6 +31061,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -34383,8 +34571,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -34398,8 +34586,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -39563,8 +39751,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -39578,8 +39766,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
