@@ -1,44 +1,6 @@
 {
-  "generated_at": "2026-08-22T03:09:59Z",
+  "generated_at": "2026-08-23T03:17:52Z",
   "papers": [
-    {
-      "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
-      "authors": [
-        "Andrew J. Kolarik",
-        "Anna Koblitz",
-        "Brian C.J. Moore",
-        "Ian van der Linde",
-        "William Campbell",
-        "Shahina Pardhan"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-11-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109777",
-      "url": "https://doi.org/10.1016/j.heares.2026.109777",
-      "abstract": "Previous research has demonstrated a robust asymmetry in loudness judgements for rising and falling level tone stimuli, showing greater loudness and loudness change for rising sounds. In the literature, this has been interpreted to reflect an adaptive perceptual bias, resulting from an evolutionary advantage that increases the margin of safety when reacting to an approaching sound-producing object. The current experiment tested whether a loudness model was able to predict asymmetries in loudness-change judgments for rising and falling sounds, providing an alternative explanation to the adaptive perceptual bias theory. Blindfolded participants were presented with 1-kHz tones that increased or decreased in level by 15 dB, with different ranges of presentation levels (60/75, 65/80, 70/85, 75/90 dB). They were asked to report how much each sound changed in loudness, either verbally or using a tactile slider. Participants reported greater loudness changes for rising than falling tones for both response modes, the asymmetry increasing with increasing overall level. The results were accurately predicted by a loudness model, suggesting that an adaptive perceptual bias is not necessary to explain asymmetry in loudness-change estimates for rising and falling level sounds.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "psychoacoustics"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-08-18",
-      "first_seen_at": "2026-08-21T03:18:19Z",
-      "ai_analysis": {
-        "scientific_question": "响度模型是否能预测升/降强度声音在响度变化判断中的不对称性，从而替代适应性感知偏倚理论解释该现象",
-        "key_highlight": "响度模型能够准确预测升/降音在响度变化估计中的不对称性，表明适应性感知偏倚并非解释该现象的必要条件",
-        "main_limitation": "实验采用单一的1 kHz纯音和固定的15 dB变化幅度，其结果向更复杂声学条件或实际环境的推广性有限",
-        "research_implication": "该模型为理解时变声音的响度感知提供了计算框架，其成果或可为助听器动态范围压缩算法及语音呈现策略的设计提供参考",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "e495d247b5b4b3cf",
-        "updated_at": "2026-08-22T03:10:24Z"
-      }
-    },
     {
       "title": "Biomarkers of Subjective Tinnitus Presence and Clinical Burden: A Systematic Review",
       "authors": [
@@ -53,16 +15,6 @@
       "doi": "10.1016/j.heares.2026.109770",
       "url": "https://doi.org/10.1016/j.heares.2026.109770",
       "abstract": "Despite being common and clinically burdensome, subjective tinnitus is diagnosed and characterised primarily through subjective reporting. Objective biomarkers could transform tinnitus care by enabling reproducible identification, stratification, and monitoring, but their clinical utility for detecting tinnitus and quantifying its severity remains unclear. We conducted a PRISMA-guided systematic review of tinnitus biomarkers, critically evaluating their clinical and diagnostic relevance, methodological quality, and readiness for clinical translation. PubMed, Scopus, and Web of Science were searched for human studies reporting objective measures linked to tinnitus presence, severity, or diagnostic accuracy. Risk of bias was assessed using Joanna Briggs Institute tools, and results were synthesised narratively due to heterogeneity. We included 69 studies spanning neurophysiological, neuroimaging, cognitive-behavioural, and molecular approaches. Although many studies reported tinnitus-related group differences, convergence across studies was limited. Common limitations included small cohorts, inconsistent phenotyping, heterogenous methodologies, and inadequate adjustment for major confounders, especially hearing loss. Cognitive-behavioural paradigms, particularly attention-modulated cortical responses, showed the strongest and most consistent association with tinnitus burden and the greatest translational potential. Molecular biomarkers, notably metabolomics, showed early promise but currently lack replication and external validation. Neurophysiological and neuroimaging markers provided mechanistic insights but were constrained by reproducibility and feasibility for routine clinical use. In summary, tinnitus biomarkers are advancing, but no single measure currently supports stand-alone clinical diagnosis. Progress will require harmonised methods, large well-characterised samples, severity-stratified designs, and validated multimodal panels aligned to mechanistic models. Systematic review registration: PROSPERO (CRD420261449639).",
-      "last_author_affiliation": "Lab for Clinical and Integrative Neuroscience, Trinity Institute for Neuroscience, School of Psychology, Trinity College Dublin, Ireland; School of Psychology, Trinity College Dublin, Dublin, Ireland; Global Brain Health Institute of Neuroscience, Trinity College Dublin, Dublin, Ireland. Electronic address: sven.vanneste@tcd.ie.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "clinical audiology"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-08-07",
-      "first_seen_at": "2026-08-08T03:45:40Z",
       "ai_analysis": {
         "scientific_question": "客观生物标志物能否有效支持主观性耳鸣的临床诊断和严重程度量化？",
         "key_highlight": "认知行为范式，尤其是注意调节的皮层反应，与耳鸣负担显示出最强且最一致的关联，具有最大的临床转化潜力。",
@@ -74,7 +26,17 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "f6248e70e5adaf29",
         "updated_at": "2026-08-22T03:10:32Z"
-      }
+      },
+      "last_author_affiliation": "Lab for Clinical and Integrative Neuroscience, Trinity Institute for Neuroscience, School of Psychology, Trinity College Dublin, Ireland; School of Psychology, Trinity College Dublin, Dublin, Ireland; Global Brain Health Institute of Neuroscience, Trinity College Dublin, Dublin, Ireland. Electronic address: sven.vanneste@tcd.ie.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-07",
+      "first_seen_at": "2026-08-08T03:45:40Z"
     },
     {
       "title": "Seven-day hypobaric hypoxia induces early basal cochlear presynaptic ribbon injury and oxidative stress in mice before overt cellular loss",
@@ -117,43 +79,6 @@
       "source": "crossref",
       "available_online_date": "2026-07-27",
       "first_seen_at": "2026-08-20T03:12:32Z"
-    },
-    {
-      "title": "Asymmetry of vestibular pathways predicts upper-brainstem auditory imbalance in subjective somatosensory tinnitus: A tract-specific chronological reorganization model",
-      "authors": [
-        "Duygu Kurt",
-        "Eser Sendesen",
-        "Meral Didem Türkyılmaz"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109774",
-      "url": "https://doi.org/10.1016/j.heares.2026.109774",
-      "abstract": "This study evaluated subcortical auditory and peripheral vestibular pathway alterations in normal-hearing individuals with unilateral subjective somatic tinnitus, isolating cross-modal electrophysiological relationships using an intra-subject, internally controlled paradigm. Twenty-four participants (aged 17-61 years) with unilateral subjective somatic tinnitus and symmetric normal hearing thresholds (≤15 dB HL across 0.125-8 kHz) underwent auditory brainstem response (ABR), cervical vestibular evoked myogenic potential (cVEMP), and ocular VEMP (oVEMP) testing. Mathematically normalized Interaural Asymmetry Indices (AI) isolated side-specific neural imbalances. Conventional audiological profiles, middle ear compliance, and absolute ABR parameters (waves I-V) displayed interaural symmetry (p > .05). Conversely, absolute oVEMP evaluations demonstrated a statistically significant reduction in P1-N1 peak-to-peak amplitudes within the tinnitus-affected ears (M = 4.23 µV, SD = 2.98) relative to the healthy contralateral ears (M = 5.76 µV, SD = 4.72, p = .014), while absolute cVEMP parameters remained balanced (p = .396). Correlation analysis of normalized indices revealed a strong positive relationship between cVEMP AI and ABR wave V AI (r(22) = .555, p = .005). Multiple linear regression modeling showed that combined vestibulocollic (cVEMP) and vestibulo-ocular (oVEMP) neural asymmetries significantly predicted upper-brainstem auditory asymmetry at the level of the inferior colliculus, F(2, 21) = 8.66, p = .002, accounting for 45.2% of the variance in ABR wave V asymmetry (R2 = .452). Tinnitus chronicity showed an exploratory positive correlation with cVEMP AI (r(22) = .456, unadjusted p = .025; did not survive FDR correction). Unilateral subjective somatic tinnitus appears to involve tract-specific subcortical electrophysiological asymmetries. We discuss these side-specific differences within a chronological reorganization framework. While acute ascending vestibulo-ocular suppression marks the initial gating failure, a progressively deepening descending vestibulocollic imbalance is strongly associated with upper auditory brainstem asymmetry. These outcomes validate combined VEMP indices as objective biomarkers and provide a neurophysiological rationale for future interventional trials to test whether early targeted bimodal neuromodulation can effectively reset subcortical hyperactivity before persistent neuroplastic consolidation.",
-      "last_author_affiliation": "Department of Audiology, Hacettepe University Faculty of Health Sciences, 06100 Sıhhiye, Ankara, Turkey.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "auditory physiology",
-        "clinical audiology"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-08-10",
-      "first_seen_at": "2026-08-11T03:56:31Z",
-      "ai_analysis": {
-        "scientific_question": "在正常听力单侧主观躯体性耳鸣患者中，前庭通路与皮层下听觉通路的跨模态电生理关系如何变化？",
-        "key_highlight": "结合前庭-颈反射和前庭-眼反射的神经不对称指数可显著预测下丘水平的上部脑干听觉不对称，解释了该变异量的45.2%。",
-        "main_limitation": "样本量较小（24例）且年龄范围跨度较大（17-61岁），部分探索性相关分析（如耳鸣慢性化与cVEMP不对称指数）未通过FDR校正。",
-        "research_implication": "研究验证了联合VEMP指标可作为客观生物标志物，为未来探索早期双模态神经调控干预以逆转皮层下高活动的介入性试验提供了神经生理学依据。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "af8f62b7ca1b5653",
-        "updated_at": "2026-08-22T03:10:40Z"
-      }
     },
     {
       "title": "Corrigendum to “Dynamics of Intra- and Inter-Regional Activities of the Auditory ‘Where’ Pathway during Sound Localization: An fMRI Study” [Hearing Research 477 (2026) 109650]",
@@ -202,16 +127,6 @@
       "doi": "10.1016/j.heares.2026.109773",
       "url": "https://doi.org/10.1016/j.heares.2026.109773",
       "abstract": "Speech-in-noise performance varies among individuals with similar hearing sensitivity. Such variability may manifest as varying cortical representations of speech in noise, which may stem from peripheral sensory fidelity and the efficacy of top-down attention. The present study examined how subcortical speech-syllable encoding and lexical attention shape cortical speech-in-noise representation, as measured by neural signal-to-noise ratio (SNR) based on the amplitude ratio of auditory-evoked responses to the target speech onset and the noise onset. The result indicated that neural SNR significantly correlated with behavioral speech-in-noise performance in the moderate-difficulty acoustic condition. The regression model showed that subcortical syllable encoding fidelity and lexical attentional performance independently predicted the neural SNR, suggesting converging contributions from both bottom-up sensory encoding and top-down attention. In addition, syllable encoding, lexical attention, and neural SNR collectively accounted for individual variability in behavioral performance, indicating a shared, partially overlapped contribution from sensory, attentional, and cortical measures to behavioral speech-in-noise perception. Our findings highlight that individual neural SNR serves as a behaviorally relevant cortical speech-in-noise representation reflecting both sensory and attentional mechanisms.",
-      "last_author_affiliation": "Department of Communication Sciences and Disorders, Montclair State University, Montclair, NJ, USA.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "speech perception"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-08-08",
-      "first_seen_at": "2026-08-09T03:54:29Z",
       "ai_analysis": {
         "scientific_question": "探究子皮层语音音节编码和词汇注意如何影响噪声下皮层语音表征的神经信号，及其与行为言语识别表现的关系。",
         "key_highlight": "回归模型显示子皮层音节编码保真度和词汇注意成绩均能独立预测神经信噪比，且两者共同解释了噪声下言语感知表现的个体差异。",
@@ -223,7 +138,17 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "9751e31982406fd2",
         "updated_at": "2026-08-22T03:10:49Z"
-      }
+      },
+      "last_author_affiliation": "Department of Communication Sciences and Disorders, Montclair State University, Montclair, NJ, USA.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "speech perception"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-08",
+      "first_seen_at": "2026-08-09T03:54:29Z"
     },
     {
       "title": "Early maladaptive schemas and misophonia: Incremental contributions beyond personality traits and general psychopathology",
@@ -428,43 +353,6 @@
       "first_seen_at": "2026-07-13T05:49:52Z"
     },
     {
-      "title": "Hyperacusis scores and listening characteristics: Extended high-frequency audiograms from a young population without tinnitus and with low noise exposure",
-      "authors": [
-        "Leny Vinceslas",
-        "Vit Drga",
-        "Jesko Verhey",
-        "Ifat Yasin"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109766",
-      "url": "https://doi.org/10.1016/j.heares.2026.109766",
-      "abstract": "Hyperacusis describes the condition in which mid-level sounds are perceived as uncomfortably loud. This study assessed 36 listeners (mean age = 25.75 years) with low noise-exposure history (Noise Exposure Structured Interview, NESI) and no tinnitus, to investigate the association between assessed hyperacusis scores (Hyperacusis Questionnaire, HQ), measured uncomfortable loudness levels (ULLs), and speech intelligibility in noise (Matrix Speech test). Thresholds were ≤ 20 dB HL, for the standard audiometric signal frequencies (0.25-8 kHz). ULLs were measured for signal frequencies of 0.5-, 2-, and 4-kHz. Extended high-frequency (EHF) audiometric thresholds were also measured for signal frequencies up to 16 kHz. Cluster analysis identified three groups based on EHF audiometric threshold and slope. The cluster EHF thresholds for the three groups were 5.2 dB HL (LOW-hf), 18.3 dB HL (MED-hf), and 45.7 dB HL (HIGH-hf). Results indicated that the MED-hf group exhibited significantly higher HQ scores compared to the HQ scores associated with LOW-hf and HIGH-hf groups. Also, elevated EHF thresholds were generally unrelated to speech-in-noise intelligibility scores, and there was no significant relationship between HQ and NESI scores. For young listeners with relatively low noise exposure, normal or mildly-elevated EHF thresholds (8-16 kHz) may be associated with mid-range HQ scores.",
-      "last_author_affiliation": "Department of Computer Science, University College London, London, UK.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "clinical audiology"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-08-12",
-      "first_seen_at": "2026-08-13T04:22:23Z",
-      "ai_analysis": {
-        "scientific_question": "研究年轻、低噪音暴露且无耳鸣的群体中，超敏反应评分与扩展高频听力阈值及其与不适响度水平和噪声下言语识别之间的关联。",
-        "key_highlight": "中等扩展高频阈值组表现出显著更高的超敏反应问卷评分，而扩展高频阈值升高与噪声下言语识别能力无关。",
-        "main_limitation": "样本为36名符合特定标准的年轻受试者（低噪音暴露、无耳鸣），限制了研究结果的普遍适用性。",
-        "research_implication": "研究提示在年轻群体中扩展高频听力变化可能与超敏反应存在关联，对临床听力学评估和听觉敏感度机制研究具有参考意义。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "2a3a8b6b955c9715",
-        "updated_at": "2026-08-22T03:11:00Z"
-      }
-    },
-    {
       "title": "Implicit auditory sensory memory and short–term memory for musical and verbal stimuli in children with cochlear implants",
       "authors": [
         "Ahmet Alperen Akbulut",
@@ -549,14 +437,6 @@
       "doi": "10.1016/j.heares.2026.109771",
       "url": "https://doi.org/10.1016/j.heares.2026.109771",
       "abstract": "The perception of vocal emotions requires efficient and flexible processing of auditory input. A hallmark of this flexibility is perceptual adaptation, which enables listeners to tune into the current auditory context (e.g., angry voices), thus sensitizing the system to sudden changes (e.g., a shift to fear). However, how vocal emotion adaptation is modulated by either stable speaker characteristics such as gender and identity, or dynamic cues such as phonetic content is insufficiently understood. This gap was addressed in three experiments using a paradigm inducing simultaneous opposite aftereffects: during adaptation, emotions were systematically tied to a voice feature to test if adaptation aftereffects could be induced in opposite directions along a fear-anger continuum. For example, after adaptation to angry-male and fearful-female voices, male targets should be more often perceived as fearful and female ones more often as angry. Based on theoretical considerations, such simultaneous opposite aftereffects were predicted for speaker gender (Experiment1) and identity (Experiment 2) but should not appear for phonetic pseudoword content (Experiment 3). Indeed, the expected pattern was observed for speaker gender and pseudoword. Evidence for speaker identity was not fully conclusive but offered promising hints that listeners may exhibit nuanced adaptation to different speakers as well. Together, these findings show that vocal emotion adaptation is partially fine-tuned to stable speaker characteristics, whereas this does not seem to be case for dynamic phonetic content. This provides important empirical support for recent calls that a comprehensive understanding of vocal emotional processing requires a closer look at the speakers expressing them.",
-      "last_author_affiliation": "Department for General Psychology and Cognitive Neuroscience, Friedrich Schiller University Jena, Germany; Voice Research Unit, Friedrich Schiller University, Jena, Germany. Electronic address: christine.nussbaum@uni-jena.de.",
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-08",
-      "first_seen_at": "2026-08-09T03:54:29Z",
       "ai_analysis": {
         "scientific_question": "嗓音情绪适应是否受到说话者稳定特征（性别、身份）与动态线索（语音内容）的不同调节？",
         "key_highlight": "同时性反向后效在说话者性别条件下出现，但在语音伪词内容条件下未出现，表明嗓音情绪适应部分依赖于稳定的说话者特征而非动态语音线索。",
@@ -568,7 +448,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "ea9e30c77dc17211",
         "updated_at": "2026-08-22T03:11:08Z"
-      }
+      },
+      "last_author_affiliation": "Department for General Psychology and Cognitive Neuroscience, Friedrich Schiller University Jena, Germany; Voice Research Unit, Friedrich Schiller University, Jena, Germany. Electronic address: christine.nussbaum@uni-jena.de.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-08",
+      "first_seen_at": "2026-08-09T03:54:29Z"
     },
     {
       "title": "Near-field recordings expose the limits of far-field measures of peripheral vestibular nerve activity: implications for experimental controls",
@@ -673,7 +561,19 @@
       ],
       "source": "crossref",
       "available_online_date": "2026-08-06",
-      "first_seen_at": "2026-08-07T04:33:41Z"
+      "first_seen_at": "2026-08-07T04:33:41Z",
+      "ai_analysis": {
+        "scientific_question": "研究年龄相关性听力损失与认知表现之间关联的行为机制，特别关注语音工作记忆是否在其中起中介作用。",
+        "key_highlight": "非词复述任务与听力敏感度和整体认知表现均独立相关，且部分中介了听力敏感度与认知表现之间的关联。",
+        "main_limitation": "横断面研究设计限制了因果关系推断，且样本年龄范围相对集中（55-80岁），外推性受限。",
+        "research_implication": "研究结果提示听觉输入质量对语音处理有约束作用，提示改善听觉输入可能通过提升语音工作记忆间接支持认知功能。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "e9ba360346101563",
+        "updated_at": "2026-08-23T03:18:19Z"
+      }
     },
     {
       "title": "Relationships between ECAP amplitude growth functions and perceptual growth in cochlear implant users: Implications for individualized cochlear implant fitting",
@@ -717,42 +617,6 @@
       "first_seen_at": "2026-08-08T03:45:40Z"
     },
     {
-      "title": "Role of harmonicity in counting and hearing out voices in polyphonic music: Effects of hearing loss",
-      "authors": [
-        "Lisanne G. Bogaard",
-        "Juraj Mesik",
-        "Andrew J. Oxenham"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109775",
-      "url": "https://doi.org/10.1016/j.heares.2026.109775",
-      "abstract": "Music plays an important role in many people's lives. While the effects of hearing loss on speech are well studied, its impact on music perception is less understood. To address this gap, the current study utilized polyphonic female vocal passages in an enumeration and a voice-tracking task to investigate how normal-hearing (NH) and hearing-impaired (HI) listeners with mild to moderate sensorineural hearing loss perceive individual voices in polyphonic music. We hypothesized that hearing loss would hinder listeners' ability to distinguish voices in music due to impaired frequency selectivity, but that inharmonicity, introduced separately into each voice, would impact HI listeners less, due to their potentially reduced sensitivity to inharmonicity and pitch. Results indicated that NH listeners outperformed HI listeners in the enumeration task, but that performance in the voice-tracking task was not significantly different between groups. Although inharmonicity degraded performance across tasks, particularly in the enumeration task, HI listeners were less affected than NH listeners, at least at higher voice numbers. Exploratory analyses showed modest influences of age and musicianship on HI listeners' performance in the enumeration task and provide promising avenues for future research. Overall, these findings point toward a task-dependent effect of hearing loss on music perception, impacting dense auditory scenes more severely, while leaving some ability to track a cued voice within polyphonic music. Taken together, these results may help inform future research exploring targeted interventions to support music listening for HI listeners.",
-      "ai_analysis": {
-        "scientific_question": "听力损失如何影响听障者在复调音乐中感知和区分个别嗓音的能力？",
-        "key_highlight": "正常听力者在计数任务中表现优于听障者，但在嗓音追踪任务中两组表现无显著差异，且听障者受不协和性的影响小于正常听力者，表明听力损失对音乐感知的影响具有任务依赖性。",
-        "main_limitation": "样本仅包含轻度至中度感音神经性听力损失者，且探索性分析显示年龄和音乐训练等因素存在适度影响，研究结论向更严重听力损失或其他人群的推广受限。",
-        "research_implication": "研究结果可为开发针对听障者音乐聆听支持的干预措施提供参考，对助听器算法优化及听觉康复训练研究具有潜在应用价值。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "741ecd24f3fe2a17",
-        "updated_at": "2026-08-18T03:13:29Z"
-      },
-      "last_author_affiliation": "Department of Psychology, University of Minnesota, USA.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "clinical audiology"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-08-11",
-      "first_seen_at": "2026-08-12T04:18:51Z"
-    },
-    {
       "title": "The decline of progranulin expression in cochlear Microglia-Like Cells accelerates the progression of age-related hearing loss",
       "authors": [
         "Qi Li",
@@ -780,7 +644,19 @@
       ],
       "source": "crossref",
       "available_online_date": "2026-08-06",
-      "first_seen_at": "2026-08-07T04:33:41Z"
+      "first_seen_at": "2026-08-07T04:33:41Z",
+      "ai_analysis": {
+        "scientific_question": "小胶质细胞样细胞（MLCs）的激活如何参与年龄相关性听力损失（ARHL）的发生，以及颗粒蛋白前体（GRN）在此过程中发挥怎样的调控作用？",
+        "key_highlight": "通过 AAV 介导的基因过表达技术上调 MLCs 中 GRN 的表达，可减轻耳蜗氧化应激损伤，从而延缓小鼠 ARHL 的进展。",
+        "main_limitation": "Limited generalizability due to small or specific sample",
+        "research_implication": "该研究为靶向调控耳蜗免疫微环境干预 ARHL 提供了潜在的治疗策略，但对人类听力损失的临床转化仍需进一步验证。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "ccaf3c550461f163",
+        "updated_at": "2026-08-23T03:18:33Z"
+      }
     },
     {
       "title": "The mismatch negativity emergence with auditory pattern segmentation: A revisit of the paradigm by Sussman and Gumenyuk (2005)",
@@ -2048,6 +1924,7 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0043885",
       "url": "https://doi.org/10.1121/10.0043885",
+      "full_text_url": "https://pubs.aip.org/jasa/article/160/2/1698/3402826/A-hybrid-framework-for-efficient-real-time-ocean",
       "abstract": "Accurate and computationally efficient real-time simulation of ocean ambient noise is essential for the design and evaluation of modern underwater acoustic systems, particularly dynamic arrays used in adaptive sampling. This paper presents a hybrid ocean noise modeling architecture that combines high-fidelity wavenumber integral modeling with efficient Bessel-based covariance computation to generate calibrated element-level time series. Slowly varying vertical noise directionality is obtained from the Kuperman–Ingenito surface-generated noise model or from at-sea measurements and is updated infrequently. Hydrophone and vector sensor covariance matrices are then evaluated within a unified pressure-gradient-based framework for directional plane-wave fields, three-dimensional isotropic noise, azimuthally symmetric isotropic noise, and Kuperman–Ingenito surface-generated ocean noise, with the latter represented in both normal mode and wavenumber integral form. Element-level time series are synthesized using Cholesky decomposition, frequency- and time-dependent scaling, and inverse fast Fourier transforms. By separating computationally intensive directionality estimation from efficient covariance updates for evolving array geometry and orientation, the framework enables high-fidelity real-time ambient noise simulation for dynamic arrays.",
       "first_author_affiliation": "Massachusetts Institute of Technology , Cambridge, Massachusetts 02139,",
       "last_author_affiliation": "Massachusetts Institute of Technology , Cambridge, Massachusetts 02139,",
@@ -2055,15 +1932,26 @@
       "open_access_url": "https://doi.org/10.1121/10.0043885",
       "open_access_source": "crossref_license",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-08-22T03:10:09Z",
+      "media_checked_at": "2026-08-22T03:10:09Z",
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
       "available_online_date": "2026-08-21",
       "first_seen_at": "2026-08-22T03:09:46Z",
-      "full_text_url": "https://pubs.aip.org/jasa/article/160/2/1698/3402826/A-hybrid-framework-for-efficient-real-time-ocean",
-      "media_checked_at": "2026-08-22T03:10:09Z",
-      "open_access_image_checked_at": "2026-08-22T03:10:09Z"
+      "ai_analysis": {
+        "scientific_question": "如何实现动态水下声阵列的高保真实时海洋环境噪声模拟？",
+        "key_highlight": "该混合框架通过将高保真波数积分建模与高效的贝塞尔协方差计算相结合，实现了动态阵列的高保真实时环境噪声模拟。",
+        "main_limitation": "Limited generalizability due to small or specific sample",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "cd5f888bd0e4a534",
+        "updated_at": "2026-08-23T03:18:40Z"
+      }
     },
     {
       "title": "Analyzing seasonally and wind-dependent performance of rain detection from underwater acoustic power spectral density",
@@ -2077,6 +1965,7 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0044258",
       "url": "https://doi.org/10.1121/10.0044258",
+      "full_text_url": "https://pubs.aip.org/jasa/article/160/2/1718/3402837/Analyzing-seasonally-and-wind-dependent",
       "abstract": "Rainfall can be empirically monitored by analyzing characteristic spectral features in the ocean's ambient sound. Previous work to detect and estimate rainfall from passive underwater acoustics used linear transformations of these features; Ma and Nystuen [J. Atmos. Oceanic Technol. 22, 1225–1248 (2005)] measured acoustic power at three narrowband frequencies, extended by Mallary, Berg, Buck, and Tandon [J. Acoust. Soc. Am. 154(1), 556–570 (2023)] and Berg [Master's thesis (2023)] to principal component analysis (PCA). PCA represents broadband spectra with small numbers of linear coefficients [Hotelling, J. Educ. Psychol. 24(6), 417–441 (1933)]. This research extends the PCA broadband approach to design detectors by rain, wind, and season to finely tune subspaces for each class. Five-minute power spectral density (PSDs) are computed using Welch's method and are separated into dry (<1 mm/hr) and rainy (≥1 mm/hr) recordings for each season and wind category. A linear dimension reduction matrix is defined for the dry PSDs of each season and wind category while preserving >99% of variance. Rainfall can then be detected using a likelihood ratio test of PSDs for each class. At a shallow-water site, separation of detectors by season and wind improves detection performance from 44.7% of rainfall volume to 55.1% (64.7% with false alarm filtering) with 1% false alarms. Accounting for wind and season may improve monitoring of natural processes such as rainfall from underwater acoustic recordings.",
       "first_author_affiliation": "Department of Electrical and Computer Engineering, University of Massachusetts Dartmouth, North Dartmouth 1 , Massachusetts 02747,",
       "last_author_affiliation": "School of Marine Science and Technology, University of Massachusetts 2 Dartmouth, New Bedford, Massachusetts 02744,",
@@ -2084,15 +1973,26 @@
       "open_access_url": "https://doi.org/10.1121/10.0044258",
       "open_access_source": "crossref_license",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-08-22T03:10:09Z",
+      "media_checked_at": "2026-08-22T03:10:09Z",
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
       "available_online_date": "2026-08-21",
       "first_seen_at": "2026-08-22T03:09:46Z",
-      "full_text_url": "https://pubs.aip.org/jasa/article/160/2/1718/3402837/Analyzing-seasonally-and-wind-dependent",
-      "media_checked_at": "2026-08-22T03:10:09Z",
-      "open_access_image_checked_at": "2026-08-22T03:10:09Z"
+      "ai_analysis": {
+        "scientific_question": "如何利用水下声功率谱密度分析季节和风力依赖性来提高降雨检测性能？",
+        "key_highlight": "通过按季节和风力分类设计检测器，降雨体积检测率从不区分条件下的44.7%提升至55.1%（过滤误报后达64.7%）。",
+        "main_limitation": "研究仅在单一浅水地点进行，结果的普适性受限。",
+        "research_implication": "属于海洋声学与环境监测研究范畴，与助听器、人工耳蜗或言语感知研究无直接关联。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "0d6fa6b344e6647b",
+        "updated_at": "2026-08-23T03:18:48Z"
+      }
     },
     {
       "title": "Listening Effort in Complex Audiovisual Scenes Under Varying Simulated Room Acoustic Conditions",
@@ -2110,6 +2010,7 @@
       "publication_date_precision": "day",
       "doi": "10.1177/23312165261468224",
       "url": "https://doi.org/10.1177/23312165261468224",
+      "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261468224",
       "abstract": "Reverberation can degrade speech intelligibility and comprehension, increase cognitive load, and impair memory. Many studies examining reverberation effects use audio-only conditions and stationary background noise. Thus, it remains unclear to what extent findings generalise beyond laboratory setups. In the present study, we examine the influence of reverberation on memory and behavioural listening effort in a complex, audiovisual virtual reality (VR) environment. We implemented a virtual reality (VR) open-plan office with realistic room acoustics and time-varying background noise, including animated virtual agents. Three simulated room-acoustic conditions were compared: a free-field ( T 30 = 0 s), an acoustically optimised office ( T 30 = 0.5 s), and an untreated office ( T 30 = 1.0 s). Under these conditions, N = 30 participants performed a dual-task. The primary Heard-Text Recall (HTR) task measured speech comprehension and memory. Participants listened to short stories narrated by two speakers and answered content-related questions. The vibrotactile secondary task measured listening effort. In single-tasking, memory for spoken content was significantly better in free-field than in both offices, with no significant difference between offices. In dual-tasking, vibrotactile response times indicated that listening effort increased in the presence of reverberation. Across single- and dual-task conditions, vibrotactile error rates decreased in the presence of reverberation, possibly due to elevated concentration in more difficult conditions. These findings suggest that room acoustics, compared to free-field environments, influence memory and listening effort in complex audiovisual VR and highlight the importance of incorporating reverberations when designing audiovisual environments for listening research.",
       "first_author_affiliation": "RWTH Aachen University",
       "last_author_affiliation": "RWTH Aachen University",
@@ -2117,6 +2018,8 @@
       "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261468224",
       "open_access_source": "crossref_license",
       "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "open_access_image_checked_at": "2026-08-22T03:10:09Z",
+      "media_checked_at": "2026-08-22T03:10:09Z",
       "section": "Speech Communication",
       "keywords": [],
       "tags": [
@@ -2126,9 +2029,18 @@
       "source": "crossref",
       "available_online_date": "2026-08-21",
       "first_seen_at": "2026-08-22T03:09:47Z",
-      "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261468224",
-      "media_checked_at": "2026-08-22T03:10:09Z",
-      "open_access_image_checked_at": "2026-08-22T03:10:09Z"
+      "ai_analysis": {
+        "scientific_question": "混响如何在复杂视听虚拟现实环境中影响记忆和聆听努力？",
+        "key_highlight": "在VR办公环境中，混响相比自由场条件会损害记忆并增加聆听努力，且这种影响在单任务和双任务条件下均可见。",
+        "main_limitation": "样本量较小（N=30）且使用模拟虚拟现实环境，可能无法完全推广至真实办公场景。",
+        "research_implication": "研究强调了混响对聆听努力的实质性影响，对助听器算法优化和真实环境语音感知研究具有参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "95eeb7a403976124",
+        "updated_at": "2026-08-23T03:18:59Z"
+      }
     },
     {
       "title": "Rotating dipole sources localization based on mode composition beamforming",
@@ -2153,7 +2065,19 @@
       ],
       "source": "crossref",
       "available_online_date": "2026-08-21",
-      "first_seen_at": "2026-08-22T03:09:46Z"
+      "first_seen_at": "2026-08-22T03:09:46Z",
+      "ai_analysis": {
+        "scientific_question": "如何准确地在宽频带、高转速条件下对未知方向的旋转偶极子声源进行定位，同时避免单极子旋转波束成形产生的伪影？",
+        "key_highlight": "该方法通过结合三个正交偶极子分量并利用快速傅里叶变换计算模态传递函数，有效消除了单极子旋转波束成形中的伪影。",
+        "main_limitation": "实验验证仅基于旋转螺旋桨案例，其在实际复杂声学环境中的适用性尚需进一步验证。",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "347fd37ce2fc4573",
+        "updated_at": "2026-08-23T03:19:12Z"
+      }
     },
     {
       "title": "The speed-dependent underwater source level of a snowmobile traveling on sea ice",
@@ -2198,6 +2122,7 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0044898",
       "url": "https://doi.org/10.1121/10.0044898",
+      "full_text_url": "https://pubs.aip.org/jasa/article/160/2/1733/3402825/Vocal-tract-configuration-and-acoustic-transfer",
       "abstract": "Nonlinear phenomenon common in extreme and traditional singing involves often coupled oscillations of glottal and supraglottic structures. Four such phonatory mechanisms—undertone, distortion, growl, and rattle—differ in supraglottic involvement and frequency ratio between glottal and supraglottic oscillators. However, the contribution of vocal tract (VT) configurations remains insufficiently understood. Using static three-dimensional magnetic resonance imaging and acoustic analysis, we investigated VT shaping in a professional singer. The VT was used to calculate volume–velocity transfer functions and was segmented into seven sub-volumes for geometric analysis. Acoustic recordings provided fundamental frequencies and pitches. Undertone and distortion showed the most speech-like configurations, with ventricular and epilaryngeal volumes largely unaffected by the laryngeal elevation. Growl involved laryngeal lowering and tongue retraction, facilitating epiglottic–arytenoid approximation. Rattle exhibited increased pharyngeal constriction. Growl showed clustering of resonance peaks around 2000–4000 Hz (singer's formant region), and high rattle showed alignment of twice the pitch with the first resonance frequency, suggesting an enhanced source–filter interaction. For this singer, the VT configuration differed systematically across the four phonatory mechanisms. These hypothesis-generating observations underline the potential role of VT configuration of nonlinearities in phonation and motivate larger studies relevant to voice pedagogy and clinical practice involving supraglottic sound production.",
       "first_author_affiliation": "Institute of Musicians' Medicine, Medical Center, University of Freiburg 1 , Freiburg,",
       "last_author_affiliation": "Department of Audiology and Phoniatrics, Charité – Universitätsmedizin Berlin, Corporate Member of Freie Universität Berlin and Humboldt-Universität zu Berlin 6 , Berlin,",
@@ -2205,6 +2130,8 @@
       "open_access_url": "https://doi.org/10.1121/10.0044898",
       "open_access_source": "crossref_license",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-08-22T03:10:09Z",
+      "media_checked_at": "2026-08-22T03:10:09Z",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [],
       "tags": [
@@ -2214,10 +2141,7 @@
       ],
       "source": "crossref",
       "available_online_date": "2026-08-21",
-      "first_seen_at": "2026-08-22T03:09:46Z",
-      "full_text_url": "https://pubs.aip.org/jasa/article/160/2/1733/3402825/Vocal-tract-configuration-and-acoustic-transfer",
-      "media_checked_at": "2026-08-22T03:10:09Z",
-      "open_access_image_checked_at": "2026-08-22T03:10:09Z"
+      "first_seen_at": "2026-08-22T03:09:46Z"
     },
     {
       "title": "Compressional wave attenuation inversion in the New England Mud Patch",
@@ -2668,6 +2592,52 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-08-19",
       "first_seen_at": "2026-08-20T03:12:29Z"
+    },
+    {
+      "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
+      "authors": [
+        "Andrew J. Kolarik",
+        "Anna Koblitz",
+        "Brian C.J. Moore",
+        "Ian van der Linde",
+        "William Campbell",
+        "Shahina Pardhan"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-08-18",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109777",
+      "url": "https://doi.org/10.1016/j.heares.2026.109777",
+      "abstract": "Previous research has demonstrated a robust asymmetry in loudness judgements for rising and falling level tone stimuli, showing greater loudness and loudness change for rising sounds. In the literature, this has been interpreted to reflect an adaptive perceptual bias, resulting from an evolutionary advantage that increases the margin of safety when reacting to an approaching sound-producing object. The current experiment tested whether a loudness model was able to predict asymmetries in loudness-change judgments for rising and falling sounds, providing an alternative explanation to the adaptive perceptual bias theory. Blindfolded participants were presented with 1-kHz tones that increased or decreased in level by 15 dB, with different ranges of presentation levels (60/75, 65/80, 70/85, 75/90 dB). They were asked to report how much each sound changed in loudness, either verbally or using a tactile slider. Participants reported greater loudness changes for rising than falling tones for both response modes, the asymmetry increasing with increasing overall level. The results were accurately predicted by a loudness model, suggesting that an adaptive perceptual bias is not necessary to explain asymmetry in loudness-change estimates for rising and falling level sounds.",
+      "ai_analysis": {
+        "scientific_question": "响度模型是否能预测升/降强度声音在响度变化判断中的不对称性，从而替代适应性感知偏倚理论解释该现象",
+        "key_highlight": "响度模型能够准确预测升/降音在响度变化估计中的不对称性，表明适应性感知偏倚并非解释该现象的必要条件",
+        "main_limitation": "实验采用单一的1 kHz纯音和固定的15 dB变化幅度，其结果向更复杂声学条件或实际环境的推广性有限",
+        "research_implication": "该模型为理解时变声音的响度感知提供了计算框架，其成果或可为助听器动态范围压缩算法及语音呈现策略的设计提供参考",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "e495d247b5b4b3cf",
+        "updated_at": "2026-08-22T03:10:24Z"
+      },
+      "last_author_affiliation": "Vision and Eye Research Institute (VERI), School of Medicine, Anglia Ruskin University, Cambridge, United Kingdom.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Auditory motion",
+        "Depth",
+        "Distance perception",
+        "Sound localization",
+        "Spatial hearing"
+      ],
+      "tags": [
+        "psychoacoustics",
+        "real-world listening"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-18",
+      "first_seen_at": "2026-08-21T03:18:19Z"
     },
     {
       "title": "DNN-Based Frequency-Dependent Estimation of Speech, Music, and Noise Power in Acoustic Mixtures for Hearing-Aid Scene Analysis",
@@ -3847,6 +3817,52 @@
       "first_seen_at": "2026-08-13T04:22:12Z"
     },
     {
+      "title": "Hyperacusis scores and listening characteristics: Extended high-frequency audiograms from a young population without tinnitus and with low noise exposure",
+      "authors": [
+        "Leny Vinceslas",
+        "Vit Drga",
+        "Jesko Verhey",
+        "Ifat Yasin"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-08-12",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109766",
+      "url": "https://doi.org/10.1016/j.heares.2026.109766",
+      "abstract": "Hyperacusis describes the condition in which mid-level sounds are perceived as uncomfortably loud. This study assessed 36 listeners (mean age = 25.75 years) with low noise-exposure history (Noise Exposure Structured Interview, NESI) and no tinnitus, to investigate the association between assessed hyperacusis scores (Hyperacusis Questionnaire, HQ), measured uncomfortable loudness levels (ULLs), and speech intelligibility in noise (Matrix Speech test). Thresholds were ≤ 20 dB HL, for the standard audiometric signal frequencies (0.25-8 kHz). ULLs were measured for signal frequencies of 0.5-, 2-, and 4-kHz. Extended high-frequency (EHF) audiometric thresholds were also measured for signal frequencies up to 16 kHz. Cluster analysis identified three groups based on EHF audiometric threshold and slope. The cluster EHF thresholds for the three groups were 5.2 dB HL (LOW-hf), 18.3 dB HL (MED-hf), and 45.7 dB HL (HIGH-hf). Results indicated that the MED-hf group exhibited significantly higher HQ scores compared to the HQ scores associated with LOW-hf and HIGH-hf groups. Also, elevated EHF thresholds were generally unrelated to speech-in-noise intelligibility scores, and there was no significant relationship between HQ and NESI scores. For young listeners with relatively low noise exposure, normal or mildly-elevated EHF thresholds (8-16 kHz) may be associated with mid-range HQ scores.",
+      "ai_analysis": {
+        "scientific_question": "研究年轻、低噪音暴露且无耳鸣的群体中，超敏反应评分与扩展高频听力阈值及其与不适响度水平和噪声下言语识别之间的关联。",
+        "key_highlight": "中等扩展高频阈值组表现出显著更高的超敏反应问卷评分，而扩展高频阈值升高与噪声下言语识别能力无关。",
+        "main_limitation": "样本为36名符合特定标准的年轻受试者（低噪音暴露、无耳鸣），限制了研究结果的普遍适用性。",
+        "research_implication": "研究提示在年轻群体中扩展高频听力变化可能与超敏反应存在关联，对临床听力学评估和听觉敏感度机制研究具有参考意义。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "2a3a8b6b955c9715",
+        "updated_at": "2026-08-22T03:11:00Z"
+      },
+      "last_author_affiliation": "Department of Computer Science, University College London, London, UK.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Extended high-frequency audiometry",
+        "Hyperacusis",
+        "Noise exposure",
+        "Speech intelligibility",
+        "Uncomfortable loudness levels",
+        "Young population"
+      ],
+      "tags": [
+        "clinical audiology",
+        "psychoacoustics",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-12",
+      "first_seen_at": "2026-08-13T04:22:23Z"
+    },
+    {
       "title": "Impacts of Kv3.1 Channels on Action Potentials in Fusiform Neurons From the Dorsal Cochlear Nucleus of Mice Before and After Hearing Onset",
       "authors": [
         "Mario Henrique Lopes Duarte de Oliveira",
@@ -4453,6 +4469,49 @@
       "first_seen_at": "2026-08-12T04:18:43Z"
     },
     {
+      "title": "Role of harmonicity in counting and hearing out voices in polyphonic music: Effects of hearing loss",
+      "authors": [
+        "Lisanne G. Bogaard",
+        "Juraj Mesik",
+        "Andrew J. Oxenham"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-08-11",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109775",
+      "url": "https://doi.org/10.1016/j.heares.2026.109775",
+      "abstract": "Music plays an important role in many people's lives. While the effects of hearing loss on speech are well studied, its impact on music perception is less understood. To address this gap, the current study utilized polyphonic female vocal passages in an enumeration and a voice-tracking task to investigate how normal-hearing (NH) and hearing-impaired (HI) listeners with mild to moderate sensorineural hearing loss perceive individual voices in polyphonic music. We hypothesized that hearing loss would hinder listeners' ability to distinguish voices in music due to impaired frequency selectivity, but that inharmonicity, introduced separately into each voice, would impact HI listeners less, due to their potentially reduced sensitivity to inharmonicity and pitch. Results indicated that NH listeners outperformed HI listeners in the enumeration task, but that performance in the voice-tracking task was not significantly different between groups. Although inharmonicity degraded performance across tasks, particularly in the enumeration task, HI listeners were less affected than NH listeners, at least at higher voice numbers. Exploratory analyses showed modest influences of age and musicianship on HI listeners' performance in the enumeration task and provide promising avenues for future research. Overall, these findings point toward a task-dependent effect of hearing loss on music perception, impacting dense auditory scenes more severely, while leaving some ability to track a cued voice within polyphonic music. Taken together, these results may help inform future research exploring targeted interventions to support music listening for HI listeners.",
+      "ai_analysis": {
+        "scientific_question": "听力损失如何影响听障者在复调音乐中感知和区分个别嗓音的能力？",
+        "key_highlight": "正常听力者在计数任务中表现优于听障者，但在嗓音追踪任务中两组表现无显著差异，且听障者受不协和性的影响小于正常听力者，表明听力损失对音乐感知的影响具有任务依赖性。",
+        "main_limitation": "样本仅包含轻度至中度感音神经性听力损失者，且探索性分析显示年龄和音乐训练等因素存在适度影响，研究结论向更严重听力损失或其他人群的推广受限。",
+        "research_implication": "研究结果可为开发针对听障者音乐聆听支持的干预措施提供参考，对助听器算法优化及听觉康复训练研究具有潜在应用价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "741ecd24f3fe2a17",
+        "updated_at": "2026-08-18T03:13:29Z"
+      },
+      "last_author_affiliation": "Department of Psychology, University of Minnesota, USA.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Auditory streaming",
+        "Harmonicity",
+        "Hearing loss",
+        "Music perception",
+        "Pitch"
+      ],
+      "tags": [
+        "clinical audiology",
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-11",
+      "first_seen_at": "2026-08-12T04:18:51Z"
+    },
+    {
       "title": "SIX1 is required for adult cochlear sensory epithelium homeostasis and auditory function.",
       "authors": [
         "Xiaohui Ma",
@@ -4659,6 +4718,50 @@
       "source": "crossref",
       "available_online_date": "2026-08-10",
       "first_seen_at": "2026-08-11T03:56:19Z"
+    },
+    {
+      "title": "Asymmetry of vestibular pathways predicts upper-brainstem auditory imbalance in subjective somatosensory tinnitus: A tract-specific chronological reorganization model",
+      "authors": [
+        "Duygu Kurt",
+        "Eser Sendesen",
+        "Meral Didem Türkyılmaz"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-08-10",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109774",
+      "url": "https://doi.org/10.1016/j.heares.2026.109774",
+      "abstract": "This study evaluated subcortical auditory and peripheral vestibular pathway alterations in normal-hearing individuals with unilateral subjective somatic tinnitus, isolating cross-modal electrophysiological relationships using an intra-subject, internally controlled paradigm. Twenty-four participants (aged 17-61 years) with unilateral subjective somatic tinnitus and symmetric normal hearing thresholds (≤15 dB HL across 0.125-8 kHz) underwent auditory brainstem response (ABR), cervical vestibular evoked myogenic potential (cVEMP), and ocular VEMP (oVEMP) testing. Mathematically normalized Interaural Asymmetry Indices (AI) isolated side-specific neural imbalances. Conventional audiological profiles, middle ear compliance, and absolute ABR parameters (waves I-V) displayed interaural symmetry (p > .05). Conversely, absolute oVEMP evaluations demonstrated a statistically significant reduction in P1-N1 peak-to-peak amplitudes within the tinnitus-affected ears (M = 4.23 µV, SD = 2.98) relative to the healthy contralateral ears (M = 5.76 µV, SD = 4.72, p = .014), while absolute cVEMP parameters remained balanced (p = .396). Correlation analysis of normalized indices revealed a strong positive relationship between cVEMP AI and ABR wave V AI (r(22) = .555, p = .005). Multiple linear regression modeling showed that combined vestibulocollic (cVEMP) and vestibulo-ocular (oVEMP) neural asymmetries significantly predicted upper-brainstem auditory asymmetry at the level of the inferior colliculus, F(2, 21) = 8.66, p = .002, accounting for 45.2% of the variance in ABR wave V asymmetry (R2 = .452). Tinnitus chronicity showed an exploratory positive correlation with cVEMP AI (r(22) = .456, unadjusted p = .025; did not survive FDR correction). Unilateral subjective somatic tinnitus appears to involve tract-specific subcortical electrophysiological asymmetries. We discuss these side-specific differences within a chronological reorganization framework. While acute ascending vestibulo-ocular suppression marks the initial gating failure, a progressively deepening descending vestibulocollic imbalance is strongly associated with upper auditory brainstem asymmetry. These outcomes validate combined VEMP indices as objective biomarkers and provide a neurophysiological rationale for future interventional trials to test whether early targeted bimodal neuromodulation can effectively reset subcortical hyperactivity before persistent neuroplastic consolidation.",
+      "ai_analysis": {
+        "scientific_question": "在正常听力单侧主观躯体性耳鸣患者中，前庭通路与皮层下听觉通路的跨模态电生理关系如何变化？",
+        "key_highlight": "结合前庭-颈反射和前庭-眼反射的神经不对称指数可显著预测下丘水平的上部脑干听觉不对称，解释了该变异量的45.2%。",
+        "main_limitation": "样本量较小（24例）且年龄范围跨度较大（17-61岁），部分探索性相关分析（如耳鸣慢性化与cVEMP不对称指数）未通过FDR校正。",
+        "research_implication": "研究验证了联合VEMP指标可作为客观生物标志物，为未来探索早期双模态神经调控干预以逆转皮层下高活动的介入性试验提供了神经生理学依据。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "af8f62b7ca1b5653",
+        "updated_at": "2026-08-22T03:10:40Z"
+      },
+      "last_author_affiliation": "Department of Audiology, Hacettepe University Faculty of Health Sciences, 06100 Sıhhiye, Ankara, Turkey.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Asymmetry index",
+        "Auditory brainstem response (ABR)",
+        "Multisensory integration",
+        "Neuroplasticity",
+        "Subjective somatic tinnitus",
+        "Vestibular evoked myogenic potentials (VEMP)"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-10",
+      "first_seen_at": "2026-08-11T03:56:31Z"
     },
     {
       "title": "Both fast and slow speech can increase listening effort and impair speech comprehension in young listeners",
@@ -6092,22 +6195,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044504",
-      "url": "https://doi.org/10.1121/10.0044504",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:37Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -6120,6 +6207,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:36Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044504",
+      "url": "https://doi.org/10.1121/10.0044504",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:37Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -13667,17 +13770,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -13698,18 +13802,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -23558,22 +23661,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -23586,6 +23673,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -31259,23 +31362,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -31289,6 +31375,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -34782,8 +34885,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -34797,8 +34900,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -39962,8 +40065,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -39977,8 +40080,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
