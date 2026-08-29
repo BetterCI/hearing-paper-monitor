@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T14:24:41Z",
+  "generated_at": "2026-08-29T09:07:51Z",
   "papers": [
     {
       "title": "Biomarkers of Subjective Tinnitus Presence and Clinical Burden: A Systematic Review",
@@ -39,26 +39,39 @@
       "first_seen_at": "2026-08-08T03:45:40Z"
     },
     {
-      "title": "Evaluating perceptual evidence of cross-modal plasticity in older adults with hearing loss using an audio–visual word mismatch task",
+      "title": "Predicting performance on the digits-in-noise test in noise and reverberation using the speech transmission index",
       "authors": [
-        "Patricia V. Aguiar",
-        "Brandon T. Paul"
+        "Finn S. Holtrop",
+        "Daphne L. Geijsen",
+        "Filiep J. Vanpoucke",
+        "Cas Smits"
       ],
       "journal": "Hearing Research",
       "publication_date": "2026-11-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109779",
-      "url": "https://doi.org/10.1016/j.heares.2026.109779",
-      "abstract": null,
+      "doi": "10.1016/j.heares.2026.109776",
+      "url": "https://doi.org/10.1016/j.heares.2026.109776",
+      "abstract": "This study investigated the effects of noise and reverberation on recognition of Dutch digits-in-noise (DIN) test triplets. The findings demonstrate that the STIDIN, an adaptation to the standard speech transmission index (STI), provides a reliable, low‑error predictor of DIN test performance in conditions with noise and/or reverberation when only a single speech recognition threshold (SRT) measurement in noise is completed. To achieve this, twenty-four normal-hearing (NH) adults completed adaptive SRT measurements in noise-only, reverberation-only and combined noise and reverberation conditions using unprocessed (UP), low-pass filtered (LPF) and cochlear implant vocoded (CIvoc) speech materials. Standard STI values differed across conditions and overestimated the detrimental effect of reverberation on recognition. The STIDIN, derived from the magnitude cross power spectrum (mCPS) of reverberated DIN test triplets and unprocessed triplets, was applicable for T60 reverberation times up to 12 s. STIDIN values remained constant across conditions, showing no significant main effect of condition for any of the unprocessed and processed speech materials. The results show that when an SRTn measurement in noise-only is obtained using DIN test triplets (i.e., the clinical standard), the STIDIN can be used to predict the SRT in other listening conditions with noise and reverberation. The root‑mean‑square error between measured and predicted SRTs was 0.92 dB, and 95 % of predictions deviated <1.7 dB from the measured values in conditions with noise and/or reverberation.",
+      "last_author_affiliation": "Department of Otolaryngology - Head and Neck Surgery, Ear & Hearing, Amsterdam Public Health research institute, Amsterdam UMC, University of Amsterdam, Amsterdam, 1081 HV, The Netherlands. Electronic address: c.smits@amsterdamumc.nl.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [],
-      "tags": [
-        "clinical audiology"
-      ],
+      "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-08-18",
-      "first_seen_at": "2026-08-28T14:24:28Z"
+      "available_online_date": "2026-08-14",
+      "first_seen_at": "2026-08-15T03:07:29Z",
+      "ai_analysis": {
+        "scientific_question": "改进的语音传输指数（STIDIN）能否可靠预测_digits-in-noise_（DIN）测试在噪声、混响及两者组合条件下的言语识别阈值表现？",
+        "key_highlight": "STIDIN仅需一次噪声条件下的言语识别阈值测量即可准确预测多种聆听条件下的DIN测试表现，预测误差均方根为0.92 dB，95%的预测偏差小于1.7 dB。",
+        "main_limitation": "受试者仅为24名正常听力成人且使用人工耳蜗仿真语音而非真实人工耳蜗用户，研究结论向临床听损人群和真实助听设备用户的推广性受限。",
+        "research_implication": "该研究为言语感知评估提供了跨多种聆听条件的预测工具，对人工耳蜗和助听器算法优化及临床评估标准制定具有参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "1fd21cce58786dd9",
+        "updated_at": "2026-08-29T09:08:18Z"
+      }
     },
     {
       "title": "Seven-day hypobaric hypoxia induces early basal cochlear presynaptic ribbon injury and oxidative stress in mice before overt cellular loss",
@@ -101,28 +114,6 @@
       "source": "crossref",
       "available_online_date": "2026-07-27",
       "first_seen_at": "2026-08-20T03:12:32Z"
-    },
-    {
-      "title": "The role of binaural input in music perception: Evidence from adults with single-sided deafness",
-      "authors": [
-        "Mert Kılıç",
-        "Hatice Merve Yücel",
-        "Mustafa Yüksel",
-        "Zahra Polat"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-11-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109778",
-      "url": "https://doi.org/10.1016/j.heares.2026.109778",
-      "abstract": null,
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-19",
-      "first_seen_at": "2026-08-28T14:24:28Z"
     },
     {
       "title": "Asymmetry of vestibular pathways predicts upper-brainstem auditory imbalance in subjective somatosensory tinnitus: A tract-specific chronological reorganization model",
@@ -2077,6 +2068,56 @@
       "first_seen_at": "2026-07-07T06:28:36Z"
     },
     {
+      "title": "Detecting ringed seal vocalizations using deep learning",
+      "authors": [
+        "Karlee E. Zammit",
+        "William D. Halliday",
+        "Amalis Riera",
+        "Annika Heimrich",
+        "Mariana Barbosa",
+        "Nikoletta Diogou",
+        "Stephen J. Insley",
+        "Fabio Frazao",
+        "Sebastien Fabbro",
+        "Stan E. Dosso"
+      ],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-28",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046176",
+      "url": "https://doi.org/10.1121/10.0046176",
+      "abstract": "Ringed seals (Pusa hispida) in the Arctic face habitat loss from climate change, making monitoring critical for conservation. Passive acoustic monitoring provides essential data; however, large data volumes require automated analysis. We developed a ResNet-based detector for ringed seal barks in passive acoustic recordings. The detector achieved F1 scores above 0.90 on development data and held-out datasets from different locations and recording periods. In continuous recordings, it maintained high recall (>0.90), with lower precision (∼0.5) reflecting a trade-off between detecting most vocalizations and false positives from acoustically similar non-target sounds. The open-source detector supports large-scale bioacoustic monitoring.",
+      "first_author_affiliation": "School of Earth and Ocean Sciences, University of Victoria 1 , Victoria, British Columbia, V8P5C2,",
+      "last_author_affiliation": "School of Earth and Ocean Sciences, University of Victoria 1 , Victoria, British Columbia, V8P5C2,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046176",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "machine learning"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-28",
+      "first_seen_at": "2026-08-29T09:07:35Z",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/8/081202/3403283/Detecting-ringed-seal-vocalizations-using-deep",
+      "media_checked_at": "2026-08-29T09:08:00Z",
+      "open_access_image_checked_at": "2026-08-29T09:08:00Z",
+      "ai_analysis": {
+        "scientific_question": "如何利用深度学习自动检测被动声学记录中的环斑海豹叫声，以支持北极海豹种群的大规模生物声学监测？",
+        "key_highlight": "基于ResNet的深度学习检测器在环斑海豹叫声识别中取得了超过0.90的F1分数，在不同地点和录音时期的数据集上均表现出高召回率（>0.90）。",
+        "main_limitation": "连续录音中精度较低（约0.5），反映出在检测灵敏度和声学相似的非目标声音产生的假阳性之间存在权衡。",
+        "research_implication": "通用研究意义——该研究展示了深度学习在生物声学监测中的应用潜力，其自动化声学检测方法可能为其他动物物种的声学信号识别提供方法论参考。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "964f50ae2f9f42e1",
+        "updated_at": "2026-08-29T09:08:30Z"
+      }
+    },
+    {
       "title": "On the delay-and-sum processing of shear wave signals from a scanning thermo-elastic laser ultrasound system",
       "authors": [
         "Matthew W. Riding",
@@ -2087,22 +2128,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0044378",
       "url": "https://doi.org/10.1121/10.0044378",
-      "abstract": "Scanning laser ultrasound (LU) systems capture sets of signals from different laser positions that may be combined using delay-and-sum (DAS) processing. The most common model used to calculate DAS delays for point-source systems assumes that ultrasound propagates in circular wavefronts. Vertically polarised shear wave (SV) signals from point-like, thermo-elastic LU sources are expected to violate this assumption due to phase rotation effects and the impact of SV head waves. This work explores the consequences of LU SV-SV wavefront non-circularity on DAS processing. Model SV-SV signal sets from point- and plane-reflectors are shown to interfere destructively during DAS when the circular wavefront model is applied, with a loss of 40% of the available signal predicted for an example plane reflector imaging scenario. Signal sets from experiments reproducing the modelled scenarios validate these predictions, with 51% signal loss observed in the corresponding plane reflector scenario. Phase compensation factors derived from the analytical models are applied to the experimental signals but are not found to improve phase coherence, indicating disparities between the models and experiments. An alternative delay model considering a shuttlecock-shaped pre-reflection SV wavefront is shown to yield signals up to 1.8 times those obtained using the circular wavefront model.",
-      "first_author_affiliation": "Department of Electronic and Electrical Engineering, University of Strathclyde , Glasgow,",
-      "last_author_affiliation": "Department of Electronic and Electrical Engineering, University of Strathclyde , Glasgow,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0044378",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-28",
-      "first_seen_at": "2026-08-28T14:24:20Z",
       "full_text_url": "https://pubs.aip.org/jasa/article/160/2/1844/3403280/On-the-delay-and-sum-processing-of-shear-wave",
-      "media_checked_at": "2026-08-28T14:24:50Z",
-      "open_access_image_checked_at": "2026-08-28T14:24:50Z",
+      "abstract": "Scanning laser ultrasound (LU) systems capture sets of signals from different laser positions that may be combined using delay-and-sum (DAS) processing. The most common model used to calculate DAS delays for point-source systems assumes that ultrasound propagates in circular wavefronts. Vertically polarised shear wave (SV) signals from point-like, thermo-elastic LU sources are expected to violate this assumption due to phase rotation effects and the impact of SV head waves. This work explores the consequences of LU SV-SV wavefront non-circularity on DAS processing. Model SV-SV signal sets from point- and plane-reflectors are shown to interfere destructively during DAS when the circular wavefront model is applied, with a loss of 40% of the available signal predicted for an example plane reflector imaging scenario. Signal sets from experiments reproducing the modelled scenarios validate these predictions, with 51% signal loss observed in the corresponding plane reflector scenario. Phase compensation factors derived from the analytical models are applied to the experimental signals but are not found to improve phase coherence, indicating disparities between the models and experiments. An alternative delay model considering a shuttlecock-shaped pre-reflection SV wavefront is shown to yield signals up to 1.8 times those obtained using the circular wavefront model.",
       "ai_analysis": {
         "scientific_question": "在扫描激光超声系统中，延迟叠加(DAS)处理假设圆形波前的模型是否适用于垂直极化剪切波(SV)信号的成像",
         "key_highlight": "圆形波前模型导致SV-SV信号在延迟叠加处理中出现约40%至51%的信号损失，而替代的羽毛球形波前模型可获得最高1.8倍的信号增强",
@@ -2114,6 +2141,66 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "96ee872c300bfbcd",
         "updated_at": "2026-08-28T14:25:04Z"
+      },
+      "first_author_affiliation": "Department of Electronic and Electrical Engineering, University of Strathclyde , Glasgow,",
+      "last_author_affiliation": "Department of Electronic and Electrical Engineering, University of Strathclyde , Glasgow,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0044378",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-08-28T14:24:50Z",
+      "media_checked_at": "2026-08-28T14:24:50Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-28",
+      "first_seen_at": "2026-08-28T14:24:20Z"
+    },
+    {
+      "title": "Perceptual Distortions in Aided Hearing-Impaired Listeners: Psychophysical Evidence of Excessive Loudness Growth and Altered Timbre Representation",
+      "authors": [
+        "Armand Schwarz",
+        "Paul Avan",
+        "Patrick Susini",
+        "Emmanuel Ponsot"
+      ],
+      "journal": "Trends in Hearing",
+      "publication_date": "2026-08-28",
+      "publication_date_precision": "day",
+      "doi": "10.1177/23312165261477779",
+      "url": "https://doi.org/10.1177/23312165261477779",
+      "abstract": "Hearing aid users often report that some everyday sounds are abnormally intrusive or salient. This issue may stem from distorted coding of sound features due to peripheral impairments and/or hearing aid processing. This study investigates whether aided hearing-impaired (aHI) listeners experience (1) abnormal loudness processing and (2) distorted timbre perception, both of which may contribute to this problem. In Experiment 1, we measured loudness functions using sounds varying in four timbre dimensions (brightness, spectral flux, attack time, roughness) in normal-hearing (NH) and aHI listeners. In Experiment 2, we assessed timbre perception via dissimilarity judgments based on a similar set of sounds. We tested NH listeners with and without a hearing loss simulator and a hearing aid simulator, as well as aHI listeners with the hearing aid simulator. The results of Experiment 1 revealed steeper loudness functions in aHI participants, in particular for low-to-moderate level sounds with center frequency above 1 kHz, suggesting that hearing aids fail to fully restore normal loudness growth above a certain degree of threshold loss. The characterization of timbre perception in aHI listeners obtained in Experiment 2 showed enhanced weighting of temporal envelope features, likely emphasized by hearing aid expansion at low level, as well as non-linear distortions in the perceptual coding of roughness. These findings suggest that both loudness and timbre dimensions are distorted in aided impaired hearing. We propose that these distortions may underlie the excessive salience of certain everyday sounds, though direct measurement of salience effects will be important in future work.",
+      "first_author_affiliation": "STMS, IRCAM, Sorbonne Universitée, CNRS, Ministère de la Culture, Paris, France",
+      "last_author_affiliation": "STMS, IRCAM, Sorbonne Universitée, CNRS, Ministère de la Culture, Paris, France",
+      "open_access": true,
+      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261477779",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology",
+        "hearing aid",
+        "psychoacoustics"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-28",
+      "first_seen_at": "2026-08-29T09:07:36Z",
+      "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261477779",
+      "media_checked_at": "2026-08-29T09:08:00Z",
+      "open_access_image_checked_at": "2026-08-29T09:08:00Z",
+      "ai_analysis": {
+        "scientific_question": "助听后的听力障碍者是否会出现异常的响度增长和扭曲的音色感知，从而导致某些日常声音被感知为过度显著。",
+        "key_highlight": "助听后的听力障碍者在中高频区域表现出更陡峭的响度函数，且音色感知中对时间包络特征的权重增加，表明助听器无法完全恢复正常的响度增长。",
+        "main_limitation": "使用助听器模拟器而非真实设备进行测试，且音色显著性与实际感知显著性的关联为推测性结论。",
+        "research_implication": "该研究表明助听器验配需要考虑响度恢复和音色保真的平衡，以减少用户对某些日常声音过度显著性的抱怨。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "668c060c307b62b0",
+        "updated_at": "2026-08-29T09:08:42Z"
       }
     },
     {
@@ -2127,14 +2214,6 @@
       "doi": "10.1121/10.0044494",
       "url": "https://doi.org/10.1121/10.0044494",
       "abstract": "The purpose of these acoustical patent reviews is to provide enough information for a Journal reader to decide whether to seek more information from the patent itself. Any opinions expressed here are those of the reviewers as individuals and are not legal opinions. Patents are available via the internet at the USPTO website http://www.uspto.gov.",
-      "first_author_affiliation": "Dept. of Linguistics California State University Fresno 5245 N. Backer Ave, Fresno, 93740-8001",
-      "last_author_affiliation": "Dept. of Linguistics California State University Fresno 5245 N. Backer Ave, Fresno, 93740-8001",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-28",
-      "first_seen_at": "2026-08-28T14:24:20Z",
       "ai_analysis": {
         "scientific_question": "本栏目旨在为读者提供足够信息以判断是否需要进一步查阅专利原文",
         "key_highlight": "评论者的观点仅代表个人立场，不构成法律意见",
@@ -2146,7 +2225,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "e5992300588be7d9",
         "updated_at": "2026-08-28T14:25:11Z"
-      }
+      },
+      "first_author_affiliation": "Dept. of Linguistics California State University Fresno 5245 N. Backer Ave, Fresno, 93740-8001",
+      "last_author_affiliation": "Dept. of Linguistics California State University Fresno 5245 N. Backer Ave, Fresno, 93740-8001",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-28",
+      "first_seen_at": "2026-08-28T14:24:20Z"
     },
     {
       "title": "Slow dynamics under high confining pressure in saturated sandstone with pore pressure",
@@ -2161,22 +2248,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0046089",
       "url": "https://doi.org/10.1121/10.0046089",
-      "abstract": "Slow dynamics (SD) is a time-dependent, nonlinear elastic behavior occurring in a variety of consolidated or damaged materials, including rocks. The influence of relative humidity and confining pressure on SD has been studied but not that of full saturation and effective pressure. We show that SD can occur under high confining pressure in fluid-saturated sandstone if the effective pressure is low enough. This suggests that effective pressure determines whether SD can be observed, explaining why field observations of SD are possible not only near the surface but also in environments with high pore pressure such as fault zones or volcanoes.",
-      "first_author_affiliation": "Department of Geophysics, GFZ Helmholtz Centre for Geosciences 1 , Potsdam, 14473,",
-      "last_author_affiliation": "Department of Geosystems, GFZ Helmholtz Centre for Geosciences 3 , Potsdam 14473,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0046089",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-27",
-      "first_seen_at": "2026-08-28T14:24:21Z",
       "full_text_url": "https://pubs.aip.org/jel/article/6/8/084001/3403234/Slow-dynamics-under-high-confining-pressure-in",
-      "media_checked_at": "2026-08-28T14:24:50Z",
-      "open_access_image_checked_at": "2026-08-28T14:24:50Z",
+      "abstract": "Slow dynamics (SD) is a time-dependent, nonlinear elastic behavior occurring in a variety of consolidated or damaged materials, including rocks. The influence of relative humidity and confining pressure on SD has been studied but not that of full saturation and effective pressure. We show that SD can occur under high confining pressure in fluid-saturated sandstone if the effective pressure is low enough. This suggests that effective pressure determines whether SD can be observed, explaining why field observations of SD are possible not only near the surface but also in environments with high pore pressure such as fault zones or volcanoes.",
       "ai_analysis": {
         "scientific_question": "有效压力是否决定了饱和多孔材料在高压围压下是否出现慢动力学现象。",
         "key_highlight": "研究表明流体饱和砂岩在围压较高但有效压力足够低时仍可观测到慢动力学现象。",
@@ -2188,7 +2261,21 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "c677994f985376f8",
         "updated_at": "2026-08-28T14:25:22Z"
-      }
+      },
+      "first_author_affiliation": "Department of Geophysics, GFZ Helmholtz Centre for Geosciences 1 , Potsdam, 14473,",
+      "last_author_affiliation": "Department of Geosystems, GFZ Helmholtz Centre for Geosciences 3 , Potsdam 14473,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046089",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-08-28T14:24:50Z",
+      "media_checked_at": "2026-08-28T14:24:50Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-27",
+      "first_seen_at": "2026-08-28T14:24:21Z"
     },
     {
       "title": "The Effect of Head Movements on Front-Back Discrimination and Sound Externalization With Hearing Aids",
@@ -2202,6 +2289,7 @@
       "publication_date_precision": "day",
       "doi": "10.1177/23312165261480035",
       "url": "https://doi.org/10.1177/23312165261480035",
+      "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261480035",
       "abstract": "Head movements are intuitive, often spontaneous, behaviours that help us localize the origin of a sound source. In normal-hearing listeners, head movements during sound presentation are known to improve localization performance in both horizontal and vertical dimensions, as well as front-back discrimination. The perceived externalization of sound sources also improves with head motion. Hearing-aid users, especially users with behind-the-ear microphone positioning, exhibit diminished front-back localization abilities as well as degraded externalization under static conditions. The extent to which active head movements can overcome the spatial degradations introduced by hearing aids remains unclear. The current study aimed to provide quantitative data on this issue. Participants with normal hearing were fitted with low-gain hearing aids and presented with speech stimuli from a loudspeaker directly in front or behind. They performed front-back discrimination, rated perceived externalization, and did so with or without head movements. We hypothesized that head movements would fully resolve front-back confusions and restore externalization ratings to unaided levels. Instead, head movements were more effective in resolving front-back confusions than externalization breakdowns. We conclude that hearing-aid related spatial distortions may not be fully overcome by active head movements and note large inter-individual differences in the relationship between externalization and front-back discrimination.",
       "first_author_affiliation": "Austrian Academy of Sciences",
       "last_author_affiliation": "Austrian Academy of Sciences",
@@ -2209,6 +2297,8 @@
       "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261480035",
       "open_access_source": "crossref_license",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-08-28T14:24:51Z",
+      "media_checked_at": "2026-08-28T14:24:51Z",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [],
       "tags": [
@@ -2217,9 +2307,18 @@
       "source": "crossref",
       "available_online_date": "2026-08-27",
       "first_seen_at": "2026-08-28T14:24:23Z",
-      "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261480035",
-      "media_checked_at": "2026-08-28T14:24:51Z",
-      "open_access_image_checked_at": "2026-08-28T14:24:51Z"
+      "ai_analysis": {
+        "scientific_question": "主动头部运动是否能克服助听器引入的前后辨别力和声音外部化感知的空间退化？",
+        "key_highlight": "头部运动在解决前后空间混淆方面的效果优于恢复声音外部化感知。",
+        "main_limitation": "研究采用正常听力受试者配戴低增益助听器，而非真实助听器用户，可能限制结论的生态效度。",
+        "research_implication": "助听器相关的空间失真可能无法完全通过主动头部运动补偿，提示需要探索替代性助听器设计或辅助策略。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "781ea3cdcbf0acd6",
+        "updated_at": "2026-08-29T09:08:52Z"
+      }
     },
     {
       "title": "Auditory Stimuli Influence on Vestibulo-Ocular Reflex Gains",
@@ -2845,6 +2944,39 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-08-22",
       "first_seen_at": "2026-08-27T12:51:57Z"
+    },
+    {
+      "title": "Oxaliplatin-chemotherapy induced cochlear synaptopathy",
+      "authors": [
+        "Marion Souchal",
+        "David Balayssac",
+        "Paul Avan",
+        "Fabrice Giraudet"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-08-22",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109784",
+      "url": "https://doi.org/10.1016/j.heares.2026.109784",
+      "abstract": "Oxaliplatin is widely used as a first-line and reference anticancer agent for advanced colorectal cancer. However, it frequently causes peripheral neuropathy. It is generally accepted that oxaliplatin is significantly less ototoxic than the other platinum-based antineoplastic drugs, cisplatin and carboplatin. This study aimed to evaluate potential hearing damage induced by oxaliplatin in young male CBA/JRj mice. Mice received intraperitoneal injections of oxaliplatin (3 mg/kg) twice weekly for 3 weeks, for a cumulative dose of 18 mg/kg. Auditory function was assessed using electrophysiological measures, including auditory brainstem responses (ABRs) and compound action potentials (CAPs), distortion product otoacoustic emissions (DPOAEs), and medial olivocochlear (MOC) reflex measurements, followed by histopathological analysis of the organ of Corti and the cochlear auditory pathway. Oxaliplatin did not alter hearing thresholds, as assessed by ABR or DPOAE, and hair cells remained morphologically intact. However, despite preserved hearing sensitivity, significant neural deficits were observed, including reduced suprathreshold CAP amplitudes, early and sustained loss of ribbon synapses, reduced spiral ganglion cell density, and marked attenuation of the MOC reflex associated with loss of efferent fibers. Our findings suggest that oxaliplatin induces a form of hidden neuro-ototoxicity. The structural and functional impairments observed after oxaliplatin treatment are similar to cochlear synaptopathy associated with aging and acute noise exposure. These results challenge the assumption that oxaliplatin is not ototoxic and highlight the need for more sensitive auditory monitoring in patients receiving oxaliplatin treatment. Particular attention should be given to suprathreshold auditory measures, including ABR wave I amplitudes and MOC reflex function, which may reveal early neural deficits despite preserved hearing thresholds. The development of clinical tests specifically targeting these subclinical auditory abnormalities could improve the detection and monitoring of oxaliplatin-induced neuro-ototoxicity.",
+      "last_author_affiliation": "Neurosensory Biophysics Team, University Clermont Auvergne, Clermont-Ferrand, France; UMR 1107 INSERM, NeuroDol, University Clermont Auvergne, Clermont-Ferrand, France; Université Paris Cité, Institut Pasteur, AP-HP, INSERM, CNRS, Fondation Pour l'Audition, Institut de l'Audition, IHU reConnect, F-75012 Paris, France. Electronic address: fabrice.giraudet@uca.fr.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Auditory brainstem response",
+        "Cochlear synaptopathy",
+        "Medial olivocochlear reflex",
+        "Ototoxicity",
+        "Oxaliplatin",
+        "Wave I"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-22",
+      "first_seen_at": "2026-08-29T09:07:40Z"
     },
     {
       "title": "A hybrid framework for efficient real-time ocean noise simulation on dynamic hydrophone and vector sensor arrays",
@@ -3673,6 +3805,51 @@
       "first_seen_at": "2026-08-20T03:12:29Z"
     },
     {
+      "title": "The role of binaural input in music perception: Evidence from adults with single-sided deafness",
+      "authors": [
+        "Mert Kılıç",
+        "Hatice Merve Yücel",
+        "Mustafa Yüksel",
+        "Zahra Polat"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-08-19",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109778",
+      "url": "https://doi.org/10.1016/j.heares.2026.109778",
+      "abstract": "Single-sided deafness (SSD) is characterized by unilateral auditory deprivation, which disrupts binaural hearing. This study aimed to evaluate music perception in adults with SSD using behavioral measures and subjective ratings. Thirty adults with SSD were compared with 54 normal-hearing (NH) listeners tested under binaural (NH-B, n = 27) and simulated acute monaural (NH-M, n = 27) conditions in a free-field setup. Behavioral music perception was assessed using the Clinical Assessment of Music Perception (CAMP) battery, including Pitch Direction Discrimination (PDD), Timbre Recognition (TR), and Melody Recognition (MR). Temporal and spectral resolution were evaluated using the Adaptive Gap Detection Test (AGDT) and the Spectral-Temporally Modulated Ripple Test (SMRT). Participants also completed subjective ratings of music experience. After adjusting for age and pure-tone average, the SSD group performed significantly worse than the NH-B group on all five behavioral measures (PDD, TR, MR, AGDT, SMRT). Compared with NH-M, SSD performance was significantly poorer on PDD, MR, and AGDT, but did not differ significantly on TR or SMRT. NH-M and NH-B differed significantly on TR, MR, AGDT, and SMRT, but not on PDD. Individuals with SSD reported reduced music enjoyment, lower perceived sound quality, increased listening effort, poorer lyrics comprehension, and less frequent music listening than NH participants. Music perception in SSD appears to be multidimensionally affected. Although some performance patterns in SSD resemble acute monaural listening, more pronounced difficulties in pitch discrimination, melody recognition, and temporal resolution were observed beyond what monaural listening alone could account for, potentially reflecting additional factors associated with chronic unilateral hearing loss. These findings highlight the importance of binaural input for complex auditory processing and the relevance of evaluating music-related listening outcomes in SSD.",
+      "last_author_affiliation": "Department of Audiology, Hamidiye Faculty of Health Sciences, University of Health Sciences, Istanbul, Türkiye; Department of Otolaryngology, Umraniye Training and Research Hospital, University of Health Sciences, Istanbul, Türkiye.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Music perception",
+        "Single sided deafness",
+        "Spectral resolution",
+        "Temporal resolution",
+        "Unilateral hearing loss"
+      ],
+      "tags": [
+        "clinical audiology",
+        "psychoacoustics",
+        "real-world listening"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-19",
+      "first_seen_at": "2026-08-28T14:24:28Z",
+      "ai_analysis": {
+        "scientific_question": "单侧耳聋（SSD）成人在音乐感知能力方面与正常听力成人的差异及其背后的听觉机制是什么？",
+        "key_highlight": "单侧耳聋患者在音高方向辨别、旋律识别和时间分辨率上表现出比急性单耳聆听模拟更严重的困难，提示慢性单侧听力损失存在超越单纯单耳输入的额外影响。",
+        "main_limitation": "样本量相对较小（SSD组仅30人），且横断面设计无法揭示长期适应性变化或因果关系。",
+        "research_implication": "该研究提示双耳输入对复杂听觉处理至关重要，对于单侧听力损失患者的临床康复评估具有参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "5d4239075f9dba0f",
+        "updated_at": "2026-08-29T09:09:12Z"
+      }
+    },
+    {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
       "authors": [
         "Andrew J. Kolarik",
@@ -3766,6 +3943,39 @@
       ],
       "needs_review": true,
       "first_seen_at": "2026-08-19T03:13:20Z"
+    },
+    {
+      "title": "Evaluating perceptual evidence of cross-modal plasticity in older adults with hearing loss using an audio–visual word mismatch task",
+      "authors": [
+        "Patricia V. Aguiar",
+        "Brandon T. Paul"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-08-18",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109779",
+      "url": "https://doi.org/10.1016/j.heares.2026.109779",
+      "abstract": "Older adults with age-related hearing loss (OAHL) are more strongly influenced by vision during audiovisual perception tasks compared to typical-hearing older adults, suggesting a greater weighting of visual input in the former group. This visual \"bias\" has been argued to arise through compensatory, top-down cross-modal neuroplasticity that strengthens visual perceptual processing in response to hearing loss. However, current behavioural evidence does not convincingly demonstrate that cross-modal plasticity confers a visual benefit to OAHL, and existing methods do not untangle top-down influences of visual processing from low-level audiovisual integration. Here, we tested for evidence of enhanced visual speech processing in OAHL using a cross-modal lexical matching task designed to bypass low-level integration and isolate higher-level visual influences. Forty-nine adults aged 59-81 years completed a task where auditory-only and visual-only words were presented separately and serially in either audio-then-visual (A-V) or visual-then-audio (V-A) order under no noise, 0 dB speech-to-noise ratio (SNR), and -10 dB SNR conditions. Half of the trials contained mismatching word pairs. Participants judged whether audio and visual words matched or mismatched while eye-tracking recorded visual attention to the speaker's face. OAHL were expected to benefit more from the V-A order if visual speech provided stronger perceptual predictions. We found that mismatch detection was stronger in the A-V relative to V-A condition in no-noise and 0 dB SNR conditions, but there was no difference at -10 dB SNR. More hearing loss was associated with worse overall perceptual sensitivity, and contrary to our predictions, was not associated with enhanced performance in the V-A condition. Hearing loss was also not associated with gaze differences to the speaker's eyes and mouth. Overall, these findings do not support that the visual bias in OAHL arises through high-level visual speech processing.",
+      "last_author_affiliation": "Department of Psychology, Toronto Metropolitan University, Toronto, ON, M5B 2K3, Canada. Electronic address: btpaul@torontomu.ca.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "age-related hearing loss",
+        "audiovisual integration",
+        "cross-modal plasticity",
+        "eye-tracking",
+        "presbycusis",
+        "speech-in-noise perception",
+        "visual attention",
+        "visual speech"
+      ],
+      "tags": [
+        "clinical audiology",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-18",
+      "first_seen_at": "2026-08-28T14:24:28Z"
     },
     {
       "title": "FireRedTTS3: Unified Speech Generation and Editing with Semantically Enriched Speech Representations",
@@ -4288,40 +4498,6 @@
       "source": "crossref",
       "available_online_date": "2026-08-14",
       "first_seen_at": "2026-08-15T03:07:23Z"
-    },
-    {
-      "title": "Predicting performance on the digits-in-noise test in noise and reverberation using the speech transmission index",
-      "authors": [
-        "Finn S. Holtrop",
-        "Daphne L. Geijsen",
-        "Filiep J. Vanpoucke",
-        "Cas Smits"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-08-14",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109776",
-      "url": "https://doi.org/10.1016/j.heares.2026.109776",
-      "abstract": "This study investigated the effects of noise and reverberation on recognition of Dutch digits-in-noise (DIN) test triplets. The findings demonstrate that the STIDIN, an adaptation to the standard speech transmission index (STI), provides a reliable, low‑error predictor of DIN test performance in conditions with noise and/or reverberation when only a single speech recognition threshold (SRT) measurement in noise is completed. To achieve this, twenty-four normal-hearing (NH) adults completed adaptive SRT measurements in noise-only, reverberation-only and combined noise and reverberation conditions using unprocessed (UP), low-pass filtered (LPF) and cochlear implant vocoded (CIvoc) speech materials. Standard STI values differed across conditions and overestimated the detrimental effect of reverberation on recognition. The STIDIN, derived from the magnitude cross power spectrum (mCPS) of reverberated DIN test triplets and unprocessed triplets, was applicable for T60 reverberation times up to 12 s. STIDIN values remained constant across conditions, showing no significant main effect of condition for any of the unprocessed and processed speech materials. The results show that when an SRTn measurement in noise-only is obtained using DIN test triplets (i.e., the clinical standard), the STIDIN can be used to predict the SRT in other listening conditions with noise and reverberation. The root‑mean‑square error between measured and predicted SRTs was 0.92 dB, and 95 % of predictions deviated <1.7 dB from the measured values in conditions with noise and/or reverberation.",
-      "last_author_affiliation": "Department of Otolaryngology - Head and Neck Surgery, Ear & Hearing, Amsterdam Public Health research institute, Amsterdam UMC, University of Amsterdam, Amsterdam, 1081 HV, The Netherlands. Electronic address: c.smits@amsterdamumc.nl.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Digits-in-noise",
-        "Reverberation",
-        "Speech recognition test",
-        "Speech transmission index",
-        "Speech-in-noise"
-      ],
-      "tags": [
-        "auditory physiology",
-        "clinical audiology",
-        "cochlear implant",
-        "speech perception"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-08-14",
-      "first_seen_at": "2026-08-15T03:07:29Z"
     },
     {
       "title": "Psychoacoustically inspired optimization framework for neural binaural synthesis",
@@ -5620,14 +5796,6 @@
       "doi": "10.1121/10.0044584",
       "url": "https://doi.org/10.1121/10.0044584",
       "abstract": "Under natural conditions, the sound pressure level of social trills and echolocation calls of pipistrelle bats was measured as peak equivalent sound pressure level (peSPL) with the aim of estimating the range of the signals. Thirty-eight echolocation calls and 55 social trills, whose distance from the microphone was known, were evaluated. The social trills were approximately 8 dB quieter than the echolocation calls but had a significantly greater range because of their lower call frequency. Based on the American National Standards Institute/Acoustical Society of America [ANSI/ASA (2024) S1.26-2014, Methods for Calculation of the Absorption of Sound by the Atmosphere (Acoustical Society of America, New York)] standard, we examined the propagation of the signals under different conditions of humidity, temperature, and air pressure. The results show that in calm weather the potential ranges can vary by a factor of two to three. Assuming a detection threshold of 20 dB, we determined ranges for an echolocation call of between approximately 30 and 80 m under realistic conditions and for a social trill of between 60 and more than 120 m.",
-      "first_author_affiliation": "Department of Evolutionary Diversity Dynamics, Museum für Naturkunde–Leibniz Institute for Evolution and Biodiversity Science 1 , Invalidenstraße 43, Berlin 10115,",
-      "last_author_affiliation": "Department of Evolutionary Diversity Dynamics, Museum für Naturkunde–Leibniz Institute for Evolution and Biodiversity Science 1 , Invalidenstraße 43, Berlin 10115,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-11",
-      "first_seen_at": "2026-08-12T04:18:43Z",
       "ai_analysis": {
         "scientific_question": "在自然条件下，蝙蝠社交颤音与回声定位叫声的声压级及其信号传播范围有何差异？",
         "key_highlight": "社交颤音比回声定位叫声低约8分贝，但由于频率较低反而具有更大的传播范围，可达60至120米以上。",
@@ -5639,7 +5807,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "1617c48dd24dc12f",
         "updated_at": "2026-08-28T14:25:51Z"
-      }
+      },
+      "first_author_affiliation": "Department of Evolutionary Diversity Dynamics, Museum für Naturkunde–Leibniz Institute for Evolution and Biodiversity Science 1 , Invalidenstraße 43, Berlin 10115,",
+      "last_author_affiliation": "Department of Evolutionary Diversity Dynamics, Museum für Naturkunde–Leibniz Institute for Evolution and Biodiversity Science 1 , Invalidenstraße 43, Berlin 10115,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-11",
+      "first_seen_at": "2026-08-12T04:18:43Z"
     },
     {
       "title": "The Cremer impedance revisited: Investigating passivity at low frequencies for uniform and sheared mean flows",
@@ -7199,22 +7375,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044504",
-      "url": "https://doi.org/10.1121/10.0044504",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:37Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -7227,6 +7387,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:36Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044504",
+      "url": "https://doi.org/10.1121/10.0044504",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:37Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -14754,17 +14930,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -14785,18 +14962,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -24645,22 +24821,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -24673,6 +24833,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -32346,23 +32522,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -32376,6 +32535,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -35869,8 +36045,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -35884,8 +36060,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -41049,8 +41225,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -41064,8 +41240,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
