@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T07:13:50Z",
+  "generated_at": "2026-09-04T07:17:13Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
@@ -39,6 +39,41 @@
       "source": "crossref",
       "available_online_date": "2026-08-18",
       "first_seen_at": "2026-08-21T03:18:19Z"
+    },
+    {
+      "title": "Age-related changes in acoustic cue use for speech-in-speech perception",
+      "authors": [
+        "Elizabeth Fish",
+        "Mishaela DiNino"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109780",
+      "url": "https://doi.org/10.1016/j.heares.2026.109780",
+      "abstract": "Acoustic cues such as pitch and spatial location allow listeners to attend to a target speaker and ignore competing talkers, aiding speech recognition in background noise. Diminished ability to utilize acoustic cues for speech stream segregation may thus contribute to older adults' challenges hearing in noise. Adults aged 18-74 completed a speech-in-speech identification task with three conditions containing 1) only pitch cues (fundamental frequency), 2) only spatial cues (interaural time differences; ITDs), or 3) both pitch and spatial cues for segregating a target talker from competing talkers. Hearing thresholds at standard and extended high frequencies (EHFs), auditory brainstem responses (ABRs), and digit span scores were acquired to examine whether sensory and cognitive factors that change with age influence acoustic cue use for speech-in-speech recognition. Significant differences were observed between cue condition scores indicating that use of the available cue(s) drove performance. Older adults (aged 40+) performed significantly more poorly on all cue conditions relative to younger adults. Hearing thresholds at standard frequencies significantly predicted scores on the Pitch condition. EHF hearing thresholds better predicted Spatial and Both Cue condition performance. ABR metrics were not a predictor in the expected direction but backward digit span scores significantly predicted scores on the more difficult conditions, demonstrating greater cognitive resource reliance in challenging listening scenarios regardless of acoustic content. Age-related changes in auditory function may therefore impair older adults' speech-in-noise perception by reducing their ability to use acoustic cues for segregating target and competing speech.",
+      "ai_analysis": {
+        "scientific_question": "老年人利用基频（音高）和空间（耳间时间差）线索进行语音-语音分离的能力如何随年龄变化，以及听觉和认知因素如何影响这一过程？",
+        "key_highlight": "研究发现40岁以上成人在所有线索条件下表现均较差，且标准频率听力阈值可预测音高线索使用，而扩展高频听力阈值更能预测空间线索使用，后向数字广度在困难条件下成为重要预测因素。",
+        "main_limitation": "横断面设计难以区分衰老效应与队列效应，且实验室语音识别任务与真实环境 listening conditions 存在差异。",
+        "research_implication": "研究提示助听器应重视扩展高频段的放大策略以及空间线索的保留，以改善老年用户在嘈杂环境中的语音分离能力。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "7f0c62cbbb108720",
+        "updated_at": "2026-08-27T12:53:32Z"
+      },
+      "last_author_affiliation": "Department of Communicative Disorders and Sciences, University at Buffalo, Buffalo, NY 14214, USA. Electronic address: dinino@buffalo.edu.",
+      "publication_stage": "early_access",
+      "section": "Speech Communication",
+      "keywords": [],
+      "tags": [
+        "speech perception"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-20",
+      "first_seen_at": "2026-08-27T12:51:57Z"
     },
     {
       "title": "Biomarkers of Subjective Tinnitus Presence and Clinical Burden: A Systematic Review",
@@ -111,6 +146,39 @@
       "source": "crossref",
       "available_online_date": "2026-08-18",
       "first_seen_at": "2026-08-28T14:24:28Z"
+    },
+    {
+      "title": "Formant-frequency encoding in the inferior colliculus of awake rabbit: Physiological and model responses",
+      "authors": [
+        "Swapna Agarwalla",
+        "Laurel H. Carney"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109782",
+      "url": "https://doi.org/10.1016/j.heares.2026.109782",
+      "abstract": "Most neurons in the inferior colliculus (IC), a key integration hub in the ascending auditory pathway, are sensitive to important features of vowels, periodic sounds with spectral peaks referred to as formants. A recent psychoacoustic study found that increased formant bandwidth elevates formant-frequency discrimination thresholds in human listeners, hypothesized to be due to reduced neural fluctuation (NF) contrast along the tonotopic axis (Carney et al., 2023). The current study tested this hypothesis and investigated the neural mechanisms underlying IC responses in awake rabbit to single-formant, synthetic, vowel-like stimuli with varied bandwidths. Formant frequencies were shifted past the neural characteristic frequency to infer response profiles across the tonotopic axis. The NF profile is converted into a rate-place profile by IC neurons that are sensitive to amplitude modulations. Two stimulus paradigms were used to assess the role of energy cues, which vary when formant bandwidths are changed: one matched the overall levels of synthetic formants across conditions, and the other matched the peak levels. The discharge-rate profiles as a function of formant bandwidth were consistent across both paradigms, thus energy alone did not determine IC rates, which were typically higher for narrower formant bandwidths. Formant-frequency discrimination thresholds estimated from single-neuron responses were higher than human thresholds but had similar trends. IC neurons are also sensitive to fast frequency sweeps (chirps) which are present in vowels; formant-frequency discrimination thresholds based on neural responses were correlated with the sensitivity of IC neurons to chirp velocity but not direction. Responses of IC neurons with band-suppressed, but not band-enhanced, modulation transfer functions supported the hypothesis that IC neurons encode vowels as predicted by neural-fluctuation profiles. Trends in responses of IC neurons with both types of modulation transfer function were explained for a range of formant bandwidths and both stimulus paradigms by a model with same-frequency inhibition and excitation plus broadband, modulation-sensitive inhibition.",
+      "ai_analysis": {
+        "scientific_question": "验证神经波动对比度降低是否介导了带宽增加导致的IC神经元共振峰辨别阈值升高，并探究其神经机制。",
+        "key_highlight": "具有带抑型调制传递函数的IC神经元能够根据神经波动轮廓编码元音共振峰，其共振峰辨别阈值与啁啾信号速度敏感性显著相关。",
+        "main_limitation": "Limited generalizability due to small or specific sample",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "81898d6d1b31ba4c",
+        "updated_at": "2026-08-27T12:53:43Z"
+      },
+      "last_author_affiliation": "Department of Biomedical Engineering, University of Rochester, Rochester, NY, 14627, USA; Department of Neuroscience, University of Rochester Medical Center, Rochester, NY, 14642, USA. Electronic address: laurel_carney@urmc.rochester.edu.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-20",
+      "first_seen_at": "2026-08-27T12:51:57Z"
     },
     {
       "title": "Predicting performance on the digits-in-noise test in noise and reverberation using the speech transmission index",
@@ -993,6 +1061,91 @@
       "first_seen_at": "2026-08-18T03:11:28Z"
     },
     {
+      "title": "Hearing Aid Noise Reduction Algorithms Support Neural Speech Tracking by Enhancing Spectrotemporal Consistency of Phase-Locked Brain Responses to Acoustic Edges",
+      "authors": [
+        "Adrian Mai",
+        "Tanja Biehl",
+        "Matthias Latzel",
+        "Stefan Launer",
+        "Daniel J Strauss",
+        "Farah I Corona-Strauss"
+      ],
+      "journal": "Trends in Hearing",
+      "publication_date": "2026-09-03",
+      "publication_date_precision": "day",
+      "doi": "10.1177/23312165261440453",
+      "url": "https://doi.org/10.1177/23312165261440453",
+      "abstract": "Previous works that have analyzed electroencephalographic (EEG) speech envelope encoding in hearing-aid users using stimulus reconstruction (SR) approaches have shown that noise reduction (NR) algorithms can improve the neural tracking of speech in noise. Beyond enhancing speech envelope encoding, NR may also restore the perceptibility of acoustic edges that trigger auditory late responses (ALRs), likely promoting more consistent ALR elicitation and thus enhancing brain-to-speech synchronization. To investigate this hypothesis, 26 hearing-impaired listeners were fitted with bilateral hearing aids and participated in an EEG experiment with the instruction to listen to a continuous single-speaker speech stimulus under speech-in-quiet conditions and speech-in-noise conditions with and without NR. Event-related potential analyses of neural responses to acoustic edges in the speech onset envelope revealed that P1 component amplitudes in averaged ALRs decreased significantly for speech-in-noise compared to speech-in-quiet conditions, but partially recovered when NR was activated. These observations correlated significantly with the degree of spectrotemporal consistency across single-trials for the associated ALR time-frequency component. Additionally, a SR analysis for the speech onset envelope produced qualitatively identical results that were highly correlated with those from the spectrotemporal consistency analysis. These findings suggest that hearing aid NR algorithms partly enhance neural speech tracking by restoring neural responses to acoustic edges. In turn, our results may support the future development of hearing aid processing strategies that could facilitate neural tracking of speech based on neural principles.",
+      "first_author_affiliation": "Systems Neuroscience and Neurotechnology Unit, Faculty of Medicine, Saarland University & htw saar",
+      "last_author_affiliation": "Systems Neuroscience and Neurotechnology Unit, Faculty of Medicine, Saarland University & htw saar",
+      "open_access": true,
+      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261440453",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "hearing aid",
+        "speech perception"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-03",
+      "first_seen_at": "2026-09-04T07:16:57Z",
+      "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261440453",
+      "media_checked_at": "2026-09-04T07:17:19Z",
+      "open_access_image_checked_at": "2026-09-04T07:17:19Z",
+      "ai_analysis": {
+        "scientific_question": "助听器降噪算法是否能通过恢复声学边缘引发的神经响应来增强听障者的大脑对言语的追踪能力？",
+        "key_highlight": "26名听障受试者的EEG实验显示，降噪算法能使噪声条件下的P1成分振幅部分恢复，且该恢复与单次试验听觉晚期反应的谱时一致性显著相关。",
+        "main_limitation": "受控实验室条件下的小样本（26名听障受试者）和单一说话人刺激可能限制研究结果的普适性。",
+        "research_implication": "研究结果支持基于神经机制开发助听器处理策略，为提升助听器言语追踪能力提供了神经生理学依据。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "6d265816164af423",
+        "updated_at": "2026-09-04T07:17:43Z"
+      }
+    },
+    {
+      "title": "Reconstructing individualized near-field head-related transfer functions from a small set of far-field data based on tensor decomposition",
+      "authors": [
+        "Tong Zhao",
+        "Bosun Xie",
+        "Jun Zhu"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046400",
+      "url": "https://doi.org/10.1121/10.0046400",
+      "abstract": "Head-related transfer functions (HRTFs) are pivotal in virtual auditory displays. Near-field HRTFs generally vary with source direction, distance, frequency, and individual. This multifaceted dependence presents significant challenges in near-field HRTF measurement and calculation. This study aims to reconstruct individualized near-field HRTFs with high-directional resolution from a small set of directionally measured or calculated data at a fixed far-field distance. By using the 4th-order tensor decomposition, near-field HRTFs are decomposed into a weighted combination of direction, distance, frequency, and a small number of individual-related modes. A training dataset of near-field HRTFs is used for the decomposition to calculate universal direction-, distance-, and frequency-related modes and the weights. For new individuals excluded from this dataset, individual-related modes are estimated from a small set of directional measurements or calculations of far-field HRTFs. Subsequently, this enables the estimation of individualized near-field HRTFs with high-directional resolution. Analytical examples demonstrate that a small number (15 or 14) of individual-related modes account for over 98% of the individual-related variation in HRTF magnitude square. Furthermore, high-directional resolution near-field HRTF magnitudes can be estimated using far-field data composed of 30 or 32 directional calculations or measurements. These findings are validated through psychoacoustic experiments, confirming the efficiency of the proposed method.",
+      "first_author_affiliation": "Acoustic Lab., School of Physics and Optoelectronics, South China University of Technology , Guangzhou 510641,",
+      "last_author_affiliation": "Acoustic Lab., School of Physics and Optoelectronics, South China University of Technology , Guangzhou 510641,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "priority section",
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-03",
+      "first_seen_at": "2026-09-04T07:16:55Z",
+      "ai_analysis": {
+        "scientific_question": "如何从有限的远场方向数据中重建个性化的高分辨率近场头相关传输函数（HRTF）？",
+        "key_highlight": "通过四阶张量分解方法，仅需15个左右的个性化模式和30-32个远场方向数据即可实现高分辨率近场HRTF估计，并经心理声学实验验证有效。",
+        "main_limitation": "方法的有效性依赖于训练数据集的代表性和质量，对数据集外个体的泛化能力仍需进一步验证。",
+        "research_implication": "该方法可为虚拟听觉显示和空间音频技术提供更高效的个性化HRTF估计手段，具有促进相关音频设备研究的潜在价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "2a1d782f955c6a04",
+        "updated_at": "2026-09-04T07:17:57Z"
+      }
+    },
+    {
       "title": "Cochlear Place Specificity of the Auditory Brainstem Response to Narrowband Chirp Versus 2-1-2 Stimuli: High-Pass Noise/Derived Responses",
       "authors": [
         "Ronald Nkansah Adjekum",
@@ -1004,6 +1157,18 @@
       "doi": "10.1097/aud.0000000000001890",
       "url": "https://doi.org/10.1097/aud.0000000000001890",
       "abstract": "Objectives: In recent years, many researchers have recommended using narrowband chirp (NBchirp) stimuli for auditory brainstem response (ABR) audiometry instead of more-standard 2-1-2 cycles linear-gated tones, primarily because NBchirps often result in larger ABR wave V amplitudes. However, the acoustic frequency spectra of currently recommended NBchirps are wider than those for 2-1-2 tones, and it is currently not known whether ABRs to these NBchirps have similar (or poorer) cochlear place specificity compared with 2-1-2 tones. The present study used the high-pass noise/derived response technique to assess the cochlear regions contributing to ABRs evoked by NBchirp versus 2-1-2 stimuli. Design: A total of 24 adults with normal hearing participated (N = 12 for each stimulus frequency). Stimuli were 60-dB pe SPL 500- and 2000-Hz NBchirps and 2-1-2 linear-gated tones mixed with high-pass (HP) filtered masking noise. The level of broadband (pink) noise required to mask the ABR was determined individually; then the broadband noise at this level was HP-filtered at ½-octave intervals. At least 3 ABR replications were obtained for each condition, with recordings stopped when the residual noise level of each replication was reduced to about 40 nV, with the goal of the average of all replications having a residual noise of about 23 nV (for HP noise-masked conditions). Derived responses (DRs) representing 1-octave-wide or ½-octave-wide cochlear regions were calculated by subtracting ABRs recorded in HP noise. Results: Non-masked ABR amplitudes in response to NBchirps were significantly larger than those to 2-1-2 stimuli, averaging 55% larger for 500 Hz and 81% larger for 2000 Hz. For both 500- and 2000-Hz stimuli, HP noise masking produced significant amplitude decreases, occurring 1 to ½ octave higher for ABRs to NBchirps versus 2-1-2 tones. One-octave-wide and ½-octave-wide DR amplitude profiles for the ABRs to 2-1-2 tones showed good cochlear place specificity, as described in previous studies. DR results for the NBchirps were similar but showed important differences. The profiles for the 2000-Hz NBchirps showed significantly larger amplitudes in the 4- and 1-kHz DRs compared with the 2-1-2 stimuli. Many more responses were seen 1 octave away for the 2000-Hz NBchirp compared with the 2-1-2 tone. DR results for 500-Hz tones showed similar patterns, but differences did not quite reach statistical significance, except that amplitudes to NBchirps were larger at DR354, DR500, and DR707. A measure of the width of the 1-octave-wide and ½-octave-wide DR amplitude profiles (BW 0.075 , in Hz) showed that the 500- and 2000-Hz NBchirp profiles were significantly wider (32 to 77%) compared with those for 2-1-2 stimuli. As the cochlear area able to respond decreased, wave V amplitudes to NBchirp stimuli decreased more than those for 2-1-2 stimuli, with smaller differences between stimuli for ½-octave-wide responses. Objective estimates of response signal to noise ratio supported the wave V amplitude results, with some differences. Conclusions: ABRs to NBchirps reflect wider cochlear contributions than those to 2-1-2 tones. Responses to NBchirps arise from cochlear regions as far as one octave away from the stimulus frequency. In contrast, responses to 2-1-2 tones arise from cochlear regions primarily within approximately ±0.5 octaves of the stimulus frequency. Further research in individuals with hearing loss, especially with steep hearing loss, is required to determine whether the wider bandwidths for NBchirps result in threshold misestimation and whether NBchirp amplitude advantages over more-standard stimuli remain with hearing loss.",
+      "ai_analysis": {
+        "scientific_question": "使用高频噪声掩蔽/导出反应技术评估窄带啁啾（NBchirp）与标准2-1-2音调刺激所诱发的听性脑干反应（ABR）是否具有相似的耳蜗位置特异性。",
+        "key_highlight": "NBchirp诱发的ABR反映的耳蜗贡献范围显著宽于2-1-2音调刺激，NBchirp响应可来自距刺激频率一个倍频程的区域，而2-1-2音调响应主要来自刺激频率±0.5倍频程范围内。",
+        "main_limitation": "研究仅纳入正常听力成人，被试数量相对有限，且作者明确指出需要在听力损失人群中进一步验证，尤其是陡降型听力损失患者。",
+        "research_implication": "该研究提示在临床ABR测听中应用NBchirp刺激时需谨慎，因其较宽的耳蜗贡献范围可能影响阈值估算的准确性，特别是在陡降型听力损失患者中。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "df22b7196e632888",
+        "updated_at": "2026-09-03T07:14:16Z"
+      },
       "first_author_affiliation": "School of Audiology and Speech Sciences, The University of British Columbia, Vancouver, British Columbia, Canada.",
       "last_author_affiliation": "School of Audiology and Speech Sciences, The University of British Columbia, Vancouver, British Columbia, Canada.",
       "publication_stage": "early_access",
@@ -1024,19 +1189,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-02",
-      "first_seen_at": "2026-09-03T07:13:36Z",
-      "ai_analysis": {
-        "scientific_question": "使用高频噪声掩蔽/导出反应技术评估窄带啁啾（NBchirp）与标准2-1-2音调刺激所诱发的听性脑干反应（ABR）是否具有相似的耳蜗位置特异性。",
-        "key_highlight": "NBchirp诱发的ABR反映的耳蜗贡献范围显著宽于2-1-2音调刺激，NBchirp响应可来自距刺激频率一个倍频程的区域，而2-1-2音调响应主要来自刺激频率±0.5倍频程范围内。",
-        "main_limitation": "研究仅纳入正常听力成人，被试数量相对有限，且作者明确指出需要在听力损失人群中进一步验证，尤其是陡降型听力损失患者。",
-        "research_implication": "该研究提示在临床ABR测听中应用NBchirp刺激时需谨慎，因其较宽的耳蜗贡献范围可能影响阈值估算的准确性，特别是在陡降型听力损失患者中。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "df22b7196e632888",
-        "updated_at": "2026-09-03T07:14:16Z"
-      }
+      "first_seen_at": "2026-09-03T07:13:36Z"
     },
     {
       "title": "Critical bandwidth measurements in pinnipeds",
@@ -1054,17 +1207,6 @@
       "doi": "10.1121/10.0044870",
       "url": "https://doi.org/10.1121/10.0044870",
       "abstract": "Auditory masking occurs when one sound interferes with the detection of another. While knowledge of this sensory phenomenon is growing, much of our understanding remains theoretical or based on terrestrial models. Empirical data become especially important when considering hearing in marine mammals that rely heavily on acoustic cues for foraging, communicating, and avoiding predation. To better understand how anthropogenic noise can influence hearing in otariid, odobenid, and phocid pinnipeds, detection thresholds for tonal sounds were measured for a trained California sea lion, Pacific walrus, bearded seal, and spotted seal within noise of progressively constrained spectral content. The frequency bandwidth of noise that contributed to the masking of a given tone (the “critical bandwidth”) was identified at up to six frequencies between 100 and 16 000 Hz. Absolute critical bandwidth values increased with increasing frequency in all four species, although taxon-level trends were apparent. The sea lion and walrus showed similar auditory adaptation to noise, with critical bandwidths ranging from 16%–35% and 21%–43% of center frequency, respectively. Critical bandwidths were narrower in both phocids, ranging from 14%–29% of center frequency across tested frequencies; particularly narrow bandwidths at 500 Hz and below suggest additional auditory specialization for seals at lower frequencies.",
-      "first_author_affiliation": "Institute of Marine Sciences, Long Marine Laboratory, University of California Santa Cruz 1 , Santa Cruz, California 95060,",
-      "last_author_affiliation": "Institute of Marine Sciences, Long Marine Laboratory, University of California Santa Cruz 1 , Santa Cruz, California 95060,",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "priority section",
-        "psychoacoustics"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-02",
-      "first_seen_at": "2026-09-03T07:13:31Z",
       "ai_analysis": {
         "scientific_question": "海洋噪声如何影响鳍足类哺乳动物的听觉掩蔽特性？",
         "key_highlight": "研究测量了四种鳍足类动物在100至16000 Hz频率范围内的临界带宽，发现绝对临界带宽值随频率增加而增加，且海豹的临界带宽比海狮和海象更窄，显示出低频区域的额外听觉特化。",
@@ -1076,7 +1218,18 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "298c6618af2086ac",
         "updated_at": "2026-09-03T07:14:30Z"
-      }
+      },
+      "first_author_affiliation": "Institute of Marine Sciences, Long Marine Laboratory, University of California Santa Cruz 1 , Santa Cruz, California 95060,",
+      "last_author_affiliation": "Institute of Marine Sciences, Long Marine Laboratory, University of California Santa Cruz 1 , Santa Cruz, California 95060,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "priority section",
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-02",
+      "first_seen_at": "2026-09-03T07:13:31Z"
     },
     {
       "title": "Event-driven changes in near-shore underwater noise during the 37th America's Cup in Barcelona",
@@ -1089,22 +1242,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0046430",
       "url": "https://doi.org/10.1121/10.0046430",
-      "abstract": "Vessel noise is a recognised stressor for marine fauna, yet acoustic pressure from large-scale maritime events in urban coastal settings remains poorly quantified. Using calibrated hydrophone recordings and Automatic Identification System (AIS) data from the DeuteroNoise dataset, we document near-shore noise during the 37th America's Cup (Barcelona, October 2024) against non-event baselines. Broadband levels increased by 5–8 dB re 1 μPa, day–night variability, ∼2.3 dB in the representative summer baseline, collapsed to <1 dB during the event, and 63 and 125 Hz third-octave bands rose by 4 dB during the day and up to 13 dB at night, indicating sustained low-frequency pressure throughout event days.",
-      "first_author_affiliation": "Human Environment Research (HER), La Salle – Universitat Ramon Llull , Carrer de Sant Joan de La Salle 42, Barcelona 08022, Catalunya,",
-      "last_author_affiliation": "Human Environment Research (HER), La Salle – Universitat Ramon Llull , Carrer de Sant Joan de La Salle 42, Barcelona 08022, Catalunya,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0046430",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-02",
-      "first_seen_at": "2026-09-03T07:13:32Z",
       "full_text_url": "https://pubs.aip.org/jel/article/6/9/096002/3403667/Event-driven-changes-in-near-shore-underwater",
-      "media_checked_at": "2026-09-03T07:13:58Z",
-      "open_access_image_checked_at": "2026-09-03T07:13:58Z",
+      "abstract": "Vessel noise is a recognised stressor for marine fauna, yet acoustic pressure from large-scale maritime events in urban coastal settings remains poorly quantified. Using calibrated hydrophone recordings and Automatic Identification System (AIS) data from the DeuteroNoise dataset, we document near-shore noise during the 37th America's Cup (Barcelona, October 2024) against non-event baselines. Broadband levels increased by 5–8 dB re 1 μPa, day–night variability, ∼2.3 dB in the representative summer baseline, collapsed to <1 dB during the event, and 63 and 125 Hz third-octave bands rose by 4 dB during the day and up to 13 dB at night, indicating sustained low-frequency pressure throughout event days.",
       "ai_analysis": {
         "scientific_question": "大型航海赛事在城市沿海环境中对近岸水下噪声水平的影响如何？",
         "key_highlight": "37届美洲杯期间巴塞罗那近岸宽带声级增加5–8 dB，且日夜变异性显著降低至<1 dB，低频段（63和125 Hz）声级在夜间最高增加13 dB。",
@@ -1116,7 +1255,21 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "776b3317429211eb",
         "updated_at": "2026-09-03T07:14:41Z"
-      }
+      },
+      "first_author_affiliation": "Human Environment Research (HER), La Salle – Universitat Ramon Llull , Carrer de Sant Joan de La Salle 42, Barcelona 08022, Catalunya,",
+      "last_author_affiliation": "Human Environment Research (HER), La Salle – Universitat Ramon Llull , Carrer de Sant Joan de La Salle 42, Barcelona 08022, Catalunya,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046430",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "open_access_image_checked_at": "2026-09-03T07:13:58Z",
+      "media_checked_at": "2026-09-03T07:13:58Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-02",
+      "first_seen_at": "2026-09-03T07:13:32Z"
     },
     {
       "title": "Site-specific acoustic, rooftop velocity, and window acceleration measurements during the NASA Artemis II launch",
@@ -1132,22 +1285,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0046431",
       "url": "https://doi.org/10.1121/10.0046431",
-      "abstract": "Acoustic, rooftop velocity, and window acceleration measurements were obtained during the NASA Artemis II launch at community sites 26–27 km from LC-39B. The instruments were not co-located; observations are site-specific. The acoustic record peaked at 104 dB re 20 μPa (1-s overall sound pressure level); roof-mounted velocity peaked at 2.08 mm/s; and at a residential site, a glass-mounted accelerometer recorded a distinct out-of-plane response near 7.3 Hz, with peak acceleration of 0.36 g. All three showed peak energy in the 2–20 Hz band, identifying a building-component response not captured by conventional community-noise metrics.",
-      "first_author_affiliation": "Department of Physics, Rollins College 1 , 1000 Holt Avenue, Winter Park, Florida 32789,",
-      "last_author_affiliation": "Department of Physics, Rollins College 1 , 1000 Holt Avenue, Winter Park, Florida 32789,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0046431",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-02",
-      "first_seen_at": "2026-09-03T07:13:32Z",
       "full_text_url": "https://pubs.aip.org/jel/article/6/9/093601/3403657/Site-specific-acoustic-rooftop-velocity-and-window",
-      "media_checked_at": "2026-09-03T07:13:58Z",
-      "open_access_image_checked_at": "2026-09-03T07:13:58Z",
+      "abstract": "Acoustic, rooftop velocity, and window acceleration measurements were obtained during the NASA Artemis II launch at community sites 26–27 km from LC-39B. The instruments were not co-located; observations are site-specific. The acoustic record peaked at 104 dB re 20 μPa (1-s overall sound pressure level); roof-mounted velocity peaked at 2.08 mm/s; and at a residential site, a glass-mounted accelerometer recorded a distinct out-of-plane response near 7.3 Hz, with peak acceleration of 0.36 g. All three showed peak energy in the 2–20 Hz band, identifying a building-component response not captured by conventional community-noise metrics.",
       "ai_analysis": {
         "scientific_question": "社区站点在远离发射场的距离下，火箭发射产生的声学、屋顶振动和窗户加速度响应的特征是什么",
         "key_highlight": "建筑构件在2-20 Hz频段出现明显的响应特征，而这一特征无法被传统社区噪声指标所捕获",
@@ -1159,7 +1298,21 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "fca42f9a101bd6f8",
         "updated_at": "2026-09-03T07:14:50Z"
-      }
+      },
+      "first_author_affiliation": "Department of Physics, Rollins College 1 , 1000 Holt Avenue, Winter Park, Florida 32789,",
+      "last_author_affiliation": "Department of Physics, Rollins College 1 , 1000 Holt Avenue, Winter Park, Florida 32789,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046431",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-09-03T07:13:58Z",
+      "media_checked_at": "2026-09-03T07:13:58Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-02",
+      "first_seen_at": "2026-09-03T07:13:32Z"
     },
     {
       "title": "ABSE-NET: A Lightweight Neural Model for Active Binaural Speech Enhancement in Open-Fit Hearing Aids",
@@ -1628,6 +1781,27 @@
       "first_seen_at": "2026-07-06T06:50:04Z"
     },
     {
+      "title": "Contributions of aging, auditory nerve health, and speed of processing to psychophysical gap detection thresholds in cochlear implant users",
+      "authors": [
+        "Kara C. Schvartz-Leyzac",
+        "Kelly C. Harris"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109801",
+      "url": "https://doi.org/10.1016/j.heares.2026.109801",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "cochlear implant"
+      ],
+      "source": "crossref",
+      "first_seen_at": "2026-09-04T07:17:01Z"
+    },
+    {
       "title": "Crossmodal plasticity in core auditory cortex following deafness: An evaluation of evidence for and against",
       "authors": [
         "Yaser Merrikhi",
@@ -1909,6 +2083,27 @@
       "first_seen_at": "2026-07-01T06:49:27Z"
     },
     {
+      "title": "Effects of gap onset time and gap duration on the deviant-related negativity in typically developing school-age children",
+      "authors": [
+        "Shaghayegh Omidvar",
+        "Kenneth Campbell",
+        "Steven Aiken",
+        "Claude Alain",
+        "Amineh Koravand"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109787",
+      "url": "https://doi.org/10.1016/j.heares.2026.109787",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-04T07:17:01Z"
+    },
+    {
       "title": "Electrophysiologically-based electrode selection has the potential to improve speech perception in cochlear-implant users",
       "authors": [
         "Wouter David",
@@ -2188,6 +2383,18 @@
       "url": "https://doi.org/10.1007/s10162-026-01069-5",
       "full_text_url": "https://link.springer.com/article/10.1007/s10162-026-01069-5",
       "abstract": "The nonlinear cochlear amplifier, driven by outer hair cells, underlies the remarkable sensitivity and frequency selectivity of the mammalian auditory system. Stimulus frequency otoacoustic emissions (SFOAEs) provide a noninvasive window into these active cochlear processes, yet the relationship between emission gain and delay across stimulus levels remains incompletely understood. This study examined the level dependence of SFOAEs in normal-hearing human listeners to characterize cochlear nonlinear response properties. We tested how emission gain and delay vary with stimulus level and estimated the frequency of the apical-basal transition associated with the breakdown of the approximate local scaling symmetry. SFOAEs were recorded from a cohort of normal-hearing participants (n = 20; females = 13) across a range of stimulus levels. A time-frequency filtering approach was applied to isolate single-reflection components and improve signal-to-noise ratio, yielding stable and unbiased estimates of emission level and phase-gradient delay. The relationships between stimulus level, gain, and delay were analyzed and normalized using a general relation derived from the fundamental physical properties of linear two-dimensional cochlear model. The results confirm the nonlinear dependence of SFOAE level and delay on stimulus level. However, when the variations in gain and delay were compared to the predictions of a linear and a nonlinear 2D cochlear model, the discrepancy with the linear model predictions was evident. Measurements also revealed no stimulus-level dependence of the apical-basal transition frequency, consistent with a fixed apical cochlear region associated with the breakdown of the approximate scaling symmetry. The relative decoupling between gain and delay indicates that changes in cochlear amplification do not produce proportionate changes in emission timing, revealing constraints on the relationship between amplification and phase behavior in human cochlear responses. These findings indicate that SFOAE delay may remain informative about cochlear tuning, but nonlinear cochlear models could be constrained by the observed decoupling between gain and delay.",
+      "ai_analysis": {
+        "scientific_question": "研究正常听力受试者的刺激频率耳声发射(SFOAEs)中增益和延迟如何随刺激水平变化，以表征人耳柯蒂氏器的非线性响应特性。",
+        "key_highlight": "研究揭示了增益与延迟之间的相对解耦现象，即柯蒂氏器放大能力的变化不会引起相应比例的发射时间变化。",
+        "main_limitation": "样本仅包含20名正常听力成年人，限制了向听力受损人群或更广泛临床应用的推广。",
+        "research_implication": "研究结果表明SFOAE延迟可能仍保留有关柯蒂氏器调谐特征的信息，但观察到的增益-延迟解耦现象为构建更精确的非线性柯蒂氏器模型提供了重要的生理学约束。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "b25b23f5ddf5109c",
+        "updated_at": "2026-09-03T07:15:02Z"
+      },
       "last_author_affiliation": "Speech, Language, & Hearing Sciences, University of Texas at Austin, Austin, TX, 78712-0114, USA. srikanta.mishra@austin.utexas.edu.",
       "open_access": true,
       "open_access_url": "https://link.springer.com/article/10.1007/s10162-026-01069-5",
@@ -2215,19 +2422,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-01",
-      "first_seen_at": "2026-09-02T07:08:59Z",
-      "ai_analysis": {
-        "scientific_question": "研究正常听力受试者的刺激频率耳声发射(SFOAEs)中增益和延迟如何随刺激水平变化，以表征人耳柯蒂氏器的非线性响应特性。",
-        "key_highlight": "研究揭示了增益与延迟之间的相对解耦现象，即柯蒂氏器放大能力的变化不会引起相应比例的发射时间变化。",
-        "main_limitation": "样本仅包含20名正常听力成年人，限制了向听力受损人群或更广泛临床应用的推广。",
-        "research_implication": "研究结果表明SFOAE延迟可能仍保留有关柯蒂氏器调谐特征的信息，但观察到的增益-延迟解耦现象为构建更精确的非线性柯蒂氏器模型提供了重要的生理学约束。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "b25b23f5ddf5109c",
-        "updated_at": "2026-09-03T07:15:02Z"
-      }
+      "first_seen_at": "2026-09-02T07:08:59Z"
     },
     {
       "title": "Hearing Loss Is Reflected in Conversational Pupil Responses",
@@ -2443,6 +2638,31 @@
       "first_seen_at": "2026-07-07T06:28:36Z"
     },
     {
+      "title": "Neural Origins of the Acoustic Change Complex Auditory Evoked Potential: Topographical Maps and Source Localization in the Auditory Cortex",
+      "authors": [
+        "Sarah Meehan",
+        "Robert van den Berg",
+        "Nick Hanenberg",
+        "Marloes L. Adank",
+        "Laura I.A. Schellekens",
+        "Geert Geleijnse",
+        "Jantien L. Vroegop"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109799",
+      "url": "https://doi.org/10.1016/j.heares.2026.109799",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref",
+      "first_seen_at": "2026-09-04T07:17:01Z"
+    },
+    {
       "title": "Ocean sound measurements collected from underwater gliders with marginal effects of flow noise",
       "authors": [
         "Pierre Cauchy"
@@ -2543,14 +2763,6 @@
       "doi": "10.1121/10.0044526",
       "url": "https://doi.org/10.1121/10.0044526",
       "abstract": "Soundscapes are increasingly understood as multidimensional environments that shape perceptual, emotional, cognitive, and physiological responses. However, most soundscape studies rely on generic designs that may not reflect individual preferences or sensitivities. This study compares personalised soundscapes, constructed by participants to represent specific emotional–cognitive states, with generic soundscapes across perceptual, emotional, cognitive, and physiological domains. Participants created personalised soundscapes representing Relaxation, Pleasant, Energetic, Annoying, and Focus states using a structured design interface. These were evaluated alongside generic counterparts using ISO 12913-based perceptual scales, emotional ratings, a cognitive Stroop task, and physiological measures including electrodermal activity (EDA), photoplethysmography-derived heart rate variability, and electroencephalography. Within-subject non-parametric analyses were applied throughout. Personalised soundscapes were consistently rated as more pleasant, calmer, and more closely aligned with their intended experiential states than generic soundscapes, with parallel effects observed for emotional evaluations. Cognitive results showed a task-dependent pattern: Energetic soundscapes elicited faster Stroop response times and lower Inverse Efficiency Scores than Focus soundscapes, despite Focus being perceived as calmer and more conducive to self-regulation. Physiological responses were largely descriptive; most effects did not survive correction for multiple comparisons. EDA showed selective significant contrasts for Focus soundscapes, while cardiovascular and electroencephalographic measures showed directionally consistent but statistically unreliable trends. Overall, the findings indicate that personalisation enhances perceptual and emotional alignment and yields partially convergent physiological patterns, while highlighting the importance of task context in soundscape evaluation.",
-      "first_author_affiliation": "Acoustics Research Centre, School of Science, Engineering and Environment, University of Salford 1 , Salford M5 4WT,",
-      "last_author_affiliation": "Acoustics Research Centre, School of Science, Engineering and Environment, University of Salford 1 , Salford M5 4WT,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-01",
-      "first_seen_at": "2026-09-02T07:08:57Z",
       "ai_analysis": {
         "scientific_question": "个性化的声景体验是否比通用声景在感知、情绪、认知和生理反应方面产生更强的体验一致性和调节效果？",
         "key_highlight": "个性化声景在感知评价和情绪评估中始终表现出更高的愉悦度、更强的平静感以及与目标体验状态更一致的匹配度，但生理指标效应大多未通过多重比较校正。",
@@ -2562,7 +2774,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "84c3f2f00ce6d86b",
         "updated_at": "2026-09-03T07:15:14Z"
-      }
+      },
+      "first_author_affiliation": "Acoustics Research Centre, School of Science, Engineering and Environment, University of Salford 1 , Salford M5 4WT,",
+      "last_author_affiliation": "Acoustics Research Centre, School of Science, Engineering and Environment, University of Salford 1 , Salford M5 4WT,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-01",
+      "first_seen_at": "2026-09-02T07:08:57Z"
     },
     {
       "title": "Polygenic risk score analysis of noise-induced hearing loss: An integrated cross-sectional and longitudinal study",
@@ -2641,7 +2861,19 @@
       "tags": [],
       "source": "crossref",
       "available_online_date": "2026-09-01",
-      "first_seen_at": "2026-09-02T07:08:57Z"
+      "first_seen_at": "2026-09-02T07:08:57Z",
+      "ai_analysis": {
+        "scientific_question": "本内容不属于原创研究，而是对声学专利进行信息性综述的常规栏目。",
+        "key_highlight": "该栏目旨在为读者提供足够信息以判断是否需要进一步查阅专利原文。",
+        "main_limitation": "此类专利综述文章仅提供描述性信息，不涉及原创性研究或实证数据，因此不构成可评估的学术研究发现。",
+        "research_implication": "该综述栏目本身不属于实证研究范畴，无直接研究启示意义。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "e5992300588be7d9",
+        "updated_at": "2026-09-04T07:18:09Z"
+      }
     },
     {
       "title": "Repopulating microglia recapitulate developmental characteristics during a period of auditory circuit recovery",
@@ -2718,7 +2950,19 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-01",
-      "first_seen_at": "2026-09-02T07:08:57Z"
+      "first_seen_at": "2026-09-02T07:08:57Z",
+      "ai_analysis": {
+        "scientific_question": "建筑师和声学专家对音乐厅声学效果的感知描述是否使用相同的语言和评价策略。",
+        "key_highlight": "研究发现建筑师和声学专家在感知词汇和评价策略上存在显著差异，表现为建筑师倾向于使用视觉属性而声学专家倾向于使用听觉属性。",
+        "main_limitation": "样本仅限于43名具有音乐厅声学经验的建筑师和声学专家，研究结论可能难以推广至其他专业背景或非专家群体。",
+        "research_implication": "该研究为深入理解不同专业视角下的声学感知差异提供了方法学参考，提示跨学科合作中需注意专业背景对声学评价的影响。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "8e85db5b919b4a66",
+        "updated_at": "2026-09-04T07:18:18Z"
+      }
     },
     {
       "title": "Single-hydrophone bearing estimation for long-range underwater navigation",
@@ -2749,7 +2993,19 @@
       "tags": [],
       "source": "crossref",
       "available_online_date": "2026-09-01",
-      "first_seen_at": "2026-09-02T07:08:58Z"
+      "first_seen_at": "2026-09-02T07:08:58Z",
+      "ai_analysis": {
+        "scientific_question": "单水听器能否在复杂海洋环境中通过低频声源实现远距离水下导航的方位估计？",
+        "key_highlight": "通过在匹配滤波过程中考虑水听器运动，成功实现了对远至148公里、深度约1100米信标源的方位估计。",
+        "main_limitation": "实验仅在两个海山附近海域进行，方法在平坦海底或不同水文条件下的适用性有待验证。",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "a7a896580a9966ba",
+        "updated_at": "2026-09-04T07:18:32Z"
+      }
     },
     {
       "title": "Slc16a5 (MCT6) knockout induces sex-dependent changes in auditory function, hair cell viability and cochlear transcriptomic programs in the mouse",
@@ -3046,7 +3302,19 @@
       ],
       "source": "crossref",
       "available_online_date": "2026-09-01",
-      "first_seen_at": "2026-09-02T07:08:58Z"
+      "first_seen_at": "2026-09-02T07:08:58Z",
+      "ai_analysis": {
+        "scientific_question": "语音克隆在年轻成人中产生的可懂度优势是否同样存在于中年听者（45-65岁）群体中？",
+        "key_highlight": "语音克隆在中度噪声条件下比人声可懂度提高11.8%，在-6 dB和-3 dB信噪比下优势更显著（分别为15.9%和17.5%）。",
+        "main_limitation": "样本仅限于中年成年人（45-65岁），尚不清楚该优势是否适用于年轻成人或老年群体。",
+        "research_implication": "语音克隆技术可能通过降低听努力和补偿年龄相关的听觉认知衰退，为助听器或言语感知辅助技术提供应用前景。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "15b90fc20b58cd4a",
+        "updated_at": "2026-09-04T07:18:43Z"
+      }
     },
     {
       "title": "Validation of the 'Arabic Commands in Noise Test' and Evaluation of the Impact of Conscientiousness on Test Performance",
@@ -3571,6 +3839,36 @@
       "source": "crossref",
       "available_online_date": "2026-08-28",
       "first_seen_at": "2026-08-28T14:24:20Z"
+    },
+    {
+      "title": "The effect of sound level and signal-to-noise ratio on adaptation to noise in spectral and temporal modulation detection",
+      "authors": [
+        "David López-Ramos",
+        "Almudena Eustaquio-Martín",
+        "Miriam I. Marrufo-Pérez",
+        "Luis E. López-Bascuas",
+        "Enrique A. Lopez-Poveda"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-08-28",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109790",
+      "url": "https://doi.org/10.1016/j.heares.2026.109790",
+      "abstract": "Adaptation to noise is the improvement in auditory function as the signal of interest is delayed in the noise. Previous research has shown that adaptation to noise occurs in the detection of temporal and spectral modulations when these modulations occur separately but not when they occur simultaneously. The aim of the present study was to investigate if adaptation to noise in spectral and temporal modulation detection depends on the signal level or on the signal-to-noise ratio (SNR). The signal was a 200-ms spectrally (2 cycles/oct) or temporally (10 Hz) modulated ripple noise embedded in white noise with noise-signal onset delays of 50 ms (early condition) and 800 ms (late condition). Adaptation was calculated as the improvement in the modulation detection threshold in the late condition with respect to the early condition. To explore if adaptation depends on the sound level (Experiment 1), adaptation was measured for ripple noise levels of 45, 60 and 75 dB SPL and a fixed SNR of 0 dB. Statistically significant adaptation occurred in spectral modulation detection at all three levels. Adaptation in temporal modulation detection was statistically significant at 60 and 75 dB SPL, but not at 45 dB SPL. To explore if adaptation to noise depends on the SNR (Experiment 2), adaptation was measured for five SNRs (-10, -5, 0, 5 and 10 dB) while fixing the level of the white noise at 60 dB SPL. Adaptation in spectral modulation detection was statistically significant for all SNRs except +5 dB. Adaptation in temporal modulation detection was statistically significant only at -10 and 0 dB SNR. Findings are discussed with regard to potential mechanisms involved in adaptation to noise.",
+      "last_author_affiliation": "Instituto de Neurociencias de Castilla y León (INCYL), Universidad de Salamanca, 37007, Salamanca, Spain.; Instituto de Investigación Biomédica de Salamanca (IBSAL), Universidad de Salamanca, 37007, Salamanca, Spain.; Departamento de Cirugía, Facultad de Medicina, Universidad de Salamanca, 37007, Salamanca, Spain.. Electronic address: ealopezpoveda@usal.es.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Auditory adaptation",
+        "Hearing in noise",
+        "Modulation perception"
+      ],
+      "tags": [
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-28",
+      "first_seen_at": "2026-09-04T07:17:01Z"
     },
     {
       "title": "Slow dynamics under high confining pressure in saturated sandstone with pore pressure",
@@ -4760,51 +5058,6 @@
       "first_seen_at": "2026-08-22T03:09:46Z"
     },
     {
-      "title": "Age-related changes in acoustic cue use for speech-in-speech perception",
-      "authors": [
-        "Elizabeth Fish",
-        "Mishaela DiNino"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-08-20",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109780",
-      "url": "https://doi.org/10.1016/j.heares.2026.109780",
-      "abstract": "Acoustic cues such as pitch and spatial location allow listeners to attend to a target speaker and ignore competing talkers, aiding speech recognition in background noise. Diminished ability to utilize acoustic cues for speech stream segregation may thus contribute to older adults' challenges hearing in noise. Adults aged 18-74 completed a speech-in-speech identification task with three conditions containing 1) only pitch cues (fundamental frequency), 2) only spatial cues (interaural time differences; ITDs), or 3) both pitch and spatial cues for segregating a target talker from competing talkers. Hearing thresholds at standard and extended high frequencies (EHFs), auditory brainstem responses (ABRs), and digit span scores were acquired to examine whether sensory and cognitive factors that change with age influence acoustic cue use for speech-in-speech recognition. Significant differences were observed between cue condition scores indicating that use of the available cue(s) drove performance. Older adults (aged 40+) performed significantly more poorly on all cue conditions relative to younger adults. Hearing thresholds at standard frequencies significantly predicted scores on the Pitch condition. EHF hearing thresholds better predicted Spatial and Both Cue condition performance. ABR metrics were not a predictor in the expected direction but backward digit span scores significantly predicted scores on the more difficult conditions, demonstrating greater cognitive resource reliance in challenging listening scenarios regardless of acoustic content. Age-related changes in auditory function may therefore impair older adults' speech-in-noise perception by reducing their ability to use acoustic cues for segregating target and competing speech.",
-      "ai_analysis": {
-        "scientific_question": "老年人利用基频（音高）和空间（耳间时间差）线索进行语音-语音分离的能力如何随年龄变化，以及听觉和认知因素如何影响这一过程？",
-        "key_highlight": "研究发现40岁以上成人在所有线索条件下表现均较差，且标准频率听力阈值可预测音高线索使用，而扩展高频听力阈值更能预测空间线索使用，后向数字广度在困难条件下成为重要预测因素。",
-        "main_limitation": "横断面设计难以区分衰老效应与队列效应，且实验室语音识别任务与真实环境 listening conditions 存在差异。",
-        "research_implication": "研究提示助听器应重视扩展高频段的放大策略以及空间线索的保留，以改善老年用户在嘈杂环境中的语音分离能力。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "7f0c62cbbb108720",
-        "updated_at": "2026-08-27T12:53:32Z"
-      },
-      "last_author_affiliation": "Department of Communicative Disorders and Sciences, University at Buffalo, Buffalo, NY 14214, USA. Electronic address: dinino@buffalo.edu.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Acoustic cues",
-        "Aging",
-        "Fundamental frequency",
-        "Interaural time differences",
-        "Middle-aged",
-        "Older adult",
-        "Speech-in-noise perception"
-      ],
-      "tags": [
-        "auditory physiology",
-        "psychoacoustics",
-        "speech perception"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-08-20",
-      "first_seen_at": "2026-08-27T12:51:57Z"
-    },
-    {
       "title": "Compressional wave attenuation inversion in the New England Mud Patch",
       "authors": [
         "Gopu R. Potty",
@@ -4845,47 +5098,6 @@
       "source": "crossref",
       "available_online_date": "2026-08-20",
       "first_seen_at": "2026-08-21T03:18:14Z"
-    },
-    {
-      "title": "Formant-frequency encoding in the inferior colliculus of awake rabbit: Physiological and model responses",
-      "authors": [
-        "Swapna Agarwalla",
-        "Laurel H. Carney"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-08-20",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109782",
-      "url": "https://doi.org/10.1016/j.heares.2026.109782",
-      "abstract": "Most neurons in the inferior colliculus (IC), a key integration hub in the ascending auditory pathway, are sensitive to important features of vowels, periodic sounds with spectral peaks referred to as formants. A recent psychoacoustic study found that increased formant bandwidth elevates formant-frequency discrimination thresholds in human listeners, hypothesized to be due to reduced neural fluctuation (NF) contrast along the tonotopic axis (Carney et al., 2023). The current study tested this hypothesis and investigated the neural mechanisms underlying IC responses in awake rabbit to single-formant, synthetic, vowel-like stimuli with varied bandwidths. Formant frequencies were shifted past the neural characteristic frequency to infer response profiles across the tonotopic axis. The NF profile is converted into a rate-place profile by IC neurons that are sensitive to amplitude modulations. Two stimulus paradigms were used to assess the role of energy cues, which vary when formant bandwidths are changed: one matched the overall levels of synthetic formants across conditions, and the other matched the peak levels. The discharge-rate profiles as a function of formant bandwidth were consistent across both paradigms, thus energy alone did not determine IC rates, which were typically higher for narrower formant bandwidths. Formant-frequency discrimination thresholds estimated from single-neuron responses were higher than human thresholds but had similar trends. IC neurons are also sensitive to fast frequency sweeps (chirps) which are present in vowels; formant-frequency discrimination thresholds based on neural responses were correlated with the sensitivity of IC neurons to chirp velocity but not direction. Responses of IC neurons with band-suppressed, but not band-enhanced, modulation transfer functions supported the hypothesis that IC neurons encode vowels as predicted by neural-fluctuation profiles. Trends in responses of IC neurons with both types of modulation transfer function were explained for a range of formant bandwidths and both stimulus paradigms by a model with same-frequency inhibition and excitation plus broadband, modulation-sensitive inhibition.",
-      "ai_analysis": {
-        "scientific_question": "验证神经波动对比度降低是否介导了带宽增加导致的IC神经元共振峰辨别阈值升高，并探究其神经机制。",
-        "key_highlight": "具有带抑型调制传递函数的IC神经元能够根据神经波动轮廓编码元音共振峰，其共振峰辨别阈值与啁啾信号速度敏感性显著相关。",
-        "main_limitation": "Limited generalizability due to small or specific sample",
-        "research_implication": "General research findings",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "81898d6d1b31ba4c",
-        "updated_at": "2026-08-27T12:53:43Z"
-      },
-      "last_author_affiliation": "Department of Biomedical Engineering, University of Rochester, Rochester, NY, 14627, USA; Department of Neuroscience, University of Rochester Medical Center, Rochester, NY, 14642, USA. Electronic address: laurel_carney@urmc.rochester.edu.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Auditory midbrain",
-        "Chirp sensitivity",
-        "Computational modeling",
-        "Modulation tuning",
-        "Neural coding of speech"
-      ],
-      "tags": [
-        "psychoacoustics"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-08-20",
-      "first_seen_at": "2026-08-27T12:51:57Z"
     },
     {
       "title": "Multipaths in acoustic tomography of aero-propulsion flows",
@@ -8804,22 +9016,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044504",
-      "url": "https://doi.org/10.1121/10.0044504",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:37Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -8832,6 +9028,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:36Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044504",
+      "url": "https://doi.org/10.1121/10.0044504",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:37Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -16371,17 +16583,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -16402,18 +16615,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -25737,22 +25949,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -25765,6 +25961,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -32699,23 +32911,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -32729,6 +32924,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -36064,8 +36276,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -36079,8 +36291,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -41601,8 +41813,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -41616,8 +41828,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
