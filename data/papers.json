@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T07:17:13Z",
+  "generated_at": "2026-09-05T06:58:41Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
@@ -1075,26 +1075,8 @@
       "publication_date_precision": "day",
       "doi": "10.1177/23312165261440453",
       "url": "https://doi.org/10.1177/23312165261440453",
-      "abstract": "Previous works that have analyzed electroencephalographic (EEG) speech envelope encoding in hearing-aid users using stimulus reconstruction (SR) approaches have shown that noise reduction (NR) algorithms can improve the neural tracking of speech in noise. Beyond enhancing speech envelope encoding, NR may also restore the perceptibility of acoustic edges that trigger auditory late responses (ALRs), likely promoting more consistent ALR elicitation and thus enhancing brain-to-speech synchronization. To investigate this hypothesis, 26 hearing-impaired listeners were fitted with bilateral hearing aids and participated in an EEG experiment with the instruction to listen to a continuous single-speaker speech stimulus under speech-in-quiet conditions and speech-in-noise conditions with and without NR. Event-related potential analyses of neural responses to acoustic edges in the speech onset envelope revealed that P1 component amplitudes in averaged ALRs decreased significantly for speech-in-noise compared to speech-in-quiet conditions, but partially recovered when NR was activated. These observations correlated significantly with the degree of spectrotemporal consistency across single-trials for the associated ALR time-frequency component. Additionally, a SR analysis for the speech onset envelope produced qualitatively identical results that were highly correlated with those from the spectrotemporal consistency analysis. These findings suggest that hearing aid NR algorithms partly enhance neural speech tracking by restoring neural responses to acoustic edges. In turn, our results may support the future development of hearing aid processing strategies that could facilitate neural tracking of speech based on neural principles.",
-      "first_author_affiliation": "Systems Neuroscience and Neurotechnology Unit, Faculty of Medicine, Saarland University & htw saar",
-      "last_author_affiliation": "Systems Neuroscience and Neurotechnology Unit, Faculty of Medicine, Saarland University & htw saar",
-      "open_access": true,
-      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261440453",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "auditory physiology",
-        "hearing aid",
-        "speech perception"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-09-03",
-      "first_seen_at": "2026-09-04T07:16:57Z",
       "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261440453",
-      "media_checked_at": "2026-09-04T07:17:19Z",
-      "open_access_image_checked_at": "2026-09-04T07:17:19Z",
+      "abstract": "Previous works that have analyzed electroencephalographic (EEG) speech envelope encoding in hearing-aid users using stimulus reconstruction (SR) approaches have shown that noise reduction (NR) algorithms can improve the neural tracking of speech in noise. Beyond enhancing speech envelope encoding, NR may also restore the perceptibility of acoustic edges that trigger auditory late responses (ALRs), likely promoting more consistent ALR elicitation and thus enhancing brain-to-speech synchronization. To investigate this hypothesis, 26 hearing-impaired listeners were fitted with bilateral hearing aids and participated in an EEG experiment with the instruction to listen to a continuous single-speaker speech stimulus under speech-in-quiet conditions and speech-in-noise conditions with and without NR. Event-related potential analyses of neural responses to acoustic edges in the speech onset envelope revealed that P1 component amplitudes in averaged ALRs decreased significantly for speech-in-noise compared to speech-in-quiet conditions, but partially recovered when NR was activated. These observations correlated significantly with the degree of spectrotemporal consistency across single-trials for the associated ALR time-frequency component. Additionally, a SR analysis for the speech onset envelope produced qualitatively identical results that were highly correlated with those from the spectrotemporal consistency analysis. These findings suggest that hearing aid NR algorithms partly enhance neural speech tracking by restoring neural responses to acoustic edges. In turn, our results may support the future development of hearing aid processing strategies that could facilitate neural tracking of speech based on neural principles.",
       "ai_analysis": {
         "scientific_question": "助听器降噪算法是否能通过恢复声学边缘引发的神经响应来增强听障者的大脑对言语的追踪能力？",
         "key_highlight": "26名听障受试者的EEG实验显示，降噪算法能使噪声条件下的P1成分振幅部分恢复，且该恢复与单次试验听觉晚期反应的谱时一致性显著相关。",
@@ -1106,7 +1088,25 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "6d265816164af423",
         "updated_at": "2026-09-04T07:17:43Z"
-      }
+      },
+      "first_author_affiliation": "Systems Neuroscience and Neurotechnology Unit, Faculty of Medicine, Saarland University & htw saar",
+      "last_author_affiliation": "Systems Neuroscience and Neurotechnology Unit, Faculty of Medicine, Saarland University & htw saar",
+      "open_access": true,
+      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261440453",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-09-04T07:17:19Z",
+      "media_checked_at": "2026-09-04T07:17:19Z",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "hearing aid",
+        "speech perception"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-03",
+      "first_seen_at": "2026-09-04T07:16:57Z"
     },
     {
       "title": "Reconstructing individualized near-field head-related transfer functions from a small set of far-field data based on tensor decomposition",
@@ -1121,17 +1121,6 @@
       "doi": "10.1121/10.0046400",
       "url": "https://doi.org/10.1121/10.0046400",
       "abstract": "Head-related transfer functions (HRTFs) are pivotal in virtual auditory displays. Near-field HRTFs generally vary with source direction, distance, frequency, and individual. This multifaceted dependence presents significant challenges in near-field HRTF measurement and calculation. This study aims to reconstruct individualized near-field HRTFs with high-directional resolution from a small set of directionally measured or calculated data at a fixed far-field distance. By using the 4th-order tensor decomposition, near-field HRTFs are decomposed into a weighted combination of direction, distance, frequency, and a small number of individual-related modes. A training dataset of near-field HRTFs is used for the decomposition to calculate universal direction-, distance-, and frequency-related modes and the weights. For new individuals excluded from this dataset, individual-related modes are estimated from a small set of directional measurements or calculations of far-field HRTFs. Subsequently, this enables the estimation of individualized near-field HRTFs with high-directional resolution. Analytical examples demonstrate that a small number (15 or 14) of individual-related modes account for over 98% of the individual-related variation in HRTF magnitude square. Furthermore, high-directional resolution near-field HRTF magnitudes can be estimated using far-field data composed of 30 or 32 directional calculations or measurements. These findings are validated through psychoacoustic experiments, confirming the efficiency of the proposed method.",
-      "first_author_affiliation": "Acoustic Lab., School of Physics and Optoelectronics, South China University of Technology , Guangzhou 510641,",
-      "last_author_affiliation": "Acoustic Lab., School of Physics and Optoelectronics, South China University of Technology , Guangzhou 510641,",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "priority section",
-        "psychoacoustics"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-03",
-      "first_seen_at": "2026-09-04T07:16:55Z",
       "ai_analysis": {
         "scientific_question": "如何从有限的远场方向数据中重建个性化的高分辨率近场头相关传输函数（HRTF）？",
         "key_highlight": "通过四阶张量分解方法，仅需15个左右的个性化模式和30-32个远场方向数据即可实现高分辨率近场HRTF估计，并经心理声学实验验证有效。",
@@ -1143,7 +1132,18 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "2a1d782f955c6a04",
         "updated_at": "2026-09-04T07:17:57Z"
-      }
+      },
+      "first_author_affiliation": "Acoustic Lab., School of Physics and Optoelectronics, South China University of Technology , Guangzhou 510641,",
+      "last_author_affiliation": "Acoustic Lab., School of Physics and Optoelectronics, South China University of Technology , Guangzhou 510641,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "priority section",
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-03",
+      "first_seen_at": "2026-09-04T07:16:55Z"
     },
     {
       "title": "Cochlear Place Specificity of the Auditory Brainstem Response to Narrowband Chirp Versus 2-1-2 Stimuli: High-Pass Noise/Derived Responses",
@@ -2104,6 +2104,26 @@
       "first_seen_at": "2026-09-04T07:17:01Z"
     },
     {
+      "title": "Effects of salicylate on organ-of-Corti vibrations in the second turn of the gerbil cochlea",
+      "authors": [
+        "Sebastiaan W.F. Meenderink",
+        "Wei Dong"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109802",
+      "url": "https://doi.org/10.1016/j.heares.2026.109802",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref",
+      "first_seen_at": "2026-09-05T06:58:29Z"
+    },
+    {
       "title": "Electrophysiologically-based electrode selection has the potential to improve speech perception in cochlear-implant users",
       "authors": [
         "Wouter David",
@@ -2467,6 +2487,27 @@
       "source": "crossref",
       "available_online_date": "2026-09-01",
       "first_seen_at": "2026-09-02T07:08:58Z"
+    },
+    {
+      "title": "Hippocampal and Amygdalar Structures Preferentially Target Somatostatin-Expressing Interneurons in the Auditory Cortex",
+      "authors": [
+        "Philip T. Williams",
+        "Tania Rinaldi Barkat",
+        "Florian Studer"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109804",
+      "url": "https://doi.org/10.1016/j.heares.2026.109804",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref",
+      "first_seen_at": "2026-09-05T06:58:29Z"
     },
     {
       "title": "Low-frequency broadband magnetostrictive-piezoelectric hybrid excitation Janus–Helmholtz transducer",
@@ -2854,14 +2895,6 @@
       "doi": "10.1121/10.0046231",
       "url": "https://doi.org/10.1121/10.0046231",
       "abstract": "The purpose of these acoustical patent reviews is to provide enough information for a Journal reader to decide whether to seek more information from the patent itself. Any opinions expressed here are those of the reviewers as individuals and are not legal opinions. Patents are available via the internet at the USPTO website http://www.uspto.gov.",
-      "first_author_affiliation": "Dept. of Linguistics California State University Fresno 5245 N. Backer Ave, Fresno, California 93740-8001",
-      "last_author_affiliation": "Dept. of Linguistics California State University Fresno 5245 N. Backer Ave, Fresno, California 93740-8001",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-01",
-      "first_seen_at": "2026-09-02T07:08:57Z",
       "ai_analysis": {
         "scientific_question": "本内容不属于原创研究，而是对声学专利进行信息性综述的常规栏目。",
         "key_highlight": "该栏目旨在为读者提供足够信息以判断是否需要进一步查阅专利原文。",
@@ -2873,7 +2906,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "e5992300588be7d9",
         "updated_at": "2026-09-04T07:18:09Z"
-      }
+      },
+      "first_author_affiliation": "Dept. of Linguistics California State University Fresno 5245 N. Backer Ave, Fresno, California 93740-8001",
+      "last_author_affiliation": "Dept. of Linguistics California State University Fresno 5245 N. Backer Ave, Fresno, California 93740-8001",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-01",
+      "first_seen_at": "2026-09-02T07:08:57Z"
     },
     {
       "title": "Repopulating microglia recapitulate developmental characteristics during a period of auditory circuit recovery",
@@ -2937,6 +2978,18 @@
       "url": "https://doi.org/10.1121/10.0046099",
       "full_text_url": "https://pubs.aip.org/jasa/article/160/3/1971/3403440/Seeking-differences-between-architects-and",
       "abstract": "By auditory and visual assessment, we investigate whether architects and acousticians describe their perception of concert hall acoustics in the same language. Four concert halls were represented in controlled in virtual reality environments. A total of 43 participants (23 acousticians, 20 architects–all with experience and interest in concert hall acoustics) participated in the experiment. During the experiment, all the participants were exposed to audio and video excerpts in two different positions across the four concert halls. An individual vocabulary profiling method (IVP) was used to collect the participants' attributes and textual ratings of the virtual spaces. The data were further analyzed via hierarchical multiple factorial analysis. The results reveal significant distinctions in the perceptual vocabulary and evaluation strategies employed by the two groups of professions, quantifying the perceptual dimensions without consensus vocabulary. They reveal a quasi-bidimensional perception space on architects using visual attributes and on acousticians using auditory attributes, but a higher perception space for the inverse modalities. Finally, the correlation between subjective and objective acoustical parameters reveals discrepancies between both expert groups on which objective parameter correlates with subjective balance and timbre, while it shows agreement for other subjective parameters.",
+      "ai_analysis": {
+        "scientific_question": "建筑师和声学专家对音乐厅声学效果的感知描述是否使用相同的语言和评价策略。",
+        "key_highlight": "研究发现建筑师和声学专家在感知词汇和评价策略上存在显著差异，表现为建筑师倾向于使用视觉属性而声学专家倾向于使用听觉属性。",
+        "main_limitation": "样本仅限于43名具有音乐厅声学经验的建筑师和声学专家，研究结论可能难以推广至其他专业背景或非专家群体。",
+        "research_implication": "该研究为深入理解不同专业视角下的声学感知差异提供了方法学参考，提示跨学科合作中需注意专业背景对声学评价的影响。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "8e85db5b919b4a66",
+        "updated_at": "2026-09-04T07:18:18Z"
+      },
       "first_author_affiliation": "Fraunhofer-Institute for Building Physics IBP 1 , Nobelstrasse 12, Stuttgart, 70569",
       "last_author_affiliation": "Institute for Hearing Technology and Acoustics, RWTH Aachen University 3 , Kopernikustrasse 5, Aachen, 52074",
       "open_access": true,
@@ -2950,19 +3003,7 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-01",
-      "first_seen_at": "2026-09-02T07:08:57Z",
-      "ai_analysis": {
-        "scientific_question": "建筑师和声学专家对音乐厅声学效果的感知描述是否使用相同的语言和评价策略。",
-        "key_highlight": "研究发现建筑师和声学专家在感知词汇和评价策略上存在显著差异，表现为建筑师倾向于使用视觉属性而声学专家倾向于使用听觉属性。",
-        "main_limitation": "样本仅限于43名具有音乐厅声学经验的建筑师和声学专家，研究结论可能难以推广至其他专业背景或非专家群体。",
-        "research_implication": "该研究为深入理解不同专业视角下的声学感知差异提供了方法学参考，提示跨学科合作中需注意专业背景对声学评价的影响。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "8e85db5b919b4a66",
-        "updated_at": "2026-09-04T07:18:18Z"
-      }
+      "first_seen_at": "2026-09-02T07:08:57Z"
     },
     {
       "title": "Single-hydrophone bearing estimation for long-range underwater navigation",
@@ -2980,6 +3021,18 @@
       "url": "https://doi.org/10.1121/10.0046290",
       "full_text_url": "https://pubs.aip.org/jel/article/6/9/096001/3403471/Single-hydrophone-bearing-estimation-for-long",
       "abstract": "Beacon acoustic sources can aid long-range underwater navigation since using an inertial navigation system alone becomes inaccurate over long duration. Here, estimates of the relative position of a single hydrophone mounted on a small underwater platform are used only while recording a 2-min-long low-frequency (200–300 Hz) transmission from a beacon source located at depth ∼1100 m and ranges up to ∼148 km in the vicinity of two seamounts. Accounting for the hydrophone motion in the matched-filtering process during the source transmission allows to estimate the bearing of this single beacon source for navigation purposes despite environmental complexity.",
+      "ai_analysis": {
+        "scientific_question": "单水听器能否在复杂海洋环境中通过低频声源实现远距离水下导航的方位估计？",
+        "key_highlight": "通过在匹配滤波过程中考虑水听器运动，成功实现了对远至148公里、深度约1100米信标源的方位估计。",
+        "main_limitation": "实验仅在两个海山附近海域进行，方法在平坦海底或不同水文条件下的适用性有待验证。",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "a7a896580a9966ba",
+        "updated_at": "2026-09-04T07:18:32Z"
+      },
       "first_author_affiliation": "Georgia Institute of Technology 1 , Atlanta, Georgia 30306,",
       "last_author_affiliation": "Scripps Institution of Oceanography, University of California San Diego 2 , La Jolla, California 92093,",
       "open_access": true,
@@ -2993,19 +3046,7 @@
       "tags": [],
       "source": "crossref",
       "available_online_date": "2026-09-01",
-      "first_seen_at": "2026-09-02T07:08:58Z",
-      "ai_analysis": {
-        "scientific_question": "单水听器能否在复杂海洋环境中通过低频声源实现远距离水下导航的方位估计？",
-        "key_highlight": "通过在匹配滤波过程中考虑水听器运动，成功实现了对远至148公里、深度约1100米信标源的方位估计。",
-        "main_limitation": "实验仅在两个海山附近海域进行，方法在平坦海底或不同水文条件下的适用性有待验证。",
-        "research_implication": "General research findings",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "a7a896580a9966ba",
-        "updated_at": "2026-09-04T07:18:32Z"
-      }
+      "first_seen_at": "2026-09-02T07:08:58Z"
     },
     {
       "title": "Slc16a5 (MCT6) knockout induces sex-dependent changes in auditory function, hair cell viability and cochlear transcriptomic programs in the mouse",
@@ -3286,6 +3327,18 @@
       "url": "https://doi.org/10.1121/10.0046178",
       "full_text_url": "https://pubs.aip.org/jel/article/6/9/095201/3403479/The-voice-clone-intelligibility-benefit-in-noise",
       "abstract": "Research with younger adults showed that cloned voices are more intelligible than human voices in noise, with a benefit of 13.4%. This study tested whether this benefit extends to 40 middle-aged listeners (45–65 years), as this population may show emerging difficulties with speech-in-noise. Participants recognised sentences by ten human voices and ten voice clones in four noise levels. Cloned voices were 11.8% more intelligible, with benefits enhanced at the two most severe noise levels (15.9% at −6 dB and 17.5% at −3 dB), suggesting cloned speech enhanced perception in middle-aged listeners, potentially by reducing listening effort and compensating for emerging age-related auditory-cognitive decline.",
+      "ai_analysis": {
+        "scientific_question": "语音克隆在年轻成人中产生的可懂度优势是否同样存在于中年听者（45-65岁）群体中？",
+        "key_highlight": "语音克隆在中度噪声条件下比人声可懂度提高11.8%，在-6 dB和-3 dB信噪比下优势更显著（分别为15.9%和17.5%）。",
+        "main_limitation": "样本仅限于中年成年人（45-65岁），尚不清楚该优势是否适用于年轻成人或老年群体。",
+        "research_implication": "语音克隆技术可能通过降低听努力和补偿年龄相关的听觉认知衰退，为助听器或言语感知辅助技术提供应用前景。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "15b90fc20b58cd4a",
+        "updated_at": "2026-09-04T07:18:43Z"
+      },
       "first_author_affiliation": "Department of Speech, Hearing and Phonetic Sciences, University College London 1 , London,",
       "last_author_affiliation": "School of Psychology, University of Roehampton 2 , London,",
       "open_access": true,
@@ -3302,19 +3355,7 @@
       ],
       "source": "crossref",
       "available_online_date": "2026-09-01",
-      "first_seen_at": "2026-09-02T07:08:58Z",
-      "ai_analysis": {
-        "scientific_question": "语音克隆在年轻成人中产生的可懂度优势是否同样存在于中年听者（45-65岁）群体中？",
-        "key_highlight": "语音克隆在中度噪声条件下比人声可懂度提高11.8%，在-6 dB和-3 dB信噪比下优势更显著（分别为15.9%和17.5%）。",
-        "main_limitation": "样本仅限于中年成年人（45-65岁），尚不清楚该优势是否适用于年轻成人或老年群体。",
-        "research_implication": "语音克隆技术可能通过降低听努力和补偿年龄相关的听觉认知衰退，为助听器或言语感知辅助技术提供应用前景。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "15b90fc20b58cd4a",
-        "updated_at": "2026-09-04T07:18:43Z"
-      }
+      "first_seen_at": "2026-09-02T07:08:58Z"
     },
     {
       "title": "Validation of the 'Arabic Commands in Noise Test' and Evaluation of the Impact of Conscientiousness on Test Performance",
@@ -3362,7 +3403,19 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-01",
-      "first_seen_at": "2026-09-02T07:08:57Z"
+      "first_seen_at": "2026-09-02T07:08:57Z",
+      "ai_analysis": {
+        "scientific_question": "small slope approximation模型在功率谱密度粗糙表面散射中的适用边界条件是什么？",
+        "key_highlight": "通过与边界元法的数值比较，确定了kh和s两个无量纲参数对small slope approximation有效性的共同限制作用。",
+        "main_limitation": "研究仅比较了两个近似模型的数值结果，缺少实验测量验证，且仅考察了series中的前两项。",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "23ebd264cca10288",
+        "updated_at": "2026-09-05T06:59:02Z"
+      }
     },
     {
       "title": "When vision listens: auditory predictive processing in primary visual cortex of anesthetized rats",
@@ -3523,7 +3576,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-08-30",
-      "first_seen_at": "2026-09-02T07:09:02Z"
+      "first_seen_at": "2026-09-02T07:09:02Z",
+      "ai_analysis": {
+        "scientific_question": "环境声级如何在被动线性假设下通过多尺度计算框架转化为耳蜗机械响应和模拟神经活动。",
+        "key_highlight": "该研究建立了一个整合一维纵向传输线模型、三维有限差分时域流体模型和等效矩形带宽感知后处理模块的多尺度计算框架，用于模拟环境噪声的被动耳蜗响应。",
+        "main_limitation": "模型采用被动线性假设，未包含外毛细胞介导的放大、压缩非线性和级依赖性主动调谐，且低频仿真范围受限于200 Hz下限，可能影响对真实生理机制的预测准确性。",
+        "research_implication": "该计算建模框架为理解环境噪声对听觉系统的影响提供了基础，但由于缺乏主动机制建模和临床验证，目前尚不能直接用于助听器或人工耳蜗的优化设计。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "893a058e893fe949",
+        "updated_at": "2026-09-05T06:59:13Z"
+      }
     },
     {
       "title": "Multimodal Takeover Requests for Drivers with Hearing Loss: Implications for AI-Enabled Communication in Automated Vehicles",
@@ -3559,7 +3624,19 @@
         "title"
       ],
       "needs_review": true,
-      "first_seen_at": "2026-09-02T07:09:13Z"
+      "first_seen_at": "2026-09-02T07:09:13Z",
+      "ai_analysis": {
+        "scientific_question": "针对无法依赖听觉信息的听障驾驶员，自动驾驶车辆应如何设计视觉和触觉接管请求以确保安全接管？",
+        "key_highlight": "视觉-触觉组合显示在所有信息类型中产生最短的反应时间和接管时间，且听力状况对各项指标均无显著主效应。",
+        "main_limitation": "使用驾驶模拟器和模拟听力损伤而非真实听障驾驶员，且样本量相对较小，限制了对实际道路驾驶和真实听障群体的推广性。",
+        "research_implication": "为听障驾驶员设计车辆辅助系统和多模态人机交互界面提供了参考，强调通用性设计对保障不同听觉能力驾驶员安全的重要性。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "63e114ca9a023379",
+        "updated_at": "2026-09-05T06:59:23Z"
+      }
     },
     {
       "title": "Prospective evaluation of hearing aid fitting adjusted toward one-third functional gain in patients with sensorineural hearing loss",
@@ -3592,7 +3669,19 @@
       ],
       "source": "manual",
       "available_online_date": "2026-08-29",
-      "first_seen_at": "2026-09-02T00:31:15Z"
+      "first_seen_at": "2026-09-02T00:31:15Z",
+      "ai_analysis": {
+        "scientific_question": "将助听器增益调整至接近三分之一功能增益目标是否能为难治性感音神经性听力损失患者提供合适的验配效果。",
+        "key_highlight": "约四分之三的患耳获得了较好的验配效果，但助听器在低频区的功能增益未能达到预期的三分之一增益目标。",
+        "main_limitation": "样本量较小（21例患者完成研究）且试验周期较短（仅两周），可能限制结果的稳健性和长期适用性。",
+        "research_implication": "该研究为未来探索三分之一功能增益特征在助听器优化验配中的应用提供了初步依据。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "224626e324bc1f17",
+        "updated_at": "2026-09-05T06:59:32Z"
+      }
     },
     {
       "title": "Close-to-critical Hopf oscillators boost cochlear gain in realistic models with fluid focusing",
@@ -3720,7 +3809,19 @@
         "title"
       ],
       "needs_review": true,
-      "first_seen_at": "2026-09-02T07:09:13Z"
+      "first_seen_at": "2026-09-02T07:09:13Z",
+      "ai_analysis": {
+        "scientific_question": "如何设计低功耗神经网络来同时实现语音增强和人工耳蜗编码，以改善噪声环境下的语音理解",
+        "key_highlight": "该脉冲神经网络在VSTOI和SNRi客观指标上达到与Deep ACE相当的性能，同时实现超过六倍的能耗降低",
+        "main_limitation": "仅基于客观指标评估，缺少对真实人工耳蜗用户的感知验证",
+        "research_implication": "为低功耗人工耳蜗语音处理提供了高能效神经网络架构的研究方向",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "ee6b817ff48d57ff",
+        "updated_at": "2026-09-05T06:59:40Z"
+      }
     },
     {
       "title": "On the delay-and-sum processing of shear wave signals from a scanning thermo-elastic laser ultrasound system",
@@ -3868,7 +3969,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-08-28",
-      "first_seen_at": "2026-09-04T07:17:01Z"
+      "first_seen_at": "2026-09-04T07:17:01Z",
+      "ai_analysis": {
+        "scientific_question": "噪声中的适应效应是否取决于信号的声压级或信噪比",
+        "key_highlight": "频域调制检测在大多数条件下均出现显著的噪声适应，而时域调制检测仅在较高声压级或特定信噪比条件下表现出适应效应",
+        "main_limitation": "研究采用特定的调制参数（2倍频程、10 Hz）和固定的噪声-信号起始时间差，可能限制结论在更广泛调制条件下的推广性",
+        "research_implication": "该研究为理解正常听力和助听设备用户在噪声中的调制感知适应机制提供了基础，可能对降噪算法的时域和频域处理策略设计具有参考价值",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "c05398845980aa66",
+        "updated_at": "2026-09-05T06:59:49Z"
+      }
     },
     {
       "title": "Slow dynamics under high confining pressure in saturated sandstone with pore pressure",
@@ -9016,22 +9129,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -9044,6 +9141,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -16583,18 +16696,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -16615,17 +16727,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -25949,22 +26062,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -25977,6 +26074,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -32911,23 +33024,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -32941,6 +33037,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -36276,8 +36389,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -36291,8 +36404,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -41813,8 +41926,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -41828,8 +41941,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
