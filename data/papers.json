@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T07:10:36Z",
+  "generated_at": "2026-09-07T07:23:22Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
@@ -1134,6 +1134,106 @@
       "source": "crossref",
       "available_online_date": "2026-07-27",
       "first_seen_at": "2026-08-18T03:11:28Z"
+    },
+    {
+      "title": "On the Use of Hearing Aid Algorithms in Industrial Noise: Balancing Speech Intelligibility and Hearing Protection",
+      "authors": [
+        "Solenn Ollivier",
+        "Fabien Bonnet",
+        "Alexis Pinsonnault-Skvarenina",
+        "Christian Giguère",
+        "Jérémie Voix",
+        "Hugues Nélisse"
+      ],
+      "journal": "Trends in Hearing",
+      "publication_date": "2026-09-06",
+      "publication_date_precision": "day",
+      "doi": "10.1177/23312165261478230",
+      "url": "https://doi.org/10.1177/23312165261478230",
+      "abstract": "Hearing protection devices (HPDs) are widely used to mitigate the risks of noise-induced hearing loss in industrial environments. However, conventional HPDs can often hinder communication for workers with hearing loss. While those workers may rely on hearing aids in their daily lives, the potential benefits and associated risks of using such devices in noisy workplaces remain unexplored. This study evaluated the effects of different hearing aid signal processing algorithms on speech intelligibility and estimated noise exposure under industrial noise conditions to characterize the balance between communication and protection needed to develop solutions for workers with hearing loss. A digital hearing protection research platform integrating in-ear receivers and external microphones was configured as a real-time soundcard. Typical hearing aid algorithms, including linear amplification, Wide Dynamic Range Compression (WDRC), digital noise reduction (DNR), and compression limiting, were implemented in different configurations. Two groups, one with normal hearing and one with hearing loss, completed the Hearing in Noise Test (HINT) with a wood-working factory noise at two presentation levels, along with subjective ratings of listening effort and voice clarity and naturalness . Noise exposure for each configuration was also estimated. Results showed significant effects of signal processing strategies and noise presentation levels on both intelligibility and noise exposure. Combining DNR, WDRC and compression limiting showed promising results to balance intelligibility and noise exposure, particularly for participants with hearing loss. The findings emphasize the trade-off between auditory benefit and exposure risk, and call for greater awareness regarding the use of hearing devices in industrial noise.",
+      "first_author_affiliation": "École de technologie supérieure, Université du Québec",
+      "last_author_affiliation": "Institut de recherche Robert-Sauvé en santé et sécurité du travail",
+      "open_access": true,
+      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261478230",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology",
+        "hearing aid",
+        "real-world listening",
+        "speech perception"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-06",
+      "first_seen_at": "2026-09-07T07:22:47Z",
+      "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261478230",
+      "media_checked_at": "2026-09-07T07:23:28Z",
+      "open_access_image_checked_at": "2026-09-07T07:23:28Z",
+      "ai_analysis": {
+        "scientific_question": "不同助听器信号处理算法在工业噪声环境下能否平衡语音可懂度与噪声暴露风险，从而为听损工人提供兼顾沟通与保护解决方案。",
+        "key_highlight": "结合数字降噪、宽动态范围压缩和压缩限幅的算法组合在工业噪声条件下表现出平衡语音可懂度与噪声暴露的潜力，尤其对听力损失者效果显著。",
+        "main_limitation": "研究仅在木工车间噪声的特定条件下进行，且噪声暴露为估算值，实验室环境可能无法完全代表真实工业场景。",
+        "research_implication": "该研究为开发适用于工业噪声环境的助听器算法提供了参考，强调需要在听障人群的听觉收益与噪声暴露风险之间寻求平衡。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "e4fd4800eb6995c5",
+        "updated_at": "2026-09-07T07:23:44Z"
+      }
+    },
+    {
+      "title": "ProLombard: Structured Multi-Scale Modeling for Normal-to-Lombard Speech Conversion",
+      "authors": [
+        "Hongyang Chen",
+        "Xinmeng Xu",
+        "Youqiang Zheng",
+        "Xingyu Liu",
+        "Yuhong Yang",
+        "Zhongyuan Wang",
+        "Weiping Tu",
+        "Song Lin"
+      ],
+      "journal": "arXiv",
+      "publication_date": "2026-09-04",
+      "publication_date_precision": "day",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.04828v1",
+      "abstract": "Normal-to-Lombard (N2L) speech conversion aims to improve speech intelligibility in noisy environments by transforming normal speech into Lombard-style speech while preserving linguistic content, speaker identity, and speech quality. Despite recent progress, existing methods typically model the Lombard effect at the utterance level or the frame level, overlooking its hierarchical nature and its entanglement with both speaker identity and phoneme-level content. This limitation leads to Lombard leakage in speaker representations and incomplete separation between Lombard characteristics and linguistic content. In this work, we propose ProLombard, a structured multi-scale N2L framework that explicitly models the Lombard effect across utterance-, phoneme-, and frame-level representations. To address Lombard-speaker entanglement, we introduce an aligned speaker encoder (ASE) that suppresses Lombard leakage by aligning Lombard-speech speaker embeddings with their normal-speech counterparts. To achieve more complete Lombard-content disentanglement, we develop a phoneme-aware disentanglement and injection mechanism that extends conventional frame-level modeling to the phoneme level. Furthermore, we design a vector quantization (VQ)-median module that provides robust phoneme-level representations through VQ-based segmentation and median-frame-based aggregation. Extensive experiments on Mandarin and English Lombard datasets demonstrate that the proposed approach consistently improves speech intelligibility, Lombard similarity, and perceptual quality over baselines while maintaining speaker identity. These results highlight the importance of structured multi-scale modeling for effective N2L speech conversion.",
+      "publication_stage": "preprint",
+      "section": null,
+      "keywords": [
+        "cs.SD"
+      ],
+      "tags": [],
+      "source": "arxiv",
+      "available_online_date": "2026-09-04",
+      "source_group": "preprint_filtered",
+      "source_group_label": "Preprints (arXiv)",
+      "actual_journal": "arXiv",
+      "match_level": "topic_filtered_hearing_speech",
+      "matched_keywords": [
+        "speech intelligibility"
+      ],
+      "match_fields": [
+        "abstract"
+      ],
+      "needs_review": true,
+      "first_seen_at": "2026-09-07T07:23:22Z",
+      "ai_analysis": {
+        "scientific_question": "如何有效建模Lombard效应在话语级、音素级和帧级的层级结构，同时实现Lombard特征与说话人身份及语言内容的分离？",
+        "key_highlight": "ProLombard框架通过多尺度结构化建模和对齐说话人编码器，显著提升了Lombard语音的可懂度、Lombard相似度和感知质量，同时保持了说话人身份特征。",
+        "main_limitation": "仅在普通话和英语数据集上验证，跨语言和跨噪声类型的泛化能力有待进一步研究。",
+        "research_implication": "为噪声环境下的语音感知研究提供了Lombard语音转换的新思路，可能对助听器和语音增强技术的设计具有参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "694fd81baaf761e9",
+        "updated_at": "2026-09-07T07:23:58Z"
+      }
     },
     {
       "title": "Hearing Aid Noise Reduction Algorithms Support Neural Speech Tracking by Enhancing Spectrotemporal Consistency of Phase-Locked Brain Responses to Acoustic Edges",
@@ -4260,6 +4360,18 @@
       "doi": "10.1016/j.heares.2026.109788",
       "url": "https://doi.org/10.1016/j.heares.2026.109788",
       "abstract": "During the development of the mammalian cochlea, Notch signaling induces prosensory cell formation and later directs the differentiation of prosensory progenitor cells into hair cells and supporting cells. Previous studies have demonstrated that ectopic activation of Notch signaling in the early embryonic cochlea results in the formation of ectopic sensory patches in non-sensory regions; however, the ability to respond to Notch signaling declines with age and is lost after embryonic day (E) 13.5. Here, we observed that Notch activation at birth induced ectopic sensory patches in the mouse cochlea. These ectopic patches produced hair cell-like cells that express some proteins found in mature hair cells. Ectopic sensory patches result from hyperplasia of non-sensory cells throughout the cochlear duct that reentered the cell cycle and produced foci of prosensory competent cells. Within the organ of Corti, cells remained quiescent, however, cellular patterning was altered leading to differentiation of outer sulcus cells into supporting cell-like cells and altering the identity of pillar cells. We further investigated different levels of activated Notch signaling using a doxycycline-inducible system and found that the competence of the neonatal cochlea to induce prosensory markers, such as Sox2, correlates with the level of Notch activation, whereby higher levels of Notch signaling induced ectopic Sox2 expression. Because this conflicted with previous reports, we investigated the mechanism underlying prosensory reactivation in our experiments and found that the loss of one copy of Sox10 resulting from our use of Sox10rtTA/+knock-in mice facilitated prosensory competence, and that higher levels of Notch activation increased the penetrance of the phenotype. Our results demonstrate that the interaction between Notch signaling and SOX10 is important for the regulation of cellular identity in the developing inner ear.",
+      "ai_analysis": {
+        "scientific_question": "Notch信号通路在出生后小鼠耳蜗中是否仍能诱导异位感觉斑块的形成，以及SOX10在其中如何调节细胞命运。",
+        "key_highlight": "Notch信号在出生时可诱导耳蜗非感觉区域形成异位感觉斑块，且Notch信号水平与Sox2表达诱导能力相关，而Sox10单拷贝缺失会影响感觉前体细胞的再激活能力。",
+        "main_limitation": "研究使用的Sox10rtTA/+基因敲入小鼠存在Sox10单拷贝缺失，该遗传背景可能影响Notch信号诱导异位感觉斑块的敏感性。",
+        "research_implication": "该研究揭示了Notch信号与SOX10在耳蜗发育过程中对细胞命运的协同调控机制，为理解内耳细胞命运决定及潜在的再生机制提供了基础理论参考。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "78ed2fa637c8c840",
+        "updated_at": "2026-09-06T07:10:58Z"
+      },
       "last_author_affiliation": "Department of Pharmacology, Southern Illinois University School of Medicine, Springfield, IL 62711, USA; Department of Otolaryngology, Southern Illinois University School of Medicine, Springfield, IL 62711, USA.",
       "publication_stage": "early_access",
       "section": null,
@@ -4274,19 +4386,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-08-26",
-      "first_seen_at": "2026-09-01T07:52:01Z",
-      "ai_analysis": {
-        "scientific_question": "Notch信号通路在出生后小鼠耳蜗中是否仍能诱导异位感觉斑块的形成，以及SOX10在其中如何调节细胞命运。",
-        "key_highlight": "Notch信号在出生时可诱导耳蜗非感觉区域形成异位感觉斑块，且Notch信号水平与Sox2表达诱导能力相关，而Sox10单拷贝缺失会影响感觉前体细胞的再激活能力。",
-        "main_limitation": "研究使用的Sox10rtTA/+基因敲入小鼠存在Sox10单拷贝缺失，该遗传背景可能影响Notch信号诱导异位感觉斑块的敏感性。",
-        "research_implication": "该研究揭示了Notch信号与SOX10在耳蜗发育过程中对细胞命运的协同调控机制，为理解内耳细胞命运决定及潜在的再生机制提供了基础理论参考。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "78ed2fa637c8c840",
-        "updated_at": "2026-09-06T07:10:58Z"
-      }
+      "first_seen_at": "2026-09-01T07:52:01Z"
     },
     {
       "title": "True-angle sparse Bayesian learning for horizontal line arrays in a multipath shadow-zone environment",
@@ -9123,22 +9223,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -9151,6 +9235,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -16690,18 +16790,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -16722,17 +16821,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -26056,22 +26156,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -26084,6 +26168,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -32526,16 +32626,6 @@
       "url": "https://doi.org/10.1121/10.0043129",
       "full_text_url": "https://doi.org/10.1121/10.0043129",
       "abstract": "Research on acoustic target recognition of the large yellow croaker (Larimichthys crocea) holds significant implications for precise monitoring of their population status and maintaining marine ecological balance. Due to the complex acoustic fields in underwater aquaculture environments and the high time cost of data collection, it is often challenging to gather sufficient effective samples for target recognition tasks. To address the practical challenges in small-sample scenarios-such as limited effective acoustic data, high recognition difficulty, low accuracy, and sensitivity to anomalous samples-this study systematically integrates and adapts a set of established techniques, including data partitioning and ensemble learning, specifically tailored for the acoustic characteristics of the large yellow croaker in aquaculture environments. The proposed approach employs a pre-grouping strategy on the training dataset and incorporates a loss-based weighting mechanism to adjust sub-model contributions, with further optimization focused on efficient data partitioning under small-sample conditions. Experimental results on a dedicated small-sample acoustic dataset of the large yellow croaker demonstrate that the method achieves a recognition F1-score of 87.8% and helps mitigate feature-learning imbalances, indicating its practical effectiveness for this specific application.",
-      "first_author_affiliation": "Key Laboratory of Underwater Acoustic Communication and Marine Information Technology (Xiamen University), Ministry of Education, Xiamen 361005, China.",
-      "last_author_affiliation": "Key Laboratory of Underwater Acoustic Communication and Marine Information Technology (Xiamen University), Ministry of Education, Xiamen 361005, China.",
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "machine learning",
-        "real-world listening"
-      ],
-      "source": "pubmed",
-      "first_seen_at": "2026-05-14T02:28:38Z",
       "ai_analysis": {
         "scientific_question": "如何在 underwater aquaculture 环境中利用小样本数据实现大黄鱼的准确 acoustic target recognition？",
         "key_highlight": "通过 pre-grouping 策略和 loss-based weighting 的 ensemble learning 方法，在小样本 acoustic 数据集上达到了 87.8% 的 F1-score。",
@@ -32547,7 +32637,17 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "d0feb501a45e9592",
         "updated_at": "2026-09-06T07:11:10Z"
-      }
+      },
+      "first_author_affiliation": "Key Laboratory of Underwater Acoustic Communication and Marine Information Technology (Xiamen University), Ministry of Education, Xiamen 361005, China.",
+      "last_author_affiliation": "Key Laboratory of Underwater Acoustic Communication and Marine Information Technology (Xiamen University), Ministry of Education, Xiamen 361005, China.",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "machine learning",
+        "real-world listening"
+      ],
+      "source": "pubmed",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Acoustically functional 3D‑printed middle ear model for prosthesis development and otosurgical training",
@@ -32566,6 +32666,18 @@
       "url": "https://doi.org/10.1016/j.heares.2026.109600",
       "full_text_url": "https://linkinghub.elsevier.com/retrieve/pii/S0378595526000766",
       "abstract": "Cadaver temporal bones are traditionally used in otosurgical training and research, but they have many limitations. The development of novel individualized middle ear prostheses requires easy and durable artificial middle ear models that are as realistic as possible anatomically, functionally, and acoustically. The aim of this study was to create an acoustically and mechanically functional, three-dimensionally (3D) printed middle ear model that overcomes the challenges of cadaver temporal bones while promoting prosthesis development. Structures from microcomputed tomography (micro-CT) imaged cadaver temporal bone were utilized to the design of the middle ear model. Rigid middle ear parts were printed from photopolymer resin using Digital Light Processing (DLP), whereas soft parts such as the tympanic membrane, joints, and ligaments were made from silicone or hot-melt glue. Three model versions differed in silicone hardness of the ligaments. Acoustical and mechanical performance was measured with laser Doppler vibrometer (LDV) and tympanometry. Suitability for surgical training was evaluated in a simulation (n = 16 otologists), where a partial ossicular replacement prosthesis (PORP) was placed while LDV-based audio feedback of sound transmission was provided in real time. The middle ear transfer functions (METF) of all three models were statistically comparable with cadaver temporal bones. The most flexible version (Model 1 with only silicone Shore A 12-14) was closest to cadaver characteristics. Tympanometry with Model 1 most often produced normal A-type curves, although reproducibility was limited across all measurements. In the surgical simulation, most participants rated the anatomy as realistic. Stapes motion received the most criticism. Nevertheless, the type of the model and the used simulation setting were considered promising and useful for otologic training. A 3D-printed middle ear model can mimic the anatomic and acoustic properties of the middle ear with clinically acceptable accuracy. Further optimization of the tympanic membrane and ligament materials is needed to improve the repeatability of tympanometry. The model can be integrated into the design and testing of novel prostheses and serves as a model for otosurgical training.",
+      "ai_analysis": {
+        "scientific_question": "如何开发一种兼具解剖学、功能学和声学特性的3D打印中耳模型，以克服传统尸体颞骨的局限性并用于假体开发和手术训练。",
+        "key_highlight": "基于微CT图像和光固化打印技术制作的3D中耳模型，其传递函数与尸体颞骨具有统计学可比性，且被评估者认为具有临床应用前景。",
+        "main_limitation": "所有测量结果的重复性有限，鼓室压测量和镫骨运动的真实性仍需改进。",
+        "research_implication": "该模型可整合到新型中耳假体的设计测试流程中，并作为耳科手术训练的辅助工具。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "a9238dbc74b7f4ac",
+        "updated_at": "2026-09-06T07:11:18Z"
+      },
       "first_author_affiliation": "Department of Otorhinolaryngology-Head and Neck Surgery and Tauno Palva Laboratory, Head and Neck Center, Helsinki University Hospital and University of Helsinki, Helsinki, Finland.",
       "last_author_affiliation": "Department of Otorhinolaryngology-Head and Neck Surgery and Tauno Palva Laboratory, Head and Neck Center, Helsinki University Hospital and University of Helsinki, Helsinki, Finland. Electronic address: saku.sinkkonen@hus.fi.",
       "section": null,
@@ -32582,19 +32694,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-03-03",
-      "first_seen_at": "2026-05-14T02:29:18Z",
-      "ai_analysis": {
-        "scientific_question": "如何开发一种兼具解剖学、功能学和声学特性的3D打印中耳模型，以克服传统尸体颞骨的局限性并用于假体开发和手术训练。",
-        "key_highlight": "基于微CT图像和光固化打印技术制作的3D中耳模型，其传递函数与尸体颞骨具有统计学可比性，且被评估者认为具有临床应用前景。",
-        "main_limitation": "所有测量结果的重复性有限，鼓室压测量和镫骨运动的真实性仍需改进。",
-        "research_implication": "该模型可整合到新型中耳假体的设计测试流程中，并作为耳科手术训练的辅助工具。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "a9238dbc74b7f4ac",
-        "updated_at": "2026-09-06T07:11:18Z"
-      }
+      "first_seen_at": "2026-05-14T02:29:18Z"
     },
     {
       "title": "An alternative pathway for delivery of power by outer hair cells to cochlear traveling waves",
@@ -32623,7 +32723,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-03-17",
-      "first_seen_at": "2026-05-14T02:29:18Z"
+      "first_seen_at": "2026-05-14T02:29:18Z",
+      "ai_analysis": {
+        "scientific_question": "外毛细胞如何将机械能传递给基底膜以放大行波，从而实现耳蜗的高灵敏度和频率选择性？",
+        "key_highlight": "模型研究表明，外毛细胞的电动性可能通过蜗轴和柱细胞这条替代途径而非传统的Deiters细胞-基底膜途径传递功率。",
+        "main_limitation": "理论模型依赖于特定参数条件假设，且缺乏直接实验验证其在活体中的适用性。",
+        "research_implication": "该研究为理解耳蜗机械放大的工作机制提供了新的理论框架，对深入认识听觉敏感度和频率选择性的生物学基础具有重要意义。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "71d8fc6980928d7a",
+        "updated_at": "2026-09-07T07:24:10Z"
+      }
     },
     {
       "title": "Atg7-dependent autophagy is indispensable for mice spiral ganglion neurons",
@@ -32645,6 +32757,18 @@
       "url": "https://doi.org/10.1016/j.heares.2026.109607",
       "full_text_url": "https://linkinghub.elsevier.com/retrieve/pii/S0378595526000833",
       "abstract": "Atg7-dependent autophagy is critical for the long-term maintenance of the post-mitotic cells, yet its role in spiral ganglion neurons (SGNs) remains incompletely defined. Here, we conditionally ablated Atg7 in SGNs by generating Bhlhe22Cre/+Atg7flox/flox mice and examined cellular p62 aggregates, ultrastructure, and auditory function at postnatal day (P)30 and P60. At P30, Atg7 was markedly reduced in SGNs. Immunofluorescence revealed progressive enlargement of p62-positive condensates from nano-scale at P30 to micron-scale by P60. Excess p62 activated the antioxidant transcription factor Nrf2. Transmission electron microscopy demonstrated progressive axonal degeneration, including vacuolated axoplasm, mitochondrial abnormalities, and disorganization of myelin lamellae with a characteristic wavy appearance. Functionally, ABR thresholds were preserved at P30 but became significantly elevated by P60 (approximately 30 dB on average), indicating age-dependent hearing loss. The amplitude and latency analysis of ABR waves implied that hearing loss may primarily attributed to autophagy-impaired SGNs rather than other auditory brain neurons of Bhlhe22 lineage. The postsynaptic GluR2 receptors, but not presynaptic CtBP2, dramatically decreased at P60. Together, these data show that Atg7-dependent autophagy is required to preserve SGN over time, thereby maintaining the auditory function.",
+      "ai_analysis": {
+        "scientific_question": "探究Atg7依赖性自噬在螺旋神经节神经元（SGNs）长期维持中的具体作用。",
+        "key_highlight": "条件性敲除SGNs中Atg7导致p62聚集体进行性增大、轴突退变及年龄依赖性听力损失（P60时ABR阈值约升高30 dB）。",
+        "main_limitation": "Limited generalizability due to small or specific sample",
+        "research_implication": "研究提示维持SGN自噬功能对保全听觉传导至关重要，为理解老年性聋及前庭 cochlear implant 功效相关的神经退化机制提供基础。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "9110d8277964dc4b",
+        "updated_at": "2026-09-06T07:11:41Z"
+      },
       "first_author_affiliation": "Department of Otolaryngology Head and Neck Surgery, Nanjing Drum Tower Hospital Clinical College of Nanjing Medical University, Nanjing, 210008, China; Research Institute of Otolaryngology, Nanjing, 210008, China.",
       "last_author_affiliation": "Department of Otolaryngology Head and Neck Surgery, Affiliated Drum Tower Hospital of Nanjing University Medical School, Jiangsu Provincial Key Medical Discipline (Laboratory), No. 321 Zhongshan Road, Nanjing, 210008, China; Research Institute of Otolaryngology, Nanjing, 210008, China. Electronic address: zhouhan1059@gmail.com.",
       "section": "Psychological and Physiological Acoustics",
@@ -32660,19 +32784,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-03-10",
-      "first_seen_at": "2026-05-14T02:29:18Z",
-      "ai_analysis": {
-        "scientific_question": "探究Atg7依赖性自噬在螺旋神经节神经元（SGNs）长期维持中的具体作用。",
-        "key_highlight": "条件性敲除SGNs中Atg7导致p62聚集体进行性增大、轴突退变及年龄依赖性听力损失（P60时ABR阈值约升高30 dB）。",
-        "main_limitation": "Limited generalizability due to small or specific sample",
-        "research_implication": "研究提示维持SGN自噬功能对保全听觉传导至关重要，为理解老年性聋及前庭 cochlear implant 功效相关的神经退化机制提供基础。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "9110d8277964dc4b",
-        "updated_at": "2026-09-06T07:11:41Z"
-      }
+      "first_seen_at": "2026-05-14T02:29:18Z"
     },
     {
       "title": "Audio quality predictions correlate with perception of processing delays across different simulated hearing device conditions",
@@ -32688,6 +32800,18 @@
       "url": "https://doi.org/10.1121/10.0043210",
       "full_text_url": "https://pubs.aip.org/jel/article/6/4/044401/3385972/Audio-quality-predictions-correlate-with",
       "abstract": "Processing delays can degrade listening experience, especially where direct and delayed sound paths interact. Although noticeability of delays has been modeled successfully, it is unclear how well models generalize across different types of delays. In this study, the noticeability of frequency-dependent and -independent delays was measured and the GPSMq model [Biberger, Fleßner, Huber, and Ewert (2018). J. Audio Eng. Soc. 66(7/8), 578–593] was tested for its ability to predict both existing and previously unreported data. A good prediction performance (linear correlation, ρ=0.94) was measured. The functional relationship between model outputs and measured results differs significantly between participant groups with different levels of experience but not across conditions.",
+      "ai_analysis": {
+        "scientific_question": "处理延迟的可察觉性模型能否在不同类型的频率依赖和频率独立延迟条件下实现有效泛化预测",
+        "key_highlight": "GPSMq模型在预测延迟可察觉性方面表现出较高的预测性能（ρ=0.94），但模型输出与测量结果之间的函数关系在不同经验水平的参与者组之间存在显著差异",
+        "main_limitation": "参与者经验水平的差异可能影响模型预测的泛化有效性",
+        "research_implication": "该研究为助听设备中处理延迟的感知评估提供了模型预测依据，对优化设备设计以减少延迟带来的听觉不适具有参考价值",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "b0b3c5a036fc3e3b",
+        "updated_at": "2026-09-06T07:11:50Z"
+      },
       "first_author_affiliation": "Medical Physics and Cluster of Excellence “Hearing4all,” Carl von Ossietzky Universität Oldenburg , Oldenburg 26111,",
       "last_author_affiliation": "Medical Physics and Cluster of Excellence “Hearing4all,” Carl von Ossietzky Universität Oldenburg , Oldenburg 26111,",
       "open_access": true,
@@ -32703,19 +32827,7 @@
       ],
       "source": "crossref",
       "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z",
-      "ai_analysis": {
-        "scientific_question": "处理延迟的可察觉性模型能否在不同类型的频率依赖和频率独立延迟条件下实现有效泛化预测",
-        "key_highlight": "GPSMq模型在预测延迟可察觉性方面表现出较高的预测性能（ρ=0.94），但模型输出与测量结果之间的函数关系在不同经验水平的参与者组之间存在显著差异",
-        "main_limitation": "参与者经验水平的差异可能影响模型预测的泛化有效性",
-        "research_implication": "该研究为助听设备中处理延迟的感知评估提供了模型预测依据，对优化设备设计以减少延迟带来的听觉不适具有参考价值",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "b0b3c5a036fc3e3b",
-        "updated_at": "2026-09-06T07:11:50Z"
-      }
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Auditory cortical forward masking effects in squirrel monkeys with unilateral noise-induced hearing loss",
@@ -32752,7 +32864,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-03-05",
-      "first_seen_at": "2026-05-14T02:29:18Z"
+      "first_seen_at": "2026-05-14T02:29:18Z",
+      "ai_analysis": {
+        "scientific_question": "单侧噪声性听力损失如何改变初级听觉皮层的皮质前掩蔽特性？",
+        "key_highlight": "噪声性听力损失动物的前掩蔽模式从抑制主导转变为促进主导，尤其是接近损伤频率的低最佳频率神经元，其抑制强度和抑制带宽显著降低。",
+        "main_limitation": "仅使用两只对照和两只听力损失动物，样本量极小，限制了结果的统计学稳健性和向更大种群的推广。",
+        "research_implication": "该研究将心理物理学的时域和频域分辨率缺陷与可识别的皮层网络变化相关联，为理解听力损失后的听觉皮层可塑性及其对人工助听设备设计的潜在影响提供了基础。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "6cdbd1c3a84b330e",
+        "updated_at": "2026-09-07T07:24:18Z"
+      }
     },
     {
       "title": "Bubble beginnings: The study that launched microbubble bioeffects",
@@ -32773,7 +32897,19 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
+      "first_seen_at": "2026-05-14T02:28:38Z",
+      "ai_analysis": {
+        "scientific_question": "本文旨在回顾性分析微泡生物效应领域一篇经典论文的科学影响与历史贡献。",
+        "key_highlight": "该文作为《声学杂志》历史回顾系列文章，评述了微泡生物效应研究对声学科学与实践的深远影响。",
+        "main_limitation": "属于回顾性评述文章，缺乏原始实验数据或新的实证研究结果。",
+        "research_implication": "微泡生物效应研究主要涉及医学超声领域，与助听器、人工耳蜗或言语感知研究的直接关联有限。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "67f7d04d4b3ac574",
+        "updated_at": "2026-09-07T07:24:42Z"
+      }
     },
     {
       "title": "Characterizing the bounce phenomenon via spontaneous otoacoustic emissions",
@@ -33066,23 +33202,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -33096,6 +33215,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -36431,8 +36567,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -36446,8 +36582,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -41968,8 +42104,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -41983,8 +42119,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
