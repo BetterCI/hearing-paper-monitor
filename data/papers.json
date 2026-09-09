@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T07:18:08Z",
+  "generated_at": "2026-09-09T07:26:47Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
@@ -219,6 +219,47 @@
       "first_seen_at": "2026-08-27T12:51:57Z"
     },
     {
+      "title": "Hidden auditory dysfunction in tinnitus with normal audiograms: selective and chronicity-dependent ABR changes in middle-aged adults",
+      "authors": [
+        "Qian He",
+        "Sheng-Yu Tao",
+        "Bingjie Li",
+        "Shiyu Kang",
+        "Xiaoliang Sheng",
+        "Ji-Sheng Liu",
+        "Duo-Duo Tao"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109786",
+      "url": "https://doi.org/10.1016/j.heares.2026.109786",
+      "abstract": "Tinnitus can occur in adults with normal audiograms, suggesting subtle auditory dysfunction beyond conventional threshold measures. This study investigated whether middle-aged adults with tinnitus and clinically normal hearing show evidence of peripheral neural dysfunction and duration-related brainstem changes. Seventy-four tinnitus patients (101 ears) and 15 healthy controls (30 ears) with normal audiograms and preserved distortion-product otoacoustic emissions were enrolled; the tinnitus group was subdivided into acute (<6 months) and chronic (≥6 months) tinnitus. Click-evoked auditory brainstem responses were recorded from 45 to 90 dB nHL, and absolute wave latencies and amplitudes, interpeak latencies, intensity-response slopes, the wave V/I amplitude ratio, and wave V ABR growth ratio were analyzed using linear mixed-effects models. Pure-tone thresholds, wave V thresholds, and DPOAE measures did not differ across groups. Chronic tinnitus showed prolonged wave I latency at 55, 75, and 80 dB nHL, while both acute and chronic tinnitus showed reduced wave I amplitude at 45 dB nHL. Chronic tinnitus also showed a steeper wave V latency-intensity slope and a higher V/I ratio at 80 dB nHL, whereas interpeak latencies and wave V ABR growth ratio showed no robust group differences. These findings support selective ABR abnormalities in normal-audiogram tinnitus, centered on wave I changes, with additional suprathreshold brainstem alterations in chronic tinnitus.",
+      "ai_analysis": {
+        "scientific_question": "伴有正常听力图的重听症患者是否存在隐匿性听觉神经功能障碍，以及这些异常是否与重听症持续时间相关。",
+        "key_highlight": "慢性重听症患者在正常听力图中表现出选择性听觉脑干反应异常，主要表现为波I潜伏期延长和振幅降低，且伴有超阈值的脑干改变的时程依赖性特征。",
+        "main_limitation": "对照组样本量较小（15人 vs 74名患者），且仅纳入中年成人，可能限制结果的普遍适用性。",
+        "research_implication": "研究提示正常听力图的重听症患者存在亚临床神经功能障碍，对理解隐匿性听觉损失和早期听力干预具有参考意义。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "45864fa52c3d445a",
+        "updated_at": "2026-09-01T07:54:01Z"
+      },
+      "last_author_affiliation": "Department of Ear, Nose, and Throat, The First Affiliated Hospital of Soochow University, Suzhou, 215006, China. Electronic address: ddtao1008@suda.edu.cn.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-25",
+      "first_seen_at": "2026-09-01T07:52:01Z"
+    },
+    {
       "title": "Oxaliplatin-chemotherapy induced cochlear synaptopathy",
       "authors": [
         "Marion Souchal",
@@ -331,6 +372,42 @@
       "source": "crossref",
       "available_online_date": "2026-07-27",
       "first_seen_at": "2026-08-20T03:12:32Z"
+    },
+    {
+      "title": "The band importance function for the Dutch digits-in-noise test: A computational derivation using human and automatic speech recognition data, including extended high frequencies",
+      "authors": [
+        "Nick D. van Huis",
+        "Niek J. Versfeld",
+        "Cas Smits"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109785",
+      "url": "https://doi.org/10.1016/j.heares.2026.109785",
+      "abstract": "The band importance function (BIF) quantifies the contribution of each frequency band to the intelligibility of speech and is a key element of the speech intelligibility index. The BIF depends on the type of speech material and speaker characteristics. Several BIFs exist, but they do not cover all test materials used in audiology. This study aimed to determine the BIF for the Dutch digits-in-noise (DIN) test, a widely used speech-in-noise measure. Twenty young adults with normal hearing completed a speech recognition task using Dutch DIN triplets presented at multiple signal-to-noise ratios (SNRs) and filtered according to one-third octave bands. The BIF was estimated using the computational method of Kates (2013), applying both digit and triplet scoring approaches. In addition, two automatic speech recognition (ASR) systems, Whisper and FADE, were used to generate comparative BIF estimates. Extended high frequencies (EHFs) were included to assess their contribution to intelligibility. The results showed that the BIF of the Dutch DIN test substantially deviates from other BIFs, particularly in the contribution of high frequencies. Approximately 9% of speech information was attributed to the EHFs. Validation showed improved prediction of DIN test speech recognition thresholds using the newly derived BIF compared to the SPIN BIF. Scoring method influenced band importance slightly, whereas ASR-based estimates did not match human-derived BIFs.",
+      "ai_analysis": {
+        "scientific_question": "荷兰数字噪声测试的频带重要性函数（BIF）是什么，其与传统BIF有何差异？",
+        "key_highlight": "荷兰DIN测试的BIF与传统BIF存在显著差异，特别是在高频区域的贡献，扩展高频贡献约9%的言语信息，且新BIF能更好地预测言语识别阈值。",
+        "main_limitation": "研究仅纳入20名年轻正常听力成人，样本代表性有限，难以推广至老年人或听损患者。",
+        "research_implication": "该研究为临床听力学和言语感知研究提供了更精准的BIF参考，尤其对数字噪声测试的标准化应用具有参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "247356c531865775",
+        "updated_at": "2026-09-01T07:54:08Z"
+      },
+      "last_author_affiliation": "Department of Otolaryngology-Head and Neck Surgery, Ear and Hearing, Amsterdam UMC, University of Amsterdam, Amsterdam, the Netherlands; Amsterdam Public Health Research Institute, Amsterdam, the Netherlands.",
+      "publication_stage": "early_access",
+      "section": "Speech Communication",
+      "keywords": [],
+      "tags": [
+        "speech perception"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-25",
+      "first_seen_at": "2026-08-31T08:42:32Z"
     },
     {
       "title": "The role of binaural input in music perception: Evidence from adults with single-sided deafness",
@@ -1150,6 +1227,18 @@
       "doi": "10.1073/pnas.2536563123",
       "url": "https://doi.org/10.1073/pnas.2536563123",
       "abstract": "Inner speaking-the deliberate generation of speech through covert production mechanisms-is a common human experience. Current accounts propose that it engages sensorimotor processes similar to those underlying overt speech. Here, we asked whether motor and auditory representations during inner speaking maintain the granularity and temporal structure observed in overt speech. Using magnetoencephalography and time-resolved decoding, we examined neural dynamics across two experiments. Participants covertly produced consonant-vowel syllables designed to emphasize either articulatory or acoustic phonetic components through contrasts in the consonants or vowels, respectively. Across experiments, neural activity closely paralleled stages for overt speech. Consonants (articulatory contrasts) were more strongly decoded from speech motor cortex before the expected syllable onset, whereas vowels (acoustic contrasts) were more strongly decoded from auditory cortex immediately afterward, consistent with the onset of internally generated percepts. Vowel discriminability in auditory regions was further graded according to separation along a perceptually relevant acoustic dimension in formant space approximated by the F2-F1 projection, indicating specificity in auditory representations. These findings reveal temporally structured, phoneme-level content-specific sensorimotor representations during inner speaking, consistent with production-based accounts involving internal forward models.",
+      "ai_analysis": {
+        "scientific_question": "内语（隐蔽言语产生）过程中的运动和听觉表征是否保持与外显言语相同的精细度和时间结构？",
+        "key_highlight": "通过MEG时间解析解码技术发现，内语产生时辅音在预期音节起始前更多从运动皮层解码，而元音则在起始后更多从听觉皮层解码，显示出时间结构化的音素级感觉运动表征。",
+        "main_limitation": "研究仅纳入健康年轻成人并使用特定的辅音-元音音节材料，结论对其他人群或语音类型的适用性有限。",
+        "research_implication": "该研究揭示了内语生成中涉及内部前向模型的精细感觉运动表征，为理解言语产生的神经机制提供了基础，但对助听器或人工耳蜗等临床应用无直接关联。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "552fa51f61ba71f7",
+        "updated_at": "2026-09-08T07:18:32Z"
+      },
       "first_author_affiliation": "Department of Neuroscience, Georgetown University Medical Center, Washington, DC 20057.",
       "last_author_affiliation": "Department of Psychology, New York University, New York, NY 10003.",
       "publication_stage": "early_access",
@@ -1188,18 +1277,155 @@
         "mesh"
       ],
       "needs_review": true,
-      "first_seen_at": "2026-09-08T07:17:39Z",
+      "first_seen_at": "2026-09-08T07:17:39Z"
+    },
+    {
+      "title": "Erratum: Acoustic parameter combinations underlying mapping of pseudoword sounds to multiple domains of meaning: Representational similarity analyses and machine-learning models [J. Acoust. Soc. Am. 158 (6), 4243–4267 (2025)]",
+      "authors": [
+        "G. Vinodh Kumar",
+        "Simon Lacey",
+        "Josh Dorsi",
+        "Lynne C. Nygaard",
+        "K. Sathian"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-08",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044590",
+      "url": "https://doi.org/10.1121/10.0044590",
+      "abstract": null,
+      "first_author_affiliation": "Department of Neurology, Penn State College of Medicine 1 , Hershey, Pennsylvania 17033,",
+      "last_author_affiliation": "Department of Neurology, Penn State College of Medicine 1 , Hershey, Pennsylvania 17033,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-08",
+      "first_seen_at": "2026-09-09T07:26:00Z"
+    },
+    {
+      "title": "Experimental demonstration for precisely tuning the focal length of finite-aperture focused beams and vortices",
+      "authors": [
+        "Shiyu Li",
+        "Yicheng Feng",
+        "Weiwei Cui",
+        "Zhixiong Gong"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-08",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046469",
+      "url": "https://doi.org/10.1121/10.0046469",
+      "abstract": "High-frequency focused ultrasound is widely used in biomedical applications such as high-resolution imaging, neuromodulation, and particle manipulation. However, dynamic tuning of the focal plane in conventional systems often relies on mechanically adjustable components or array-based control with high cost. In this work, an optically transparent, planar compact piezoelectric ultrasonic transducer was designed and fabricated by encoding phase profile corresponding to an ideal converging spherical wave onto a planar aperture, thereby generating focused fields while maintaining compatibility with microscopic imaging platforms. The acoustic field was experimentally characterized in the focal plane at design frequency and in the propagation plane at several excitation frequencies around the design frequency. The focal shift originates from the mismatch between the fabricated phase pattern and the propagation wavenumber at the excitation frequency. An approximate linear relation between focal length and frequency near the design one is derived theoretically, and the finite-range tuning behavior is interpreted using the stationary-phase condition. Both theory and experiment show the focal length varies approximately linearly with excitation frequency near the design frequency. Water-tank measurements agree well with the theoretical prediction, confirming the proposed model. This work provides a simple and cost-effective approach for focal tuning in compact high-frequency ultrasound devices.",
+      "first_author_affiliation": "State Key Laboratory of Ocean Engineering, School of Ocean and Civil Engineering, Shanghai Jiao Tong University 1 , Shanghai 200240,",
+      "last_author_affiliation": "State Key Laboratory of Ocean Engineering, School of Ocean and Civil Engineering, Shanghai Jiao Tong University 1 , Shanghai 200240,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-08",
+      "first_seen_at": "2026-09-09T07:26:00Z",
       "ai_analysis": {
-        "scientific_question": "内语（隐蔽言语产生）过程中的运动和听觉表征是否保持与外显言语相同的精细度和时间结构？",
-        "key_highlight": "通过MEG时间解析解码技术发现，内语产生时辅音在预期音节起始前更多从运动皮层解码，而元音则在起始后更多从听觉皮层解码，显示出时间结构化的音素级感觉运动表征。",
-        "main_limitation": "研究仅纳入健康年轻成人并使用特定的辅音-元音音节材料，结论对其他人群或语音类型的适用性有限。",
-        "research_implication": "该研究揭示了内语生成中涉及内部前向模型的精细感觉运动表征，为理解言语产生的神经机制提供了基础，但对助听器或人工耳蜗等临床应用无直接关联。",
+        "scientific_question": "如何通过简单低成本的方式实现高频聚焦超声波焦距的动态调节？",
+        "key_highlight": "通过在平面超声换能器上编码理想球面波相位分布，实现了激励频率与焦距之间的近似线性调谐关系。",
+        "main_limitation": "实验仅在水槽中进行，且调谐范围局限于设计频率附近，难以评估实际生物组织中的应用效果。",
+        "research_implication": "General research findings",
         "provider": "minimax",
         "model": "MiniMax-M2.7",
         "language": "zh",
         "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "552fa51f61ba71f7",
-        "updated_at": "2026-09-08T07:18:32Z"
+        "abstract_hash": "f5f51bf1eed0bb34",
+        "updated_at": "2026-09-09T07:27:12Z"
+      }
+    },
+    {
+      "title": "Localization performance of a two-listener virtual sound imaging system",
+      "authors": [
+        "Vlad S. Paul",
+        "Isaac Lambert",
+        "Philip A. Nelson"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-08",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046468",
+      "url": "https://doi.org/10.1121/10.0046468",
+      "abstract": "This study describes the design and evaluation of a crosstalk cancellation (CTC) system intended to reproduce binaural audio for two listeners simultaneously. A compact loudspeaker array was combined with measured loudspeaker-to-ear transfer functions to generate band limited virtual sources and frequency domain CTC filters. The signal processing framework, including the implementation of the crossover network and the construction of the frequency-dependent CTC matrices, is presented in detail. The resulting filters are examined in both the time and frequency domains to illustrate their behaviour and to show how individual loudspeakers contribute across frequency bands. While the theoretical foundations of the array geometry are established in a companion paper, the present work focuses on the physical implementation of the system and its perceptual evaluation through subjective listening tests in which 25 participants localized virtual sound sources reproduced at two listening positions. After correction for front–back confusions, a mean absolute error of approximately 15° was achieved at both listening positions, with no statistically significant overall difference in accuracy or consistency between the two seats. The results indicate that listeners were generally able to identify the intended source directions, demonstrating that stable spatial cues can be delivered simultaneously at both positions.",
+      "first_author_affiliation": "Institute of Sound and Vibration Research, University of Southampton , Southampton, SO17 1BJ,",
+      "last_author_affiliation": "Institute of Sound and Vibration Research, University of Southampton , Southampton, SO17 1BJ,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046468",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-08",
+      "first_seen_at": "2026-09-09T07:26:00Z",
+      "full_text_url": "https://pubs.aip.org/jasa/article/160/3/2037/3403996/Localization-performance-of-a-two-listener-virtual",
+      "media_checked_at": "2026-09-09T07:26:54Z",
+      "open_access_image_checked_at": "2026-09-09T07:26:54Z",
+      "ai_analysis": {
+        "scientific_question": "双听者虚拟声像系统能否通过交叉通话消除技术同时在两个听音位置提供稳定的双耳音频空间线索？",
+        "key_highlight": "采用紧凑扬声器阵列和测量传递函数实现的交叉通话消除系统，在25名受试者的主观定位测试中，两个听音位置的平均绝对误差均约为15°，且定位准确性无显著差异。",
+        "main_limitation": "虚拟声源被限定在有限频带范围内，且系统在特定测量传递函数条件下工作，真实动态聆听环境中的鲁棒性尚未验证。",
+        "research_implication": "该技术可为空间听觉研究提供更自然的双听者聆听条件，但对助听器或人工耳蜗佩戴者的实际适用性仍需进一步验证。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "4fffdeb4c40e6ad0",
+        "updated_at": "2026-09-09T07:27:31Z"
+      }
+    },
+    {
+      "title": "Non-Auditory Participant Characteristics Influence Digit-Perception Performance: Evidence From Tasks Varying in Masker Type and Spatial Cues",
+      "authors": [
+        "Hannah Guest",
+        "Antje Heinrich",
+        "Kevin J. Munro",
+        "Garreth Prendergast",
+        "Rebecca E. Millman",
+        "Karolina Kluk",
+        "Christopher J. Plack"
+      ],
+      "journal": "Trends in Hearing",
+      "publication_date": "2026-09-08",
+      "publication_date_precision": "day",
+      "doi": "10.1177/23312165261468222",
+      "url": "https://doi.org/10.1177/23312165261468222",
+      "abstract": "Digit-perception tasks are widely used to assess auditory function in clinical and research settings, but performance may also be shaped by non-auditory participant characteristics. This study examined whether educational attainment, forward digit span, socioeconomic deprivation, and musical experience predicted performance on three digit-perception tasks that differed in masker type and spatial demands: digits in speech-shaped noise (SSN), digits in spatially separated babble, and a spatial-selective-attention task in which digit streams were separated by 15°. Participants were 220 young adults (aged 16-17 years at baseline) with bilaterally normal audiometric thresholds, each tested twice. The narrow age range and normal hearing constrained variation in peripheral auditory function, increasing sensitivity to non-auditory influences. Linear mixed-effects models were used to examine single-predictor and multivariate associations between the predictors and each outcome. Digits-in-SSN performance was unrelated to all predictors. Digits-in-babble thresholds showed modest associations with deprivation and educational attainment in single-predictor models, but neither survived multivariate adjustment. By contrast, spatial-selective-attention performance showed robust independent associations with educational attainment, deprivation, and musical experience after mutual adjustment. Forward digit span was not a significant predictor of any task. These findings indicate that spatially demanding digit-perception tasks are vulnerable to non-auditory confounds, and that controlling for short-term memory may be insufficient to address this problem. A secondary analysis examined whether the association between musical experience and spatial selective attention might reflect confounding rather than auditory training. The musician advantage was attenuated by approximately one third after adjustment for sociodemographic factors, consistent with a substantial contribution of confounding.",
+      "first_author_affiliation": "The University of Manchester",
+      "last_author_affiliation": "The University of Manchester",
+      "open_access": true,
+      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261468222",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-08",
+      "first_seen_at": "2026-09-09T07:26:05Z",
+      "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261468222",
+      "media_checked_at": "2026-09-09T07:26:54Z",
+      "open_access_image_checked_at": "2026-09-09T07:26:54Z",
+      "ai_analysis": {
+        "scientific_question": "非听觉参与者特征（如教育程度、工作记忆、经济社会地位、音乐经验）是否会影响不同掩蔽类型和空间线索条件下的数字感知任务表现？",
+        "key_highlight": "空间选择性注意任务（15°空间分离的数字流）对教育程度、经济社会剥夺和音乐经验表现出稳健的独立关联，而简单的稳态噪声中数字识别任务则与这些非听觉因素无关。",
+        "main_limitation": "研究仅纳入16-17岁且双耳听力阈值正常的青年成人，样本年龄范围狭窄且排除了听力损失个体，可能限制了研究结果向其他年龄群体或临床人群的推广。",
+        "research_implication": "该研究表明空间需求较高的言语感知任务可能受到非听觉因素的干扰，提示临床和研究中解释此类任务结果时需谨慎考虑人口统计学特征的潜在混杂效应。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "3e71cf49ab5dd8f6",
+        "updated_at": "2026-09-09T07:27:54Z"
       }
     },
     {
@@ -1220,6 +1446,18 @@
       "doi": "10.1073/pnas.2532413123",
       "url": "https://doi.org/10.1073/pnas.2532413123",
       "abstract": "The absence of input from one sense can lead to a greater emphasis on the remaining senses, resulting in heightened performance. Numerous behavioral studies demonstrate that adults who have been deaf from an early age have superior visual sensitivity, particularly to far-peripheral stimuli. We asked whether the increased demand on peripheral vision throughout development that comes with early, profound deafness might be reflected in changes in early visual brain structures. Using functional MRI, we mapped visual field representations in 16 early, profoundly D/deaf adults and 16 hearing age-matched controls. D/deaf individuals exhibited a larger representation of the far-peripheral visual field in both the primary visual cortex and the lateral geniculate nucleus of the thalamus. Importantly, this was not due to a total expansion of the visual map, as there was no difference between groups in overall size of either structure, but a smaller representation of the central visual field in the D/deaf group, suggesting a redistribution of neural resources. Here, we demonstrate that the demands placed on vision due to lifelong deafness can sculpt first level visual map input, to increase neural processing resources for far-peripheral visual stimuli.",
+      "ai_analysis": {
+        "scientific_question": "早期深度失聪成年人的外周视觉敏感度增强是否反映在初级视皮层和丘脑外侧膝状体核的早期视觉结构改变中。",
+        "key_highlight": "失聪个体在初级视皮层和外侧膝状体核中均表现出远外周视野表征增大，同时中央视野表征减小，提示存在神经资源的重新分配而非结构整体扩大。",
+        "main_limitation": "样本量较小（每组16人），且为横断面设计难以确定因果关系，无法排除发育期其他混杂因素对视觉系统可塑性的影响。",
+        "research_implication": "该发现为理解感觉剥夺下的跨模态可塑性机制提供了神经基础证据，提示听觉康复干预需考虑视觉系统已发生的适应性结构改变。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "abc1dd6297211df7",
+        "updated_at": "2026-09-08T07:18:53Z"
+      },
       "first_author_affiliation": "Department of Psychology, University of York, York YO10 5DD, North Yorkshire, United Kingdom.",
       "last_author_affiliation": "Department of Psychology, University of York, York YO10 5DD, North Yorkshire, United Kingdom.",
       "section": null,
@@ -1262,18 +1500,54 @@
         "title"
       ],
       "needs_review": false,
-      "first_seen_at": "2026-09-08T07:17:39Z",
+      "first_seen_at": "2026-09-08T07:17:39Z"
+    },
+    {
+      "title": "The Effect of Etiology, Array Type and Duration of Deafness on Focused Detection Thresholds in Cochlear Implant Listeners",
+      "authors": [
+        "Caylin McCallick",
+        "Scott C. Aker",
+        "Heather A. Kreft",
+        "Tina Munjal",
+        "Andrew J. Oxenham",
+        "Julie G. Arenberg"
+      ],
+      "journal": "Trends in Hearing",
+      "publication_date": "2026-09-08",
+      "publication_date_precision": "day",
+      "doi": "10.1177/23312165261486089",
+      "url": "https://doi.org/10.1177/23312165261486089",
+      "abstract": "Cochlear implants (CIs) are considered effective at restoring some hearing abilities to individuals with severe hearing loss. However, there is considerable variability in performance outcomes among adults with CIs. One likely source of variability is the quality of the electrode-neuron interface (ENI), which describes how well implanted electrodes stimulate nearby spiral-ganglion neurons (SGNs) in the cochlea. Absolute thresholds, measured via focused electrical stimulation, have been proposed as a behavioral estimate of ENI. In this retrospective study, focused-stimulation threshold patterns were compared for 92 ears from 74 adult cochlear implant listeners with various etiologies, durations of deafness, and electrode array types. The results showed that CI listeners implanted with a pre-curved array tended to have lower overall focused thresholds than listeners with straight arrays, as well as a threshold profile with lower (better) thresholds at each end of the array and highest thresholds near the middle of the array. CI listeners with etiologies related to auto-immune dysfunction, such as Meniere’s disease, tended to have the opposite profile, with lowest thresholds near the middle of the array. No significant effect of duration of deafness on focused thresholds was observed. Further investigation into which demographic and device factors affect focused thresholds, and therefore potentially ENI, could shed light on the variability of CI outcomes and guide development of individualized treatment strategies.",
+      "first_author_affiliation": "Massachusetts Eye and Ear, Harvard Medical School, Department of Otolaryngology Head and Neck Surgery, Boston, MA, USA",
+      "last_author_affiliation": "Massachusetts Eye and Ear, Harvard Medical School, Department of Otolaryngology Head and Neck Surgery, Boston, MA, USA",
+      "open_access": true,
+      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261486089",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology",
+        "cochlear implant"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-08",
+      "first_seen_at": "2026-09-09T07:26:05Z",
+      "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261486089",
+      "media_checked_at": "2026-09-09T07:26:54Z",
+      "open_access_image_checked_at": "2026-09-09T07:26:54Z",
       "ai_analysis": {
-        "scientific_question": "早期深度失聪成年人的外周视觉敏感度增强是否反映在初级视皮层和丘脑外侧膝状体核的早期视觉结构改变中。",
-        "key_highlight": "失聪个体在初级视皮层和外侧膝状体核中均表现出远外周视野表征增大，同时中央视野表征减小，提示存在神经资源的重新分配而非结构整体扩大。",
-        "main_limitation": "样本量较小（每组16人），且为横断面设计难以确定因果关系，无法排除发育期其他混杂因素对视觉系统可塑性的影响。",
-        "research_implication": "该发现为理解感觉剥夺下的跨模态可塑性机制提供了神经基础证据，提示听觉康复干预需考虑视觉系统已发生的适应性结构改变。",
+        "scientific_question": "病因类型、电极阵列形态和失聪时长如何影响耳蜗植入者的聚焦电刺激检测阈值？",
+        "key_highlight": "预弯电极阵列比直列阵列呈现更低的聚焦阈值，且阈值分布呈两端低中间高的特征，而自身免疫性病因患者则呈相反的阈值分布模式。",
+        "main_limitation": "样本量相对有限（74例），且病因类型分布多样，可能影响结果的广泛适用性。",
+        "research_implication": "为理解耳蜗植入效果个体差异提供了电生理依据，并有望指导个性化电极阵列选择和干预策略的制定。",
         "provider": "minimax",
         "model": "MiniMax-M2.7",
         "language": "zh",
         "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "abc1dd6297211df7",
-        "updated_at": "2026-09-08T07:18:53Z"
+        "abstract_hash": "46b141387f97dfb5",
+        "updated_at": "2026-09-09T07:28:20Z"
       }
     },
     {
@@ -4695,53 +4969,6 @@
       "first_seen_at": "2026-08-26T03:27:36Z"
     },
     {
-      "title": "Hidden auditory dysfunction in tinnitus with normal audiograms: selective and chronicity-dependent ABR changes in middle-aged adults",
-      "authors": [
-        "Qian He",
-        "Sheng-Yu Tao",
-        "Bingjie Li",
-        "Shiyu Kang",
-        "Xiaoliang Sheng",
-        "Ji-Sheng Liu",
-        "Duo-Duo Tao"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-08-25",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109786",
-      "url": "https://doi.org/10.1016/j.heares.2026.109786",
-      "abstract": "Tinnitus can occur in adults with normal audiograms, suggesting subtle auditory dysfunction beyond conventional threshold measures. This study investigated whether middle-aged adults with tinnitus and clinically normal hearing show evidence of peripheral neural dysfunction and duration-related brainstem changes. Seventy-four tinnitus patients (101 ears) and 15 healthy controls (30 ears) with normal audiograms and preserved distortion-product otoacoustic emissions were enrolled; the tinnitus group was subdivided into acute (<6 months) and chronic (≥6 months) tinnitus. Click-evoked auditory brainstem responses were recorded from 45 to 90 dB nHL, and absolute wave latencies and amplitudes, interpeak latencies, intensity-response slopes, the wave V/I amplitude ratio, and wave V ABR growth ratio were analyzed using linear mixed-effects models. Pure-tone thresholds, wave V thresholds, and DPOAE measures did not differ across groups. Chronic tinnitus showed prolonged wave I latency at 55, 75, and 80 dB nHL, while both acute and chronic tinnitus showed reduced wave I amplitude at 45 dB nHL. Chronic tinnitus also showed a steeper wave V latency-intensity slope and a higher V/I ratio at 80 dB nHL, whereas interpeak latencies and wave V ABR growth ratio showed no robust group differences. These findings support selective ABR abnormalities in normal-audiogram tinnitus, centered on wave I changes, with additional suprathreshold brainstem alterations in chronic tinnitus.",
-      "ai_analysis": {
-        "scientific_question": "伴有正常听力图的重听症患者是否存在隐匿性听觉神经功能障碍，以及这些异常是否与重听症持续时间相关。",
-        "key_highlight": "慢性重听症患者在正常听力图中表现出选择性听觉脑干反应异常，主要表现为波I潜伏期延长和振幅降低，且伴有超阈值的脑干改变的时程依赖性特征。",
-        "main_limitation": "对照组样本量较小（15人 vs 74名患者），且仅纳入中年成人，可能限制结果的普遍适用性。",
-        "research_implication": "研究提示正常听力图的重听症患者存在亚临床神经功能障碍，对理解隐匿性听觉损失和早期听力干预具有参考意义。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "45864fa52c3d445a",
-        "updated_at": "2026-09-01T07:54:01Z"
-      },
-      "last_author_affiliation": "Department of Ear, Nose, and Throat, The First Affiliated Hospital of Soochow University, Suzhou, 215006, China. Electronic address: ddtao1008@suda.edu.cn.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Auditory brainstem response (ABR)",
-        "Cochlear synaptopathy",
-        "Hidden auditory dysfunction",
-        "Normal audiograms",
-        "Tinnitus"
-      ],
-      "tags": [
-        "auditory physiology",
-        "clinical audiology"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-08-25",
-      "first_seen_at": "2026-09-01T07:52:01Z"
-    },
-    {
       "title": "How Temporal Overlap in Task Processing and Acoustic Load Affect Listening Effort in Adults",
       "authors": [
         "Julia Seitz",
@@ -4922,48 +5149,6 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-08-25",
       "first_seen_at": "2026-08-25T03:14:33Z"
-    },
-    {
-      "title": "The band importance function for the Dutch digits-in-noise test: A computational derivation using human and automatic speech recognition data, including extended high frequencies",
-      "authors": [
-        "Nick D. van Huis",
-        "Niek J. Versfeld",
-        "Cas Smits"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-08-25",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109785",
-      "url": "https://doi.org/10.1016/j.heares.2026.109785",
-      "abstract": "The band importance function (BIF) quantifies the contribution of each frequency band to the intelligibility of speech and is a key element of the speech intelligibility index. The BIF depends on the type of speech material and speaker characteristics. Several BIFs exist, but they do not cover all test materials used in audiology. This study aimed to determine the BIF for the Dutch digits-in-noise (DIN) test, a widely used speech-in-noise measure. Twenty young adults with normal hearing completed a speech recognition task using Dutch DIN triplets presented at multiple signal-to-noise ratios (SNRs) and filtered according to one-third octave bands. The BIF was estimated using the computational method of Kates (2013), applying both digit and triplet scoring approaches. In addition, two automatic speech recognition (ASR) systems, Whisper and FADE, were used to generate comparative BIF estimates. Extended high frequencies (EHFs) were included to assess their contribution to intelligibility. The results showed that the BIF of the Dutch DIN test substantially deviates from other BIFs, particularly in the contribution of high frequencies. Approximately 9% of speech information was attributed to the EHFs. Validation showed improved prediction of DIN test speech recognition thresholds using the newly derived BIF compared to the SPIN BIF. Scoring method influenced band importance slightly, whereas ASR-based estimates did not match human-derived BIFs.",
-      "ai_analysis": {
-        "scientific_question": "荷兰数字噪声测试的频带重要性函数（BIF）是什么，其与传统BIF有何差异？",
-        "key_highlight": "荷兰DIN测试的BIF与传统BIF存在显著差异，特别是在高频区域的贡献，扩展高频贡献约9%的言语信息，且新BIF能更好地预测言语识别阈值。",
-        "main_limitation": "研究仅纳入20名年轻正常听力成人，样本代表性有限，难以推广至老年人或听损患者。",
-        "research_implication": "该研究为临床听力学和言语感知研究提供了更精准的BIF参考，尤其对数字噪声测试的标准化应用具有参考价值。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "247356c531865775",
-        "updated_at": "2026-09-01T07:54:08Z"
-      },
-      "last_author_affiliation": "Department of Otolaryngology-Head and Neck Surgery, Ear and Hearing, Amsterdam UMC, University of Amsterdam, Amsterdam, the Netherlands; Amsterdam Public Health Research Institute, Amsterdam, the Netherlands.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Automatic speech recognition",
-        "Band importance function",
-        "Digits-in-noise test",
-        "Extended high frequencies"
-      ],
-      "tags": [
-        "clinical audiology",
-        "speech perception"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-08-25",
-      "first_seen_at": "2026-08-31T08:42:32Z"
     },
     {
       "title": "Comparing and Optimizing Tissue Clearing Protocols for Cochlear Immunostaining and 3D Reconstruction by Light-Sheet Microscopy",
@@ -9364,22 +9549,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -9392,6 +9561,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -16931,18 +17116,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -16963,17 +17147,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -26297,22 +26482,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -26325,6 +26494,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -33065,6 +33250,18 @@
       "url": "https://doi.org/10.1016/j.heares.2026.109593",
       "full_text_url": "https://linkinghub.elsevier.com/retrieve/pii/S0378595526000699",
       "abstract": "Intense sound stimulation can transiently affect various read-outs of cochlear sensitivity after stimulus cessation, for which the term bounce-phenomenon (BP) has been coined. To better understand stimulus characteristics determining the nature of the BP (amplitude, polarity, duration) across a wide frequency range, we measured spontaneous otoacoustic emissions (SOAEs, N = 21 human ears; tested frequency range: 0.5-12 kHz) before and right after application of an intense sound stimulus [3 types of transposed-bandpass noise (TBP-noise) centered at fc = 1300 Hz, and a 30-Hz pure tone; all at 85-phons for 90 s] and investigated: (1) The effect of the stimulus AC component on the BP [30-Hz AC vs smooth TBP-noises]. (2) The effect of stimulus bandwidth on the BP (1-ERB vs 4-ERB wide TBP-noises). (3) The relation between stimulus spectral content and BP characteristics across different SOAE frequency regions. It was found that: (a) All stimuli evoked BPs (b) the BP was not enhanced for the AC stimulation; oppositely it was less acute than for the smooth (continuous) stimulation. (c) A wider stimulus bandwidth did not enhance the BP. (d) Biphasic and more intense BPs mostly occurred relatively basal from each stimulus spectral content (i.e., above fc for TBP-noises), with the 30-Hz tone eliciting the most intense BPs in the lower SOAE frequency region. Results suggest that both the cochlear partition displacement amplitude and its longitudinal in-phase alignment are important for the homeostatic mechanisms thought to be behind the BP, likely explaining why low-frequency tones are most effective BP elicitors across a wide frequency range.",
+      "ai_analysis": {
+        "scientific_question": "强声刺激后出现的回弹现象（Bounce Phenomenon）的特征（振幅、极性、持续时间）由哪些刺激参数决定？",
+        "key_highlight": "蜗隔位移振幅及其纵向同相排列共同影响回弹现象的产生，解释了为何低频音在不同频率区域均为最有效的诱因。",
+        "main_limitation": "受试样本量相对有限（N = 21耳），且刺激类型较为特定，结论在更广泛刺激条件下的普适性有待验证。",
+        "research_implication": "该研究深化了对蜗内稳态机制的理解，为未来人工耳蜗和助听器的信号处理策略提供了潜在的生理学参考。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "046e18ba7817e10c",
+        "updated_at": "2026-09-08T07:19:31Z"
+      },
       "first_author_affiliation": "Audiology Group, Department of Neuromedicine and Movement Sciences, Norwegian University of Science and Technology, Trondheim 7491, Norway. Electronic address: carlos.jurado@ntnu.no.",
       "last_author_affiliation": "Audiology Group, Department of Neuromedicine and Movement Sciences, Norwegian University of Science and Technology, Trondheim 7491, Norway.",
       "section": "Psychological and Physiological Acoustics",
@@ -33079,19 +33276,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-02-25",
-      "first_seen_at": "2026-05-14T02:29:18Z",
-      "ai_analysis": {
-        "scientific_question": "强声刺激后出现的回弹现象（Bounce Phenomenon）的特征（振幅、极性、持续时间）由哪些刺激参数决定？",
-        "key_highlight": "蜗隔位移振幅及其纵向同相排列共同影响回弹现象的产生，解释了为何低频音在不同频率区域均为最有效的诱因。",
-        "main_limitation": "受试样本量相对有限（N = 21耳），且刺激类型较为特定，结论在更广泛刺激条件下的普适性有待验证。",
-        "research_implication": "该研究深化了对蜗内稳态机制的理解，为未来人工耳蜗和助听器的信号处理策略提供了潜在的生理学参考。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "046e18ba7817e10c",
-        "updated_at": "2026-09-08T07:19:31Z"
-      }
+      "first_seen_at": "2026-05-14T02:29:18Z"
     },
     {
       "title": "Cochlear histopathology in macaques after noise-induced temporary threshold shifts",
@@ -33114,6 +33299,18 @@
       "url": "https://doi.org/10.1016/j.heares.2026.109599",
       "full_text_url": "https://linkinghub.elsevier.com/retrieve/pii/S0378595526000754",
       "abstract": "Noise exposures causing transient hearing loss were previously considered benign. However, recent work has revealed that temporary noise-induced threshold shifts may be associated with long-lasting cochlear histopathology. One such effect is cochlear synaptopathy, i.e. changes to the afferent synapse between inner hair cells and auditory nerve fibers. Noise-induced synaptopathy has been extensively characterized in several rodent models, and temporal bone studies suggest similar age-related changes in humans. However, it remains unclear how noise-induced temporary threshold shifts affect cochlear structures in humans and nonhuman primates, which show greater resistance to noise exposure than other animals. Additionally, the long-term sequelae of temporary threshold shifts are largely unknown. Here, we characterized the effects of a noise exposure causing temporary threshold shifts on cochlear histopathology in macaque monkeys at long post-exposure survival times. Overall, cochlear histopathology was variable across subjects, similar to the variable susceptibility observed in humans. At 2 and 10 months post-exposure, macaques had no significant loss of hair cells, inner hair cell synapses, or cholinergic efferent innervation. However, both inner and outer hair cell ribbons showed significant enlargement. Together, these findings provide insight into the cochlear effects of single-exposure temporary threshold shifts in nonhuman primates.",
+      "ai_analysis": {
+        "scientific_question": "噪声诱发的暂时性听阈偏移是否会在非人类灵长类动物中引起长期的耳蜗组织病理学改变？",
+        "key_highlight": "在噪声暴露后2个月和10个月，猕猴未出现毛细胞、内毛细胞突触或胆碱能传出神经支配的显著损失，但内毛细胞和外毛细胞的带状突触体积出现显著增大。",
+        "main_limitation": "受试对象数量有限且个体间病理改变存在差异，限制了对人群噪声暴露风险的直接推断。",
+        "research_implication": "该发现提示单次噪声暴露后即使听阈完全恢复，也可能存在亚临床层面的耳蜗结构改变，这对噪声防护策略的制定具有参考意义。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "9aaaad7fa2693e7f",
+        "updated_at": "2026-09-08T07:19:46Z"
+      },
       "first_author_affiliation": "Vanderbilt Neuroscience Graduate Program, Vanderbilt University, Nashville, TN 37212, USA; Vanderbilt Department of Hearing and Speech Sciences, Vanderbilt University Medical Center, Nashville, TN 37212, USA.",
       "last_author_affiliation": "Vanderbilt Department of Hearing and Speech Sciences, Vanderbilt University Medical Center, Nashville, TN 37212, USA. Electronic address: troy.a.hackett@vanderbilt.edu.",
       "section": "Psychological and Physiological Acoustics",
@@ -33128,19 +33325,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-03-02",
-      "first_seen_at": "2026-05-14T02:29:18Z",
-      "ai_analysis": {
-        "scientific_question": "噪声诱发的暂时性听阈偏移是否会在非人类灵长类动物中引起长期的耳蜗组织病理学改变？",
-        "key_highlight": "在噪声暴露后2个月和10个月，猕猴未出现毛细胞、内毛细胞突触或胆碱能传出神经支配的显著损失，但内毛细胞和外毛细胞的带状突触体积出现显著增大。",
-        "main_limitation": "受试对象数量有限且个体间病理改变存在差异，限制了对人群噪声暴露风险的直接推断。",
-        "research_implication": "该发现提示单次噪声暴露后即使听阈完全恢复，也可能存在亚临床层面的耳蜗结构改变，这对噪声防护策略的制定具有参考意义。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "9aaaad7fa2693e7f",
-        "updated_at": "2026-09-08T07:19:46Z"
-      }
+      "first_seen_at": "2026-05-14T02:29:18Z"
     },
     {
       "title": "Correlation of Promontory Vibration and Sound Emission Recorded from the Skin Surface in Bone Conduction Stimulation.",
@@ -33159,6 +33344,18 @@
       "url": "https://doi.org/10.1007/s10162-025-01028-6",
       "full_text_url": "https://link.springer.com/article/10.1007/s10162-025-01028-6",
       "abstract": "Abstract Purpose Sound pressure recordings at different positions at the head such as ear canal, nasal cavity, or on the skin are effective tools to verify, fit, or follow up the output of bone conduction devices (BCDs) intra- and post-operatively. Here, we investigated the possibility of using a surface microphone (SM) as a non-invasive alternative to laser Doppler vibrometry (LDV) measuring cochlear promontory (CP) vibrations in human heads. Methods A percutaneous BCD (Ponto system) was implanted at the standard position in five human (four males/one female) cadaver heads (ten ears). CP vibration was measured using LDV in response to the BCD stimulation. Simultaneously, the sound pressure level (SPL) emitted by the skin was measured by the SM attached to the forehead of the specimens. A linear regression model estimated the vibration amplitudes based on the measured SPL. Results A frequency-independent linear regression between recorded SM SPL and CP velocity showed a significant correlation (slope = 1.012; r 2 = 0.535, p < 0.001). An enforced fixed slope (constant = 166.7 dB) of one resulted in a mean absolute error of MAE = 7.7 ± 2.7 dB across frequencies. Although the initial linear model with a fixed slope of one showed frequency-dependent deviations, applying a frequency-specific correction significantly improved the prediction accuracy ( r 2 = 0.557, MAE = 6.5 ± 1.5 dB). Conclusion Microphone-based recording of acoustic surface emissions offers a non-invasive alternative to LDV to assess BCD output.",
+      "ai_analysis": {
+        "scientific_question": "表面麦克风能否作为非侵入性替代方案替代激光多普勒振动仪来测量骨导刺激中的人体耳蜗隆突振动。",
+        "key_highlight": "表面麦克风测得的声压级与耳蜗隆突振动速度之间存在显著线性相关，校正后平均绝对误差约为6.5 dB，表明麦克风法可有效替代激光振动仪测量骨导装置输出。",
+        "main_limitation": "研究仅在五具人类尸体头部（十耳）上进行，尸体组织的生物力学特性可能与活体存在差异，限制了该方法在临床应用中的直接推广。",
+        "research_implication": "该结果为骨导装置术后验证和调试提供了一种更简便的非侵入性测量手段，有望简化临床配备流程。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "03cbc1b816591347",
+        "updated_at": "2026-09-08T07:19:54Z"
+      },
       "first_author_affiliation": "Department of Otolaryngology and Cluster of Excellence \"Hearing4all\", Hannover Medical School, Carl-Neuberg-Str. 1a, 30625, Hanover, Germany.",
       "last_author_affiliation": "Department of Otolaryngology and Cluster of Excellence \"Hearing4all\", Hannover Medical School, Carl-Neuberg-Str. 1a, 30625, Hanover, Germany. Maier.Hannes@mh-hannover.de.",
       "open_access": true,
@@ -33182,19 +33379,7 @@
       ],
       "source": "pubmed",
       "available_online_date": "2026-01-20",
-      "first_seen_at": "2026-05-14T02:29:04Z",
-      "ai_analysis": {
-        "scientific_question": "表面麦克风能否作为非侵入性替代方案替代激光多普勒振动仪来测量骨导刺激中的人体耳蜗隆突振动。",
-        "key_highlight": "表面麦克风测得的声压级与耳蜗隆突振动速度之间存在显著线性相关，校正后平均绝对误差约为6.5 dB，表明麦克风法可有效替代激光振动仪测量骨导装置输出。",
-        "main_limitation": "研究仅在五具人类尸体头部（十耳）上进行，尸体组织的生物力学特性可能与活体存在差异，限制了该方法在临床应用中的直接推广。",
-        "research_implication": "该结果为骨导装置术后验证和调试提供了一种更简便的非侵入性测量手段，有望简化临床配备流程。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "03cbc1b816591347",
-        "updated_at": "2026-09-08T07:19:54Z"
-      }
+      "first_seen_at": "2026-05-14T02:29:04Z"
     },
     {
       "title": "Decoding selective attention in cochlear implant users with ipsilateral residual hearing",
@@ -33210,6 +33395,18 @@
       "url": "https://doi.org/10.1016/j.heares.2026.109589",
       "full_text_url": "https://linkinghub.elsevier.com/retrieve/pii/S0378595526000651",
       "abstract": "Cochlear implant (CI) users with ipsilateral residual hearing receive electric and acoustic stimulation (EAS). The combination of both stimulation modalities results in significant benefits in terms of speech understanding when listening to EAS in comparison to electric stimulation (ES) alone or to acoustic stimulation (AS) alone. This benefit is typically measured through behavioral speech understanding tests. However, these assessments do not provide insights on the neural mechanisms underlying electric acoustic integration nor can they be reliably administered to very young children or individuals unable to provide behavioral responses. Recently, it has been suggested that neural tracking to speech from electroencephalography (EEG) can predict speech understanding in normal hearing listeners and in CI users. The main goal of this work is to investigate behavioral speech understanding alongside with cortical auditory evoked potentials (CAEPs) and selective attention decoding in EAS subjects listening to ES, AS and to combined EAS. Seven EAS subjects participated in the study. First, behavioral speech understanding performance was measured with ES, AS and EAS listening modes. The speech material consisted of target HSM sentences with a competing talker of opposite gender. Integration efficiency for speech understanding was then calculated. Second, CAEPS were recorded by presenting broadband noise with ES, AS and EAS listening modes. Third, selective attention was measured through EEG by monaural presentation of two concurrent speech streams with EAS, ES and AS. During selective attention task, subjects were asked to attend to one of the two concurrent speech streams. Behavioral performance showed significant improvement of speech score with EAS compared to ES and AS listening conditions. A \"supra-additive\" electric acoustic integration during the behavioral speech understanding task was observed in 6 out of 7 participants. Moreover, a significant correlation between integration efficiency and amount of residual hearing was observed. In the CAEPs, no significant effect of listening condition on N1 latency or N1P2 amplitude was observed. Selective attention decoding revealed a significant difference between the attended and unattended correlation coefficients only with the EAS listening condition, indicating a possible integration of electric and acoustic simulation to facilitate segregation of the speech streams. In summary, the main findings of this work are: 1) listening with EAS results in significant improvement in behavioral speech understanding compared to AS and ES; 2) Integration efficiency in speech understanding significantly correlated with amount of residual hearing in the current group of participants; 3) A significant difference between attended and unattended speakers was possible only with EAS listening condition showing a possible integration of both stimulation modalities to facilitate selective attention decoding, however, further research in a larger cohort is necessary.",
+      "ai_analysis": {
+        "scientific_question": "电声联合刺激（EAS）能否通过脑电记录的皮层听觉诱发电位和选择性注意解码揭示人工耳蜗植入患者残余听力的神经整合机制？",
+        "key_highlight": "选择性注意解码仅在电声联合刺激条件下显著成功，提示两种刺激模式的整合可能促进语音流的分离。",
+        "main_limitation": "Limited generalizability due to small or specific sample",
+        "research_implication": "该研究为人工耳蜗残余听力患者的电声联合刺激优化及临床听觉康复策略提供了神经生理学依据。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "cd0fa971cb159e5b",
+        "updated_at": "2026-09-08T07:20:27Z"
+      },
       "first_author_affiliation": "Department of Otolaryngology, Hannover Medical School, Cluster of Excellence \"Hearing4all\", Hannover, Germany.",
       "last_author_affiliation": "Department of Otolaryngology, Hannover Medical School, Cluster of Excellence \"Hearing4all\", Hannover, Germany; Catalan Institution for Research and Advanced Studies (ICREA), Spain; Institut de Recerca Sant Pau, Barcelona, Spain; Department of Microelectronics and Electronic Systems, Institute of Neuroscience, Universitat Autonoma de Barcelona, Spain. Electronic address: NogueiraVazquez.Waldo@mh-hannover.de.",
       "section": "Psychological and Physiological Acoustics",
@@ -33229,19 +33426,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-02-24",
-      "first_seen_at": "2026-05-14T02:29:18Z",
-      "ai_analysis": {
-        "scientific_question": "电声联合刺激（EAS）能否通过脑电记录的皮层听觉诱发电位和选择性注意解码揭示人工耳蜗植入患者残余听力的神经整合机制？",
-        "key_highlight": "选择性注意解码仅在电声联合刺激条件下显著成功，提示两种刺激模式的整合可能促进语音流的分离。",
-        "main_limitation": "Limited generalizability due to small or specific sample",
-        "research_implication": "该研究为人工耳蜗残余听力患者的电声联合刺激优化及临床听觉康复策略提供了神经生理学依据。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "cd0fa971cb159e5b",
-        "updated_at": "2026-09-08T07:20:27Z"
-      }
+      "first_seen_at": "2026-05-14T02:29:18Z"
     },
     {
       "title": "Development of zwitterionic hydrogel thin film coatings of cochlear implant electrode arrays that reduce intracochlear inflammation and electrode impedance",
@@ -33291,7 +33476,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-03-10",
-      "first_seen_at": "2026-05-14T02:29:18Z"
+      "first_seen_at": "2026-05-14T02:29:18Z",
+      "ai_analysis": {
+        "scientific_question": "羧基甜菜碱甲基丙烯酸酯(CBMA)两性离子水凝胶涂层能否有效减少人工耳蜗植入物引发的异物反应并降低电极阻抗",
+        "key_highlight": "在绵羊模型中，CBMA涂层电极阵列的阻抗及细胞浸润和纤维化程度均显著低于未涂层对照组，且效果在4周内持续维持",
+        "main_limitation": "Limited generalizability due to small or specific sample",
+        "research_implication": "为改善人工耳蜗性能及保护残余听力提供了一种有前景的生物材料涂层策略",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "58015bc6eeeebeea",
+        "updated_at": "2026-09-09T07:28:42Z"
+      }
     },
     {
       "title": "Dexamethasone abolishes intra-day fluctuations of electrode impedance in cochlear implant users",
@@ -33330,7 +33527,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-03-11",
-      "first_seen_at": "2026-05-14T02:29:18Z"
+      "first_seen_at": "2026-05-14T02:29:18Z",
+      "ai_analysis": {
+        "scientific_question": "地塞米松洗脱型人工耳蜗电极是否比传统电极在术后平均阻抗水平和日内波动方面表现更优？",
+        "key_highlight": "地塞米松洗脱型电极实现了持续低阻抗且完全消除了日内波动，其稳定性不受电刺激开始时间的影响。",
+        "main_limitation": "样本量较小（每组7-11例）且为非随机分组，两组间样本量不一致，存在选择性偏倚风险。",
+        "research_implication": "地塞米松洗脱型电极的阻抗稳定特性可能为人工耳蜗术后电学参数管理和电极设计提供参考。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "80fa126c07977282",
+        "updated_at": "2026-09-09T07:28:59Z"
+      }
     },
     {
       "title": "Differentiating Causes of Post-Surgical Conductive Hearing Loss with Optical Coherence Tomography Vibrometry.",
@@ -33391,23 +33600,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -33421,6 +33613,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -36756,8 +36965,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -36771,8 +36980,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -42293,8 +42502,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -42308,8 +42517,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
