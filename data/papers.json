@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T07:26:47Z",
+  "generated_at": "2026-09-10T07:22:13Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
@@ -330,6 +330,44 @@
       "source": "crossref",
       "available_online_date": "2026-08-14",
       "first_seen_at": "2026-08-15T03:07:29Z"
+    },
+    {
+      "title": "SOX10 restricts the formation of ectopic sensory patches in the postnatal mouse cochlea",
+      "authors": [
+        "Melissa M. McGovern",
+        "Luyi Zhou",
+        "Michelle R. Randle",
+        "Andrew K. Groves",
+        "Brandon C. Cox"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109788",
+      "url": "https://doi.org/10.1016/j.heares.2026.109788",
+      "abstract": "During the development of the mammalian cochlea, Notch signaling induces prosensory cell formation and later directs the differentiation of prosensory progenitor cells into hair cells and supporting cells. Previous studies have demonstrated that ectopic activation of Notch signaling in the early embryonic cochlea results in the formation of ectopic sensory patches in non-sensory regions; however, the ability to respond to Notch signaling declines with age and is lost after embryonic day (E) 13.5. Here, we observed that Notch activation at birth induced ectopic sensory patches in the mouse cochlea. These ectopic patches produced hair cell-like cells that express some proteins found in mature hair cells. Ectopic sensory patches result from hyperplasia of non-sensory cells throughout the cochlear duct that reentered the cell cycle and produced foci of prosensory competent cells. Within the organ of Corti, cells remained quiescent, however, cellular patterning was altered leading to differentiation of outer sulcus cells into supporting cell-like cells and altering the identity of pillar cells. We further investigated different levels of activated Notch signaling using a doxycycline-inducible system and found that the competence of the neonatal cochlea to induce prosensory markers, such as Sox2, correlates with the level of Notch activation, whereby higher levels of Notch signaling induced ectopic Sox2 expression. Because this conflicted with previous reports, we investigated the mechanism underlying prosensory reactivation in our experiments and found that the loss of one copy of Sox10 resulting from our use of Sox10rtTA/+knock-in mice facilitated prosensory competence, and that higher levels of Notch activation increased the penetrance of the phenotype. Our results demonstrate that the interaction between Notch signaling and SOX10 is important for the regulation of cellular identity in the developing inner ear.",
+      "ai_analysis": {
+        "scientific_question": "Notch信号通路在出生后小鼠耳蜗中是否仍能诱导异位感觉斑块的形成，以及SOX10在其中如何调节细胞命运。",
+        "key_highlight": "Notch信号在出生时可诱导耳蜗非感觉区域形成异位感觉斑块，且Notch信号水平与Sox2表达诱导能力相关，而Sox10单拷贝缺失会影响感觉前体细胞的再激活能力。",
+        "main_limitation": "研究使用的Sox10rtTA/+基因敲入小鼠存在Sox10单拷贝缺失，该遗传背景可能影响Notch信号诱导异位感觉斑块的敏感性。",
+        "research_implication": "该研究揭示了Notch信号与SOX10在耳蜗发育过程中对细胞命运的协同调控机制，为理解内耳细胞命运决定及潜在的再生机制提供了基础理论参考。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "78ed2fa637c8c840",
+        "updated_at": "2026-09-06T07:10:58Z"
+      },
+      "last_author_affiliation": "Department of Pharmacology, Southern Illinois University School of Medicine, Springfield, IL 62711, USA; Department of Otolaryngology, Southern Illinois University School of Medicine, Springfield, IL 62711, USA.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-26",
+      "first_seen_at": "2026-09-01T07:52:01Z"
     },
     {
       "title": "Seven-day hypobaric hypoxia induces early basal cochlear presynaptic ribbon injury and oxidative stress in mice before overt cellular loss",
@@ -1280,6 +1318,277 @@
       "first_seen_at": "2026-09-08T07:17:39Z"
     },
     {
+      "title": "A lightweight model for modulation recognition of integrated underwater acoustic sensing and communication signals",
+      "authors": [
+        "Liya Liu",
+        "Xuerong Cui",
+        "Juan Li",
+        "Tong Li",
+        "Lei Li"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-09",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046087",
+      "url": "https://doi.org/10.1121/10.0046087",
+      "abstract": "Under the stringent resource constraints of underwater edge nodes and the severe impairments of underwater acoustic channels, automatic modulation recognition of integrated underwater acoustic sensing and communication signals (UISAC) remains challenging, especially when both lightweight deployment and robust performance are required. To address this issue, we propose Mixer, an ultra-lightweight network that combines signal enhancement with efficient feature representation. First, the impulsive-noise preprocessing and adaptive spectral block suppress impulsive noise and selectively enhance informative frequency subbands. Second, spatial density functions are coupled with complex-valued convolutions to capture local signal patterns and amplitude-phase coupling in the received signal. Third, the DWMG backbone integrates grouped depthwise-separable convolutions with an MLP-Mixer to efficiently fuse local and global features with low computational overhead. Experimental results under standard, generalization, and robustness evaluation settings show that Mixer remains competitive in the low-signal-to-noise ratio regime and provides a favorable balance between lightweight design and recognition performance. Compared with ULCNN, Mixer reduces the parameter count by 46.96%, and its single-sample CPU inference latency is 18.5 ms, demonstrating its potential for real-time deployment on UISAC edge nodes.",
+      "first_author_affiliation": "College of Oceanography and Space Informatics, China University of Petroleum (East China) 1 , Qingdao 266580,",
+      "last_author_affiliation": "College of Oceanography and Space Informatics, China University of Petroleum (East China) 1 , Qingdao 266580,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-09",
+      "first_seen_at": "2026-09-10T07:21:19Z",
+      "ai_analysis": {
+        "scientific_question": "在资源受限的水下边缘节点和水声信道严重损伤的条件下，如何实现轻量化部署与鲁棒性能兼备的集成水声感知通信信号自动调制识别？",
+        "key_highlight": "提出了一种结合信号增强与高效特征表示的超轻量级网络Mixer，在低信噪比条件下保持竞争力，参数较ULCNN减少46.96%，CPU推理延迟仅18.5毫秒。",
+        "main_limitation": "评估基于特定水下信道设置，其在多样化实际水下环境中的泛化能力有待进一步验证。",
+        "research_implication": "属于水下声学信号处理领域，与助听器、人工耳蜗或言语感知研究无直接关联。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "da63744c390a2552",
+        "updated_at": "2026-09-10T07:22:49Z"
+      }
+    },
+    {
+      "title": "A model-based analysis of modulation masking effects on vocoded speech intelligibility",
+      "authors": [
+        "Cathrina Veigel",
+        "Helia Relaño-Iborra",
+        "Andrew J. Oxenham",
+        "Torsten Dau"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-09",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046394",
+      "url": "https://doi.org/10.1121/10.0046394",
+      "abstract": "Vocoded speech is widely used to simulate aspects of cochlear implant listening, and modeling vocoded intelligibility in normal-hearing listeners can provide insight into auditory processing under electric hearing. Sentence recognition was measured using three masker types (speech-shaped noise, tone complex, and noise-modulated tone complex) and four processing conditions (unprocessed, bandpass-filtered, tone-vocoded, and tone-vocoded with simulated current spread). Masker type affected intelligibility in all conditions except vocoded speech with simulated current spread. A modified speech-based envelope power spectrum model with a correlation-based decision stage was fitted to the unprocessed speech-shaped-noise condition and then applied, without re-fitting, to the remaining conditions. The model captured masker-dependent intelligibility patterns for unprocessed, bandpass-filtered, and tone-vocoded speech without simulated current spread. Analyses of the model's internal representations suggested that vocoding-related intelligibility loss was driven mainly by the removal of higher-rate temporal-envelope modulations rather than by reduced spectral resolution. With simulated current spread, the model predicted the loss of benefit for unmodulated maskers but consistently overestimated intelligibility. These findings support the view that modulation masking is not the primary limitation in simulated electric hearing and point to envelope-energy and pitch-related distortions as important targets for future cochlear implant-oriented intelligibility models.",
+      "first_author_affiliation": "Hearing Systems, Department of Health Technology, Technical University of Denmark 1 , Kongens Lyngby 2800,",
+      "last_author_affiliation": "Hearing Systems, Department of Health Technology, Technical University of Denmark 1 , Kongens Lyngby 2800,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046394",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "cochlear implant",
+        "hearing aid",
+        "priority section",
+        "psychoacoustics",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-09",
+      "first_seen_at": "2026-09-10T07:21:19Z",
+      "full_text_url": "https://pubs.aip.org/jasa/article/160/3/2090/3404104/A-model-based-analysis-of-modulation-masking",
+      "media_checked_at": "2026-09-10T07:22:20Z",
+      "open_access_image_checked_at": "2026-09-10T07:22:20Z",
+      "ai_analysis": {
+        "scientific_question": "调制掩蔽效应对模拟人工耳蜗聆听的声码语音可懂度的影响机制是什么？",
+        "key_highlight": "改进的语音包络功率谱模型能够捕捉不同处理条件下的掩蔽依赖性可懂度模式，且分析表明声码化导致的可懂度损失主要由高频时域包络调制的移除而非谱分辨率降低驱动。",
+        "main_limitation": "模型在模拟电流扩散条件下系统性地高估了语音可懂度，且使用正常听力者的声码语音模拟人工耳蜗聆听可能无法完全复现真实电刺激听觉。",
+        "research_implication": "研究结果提示包络能量和音高相关失真应成为未来人工耳蜗可懂度模型的重要建模目标，并对人工耳蜗信号处理策略设计具有参考意义。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "84859de4f64d5774",
+        "updated_at": "2026-09-10T07:23:00Z"
+      }
+    },
+    {
+      "title": "Comparing measured sonic boom turbulence-induced variability with computational models for the Carpet Determination in Entirety Measurements (CarpetDIEM) I test campaign",
+      "authors": [
+        "Mark C. Anderson",
+        "William J. Doebler",
+        "Kent L. Gee",
+        "Kaylee Nyborg",
+        "Alexandra Loubeau"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-09",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046475",
+      "url": "https://doi.org/10.1121/10.0046475",
+      "abstract": "When a sonic boom propagates through the atmospheric boundary layer, atmospheric turbulence distorts the waveform, producing stochastic variations over short distances. Accurate prediction of this variability is essential because turbulence affects both waveform characteristics and human-perception metrics used to evaluate supersonic overflights. During NASA's 2019 Carpet Determination in Entirety Measurements I (CarpetDIEM I) flight test campaign, Brigham Young University deployed a 120 m (400 ft) linear array with seven microphones to quantify turbulence-induced variability of sonic boom waveforms, spectra, and metrics. In this study, state-of-the-art models PCBoom and KZKFourier are combined with two weather models, CFSv2 and ERA5, to predict metric variability and compare results with CarpetDIEM I measurements. Depending on the metric and confidence interval considered, prediction success ranges between about 30% and 80%. For the perceived level metric, the prediction successes for the mean and standard deviation were 30%–48% and 52%–65% respectively, depending on the weather model. This compares favorably with the Sonic Booms in Atmospheric Turbulence prediction success results of 45% and 71% for the perceived level mean and standard deviation respectively, using data reported by Stout, Sparrow, and Blanc-Benon [(2021). J. Acoust. Soc. Am. 149, 3250–3260].",
+      "first_author_affiliation": "Department of Physics and Astronomy, Brigham Young University 1 , Provo, Utah 84602,",
+      "last_author_affiliation": "Flight Vehicle Acoustics Branch, NASA Langley Research Center 2 , Hampton, Virginia 23681,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-09",
+      "first_seen_at": "2026-09-10T07:21:19Z",
+      "ai_analysis": {
+        "scientific_question": "利用PCBoom和KZKFourier模型结合CFSv2和ERA5气象模型预测超声速飞越时大气湍流引起的音爆波形和感知度量变异性的准确性如何？",
+        "key_highlight": "模型预测成功率在30%至80%之间，对于感知响度指标的预测与先前Sonic Booms in Atmospheric Turbulence研究结果相当。",
+        "main_limitation": "Limited generalizability due to small or specific sample",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "2facd35d74dd77e0",
+        "updated_at": "2026-09-10T07:23:11Z"
+      }
+    },
+    {
+      "title": "Comparing sound localization and speech-in-noise in unilateral, bilateral, single-sided deaf, and bimodal cochlear implant users",
+      "authors": [
+        "Stephen R. Dennison",
+        "Jenna Felder",
+        "Caroline K. Paroby",
+        "Joshua S. Stohl"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-09",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046392",
+      "url": "https://doi.org/10.1121/10.0046392",
+      "abstract": "Cochlear implant users do not experience spatial hearing with the same accuracy or acuity as typical hearing listeners. Two standard measures of spatial hearing are sound localization error and speech reception thresholds (SRTs) in spatially separated noise. While sound localization requires a complicated setup, SRTs may be measured with fewer loudspeakers and less testing time. If a predictive relationship between sound localization error and SRTs can be measured, then the spatial hearing abilities of cochlear implant users may be quickly assessed by measuring one task or the other. To test this, 12 bilateral, ten single-sided deaf, six bimodal, and five unilaterally implanted listeners were recruited. In general, bilateral users had the smallest localization error and greatest improvement in SRTs between collocated and spatially separated conditions, while unilateral users had the largest localization error and worst SRTs. When unilateral listeners were excluded, localization error was significantly correlated with the difference between spatially separated and collocated SRTs. There was no relationship between sound localization error and raw SRT scores. The spatial hearing of unilateral listeners would benefit from receiving a second implant, and many bimodal users would likely experience a benefit from this intervention as well.",
+      "first_author_affiliation": "North American Research Lab, MED-EL US , Durham, North Carolina 27713,",
+      "last_author_affiliation": "North American Research Lab, MED-EL US , Durham, North Carolina 27713,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "cochlear implant",
+        "priority section",
+        "real-world listening",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-09",
+      "first_seen_at": "2026-09-10T07:21:19Z"
+    },
+    {
+      "title": "Estimating the performance of the infotaxis search strategy for changing beamwidth",
+      "authors": [
+        "Marvin Mboya",
+        "John R. Buck",
+        "Wu-Jung Lee"
+      ],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-09-09",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046480",
+      "url": "https://doi.org/10.1121/10.0046480",
+      "abstract": "Infotaxis was compared with maximum a posteriori (MAP) search in active sensing for varying sonar beam widths on one-dimensional grids. The active sensing model incorporated missed detections and false alarms typically found in sonar. Monte Carlo simulations were run across detection probabilities for a fixed false alarm probability, and experiments validated the simulations. Infotaxis outperformed MAP for high and low detection probabilities for medium beam widths. Infotaxis also showed faster recovery for missed first-detections compared to MAP for medium beam widths. Furthermore, Infotaxis exhibited information-maximizing behavior, confirming the strategy's effectiveness relative to MAP.",
+      "first_author_affiliation": "Department of Electrical and Computer Engineering, University of Massachusetts Dartmouth 1 , Dartmouth, Massachusetts 02747,",
+      "last_author_affiliation": "Applied Physics Laboratory, University of Washington 2 , Seattle, Washington 98105,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046480",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-09",
+      "first_seen_at": "2026-09-10T07:21:22Z",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/9/094801/3404121/Estimating-the-performance-of-the-infotaxis-search",
+      "media_checked_at": "2026-09-10T07:22:21Z",
+      "open_access_image_checked_at": "2026-09-10T07:22:21Z",
+      "ai_analysis": {
+        "scientific_question": "评估信息导航策略在不同声纳波束宽度主动感知中的搜索性能表现",
+        "key_highlight": "信息导航策略在中等等束宽度条件下优于最大后验概率搜索策略，并能更快从首次检测失败中恢复",
+        "main_limitation": "基于一维网格的模拟实验，三维环境中的波束宽度效应可能有所不同",
+        "research_implication": "为声纳主动感知系统的信号检测算法优化提供了理论参考",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "0cd93d74f73563b6",
+        "updated_at": "2026-09-10T07:23:55Z"
+      }
+    },
+    {
+      "title": "General distributions for one- and two-point scattered signal statistics, including incomplete saturation and intermittence",
+      "authors": [
+        "D. Keith Wilson",
+        "Vladimir E. Ostashev",
+        "Sophia P. Bragdon"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-09",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046393",
+      "url": "https://doi.org/10.1121/10.0046393",
+      "abstract": "Scattering by turbulence and other phenomena causes the intensity of sound waves to vary randomly. Due to the importance of random scattering effects in a variety of applications involving detection, communication, and beamforming of signals, extensive research has gone into formulating appropriate statistical models. This article presents a unified family of models intended for broad application across a variety of scattering scenarios and propagation environments. The formulation is based on extensions to the ordinary gamma distribution under the premise that there are three primary properties to be incorporated into a general model: saturation (relative importance of scattered and unscattered signal intensity), intermittence (variations in the scattering environment), and decorrelation (as occurs when two sensors are increasingly separated in space and time). The ultimate result is a distribution incorporating all three of these properties simultaneously, called the noncentral compound variance gamma. This distribution is presented as a series expansion in terms of the Rice factor, which represents the ratio of unscattered to scattered signal intensity. Most commonly used statistical models for random signals are special cases or closely approximated by the family of distributions presented here.",
+      "first_author_affiliation": "Center for Acoustics Research and Education, University of New Hampshire 1 , Durham, New Hampshire 03824,",
+      "last_author_affiliation": "U.S. Army Cold Regions Research and Engineering Laboratory, Engineer Research and Development Center 3 , Hanover, New Hampshire 03755,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-09",
+      "first_seen_at": "2026-09-10T07:21:19Z",
+      "ai_analysis": {
+        "scientific_question": "如何建立一个统一的统计模型来描述各种散射场景中随机信号的强度分布。",
+        "key_highlight": "提出了非中心复合方差伽马分布，同时整合了饱和度、间歇性和去相关性三个关键特性，涵盖了大多数现有随机信号统计模型。",
+        "main_limitation": "理论框架尚缺乏实验验证其实用性和在不同实际传播环境中的适用性。",
+        "research_implication": "General research findings（该理论模型属于声学信号传播的基础理论研究，与助听器或人工耳蜗等应用研究无直接关联。）",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "8adbcd55c45e1a1a",
+        "updated_at": "2026-09-10T07:24:07Z"
+      }
+    },
+    {
+      "title": "Spectral envelope estimation of high-pitched vowels using a shared excitation proxy and autoregressive modeling with exogenous input",
+      "authors": [
+        "Zhao Zhang",
+        "Ju Zhang",
+        "Wenhuan Lu",
+        "Jianguo Wei"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-09",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046474",
+      "url": "https://doi.org/10.1121/10.0046474",
+      "abstract": "Characterizing the vocal tract spectral envelope in high-pitched vowels is challenging due to sparse harmonics and source-filter coupling. This study proposes an analytical framework using a shared glottal driving proxy to guide source-tract decoupling. Speech is decomposed into multi-band Hilbert envelopes; first-order differentiation and non-linear rectification are then applied to isolate transient energy increments during glottal closure. Non-negative matrix factorization captures the cross-band temporal dynamics of these increments, yielding a macroscopic temporal proxy of glottal excitation. This proxy acts as a physical constraint within an auto-regressive with exogenous input model to estimate the underlying vocal tract transfer function. To validate the estimated envelopes, formant estimation error serves as an objective metric on the OPENGLOT database. Particularly under high-pitched conditions where the fundamental frequency (F0) exceeds 300 Hz, the overall mean first formant (F1) estimation error across all evaluated vowels and parameter combinations is 11.43%, yielding an approximate 30% relative reduction from the traditional linear predictive coding baseline (16.51%). The results confirm that this approach provides a complementary pathway for vocal tract envelope modeling.",
+      "first_author_affiliation": "College of Intelligence and Computing, Tianjin University 1 , Tianjin 300350,",
+      "last_author_affiliation": "College of Intelligence and Computing, Tianjin University 1 , Tianjin 300350,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "priority section",
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-09",
+      "first_seen_at": "2026-09-10T07:21:19Z"
+    },
+    {
+      "title": "The birth of objective audiometry",
+      "authors": [
+        "Gavin M. Bidelman"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-09",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046230",
+      "url": "https://doi.org/10.1121/10.0046230",
+      "abstract": "The Reflections series takes a look back on historical articles from The Journal of the Acoustical Society of America that have had a significant impact on the science and practice of acoustics.",
+      "first_author_affiliation": "Department of Speech, Language and Hearing Sciences, Indiana University , 2631 East Discovery Parkway, Bloomington, Indiana 47408,",
+      "last_author_affiliation": "Department of Speech, Language and Hearing Sciences, Indiana University , 2631 East Discovery Parkway, Bloomington, Indiana 47408,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-09",
+      "first_seen_at": "2026-09-10T07:21:19Z"
+    },
+    {
       "title": "Erratum: Acoustic parameter combinations underlying mapping of pseudoword sounds to multiple domains of meaning: Representational similarity analyses and machine-learning models [J. Acoust. Soc. Am. 158 (6), 4243–4267 (2025)]",
       "authors": [
         "G. Vinodh Kumar",
@@ -1317,16 +1626,6 @@
       "doi": "10.1121/10.0046469",
       "url": "https://doi.org/10.1121/10.0046469",
       "abstract": "High-frequency focused ultrasound is widely used in biomedical applications such as high-resolution imaging, neuromodulation, and particle manipulation. However, dynamic tuning of the focal plane in conventional systems often relies on mechanically adjustable components or array-based control with high cost. In this work, an optically transparent, planar compact piezoelectric ultrasonic transducer was designed and fabricated by encoding phase profile corresponding to an ideal converging spherical wave onto a planar aperture, thereby generating focused fields while maintaining compatibility with microscopic imaging platforms. The acoustic field was experimentally characterized in the focal plane at design frequency and in the propagation plane at several excitation frequencies around the design frequency. The focal shift originates from the mismatch between the fabricated phase pattern and the propagation wavenumber at the excitation frequency. An approximate linear relation between focal length and frequency near the design one is derived theoretically, and the finite-range tuning behavior is interpreted using the stationary-phase condition. Both theory and experiment show the focal length varies approximately linearly with excitation frequency near the design frequency. Water-tank measurements agree well with the theoretical prediction, confirming the proposed model. This work provides a simple and cost-effective approach for focal tuning in compact high-frequency ultrasound devices.",
-      "first_author_affiliation": "State Key Laboratory of Ocean Engineering, School of Ocean and Civil Engineering, Shanghai Jiao Tong University 1 , Shanghai 200240,",
-      "last_author_affiliation": "State Key Laboratory of Ocean Engineering, School of Ocean and Civil Engineering, Shanghai Jiao Tong University 1 , Shanghai 200240,",
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-08",
-      "first_seen_at": "2026-09-09T07:26:00Z",
       "ai_analysis": {
         "scientific_question": "如何通过简单低成本的方式实现高频聚焦超声波焦距的动态调节？",
         "key_highlight": "通过在平面超声换能器上编码理想球面波相位分布，实现了激励频率与焦距之间的近似线性调谐关系。",
@@ -1338,7 +1637,17 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "f5f51bf1eed0bb34",
         "updated_at": "2026-09-09T07:27:12Z"
-      }
+      },
+      "first_author_affiliation": "State Key Laboratory of Ocean Engineering, School of Ocean and Civil Engineering, Shanghai Jiao Tong University 1 , Shanghai 200240,",
+      "last_author_affiliation": "State Key Laboratory of Ocean Engineering, School of Ocean and Civil Engineering, Shanghai Jiao Tong University 1 , Shanghai 200240,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-08",
+      "first_seen_at": "2026-09-09T07:26:00Z"
     },
     {
       "title": "Localization performance of a two-listener virtual sound imaging system",
@@ -1352,22 +1661,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0046468",
       "url": "https://doi.org/10.1121/10.0046468",
-      "abstract": "This study describes the design and evaluation of a crosstalk cancellation (CTC) system intended to reproduce binaural audio for two listeners simultaneously. A compact loudspeaker array was combined with measured loudspeaker-to-ear transfer functions to generate band limited virtual sources and frequency domain CTC filters. The signal processing framework, including the implementation of the crossover network and the construction of the frequency-dependent CTC matrices, is presented in detail. The resulting filters are examined in both the time and frequency domains to illustrate their behaviour and to show how individual loudspeakers contribute across frequency bands. While the theoretical foundations of the array geometry are established in a companion paper, the present work focuses on the physical implementation of the system and its perceptual evaluation through subjective listening tests in which 25 participants localized virtual sound sources reproduced at two listening positions. After correction for front–back confusions, a mean absolute error of approximately 15° was achieved at both listening positions, with no statistically significant overall difference in accuracy or consistency between the two seats. The results indicate that listeners were generally able to identify the intended source directions, demonstrating that stable spatial cues can be delivered simultaneously at both positions.",
-      "first_author_affiliation": "Institute of Sound and Vibration Research, University of Southampton , Southampton, SO17 1BJ,",
-      "last_author_affiliation": "Institute of Sound and Vibration Research, University of Southampton , Southampton, SO17 1BJ,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0046468",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-08",
-      "first_seen_at": "2026-09-09T07:26:00Z",
       "full_text_url": "https://pubs.aip.org/jasa/article/160/3/2037/3403996/Localization-performance-of-a-two-listener-virtual",
-      "media_checked_at": "2026-09-09T07:26:54Z",
-      "open_access_image_checked_at": "2026-09-09T07:26:54Z",
+      "abstract": "This study describes the design and evaluation of a crosstalk cancellation (CTC) system intended to reproduce binaural audio for two listeners simultaneously. A compact loudspeaker array was combined with measured loudspeaker-to-ear transfer functions to generate band limited virtual sources and frequency domain CTC filters. The signal processing framework, including the implementation of the crossover network and the construction of the frequency-dependent CTC matrices, is presented in detail. The resulting filters are examined in both the time and frequency domains to illustrate their behaviour and to show how individual loudspeakers contribute across frequency bands. While the theoretical foundations of the array geometry are established in a companion paper, the present work focuses on the physical implementation of the system and its perceptual evaluation through subjective listening tests in which 25 participants localized virtual sound sources reproduced at two listening positions. After correction for front–back confusions, a mean absolute error of approximately 15° was achieved at both listening positions, with no statistically significant overall difference in accuracy or consistency between the two seats. The results indicate that listeners were generally able to identify the intended source directions, demonstrating that stable spatial cues can be delivered simultaneously at both positions.",
       "ai_analysis": {
         "scientific_question": "双听者虚拟声像系统能否通过交叉通话消除技术同时在两个听音位置提供稳定的双耳音频空间线索？",
         "key_highlight": "采用紧凑扬声器阵列和测量传递函数实现的交叉通话消除系统，在25名受试者的主观定位测试中，两个听音位置的平均绝对误差均约为15°，且定位准确性无显著差异。",
@@ -1379,7 +1674,21 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "4fffdeb4c40e6ad0",
         "updated_at": "2026-09-09T07:27:31Z"
-      }
+      },
+      "first_author_affiliation": "Institute of Sound and Vibration Research, University of Southampton , Southampton, SO17 1BJ,",
+      "last_author_affiliation": "Institute of Sound and Vibration Research, University of Southampton , Southampton, SO17 1BJ,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046468",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-09-09T07:26:54Z",
+      "media_checked_at": "2026-09-09T07:26:54Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-08",
+      "first_seen_at": "2026-09-09T07:26:00Z"
     },
     {
       "title": "Non-Auditory Participant Characteristics Influence Digit-Perception Performance: Evidence From Tasks Varying in Masker Type and Spatial Cues",
@@ -1397,24 +1706,8 @@
       "publication_date_precision": "day",
       "doi": "10.1177/23312165261468222",
       "url": "https://doi.org/10.1177/23312165261468222",
-      "abstract": "Digit-perception tasks are widely used to assess auditory function in clinical and research settings, but performance may also be shaped by non-auditory participant characteristics. This study examined whether educational attainment, forward digit span, socioeconomic deprivation, and musical experience predicted performance on three digit-perception tasks that differed in masker type and spatial demands: digits in speech-shaped noise (SSN), digits in spatially separated babble, and a spatial-selective-attention task in which digit streams were separated by 15°. Participants were 220 young adults (aged 16-17 years at baseline) with bilaterally normal audiometric thresholds, each tested twice. The narrow age range and normal hearing constrained variation in peripheral auditory function, increasing sensitivity to non-auditory influences. Linear mixed-effects models were used to examine single-predictor and multivariate associations between the predictors and each outcome. Digits-in-SSN performance was unrelated to all predictors. Digits-in-babble thresholds showed modest associations with deprivation and educational attainment in single-predictor models, but neither survived multivariate adjustment. By contrast, spatial-selective-attention performance showed robust independent associations with educational attainment, deprivation, and musical experience after mutual adjustment. Forward digit span was not a significant predictor of any task. These findings indicate that spatially demanding digit-perception tasks are vulnerable to non-auditory confounds, and that controlling for short-term memory may be insufficient to address this problem. A secondary analysis examined whether the association between musical experience and spatial selective attention might reflect confounding rather than auditory training. The musician advantage was attenuated by approximately one third after adjustment for sociodemographic factors, consistent with a substantial contribution of confounding.",
-      "first_author_affiliation": "The University of Manchester",
-      "last_author_affiliation": "The University of Manchester",
-      "open_access": true,
-      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261468222",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "clinical audiology"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-09-08",
-      "first_seen_at": "2026-09-09T07:26:05Z",
       "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261468222",
-      "media_checked_at": "2026-09-09T07:26:54Z",
-      "open_access_image_checked_at": "2026-09-09T07:26:54Z",
+      "abstract": "Digit-perception tasks are widely used to assess auditory function in clinical and research settings, but performance may also be shaped by non-auditory participant characteristics. This study examined whether educational attainment, forward digit span, socioeconomic deprivation, and musical experience predicted performance on three digit-perception tasks that differed in masker type and spatial demands: digits in speech-shaped noise (SSN), digits in spatially separated babble, and a spatial-selective-attention task in which digit streams were separated by 15°. Participants were 220 young adults (aged 16-17 years at baseline) with bilaterally normal audiometric thresholds, each tested twice. The narrow age range and normal hearing constrained variation in peripheral auditory function, increasing sensitivity to non-auditory influences. Linear mixed-effects models were used to examine single-predictor and multivariate associations between the predictors and each outcome. Digits-in-SSN performance was unrelated to all predictors. Digits-in-babble thresholds showed modest associations with deprivation and educational attainment in single-predictor models, but neither survived multivariate adjustment. By contrast, spatial-selective-attention performance showed robust independent associations with educational attainment, deprivation, and musical experience after mutual adjustment. Forward digit span was not a significant predictor of any task. These findings indicate that spatially demanding digit-perception tasks are vulnerable to non-auditory confounds, and that controlling for short-term memory may be insufficient to address this problem. A secondary analysis examined whether the association between musical experience and spatial selective attention might reflect confounding rather than auditory training. The musician advantage was attenuated by approximately one third after adjustment for sociodemographic factors, consistent with a substantial contribution of confounding.",
       "ai_analysis": {
         "scientific_question": "非听觉参与者特征（如教育程度、工作记忆、经济社会地位、音乐经验）是否会影响不同掩蔽类型和空间线索条件下的数字感知任务表现？",
         "key_highlight": "空间选择性注意任务（15°空间分离的数字流）对教育程度、经济社会剥夺和音乐经验表现出稳健的独立关联，而简单的稳态噪声中数字识别任务则与这些非听觉因素无关。",
@@ -1426,7 +1719,23 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "3e71cf49ab5dd8f6",
         "updated_at": "2026-09-09T07:27:54Z"
-      }
+      },
+      "first_author_affiliation": "The University of Manchester",
+      "last_author_affiliation": "The University of Manchester",
+      "open_access": true,
+      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261468222",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-09-09T07:26:54Z",
+      "media_checked_at": "2026-09-09T07:26:54Z",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-08",
+      "first_seen_at": "2026-09-09T07:26:05Z"
     },
     {
       "title": "Retinotopic remapping of the visual system in deaf adults.",
@@ -1460,6 +1769,12 @@
       },
       "first_author_affiliation": "Department of Psychology, University of York, York YO10 5DD, North Yorkshire, United Kingdom.",
       "last_author_affiliation": "Department of Psychology, University of York, York YO10 5DD, North Yorkshire, United Kingdom.",
+      "open_access": true,
+      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13552904/",
+      "open_access_source": "pubmed_pmc",
+      "pubmed_full_text_available": true,
+      "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13552904/",
+      "pubmed_full_text_source": "pmc",
       "section": null,
       "keywords": [
         "Adult",
@@ -1500,7 +1815,10 @@
         "title"
       ],
       "needs_review": false,
-      "first_seen_at": "2026-09-08T07:17:39Z"
+      "first_seen_at": "2026-09-08T07:17:39Z",
+      "media_checked_at": "2026-09-10T07:22:21Z",
+      "pubmed_full_text_image_checked_at": "2026-09-10T07:22:21Z",
+      "open_access_image_checked_at": "2026-09-10T07:22:21Z"
     },
     {
       "title": "The Effect of Etiology, Array Type and Duration of Deafness on Focused Detection Thresholds in Cochlear Implant Listeners",
@@ -1517,26 +1835,8 @@
       "publication_date_precision": "day",
       "doi": "10.1177/23312165261486089",
       "url": "https://doi.org/10.1177/23312165261486089",
-      "abstract": "Cochlear implants (CIs) are considered effective at restoring some hearing abilities to individuals with severe hearing loss. However, there is considerable variability in performance outcomes among adults with CIs. One likely source of variability is the quality of the electrode-neuron interface (ENI), which describes how well implanted electrodes stimulate nearby spiral-ganglion neurons (SGNs) in the cochlea. Absolute thresholds, measured via focused electrical stimulation, have been proposed as a behavioral estimate of ENI. In this retrospective study, focused-stimulation threshold patterns were compared for 92 ears from 74 adult cochlear implant listeners with various etiologies, durations of deafness, and electrode array types. The results showed that CI listeners implanted with a pre-curved array tended to have lower overall focused thresholds than listeners with straight arrays, as well as a threshold profile with lower (better) thresholds at each end of the array and highest thresholds near the middle of the array. CI listeners with etiologies related to auto-immune dysfunction, such as Meniere’s disease, tended to have the opposite profile, with lowest thresholds near the middle of the array. No significant effect of duration of deafness on focused thresholds was observed. Further investigation into which demographic and device factors affect focused thresholds, and therefore potentially ENI, could shed light on the variability of CI outcomes and guide development of individualized treatment strategies.",
-      "first_author_affiliation": "Massachusetts Eye and Ear, Harvard Medical School, Department of Otolaryngology Head and Neck Surgery, Boston, MA, USA",
-      "last_author_affiliation": "Massachusetts Eye and Ear, Harvard Medical School, Department of Otolaryngology Head and Neck Surgery, Boston, MA, USA",
-      "open_access": true,
-      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261486089",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "auditory physiology",
-        "clinical audiology",
-        "cochlear implant"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-09-08",
-      "first_seen_at": "2026-09-09T07:26:05Z",
       "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261486089",
-      "media_checked_at": "2026-09-09T07:26:54Z",
-      "open_access_image_checked_at": "2026-09-09T07:26:54Z",
+      "abstract": "Cochlear implants (CIs) are considered effective at restoring some hearing abilities to individuals with severe hearing loss. However, there is considerable variability in performance outcomes among adults with CIs. One likely source of variability is the quality of the electrode-neuron interface (ENI), which describes how well implanted electrodes stimulate nearby spiral-ganglion neurons (SGNs) in the cochlea. Absolute thresholds, measured via focused electrical stimulation, have been proposed as a behavioral estimate of ENI. In this retrospective study, focused-stimulation threshold patterns were compared for 92 ears from 74 adult cochlear implant listeners with various etiologies, durations of deafness, and electrode array types. The results showed that CI listeners implanted with a pre-curved array tended to have lower overall focused thresholds than listeners with straight arrays, as well as a threshold profile with lower (better) thresholds at each end of the array and highest thresholds near the middle of the array. CI listeners with etiologies related to auto-immune dysfunction, such as Meniere’s disease, tended to have the opposite profile, with lowest thresholds near the middle of the array. No significant effect of duration of deafness on focused thresholds was observed. Further investigation into which demographic and device factors affect focused thresholds, and therefore potentially ENI, could shed light on the variability of CI outcomes and guide development of individualized treatment strategies.",
       "ai_analysis": {
         "scientific_question": "病因类型、电极阵列形态和失聪时长如何影响耳蜗植入者的聚焦电刺激检测阈值？",
         "key_highlight": "预弯电极阵列比直列阵列呈现更低的聚焦阈值，且阈值分布呈两端低中间高的特征，而自身免疫性病因患者则呈相反的阈值分布模式。",
@@ -1548,7 +1848,25 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "46b141387f97dfb5",
         "updated_at": "2026-09-09T07:28:20Z"
-      }
+      },
+      "first_author_affiliation": "Massachusetts Eye and Ear, Harvard Medical School, Department of Otolaryngology Head and Neck Surgery, Boston, MA, USA",
+      "last_author_affiliation": "Massachusetts Eye and Ear, Harvard Medical School, Department of Otolaryngology Head and Neck Surgery, Boston, MA, USA",
+      "open_access": true,
+      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261486089",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "open_access_image_checked_at": "2026-09-09T07:26:54Z",
+      "media_checked_at": "2026-09-09T07:26:54Z",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology",
+        "cochlear implant"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-08",
+      "first_seen_at": "2026-09-09T07:26:05Z"
     },
     {
       "title": "On the Use of Hearing Aid Algorithms in Industrial Noise: Balancing Speech Intelligibility and Hearing Protection",
@@ -2077,6 +2395,53 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-06-24",
       "first_seen_at": "2026-06-28T06:38:49Z"
+    },
+    {
+      "title": "Are There Distinctive EEG Signatures of Tinnitus-Related Emotional Distress? Evidence from Spectral Parameterization and Source-Level Functional Connectivity",
+      "authors": [
+        "Bo Zhang",
+        "Junce Wang",
+        "Jianing Zhu",
+        "Wendi Zhao",
+        "Dong Yang",
+        "Guangjian Ni"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109807",
+      "url": "https://doi.org/10.1016/j.heares.2026.109807",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref",
+      "first_seen_at": "2026-09-10T07:21:38Z"
+    },
+    {
+      "title": "Brain-wide mapping of neuroanatomical connections to the auditory cortex of hearing and deaf mice",
+      "authors": [
+        "Thomas C. Harmon",
+        "Andrew C. Jin",
+        "Evelyn J. Hardin",
+        "Richard Mooney"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109800",
+      "url": "https://doi.org/10.1016/j.heares.2026.109800",
+      "abstract": null,
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref",
+      "first_seen_at": "2026-09-10T07:21:38Z"
     },
     {
       "title": "Clarin-1 mRNA expression in the central auditory system of Fischer Brown Norway rats",
@@ -3019,18 +3384,12 @@
       "key_image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs10162-026-01069-5/MediaObjects/10162_2026_1069_Fig1_HTML.png",
       "key_image_alt": "Content cover image",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Cochlear gain and delay",
-        "Cochlear nonlinearity",
-        "Cochlear tuning",
-        "Otoacoustic emissions",
-        "SFOAEs"
-      ],
+      "keywords": [],
       "tags": [
         "auditory physiology",
         "hearing aid"
       ],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-01",
       "first_seen_at": "2026-09-02T07:08:59Z"
     },
@@ -3580,7 +3939,7 @@
         "abstract_hash": "8e85db5b919b4a66",
         "updated_at": "2026-09-04T07:18:18Z"
       },
-      "first_author_affiliation": "Fraunhofer-Institute for Building Physics IBP 1 , Nobelstrasse 12, Stuttgart, 70569",
+      "first_author_affiliation": "Universitat Politècnica de Catalunya 1 Department of Architectural Representation, , Avinguda Diagonal 649, Barcelona, 08028",
       "last_author_affiliation": "Institute for Hearing Technology and Acoustics, RWTH Aachen University 3 , Kopernikustrasse 5, Aachen, 52074",
       "open_access": true,
       "open_access_url": "https://doi.org/10.1121/10.0046099",
@@ -4759,49 +5118,6 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-08-26",
       "first_seen_at": "2026-08-27T12:51:55Z"
-    },
-    {
-      "title": "SOX10 restricts the formation of ectopic sensory patches in the postnatal mouse cochlea",
-      "authors": [
-        "Melissa M. McGovern",
-        "Luyi Zhou",
-        "Michelle R. Randle",
-        "Andrew K. Groves",
-        "Brandon C. Cox"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-08-26",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109788",
-      "url": "https://doi.org/10.1016/j.heares.2026.109788",
-      "abstract": "During the development of the mammalian cochlea, Notch signaling induces prosensory cell formation and later directs the differentiation of prosensory progenitor cells into hair cells and supporting cells. Previous studies have demonstrated that ectopic activation of Notch signaling in the early embryonic cochlea results in the formation of ectopic sensory patches in non-sensory regions; however, the ability to respond to Notch signaling declines with age and is lost after embryonic day (E) 13.5. Here, we observed that Notch activation at birth induced ectopic sensory patches in the mouse cochlea. These ectopic patches produced hair cell-like cells that express some proteins found in mature hair cells. Ectopic sensory patches result from hyperplasia of non-sensory cells throughout the cochlear duct that reentered the cell cycle and produced foci of prosensory competent cells. Within the organ of Corti, cells remained quiescent, however, cellular patterning was altered leading to differentiation of outer sulcus cells into supporting cell-like cells and altering the identity of pillar cells. We further investigated different levels of activated Notch signaling using a doxycycline-inducible system and found that the competence of the neonatal cochlea to induce prosensory markers, such as Sox2, correlates with the level of Notch activation, whereby higher levels of Notch signaling induced ectopic Sox2 expression. Because this conflicted with previous reports, we investigated the mechanism underlying prosensory reactivation in our experiments and found that the loss of one copy of Sox10 resulting from our use of Sox10rtTA/+knock-in mice facilitated prosensory competence, and that higher levels of Notch activation increased the penetrance of the phenotype. Our results demonstrate that the interaction between Notch signaling and SOX10 is important for the regulation of cellular identity in the developing inner ear.",
-      "ai_analysis": {
-        "scientific_question": "Notch信号通路在出生后小鼠耳蜗中是否仍能诱导异位感觉斑块的形成，以及SOX10在其中如何调节细胞命运。",
-        "key_highlight": "Notch信号在出生时可诱导耳蜗非感觉区域形成异位感觉斑块，且Notch信号水平与Sox2表达诱导能力相关，而Sox10单拷贝缺失会影响感觉前体细胞的再激活能力。",
-        "main_limitation": "研究使用的Sox10rtTA/+基因敲入小鼠存在Sox10单拷贝缺失，该遗传背景可能影响Notch信号诱导异位感觉斑块的敏感性。",
-        "research_implication": "该研究揭示了Notch信号与SOX10在耳蜗发育过程中对细胞命运的协同调控机制，为理解内耳细胞命运决定及潜在的再生机制提供了基础理论参考。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "78ed2fa637c8c840",
-        "updated_at": "2026-09-06T07:10:58Z"
-      },
-      "last_author_affiliation": "Department of Pharmacology, Southern Illinois University School of Medicine, Springfield, IL 62711, USA; Department of Otolaryngology, Southern Illinois University School of Medicine, Springfield, IL 62711, USA.",
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [
-        "Cochlea",
-        "Development",
-        "Notch",
-        "Sox10"
-      ],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-08-26",
-      "first_seen_at": "2026-09-01T07:52:01Z"
     },
     {
       "title": "True-angle sparse Bayesian learning for horizontal line arrays in a multipath shadow-zone environment",
@@ -9549,22 +9865,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044504",
-      "url": "https://doi.org/10.1121/10.0044504",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:37Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -9577,6 +9877,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:36Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044504",
+      "url": "https://doi.org/10.1121/10.0044504",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:37Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -17116,17 +17432,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -17147,18 +17464,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -26482,22 +26798,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -26510,6 +26810,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -33449,6 +33765,18 @@
       "url": "https://doi.org/10.1016/j.heares.2026.109606",
       "full_text_url": "https://linkinghub.elsevier.com/retrieve/pii/S0378595526000821",
       "abstract": "Cochlear implants (CIs) have revolutionized the treatment of sensorineural hearing loss, yet patient outcomes remain highly variable due to biological responses within the cochlea. A critical challenge is the foreign body response (FBR) triggered by CI biomaterials, which can lead to inflammation, fibrosis, and increased electrode impedance, ultimately impairing auditory function. Zwitterionic hydrogels have been shown to provide a highly lubricious anti-fouling surface that minimizes protein and cell adsorption. This study evaluates a carboxybetaine methacrylate (CBMA) zwitterionic hydrogel coating to reduce the FBR to cochlear implants. Using a large animal (sheep) model, human CI electrode arrays were coated with a thin film CBMA hydrogel via one step UV photografting and photopolymerization with a custom mold. Electrophysiological measurements at the time of implantation demonstrate significantly reduced total impedance, polarization impedance, and access resistance in CBMA-coated CIs. Reductions in total impedance and access resistance were maintained after 4 weeks in vivo. High-resolution Xray Microscopy imaging confirmed intracochlear placement without translocation or tip fold-over and a trend to reduced neoossification in CBMA-coated implants. Histological analysis revealed significantly decreased cellular infiltration, macrophage infiltration, and fibrotic tissue deposition within the cochlea surrounding CBMA-coated implants compared to uncoated controls. This work highlights the potential of durable thin film zwitterionic coatings to enhance CI performance and preserve residual hearing by mitigating insertional trauma and attenuating chronic inflammation and fibrosis.",
+      "ai_analysis": {
+        "scientific_question": "羧基甜菜碱甲基丙烯酸酯(CBMA)两性离子水凝胶涂层能否有效减少人工耳蜗植入物引发的异物反应并降低电极阻抗",
+        "key_highlight": "在绵羊模型中，CBMA涂层电极阵列的阻抗及细胞浸润和纤维化程度均显著低于未涂层对照组，且效果在4周内持续维持",
+        "main_limitation": "Limited generalizability due to small or specific sample",
+        "research_implication": "为改善人工耳蜗性能及保护残余听力提供了一种有前景的生物材料涂层策略",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "58015bc6eeeebeea",
+        "updated_at": "2026-09-09T07:28:42Z"
+      },
       "first_author_affiliation": "Department of Otolaryngology-Head and Neck Surgery, University of Iowa, Iowa City, IA 52242, USA.",
       "last_author_affiliation": "Department of Otolaryngology-Head and Neck Surgery, University of Iowa, Iowa City, IA 52242, USA; Department of Neurosurgery, University of Iowa, Iowa City, IA 52242, USA; Department of Molecular Physiology and Biophysics, University of Iowa, Iowa City, IA 52242, USA. Electronic address: marlan-hansen@uiowa.edu.",
       "open_access": true,
@@ -33476,19 +33804,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-03-10",
-      "first_seen_at": "2026-05-14T02:29:18Z",
-      "ai_analysis": {
-        "scientific_question": "羧基甜菜碱甲基丙烯酸酯(CBMA)两性离子水凝胶涂层能否有效减少人工耳蜗植入物引发的异物反应并降低电极阻抗",
-        "key_highlight": "在绵羊模型中，CBMA涂层电极阵列的阻抗及细胞浸润和纤维化程度均显著低于未涂层对照组，且效果在4周内持续维持",
-        "main_limitation": "Limited generalizability due to small or specific sample",
-        "research_implication": "为改善人工耳蜗性能及保护残余听力提供了一种有前景的生物材料涂层策略",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "58015bc6eeeebeea",
-        "updated_at": "2026-09-09T07:28:42Z"
-      }
+      "first_seen_at": "2026-05-14T02:29:18Z"
     },
     {
       "title": "Dexamethasone abolishes intra-day fluctuations of electrode impedance in cochlear implant users",
@@ -33508,6 +33824,18 @@
       "url": "https://doi.org/10.1016/j.heares.2026.109615",
       "full_text_url": "https://linkinghub.elsevier.com/retrieve/pii/S0378595526000912",
       "abstract": "Dexamethasone-eluting cochlear implant (CI) electrode arrays aim to reduce mean electrode impedance and enhance stability. However, longitudinal data on intra-day impedance dynamics are lacking. This study compared postoperative impedance profiles between users of dexamethasone-eluting FLEX28 (DEX) and conventional FLEX28 (NoDEX) electrodes, focusing on mean impedance levels and intra-day fluctuations. Participants were assigned to DEX or NoDEX groups based on electrode type. Both groups measured impedance twice daily (morning and evening) for four months postoperatively via an app. Primary outcomes were mean impedance levels and intra-day fluctuations, represented by the morning-to-evening difference (MED). Analyses were conducted descriptively and by group comparisons using the start of electrical stimulation (t0) as reference. Four postoperative phases were examined: early postoperative (days 1-10), late postoperative (day 11-t0), intensive fitting (t0-day 21), and regular hearing phase (day 22-4 months). The DEX group exhibited consistently low and stable impedance values throughout, with no detectable effect of the start of electrical stimulation (t0). Daily impedance was consistently lower in DEX than in NoDEX, but the differences reached high statistical significance from the late postoperative phase onward (p < 0.0001). Intra-day fluctuations were abolished in DEX (MED ≈ 0), whereas NoDEX showed measurable fluctuations during intensive fitting (DEX: 0.0 kΩ, n = 7 vs. NoDEX: 0.75 kΩ, n = 11; p < 0.001) and regular hearing phase (DEX: 0.0 kΩ, n = 8 vs. NoDEX: 0.56 kΩ, n = 11; p = 0.02). Dexamethasone-eluting FLEX28 electrodes not only reduce mean impedance but also maintain stable values over time and effectively abolish intra-day fluctuations.",
+      "ai_analysis": {
+        "scientific_question": "地塞米松洗脱型人工耳蜗电极是否比传统电极在术后平均阻抗水平和日内波动方面表现更优？",
+        "key_highlight": "地塞米松洗脱型电极实现了持续低阻抗且完全消除了日内波动，其稳定性不受电刺激开始时间的影响。",
+        "main_limitation": "样本量较小（每组7-11例）且为非随机分组，两组间样本量不一致，存在选择性偏倚风险。",
+        "research_implication": "地塞米松洗脱型电极的阻抗稳定特性可能为人工耳蜗术后电学参数管理和电极设计提供参考。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "80fa126c07977282",
+        "updated_at": "2026-09-09T07:28:59Z"
+      },
       "first_author_affiliation": "Department of Otorhinolaryngology, Hannover Medical School, Hannover, Germany; MED-EL Research Center, MED-EL Medical Electronics GmbH, Hannover, Germany. Electronic address: sarah.vormelcher@stud.mh-hannover.de.",
       "last_author_affiliation": "Department of Otorhinolaryngology and Cluster of Excellence \"Hearing4all\", Hannover Medical School, Hannover, Germany.",
       "section": "Psychological and Physiological Acoustics",
@@ -33527,19 +33855,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-03-11",
-      "first_seen_at": "2026-05-14T02:29:18Z",
-      "ai_analysis": {
-        "scientific_question": "地塞米松洗脱型人工耳蜗电极是否比传统电极在术后平均阻抗水平和日内波动方面表现更优？",
-        "key_highlight": "地塞米松洗脱型电极实现了持续低阻抗且完全消除了日内波动，其稳定性不受电刺激开始时间的影响。",
-        "main_limitation": "样本量较小（每组7-11例）且为非随机分组，两组间样本量不一致，存在选择性偏倚风险。",
-        "research_implication": "地塞米松洗脱型电极的阻抗稳定特性可能为人工耳蜗术后电学参数管理和电极设计提供参考。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "80fa126c07977282",
-        "updated_at": "2026-09-09T07:28:59Z"
-      }
+      "first_seen_at": "2026-05-14T02:29:18Z"
     },
     {
       "title": "Differentiating Causes of Post-Surgical Conductive Hearing Loss with Optical Coherence Tomography Vibrometry.",
@@ -33600,23 +33916,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -33630,6 +33929,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -36965,8 +37281,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -36980,8 +37296,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -42502,8 +42818,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -42517,8 +42833,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
