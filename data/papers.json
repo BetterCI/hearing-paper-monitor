@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T07:22:13Z",
+  "generated_at": "2026-09-11T07:21:06Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
@@ -1318,6 +1318,303 @@
       "first_seen_at": "2026-09-08T07:17:39Z"
     },
     {
+      "title": "A synthetic anisotropic vocal fold model with tunable longitudinal stiffness",
+      "authors": [
+        "Afarin Sarrafzadeh",
+        "Kuter Erdil",
+        "Onur Tavli",
+        "Onur Ferhanoglu",
+        "Ahmet C. Erten"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-10",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046398",
+      "url": "https://doi.org/10.1121/10.0046398",
+      "abstract": "This study introduces a synthetic vocal fold model that captures the biomechanical properties of human vocal folds, specifically their anisotropic mechanical behavior characterized by a pronounced longitudinal–transverse stiffness contrast, while also enabling post-fabrication tunability. Conventional models are often isotropic or necessitate complex multilayer construction, limiting reproducibility. To address this, we developed a room temperature vulcanized silicone model with an embedded latex tube. This model employs the internal air–water volumetric ratio as a mechanism to modulate stiffness. Increasing the water ratio increases longitudinal stiffness while leaving transverse properties unchanged without macroscopically altering geometry. Finite element simulations and uniaxial compression tests confirmed this behavior, demonstrating a remarkable 12.5-fold increase in longitudinal Young's modulus (rising from 15.7 to 196 kPa), whereas transverse stiffness remained close to that of the silicone. Dynamic testing with modulated and constant airflow demonstrated vibrational patterns consistent with physiological phonation. Fundamental frequencies increased with stiffness, reaching 2% and 8% above the original fundamental resonance at 50%, and 100% water ratios, relative to the empty-tube (0% water) baseline. Compared to its counterpart constructs, this model offers simplicity and most importantly post-manufacture tunability. These advantages make it a promising tool for research in phonation, pathological modeling, and device testing.",
+      "first_author_affiliation": "Department of Electronics and Communication Engineering, Istanbul Technical University 1 , Sarıyer, 34469 Istanbul,",
+      "last_author_affiliation": "Department of Electronics and Communication Engineering, Istanbul Technical University 1 , Sarıyer, 34469 Istanbul,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-10",
+      "first_seen_at": "2026-09-11T07:20:07Z",
+      "ai_analysis": {
+        "scientific_question": "如何开发一种能够模拟人类声带各向异性力学特性（纵向-横向刚度差异）并支持制造后参数可调性的合成声带模型？",
+        "key_highlight": "通过调节内部空气-水体积比成功实现了纵向弹性模量高达12.5倍的变化（从15.7增至196 kPa），同时保持了几何形状和横向刚度的稳定，且振动模式与生理发声相符。",
+        "main_limitation": "作为体外合成模型，其与真实声带组织复杂生理特性的匹配程度及长期稳定性尚未完全验证。",
+        "research_implication": "为发声机理研究、嗓音病理建模及相关医疗设备测试提供了一种可调节的体外研究工具。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "8eecd6315e63d462",
+        "updated_at": "2026-09-11T07:21:40Z"
+      }
+    },
+    {
+      "title": "Acoustic angular scattering by macro- and micro-scale turbulent vortices and sound speed heterogeneities",
+      "authors": [
+        "John A. Colosi",
+        "Timothy F. Duda"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-10",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046444",
+      "url": "https://doi.org/10.1121/10.0046444",
+      "abstract": "A stochastic ray-based analysis of the angular scattering of sound by ocean macro- and micro-scale turbulence is presented where the observable is angle of arrival (AOA) variance. Macro-scale processes, which are two-dimensional (horizontal plane), involve the ocean eddy field, with scales from a few kilometers to several tens of kilometers. On the other hand, micro-scale turbulence processes are three-dimensional, with scales from centimeters to a few meters. Both processes are critical to understanding the transport of ocean properties. It is shown that AOA variance observed in the direction of the ray path not only is sensitive to index of refraction fluctuations (temperature) but also is sensitive to the fluid vorticity field (∇→×u→). This result differs from established AOA theory using the paraxial approximation and looking in the direction of the wavenumber, where the index and flow field in the direction of the wavenumber are the scattering structures. It is demonstrated that a reciprocal transmission experiment with vector-sensor receivers can be used to separate index of refraction and vorticity contributions to the AOA moment equations. At the macro-scales, experimental options are mostly impractical, but at micro-scales, potential mid- to high-frequency configurations in bottom boundary layers appear possible.",
+      "first_author_affiliation": "Woods Hole Oceanographic Institution , Woods Hole, Massachusetts 02543,",
+      "last_author_affiliation": "Woods Hole Oceanographic Institution , Woods Hole, Massachusetts 02543,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046444",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-10",
+      "first_seen_at": "2026-09-11T07:20:07Z",
+      "full_text_url": "https://pubs.aip.org/jasa/article/160/3/2167/3404233/Acoustic-angular-scattering-by-macro-and-micro",
+      "media_checked_at": "2026-09-11T07:21:13Z",
+      "open_access_image_checked_at": "2026-09-11T07:21:13Z",
+      "ai_analysis": {
+        "scientific_question": "声波在海洋宏观和微观湍流作用下的角度散射特性及其对到达角方差的影响机制是什么？",
+        "key_highlight": "研究表明到达角方差不仅对折射率波动（温度）敏感，还对流体涡度场敏感，这一发现与基于傍轴近似的经典到达角理论不一致。",
+        "main_limitation": "宏观尺度实验条件大多不可行，仅微观尺度存在潜在应用可能，且该结论尚未经过充分实验验证。",
+        "research_implication": "该研究属于水下声学范畴，对助听器、人工耳蜗或言语感知研究无直接关联。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "d4b90a5d4fa76dd0",
+        "updated_at": "2026-09-11T07:21:56Z"
+      }
+    },
+    {
+      "title": "Acoustic phase-gradient metamaterial design through detuned supermodes",
+      "authors": [
+        "Man-Yin Zhao",
+        "Zhaojiang Chen",
+        "Ya-Xi Shen"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-10",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046522",
+      "url": "https://doi.org/10.1121/10.0046522",
+      "abstract": "Over the past few decades, acoustic phase-gradient metamaterials have attracted considerable attention due to their extraordinary capability to manipulate wavefronts flexibly. Here, we propose a detuned-supermode approach for designing acoustic phase-gradient metamaterials. Unlike conventional strategies, our structure unit consists of two coupled parallel waveguides and supports the propagation of an odd-symmetric supermode. Leveraging the plane-wave-like characteristic of the supermode propagation, arbitrary phase shift and high transmission efficiency are achieved by adjusting the detuned propagation constant. To verify the feasibility and practical performance of the proposed approach, both anomalous refraction and self-accelerating propagation of acoustic waves are demonstrated through numerical simulations and experimental measurements. This work may pave a technical path for the manipulation of acoustic waves and the design of functional acoustic devices.",
+      "first_author_affiliation": "Department of Physics, Zhejiang Normal University , Jinhua 321004,",
+      "last_author_affiliation": "Department of Physics, Zhejiang Normal University , Jinhua 321004,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-10",
+      "first_seen_at": "2026-09-11T07:20:07Z",
+      "ai_analysis": {
+        "scientific_question": "如何利用解谐超模方法设计声学相位梯度超材料以实现灵活的波前操控",
+        "key_highlight": "该解谐超模方法利用类平面波传播特性，可在宽范围内实现任意相位偏移并保持高传输效率",
+        "main_limitation": "作为概念验证研究，其在复杂实际环境中的性能表现和长期可靠性仍需进一步验证",
+        "research_implication": "一般性研究发现（为声学功能器件设计提供新思路）",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "df8a2b692514d240",
+        "updated_at": "2026-09-11T07:22:23Z"
+      }
+    },
+    {
+      "title": "Dual membrane condenser microphones: Post-processing strategies for nonlinear distortion reduction",
+      "authors": [
+        "Antonin Novak",
+        "Petr Honzík"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-10",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046442",
+      "url": "https://doi.org/10.1121/10.0046442",
+      "abstract": "This paper studies nonlinear distortion in a dual membrane condenser microphone and evaluates three post-processing methods for reducing residual second-harmonic distortion. A nonlinear capacitance model is developed using two asymmetry parameters that represent electrostatic sensitivity mismatch and geometric gap mismatch between branches. The model predicts partial intrinsic cancellation of quadratic distortion in the differential signal, with residual distortion governed by branch asymmetries. Three correction strategies are analyzed: branch-wise correction before recombination, direct correction of the differential signal, and weighted branch combination. Experiments are performed on a dual membrane micro-electro-mechanical systems microphone using a low distortion acoustic excitation setup with harmonic feedback control. All three methods show significant reduction of the second-harmonic distortion in the differential output of approximately 35–40 dB in the measured 110–125 dB SPL range. Practical aspects of distortion reduction in dual membrane micro-electro-mechanical systems microphones are discussed, including issues related to specific microphone geometry and parameter estimation.",
+      "first_author_affiliation": "Laboratoire d'Acoustique de l'Université du Mans, Unité Mixte de Recherche 6613, Institut d'Acoustique–Graduate School, CNRS, Le Mans Université 1 , Le Mans,",
+      "last_author_affiliation": "Department of Radioelectronics, Faculty of Electrical Engineering, Czech Technical University in Prague 2 , Technická 2, 166 27 Prague,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-10",
+      "first_seen_at": "2026-09-11T07:20:07Z",
+      "ai_analysis": {
+        "scientific_question": "双膜电容式麦克风的非线性失真如何建模，以及采用何种后处理策略能有效降低残余二次谐波失真",
+        "key_highlight": "三种校正策略均可在110-125 dB SPL测量范围内将差分输出的二次谐波失真降低约35-40 dB",
+        "main_limitation": "实验基于特定的双膜微机电系统麦克风结构，其结论对其他麦克风类型或几何配置的适用性有待验证",
+        "research_implication": "作为声学测量仪器的基础研究，其成果或可为未来高保真声学传感技术的改进提供参考，但对助听器或人工耳蜗等听力康复设备研发无直接指导意义",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "afe4dc101b7d75bb",
+        "updated_at": "2026-09-11T07:22:37Z"
+      }
+    },
+    {
+      "title": "Effects of noise removal from speech recordings",
+      "authors": [
+        "Donald Derrick"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-10",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046485",
+      "url": "https://doi.org/10.1121/10.0046485",
+      "abstract": "Speech recordings often have ambient background noise from water, fans, animals, and humans. This noise can make transcription difficult and has an unknown effect on phonetic measurements. Denoising tools may help, but researchers have not studied their impact on phonetic measurements. The effects of aggregated ambient noise overlays (town, dogs, crickets, water, fan, and geese) at five signal-to-noise ratios (SNRs) (20, 15, 10, 5, 0 dB), using various denoising systems (none, seewave, Python's noisereduce, Audacity, iZotope, and FFmpeg's RNNoise) were compared to gold-standard recordings from Sanker, Babinski, Burns, Evans, Johns, Kim, Smith, Weber, and Bowern [(2021). Language 97(4), e360–e382]. The resulting audio was transcribed using the Montreal Forced Aligner (MFA) and analyzed with PRAAT. Using two one-sided equivalence tests bounded by published just noticeable difference values, results show that MFA and PRAAT are robust against unaltered ambient noise for consonant duration, fundamental frequency, and spectral tilt, and vowel duration and jitter to 0 dB SNR, and center of gravity (COG) to 5 dB SNR. F1 results benefit most from Audacity, F2 from noisereduce, and COG from RNNoise, with some other tools helping in specific circumstances. Harmonic-to-noise ratio measures require low background noise and cannot be repaired through denoising. Denoising tools strongly influence phonetic measures, and their use should be declared alongside other recording metadata.",
+      "first_author_affiliation": "New Zealand Institute of Language, Brain & Behaviour, University of Canterbury , Christchurch, Canterbury 8041,",
+      "last_author_affiliation": "New Zealand Institute of Language, Brain & Behaviour, University of Canterbury , Christchurch, Canterbury 8041,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046485",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-10",
+      "first_seen_at": "2026-09-11T07:20:07Z",
+      "full_text_url": "https://pubs.aip.org/jasa/article/160/3/2191/3404230/Effects-of-noise-removal-from-speech-recordings",
+      "media_checked_at": "2026-09-11T07:21:14Z",
+      "open_access_image_checked_at": "2026-09-11T07:21:14Z",
+      "ai_analysis": {
+        "scientific_question": "去噪工具对含环境噪声语音录音的声学测量指标会产生何种影响？",
+        "key_highlight": "研究发现强制对齐工具和声学分析软件对高达0 dB信噪比的环境噪声具有鲁棒性，但不同去噪工具会对各声学指标产生显著且不一致的影响。",
+        "main_limitation": "研究仅评估了有限数量的去噪系统和声学测量指标，其结论可能无法推广至其他工具或测量方法。",
+        "research_implication": "该研究为语音感知实验中的录音处理和元数据记录提供了方法论参考，强调了去噪处理对声学分析结果的潜在影响。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "9e111356345a4848",
+        "updated_at": "2026-09-11T07:22:53Z"
+      }
+    },
+    {
+      "title": "Implementation of a Clinical Test of Vestibular Self-Motion Perception in Children and Adults With Hearing Loss",
+      "authors": [
+        "Bisma N. Choudhry",
+        "Jessie N. Patterson",
+        "Kristen L. Janky",
+        "Andrew R. Wagner"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-09-10",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001889",
+      "url": "https://doi.org/10.1097/aud.0000000000001889",
+      "abstract": "Objectives: In adult populations, tests of vestibular self-motion perception have been shown to be sensitive to vestibular loss, including subclinical vestibular changes. However, tests of vestibular perception have not been adequately studied in pediatric populations and are not currently possible in a standard clinical environment. To address these gaps, the present study aimed to determine (i) the feasibility of measuring vestibular perception in pediatric populations and (ii) the validity of vestibular perceptual thresholds captured using a standard clinical rotational chair and software. Design: We enrolled 12 individuals with hearing loss plus normal vestibular function (HL + NV; mean age: 14.4, range 9 to 23 yr), 9 individuals with hearing loss plus vestibular loss (HL + VL; n = 9; mean age: 22, range 8 to 47 yr; 4 unilateral and 5 bilateral vestibular loss), and 23 age-matched normal control participants (NC; mean age: 16.9, range: 9 to 45 yr). Perception of a yaw rotation motion stimulus was assessed in a light-tight enclosure, using a commercially available rotational chair. The chair rotated at one of four constant accelerations (1°/sec 2 , 2°/sec 2 , 3°/sec 2 , and 4°/sec 2 ), and participants were instructed to use a keyboard to indicate their perception of rotation direction (left versus right) as quickly as possible. Yaw rotation vestibular perceptual thresholds were defined as the median chair velocity at the time of button press for each acceleration of chair rotation. Results: Two participants (ages 13, HL + VL, and 10, HL + NV) were unable to complete the test protocol due to fear of the dark, yielding a 95.45% completion rate for all participants and a 93.75% completion rate for participants under age 19. Of the 42 participants who completed the test, 1 participant (age 37, HL + VL) was excluded after data collection due to their admission that motion was never sensed, and each response was a guess. For the remaining 41 participants at each acceleration condition, post-hoc pairwise comparisons revealed a significant increase in thresholds for the HL + VL group compared with the NC group (1°/sec 2 : p = 0.001, 2°/sec 2 : p = 0.007, 3°/sec 2 : p = 0.006, 4°/sec 2 : p = 0.01). In addition, a subset of 5 individuals in the HL + NV group had thresholds that were more than 1 SD above the mean of the NC group, despite having normal vestibular function testing, suggesting the potential identification of subclinical vestibular impairment. Conclusions: A clinical test of yaw rotation perception is a valid tool for measuring vestibular impairment and is feasible in children with hearing loss as young as 8 yr. Yaw rotation perception may complement existing vestibular function tests by capturing subclinical changes in vestibular performance.",
+      "first_author_affiliation": "Department of Speech and Hearing Science, University of Illinois Urbana-Champaign, Champagne, Illinois, USA",
+      "last_author_affiliation": "Department of Physical Therapy, Creighton University, Omaha, Nebraska, USA.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Balance",
+        "Hearing",
+        "Vestibular",
+        "Vestibular perception"
+      ],
+      "tags": [
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-10",
+      "first_seen_at": "2026-09-11T07:20:26Z",
+      "ai_analysis": {
+        "scientific_question": "利用标准临床旋转椅测量前庭自我运动感知是否能在儿童和成人听力损失人群中实现可行且有效的评估。",
+        "key_highlight": "该临床前庭感知测试在8岁及以上儿童中具有较高的完成率，并能有效区分前庭功能正常与前庭损伤的听力损失人群，并识别出前庭功能测试正常者中潜在的前庭亚临床损伤。",
+        "main_limitation": "样本量较小（各组9-23人）且局限于听力损失人群，可能限制向更广泛人群或临床常规筛查的推广。",
+        "research_implication": "该研究为听力损失伴随前庭功能障碍的临床评估提供了新的工具，对理解听力损失人群的平衡功能具有参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "9ad7c84de43b2fca",
+        "updated_at": "2026-09-11T07:23:13Z"
+      }
+    },
+    {
+      "title": "Revised equation for sound speed in seawater consistent with long-range acoustic travel times",
+      "authors": [
+        "Heriberto J. Vazquez",
+        "Bruce D. Cornuelle",
+        "Peter F. Worcester",
+        "Matthew A. Dzieciuch",
+        "John A. Colosi"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-10",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046473",
+      "url": "https://doi.org/10.1121/10.0046473",
+      "abstract": "Measurements of long-range acoustic travel times have suggested that the Del Grosso [(1974). J. Acoust. Soc. Am. 56, 1084–1091] (DG1974) and the internationally accepted Thermodynamic Equation of Seawater 2010 (TEOS-10, which is largely based on DG1974) sound-speed equations (SSE) in seawater give values at high pressure and low temperature that are too high. The revised SSE obtained here updates DG1974 and yields sound-speed estimates below 1000 m that are approximately 0.10 m/s slower. The SSE is derived by performing a Bayesian estimate that includes: (1) original laboratory observations, (2) sound-speeds derived from exceptionally precise travel-time measurements made during the 2016–2017 Canada Basin Acoustic Propagation Experiment (CANAPE) (± 0.03 m/s), (3) the uncertainty in the data, and (4) a heuristic prior parameter covariance matrix. The residuals indicate that the DG1974 and TEOS-10 SSEs do not fit the original laboratory observations within their reported uncertainties, and there is inconsistency between the laboratory observations and the CANAPE sound-speed estimates. The equation is validated by estimating sound-speed profiles from conductivity-temperature-depth casts obtained in connection with previous long-range travel-time measurements. The proposed equation fits the laboratory observations as well as the DG1974 SSE (root mean square difference of 0.06 m/s).",
+      "first_author_affiliation": "Scripps Institution of Oceanography, University of California San Diego 1 , La Jolla, California 92093,",
+      "last_author_affiliation": "Woods Hole Oceanographic Institution 2 , Woods Hole, Massachusetts 02543,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046473",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-10",
+      "first_seen_at": "2026-09-11T07:20:07Z",
+      "full_text_url": "https://pubs.aip.org/jasa/article/160/3/2179/3404231/Revised-equation-for-sound-speed-in-seawater",
+      "media_checked_at": "2026-09-11T07:21:14Z",
+      "open_access_image_checked_at": "2026-09-11T07:21:14Z"
+    },
+    {
+      "title": "Structural and Molecular Evidence for a Frequency-Dependent Electrochemical Gradient in the Human Cochlear Lateral Wall",
+      "authors": [
+        "Gwenaelle Creff",
+        "Karin Staxäng",
+        "Hanif M. Ladak",
+        "Sumit Agrawal",
+        "Rudolf Glueckert",
+        "Anneliese Schrott-Fischer",
+        "Hao Li",
+        "Helge Rask-Andersen"
+      ],
+      "journal": "Journal of the Association for Research in Otolaryngology",
+      "publication_date": "2026-09-10",
+      "publication_date_precision": "day",
+      "doi": "10.1007/s10162-026-01071-x",
+      "url": "https://doi.org/10.1007/s10162-026-01071-x",
+      "abstract": "Abstract Purpose The stria vascularis (SV) is a tripartite epithelium lining the lateral wall (LW) of the human cochlea, generating a positive endocochlear potential (EP) essential for auditory sensory transduction. There remains limited information about its variable structure and organization along the cochlear spiral or whether an electrochemical gradient exists. Here, we used three-dimensional (3D) synchrotron radiation phase-contrast imaging (SR-PCI) and light and transmission electron microscopy (LM and TEM) to examine the human SV and spiral ligament (SL) at different frequency locations based on the SR-PCI. Results were compared with recent molecular analyses performed in our laboratory. Methods Volumetric and microanatomic analyses of the LW and SV, including critical K + recycling pathways were made at different frequency locations on matched cochlear frequency maps based on Greenwood’s formula. TEM analyses were correlated with previous results obtained on the expression of ion transporter and channels including the multiplex RNAscope® technique. Results The LW diminished in volume a 100-fold and the SV 14-fold in the cochlear apical turn. Ultrastructural analyses showed reduced cellularity in the SV and SL. Moreover, the organization and architecture of the SV cell and vascular pattern modified along the cochlear spiral. Claudius cell outline, TEM, and prior results of Na/K-ATPase activity and GJB2 gene transcript distribution suggest there is a reduced K + recycling potential and water flux in the LW of the apical cochlea. Conclusion Macro-, micro-, and recent molecular anatomical studies suggest that the human cochlear “battery” may be less potent in the apex. This could indicate that sensory transduction at low frequencies may be partially power-driven by more basal regions. Frequency-dependent variations in electrochemistry may have pathophysiological significance in connection with metabolic hearing loss and surgical treatments such as cochlear implantation.",
+      "open_access": true,
+      "open_access_url": "https://link.springer.com/article/10.1007/s10162-026-01071-x",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology",
+        "cochlear implant"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-10",
+      "first_seen_at": "2026-09-11T07:20:18Z",
+      "full_text_url": "https://link.springer.com/article/10.1007/s10162-026-01071-x",
+      "key_image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs10162-026-01071-x/MediaObjects/10162_2026_1071_Fig1_HTML.png",
+      "key_image_alt": "Content cover image",
+      "media_checked_at": "2026-09-11T07:21:15Z",
+      "open_access_image_checked_at": "2026-09-11T07:21:14Z"
+    },
+    {
       "title": "A lightweight model for modulation recognition of integrated underwater acoustic sensing and communication signals",
       "authors": [
         "Liya Liu",
@@ -1332,14 +1629,6 @@
       "doi": "10.1121/10.0046087",
       "url": "https://doi.org/10.1121/10.0046087",
       "abstract": "Under the stringent resource constraints of underwater edge nodes and the severe impairments of underwater acoustic channels, automatic modulation recognition of integrated underwater acoustic sensing and communication signals (UISAC) remains challenging, especially when both lightweight deployment and robust performance are required. To address this issue, we propose Mixer, an ultra-lightweight network that combines signal enhancement with efficient feature representation. First, the impulsive-noise preprocessing and adaptive spectral block suppress impulsive noise and selectively enhance informative frequency subbands. Second, spatial density functions are coupled with complex-valued convolutions to capture local signal patterns and amplitude-phase coupling in the received signal. Third, the DWMG backbone integrates grouped depthwise-separable convolutions with an MLP-Mixer to efficiently fuse local and global features with low computational overhead. Experimental results under standard, generalization, and robustness evaluation settings show that Mixer remains competitive in the low-signal-to-noise ratio regime and provides a favorable balance between lightweight design and recognition performance. Compared with ULCNN, Mixer reduces the parameter count by 46.96%, and its single-sample CPU inference latency is 18.5 ms, demonstrating its potential for real-time deployment on UISAC edge nodes.",
-      "first_author_affiliation": "College of Oceanography and Space Informatics, China University of Petroleum (East China) 1 , Qingdao 266580,",
-      "last_author_affiliation": "College of Oceanography and Space Informatics, China University of Petroleum (East China) 1 , Qingdao 266580,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-09",
-      "first_seen_at": "2026-09-10T07:21:19Z",
       "ai_analysis": {
         "scientific_question": "在资源受限的水下边缘节点和水声信道严重损伤的条件下，如何实现轻量化部署与鲁棒性能兼备的集成水声感知通信信号自动调制识别？",
         "key_highlight": "提出了一种结合信号增强与高效特征表示的超轻量级网络Mixer，在低信噪比条件下保持竞争力，参数较ULCNN减少46.96%，CPU推理延迟仅18.5毫秒。",
@@ -1351,7 +1640,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "da63744c390a2552",
         "updated_at": "2026-09-10T07:22:49Z"
-      }
+      },
+      "first_author_affiliation": "College of Oceanography and Space Informatics, China University of Petroleum (East China) 1 , Qingdao 266580,",
+      "last_author_affiliation": "College of Oceanography and Space Informatics, China University of Petroleum (East China) 1 , Qingdao 266580,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-09",
+      "first_seen_at": "2026-09-10T07:21:19Z"
     },
     {
       "title": "A model-based analysis of modulation masking effects on vocoded speech intelligibility",
@@ -1366,13 +1663,28 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0046394",
       "url": "https://doi.org/10.1121/10.0046394",
+      "full_text_url": "https://pubs.aip.org/jasa/article/160/3/2090/3404104/A-model-based-analysis-of-modulation-masking",
       "abstract": "Vocoded speech is widely used to simulate aspects of cochlear implant listening, and modeling vocoded intelligibility in normal-hearing listeners can provide insight into auditory processing under electric hearing. Sentence recognition was measured using three masker types (speech-shaped noise, tone complex, and noise-modulated tone complex) and four processing conditions (unprocessed, bandpass-filtered, tone-vocoded, and tone-vocoded with simulated current spread). Masker type affected intelligibility in all conditions except vocoded speech with simulated current spread. A modified speech-based envelope power spectrum model with a correlation-based decision stage was fitted to the unprocessed speech-shaped-noise condition and then applied, without re-fitting, to the remaining conditions. The model captured masker-dependent intelligibility patterns for unprocessed, bandpass-filtered, and tone-vocoded speech without simulated current spread. Analyses of the model's internal representations suggested that vocoding-related intelligibility loss was driven mainly by the removal of higher-rate temporal-envelope modulations rather than by reduced spectral resolution. With simulated current spread, the model predicted the loss of benefit for unmodulated maskers but consistently overestimated intelligibility. These findings support the view that modulation masking is not the primary limitation in simulated electric hearing and point to envelope-energy and pitch-related distortions as important targets for future cochlear implant-oriented intelligibility models.",
+      "ai_analysis": {
+        "scientific_question": "调制掩蔽效应对模拟人工耳蜗聆听的声码语音可懂度的影响机制是什么？",
+        "key_highlight": "改进的语音包络功率谱模型能够捕捉不同处理条件下的掩蔽依赖性可懂度模式，且分析表明声码化导致的可懂度损失主要由高频时域包络调制的移除而非谱分辨率降低驱动。",
+        "main_limitation": "模型在模拟电流扩散条件下系统性地高估了语音可懂度，且使用正常听力者的声码语音模拟人工耳蜗聆听可能无法完全复现真实电刺激听觉。",
+        "research_implication": "研究结果提示包络能量和音高相关失真应成为未来人工耳蜗可懂度模型的重要建模目标，并对人工耳蜗信号处理策略设计具有参考意义。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "84859de4f64d5774",
+        "updated_at": "2026-09-10T07:23:00Z"
+      },
       "first_author_affiliation": "Hearing Systems, Department of Health Technology, Technical University of Denmark 1 , Kongens Lyngby 2800,",
       "last_author_affiliation": "Hearing Systems, Department of Health Technology, Technical University of Denmark 1 , Kongens Lyngby 2800,",
       "open_access": true,
       "open_access_url": "https://doi.org/10.1121/10.0046394",
       "open_access_source": "crossref_license",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-09-10T07:22:20Z",
+      "media_checked_at": "2026-09-10T07:22:20Z",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [],
       "tags": [
@@ -1385,22 +1697,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-09",
-      "first_seen_at": "2026-09-10T07:21:19Z",
-      "full_text_url": "https://pubs.aip.org/jasa/article/160/3/2090/3404104/A-model-based-analysis-of-modulation-masking",
-      "media_checked_at": "2026-09-10T07:22:20Z",
-      "open_access_image_checked_at": "2026-09-10T07:22:20Z",
-      "ai_analysis": {
-        "scientific_question": "调制掩蔽效应对模拟人工耳蜗聆听的声码语音可懂度的影响机制是什么？",
-        "key_highlight": "改进的语音包络功率谱模型能够捕捉不同处理条件下的掩蔽依赖性可懂度模式，且分析表明声码化导致的可懂度损失主要由高频时域包络调制的移除而非谱分辨率降低驱动。",
-        "main_limitation": "模型在模拟电流扩散条件下系统性地高估了语音可懂度，且使用正常听力者的声码语音模拟人工耳蜗聆听可能无法完全复现真实电刺激听觉。",
-        "research_implication": "研究结果提示包络能量和音高相关失真应成为未来人工耳蜗可懂度模型的重要建模目标，并对人工耳蜗信号处理策略设计具有参考意义。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "84859de4f64d5774",
-        "updated_at": "2026-09-10T07:23:00Z"
-      }
+      "first_seen_at": "2026-09-10T07:21:19Z"
     },
     {
       "title": "Comparing measured sonic boom turbulence-induced variability with computational models for the Carpet Determination in Entirety Measurements (CarpetDIEM) I test campaign",
@@ -1417,14 +1714,6 @@
       "doi": "10.1121/10.0046475",
       "url": "https://doi.org/10.1121/10.0046475",
       "abstract": "When a sonic boom propagates through the atmospheric boundary layer, atmospheric turbulence distorts the waveform, producing stochastic variations over short distances. Accurate prediction of this variability is essential because turbulence affects both waveform characteristics and human-perception metrics used to evaluate supersonic overflights. During NASA's 2019 Carpet Determination in Entirety Measurements I (CarpetDIEM I) flight test campaign, Brigham Young University deployed a 120 m (400 ft) linear array with seven microphones to quantify turbulence-induced variability of sonic boom waveforms, spectra, and metrics. In this study, state-of-the-art models PCBoom and KZKFourier are combined with two weather models, CFSv2 and ERA5, to predict metric variability and compare results with CarpetDIEM I measurements. Depending on the metric and confidence interval considered, prediction success ranges between about 30% and 80%. For the perceived level metric, the prediction successes for the mean and standard deviation were 30%–48% and 52%–65% respectively, depending on the weather model. This compares favorably with the Sonic Booms in Atmospheric Turbulence prediction success results of 45% and 71% for the perceived level mean and standard deviation respectively, using data reported by Stout, Sparrow, and Blanc-Benon [(2021). J. Acoust. Soc. Am. 149, 3250–3260].",
-      "first_author_affiliation": "Department of Physics and Astronomy, Brigham Young University 1 , Provo, Utah 84602,",
-      "last_author_affiliation": "Flight Vehicle Acoustics Branch, NASA Langley Research Center 2 , Hampton, Virginia 23681,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-09",
-      "first_seen_at": "2026-09-10T07:21:19Z",
       "ai_analysis": {
         "scientific_question": "利用PCBoom和KZKFourier模型结合CFSv2和ERA5气象模型预测超声速飞越时大气湍流引起的音爆波形和感知度量变异性的准确性如何？",
         "key_highlight": "模型预测成功率在30%至80%之间，对于感知响度指标的预测与先前Sonic Booms in Atmospheric Turbulence研究结果相当。",
@@ -1436,7 +1725,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "2facd35d74dd77e0",
         "updated_at": "2026-09-10T07:23:11Z"
-      }
+      },
+      "first_author_affiliation": "Department of Physics and Astronomy, Brigham Young University 1 , Provo, Utah 84602,",
+      "last_author_affiliation": "Flight Vehicle Acoustics Branch, NASA Langley Research Center 2 , Hampton, Virginia 23681,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-09",
+      "first_seen_at": "2026-09-10T07:21:19Z"
     },
     {
       "title": "Comparing sound localization and speech-in-noise in unilateral, bilateral, single-sided deaf, and bimodal cochlear implant users",
@@ -1479,22 +1776,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0046480",
       "url": "https://doi.org/10.1121/10.0046480",
-      "abstract": "Infotaxis was compared with maximum a posteriori (MAP) search in active sensing for varying sonar beam widths on one-dimensional grids. The active sensing model incorporated missed detections and false alarms typically found in sonar. Monte Carlo simulations were run across detection probabilities for a fixed false alarm probability, and experiments validated the simulations. Infotaxis outperformed MAP for high and low detection probabilities for medium beam widths. Infotaxis also showed faster recovery for missed first-detections compared to MAP for medium beam widths. Furthermore, Infotaxis exhibited information-maximizing behavior, confirming the strategy's effectiveness relative to MAP.",
-      "first_author_affiliation": "Department of Electrical and Computer Engineering, University of Massachusetts Dartmouth 1 , Dartmouth, Massachusetts 02747,",
-      "last_author_affiliation": "Applied Physics Laboratory, University of Washington 2 , Seattle, Washington 98105,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0046480",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-09",
-      "first_seen_at": "2026-09-10T07:21:22Z",
       "full_text_url": "https://pubs.aip.org/jel/article/6/9/094801/3404121/Estimating-the-performance-of-the-infotaxis-search",
-      "media_checked_at": "2026-09-10T07:22:21Z",
-      "open_access_image_checked_at": "2026-09-10T07:22:21Z",
+      "abstract": "Infotaxis was compared with maximum a posteriori (MAP) search in active sensing for varying sonar beam widths on one-dimensional grids. The active sensing model incorporated missed detections and false alarms typically found in sonar. Monte Carlo simulations were run across detection probabilities for a fixed false alarm probability, and experiments validated the simulations. Infotaxis outperformed MAP for high and low detection probabilities for medium beam widths. Infotaxis also showed faster recovery for missed first-detections compared to MAP for medium beam widths. Furthermore, Infotaxis exhibited information-maximizing behavior, confirming the strategy's effectiveness relative to MAP.",
       "ai_analysis": {
         "scientific_question": "评估信息导航策略在不同声纳波束宽度主动感知中的搜索性能表现",
         "key_highlight": "信息导航策略在中等等束宽度条件下优于最大后验概率搜索策略，并能更快从首次检测失败中恢复",
@@ -1506,7 +1789,21 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "0cd93d74f73563b6",
         "updated_at": "2026-09-10T07:23:55Z"
-      }
+      },
+      "first_author_affiliation": "Department of Electrical and Computer Engineering, University of Massachusetts Dartmouth 1 , Dartmouth, Massachusetts 02747,",
+      "last_author_affiliation": "Applied Physics Laboratory, University of Washington 2 , Seattle, Washington 98105,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046480",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-09-10T07:22:21Z",
+      "media_checked_at": "2026-09-10T07:22:21Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-09",
+      "first_seen_at": "2026-09-10T07:21:22Z"
     },
     {
       "title": "General distributions for one- and two-point scattered signal statistics, including incomplete saturation and intermittence",
@@ -1521,14 +1818,6 @@
       "doi": "10.1121/10.0046393",
       "url": "https://doi.org/10.1121/10.0046393",
       "abstract": "Scattering by turbulence and other phenomena causes the intensity of sound waves to vary randomly. Due to the importance of random scattering effects in a variety of applications involving detection, communication, and beamforming of signals, extensive research has gone into formulating appropriate statistical models. This article presents a unified family of models intended for broad application across a variety of scattering scenarios and propagation environments. The formulation is based on extensions to the ordinary gamma distribution under the premise that there are three primary properties to be incorporated into a general model: saturation (relative importance of scattered and unscattered signal intensity), intermittence (variations in the scattering environment), and decorrelation (as occurs when two sensors are increasingly separated in space and time). The ultimate result is a distribution incorporating all three of these properties simultaneously, called the noncentral compound variance gamma. This distribution is presented as a series expansion in terms of the Rice factor, which represents the ratio of unscattered to scattered signal intensity. Most commonly used statistical models for random signals are special cases or closely approximated by the family of distributions presented here.",
-      "first_author_affiliation": "Center for Acoustics Research and Education, University of New Hampshire 1 , Durham, New Hampshire 03824,",
-      "last_author_affiliation": "U.S. Army Cold Regions Research and Engineering Laboratory, Engineer Research and Development Center 3 , Hanover, New Hampshire 03755,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-09",
-      "first_seen_at": "2026-09-10T07:21:19Z",
       "ai_analysis": {
         "scientific_question": "如何建立一个统一的统计模型来描述各种散射场景中随机信号的强度分布。",
         "key_highlight": "提出了非中心复合方差伽马分布，同时整合了饱和度、间歇性和去相关性三个关键特性，涵盖了大多数现有随机信号统计模型。",
@@ -1540,7 +1829,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "8adbcd55c45e1a1a",
         "updated_at": "2026-09-10T07:24:07Z"
-      }
+      },
+      "first_author_affiliation": "Center for Acoustics Research and Education, University of New Hampshire 1 , Durham, New Hampshire 03824,",
+      "last_author_affiliation": "U.S. Army Cold Regions Research and Engineering Laboratory, Engineer Research and Development Center 3 , Hanover, New Hampshire 03755,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-09",
+      "first_seen_at": "2026-09-10T07:21:19Z"
     },
     {
       "title": "Spectral envelope estimation of high-pitched vowels using a shared excitation proxy and autoregressive modeling with exogenous input",
@@ -1772,9 +2069,12 @@
       "open_access": true,
       "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13552904/",
       "open_access_source": "pubmed_pmc",
+      "open_access_image_checked_at": "2026-09-10T07:22:21Z",
       "pubmed_full_text_available": true,
       "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13552904/",
       "pubmed_full_text_source": "pmc",
+      "pubmed_full_text_image_checked_at": "2026-09-10T07:22:21Z",
+      "media_checked_at": "2026-09-10T07:22:21Z",
       "section": null,
       "keywords": [
         "Adult",
@@ -1815,10 +2115,7 @@
         "title"
       ],
       "needs_review": false,
-      "first_seen_at": "2026-09-08T07:17:39Z",
-      "media_checked_at": "2026-09-10T07:22:21Z",
-      "pubmed_full_text_image_checked_at": "2026-09-10T07:22:21Z",
-      "open_access_image_checked_at": "2026-09-10T07:22:21Z"
+      "first_seen_at": "2026-09-08T07:17:39Z"
     },
     {
       "title": "The Effect of Etiology, Array Type and Duration of Deafness on Focused Detection Thresholds in Cochlear Implant Listeners",
@@ -1916,6 +2213,66 @@
       "source": "crossref",
       "available_online_date": "2026-09-06",
       "first_seen_at": "2026-09-07T07:22:47Z"
+    },
+    {
+      "title": "Effects of salicylate on organ-of-Corti vibrations in the second turn of the gerbil cochlea",
+      "authors": [
+        "Sebastiaan W.F. Meenderink",
+        "Wei Dong"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-04",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109802",
+      "url": "https://doi.org/10.1016/j.heares.2026.109802",
+      "abstract": "Sound-evoked responses of the organ of Corti (OoC) in the living cochlea are enhanced by active processes driven by outer hair cells (OHCs). To assess how suppression of OHC function affects intracochlear mechanics, we applied salicylate-a blocker of OHC electromotility-to the round window of anesthetized Mongolian gerbils and measured both distortion product otoacoustic emissions (DPOAEs) and sound-evoked vibrations of the OoC in the second cochlear turn using optical coherence tomography (OCT). Salicylate reduced DPOAE amplitudes in a time- and frequency-dependent manner and decreased intracochlear vibration amplitudes throughout the OoC. The largest effects occurred for low-level stimuli near the best frequency, resulting in reduced cochlear gain consistent with suppression of OHC-mediated amplification. In contrast, phase relationships were largely preserved, suggesting attenuation of active feedback without major changes in intracochlear mechanical coupling. Salicylate affected responses over a broad frequency range extending more than two octaves below the best frequency, a pattern that differs from previous observations in the cochlear base. Similar reductions in basilar membrane (BM) and OHC-region vibrations indicate that OHC-generated forces contribute to motion throughout the local cochlear partition. DPOAE reductions closely matched intracochlear gain changes near the best frequency, supporting their use as a frequency-specific indicator of local cochlear amplification.",
+      "last_author_affiliation": "Department of Otolaryngology - Head and Neck Surgery, University of California, Irvine, CA, 92617, USA; VA Long Beach Healthcare System, Long Beach, CA, 90822, USA. Electronic address: weid10@hs.uci.edu.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [
+        "Cochlea",
+        "Gerbil",
+        "Optical coherence tomography",
+        "Organ of Corti",
+        "Salicylate"
+      ],
+      "tags": [
+        "auditory physiology",
+        "hearing aid"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-04",
+      "first_seen_at": "2026-09-05T06:58:29Z"
+    },
+    {
+      "title": "Hippocampal and amygdalar structures preferentially target somatostatin-expressing interneurons in the auditory cortex",
+      "authors": [
+        "Philip T. Williams",
+        "Tania Rinaldi Barkat",
+        "Florian Studer"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-04",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109804",
+      "url": "https://doi.org/10.1016/j.heares.2026.109804",
+      "abstract": "The auditory cortex integrates sensory and contextual inputs in emotion and fear driven situations that can be consolidated over learning. Somatostatin-expressing (SST+) interneurons play a key role in inhibitory modulation of sensory processing, yet their long-range inputs remain poorly characterised. We performed rabies-based retrograde monosynaptic tracing to compare the specific inputs to SST+ interneurons with the general input connectome of neurons in the mouse auditory cortex. Overall, inputs were similar, with the majority of presynaptic neurons originating from the ipsilateral auditory cortex, medial geniculate body and other sensory areas. However, SST+ interneurons received significantly more inputs from limbic regions, including the hippocampus and amygdala, than other auditory neurons. Our results show preferential targeting of SST+ interneurons in auditory cortex by regions involved in emotion and memory. These connections may be involved in auditory learning and state-dependent gating of auditory responses.",
+      "last_author_affiliation": "Department of Biomedicine, University of Basel, 4056, Switzerland. Electronic address: florian.studer@unibas.ch.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [
+        "Amygdala",
+        "Auditory cortex",
+        "Hippocampus",
+        "Rabies-based monosynaptic retrograde tracing",
+        "Somatostatin-expressing interneurons"
+      ],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-04",
+      "first_seen_at": "2026-09-05T06:58:29Z"
     },
     {
       "title": "ProLombard: Structured Multi-Scale Modeling for Normal-to-Lombard Speech Conversion",
@@ -2223,6 +2580,39 @@
       "first_seen_at": "2026-09-03T07:13:32Z"
     },
     {
+      "title": "Validation of the 'Arabic commands in noise test' and evaluation of the impact of conscientiousness on test performance",
+      "authors": [
+        "Iman Rawas",
+        "Daniel Rowan",
+        "Hannah Semeraro",
+        "Stefan Bleeck",
+        "Afaf Bamanie"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-02",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109798",
+      "url": "https://doi.org/10.1016/j.heares.2026.109798",
+      "abstract": "This study aims to validate the newly developed speech-in-noise (SiN) hearing test, the Arabic commands in noise test (ACINT) and explore the effect of global personality trait conscientiousness on auditory task performance. The SiN test was performed twice on persons with normal hearing (NH) and hearing-impairment (HI). Using the Arabic NEO Five-Factor Inventory (NEO-FFI), individuals with NH were categorized into groups based on their level of conscientiousness. 54 normal hearing individuals and 20 individuals with mild sensorineural hearing loss as identified by pure tone audiometry. No significant difference in performance was found between participants with different conscientiousness levels (F(1,52)=2.28, p = 0.14). Significant differences in performance were found between NH and HI-impaired participants (F (1,72) =39.7, p < 0.001), with a 4.14 dB signal-to-noise ratio (SNR) increase in test scores for the HI group. The test scores were repeatable across measurements, with >77% of the data within one standard deviation in the Bland-Altman plots. The developed speech test, the ACINT, is a valid repeatable SiN test suitable for further audiological research. Conscientiousness as a global trait was not associated with improved auditory test performance.",
+      "last_author_affiliation": "Department of Otorhinolaryngology-Head and Neck Surgery, King Abdulaziz University, Jeddah, Saudi Arabia.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Arabic command in noise test (ACINT)",
+        "Auditory fitness for duty (AFFD) testing",
+        "Hearing impairment",
+        "Speech-in-noise (SiN) tests",
+        "Stationary speech spectrum noise (SSSN)"
+      ],
+      "tags": [
+        "clinical audiology",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-02",
+      "first_seen_at": "2026-09-03T07:13:37Z"
+    },
+    {
       "title": "ABSE-NET: A Lightweight Neural Model for Active Binaural Speech Enhancement in Open-Fit Hearing Aids",
       "authors": [
         "De Hu",
@@ -2305,6 +2695,31 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-01",
       "first_seen_at": "2026-09-02T07:08:57Z"
+    },
+    {
+      "title": "Aminoglycoside injury, but not genetic hair cell ablation, preferentially reduces Type Ic spiral ganglion neurons",
+      "authors": [
+        "Yoko Fukunaga",
+        "Chisato Chikugo",
+        "Takayuki Nakagawa",
+        "Norio Yamamoto",
+        "Koichi Omori",
+        "Ichiro Tateya",
+        "Koji Nishimura"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109808",
+      "url": "https://doi.org/10.1016/j.heares.2026.109808",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref",
+      "first_seen_at": "2026-09-11T07:20:33Z"
     },
     {
       "title": "An optimized tissue processing pipeline for multiscale imaging of the intact peripheral auditory pathway",
@@ -3059,26 +3474,6 @@
       "first_seen_at": "2026-09-04T07:17:01Z"
     },
     {
-      "title": "Effects of salicylate on organ-of-Corti vibrations in the second turn of the gerbil cochlea",
-      "authors": [
-        "Sebastiaan W.F. Meenderink",
-        "Wei Dong"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-09-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109802",
-      "url": "https://doi.org/10.1016/j.heares.2026.109802",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-09-05T06:58:29Z"
-    },
-    {
       "title": "Electrophysiologically-based electrode selection has the potential to improve speech perception in cochlear-implant users",
       "authors": [
         "Wouter David",
@@ -3384,12 +3779,18 @@
       "key_image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs10162-026-01069-5/MediaObjects/10162_2026_1069_Fig1_HTML.png",
       "key_image_alt": "Content cover image",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
+      "keywords": [
+        "Cochlear gain and delay",
+        "Cochlear nonlinearity",
+        "Cochlear tuning",
+        "Otoacoustic emissions",
+        "SFOAEs"
+      ],
       "tags": [
         "auditory physiology",
         "hearing aid"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-01",
       "first_seen_at": "2026-09-02T07:08:59Z"
     },
@@ -3436,27 +3837,6 @@
       "source": "crossref",
       "available_online_date": "2026-09-01",
       "first_seen_at": "2026-09-02T07:08:58Z"
-    },
-    {
-      "title": "Hippocampal and Amygdalar Structures Preferentially Target Somatostatin-Expressing Interneurons in the Auditory Cortex",
-      "authors": [
-        "Philip T. Williams",
-        "Tania Rinaldi Barkat",
-        "Florian Studer"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-09-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109804",
-      "url": "https://doi.org/10.1016/j.heares.2026.109804",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-09-05T06:58:29Z"
     },
     {
       "title": "Low-frequency broadband magnetostrictive-piezoelectric hybrid excitation Janus–Helmholtz transducer",
@@ -3626,6 +4006,26 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-06-29",
       "first_seen_at": "2026-07-07T06:28:36Z"
+    },
+    {
+      "title": "Musicianship enhances hearing-in-noise performance in older and younger adults: Evidence from the Music-in-Noise Task",
+      "authors": [
+        "Nathan Gagné",
+        "Marie-Anick Savard",
+        "Giulia Panaioli",
+        "Emily B.J. Coffey"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109803",
+      "url": "https://doi.org/10.1016/j.heares.2026.109803",
+      "abstract": null,
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-11T07:20:33Z"
     },
     {
       "title": "Neural Origins of the Acoustic Change Complex Auditory Evoked Potential: Topographical Maps and Source Localization in the Auditory Cortex",
@@ -4305,27 +4705,6 @@
       "source": "crossref",
       "available_online_date": "2026-09-01",
       "first_seen_at": "2026-09-02T07:08:58Z"
-    },
-    {
-      "title": "Validation of the 'Arabic Commands in Noise Test' and Evaluation of the Impact of Conscientiousness on Test Performance",
-      "authors": [
-        "Iman Rawas",
-        "Daniel Rowan",
-        "Hannah Semeraro",
-        "Stefan Bleeck",
-        "Afaf Bamanie"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-09-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109798",
-      "url": "https://doi.org/10.1016/j.heares.2026.109798",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-03T07:13:37Z"
     },
     {
       "title": "Validity criteria for the small slope approximation for backscattering of sound from rough surfaces with a power-law roughness spectrum",
@@ -9865,22 +10244,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -9893,6 +10256,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -17432,18 +17811,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -17464,17 +17842,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -26798,22 +27177,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -26826,6 +27189,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -33916,23 +34295,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -33946,6 +34308,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -37281,8 +37660,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -37296,8 +37675,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -42818,8 +43197,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -42833,8 +43212,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
