@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T07:12:54Z",
+  "generated_at": "2026-09-13T07:31:36Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
@@ -74,6 +74,33 @@
       "source": "crossref",
       "available_online_date": "2026-08-20",
       "first_seen_at": "2026-08-27T12:51:57Z"
+    },
+    {
+      "title": "Are there distinctive EEG Signatures of tinnitus-related emotional distress? Evidence from spectral parameterization and source-level functional connectivity",
+      "authors": [
+        "Bo Zhang",
+        "Junce Wang",
+        "Jianing Zhu",
+        "Wendi Zhao",
+        "Dong Yang",
+        "Guangjian Ni"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109807",
+      "url": "https://doi.org/10.1016/j.heares.2026.109807",
+      "abstract": null,
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-09",
+      "first_seen_at": "2026-09-10T07:21:38Z"
     },
     {
       "title": "Biomarkers of Subjective Tinnitus Presence and Clinical Burden: A Systematic Review",
@@ -1413,7 +1440,19 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-11",
-      "first_seen_at": "2026-09-12T07:12:18Z"
+      "first_seen_at": "2026-09-12T07:12:18Z",
+      "ai_analysis": {
+        "scientific_question": "如何通过声学黑洞结构设计提升双晶片超声换能器的振动位移、机电耦合系数和声辐射效率。",
+        "key_highlight": "声学黑洞轮廓结构能够有效提升双晶片超声换能器的机电耦合系数和声辐射效率。",
+        "main_limitation": "实验验证仅限于相同振动模式下的比较，尚未探索宽频率范围或不同工况下的性能表现。",
+        "research_implication": "该设计框架可为高频声学传感器的优化提供参考，但与助听器、植入式听觉设备或言语感知研究无直接关联。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "c3b945ade943519e",
+        "updated_at": "2026-09-13T07:32:00Z"
+      }
     },
     {
       "title": "Azipod-equipped vessels in the Antarctic Peninsula radiate underwater continuous mid-frequency narrowband and tonal sounds",
@@ -1428,22 +1467,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0046465",
       "url": "https://doi.org/10.1121/10.0046465",
-      "abstract": "It is commonly accepted that ocean noise from marine traffic is mostly confined to low frequencies. This article empirically demonstrates that large (length >120 m) vessels equipped with electrically driven “Azipod” propulsion systems generate loud mid-frequency (3–15 kHz) tonal and mid-frequency narrowband and tonal sounds (MF-NTS). The study focuses on six Azipod-equipped tourist vessels operating in the Antarctic Peninsula; it relies on opportunistic passive acoustic measurements collected there during the 2024–2025 Austral summer. The six vessels considered here all radiate MF-NTS, which are interpreted as the acoustic signature of the Azipod (data below 2 kHz are not considered in this study). This signature dominates the ambient sound for several kilometers around the vessel, and can be acoustically detected at ranges exceeding 5 km.",
-      "first_author_affiliation": "Marine Physical Laboratory, Scripps Institution of Oceanography, University of California 1 , San Diego, La Jolla, California 92093,",
-      "last_author_affiliation": "Department of Applied Ocean Physics & Engineering, Woods Hole Oceanographic Institution 4 , Woods Hole, Massachusetts 02543,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0046465",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-11",
-      "first_seen_at": "2026-09-12T07:12:18Z",
       "full_text_url": "https://pubs.aip.org/jasa/article/160/3/2210/3404322/Azipod-equipped-vessels-in-the-Antarctic-Peninsula",
-      "media_checked_at": "2026-09-12T07:13:01Z",
-      "open_access_image_checked_at": "2026-09-12T07:13:01Z",
+      "abstract": "It is commonly accepted that ocean noise from marine traffic is mostly confined to low frequencies. This article empirically demonstrates that large (length >120 m) vessels equipped with electrically driven “Azipod” propulsion systems generate loud mid-frequency (3–15 kHz) tonal and mid-frequency narrowband and tonal sounds (MF-NTS). The study focuses on six Azipod-equipped tourist vessels operating in the Antarctic Peninsula; it relies on opportunistic passive acoustic measurements collected there during the 2024–2025 Austral summer. The six vessels considered here all radiate MF-NTS, which are interpreted as the acoustic signature of the Azipod (data below 2 kHz are not considered in this study). This signature dominates the ambient sound for several kilometers around the vessel, and can be acoustically detected at ranges exceeding 5 km.",
       "ai_analysis": {
         "scientific_question": "大型船舶配备的Azipod电动推进系统是否会产生与主流认知（海洋船舶噪声主要局限于低频段）相悖的中频（3–15 kHz）窄带和单音调声音？",
         "key_highlight": "研究发现，所有6艘配备Azipod系统的船舶均辐射中频窄带和单音调声音，其声学特征在船舶周围数公里范围内主导环境噪声，并可在超过5公里的距离被探测到。",
@@ -1455,7 +1480,21 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "ae559c288e09b52b",
         "updated_at": "2026-09-12T07:13:44Z"
-      }
+      },
+      "first_author_affiliation": "Marine Physical Laboratory, Scripps Institution of Oceanography, University of California 1 , San Diego, La Jolla, California 92093,",
+      "last_author_affiliation": "Department of Applied Ocean Physics & Engineering, Woods Hole Oceanographic Institution 4 , Woods Hole, Massachusetts 02543,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046465",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-09-12T07:13:01Z",
+      "media_checked_at": "2026-09-12T07:13:01Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-11",
+      "first_seen_at": "2026-09-12T07:12:18Z"
     },
     {
       "title": "Effective acoustic properties of a soft viscoelastic material layered with ideal or viscous fluids",
@@ -1472,14 +1511,6 @@
       "doi": "10.1121/10.0046123",
       "url": "https://doi.org/10.1121/10.0046123",
       "abstract": "This paper deals with the analysis of quasicompressional wave propagation in periodically layered fluid-solid systems, where the waves propagate parallel to the layers. Specifically, we consider a compliant solid material, such as a polymer, layered with fluids with significant density contrast, such as air, water, or mercury. The well-known Rytov system of equations is used to derive numerical wave mode solutions for arbitrary frequency. These numerical solutions are then compared with analytical asymptotic results derived by the authors (e.g., Krauklis waves and Scholte waves in soft materials) as well as results from the literature. Different mechanisms of frequency-dependent wave damping associated with the viscosity of the fluid, softness of the compliant material, and density contrast between the solid and fluid layers are identified. The results of these studies, such as the frequency-dependent phase velocity and attenuation, are interpreted by invoking the phenomenological framework of Biot theory of wave propagation in a fluid-saturated porous medium, for which the fast and the slow modes have been identified. Overall, convincing agreement between analytical and numerical results is obtained.",
-      "first_author_affiliation": "Defence Science and Technology Group 1 , Port Melbourne, Victoria 3207,",
-      "last_author_affiliation": "School of Mechanical and Manufacturing Engineering, University of New South Wales Sydney 2 , New South Wales 2052,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-11",
-      "first_seen_at": "2026-09-12T07:12:18Z",
       "ai_analysis": {
         "scientific_question": "准压缩波在具有显著密度差异的周期性层状流体-固体系统中的传播特性是什么？",
         "key_highlight": "通过Rytov方程数值解与解析渐近解的对比，验证了慢波和快波模式在软材料与流体界面处的频率相关相速度和衰减特性与Biot多孔介质理论的一致性",
@@ -1491,7 +1522,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "95bbc1ce4d7d7c0c",
         "updated_at": "2026-09-12T07:13:57Z"
-      }
+      },
+      "first_author_affiliation": "Defence Science and Technology Group 1 , Port Melbourne, Victoria 3207,",
+      "last_author_affiliation": "School of Mechanical and Manufacturing Engineering, University of New South Wales Sydney 2 , New South Wales 2052,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-11",
+      "first_seen_at": "2026-09-12T07:12:18Z"
     },
     {
       "title": "Physics-informed localization of sound sources in reflective environments including hidden sources",
@@ -1506,14 +1545,6 @@
       "doi": "10.1121/10.0046471",
       "url": "https://doi.org/10.1121/10.0046471",
       "abstract": "Sound source localization in the presence of rigid boundaries remains challenging because reflections and diffractions substantially distort the measured signals and are difficult to account for with conventional localization techniques. To address this issue, this paper extends the adjoint-based method introduced in Sroka, Sarradj, and Lemke [(2025). J. Acoust. Soc. Am. 158, 419–432] by incorporating a volume penalization approach to represent rigid boundaries. The resulting formulation enables the adjoint framework to account for wave reflections at rigid surfaces while maintaining high numerical accuracy. For suitable penalization parameters, the boundary representation exhibits an observed error convergence rate of approximately O(3). The method is demonstrated in two scenarios: first, a fully hidden sound source is identified in both space and time without additional assumptions; second, experimental microphone measurements of a moving vehicle are analyzed, yielding multiple physically plausible source locations and highlighting the strong influence of the rigid ground surface on localization results.",
-      "first_author_affiliation": "Numerical Fluid Dynamics, Technische Universität Berlin 1 , Berlin 10623,",
-      "last_author_affiliation": "Numerical Fluid Dynamics, Technische Universität Berlin 1 , Berlin 10623,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-11",
-      "first_seen_at": "2026-09-12T07:12:18Z",
       "ai_analysis": {
         "scientific_question": "如何在存在刚性边界的反射环境中准确定位声源，特别是完全隐藏的声源",
         "key_highlight": "该方法通过体积惩罚方法扩展了伴随框架，成功识别了完全隐藏的声源并验证了刚性地面表面对定位结果的显著影响",
@@ -1525,7 +1556,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "e2a2e6df12af8273",
         "updated_at": "2026-09-12T07:14:03Z"
-      }
+      },
+      "first_author_affiliation": "Numerical Fluid Dynamics, Technische Universität Berlin 1 , Berlin 10623,",
+      "last_author_affiliation": "Numerical Fluid Dynamics, Technische Universität Berlin 1 , Berlin 10623,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-11",
+      "first_seen_at": "2026-09-12T07:12:18Z"
     },
     {
       "title": "Time-varying voice directivity in real-time room acoustic simulation: Implementation and perceptual evaluation",
@@ -1540,24 +1579,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0046466",
       "url": "https://doi.org/10.1121/10.0046466",
-      "abstract": "Source directivity is an integral part of room acoustic simulation, affecting not only the intensity and frequency balance of the direct sound depending on source orientation, but also room-acoustic parameters, such as the direct-to-reverberant energy ratio. While the directivity of a loudspeaker is time-invariant, the directivity of other sound sources, such as the human voice, varies over time. Whether these time-dependent directivity changes must be fully considered for a plausible binaural rendering of speech remains an open question, requiring rendering solutions that can reproduce time-varying directivity. This work provides three key contributions. First, it introduces a feature for liveRAZR—a real-time, six-degrees-of-freedom room acoustic simulator—to render sound sources with time-varying directivity from Ambisonics input. Second, it proposes a method to generate speech material with time-varying directivity from monaural recordings using phoneme-dependent directivity filters. Third, it presents a listening experiment comparing fluent speech with multiple time-varying and static directivities regarding transfer-plausibility and perceptual qualities. Time-varying directivity did not significantly improve transfer-plausibility or liveliness and source-orientation clarity ratings compared to static, measurement-based directivity in the tested scenario. However, analytically obtained spherical head model directivity reduced these perceptual qualities, indicating that measurement-based voice directivity is preferable for demanding immersive extended reality applications.",
-      "first_author_affiliation": "Audio Communication Group, Technische Universität Berlin 1 , Berlin,",
-      "last_author_affiliation": "Acoustics Lab, Department of Information and Communications Engineering, Aalto University 2 , Espoo,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0046466",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "speech perception"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-11",
-      "first_seen_at": "2026-09-12T07:12:18Z",
       "full_text_url": "https://pubs.aip.org/jasa/article/160/3/2223/3404348/Time-varying-voice-directivity-in-real-time-room",
-      "media_checked_at": "2026-09-12T07:13:01Z",
-      "open_access_image_checked_at": "2026-09-12T07:13:01Z",
+      "abstract": "Source directivity is an integral part of room acoustic simulation, affecting not only the intensity and frequency balance of the direct sound depending on source orientation, but also room-acoustic parameters, such as the direct-to-reverberant energy ratio. While the directivity of a loudspeaker is time-invariant, the directivity of other sound sources, such as the human voice, varies over time. Whether these time-dependent directivity changes must be fully considered for a plausible binaural rendering of speech remains an open question, requiring rendering solutions that can reproduce time-varying directivity. This work provides three key contributions. First, it introduces a feature for liveRAZR—a real-time, six-degrees-of-freedom room acoustic simulator—to render sound sources with time-varying directivity from Ambisonics input. Second, it proposes a method to generate speech material with time-varying directivity from monaural recordings using phoneme-dependent directivity filters. Third, it presents a listening experiment comparing fluent speech with multiple time-varying and static directivities regarding transfer-plausibility and perceptual qualities. Time-varying directivity did not significantly improve transfer-plausibility or liveliness and source-orientation clarity ratings compared to static, measurement-based directivity in the tested scenario. However, analytically obtained spherical head model directivity reduced these perceptual qualities, indicating that measurement-based voice directivity is preferable for demanding immersive extended reality applications.",
       "ai_analysis": {
         "scientific_question": "语音的时间变化指向性是否需要在可信的双耳渲染中进行完整模拟？",
         "key_highlight": "时间变化指向性相比静态测量指向性并未显著提升语音传输可信度和感知质量，但解析球形头模指向性反而降低了感知评分。",
@@ -1569,7 +1592,23 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "b8b8326a5571dbd4",
         "updated_at": "2026-09-12T07:14:18Z"
-      }
+      },
+      "first_author_affiliation": "Audio Communication Group, Technische Universität Berlin 1 , Berlin,",
+      "last_author_affiliation": "Acoustics Lab, Department of Information and Communications Engineering, Aalto University 2 , Espoo,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046466",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-09-12T07:13:01Z",
+      "media_checked_at": "2026-09-12T07:13:01Z",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-11",
+      "first_seen_at": "2026-09-12T07:12:18Z"
     },
     {
       "title": "A synthetic anisotropic vocal fold model with tunable longitudinal stiffness",
@@ -1814,6 +1853,18 @@
       "url": "https://doi.org/10.1121/10.0046473",
       "full_text_url": "https://pubs.aip.org/jasa/article/160/3/2179/3404231/Revised-equation-for-sound-speed-in-seawater",
       "abstract": "Measurements of long-range acoustic travel times have suggested that the Del Grosso [(1974). J. Acoust. Soc. Am. 56, 1084–1091] (DG1974) and the internationally accepted Thermodynamic Equation of Seawater 2010 (TEOS-10, which is largely based on DG1974) sound-speed equations (SSE) in seawater give values at high pressure and low temperature that are too high. The revised SSE obtained here updates DG1974 and yields sound-speed estimates below 1000 m that are approximately 0.10 m/s slower. The SSE is derived by performing a Bayesian estimate that includes: (1) original laboratory observations, (2) sound-speeds derived from exceptionally precise travel-time measurements made during the 2016–2017 Canada Basin Acoustic Propagation Experiment (CANAPE) (± 0.03 m/s), (3) the uncertainty in the data, and (4) a heuristic prior parameter covariance matrix. The residuals indicate that the DG1974 and TEOS-10 SSEs do not fit the original laboratory observations within their reported uncertainties, and there is inconsistency between the laboratory observations and the CANAPE sound-speed estimates. The equation is validated by estimating sound-speed profiles from conductivity-temperature-depth casts obtained in connection with previous long-range travel-time measurements. The proposed equation fits the laboratory observations as well as the DG1974 SSE (root mean square difference of 0.06 m/s).",
+      "ai_analysis": {
+        "scientific_question": "现有海水声速方程在高压低温条件下给出的值是否偏高，需要如何修订才能与远程声学传播时间测量结果保持一致",
+        "key_highlight": "利用贝叶斯估计法结合2016-2017年CANAPE实验的精确旅行时测量数据，得到的新方程在1000米深度以下产生的声速估算值比原方程低约0.10 m/s",
+        "main_limitation": "实验室观测数据与CANAPE声速估算值之间存在不一致，原方程与原始观测数据的拟合也未达到其报告的不确定度水平",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "59a8810191647a41",
+        "updated_at": "2026-09-12T07:14:31Z"
+      },
       "first_author_affiliation": "Scripps Institution of Oceanography, University of California San Diego 1 , La Jolla, California 92093,",
       "last_author_affiliation": "Woods Hole Oceanographic Institution 2 , Woods Hole, Massachusetts 02543,",
       "open_access": true,
@@ -1827,19 +1878,7 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-10",
-      "first_seen_at": "2026-09-11T07:20:07Z",
-      "ai_analysis": {
-        "scientific_question": "现有海水声速方程在高压低温条件下给出的值是否偏高，需要如何修订才能与远程声学传播时间测量结果保持一致",
-        "key_highlight": "利用贝叶斯估计法结合2016-2017年CANAPE实验的精确旅行时测量数据，得到的新方程在1000米深度以下产生的声速估算值比原方程低约0.10 m/s",
-        "main_limitation": "实验室观测数据与CANAPE声速估算值之间存在不一致，原方程与原始观测数据的拟合也未达到其报告的不确定度水平",
-        "research_implication": "General research findings",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "59a8810191647a41",
-        "updated_at": "2026-09-12T07:14:31Z"
-      }
+      "first_seen_at": "2026-09-11T07:20:07Z"
     },
     {
       "title": "Structural and Molecular Evidence for a Frequency-Dependent Electrochemical Gradient in the Human Cochlear Lateral Wall",
@@ -1888,7 +1927,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-10",
-      "first_seen_at": "2026-09-11T07:20:18Z"
+      "first_seen_at": "2026-09-11T07:20:18Z",
+      "ai_analysis": {
+        "scientific_question": "人类耳蜗侧壁的结构和电化学特性是否随频率位置变化而存在显著差异？",
+        "key_highlight": "研究发现耳蜗底转到顶转过程中侧壁体积减小100倍、血管纹减小14倍，且顶端钾离子回收潜力下降，提示人类耳蜗“电池”在顶转区功能较弱。",
+        "main_limitation": "Limited generalizability due to small or specific sample",
+        "research_implication": "研究揭示了频率依赖的电化学变化可能与代谢性听力损失及人工耳蜗植入手术的预后相关，为临床干预提供了解剖学基础。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "dedd86e69b1730c3",
+        "updated_at": "2026-09-13T07:32:09Z"
+      }
     },
     {
       "title": "A lightweight model for modulation recognition of integrated underwater acoustic sensing and communication signals",
@@ -2038,7 +2089,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-09",
-      "first_seen_at": "2026-09-10T07:21:19Z"
+      "first_seen_at": "2026-09-10T07:21:19Z",
+      "ai_analysis": {
+        "scientific_question": "本研究比较了单侧、双侧、单侧耳聋和双模式人工耳蜗使用者在空间听觉（声音定位和噪声中言语感知）方面的能力差异。",
+        "key_highlight": "当排除单侧使用者后，声音定位误差与空间分离条件下言语接收阈的改善幅度之间存在显著相关性，表明两项任务可能相互预测。",
+        "main_limitation": "各组样本量较小（5至12人不等），且主要相关性分析排除了单侧使用者，限制了结果的外推范围。",
+        "research_implication": "该研究为双侧人工耳蜗植入的空间听觉优势提供了证据，并提示言语接收阈测量或可作为声音定位测试的替代方法用于临床快速评估。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "3d394d855cdf54b2",
+        "updated_at": "2026-09-13T07:32:20Z"
+      }
     },
     {
       "title": "Estimating the performance of the infotaxis search strategy for changing beamwidth",
@@ -2139,7 +2202,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-09",
-      "first_seen_at": "2026-09-10T07:21:19Z"
+      "first_seen_at": "2026-09-10T07:21:19Z",
+      "ai_analysis": {
+        "scientific_question": "如何准确估计高基频元音中因谐波稀疏和源-滤波器耦合而难以表征的声道频谱包络。",
+        "key_highlight": "所提出的基于共享激励代理和自回归建模的框架在高基频条件下（F0 > 300 Hz）将第一共振峰估计误差较传统线性预测编码基线降低约30%。",
+        "main_limitation": "基于OPENGLOT数据库验证，在真实说话人多样性和自然语料库条件下的表现尚待验证。",
+        "research_implication": "改进的频谱包络估计方法可能为依赖精确频谱表征的语音感知研究及助听设备语音编码提供技术参考。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "5ed3cd9f9ccffc02",
+        "updated_at": "2026-09-13T07:32:30Z"
+      }
     },
     {
       "title": "The birth of objective audiometry",
@@ -2159,7 +2234,19 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-09",
-      "first_seen_at": "2026-09-10T07:21:19Z"
+      "first_seen_at": "2026-09-10T07:21:19Z",
+      "ai_analysis": {
+        "scientific_question": "本文作为《声学学会期刊》历史反思系列文章，旨在回顾对该学科及实践产生重大影响的历史文献。",
+        "key_highlight": "该系列通过回顾性视角审视声学领域的开创性研究，为理解学科发展脉络提供历史背景。",
+        "main_limitation": "作为历史回顾性文章，本研究未呈现原始实验数据或新发现，其实用参考价值取决于所回顾文章的历史相关性。",
+        "research_implication": "该历史反思系列虽不直接涉及助听器、人工耳蜗或言语感知研究，但为了解声学基础研究的历史演进提供了必要的学术背景。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "ce25cd618e55f110",
+        "updated_at": "2026-09-13T07:32:42Z"
+      }
     },
     {
       "title": "Erratum: Acoustic parameter combinations underlying mapping of pseudoword sounds to multiple domains of meaning: Representational similarity analyses and machine-learning models [J. Acoust. Soc. Am. 158 (6), 4243–4267 (2025)]",
@@ -2489,6 +2576,48 @@
       "source": "crossref",
       "available_online_date": "2026-09-06",
       "first_seen_at": "2026-09-07T07:22:47Z"
+    },
+    {
+      "title": "Contributions of aging, auditory nerve health, and speed of processing to psychophysical gap detection thresholds in cochlear implant users",
+      "authors": [
+        "Kara C. Schvartz-Leyzac",
+        "Kelly C. Harris"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-04",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109801",
+      "url": "https://doi.org/10.1016/j.heares.2026.109801",
+      "abstract": "Precise encoding of temporal speech cues is critical for speech understanding and are especially important for cochlear implant (CI) users, who receive limited spectral information. Silent gap detection is a simple index of auditory temporal precision, yet mechanisms and stimulus parameters driving variability in CI gap detection thresholds (GDTs) remain unclear. The overall aim of this study was to describe how AN density, aging, pulse rate, and cognitive speed of processing contribute to GDTs in adult CI users. Twenty post-lingually deafened adult Cochlear™ CI users (37-87 years) participated. We recorded electrically evoked compound action potentials (ECAPs) and psychophysical gap detection using direct stimulation techniques. ECAP interphase gap (IPG) slope effect was used as an estimate of AN density. GDTs were measured with 500 and 3500 pps pulse trains on two electrodes per ear paired with the highest and lowest IPG effect. Cognitive processing speed was assessed with the Connections Test. CNC word recognition was measured in the sound field. GDTs increased (worsened) with increasing age; but decreased (improved) overall when using a higher compared to lower pulse rate but more so for younger compared to older CI users. Estimates of AN density did not predict GDTs. Slower cognitive processing speed was associated with poorer GDTs, when using higher but not lower pulse rates. These results suggest that, at higher pulse rates central/cognitive mechanisms but not AN density status, predict encoding of temporal gaps in adult CI users particularly when using higher pulse rate stimuli.",
+      "last_author_affiliation": "Medical University of South Carolina, Department of Otolaryngology-Head & Neck Surgery, 135 Rutledge Ave, MSC 550, Charleston, SC, 29425, USA.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [
+        "Aging",
+        "Cochlear implant",
+        "Electrically evoked compound action potential",
+        "Neural health",
+        "Temporal processing"
+      ],
+      "tags": [
+        "auditory physiology",
+        "cochlear implant"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-04",
+      "first_seen_at": "2026-09-04T07:17:01Z",
+      "ai_analysis": {
+        "scientific_question": "在人工耳蜗使用者中，年龄、听神经密度、刺激脉率和认知加工速度如何共同影响时域间隙检测阈值。",
+        "key_highlight": "在较高刺激脉率条件下，认知加工速度而非听神经密度状态可预测成人人工耳蜗使用者的时域间隙编码能力。",
+        "main_limitation": "样本量较小（n=20）且年龄跨度较大（37-87岁），研究结果的外推性存在一定局限。",
+        "research_implication": "该研究提示在人工耳蜗言语处理器参数优化中需考虑认知因素与刺激脉率的交互作用，尤其对老年用户的高频刺激策略设计具有参考意义。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "7a047cfe398c2281",
+        "updated_at": "2026-09-13T07:32:52Z"
+      }
     },
     {
       "title": "Effects of salicylate on organ-of-Corti vibrations in the second turn of the gerbil cochlea",
@@ -3088,29 +3217,28 @@
       "first_seen_at": "2026-06-28T06:38:49Z"
     },
     {
-      "title": "Are There Distinctive EEG Signatures of Tinnitus-Related Emotional Distress? Evidence from Spectral Parameterization and Source-Level Functional Connectivity",
+      "title": "Boosting Auditory Nerve Function with Cell Therapy - Status, Surgical Approach and Potential Candidates",
       "authors": [
-        "Bo Zhang",
-        "Junce Wang",
-        "Jianing Zhu",
-        "Wendi Zhao",
-        "Dong Yang",
-        "Guangjian Ni"
+        "Niels West",
+        "Charlotte Amalie Navntoft",
+        "Nicholas Haywood",
+        "Deborah Vickers",
+        "Jaime A. Undurraga",
+        "Per Cayé-Thomasen"
       ],
       "journal": "Hearing Research",
       "publication_date": "2026-09-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109807",
-      "url": "https://doi.org/10.1016/j.heares.2026.109807",
+      "doi": "10.1016/j.heares.2026.109806",
+      "url": "https://doi.org/10.1016/j.heares.2026.109806",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [
-        "auditory physiology",
-        "clinical audiology"
+        "auditory physiology"
       ],
       "source": "crossref",
-      "first_seen_at": "2026-09-10T07:21:38Z"
+      "first_seen_at": "2026-09-13T07:31:08Z"
     },
     {
       "title": "Brain-wide mapping of neuroanatomical connections to the auditory cortex of hearing and deaf mice",
@@ -3425,27 +3553,6 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-07-06",
       "first_seen_at": "2026-07-06T06:50:04Z"
-    },
-    {
-      "title": "Contributions of aging, auditory nerve health, and speed of processing to psychophysical gap detection thresholds in cochlear implant users",
-      "authors": [
-        "Kara C. Schvartz-Leyzac",
-        "Kelly C. Harris"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-09-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109801",
-      "url": "https://doi.org/10.1016/j.heares.2026.109801",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "auditory physiology",
-        "cochlear implant"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-09-04T07:17:01Z"
     },
     {
       "title": "Crossmodal plasticity in core auditory cortex following deafness: An evaluation of evidence for and against",
@@ -10483,22 +10590,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -10511,6 +10602,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -18050,18 +18157,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -18082,17 +18188,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -27416,22 +27523,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -27444,6 +27535,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -34534,23 +34641,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -34564,6 +34654,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -37899,8 +38006,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -37914,8 +38021,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -43436,8 +43543,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -43451,8 +43558,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
