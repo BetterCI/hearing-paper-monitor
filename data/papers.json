@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:31:36Z",
+  "generated_at": "2026-09-14T07:58:27Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
@@ -74,33 +74,6 @@
       "source": "crossref",
       "available_online_date": "2026-08-20",
       "first_seen_at": "2026-08-27T12:51:57Z"
-    },
-    {
-      "title": "Are there distinctive EEG Signatures of tinnitus-related emotional distress? Evidence from spectral parameterization and source-level functional connectivity",
-      "authors": [
-        "Bo Zhang",
-        "Junce Wang",
-        "Jianing Zhu",
-        "Wendi Zhao",
-        "Dong Yang",
-        "Guangjian Ni"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-11-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109807",
-      "url": "https://doi.org/10.1016/j.heares.2026.109807",
-      "abstract": null,
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "auditory physiology",
-        "clinical audiology"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-09-09",
-      "first_seen_at": "2026-09-10T07:21:38Z"
     },
     {
       "title": "Biomarkers of Subjective Tinnitus Presence and Clinical Burden: A Systematic Review",
@@ -320,6 +293,47 @@
       "source": "crossref",
       "available_online_date": "2026-08-25",
       "first_seen_at": "2026-09-01T07:52:01Z"
+    },
+    {
+      "title": "Mathematical and computational modelling of cochlear responses to environmental noise exposure: A preliminary multiscale computational study",
+      "authors": [
+        "Thiago Mathias de Oliveira",
+        "Amauri Amorin Assef",
+        "Denis de Jesus Batista",
+        "Joaquim Miguel Maia",
+        "Alexandre Francisco de Morais",
+        "Adriana Bender Moreira de Lacerda",
+        "Tiago da Silva Santos",
+        "Guilherme Augusto Queiroz Schunemann Manfrin De Oliveira"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109791",
+      "url": "https://doi.org/10.1016/j.heares.2026.109791",
+      "abstract": "Environmental noise is recognised by the World Health Organization and the European Environment Agency as a major environmental risk factor. However, the biophysical mechanisms linking acoustic exposure to cochlear mechanical and neural responses remain incompletely characterised. This preliminary study organises established cochlear modelling approaches within a multiscale computational framework to examine how environmental sound levels are translated into passive mechanical responses and simulated neural activity. Passive in silico simulations were performed using three complementary computational modules: (i) a one-dimensional transmission-line model of longitudinal cochlear mechanics; (ii) a three-dimensional finite-difference time-domain model incorporating cochlear-fluid propagation and fluid-basilar-membrane coupling; and (iii) a perceptual post-processing pipeline based on equivalent rectangular bandwidth filtering, inner hair cell transduction, and stochastic auditory-nerve activity. Acoustic inputs included synthetic and environmental signals calibrated between 30 and 85 dB SPL. Both mechanical models were implemented under passive linear assumptions and did not include outer-hair-cell-mediated amplification, compressive nonlinearity, or level-dependent active tuning. Higher acoustic input levels produced greater basilar membrane displacement in the 1D and 3D mechanical models, increased pressure magnitude in the three-dimensional fluid domain, and greater simulated neural activity and burstiness in the perceptual module. In the passive 1D model, increasing the input from 30 to 85 dB SPL produced an approximately 55 dB increase in basilar membrane displacement level while the normalised frequency-position ridge geometry remained essentially unchanged, consistent with proportional linear scaling. The derived characteristic-frequency and Q10 distributions reproduced the expected longitudinal tonotopic gradient within the frequency range reliably resolved by the simulations, although their extension into the most apical region was limited by the 200 Hz lower-frequency boundary and the peak-identification criteria. The Environmental Auditory Risk Index was used as an exploratory, model-derived composite indicator for integrating the mechanical and simulated neural outputs evaluated in the study. The proposed framework provides a controlled computational representation of how environmental acoustic inputs are translated into passive cochlear mechanics and simulated neural activity across complementary modelling domains. The results should not be interpreted as evidence of active cochlear amplification, physiological injury, or clinically validated auditory risk. Incorporation of nonlinear outer hair cell mechanics, extension of the low-frequency simulation range, sensitivity analysis, and experimental or clinical validation will be required before the framework or its derived indicators can support predictive applications.",
+      "ai_analysis": {
+        "scientific_question": "环境声级如何在被动线性假设下通过多尺度计算框架转化为耳蜗机械响应和模拟神经活动。",
+        "key_highlight": "该研究建立了一个整合一维纵向传输线模型、三维有限差分时域流体模型和等效矩形带宽感知后处理模块的多尺度计算框架，用于模拟环境噪声的被动耳蜗响应。",
+        "main_limitation": "模型采用被动线性假设，未包含外毛细胞介导的放大、压缩非线性和级依赖性主动调谐，且低频仿真范围受限于200 Hz下限，可能影响对真实生理机制的预测准确性。",
+        "research_implication": "该计算建模框架为理解环境噪声对听觉系统的影响提供了基础，但由于缺乏主动机制建模和临床验证，目前尚不能直接用于助听器或人工耳蜗的优化设计。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "893a058e893fe949",
+        "updated_at": "2026-09-05T06:59:13Z"
+      },
+      "last_author_affiliation": "Doctor in Electrical Engineering & Lecturer of Graduate Program in Environmental Management, Universidade Positivo (UP), Curitiba, Brazil.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-30",
+      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Oxaliplatin-chemotherapy induced cochlear synaptopathy",
@@ -1351,6 +1365,81 @@
       "first_seen_at": "2026-08-18T03:11:28Z"
     },
     {
+      "title": "Formin-1 maintains cochlear microtubule architecture required for hearing in humans and mice.",
+      "authors": [
+        "Lara Kamal",
+        "Amal Aburayyan",
+        "Roni Hahn",
+        "Shahar Taiber",
+        "Suleyman Gulsuner",
+        "Moien N Kanaan",
+        "Mary-Claire King",
+        "Karen B Avraham"
+      ],
+      "journal": "High-impact Journals",
+      "publication_date": "2026-09-15",
+      "publication_date_precision": "day",
+      "doi": "10.1073/pnas.2622920123",
+      "url": "https://doi.org/10.1073/pnas.2622920123",
+      "abstract": "Formin proteins contribute to the cytoskeletal organization of multiple mammalian organ systems. Genetic defects in formins lead to neurologic, renal, reproductive, and cardiac disorders, but no human phenotype has been described for mutation of FMN1, encoding formin-1, the first-identified formin. In an extended Palestinian kindred, autosomal recessive congenital hearing loss proved due to homozygosity for FMN1 c.2162-2A>G, which leads to aberrant splicing, nonsense mediated decay, and absence of detectable formin-1 protein. The hearing loss is bilateral, moderate, and stable, and accompanied by light hair with no other anomalies. The Fmn1 knockout mouse Fmn1Pro/Pro, which contributed to the original formin-1 characterization, models the hearing loss of the human family. Imaging the cochlea of Fmn1Pro/Pro mice revealed significant disorganization of supporting Deiters' and pillar cells, characterized by loss of tightly bundled microtubule architecture. These abnormalities emerged early postnatally and persisted with age. Disruption of microtubule organization was accompanied by reduced activity of the auditory nerve, revealed by reduced ABR wave I amplitudes, and by reduced numbers of auditory nerve fibers. Together these observations identify FMN1 as a gene required for auditory function and support a mechanism in which formin-1 loss disrupts microtubule organization and cytoskeletal architecture in cochlear supporting cells, compromising organ of Corti mechanics. Silvery-gray hair and mildly lighter skin of the affected individuals may be due to a different mechanism: the role of the formin-1-spire-1-myosin-5a complex in transport of melanosomes from microtubules to the surface of melanocytes. FMN1 adds another gene to the more than 200 essential for mammalian hearing.",
+      "first_author_affiliation": "Department of Human Genetics and Computational Medicine, Gray Faculty of Medical and Health Sciences and Sagol School of Neuroscience, Tel Aviv University, Tel Aviv 6997801, Israel.",
+      "last_author_affiliation": "Department of Human Genetics and Computational Medicine, Gray Faculty of Medical and Health Sciences and Sagol School of Neuroscience, Tel Aviv University, Tel Aviv 6997801, Israel.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [
+        "Animals",
+        "Cochlea",
+        "Female",
+        "Formins",
+        "Hearing",
+        "Hearing Loss",
+        "Humans",
+        "Mice",
+        "Mice, Knockout",
+        "Microfilament Proteins",
+        "Microtubules",
+        "cochlea",
+        "deafness",
+        "formin",
+        "genetics",
+        "hearing",
+        "melanocytes",
+        "metabolism",
+        "pathology",
+        "physiology"
+      ],
+      "tags": [],
+      "source": "pubmed",
+      "available_online_date": "2026-09-11",
+      "source_group": "high_impact",
+      "source_group_label": "High-impact Journals",
+      "actual_journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "match_level": "level_2_hearing_specific",
+      "matched_keywords": [
+        "deaf",
+        "deafness",
+        "hearing loss"
+      ],
+      "match_fields": [
+        "keywords",
+        "mesh"
+      ],
+      "needs_review": false,
+      "first_seen_at": "2026-09-14T07:57:49Z",
+      "ai_analysis": {
+        "scientific_question": "Formin-1蛋白在听觉功能中发挥什么作用，其基因突变导致听力损失的具体分子机制是什么？",
+        "key_highlight": "研究首次在人类和小鼠中发现FMN1基因突变通过破坏耳蜗支持细胞中紧密捆绑的微管架构来损害听觉功能。",
+        "main_limitation": "研究仅基于一个巴勒斯坦家族的常染色体隐性遗传病例，以及一个特定等位基因的基因敲入小鼠模型，限制了发现的普遍性。",
+        "research_implication": "该研究为遗传性听力损失的分子机制提供了新见解，扩展了超过200个必需听觉基因的目录，对未来基因诊断和潜在基因治疗具有参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "b58cef8a68e57cfd",
+        "updated_at": "2026-09-14T07:58:56Z"
+      }
+    },
+    {
       "title": "Temporally structured motor and auditory representations in covert syllable production.",
       "authors": [
         "Joan Orpella",
@@ -1433,14 +1522,6 @@
       "doi": "10.1121/10.0046524",
       "url": "https://doi.org/10.1121/10.0046524",
       "abstract": "Bimorph ultrasonic transducers are widely used in ultrasonic atomizers, piezoelectric buzzers, and wearable ultrasound monitoring systems. Advancing technologies demand that these devices exhibit higher vibration displacement, improved acoustic impedance matching, and enhanced overall radiation efficiency. To address these demands, an acoustic-black-hole-enabled bimorph ultrasonic transducer (ABH-BUT) is proposed, wherein a power-law thickness taper reduces local flexural wave velocity and focuses vibrational energy. This mechanism significantly enhances vibration displacement, the electromechanical coupling coefficient, and acoustic radiation efficiency. The transfer matrix method calculates the ABH-BUT's resonance frequencies, while a conventional stepped disk bimorph ultrasonic transducer serves as a reference. Vibration modes, electrical impedance, and near-field acoustic pressure distributions of both transducers are evaluated using finite element analysis and experimental measurements. Comparative results demonstrate that, under identical vibration modes, the acoustic-black-hole profile effectively improves the electromechanical coupling coefficient and acoustic radiation efficiency. This study provides a novel design framework for advanced trilaminar piezoelectric flexural ultrasonic transducers.",
-      "first_author_affiliation": "Shaanxi Key Laboratory of Ultrasonics, Institute of Applied Acoustics, Shaanxi Normal University , Xi'an 710119,",
-      "last_author_affiliation": "Shaanxi Key Laboratory of Ultrasonics, Institute of Applied Acoustics, Shaanxi Normal University , Xi'an 710119,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-11",
-      "first_seen_at": "2026-09-12T07:12:18Z",
       "ai_analysis": {
         "scientific_question": "如何通过声学黑洞结构设计提升双晶片超声换能器的振动位移、机电耦合系数和声辐射效率。",
         "key_highlight": "声学黑洞轮廓结构能够有效提升双晶片超声换能器的机电耦合系数和声辐射效率。",
@@ -1452,7 +1533,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "c3b945ade943519e",
         "updated_at": "2026-09-13T07:32:00Z"
-      }
+      },
+      "first_author_affiliation": "Shaanxi Key Laboratory of Ultrasonics, Institute of Applied Acoustics, Shaanxi Normal University , Xi'an 710119,",
+      "last_author_affiliation": "Shaanxi Key Laboratory of Ultrasonics, Institute of Applied Acoustics, Shaanxi Normal University , Xi'an 710119,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-11",
+      "first_seen_at": "2026-09-12T07:12:18Z"
     },
     {
       "title": "Azipod-equipped vessels in the Antarctic Peninsula radiate underwater continuous mid-frequency narrowband and tonal sounds",
@@ -1531,6 +1620,79 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-11",
       "first_seen_at": "2026-09-12T07:12:18Z"
+    },
+    {
+      "title": "Elucidating the role of DEAF1 in neurodevelopment and shared molecular pathways in high-risk autism genes using cortical organoids.",
+      "authors": [
+        "Jonghun Kim",
+        "Mu Seog Choe",
+        "Woo Sub Yang",
+        "Cynthia Lo",
+        "Hui-Wen Liu",
+        "Tae Hwan Kwak",
+        "Kyuhwan Na",
+        "Ferdi Ridvan Kiral",
+        "Yangfei Xiang",
+        "Caihong Qiu",
+        "Mei Zhong",
+        "Maria Lee",
+        "Yoshiaki Tanaka",
+        "Bilal Cakir",
+        "Seok Chung",
+        "In-Hyun Park"
+      ],
+      "journal": "High-impact Journals",
+      "publication_date": "2026-09-11",
+      "publication_date_precision": "day",
+      "doi": "10.1126/sciadv.ady5166",
+      "url": "https://doi.org/10.1126/sciadv.ady5166",
+      "abstract": "Neurodevelopmental disorders (NDDs), including autism spectrum disorder (ASD) and intellectual disability (ID), are genetically heterogeneous. DEAF1 has emerged as a key NDD risk gene, with pathogenic variants linked to DEAF1-associated neurodevelopmental disorder (DAND), but its role in human neurodevelopment remains unclear. Human cortical organoids (hCOs) provide a physiologically relevant model that recapitulates fetal brain development with an authentic human genetic background. Here, we show that a DEAF1 mutation in human embryonic stem cells disrupts chromatin accessibility at neuronal gene loci, leading to significant transcriptional alterations. In hCOs, this mutation results in aberrant progenitor proliferation, disrupted cortical lamination, and impaired neuronal differentiation. Furthermore, we identify WNT signaling, TGFβ superfamily signaling, and cell cycle regulation as commonly dysregulated pathways across multiple ASD-associated genetic perturbations. Pharmacological inhibition of WNT signaling with a Porcupine inhibitor partially rescues phenotypic defects in DEAF1-mutant hCOs. Our findings identify DEAF1 as a critical regulator of neurodevelopment and support pathway-targeted, mutation-independent therapeutic strategies for ASD and related disorders.",
+      "first_author_affiliation": "Department of Genetics, Interdepartmental Neuroscience Program, Yale Stem Cell Center, Yale Child Study Center, Wu Tsai Institute, Yale School of Medicine, New Haven, CT 06520, USA.",
+      "last_author_affiliation": "Department of Genetics, Interdepartmental Neuroscience Program, Yale Stem Cell Center, Yale Child Study Center, Wu Tsai Institute, Yale School of Medicine, New Haven, CT 06520, USA.",
+      "open_access": true,
+      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13564806/",
+      "open_access_source": "pubmed_pmc",
+      "pubmed_full_text_available": true,
+      "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13564806/",
+      "pubmed_full_text_source": "pmc",
+      "section": null,
+      "keywords": [
+        "Autism Spectrum Disorder",
+        "Autistic Disorder",
+        "Cell Differentiation",
+        "Cell Proliferation",
+        "Cerebral Cortex",
+        "DNA-Binding Proteins",
+        "Humans",
+        "Mutation",
+        "Neurodevelopment",
+        "Nuclear Proteins",
+        "Organoids",
+        "Signal Transduction",
+        "Transcription Factors",
+        "Wnt Signaling Pathway",
+        "genetics",
+        "metabolism"
+      ],
+      "tags": [],
+      "source": "pubmed",
+      "available_online_date": "2026-09-11",
+      "source_group": "high_impact",
+      "source_group_label": "High-impact Journals",
+      "actual_journal": "Science advances",
+      "match_level": "level_2_hearing_specific",
+      "matched_keywords": [
+        "deaf"
+      ],
+      "match_fields": [
+        "title"
+      ],
+      "needs_review": false,
+      "first_seen_at": "2026-09-14T07:57:49Z",
+      "key_image_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13564806/bin/sciadv.ady5166-f1.webp",
+      "key_image_alt": "Fig. 1. The DEAF1 mutation reduces chromatin accessibility in neuronal genes.(A) Schematic of ATAC-seq analysis in DEAF1+/− hESCs. (B) Venn diagram illustrating distinct chromatin states. Cluster A represents regions with reduced chromatin accessibility in DEAF1+/− hESCs, Cluster B denotes regions with unchanged chromatin states, and Cluster C highlights regions with increased chromatin accessibility in DEAF1+/− hESCs. (C) Heatmap depicting chromatin accessibility differences between DEAF1+/+ and DEAF1+/− hESCs. (D) GO enrichment analysis of genes in Cluster A. (E) Sequencing tracks showing distinct ATAC-seq peaks in the promoter regions of key neurodevelopmental genes, POU3F2, ATOH1, and GSK3B. (F) Venn diagram illustrating the overlap between DEAF1-bound genes and genes from Cluster A, representing regions with reduced chromatin accessibility in DEAF1+/− hESCs. (G) The motif analysis on genes within Cluster A. (H) Diagram showing how the DEAF1 mutation alters chromatin accessibility, impacting neurodevelopmental TF binding and gene expression.",
+      "media_checked_at": "2026-09-14T07:58:35Z",
+      "pubmed_full_text_image_checked_at": "2026-09-14T07:58:35Z"
     },
     {
       "title": "Physics-informed localization of sound sources in reflective environments including hidden sources",
@@ -1899,6 +2061,18 @@
       "url": "https://doi.org/10.1007/s10162-026-01071-x",
       "full_text_url": "https://link.springer.com/article/10.1007/s10162-026-01071-x",
       "abstract": "Abstract Purpose The stria vascularis (SV) is a tripartite epithelium lining the lateral wall (LW) of the human cochlea, generating a positive endocochlear potential (EP) essential for auditory sensory transduction. There remains limited information about its variable structure and organization along the cochlear spiral or whether an electrochemical gradient exists. Here, we used three-dimensional (3D) synchrotron radiation phase-contrast imaging (SR-PCI) and light and transmission electron microscopy (LM and TEM) to examine the human SV and spiral ligament (SL) at different frequency locations based on the SR-PCI. Results were compared with recent molecular analyses performed in our laboratory. Methods Volumetric and microanatomic analyses of the LW and SV, including critical K + recycling pathways were made at different frequency locations on matched cochlear frequency maps based on Greenwood’s formula. TEM analyses were correlated with previous results obtained on the expression of ion transporter and channels including the multiplex RNAscope® technique. Results The LW diminished in volume a 100-fold and the SV 14-fold in the cochlear apical turn. Ultrastructural analyses showed reduced cellularity in the SV and SL. Moreover, the organization and architecture of the SV cell and vascular pattern modified along the cochlear spiral. Claudius cell outline, TEM, and prior results of Na/K-ATPase activity and GJB2 gene transcript distribution suggest there is a reduced K + recycling potential and water flux in the LW of the apical cochlea. Conclusion Macro-, micro-, and recent molecular anatomical studies suggest that the human cochlear “battery” may be less potent in the apex. This could indicate that sensory transduction at low frequencies may be partially power-driven by more basal regions. Frequency-dependent variations in electrochemistry may have pathophysiological significance in connection with metabolic hearing loss and surgical treatments such as cochlear implantation.",
+      "ai_analysis": {
+        "scientific_question": "人类耳蜗侧壁的结构和电化学特性是否随频率位置变化而存在显著差异？",
+        "key_highlight": "研究发现耳蜗底转到顶转过程中侧壁体积减小100倍、血管纹减小14倍，且顶端钾离子回收潜力下降，提示人类耳蜗“电池”在顶转区功能较弱。",
+        "main_limitation": "Limited generalizability due to small or specific sample",
+        "research_implication": "研究揭示了频率依赖的电化学变化可能与代谢性听力损失及人工耳蜗植入手术的预后相关，为临床干预提供了解剖学基础。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "dedd86e69b1730c3",
+        "updated_at": "2026-09-13T07:32:09Z"
+      },
       "last_author_affiliation": "Department of Surgical Sciences, Otorhinolaryngology and Head and Neck Surgery, Uppsala University, Uppsala, Sweden.",
       "open_access": true,
       "open_access_url": "https://link.springer.com/article/10.1007/s10162-026-01071-x",
@@ -1927,19 +2101,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-10",
-      "first_seen_at": "2026-09-11T07:20:18Z",
-      "ai_analysis": {
-        "scientific_question": "人类耳蜗侧壁的结构和电化学特性是否随频率位置变化而存在显著差异？",
-        "key_highlight": "研究发现耳蜗底转到顶转过程中侧壁体积减小100倍、血管纹减小14倍，且顶端钾离子回收潜力下降，提示人类耳蜗“电池”在顶转区功能较弱。",
-        "main_limitation": "Limited generalizability due to small or specific sample",
-        "research_implication": "研究揭示了频率依赖的电化学变化可能与代谢性听力损失及人工耳蜗植入手术的预后相关，为临床干预提供了解剖学基础。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "dedd86e69b1730c3",
-        "updated_at": "2026-09-13T07:32:09Z"
-      }
+      "first_seen_at": "2026-09-11T07:20:18Z"
     },
     {
       "title": "A lightweight model for modulation recognition of integrated underwater acoustic sensing and communication signals",
@@ -2027,6 +2189,52 @@
       "first_seen_at": "2026-09-10T07:21:19Z"
     },
     {
+      "title": "Are there distinctive EEG Signatures of tinnitus-related emotional distress? Evidence from spectral parameterization and source-level functional connectivity",
+      "authors": [
+        "Bo Zhang",
+        "Junce Wang",
+        "Jianing Zhu",
+        "Wendi Zhao",
+        "Dong Yang",
+        "Guangjian Ni"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-09",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109807",
+      "url": "https://doi.org/10.1016/j.heares.2026.109807",
+      "abstract": "Subjective tinnitus is the perception of sound in the absence of an external acoustic source. This study used resting-state electroencephalography (EEG) to characterize abnormal neural oscillatory activity and electrophysiological features potentially associated with tinnitus-related emotional distress. Resting-state EEG data were collected from patients with tinnitus and healthy controls. Spectral parameterization was applied to separate aperiodic and periodic components and to extract the alpha center frequency. At the same time, source-level phase-locking value (PLV) was calculated to assess inter-regional functional connectivity. Patients with tinnitus exhibited a significantly higher aperiodic exponent than healthy controls, consistent with altered cortical excitation-inhibition (E/I) balance. In addition, the alpha peak frequency was significantly reduced in temporal regions, indicating slowing of local oscillatory activity within auditory cortical networks. Functional connectivity analysis revealed increased synchronization within and between auditory and parietal regions, accompanied by decreased connectivity involving the auditory regions, the anterior cingulate cortex, and prefrontal regions. These findings suggest that tinnitus is characterized by altered neural oscillatory activity and functional connectivity. These alterations may reflect abnormal auditory-network synchronization and altered cortical dynamics in tinnitus and may represent electrophysiological characteristics associated with tinnitus-related emotional distress that are not fully consistent with some findings previously reported in primary depressive disorders. These results further clarify the neurophysiological basis of tinnitus and may inform future neuromodulatory interventions.",
+      "last_author_affiliation": "Academy of Medical Engineering and Translational Medicine, Tianjin University, Tianjin, China; Haihe Laboratory of Brain-Computer Interaction and Human-Machine Integration, Tianjin, China; State Key Laboratory of Advanced Medical Materials and Devices, Tianjin University, Tianjin, China. Electronic address: niguangjian@tju.edu.cn.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [
+        "Aperiodic activity",
+        "Emotional distress",
+        "Phase-locking values",
+        "Resting-state electroencephalography",
+        "Tinnitus"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-09",
+      "first_seen_at": "2026-09-10T07:21:38Z",
+      "ai_analysis": {
+        "scientific_question": "静息态EEG能否揭示与耳鸣情绪困扰相关的特异性神经电生理标志物？",
+        "key_highlight": "耳鸣患者表现出更高的非周期性活动指数（提示皮层兴奋-抑制平衡改变）、颞区α峰频率降低以及听觉与前额叶区域功能连接异常。",
+        "main_limitation": "研究未提供样本量信息，且情绪困扰水平在组间是否匹配或控制情况不明，限制了因果推断的力度。",
+        "research_implication": "该研究为理解耳鸣的神经生理机制提供了电生理学依据，可能有助于未来针对耳鸣相关情绪困扰的神经调控干预策略开发。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "3476177b1cde1412",
+        "updated_at": "2026-09-14T07:59:15Z"
+      }
+    },
+    {
       "title": "Comparing measured sonic boom turbulence-induced variability with computational models for the Carpet Determination in Entirety Measurements (CarpetDIEM) I test campaign",
       "authors": [
         "Mark C. Anderson",
@@ -2076,6 +2284,18 @@
       "doi": "10.1121/10.0046392",
       "url": "https://doi.org/10.1121/10.0046392",
       "abstract": "Cochlear implant users do not experience spatial hearing with the same accuracy or acuity as typical hearing listeners. Two standard measures of spatial hearing are sound localization error and speech reception thresholds (SRTs) in spatially separated noise. While sound localization requires a complicated setup, SRTs may be measured with fewer loudspeakers and less testing time. If a predictive relationship between sound localization error and SRTs can be measured, then the spatial hearing abilities of cochlear implant users may be quickly assessed by measuring one task or the other. To test this, 12 bilateral, ten single-sided deaf, six bimodal, and five unilaterally implanted listeners were recruited. In general, bilateral users had the smallest localization error and greatest improvement in SRTs between collocated and spatially separated conditions, while unilateral users had the largest localization error and worst SRTs. When unilateral listeners were excluded, localization error was significantly correlated with the difference between spatially separated and collocated SRTs. There was no relationship between sound localization error and raw SRT scores. The spatial hearing of unilateral listeners would benefit from receiving a second implant, and many bimodal users would likely experience a benefit from this intervention as well.",
+      "ai_analysis": {
+        "scientific_question": "本研究比较了单侧、双侧、单侧耳聋和双模式人工耳蜗使用者在空间听觉（声音定位和噪声中言语感知）方面的能力差异。",
+        "key_highlight": "当排除单侧使用者后，声音定位误差与空间分离条件下言语接收阈的改善幅度之间存在显著相关性，表明两项任务可能相互预测。",
+        "main_limitation": "各组样本量较小（5至12人不等），且主要相关性分析排除了单侧使用者，限制了结果的外推范围。",
+        "research_implication": "该研究为双侧人工耳蜗植入的空间听觉优势提供了证据，并提示言语接收阈测量或可作为声音定位测试的替代方法用于临床快速评估。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "3d394d855cdf54b2",
+        "updated_at": "2026-09-13T07:32:20Z"
+      },
       "first_author_affiliation": "North American Research Lab, MED-EL US , Durham, North Carolina 27713,",
       "last_author_affiliation": "North American Research Lab, MED-EL US , Durham, North Carolina 27713,",
       "section": "Psychological and Physiological Acoustics",
@@ -2089,19 +2309,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-09",
-      "first_seen_at": "2026-09-10T07:21:19Z",
-      "ai_analysis": {
-        "scientific_question": "本研究比较了单侧、双侧、单侧耳聋和双模式人工耳蜗使用者在空间听觉（声音定位和噪声中言语感知）方面的能力差异。",
-        "key_highlight": "当排除单侧使用者后，声音定位误差与空间分离条件下言语接收阈的改善幅度之间存在显著相关性，表明两项任务可能相互预测。",
-        "main_limitation": "各组样本量较小（5至12人不等），且主要相关性分析排除了单侧使用者，限制了结果的外推范围。",
-        "research_implication": "该研究为双侧人工耳蜗植入的空间听觉优势提供了证据，并提示言语接收阈测量或可作为声音定位测试的替代方法用于临床快速评估。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "3d394d855cdf54b2",
-        "updated_at": "2026-09-13T07:32:20Z"
-      }
+      "first_seen_at": "2026-09-10T07:21:19Z"
     },
     {
       "title": "Estimating the performance of the infotaxis search strategy for changing beamwidth",
@@ -2192,17 +2400,6 @@
       "doi": "10.1121/10.0046474",
       "url": "https://doi.org/10.1121/10.0046474",
       "abstract": "Characterizing the vocal tract spectral envelope in high-pitched vowels is challenging due to sparse harmonics and source-filter coupling. This study proposes an analytical framework using a shared glottal driving proxy to guide source-tract decoupling. Speech is decomposed into multi-band Hilbert envelopes; first-order differentiation and non-linear rectification are then applied to isolate transient energy increments during glottal closure. Non-negative matrix factorization captures the cross-band temporal dynamics of these increments, yielding a macroscopic temporal proxy of glottal excitation. This proxy acts as a physical constraint within an auto-regressive with exogenous input model to estimate the underlying vocal tract transfer function. To validate the estimated envelopes, formant estimation error serves as an objective metric on the OPENGLOT database. Particularly under high-pitched conditions where the fundamental frequency (F0) exceeds 300 Hz, the overall mean first formant (F1) estimation error across all evaluated vowels and parameter combinations is 11.43%, yielding an approximate 30% relative reduction from the traditional linear predictive coding baseline (16.51%). The results confirm that this approach provides a complementary pathway for vocal tract envelope modeling.",
-      "first_author_affiliation": "College of Intelligence and Computing, Tianjin University 1 , Tianjin 300350,",
-      "last_author_affiliation": "College of Intelligence and Computing, Tianjin University 1 , Tianjin 300350,",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "priority section",
-        "psychoacoustics"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-09",
-      "first_seen_at": "2026-09-10T07:21:19Z",
       "ai_analysis": {
         "scientific_question": "如何准确估计高基频元音中因谐波稀疏和源-滤波器耦合而难以表征的声道频谱包络。",
         "key_highlight": "所提出的基于共享激励代理和自回归建模的框架在高基频条件下（F0 > 300 Hz）将第一共振峰估计误差较传统线性预测编码基线降低约30%。",
@@ -2214,7 +2411,18 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "5ed3cd9f9ccffc02",
         "updated_at": "2026-09-13T07:32:30Z"
-      }
+      },
+      "first_author_affiliation": "College of Intelligence and Computing, Tianjin University 1 , Tianjin 300350,",
+      "last_author_affiliation": "College of Intelligence and Computing, Tianjin University 1 , Tianjin 300350,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "priority section",
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-09",
+      "first_seen_at": "2026-09-10T07:21:19Z"
     },
     {
       "title": "The birth of objective audiometry",
@@ -2227,14 +2435,6 @@
       "doi": "10.1121/10.0046230",
       "url": "https://doi.org/10.1121/10.0046230",
       "abstract": "The Reflections series takes a look back on historical articles from The Journal of the Acoustical Society of America that have had a significant impact on the science and practice of acoustics.",
-      "first_author_affiliation": "Department of Speech, Language and Hearing Sciences, Indiana University , 2631 East Discovery Parkway, Bloomington, Indiana 47408,",
-      "last_author_affiliation": "Department of Speech, Language and Hearing Sciences, Indiana University , 2631 East Discovery Parkway, Bloomington, Indiana 47408,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-09",
-      "first_seen_at": "2026-09-10T07:21:19Z",
       "ai_analysis": {
         "scientific_question": "本文作为《声学学会期刊》历史反思系列文章，旨在回顾对该学科及实践产生重大影响的历史文献。",
         "key_highlight": "该系列通过回顾性视角审视声学领域的开创性研究，为理解学科发展脉络提供历史背景。",
@@ -2246,7 +2446,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "ce25cd618e55f110",
         "updated_at": "2026-09-13T07:32:42Z"
-      }
+      },
+      "first_author_affiliation": "Department of Speech, Language and Hearing Sciences, Indiana University , 2631 East Discovery Parkway, Bloomington, Indiana 47408,",
+      "last_author_affiliation": "Department of Speech, Language and Hearing Sciences, Indiana University , 2631 East Discovery Parkway, Bloomington, Indiana 47408,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-09",
+      "first_seen_at": "2026-09-10T07:21:19Z"
     },
     {
       "title": "Erratum: Acoustic parameter combinations underlying mapping of pseudoword sounds to multiple domains of meaning: Representational similarity analyses and machine-learning models [J. Acoust. Soc. Am. 158 (6), 4243–4267 (2025)]",
@@ -2589,6 +2797,18 @@
       "doi": "10.1016/j.heares.2026.109801",
       "url": "https://doi.org/10.1016/j.heares.2026.109801",
       "abstract": "Precise encoding of temporal speech cues is critical for speech understanding and are especially important for cochlear implant (CI) users, who receive limited spectral information. Silent gap detection is a simple index of auditory temporal precision, yet mechanisms and stimulus parameters driving variability in CI gap detection thresholds (GDTs) remain unclear. The overall aim of this study was to describe how AN density, aging, pulse rate, and cognitive speed of processing contribute to GDTs in adult CI users. Twenty post-lingually deafened adult Cochlear™ CI users (37-87 years) participated. We recorded electrically evoked compound action potentials (ECAPs) and psychophysical gap detection using direct stimulation techniques. ECAP interphase gap (IPG) slope effect was used as an estimate of AN density. GDTs were measured with 500 and 3500 pps pulse trains on two electrodes per ear paired with the highest and lowest IPG effect. Cognitive processing speed was assessed with the Connections Test. CNC word recognition was measured in the sound field. GDTs increased (worsened) with increasing age; but decreased (improved) overall when using a higher compared to lower pulse rate but more so for younger compared to older CI users. Estimates of AN density did not predict GDTs. Slower cognitive processing speed was associated with poorer GDTs, when using higher but not lower pulse rates. These results suggest that, at higher pulse rates central/cognitive mechanisms but not AN density status, predict encoding of temporal gaps in adult CI users particularly when using higher pulse rate stimuli.",
+      "ai_analysis": {
+        "scientific_question": "在人工耳蜗使用者中，年龄、听神经密度、刺激脉率和认知加工速度如何共同影响时域间隙检测阈值。",
+        "key_highlight": "在较高刺激脉率条件下，认知加工速度而非听神经密度状态可预测成人人工耳蜗使用者的时域间隙编码能力。",
+        "main_limitation": "样本量较小（n=20）且年龄跨度较大（37-87岁），研究结果的外推性存在一定局限。",
+        "research_implication": "该研究提示在人工耳蜗言语处理器参数优化中需考虑认知因素与刺激脉率的交互作用，尤其对老年用户的高频刺激策略设计具有参考意义。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "7a047cfe398c2281",
+        "updated_at": "2026-09-13T07:32:52Z"
+      },
       "last_author_affiliation": "Medical University of South Carolina, Department of Otolaryngology-Head & Neck Surgery, 135 Rutledge Ave, MSC 550, Charleston, SC, 29425, USA.",
       "publication_stage": "early_access",
       "section": null,
@@ -2605,19 +2825,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-04",
-      "first_seen_at": "2026-09-04T07:17:01Z",
-      "ai_analysis": {
-        "scientific_question": "在人工耳蜗使用者中，年龄、听神经密度、刺激脉率和认知加工速度如何共同影响时域间隙检测阈值。",
-        "key_highlight": "在较高刺激脉率条件下，认知加工速度而非听神经密度状态可预测成人人工耳蜗使用者的时域间隙编码能力。",
-        "main_limitation": "样本量较小（n=20）且年龄跨度较大（37-87岁），研究结果的外推性存在一定局限。",
-        "research_implication": "该研究提示在人工耳蜗言语处理器参数优化中需考虑认知因素与刺激脉率的交互作用，尤其对老年用户的高频刺激策略设计具有参考意义。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "7a047cfe398c2281",
-        "updated_at": "2026-09-13T07:32:52Z"
-      }
+      "first_seen_at": "2026-09-04T07:17:01Z"
     },
     {
       "title": "Effects of salicylate on organ-of-Corti vibrations in the second turn of the gerbil cochlea",
@@ -2647,7 +2855,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-04",
-      "first_seen_at": "2026-09-05T06:58:29Z"
+      "first_seen_at": "2026-09-05T06:58:29Z",
+      "ai_analysis": {
+        "scientific_question": "抑制外毛细胞电运动功能如何影响耳蜗内部的机械振动特性？",
+        "key_highlight": "水杨酸钠在降低耳蜗增益和声诱发振动幅度的同时基本保留了相位关系，表明主动反馈被削弱但内部机械耦合未发生显著改变。",
+        "main_limitation": "基于急性动物模型的发现向人类慢性听觉病理状态的外推存在不确定性。",
+        "research_implication": "研究支持利用DPOAE作为频率特异性指标评估局部耳蜗放大功能，为助听器验配和听觉评估提供了生理学依据。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "f6d7888b832ebe90",
+        "updated_at": "2026-09-14T07:59:22Z"
+      }
     },
     {
       "title": "Hippocampal and amygdalar structures preferentially target somatostatin-expressing interneurons in the auditory cortex",
@@ -2677,7 +2897,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-04",
-      "first_seen_at": "2026-09-05T06:58:29Z"
+      "first_seen_at": "2026-09-05T06:58:29Z",
+      "ai_analysis": {
+        "scientific_question": "探究小鼠听觉皮层中生长抑素阳性（SST+）中间神经元的远程输入连接特征及其与一般听觉皮层神经元输入组的差异。",
+        "key_highlight": "研究发现SST+中间神经元从边缘系统区域（包括海马和杏仁核）接收的输入显著多于其他听觉皮层神经元，揭示了情绪和记忆相关脑区对听觉皮层的优先调节。",
+        "main_limitation": "基于小鼠的解剖学追踪研究，其发现的功能意义和跨物种可译性尚未验证，且解剖连接的存在不等于功能性神经活动。",
+        "research_implication": "该研究为理解听觉皮层如何整合情绪和记忆调控提供了解剖学基础，可能对探索听觉学习障碍的神经机制具有参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "95aa7ee4f319a26a",
+        "updated_at": "2026-09-14T07:59:30Z"
+      }
     },
     {
       "title": "ProLombard: Structured Multi-Scale Modeling for Normal-to-Lombard Speech Conversion",
@@ -3015,7 +3247,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-02",
-      "first_seen_at": "2026-09-03T07:13:37Z"
+      "first_seen_at": "2026-09-03T07:13:37Z",
+      "ai_analysis": {
+        "scientific_question": "新开发的阿拉伯语噪声下命令测试（ACINT）是否能够有效区分正常听力与听力损失人群，并探索人格特质尽责性对听觉任务表现的影响。",
+        "key_highlight": "ACINT测试具有良好的重测信度，能有效区分正常听力与轻度感音神经性听力损失人群，但尽责性这一人格特质对听觉测试表现无显著影响。",
+        "main_limitation": "样本量较小（正常听力54人、听力损失20人）且仅纳入轻度感音神经性听力损失患者，限制了结果的适用范围。",
+        "research_implication": "该研究为听功能适任性评估提供了有效的语音-噪声测试工具，表明人格特质可能不是影响此类听觉测试表现的关键因素。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "682b5c7ba9cb6bf1",
+        "updated_at": "2026-09-14T07:59:40Z"
+      }
     },
     {
       "title": "ABSE-NET: A Lightweight Neural Model for Active Binaural Speech Enhancement in Open-Fit Hearing Aids",
@@ -4974,6 +5218,33 @@
       "first_seen_at": "2026-07-04T05:57:51Z"
     },
     {
+      "title": "Structure-guided mapping of ototoxicity-related proteins: drug entry, damage amplification, cell death execution, and endogenous otoprotection",
+      "authors": [
+        "Verónica Aranda-Chan",
+        "Gabriel I. Ortega-López",
+        "Paola López-Díaz",
+        "Andrea Michelle Hernández-Nava",
+        "Montserrat Gutiérrez-Soto",
+        "Jorge Luis Rosas Trigueros",
+        "Rosaura Palma Orozco",
+        "Absalom Zamorano Carrillo",
+        "Claudia G. Benítez-Cardoza"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109811",
+      "url": "https://doi.org/10.1016/j.heares.2026.109811",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "hearing aid"
+      ],
+      "source": "crossref",
+      "first_seen_at": "2026-09-14T07:57:46Z"
+    },
+    {
       "title": "TGF-β signaling regulates flat epithelium formation in severely injured adult mouse utricle through epithelial-mesenchymal transition",
       "authors": [
         "Wei Su",
@@ -5296,55 +5567,6 @@
       "source": "crossref",
       "available_online_date": "2026-08-31",
       "first_seen_at": "2026-09-01T07:51:54Z"
-    },
-    {
-      "title": "Mathematical and computational modelling of cochlear responses to environmental noise exposure: A preliminary multiscale computational study",
-      "authors": [
-        "Thiago Mathias de Oliveira",
-        "Amauri Amorin Assef",
-        "Denis de Jesus Batista",
-        "Joaquim Miguel Maia",
-        "Alexandre Francisco de Morais",
-        "Adriana Bender Moreira de Lacerda",
-        "Tiago da Silva Santos",
-        "Guilherme Augusto Queiroz Schunemann Manfrin De Oliveira"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-08-30",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109791",
-      "url": "https://doi.org/10.1016/j.heares.2026.109791",
-      "abstract": "Environmental noise is recognised by the World Health Organization and the European Environment Agency as a major environmental risk factor. However, the biophysical mechanisms linking acoustic exposure to cochlear mechanical and neural responses remain incompletely characterised. This preliminary study organises established cochlear modelling approaches within a multiscale computational framework to examine how environmental sound levels are translated into passive mechanical responses and simulated neural activity. Passive in silico simulations were performed using three complementary computational modules: (i) a one-dimensional transmission-line model of longitudinal cochlear mechanics; (ii) a three-dimensional finite-difference time-domain model incorporating cochlear-fluid propagation and fluid-basilar-membrane coupling; and (iii) a perceptual post-processing pipeline based on equivalent rectangular bandwidth filtering, inner hair cell transduction, and stochastic auditory-nerve activity. Acoustic inputs included synthetic and environmental signals calibrated between 30 and 85 dB SPL. Both mechanical models were implemented under passive linear assumptions and did not include outer-hair-cell-mediated amplification, compressive nonlinearity, or level-dependent active tuning. Higher acoustic input levels produced greater basilar membrane displacement in the 1D and 3D mechanical models, increased pressure magnitude in the three-dimensional fluid domain, and greater simulated neural activity and burstiness in the perceptual module. In the passive 1D model, increasing the input from 30 to 85 dB SPL produced an approximately 55 dB increase in basilar membrane displacement level while the normalised frequency-position ridge geometry remained essentially unchanged, consistent with proportional linear scaling. The derived characteristic-frequency and Q10 distributions reproduced the expected longitudinal tonotopic gradient within the frequency range reliably resolved by the simulations, although their extension into the most apical region was limited by the 200 Hz lower-frequency boundary and the peak-identification criteria. The Environmental Auditory Risk Index was used as an exploratory, model-derived composite indicator for integrating the mechanical and simulated neural outputs evaluated in the study. The proposed framework provides a controlled computational representation of how environmental acoustic inputs are translated into passive cochlear mechanics and simulated neural activity across complementary modelling domains. The results should not be interpreted as evidence of active cochlear amplification, physiological injury, or clinically validated auditory risk. Incorporation of nonlinear outer hair cell mechanics, extension of the low-frequency simulation range, sensitivity analysis, and experimental or clinical validation will be required before the framework or its derived indicators can support predictive applications.",
-      "ai_analysis": {
-        "scientific_question": "环境声级如何在被动线性假设下通过多尺度计算框架转化为耳蜗机械响应和模拟神经活动。",
-        "key_highlight": "该研究建立了一个整合一维纵向传输线模型、三维有限差分时域流体模型和等效矩形带宽感知后处理模块的多尺度计算框架，用于模拟环境噪声的被动耳蜗响应。",
-        "main_limitation": "模型采用被动线性假设，未包含外毛细胞介导的放大、压缩非线性和级依赖性主动调谐，且低频仿真范围受限于200 Hz下限，可能影响对真实生理机制的预测准确性。",
-        "research_implication": "该计算建模框架为理解环境噪声对听觉系统的影响提供了基础，但由于缺乏主动机制建模和临床验证，目前尚不能直接用于助听器或人工耳蜗的优化设计。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "893a058e893fe949",
-        "updated_at": "2026-09-05T06:59:13Z"
-      },
-      "last_author_affiliation": "Doctor in Electrical Engineering & Lecturer of Graduate Program in Environmental Management, Universidade Positivo (UP), Curitiba, Brazil.",
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [
-        "Cochlear modelling",
-        "Computational biomechanics",
-        "Environmental acoustics",
-        "Environmental health modelling",
-        "Mathematical modelling"
-      ],
-      "tags": [
-        "auditory physiology",
-        "clinical audiology",
-        "hearing aid"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-08-30",
-      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Multimodal Takeover Requests for Drivers with Hearing Loss: Implications for AI-Enabled Communication in Automated Vehicles",
@@ -10590,22 +10812,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044504",
-      "url": "https://doi.org/10.1121/10.0044504",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:37Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -10618,6 +10824,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:36Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044504",
+      "url": "https://doi.org/10.1121/10.0044504",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:37Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -18157,17 +18379,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -18188,18 +18411,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -27523,22 +27745,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -27551,6 +27757,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -34641,23 +34863,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -34671,6 +34876,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -38006,8 +38228,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -38021,8 +38243,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -43543,8 +43765,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -43558,8 +43780,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
