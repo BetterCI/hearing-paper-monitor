@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:51:04Z",
+  "generated_at": "2026-09-16T07:47:09Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
@@ -184,29 +184,6 @@
       "source": "crossref",
       "available_online_date": "2026-08-22",
       "first_seen_at": "2026-08-27T12:51:57Z"
-    },
-    {
-      "title": "Effects of gap onset time and gap duration on the deviant-related negativity in typically developing school-age children",
-      "authors": [
-        "Shaghayegh Omidvar",
-        "Kenneth Campbell",
-        "Steven Aiken",
-        "Claude Alain",
-        "Amineh Koravand"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-11-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109787",
-      "url": "https://doi.org/10.1016/j.heares.2026.109787",
-      "abstract": null,
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-03",
-      "first_seen_at": "2026-09-04T07:17:01Z"
     },
     {
       "title": "Evaluating perceptual evidence of cross-modal plasticity in older adults with hearing loss using an audio–visual word mismatch task",
@@ -618,6 +595,34 @@
       "source": "crossref",
       "available_online_date": "2026-08-19",
       "first_seen_at": "2026-08-28T14:24:28Z"
+    },
+    {
+      "title": "Tinnitus and decreased sound tolerance in military Veterans: Relationship with cochlear deafferentation",
+      "authors": [
+        "Haley A. Szabo",
+        "Sarah M. Theodoroff",
+        "Garnett P. McMillan",
+        "Sean D. Kampel",
+        "Anne E. Heassler",
+        "Nicole K. Whittle",
+        "Naomi F. Bramhall"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109789",
+      "url": "https://doi.org/10.1016/j.heares.2026.109789",
+      "abstract": "PURPOSE: Military Veterans are at high risk for noise-induced cochlear synaptopathy, a type of cochlear deafferentation. Predicted perceptual consequences of deafferentation include tinnitus and hyperacusis. The objective of this study was to determine if compared to young non-Veteran controls with minimal noise exposure, Veterans with normal audiograms who report constant tinnitus and/or decreased sound tolerance (DST) show reductions in three physiological indicators of deafferentation: (1) auditory brainstem response [ABR] wave I amplitude, (2) envelope following response [EFR] magnitude, and (3) wideband middle ear muscle reflex [MEMR] magnitude. Outer hair cell (OHC) function was also evaluated using distortion product otoacoustic emissions [DPOAEs]. RESULTS: Mean ABR wave I amplitudes, EFR magnitudes, and high frequency DPOAEs were reduced in a sample of 22 Veterans with tinnitus and 19 Veterans with DST relative to 165 controls. On average, MEMR magnitudes were also smaller for Veterans with DST than for controls. While many Veterans with tinnitus had smaller MEMRs than controls, a small number had large MEMRs. ABR wave V/I amplitude ratios tended to be elevated for Veterans compared to controls. CONCLUSIONS: ABR, EFR, and DPOAE measurements were suggestive of both cochlear deafferentation and subclinical high frequency OHC dysfunction in Veterans with constant tinnitus or DST. Reductions in MEMR magnitude were not consistently observed in Veterans with tinnitus who had reduced ABR and EFR measurements, indicating that the MEMR may not be a reliable indicator of cochlear deafferentation. Increased central gain in the auditory brainstem may have contributed to the perception of tinnitus and DST.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-08-27",
+      "first_seen_at": "2026-09-16T07:46:16Z"
     },
     {
       "title": "Asymmetry of vestibular pathways predicts upper-brainstem auditory imbalance in subjective somatosensory tinnitus: A tract-specific chronological reorganization model",
@@ -1463,6 +1468,118 @@
       "first_seen_at": "2026-09-14T07:57:49Z"
     },
     {
+      "title": "From acoustic scene to sense of place: Sound scene-to-description, a semantic translation engine for sound environment",
+      "authors": [
+        "Yonggai Zhuang",
+        "Teng Fei",
+        "Yunyan Du",
+        "Dan Liu"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-15",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046521",
+      "url": "https://doi.org/10.1121/10.0046521",
+      "abstract": "Sound environments play a crucial role in human experience, shaping memory, comfort, and sense of place. They provide essential cues for judging safety and atmosphere in both real and virtual settings. Despite the growing availability of large audio libraries, extracting meaningful information from complex and overlapping sound scenes remains difficult. Audio captioning addresses this challenge by translating acoustic scenes into text, yet traditional approaches face clear limitations. Manual annotation is often subjective and incomplete, while sound event detection reduces audio to isolated tags without capturing context, relationships, or temporal dynamics. To overcome these barriers, this study proposes sound scene-to-description (SS2D), a method that trains an audio encoder to map complex sound patterns into the semantic space of a large language model. This allows the model to generate coherent and detailed descriptions that reflect interactions among sounds and their evolution over time, moving beyond simple event lists. In both qualitative and quantitative evaluations, SS2D has demonstrated significantly better performance than the audio event method and the image caption method. In terms of practical significance, SS2D eliminates the need for extensive manual labeling and has broad applications.",
+      "first_author_affiliation": "School of Resource and Environmental Sciences, Wuhan University 1 , Wuhan,",
+      "last_author_affiliation": "Information Center of Natural Resources, Department of Natural Resources of Ningxia Hui Autonomous Region 5 , Yinjiaqu North Street 25, Ningxia 750004,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-15",
+      "first_seen_at": "2026-09-16T07:44:59Z",
+      "ai_analysis": {
+        "scientific_question": "如何将复杂重叠的声学场景有效转换为能反映声音交互和时间动态的连贯文本描述",
+        "key_highlight": "该方法通过将音频编码器映射到大语言模型语义空间，在定性和定量评估中显著优于音频事件检测和图像描述方法",
+        "main_limitation": "未明确报告该方法在不同实际声学环境或真实应用场景中的泛化能力和局限性",
+        "research_implication": "作为一般性音频分析技术，该研究对环境声音感知及相关辅助听音技术的研究具有参考价值",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "36b2cb1215cf2075",
+        "updated_at": "2026-09-16T07:48:16Z"
+      }
+    },
+    {
+      "title": "Near-field acoustic holography with iteratively reweighted least squares–based outlier rejection and TV+ℓ1 regularization",
+      "authors": [
+        "William R. Lippincott",
+        "Robert J. Malahowski",
+        "Keith J. Nowicki",
+        "Christopher J. Mann"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-15",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046396",
+      "url": "https://doi.org/10.1121/10.0046396",
+      "abstract": "Near-field acoustic holography (NAH) reconstructs complex acoustic pressure fields from near-field microphone measurements. The equivalent source method (ESM), which relies on least squares inversion, is highly susceptible to measurement outliers. To address this, we present an ESM-NAH reconstruction approach, iteratively reweighted least squares (IRLS)-total variation (TV) and ℓ1 regularization (IRLS-TV+ℓ1), which employs bounded-influence M-estimation with IRLS to mitigate the impact of outlier-contaminated measurements. In addition, the method incorporates TV and ℓ1 regularization to capture both extended and compact source features. To evaluate performance, we simulate a piecewise-constant block source on a 16 × 16 grid at 25 dB signal-to-noise ratio (SNR), with 5% of channels corrupted by outliers. The proposed method achieves a reconstruction relative error of 4.4% under outlier contamination, compared to 4.3% for uncorrupted data. By comparison, Tikhonov regularization degrades from 15.9% to 96.3% relative error, sparse Bayesian learning (SBL) from 26.1% to 195% relative error, and the fused total generalized variation (F-TGV) benchmark from 7.8% to 168% relative error. Experimental measurements further indicate degradation factors of 11.5×, 14.0×, and 15.9× for Tikhonov, SBL, and F-TGV, respectively, under 5% introduced outlier contamination, whereas IRLS-TV+ℓ1 exhibits only a 1.02× increase.",
+      "first_author_affiliation": "Department of Physics, Northern Arizona University , Flagstaff, Arizona 86011,",
+      "last_author_affiliation": "Department of Physics, Northern Arizona University , Flagstaff, Arizona 86011,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-15",
+      "first_seen_at": "2026-09-16T07:44:59Z",
+      "ai_analysis": {
+        "scientific_question": "如何提高近场声全息在测量数据存在异常值情况下的重建精度和鲁棒性？",
+        "key_highlight": "所提出的IRLS-TV+ℓ1方法在5%数据被异常值污染时仍能保持几乎不变的重构误差（4.4%），而传统Tikhonov正则化等方法的误差会急剧恶化至96%以上。",
+        "main_limitation": "性能验证主要基于16×16网格的仿真实验，在25 dB信噪比条件下进行，实际复杂声场环境下的有效性尚需进一步验证。",
+        "research_implication": "该声学重建方法的鲁棒性提升有望为更精确的声场测量与分析提供技术支撑，间接支持需要高质量声场表征的听觉科学研究。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "7612d553b52d54b0",
+        "updated_at": "2026-09-16T07:48:24Z"
+      }
+    },
+    {
+      "title": "Synthesis of rotor noise using a stationary point source array",
+      "authors": [
+        "Xice Xu",
+        "Huiquan Liu",
+        "Ling Wei",
+        "Yang Lu"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-15",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046523",
+      "url": "https://doi.org/10.1121/10.0046523",
+      "abstract": "Coupled simulation and experimental investigations of rotor noise impose substantial resource requirements due to the complexity of rotor noise generation mechanisms. This work proposes a synthesis method utilizing a stationary point-source array to reconstruct global rotor noise as a surrogate for actual rotor noise. First, an acoustic modal expansion model for rotor aerodynamic noise is developed based on the spherical harmonic expansion of the Green's function, and an acoustic modal model for point sources in the array is established using the addition theorem. Subsequently, the coefficient relations required for sound field synthesis are derived using the orthogonality of spherical harmonics, from which the driving signals of point sources are determined. Furthermore, simulations on a 0.86 m radius rotor under various flight conditions validate the modal method against retarded-time time-domain solutions, with mean prediction error less than 0.6 dB. Finally, the synthesis method is verified by comparing the target rotor noise with the superimposed total noise derived from time-domain analytical point-source solutions, with mean synthesis error below 0.4 dB. The proposed synthesis method offers an efficient tool for rotor noise coupled simulations and propagation experiments.",
+      "first_author_affiliation": "National Key Laboratory of Helicopter Aeromechanics, Nanjing University of Aeronautics and Astronautics , Nanjing 210016,",
+      "last_author_affiliation": "National Key Laboratory of Helicopter Aeromechanics, Nanjing University of Aeronautics and Astronautics , Nanjing 210016,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046523",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-15",
+      "first_seen_at": "2026-09-16T07:44:59Z",
+      "full_text_url": "https://pubs.aip.org/jasa/article/160/3/2315/3404613/Synthesis-of-rotor-noise-using-a-stationary-point",
+      "media_checked_at": "2026-09-16T07:47:17Z",
+      "open_access_image_checked_at": "2026-09-16T07:47:17Z",
+      "ai_analysis": {
+        "scientific_question": "如何利用静止点源阵列作为替代方案高效合成旋翼噪声以降低耦合仿真与实验的资源需求？",
+        "key_highlight": "该方法在模拟验证中实现了预测误差小于0.6 dB、合成误差小于0.4 dB的精度。",
+        "main_limitation": "仅在0.86米半径旋翼的模拟中验证，实际旋翼系统的适用性有待进一步实验验证。",
+        "research_implication": "通用声学研究发现，旋翼噪声合成方法可应用于声学仿真和传播实验。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "3e8a0b79467bf172",
+        "updated_at": "2026-09-16T07:48:35Z"
+      }
+    },
+    {
       "title": "Temporally structured motor and auditory representations in covert syllable production.",
       "authors": [
         "Joan Orpella",
@@ -1530,6 +1647,38 @@
       "first_seen_at": "2026-09-08T07:17:39Z"
     },
     {
+      "title": "Utricular Compound Action Potential Thresholds to Pulsed Interaural Vibration in Guinea Pig, and Mechanical Tuning Curve Estimates in Mouse, Rat, Sheep, and Human",
+      "authors": [
+        "Richard D. Rabbitt",
+        "Christopher J. Pastras",
+        "Suhrud M. Rajguru",
+        "Hong Zhu",
+        "Wu Zhou"
+      ],
+      "journal": "Journal of the Association for Research in Otolaryngology",
+      "publication_date": "2026-09-15",
+      "publication_date_precision": "day",
+      "doi": "10.1007/s10162-026-01070-y",
+      "url": "https://doi.org/10.1007/s10162-026-01070-y",
+      "abstract": null,
+      "open_access": true,
+      "open_access_url": "https://link.springer.com/article/10.1007/s10162-026-01070-y",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-15",
+      "first_seen_at": "2026-09-16T07:45:42Z",
+      "full_text_url": "https://link.springer.com/article/10.1007/s10162-026-01070-y",
+      "key_image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs10162-026-01070-y/MediaObjects/10162_2026_1070_Fig1_HTML.png",
+      "key_image_alt": "Content cover image",
+      "media_checked_at": "2026-09-16T07:47:18Z",
+      "open_access_image_checked_at": "2026-09-16T07:47:17Z"
+    },
+    {
       "title": "A dual-stream spectral network for versatile full-band speech enhancement",
       "authors": [
         "Junkang Yang",
@@ -1544,17 +1693,6 @@
       "doi": "10.1121/10.0046397",
       "url": "https://doi.org/10.1121/10.0046397",
       "abstract": "Full-band speech restoration aims to recover high-fidelity speech from signals degraded by noise, reverberation, bandwidth limitation, or their combinations. Existing methods are typically designed for a specific type of degradation, which limits their flexibility when multiple distortions coexist. To address this problem, this paper proposes a dual-stream versatile speech enhancement network (DSVN)—a unified task-conditioned system for full-band speech restoration. The model introduces a dual-stream spectral block to jointly model frequency-wise spectral structures and temporal dynamics. A band-refill decoder is further designed to recover missing or degraded high-frequency components. Task-conditioned modulation is introduced to enable the same network to adapt to different objectives. Evaluation results demonstrate that DSVN improves restoration quality under both single- and mixed-degradation scenarios. The model shows clear advantages in non-intrusive quality assessment, spectral distance, and automatic speech recognition evaluation, indicating that the enhanced speech is not only cleaner but also more useful for downstream systems. Additional analysis of internal responses and ablation studies provides evidence that the proposed modules contribute to different aspects of restoration.",
-      "first_author_affiliation": "Integrated Graduate School of Medicine, Engineering, and Agricultural Sciences, University of Yamanashi 1 , Kofu,",
-      "last_author_affiliation": "College of Engineering, Design and Physical Science, Brunel University 3 , London,",
-      "section": "Speech Communication",
-      "keywords": [],
-      "tags": [
-        "priority section",
-        "speech perception"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-14",
-      "first_seen_at": "2026-09-15T07:50:19Z",
       "ai_analysis": {
         "scientific_question": "如何设计一个能够灵活处理噪声、混响、带宽限制等多种失真类型并存的统一语音增强系统？",
         "key_highlight": "提出的双流语音增强网络通过双流频谱模块联合建模频谱结构和时序动态，结合频段填充解码器恢复高频分量，在单种和混合失真场景下均表现出质量评估和语音识别的优势。",
@@ -1566,7 +1704,18 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "9d54423fd13cb781",
         "updated_at": "2026-09-15T07:51:28Z"
-      }
+      },
+      "first_author_affiliation": "Integrated Graduate School of Medicine, Engineering, and Agricultural Sciences, University of Yamanashi 1 , Kofu,",
+      "last_author_affiliation": "College of Engineering, Design and Physical Science, Brunel University 3 , London,",
+      "section": "Speech Communication",
+      "keywords": [],
+      "tags": [
+        "priority section",
+        "speech perception"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-14",
+      "first_seen_at": "2026-09-15T07:50:19Z"
     },
     {
       "title": "A model of the shear and compressional geoacoustic profiles at the New England Mud Patch from a trans-dimensional inversion",
@@ -1583,22 +1732,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0046639",
       "url": "https://doi.org/10.1121/10.0046639",
-      "abstract": "An elastic approximation of a porous medium model was fitted to the shear and compressional seabed geoacoustic profile at the New England Mud Patch, obtained through a trans-dimensional Bayesian inversion of matched-field acoustic data, over the 20–2000 Hz band. The adopted model was an elastic approximation of the modified, corrected, Revil, extended Biot model that retains the creep modification and elastic components of Biot's equations. Its attenuation mechanism is a form of creep, and it can accommodate the effects of consolidation, suitable for sediments at all depths considered in the trans-dimensional inversion. Model parameter values and their credibility intervals were obtained.",
-      "first_author_affiliation": "Applied Research Laboratories, The University of Texas at Austin 1 , Austin, Texas 78712,",
-      "last_author_affiliation": "The Platt Institute 6 , Austin, Texas 78731,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0046639",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-14",
-      "first_seen_at": "2026-09-15T07:50:24Z",
       "full_text_url": "https://pubs.aip.org/jel/article/6/9/096003/3404436/A-model-of-the-shear-and-compressional-geoacoustic",
-      "media_checked_at": "2026-09-15T07:51:11Z",
-      "open_access_image_checked_at": "2026-09-15T07:51:11Z",
+      "abstract": "An elastic approximation of a porous medium model was fitted to the shear and compressional seabed geoacoustic profile at the New England Mud Patch, obtained through a trans-dimensional Bayesian inversion of matched-field acoustic data, over the 20–2000 Hz band. The adopted model was an elastic approximation of the modified, corrected, Revil, extended Biot model that retains the creep modification and elastic components of Biot's equations. Its attenuation mechanism is a form of creep, and it can accommodate the effects of consolidation, suitable for sediments at all depths considered in the trans-dimensional inversion. Model parameter values and their credibility intervals were obtained.",
       "ai_analysis": {
         "scientific_question": "该研究通过跨维度贝叶斯反演方法，从20-2000 Hz频段的匹配场声学数据中获取新英格兰泥质斑块地区的海底剪切和压缩地球声学剖面参数。",
         "key_highlight": "采用保留蠕变修正和弹性分量的修正Revil扩展Biot模型弹性近似，能够适应沉积物各深度的固结效应，并获得参数值及其可信区间。",
@@ -1610,6 +1745,69 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "fe3136de82098b1e",
         "updated_at": "2026-09-15T07:51:38Z"
+      },
+      "first_author_affiliation": "Applied Research Laboratories, The University of Texas at Austin 1 , Austin, Texas 78712,",
+      "last_author_affiliation": "The Platt Institute 6 , Austin, Texas 78731,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046639",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-09-15T07:51:11Z",
+      "media_checked_at": "2026-09-15T07:51:11Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-14",
+      "first_seen_at": "2026-09-15T07:50:24Z"
+    },
+    {
+      "title": "Directivity-Conditioned Low-Latency Neural Filtering for Speech Enhancement in Hearing Aids",
+      "authors": [
+        "Lennart Uphaus",
+        "André Merboldt",
+        "Markus Hofbauer",
+        "Timo Gerkmann"
+      ],
+      "journal": "arXiv",
+      "publication_date": "2026-09-14",
+      "publication_date_precision": "day",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.15760v1",
+      "abstract": "Latest advances in neural directional filtering show exceptional results in adapting the direction and shape of directivity patterns during the inference phase. However, in the existing methods for adapting directivity patterns during inference, important real-world constraints have been disregarded. Particularly for hearing devices, scenarios are often much more dynamic, microphone positions vary with head diameter and hearing aid placement, head-shadow effects occur, and strict latency constraints apply. In this work, we propose a novel low-latency (10 ms) deep neural network (DNN) taking the above requirements of hearing devices into account. As in recent work, we use feature-wise linear modulation (FiLM) to steer the directivity patterns during testing. To preserve the desired directivity pattern, a loss function is proposed that maintains the spectral cross-channel relationships. Interestingly, we are able to achieve similar results to methods with relaxed latency constraints.",
+      "publication_stage": "preprint",
+      "section": null,
+      "keywords": [
+        "eess.AS"
+      ],
+      "tags": [],
+      "source": "arxiv",
+      "available_online_date": "2026-09-14",
+      "source_group": "preprint_filtered",
+      "source_group_label": "Preprints (arXiv)",
+      "actual_journal": "arXiv",
+      "match_level": "topic_filtered_hearing_speech",
+      "matched_keywords": [
+        "hearing aid",
+        "hearing aids"
+      ],
+      "match_fields": [
+        "abstract",
+        "title"
+      ],
+      "needs_review": true,
+      "first_seen_at": "2026-09-16T07:47:09Z",
+      "ai_analysis": {
+        "scientific_question": "如何在满足助听器实际部署约束条件（低延迟、头部尺寸变化、头部阴影效应）的前提下，实现神经网络方向性滤波的自适应波束形成。",
+        "key_highlight": "该研究提出了一种基于特征级线性调制（FiLM）的10毫秒低延迟深度神经网络，在满足助听器实际约束条件下达到了与放宽延迟限制方法相当的处理效果。",
+        "main_limitation": "研究结果基于算法性能对比，缺乏真实听障用户在多样化动态场景下的主观评估数据。",
+        "research_implication": "该研究为助听器中的低延迟语音增强提供了新的神经网络架构思路，推动了自适应方向性滤波技术在临床助听设备中的应用潜力。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "880a596d88ea3e94",
+        "updated_at": "2026-09-16T07:48:55Z"
       }
     },
     {
@@ -1645,7 +1843,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-11",
       "first_seen_at": "2026-09-12T07:12:18Z"
     },
@@ -1687,7 +1885,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-11",
       "first_seen_at": "2026-09-12T07:12:18Z"
     },
@@ -1723,7 +1921,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-11",
       "first_seen_at": "2026-09-12T07:12:18Z"
     },
@@ -1753,6 +1951,18 @@
       "doi": "10.1126/sciadv.ady5166",
       "url": "https://doi.org/10.1126/sciadv.ady5166",
       "abstract": "Neurodevelopmental disorders (NDDs), including autism spectrum disorder (ASD) and intellectual disability (ID), are genetically heterogeneous. DEAF1 has emerged as a key NDD risk gene, with pathogenic variants linked to DEAF1-associated neurodevelopmental disorder (DAND), but its role in human neurodevelopment remains unclear. Human cortical organoids (hCOs) provide a physiologically relevant model that recapitulates fetal brain development with an authentic human genetic background. Here, we show that a DEAF1 mutation in human embryonic stem cells disrupts chromatin accessibility at neuronal gene loci, leading to significant transcriptional alterations. In hCOs, this mutation results in aberrant progenitor proliferation, disrupted cortical lamination, and impaired neuronal differentiation. Furthermore, we identify WNT signaling, TGFβ superfamily signaling, and cell cycle regulation as commonly dysregulated pathways across multiple ASD-associated genetic perturbations. Pharmacological inhibition of WNT signaling with a Porcupine inhibitor partially rescues phenotypic defects in DEAF1-mutant hCOs. Our findings identify DEAF1 as a critical regulator of neurodevelopment and support pathway-targeted, mutation-independent therapeutic strategies for ASD and related disorders.",
+      "ai_analysis": {
+        "scientific_question": "DEAF1突变如何影响人类神经发育及其在自闭症谱系障碍发病机制中的作用？",
+        "key_highlight": "DEAF1突变通过改变神经元基因位点的染色质可及性，导致祖细胞增殖异常、皮层分层紊乱和神经分化受损，而WNT信号通路的药理学抑制可部分拯救这些表型缺陷。",
+        "main_limitation": "有限的一般性，因为该研究依赖于体外类器官模型，可能无法完全复制体内神经发育的复杂过程。",
+        "research_implication": "一般性研究发现，为理解神经发育障碍的遗传机制和通路靶向治疗策略提供了基础科学依据。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "16cfba3f8bf193ff",
+        "updated_at": "2026-09-15T07:51:48Z"
+      },
       "first_author_affiliation": "Department of Genetics, Interdepartmental Neuroscience Program, Yale Stem Cell Center, Yale Child Study Center, Wu Tsai Institute, Yale School of Medicine, New Haven, CT 06520, USA.",
       "last_author_affiliation": "Department of Genetics, Interdepartmental Neuroscience Program, Yale Stem Cell Center, Yale Child Study Center, Wu Tsai Institute, Yale School of Medicine, New Haven, CT 06520, USA.",
       "open_access": true,
@@ -1798,19 +2008,7 @@
         "title"
       ],
       "needs_review": false,
-      "first_seen_at": "2026-09-14T07:57:49Z",
-      "ai_analysis": {
-        "scientific_question": "DEAF1突变如何影响人类神经发育及其在自闭症谱系障碍发病机制中的作用？",
-        "key_highlight": "DEAF1突变通过改变神经元基因位点的染色质可及性，导致祖细胞增殖异常、皮层分层紊乱和神经分化受损，而WNT信号通路的药理学抑制可部分拯救这些表型缺陷。",
-        "main_limitation": "有限的一般性，因为该研究依赖于体外类器官模型，可能无法完全复制体内神经发育的复杂过程。",
-        "research_implication": "一般性研究发现，为理解神经发育障碍的遗传机制和通路靶向治疗策略提供了基础科学依据。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "16cfba3f8bf193ff",
-        "updated_at": "2026-09-15T07:51:48Z"
-      }
+      "first_seen_at": "2026-09-14T07:57:49Z"
     },
     {
       "title": "Physics-informed localization of sound sources in reflective environments including hidden sources",
@@ -1842,7 +2040,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-11",
       "first_seen_at": "2026-09-12T07:12:18Z"
     },
@@ -1886,7 +2084,7 @@
       "tags": [
         "speech perception"
       ],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-11",
       "first_seen_at": "2026-09-12T07:12:18Z"
     },
@@ -1924,7 +2122,7 @@
       "tags": [
         "auditory physiology"
       ],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-10",
       "first_seen_at": "2026-09-11T07:20:07Z"
     },
@@ -1964,7 +2162,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-10",
       "first_seen_at": "2026-09-11T07:20:07Z"
     },
@@ -1998,7 +2196,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-10",
       "first_seen_at": "2026-09-11T07:20:07Z"
     },
@@ -2031,7 +2229,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-10",
       "first_seen_at": "2026-09-11T07:20:07Z"
     },
@@ -2070,7 +2268,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-10",
       "first_seen_at": "2026-09-11T07:20:07Z"
     },
@@ -2118,6 +2316,52 @@
       "first_seen_at": "2026-09-11T07:20:26Z"
     },
     {
+      "title": "Post-Training Zero-Shot TTS for Fine-Grained Emotion and Duration Control via Natural Language",
+      "authors": [
+        "Lianru Gao",
+        "Yujie Guo",
+        "Yong Qin"
+      ],
+      "journal": "arXiv",
+      "publication_date": "2026-09-10",
+      "publication_date_precision": "day",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.11523v1",
+      "abstract": "Audiobook narration, conversational agents, and audiovisual dubbing require speech that conveys changing emotions and adapts its pacing within a single utterance. But most existing TTS systems typically rely on utterance-level style conditioning, making such fine-grained control difficult to achieve. In light of this, and inspired by the success of post-training in large language models, we propose a unified post-training framework that equips pretrained text-to-speech models with natural-language control over segment-level emotion and duration. Supervised fine-tuning establishes instruction-conditioned speech generation, while reinforcement learning with group relative policy optimization refines control accuracy using emotion and duration rewards alongside content and speaker preservation objectives. By reusing the pretrained architecture, our approach avoids additional inference-time control modules. Experiments demonstrate significantly improved fine-grained controllability while maintaining speech intelligibility and speaker identity, highlighting post-training as a practical approach to extending existing speech synthesis models.",
+      "publication_stage": "preprint",
+      "section": null,
+      "keywords": [
+        "cs.SD"
+      ],
+      "tags": [],
+      "source": "arxiv",
+      "available_online_date": "2026-09-10",
+      "source_group": "preprint_filtered",
+      "source_group_label": "Preprints (arXiv)",
+      "actual_journal": "arXiv",
+      "match_level": "topic_filtered_hearing_speech",
+      "matched_keywords": [
+        "speech intelligibility"
+      ],
+      "match_fields": [
+        "abstract"
+      ],
+      "needs_review": true,
+      "first_seen_at": "2026-09-16T07:47:09Z",
+      "ai_analysis": {
+        "scientific_question": "如何在预训练文本转语音模型中实现自然语言指令驱动的细粒度情感和语速控制？",
+        "key_highlight": "基于后训练的统一框架结合监督微调与强化学习优化，无需额外推理控制模块即可显著提升细粒度可控性，同时保持语音可懂度和说话人身份。",
+        "main_limitation": "方法的有效性验证依赖特定数据集与评估指标，实际泛化能力尚未充分探索。",
+        "research_implication": "生成的语音可通过更精细的情感与节奏控制支持辅助听力设备的自然语音输出研发。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "d9bdd2e586ad2a21",
+        "updated_at": "2026-09-16T07:49:06Z"
+      }
+    },
+    {
       "title": "Revised equation for sound speed in seawater consistent with long-range acoustic travel times",
       "authors": [
         "Heriberto J. Vazquez",
@@ -2156,7 +2400,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-10",
       "first_seen_at": "2026-09-11T07:20:07Z"
     },
@@ -2253,7 +2497,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-09",
       "first_seen_at": "2026-09-10T07:21:19Z"
     },
@@ -2302,7 +2546,7 @@
         "psychoacoustics",
         "speech perception"
       ],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-09",
       "first_seen_at": "2026-09-10T07:21:19Z"
     },
@@ -2384,7 +2628,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-09",
       "first_seen_at": "2026-09-10T07:21:19Z"
     },
@@ -2425,7 +2669,7 @@
         "real-world listening",
         "speech perception"
       ],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-09",
       "first_seen_at": "2026-09-10T07:21:19Z"
     },
@@ -2500,7 +2744,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-09",
       "first_seen_at": "2026-09-10T07:21:19Z"
     },
@@ -2538,7 +2782,7 @@
         "priority section",
         "psychoacoustics"
       ],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-09",
       "first_seen_at": "2026-09-10T07:21:19Z"
     },
@@ -2570,7 +2814,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-09",
       "first_seen_at": "2026-09-10T07:21:19Z"
     },
@@ -2594,7 +2838,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-08",
       "first_seen_at": "2026-09-09T07:26:00Z"
     },
@@ -2631,7 +2875,7 @@
       "tags": [
         "auditory physiology"
       ],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-08",
       "first_seen_at": "2026-09-09T07:26:00Z"
     },
@@ -2672,7 +2916,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-08",
       "first_seen_at": "2026-09-09T07:26:00Z"
     },
@@ -3081,6 +3325,39 @@
       "first_seen_at": "2026-09-07T07:23:22Z"
     },
     {
+      "title": "Effects of gap onset time and gap duration on the deviant-related negativity in typically developing school-age children",
+      "authors": [
+        "Shaghayegh Omidvar",
+        "Kenneth Campbell",
+        "Steven Aiken",
+        "Claude Alain",
+        "Amineh Koravand"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-03",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109787",
+      "url": "https://doi.org/10.1016/j.heares.2026.109787",
+      "abstract": "This study examined whether automatic change detection to within-stimulus gaps, indexed by the deviant-related response (DRN), varies with gap duration and the temporal position of the gap within a long-duration sound, and whether these effects differ between children and adults. Fifteen typically developing children (8-12 years) and fifteen adults (23-37 years) completed passive EEG recordings using a multi-deviant sequence in which standards and deviants alternated. All stimuli were 500-ms broadband-noise bursts. Deviants contained a silent gap of 10 or 30 ms inserted at 15, 50, 100, 200, 300, or 400 ms after stimulus onset. DRNs were derived from deviant-standard difference waves, and the presence of a DRN was evaluated using confidence interval (CI) procedures. In a separate behavioural task, participants performed active gap detection, and sensitivity was quantified using d'. In both groups, DRN amplitude increased with gap duration and decreased as the gap onset time was delayed. Reliable DRNs were absent at the latest gap position (400 ms) in both groups. In adults, a small DRN was evident at 300 ms, whereas in children, CI testing showed that significant DRNs were limited to the 30-ms gaps occurring at 15 and 50 ms.. Behavioural sensitivity was high overall but lower in children than in adults, and did not correlate with DRN amplitude. Automatic detection of within-stimulus gaps is constrained by the timing of the change, and this temporal constraint appears to be more pronounced in children. The dissociation between DRN outcomes and behavioural performance suggests that active detection may be supported by mechanisms beyond those indexed by the passive DRN.",
+      "last_author_affiliation": "School of Rehabilitation Sciences, University of Ottawa, Ottawa, Canada. Electronic address: amineh.koravand@uottawa.ca.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [
+        "Auditory temporal resolution",
+        "Development",
+        "Deviant-related response",
+        "Gap detection",
+        "Mismatch negativity",
+        "Sensory memory"
+      ],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-03",
+      "first_seen_at": "2026-09-04T07:17:01Z"
+    },
+    {
       "title": "Hearing Aid Noise Reduction Algorithms Support Neural Speech Tracking by Enhancing Spectrotemporal Consistency of Phase-Locked Brain Responses to Acoustic Edges",
       "authors": [
         "Adrian Mai",
@@ -3161,7 +3438,7 @@
         "priority section",
         "psychoacoustics"
       ],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-03",
       "first_seen_at": "2026-09-04T07:16:55Z"
     },
@@ -3247,7 +3524,7 @@
         "priority section",
         "psychoacoustics"
       ],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-02",
       "first_seen_at": "2026-09-03T07:13:31Z"
     },
@@ -10909,22 +11186,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044504",
-      "url": "https://doi.org/10.1121/10.0044504",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:37Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -10937,6 +11198,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:36Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044504",
+      "url": "https://doi.org/10.1121/10.0044504",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:37Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -18476,17 +18753,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -18507,18 +18785,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -27842,22 +28119,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -27870,6 +28131,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -34915,6 +35192,18 @@
       "url": "https://doi.org/10.1007/s10162-025-01027-7",
       "full_text_url": "https://link.springer.com/article/10.1007/s10162-025-01027-7",
       "abstract": "To evaluate whether optical coherence tomography (OCT) vibrometry can differentiate causes of conductive hearing loss (CHL) following ossiculoplasty, specifically distinguishing among effusion, soft-tissue fixation, and prosthesis disconnection. We simulated three post-surgical CHL conditions, effusion, soft-tissue fixation, and prosthesis disconnection, in a cadaveric temporal bone model (N = 10 per condition), with a partial ossicular replacement prosthesis (PORP) and cartilage graft implanted via a retrotympanic approach. A custom-built swept-source middle-ear OCT system (λ0 = 1550 nm, Δλ = 40 nm) was used to capture cross-sectional images and mobility measurements at the umbo and center of the cartilage graft across six stimulus frequencies (500, 750, 1000, 1500, 2000, and 3000 Hz). Mobility values (point velocity normalized to sound pressure) served as input features for a Random Forest classifier. Changes in mobility from baseline were also statistically analyzed. The classifier achieved 90.9% accuracy (40/44 datasets) in differentiating conditions in leave-one-out cross-validation, and 100% when trained on the full dataset. Simulated effusion and soft-tissue fixation were associated with broadband mobility decreases of 17.5 dB and 8.0 dB, respectively, averaged across both locations. Prosthesis disconnection at the stapes and at the tympanic membrane led to low-frequency (500 and 750 Hz) mobility increases of 9.9 dB and 11.1 dB, respectively, averaged across both locations. In a cadaveric model of post-surgical CHL, OCT vibrometry accurately distinguished effusion, soft-tissue fixation, and prosthesis disconnection. The ability to identify the cause of post-surgical CHL highlights OCT vibrometry's potential to assist clinical decision-making in revision surgery.",
+      "ai_analysis": {
+        "scientific_question": "探讨光学相干断层扫描振动测量技术能否区分中耳成形术后传导性听力损失的具体原因（积液、软组织固定和假体脱位）。",
+        "key_highlight": "在尸体颞骨模型中，该技术结合随机森林分类器在区分三种病理状态时达到90.9%的准确率。",
+        "main_limitation": "尸体组织模型结果需进一步在活体临床环境中验证，其适用性存在不确定性。",
+        "research_implication": "为中耳手术的临床诊断决策提供潜在辅助工具，属于临床听力学和中耳病理研究范畴。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "2a4fdcf74f596f77",
+        "updated_at": "2026-09-15T07:52:09Z"
+      },
       "first_author_affiliation": "School of Biomedical Engineering, Dalhousie University, PO Box 15000, Halifax, NS, B3H4R2, Canada. jesse.modest@hotmail.com.",
       "last_author_affiliation": "School of Biomedical Engineering, Dalhousie University, PO Box 15000, Halifax, NS, B3H4R2, Canada.",
       "open_access": true,
@@ -34939,19 +35228,7 @@
       ],
       "source": "pubmed",
       "available_online_date": "2026-01-13",
-      "first_seen_at": "2026-05-14T02:29:04Z",
-      "ai_analysis": {
-        "scientific_question": "探讨光学相干断层扫描振动测量技术能否区分中耳成形术后传导性听力损失的具体原因（积液、软组织固定和假体脱位）。",
-        "key_highlight": "在尸体颞骨模型中，该技术结合随机森林分类器在区分三种病理状态时达到90.9%的准确率。",
-        "main_limitation": "尸体组织模型结果需进一步在活体临床环境中验证，其适用性存在不确定性。",
-        "research_implication": "为中耳手术的临床诊断决策提供潜在辅助工具，属于临床听力学和中耳病理研究范畴。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "2a4fdcf74f596f77",
-        "updated_at": "2026-09-15T07:52:09Z"
-      }
+      "first_seen_at": "2026-05-14T02:29:04Z"
     },
     {
       "title": "Editorial Board",
@@ -34972,23 +35249,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -35002,6 +35262,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -35021,6 +35298,18 @@
       "url": "https://doi.org/10.1007/s10162-025-01020-0",
       "full_text_url": "https://link.springer.com/article/10.1007/s10162-025-01020-0",
       "abstract": "Vestibular implants that target the three semicircular canal branches of the vestibular nerve can partially restore the 3-dimensional vestibulo-ocular reflex (3D VOR) in individuals disabled by bilateral vestibular hypofunction. A key goal of implant design is optimizing the number, spacing, and placement of stimulating and return electrodes to maximize response strength and selectivity. While computational models provide initial insights, empirical data are essential to validate performance. We unilaterally implanted stimulating electrodes in each semicircular canal and positioned return electrodes both inside the labyrinth and outside the temporal bone in three female rhesus macaques. Using mixed-effects ANOVA, we quantified how electrode location influenced 3D VOR response magnitude and misalignment. We found that: (1) the deepest stimulating electrode in each canal generally yielded the strongest and most aligned responses; (2) a 600-750 µm difference in electrode position significantly impacted VOR outcomes; (3) return electrodes placed inside the labyrinth produced significantly larger VOR responses than those placed outside the temporal bone when stimulus current is constrained to levels that elicit no sign of facial nerve excitation; and (4) \"near-bipolar\" stimulation-using a return electrode in the same ampulla as the stimulating electrode-yielded better alignment. Although including multiple stimulating electrodes per canal may lower the risk of missing the target, a VI limited to one deep stimulating electrode per canal and one common return electrode can suffice if array design and surgical technique ensure placement near the crista ampullaris. Unused stimulator channels could be repurposed in designs intended to stimulate the utricle, saccule and/or cochlea. Moreover, spatial selectivity is improved by placing return electrodes within the labyrinth or ampullae, rather than outside the temporal bone. VIs that use a single common return electrode shared by all stimulation channels could achieve better performance in the future by incorporating multiple independent return electrode channels to permit near-bipolar stimulation.",
+      "ai_analysis": {
+        "scientific_question": "电极位置（包括刺激电极深度和参考电极位置）如何影响前庭植入物的三维前庭-眼反射（3D VOR）响应强度和对准精度？",
+        "key_highlight": "前庭植入物中参考电极放置于内淋巴内（而非颞骨外）时，在限制电流避免面神经兴奋的条件下能产生显著更大的VOR响应，且采用同侧近双极刺激可改善前庭激活的对准性。",
+        "main_limitation": "仅基于3只雌性恒河猴的动物实验数据，样本量有限且物种与人类存在生理差异，研究结论向临床应用的转化存在不确定性。",
+        "research_implication": "该研究为前庭植入物的电极阵列设计和手术放置策略提供了经验性依据，其关于近双极刺激和内淋巴内参考电极的发现可能对改进人工前庭及兼顾前庭功能的听觉假体设计具有参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "39c54e64f2ba246a",
+        "updated_at": "2026-09-15T07:52:18Z"
+      },
       "first_author_affiliation": "Department of Biomedical Engineering, Johns Hopkins School of Medicine, Baltimore, MD, USA.",
       "last_author_affiliation": "Department of Biomedical Engineering, Johns Hopkins School of Medicine, Baltimore, MD, USA. cds@jhmi.edu.",
       "open_access": true,
@@ -35052,19 +35341,7 @@
       ],
       "source": "pubmed",
       "available_online_date": "2026-01-14",
-      "first_seen_at": "2026-05-14T02:29:04Z",
-      "ai_analysis": {
-        "scientific_question": "电极位置（包括刺激电极深度和参考电极位置）如何影响前庭植入物的三维前庭-眼反射（3D VOR）响应强度和对准精度？",
-        "key_highlight": "前庭植入物中参考电极放置于内淋巴内（而非颞骨外）时，在限制电流避免面神经兴奋的条件下能产生显著更大的VOR响应，且采用同侧近双极刺激可改善前庭激活的对准性。",
-        "main_limitation": "仅基于3只雌性恒河猴的动物实验数据，样本量有限且物种与人类存在生理差异，研究结论向临床应用的转化存在不确定性。",
-        "research_implication": "该研究为前庭植入物的电极阵列设计和手术放置策略提供了经验性依据，其关于近双极刺激和内淋巴内参考电极的发现可能对改进人工前庭及兼顾前庭功能的听觉假体设计具有参考价值。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "39c54e64f2ba246a",
-        "updated_at": "2026-09-15T07:52:18Z"
-      }
+      "first_seen_at": "2026-05-14T02:29:04Z"
     },
     {
       "title": "Effects of Gap Junctions and Inhibition on the Synchronization Behavior of a Biophysically Detailed Neural Network Model of Bushy Cells.",
@@ -35079,6 +35356,18 @@
       "url": "https://doi.org/10.1007/s10162-026-01030-6",
       "full_text_url": "https://link.springer.com/article/10.1007/s10162-026-01030-6",
       "abstract": "Auditory-nerve fiber (ANF) responses to sound are processed by several distinct neural circuits in the cochlear nucleus (CN). One of the main cochlear nucleus cell types that projects to higher auditory nuclei is bushy cells (BCs), which can be divided into two subtypes, globular and spherical, depending on the shape of their soma and their innervation patterns. Apart from receiving excitatory inputs from ANFs and inhibitory inputs from D-Stellate and tuberculoventral cells, BCs receive excitation via gap junctions (a.k.a. electrical synapses) from neighboring BCs. One of the distinctive features of the BCs is the enhancement of the synchronization behavior in ANFs. For globular BCs, which receive subthreshold inputs from many ANFs, a coincidence-detection mechanism is proposed, whereas for spherical BCs, the mechanism for the synchronization enhancement is still not fully understood. In this study, fully connected bushy cell network models were created. The effects of gap junctions on the synchronization of the BCs were inspected by connecting the membrane potentials of clusters of five fully connected BCs. As the strength of the gap junction connections was increased within a given cell network, the synchronization was enhanced. The effects of inhibition on the synchronization were also explored and were found to be non-monotonic. Synchronization index values of the simulated network models with different gap junction strengths indicated that gap junctions can strongly contribute to the synchronization of models for both globular and spherical BCs.",
+      "ai_analysis": {
+        "scientific_question": "gap junctions and inhibition 如何影响耳蜗核Bushy细胞网络的同步行为？",
+        "key_highlight": "模型模拟表明gap junctions强度增加可增强Globular和Spherical两种Bushy细胞的同步性，而inhibition的作用呈非单调性。",
+        "main_limitation": "计算模型研究固有的简化特性限制了对真实神经生理机制的直接推断。",
+        "research_implication": "为理解听觉通路中神经同步机制提供了基础电生理数据，有助于间接指导人工耳蜗等神经假体的信号编码策略优化。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "a45661413ce864a9",
+        "updated_at": "2026-09-15T07:52:35Z"
+      },
       "first_author_affiliation": "Department of Electrical and Computer Engineering, McMaster University, 1280 Main St W, Hamilton, L8S 4L8, ON, Canada.",
       "last_author_affiliation": "Department of Electrical and Computer Engineering, McMaster University, 1280 Main St W, Hamilton, L8S 4L8, ON, Canada. brucei@mcmaster.ca.",
       "open_access": true,
@@ -35103,19 +35392,7 @@
       ],
       "source": "pubmed",
       "available_online_date": "2026-01-26",
-      "first_seen_at": "2026-05-14T02:29:04Z",
-      "ai_analysis": {
-        "scientific_question": "gap junctions and inhibition 如何影响耳蜗核Bushy细胞网络的同步行为？",
-        "key_highlight": "模型模拟表明gap junctions强度增加可增强Globular和Spherical两种Bushy细胞的同步性，而inhibition的作用呈非单调性。",
-        "main_limitation": "计算模型研究固有的简化特性限制了对真实神经生理机制的直接推断。",
-        "research_implication": "为理解听觉通路中神经同步机制提供了基础电生理数据，有助于间接指导人工耳蜗等神经假体的信号编码策略优化。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "a45661413ce864a9",
-        "updated_at": "2026-09-15T07:52:35Z"
-      }
+      "first_seen_at": "2026-05-14T02:29:04Z"
     },
     {
       "title": "Factors affecting binaural fusion in cochlear implant users",
@@ -38361,8 +38638,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -38376,8 +38653,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -43898,8 +44175,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -43913,8 +44190,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
