@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T07:47:43Z",
+  "generated_at": "2026-09-18T07:28:19Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
@@ -186,6 +186,42 @@
       "first_seen_at": "2026-08-27T12:51:57Z"
     },
     {
+      "title": "Effects of gap onset time and gap duration on the deviant-related negativity in typically developing school-age children",
+      "authors": [
+        "Shaghayegh Omidvar",
+        "Kenneth Campbell",
+        "Steven Aiken",
+        "Claude Alain",
+        "Amineh Koravand"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109787",
+      "url": "https://doi.org/10.1016/j.heares.2026.109787",
+      "abstract": "This study examined whether automatic change detection to within-stimulus gaps, indexed by the deviant-related response (DRN), varies with gap duration and the temporal position of the gap within a long-duration sound, and whether these effects differ between children and adults. Fifteen typically developing children (8-12 years) and fifteen adults (23-37 years) completed passive EEG recordings using a multi-deviant sequence in which standards and deviants alternated. All stimuli were 500-ms broadband-noise bursts. Deviants contained a silent gap of 10 or 30 ms inserted at 15, 50, 100, 200, 300, or 400 ms after stimulus onset. DRNs were derived from deviant-standard difference waves, and the presence of a DRN was evaluated using confidence interval (CI) procedures. In a separate behavioural task, participants performed active gap detection, and sensitivity was quantified using d'. In both groups, DRN amplitude increased with gap duration and decreased as the gap onset time was delayed. Reliable DRNs were absent at the latest gap position (400 ms) in both groups. In adults, a small DRN was evident at 300 ms, whereas in children, CI testing showed that significant DRNs were limited to the 30-ms gaps occurring at 15 and 50 ms.. Behavioural sensitivity was high overall but lower in children than in adults, and did not correlate with DRN amplitude. Automatic detection of within-stimulus gaps is constrained by the timing of the change, and this temporal constraint appears to be more pronounced in children. The dissociation between DRN outcomes and behavioural performance suggests that active detection may be supported by mechanisms beyond those indexed by the passive DRN.",
+      "last_author_affiliation": "School of Rehabilitation Sciences, University of Ottawa, Ottawa, Canada. Electronic address: amineh.koravand@uottawa.ca.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-03",
+      "first_seen_at": "2026-09-04T07:17:01Z",
+      "ai_analysis": {
+        "scientific_question": "儿童和成人在对宽带噪声中短暂静音间隙的自动变化检测能力是否存在差异？",
+        "key_highlight": "儿童对刺激内间隙的自动检测表现出更严格的时间约束，其显著DRN仅出现在较晚 onset 位置的30 ms间隙中，而成人则表现出更宽的时间敏感性。",
+        "main_limitation": "样本量较小（每组15人）且仅限于典型发育儿童，研究结论对临床人群或更广泛年龄范围的推广受限。",
+        "research_implication": "该研究提示主动间隙检测可能依赖被动神经反应以外的机制，这对理解助听设备使用者的听觉时间加工具有参考意义。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "9737f44acbce470e",
+        "updated_at": "2026-09-18T07:28:53Z"
+      }
+    },
+    {
       "title": "Evaluating perceptual evidence of cross-modal plasticity in older adults with hearing loss using an audio–visual word mismatch task",
       "authors": [
         "Patricia V. Aguiar",
@@ -334,6 +370,46 @@
       "source": "crossref",
       "available_online_date": "2026-08-30",
       "first_seen_at": "2026-09-02T07:09:02Z"
+    },
+    {
+      "title": "Neural origins of the acoustic change complex auditory evoked potential: Topographical maps and source localization in the auditory cortex",
+      "authors": [
+        "Sarah Meehan",
+        "Robert van den Berg",
+        "Nick M․ J․ Hanenberg",
+        "Marloes L. Adank",
+        "Laura I.A. Schellekens",
+        "Geert Geleijnse",
+        "Jantien L. Vroegop"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109799",
+      "url": "https://doi.org/10.1016/j.heares.2026.109799",
+      "abstract": "In general, the neural origins of the 'acoustic change complex' (ACC) are attributed to the auditory cortex, based on measurements performed on the brain response to the 'onset' of a sound, rather than a 'change' response per se. (1) to produce ACC topographical maps via high-density electroencephalography (EEG) multi-electrode arrays to visualise brain activity across the entire scalp; (2) to perform source localization specifically on the ACC. ACC responses were recorded via 128 channel EEG from 18 normal hearing adults. Sound stimulus: 1 kHz pure tone containing a 10% frequency change, 3000 ms pre-transition duration. 'Onset' and 'ACC' topographical maps were generated. Source localization was performed using MNE-Python and a standard linearly constrained minimum variance (LCMV) beamforming method. Classic P1-N1-P2 waveforms were observed for both the onset response and ACC by plotting voltage against time. The sound onset elicited a faster response than the sound change. ACC topographical maps resembled those of the onset response; P1, N1 and P2 peaks were identified, and central electrodes gave robust responses. ACC and onset response source time courses revealed bilateral localization of the N1 peaks in the auditory cortex. Topographical maps represent a useful means to explore the fidelity and temporal dynamics of the ACC. Results confirmed that neural origins of the ACC reside bilaterally in the auditory cortex. Interestingly, source localization of the ACC showed a similar spatial distribution to the onset response, suggesting similar neural generators, although further research is required for deeper clarification.",
+      "last_author_affiliation": "Department of Otorhinolaryngology and Head and Neck Surgery, Erasmus University Medical Center, Rotterdam, the Netherlands.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-03",
+      "first_seen_at": "2026-09-04T07:17:01Z",
+      "ai_analysis": {
+        "scientific_question": "声学变化复合波（ACC）的神经发生源位于何处，以及利用高密度脑电图拓扑图和源定位能否更精确地揭示其在听觉皮层的空间分布特征？",
+        "key_highlight": "高密度128通道脑电图结合源定位技术证实，ACC的神经发生源双侧定位于听觉皮层，且其空间分布模式与声音起始反应相似，提示两者可能具有相似的神经发生器。",
+        "main_limitation": "Limited generalizability due to small or specific sample",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "55784098d17e4e68",
+        "updated_at": "2026-09-18T07:29:02Z"
+      }
     },
     {
       "title": "Oxaliplatin-chemotherapy induced cochlear synaptopathy",
@@ -613,16 +689,6 @@
       "doi": "10.1016/j.heares.2026.109789",
       "url": "https://doi.org/10.1016/j.heares.2026.109789",
       "abstract": "PURPOSE: Military Veterans are at high risk for noise-induced cochlear synaptopathy, a type of cochlear deafferentation. Predicted perceptual consequences of deafferentation include tinnitus and hyperacusis. The objective of this study was to determine if compared to young non-Veteran controls with minimal noise exposure, Veterans with normal audiograms who report constant tinnitus and/or decreased sound tolerance (DST) show reductions in three physiological indicators of deafferentation: (1) auditory brainstem response [ABR] wave I amplitude, (2) envelope following response [EFR] magnitude, and (3) wideband middle ear muscle reflex [MEMR] magnitude. Outer hair cell (OHC) function was also evaluated using distortion product otoacoustic emissions [DPOAEs]. RESULTS: Mean ABR wave I amplitudes, EFR magnitudes, and high frequency DPOAEs were reduced in a sample of 22 Veterans with tinnitus and 19 Veterans with DST relative to 165 controls. On average, MEMR magnitudes were also smaller for Veterans with DST than for controls. While many Veterans with tinnitus had smaller MEMRs than controls, a small number had large MEMRs. ABR wave V/I amplitude ratios tended to be elevated for Veterans compared to controls. CONCLUSIONS: ABR, EFR, and DPOAE measurements were suggestive of both cochlear deafferentation and subclinical high frequency OHC dysfunction in Veterans with constant tinnitus or DST. Reductions in MEMR magnitude were not consistently observed in Veterans with tinnitus who had reduced ABR and EFR measurements, indicating that the MEMR may not be a reliable indicator of cochlear deafferentation. Increased central gain in the auditory brainstem may have contributed to the perception of tinnitus and DST.",
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "auditory physiology",
-        "clinical audiology"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-08-27",
-      "first_seen_at": "2026-09-16T07:46:16Z",
       "ai_analysis": {
         "scientific_question": "相比无噪音暴露史的年轻对照人群，在纯音测听正常但报告持续耳鸣或声音耐受性下降的退伍军人中，是否能检测到耳蜗去传入的生理指标变化？",
         "key_highlight": "ABR波I振幅、EAR振幅和高频DPOAE在耳鸣或声音耐受性下降的退伍军人中均降低，提示存在耳蜗去传入和亚临床高频外毛细胞功能障碍。",
@@ -634,7 +700,17 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "37515be0feef5ab0",
         "updated_at": "2026-09-17T07:48:11Z"
-      }
+      },
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-08-27",
+      "first_seen_at": "2026-09-16T07:46:16Z"
     },
     {
       "title": "Validation of the 'Arabic commands in noise test' and evaluation of the impact of conscientiousness on test performance",
@@ -1441,6 +1517,107 @@
       "first_seen_at": "2026-08-18T03:11:28Z"
     },
     {
+      "title": "Behavioral and Cortical Responses to Frequency Changes in Vowel-Like Stimuli in Listeners With Normal and Impaired Hearing",
+      "authors": [
+        "Mats Rekswinkel",
+        "Abigail Anne Kressner",
+        "Jens Hjortkjær",
+        "Jaime A. Undurraga"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-09-17",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001891",
+      "url": "https://doi.org/10.1097/aud.0000000000001891",
+      "abstract": "Objectives: This study proposes a new method for detecting cortical responses to formant frequency changes using the auditory change complex (ACC). These can be used as a proxy for discrimination performance between spectral characteristics of vowels. Design: We generated two sets of vowel-like stimuli, each of which contained four sinusoids with carrier frequencies chosen to correspond to the first three formants of the vowels/u/ and/i/, respectively. During EEG recordings, the second formant ( F 2) frequency changed in different step sizes to evoke an ACC response. We collected responses for both a hearing-impaired group (10 participants) and a control group with normal hearing (9 participants) and furthermore compared these to a behavioral measure of formant frequency discrimination. Results: The size of the change in the frequency of the F 2 formant, as well as the presence of hearing impairment, significantly affected the ACC response. Larger frequency changes produced larger ACC response amplitudes, specifically for the/u/ stimuli with more lower-frequency content. Responses tended to be lower overall for the hearing-impaired participants. Moreover, the ACC magnitude was correlated with behavioral formant discrimination thresholds. Conclusions: Taken altogether, these results lend support to the use of an ACC paradigm to assess frequency discrimination abilities objectively with speech-like stimuli. This study shows reliable responses as well as correlation with behavioral discrimination, which highlight the paradigm’s potential suitability for clinical purposes.",
+      "first_author_affiliation": "Department of Health Technology, Technical University of Denmark, Kongens Lyngby, Denmark",
+      "last_author_affiliation": "Interacoustics Research Unit, Technical University of Denmark, Lyngby, Kongens Lyngby, Denmark",
+      "open_access": true,
+      "open_access_url": "https://www.ovid.com/10.1097/AUD.0000000000001891",
+      "open_access_source": "crossref_license",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Auditory change complex",
+        "Auditory steady state responses",
+        "Formant frequency discrimination",
+        "Psychophysical discrimination thresholds"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-17",
+      "first_seen_at": "2026-09-18T07:27:38Z",
+      "full_text_url": "https://www.ovid.com/jnls/ear-hearing/fulltext/10.1097/aud.0000000000001891~behavioral-and-cortical-responses-to-frequency-changes-in",
+      "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
+      "key_formula": "T 2 = N ( x ¯ − μ 0 ) ⊺ S − 1 ( x ¯ − μ 0 )",
+      "media_checked_at": "2026-09-18T07:28:28Z",
+      "open_access_image_checked_at": "2026-09-18T07:28:27Z",
+      "ai_analysis": {
+        "scientific_question": "听觉变化复合音（ACC）能否作为一种客观方法检测正常听力与听力受损者在元音频谱特征变化中的皮层反应？",
+        "key_highlight": "ACC振幅与行为形式的元音共振峰辨别阈值显著相关，且受频率变化幅度和听力损失状态的显著影响。",
+        "main_limitation": "样本量较小（听力受损组10人，正常听力组9人），且仅纳入特定类型的元音声刺激。",
+        "research_implication": "该ACC范式在语音刺激下具有客观评估频率辨别能力的临床应用潜力，可为助听器验配及言语感知功能评估提供电生理指标。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "96983c5fa4c3198d",
+        "updated_at": "2026-09-18T07:29:13Z"
+      }
+    },
+    {
+      "title": "Development and Evaluation of a Realistic Audio-Visual Multi-Talker Speech Comprehension Test",
+      "authors": [
+        "Xinyu Guo",
+        "Rebecca Holt",
+        "Kelly Miles",
+        "Ronny Kurniawan Ibrahim",
+        "Stefan Raufer",
+        "Peter Derleth",
+        "Joerg M. Buchholz"
+      ],
+      "journal": "Trends in Hearing",
+      "publication_date": "2026-09-17",
+      "publication_date_precision": "day",
+      "doi": "10.1177/23312165261489985",
+      "url": "https://doi.org/10.1177/23312165261489985",
+      "abstract": "Current speech comprehension assessments do not provide a reliable measure of listeners’ real-life speech comprehension ability, as they fail to capture the complexity and dynamic nature of real-world communicative scenarios. To better align laboratory assessment with real-world listening demands, we developed a new speech comprehension test using audio-visual recordings of spontaneous conversations between two talkers. The conversations were combined with babble noise at three different signal-to-noise ratios (SNRs) to vary task difficulty (Quiet, 0dB, and -5dB). Speech comprehension was assessed using a word monitoring paradigm, in which listeners were given a word category and responded to target words related to that category by pressing a hand-held button. Outcome measures included self-rated listening effort, hit rate, response time (RT), and head turn behavior. Thirty adults with normal hearing were tested. With decreasing SNR, self-reported listening effort increased, hit rate decreased, and RT increased. Participants predominantly oriented toward the active talker, with visual localization achieved through a combination of head and eye movements. Dynamic analyses around conversational floor transfers revealed that, listeners oriented earlier and more consistently toward the upcoming talker in more challenging conditions. None of the behavioral measures were significantly associated with listening effort ratings after accounting for SNR effects. Overall, our results demonstrate that the proposed test provides a sensitive measure of real-world speech comprehension and holds promise for assessing the impact of hearing loss and evaluating hearing device benefit in ecologically valid settings.",
+      "first_author_affiliation": "Macquarie University",
+      "last_author_affiliation": "Macquarie University",
+      "open_access": true,
+      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261489985",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology",
+        "real-world listening"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-17",
+      "first_seen_at": "2026-09-18T07:27:26Z",
+      "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261489985",
+      "media_checked_at": "2026-09-18T07:28:28Z",
+      "open_access_image_checked_at": "2026-09-18T07:28:28Z",
+      "ai_analysis": {
+        "scientific_question": "当前语音理解评估方法能否可靠测量真实生活中的语音理解能力？",
+        "key_highlight": "新开发的视听多人对话测试结合不同信噪比条件，能够敏感测量真实世界语音理解能力。",
+        "main_limitation": "Limited generalizability due to small or specific sample",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "423005b05ef8f113",
+        "updated_at": "2026-09-18T07:29:22Z"
+      }
+    },
+    {
       "title": "A comprehensive catalog of hydroacoustic sources using the International Monitoring System network",
       "authors": [
         "Hugo Fauvel",
@@ -1456,14 +1633,6 @@
       "doi": "10.1121/10.0044415",
       "url": "https://doi.org/10.1121/10.0044415",
       "abstract": "As part of the Comprehensive Nuclear-Test-Ban Treaty, six hydrophone stations of the International Monitoring System transmit continuous data in real time. These stations have recorded low-frequency underwater acoustic waves propagating in the SOund Fixing And Ranging channel for decades. Automated processing of this large data volume is desirable, particularly to discriminate records by source type. However, no catalog currently exists. We present a methodology based on a rule-based expert system to establish such a catalog, covering seven source types: earthquakes, volcanic activity, cryospheric activity, whales, vessels, airguns, and chemical explosions. The catalog consists of 49 452 events from moored hydrophone stations, with an assignment error of less than 1%. Because the process is interpretable and reproducible, the catalog can be readily expanded to incorporate additional inputs. This catalog can be used to identify and analyze specific source types in greater detail.",
-      "first_author_affiliation": "Commissariat à l'Energie Atomique, Direction des Applications Militaires–Île-de-France 1 , F-91297 Arpajon,",
-      "last_author_affiliation": "Université de Brest, CNRS, Ifremer, Geo-Ocean 4 , UMR6538, Plouzané,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-16",
-      "first_seen_at": "2026-09-17T07:46:13Z",
       "ai_analysis": {
         "scientific_question": "如何利用国际监测系统的水听器网络自动建立水下声学源的完整目录以区分不同类型的低频声波事件？",
         "key_highlight": "基于规则专家系统的方法成功对49,452个事件进行分类，涵盖七种声源类型，分配误差低于1%，且该过程具有可解释性和可重复性。",
@@ -1475,7 +1644,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "78da6b2ece6323b8",
         "updated_at": "2026-09-17T07:48:22Z"
-      }
+      },
+      "first_author_affiliation": "Commissariat à l'Energie Atomique, Direction des Applications Militaires–Île-de-France 1 , F-91297 Arpajon,",
+      "last_author_affiliation": "Université de Brest, CNRS, Ifremer, Geo-Ocean 4 , UMR6538, Plouzané,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-16",
+      "first_seen_at": "2026-09-17T07:46:13Z"
     },
     {
       "title": "Absolute Quality Ratings of Speech Enhancement Systems by Listeners of Different Ages and Degrees of Hearing Loss",
@@ -1496,6 +1673,18 @@
       "doi": null,
       "url": "https://arxiv.org/abs/2609.18714v1",
       "abstract": "Speech Enhancement (SE) supports listening, particularly for older adults with age-related hearing loss. Yet, enhanced Speech Quality (SQ) is commonly evaluated by young normal-hearing listeners, and how their ratings translate to older adults remains under-explored. We compared absolute SQ ratings from 40 younger normal-hearing listeners (20-30 years) and 67 older listeners (60-95 years) with diverse audiometric profiles, after screening. Test materials comprised natural dialogues with realistic backgrounds. SQ differences between SE systems that were clear for younger listeners were smaller or inseparable in older groups, regardless of hearing status. Hearing loss severity was associated with lower absolute ratings, but did not strongly modulate the contraction in separable SQ differences. A small, audiometrically mixed subgroup of older listeners showed younger-like rating patterns, suggesting that peripheral audiology alone cannot explain the contraction.",
+      "ai_analysis": {
+        "scientific_question": "年轻人与老年人在语音增强系统绝对语音质量评分上是否存在差异，且这种差异是否与听力状况相关？",
+        "key_highlight": "年轻听力正常者能够清晰区分的语音增强系统之间的质量差异，在老年组中变小或无法区分，且该现象与听力状态无关。",
+        "main_limitation": "研究样本中包含一个 audiometrically mixed 的老年亚组表现出类似年轻人的评分模式，提示可能存在未被测量的认知或神经因素影响评分结果。",
+        "research_implication": "研究结果表明，基于年轻听力正常者的语音增强系统评估可能无法准确反映老年用户的使用体验，这对助听器和人工耳蜗等相关辅助设备的优化设计具有参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "eecef6d22006f310",
+        "updated_at": "2026-09-17T07:48:37Z"
+      },
       "publication_stage": "preprint",
       "section": null,
       "keywords": [
@@ -1517,19 +1706,7 @@
         "title"
       ],
       "needs_review": true,
-      "first_seen_at": "2026-09-17T07:47:43Z",
-      "ai_analysis": {
-        "scientific_question": "年轻人与老年人在语音增强系统绝对语音质量评分上是否存在差异，且这种差异是否与听力状况相关？",
-        "key_highlight": "年轻听力正常者能够清晰区分的语音增强系统之间的质量差异，在老年组中变小或无法区分，且该现象与听力状态无关。",
-        "main_limitation": "研究样本中包含一个 audiometrically mixed 的老年亚组表现出类似年轻人的评分模式，提示可能存在未被测量的认知或神经因素影响评分结果。",
-        "research_implication": "研究结果表明，基于年轻听力正常者的语音增强系统评估可能无法准确反映老年用户的使用体验，这对助听器和人工耳蜗等相关辅助设备的优化设计具有参考价值。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "eecef6d22006f310",
-        "updated_at": "2026-09-17T07:48:37Z"
-      }
+      "first_seen_at": "2026-09-17T07:47:43Z"
     },
     {
       "title": "Characterizing the perceptual effect of changing phase duration: Is it place-pitch?",
@@ -1543,28 +1720,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0046504",
       "url": "https://doi.org/10.1121/10.0046504",
-      "abstract": "Cochlear implant stimulus phase duration can vary clinically to ensure adequate loudness growth while avoiding current-source compliance limits. These manipulations are typically done without consideration of any possible perceptual changes beyond loudness. However, limited reports in the literature suggest that changing phase duration can also impact pitch. It is well established that changes in multiple perceptual dimensions may be reported as pitch. In this study, phase duration and electrodes were systematically varied, and a multidimensional scaling paradigm was used to test whether perceptual changes caused by changes in phase duration lie along the dimension of place-pitch when observed.",
-      "first_author_affiliation": "NYU Grossman School of Medicine 1 , New York, New York 10016,",
-      "last_author_affiliation": "NYU Grossman School of Medicine 1 , New York, New York 10016,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0046504",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "auditory physiology",
-        "clinical audiology",
-        "cochlear implant",
-        "priority section",
-        "psychoacoustics"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-09-16",
-      "first_seen_at": "2026-09-17T07:46:16Z",
       "full_text_url": "https://pubs.aip.org/jel/article/6/9/094802/3404707/Characterizing-the-perceptual-effect-of-changing",
-      "media_checked_at": "2026-09-17T07:47:51Z",
-      "open_access_image_checked_at": "2026-09-17T07:47:51Z",
+      "abstract": "Cochlear implant stimulus phase duration can vary clinically to ensure adequate loudness growth while avoiding current-source compliance limits. These manipulations are typically done without consideration of any possible perceptual changes beyond loudness. However, limited reports in the literature suggest that changing phase duration can also impact pitch. It is well established that changes in multiple perceptual dimensions may be reported as pitch. In this study, phase duration and electrodes were systematically varied, and a multidimensional scaling paradigm was used to test whether perceptual changes caused by changes in phase duration lie along the dimension of place-pitch when observed.",
       "ai_analysis": {
         "scientific_question": "相位时长变化引起的感知变化是否属于位置音高维度？",
         "key_highlight": "本研究采用多维标度范式，系统地检验人工耳蜗植入者对相位时长变化的感知是否沿位置音高维度分布。",
@@ -1576,7 +1733,27 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "3c7b6c00154c036a",
         "updated_at": "2026-09-17T07:48:45Z"
-      }
+      },
+      "first_author_affiliation": "NYU Grossman School of Medicine 1 , New York, New York 10016,",
+      "last_author_affiliation": "NYU Grossman School of Medicine 1 , New York, New York 10016,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046504",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-09-17T07:47:51Z",
+      "media_checked_at": "2026-09-17T07:47:51Z",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology",
+        "cochlear implant",
+        "priority section",
+        "psychoacoustics"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-16",
+      "first_seen_at": "2026-09-17T07:46:16Z"
     },
     {
       "title": "Development of the Children’s English and Spanish Speech Recognition Test: Sound Field Data From Children With and Without Hearing Loss",
@@ -1593,14 +1770,30 @@
       "publication_date_precision": "day",
       "doi": "10.1097/aud.0000000000001887",
       "url": "https://doi.org/10.1097/aud.0000000000001887",
+      "full_text_url": "https://www.ovid.com/jnls/ear-hearing/fulltext/10.1097/aud.0000000000001887~development-of-the-childrens-english-and-spanish-speech",
       "abstract": "Objectives: Speech perception testing in the sound field plays an important role in assessing outcomes for children with hearing loss, particularly those who use sensory aids. The goals of the present report were to (1) establish normative data in the sound field for the Children’s English and Spanish Speech Recognition test (ChEgSS) using English or Spanish targets presented in speech-shaped noise or two-talker speech, and (2) provide preliminary data on ChEgSS in the sound field for children with hearing loss to guide a large-scale evaluation of the ChEgSS test conducted at multiple pediatric audiology clinics across the U.S. Design: Experiment 1 administered ChEgSS in the sound field to children (4 to 17 years) with normal hearing, including English monolinguals and Spanish-English bilinguals. Experiment 2 administered ChEgSS in the sound field to children with bilateral hearing loss, tested with and without their hearing aids. Results: As observed previously for ChEgSS presented over headphones, performance in the sound field improved with age, with larger age effects in the speech masker than in the noise masker. Results for most bilingual children were similar whether listening in English or Spanish. For children with hearing loss, aided ChEgSS scores tended to be similar to or better than those obtained unaided, supporting the idea that sound field presentation of ChEgSS can characterize the benefit associated with appropriate amplification. Conclusions: Results indicate the feasibility of using ChEgSS to assess speech recognition in the sound field for English monolingual and Spanish-English bilingual children.",
+      "ai_analysis": {
+        "scientific_question": "针对英语单语和西班牙语-英语双语儿童开发的声音场言语识别测试（ChEgSS）能否建立有效的标准化数据，并用于评估听力损失儿童的助听器效益？",
+        "key_highlight": "声音场条件下ChEgSS测试显示助听后的得分与未助听相比相似或更优，证实了该测试可表征放大装置的效益。",
+        "main_limitation": "本研究为初步数据，样本量有限且来自特定年龄段的儿童，其结论尚需在多中心大规模研究中进一步验证。",
+        "research_implication": "该测试为临床评估双语儿童及使用助听器的听力损失儿童言语感知提供了可行的工具，对儿童助听器验配效果评估具有直接参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "b6d4a77e4af03c3c",
+        "updated_at": "2026-09-17T07:48:56Z"
+      },
       "first_author_affiliation": "Department of Otolaryngology/HNS, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA",
       "last_author_affiliation": "Department of Speech and Hearing Sciences, University of New Mexico, Albuquerque, New Mexico, USA.",
       "open_access": true,
       "open_access_url": "https://www.ovid.com/10.1097/AUD.0000000000001887",
       "open_access_source": "crossref_license",
       "license_url": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "open_access_image_checked_at": "2026-09-17T07:47:51Z",
+      "media_checked_at": "2026-09-17T07:47:52Z",
       "publication_stage": "early_access",
+      "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [
         "Benefit of amplification",
@@ -1619,23 +1812,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-16",
-      "first_seen_at": "2026-09-17T07:46:50Z",
-      "full_text_url": "https://www.ovid.com/jnls/ear-hearing/fulltext/10.1097/aud.0000000000001887~development-of-the-childrens-english-and-spanish-speech",
-      "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
-      "media_checked_at": "2026-09-17T07:47:52Z",
-      "open_access_image_checked_at": "2026-09-17T07:47:51Z",
-      "ai_analysis": {
-        "scientific_question": "针对英语单语和西班牙语-英语双语儿童开发的声音场言语识别测试（ChEgSS）能否建立有效的标准化数据，并用于评估听力损失儿童的助听器效益？",
-        "key_highlight": "声音场条件下ChEgSS测试显示助听后的得分与未助听相比相似或更优，证实了该测试可表征放大装置的效益。",
-        "main_limitation": "本研究为初步数据，样本量有限且来自特定年龄段的儿童，其结论尚需在多中心大规模研究中进一步验证。",
-        "research_implication": "该测试为临床评估双语儿童及使用助听器的听力损失儿童言语感知提供了可行的工具，对儿童助听器验配效果评估具有直接参考价值。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "b6d4a77e4af03c3c",
-        "updated_at": "2026-09-17T07:48:56Z"
-      }
+      "first_seen_at": "2026-09-17T07:46:50Z"
     },
     {
       "title": "Dynamic mode decomposition by tensor evolution for source depth",
@@ -1652,14 +1829,6 @@
       "doi": "10.1121/10.0046532",
       "url": "https://doi.org/10.1121/10.0046532",
       "abstract": "Depth estimation of shallow acoustic sources using a deep-ocean near-bottom vertical line array relies on depth-sensitive interference, which appears as an oscillatory structure in the frequency-angle domain in broadband matched beam-intensity processing (MBIP). For low signal-to-noise ratio, the nonlinear feature extraction in MBIP transforms array-domain noise into feature-domain distortions, making depth estimation fragile. Addressing this issue, we propose a tensor evolution-based depth estimation method inspired by dynamic mode decomposition, which interprets a sequence of broadband MBIP surfaces as the output of a dynamic system from a time-varying autoregressive operator. The operator is represented by a low-rank Tucker decomposition, which separates coherent feature modes and their temporal modes from incoherent noise. The target depth is inferred via Fourier summation applied to a dominant feature mode. Deep-ocean numerical experiments demonstrate that tensor evolution-based depth estimation improves robustness at low signal-to-noise ratio, consistently outperforming matched field processing and broadband MBIP.",
-      "first_author_affiliation": "Polytechnic Institute, Zhejiang University 1 , Hangzhou 310015,",
-      "last_author_affiliation": "Acoustic Technology, Department of Electrical and Photonics Engineering, Technical University of Denmark 4 , 2800 Kgs., Lyngby,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-16",
-      "first_seen_at": "2026-09-17T07:46:13Z",
       "ai_analysis": {
         "scientific_question": "如何在水下低信噪比环境下提高使用深海水底垂直线阵进行浅层声源深度估计的鲁棒性？",
         "key_highlight": "基于动态模态分解和张量演化的深度估计方法通过Tucker分解分离相干特征模式与噪声，在深海水下数值实验中优于匹配场处理和宽带匹配波束强度处理。",
@@ -1671,7 +1840,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "30b3c154570a9696",
         "updated_at": "2026-09-17T07:49:06Z"
-      }
+      },
+      "first_author_affiliation": "Polytechnic Institute, Zhejiang University 1 , Hangzhou 310015,",
+      "last_author_affiliation": "Acoustic Technology, Department of Electrical and Photonics Engineering, Technical University of Denmark 4 , 2800 Kgs., Lyngby,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-16",
+      "first_seen_at": "2026-09-17T07:46:13Z"
     },
     {
       "title": "Effect of the number of jittering echoes on jittered delay accuracy in a bottlenose dolphin",
@@ -1696,7 +1873,19 @@
       "tags": [],
       "source": "crossref",
       "available_online_date": "2026-09-16",
-      "first_seen_at": "2026-09-17T07:46:13Z"
+      "first_seen_at": "2026-09-17T07:46:13Z",
+      "ai_analysis": {
+        "scientific_question": "抖动回声数量如何影响回声定位海豚检测微秒级回声延迟变化的能力？",
+        "key_highlight": "随着抖动回声数量从1个增加到9个，海豚的抖动检测阈值从84微秒线性下降至1.8微秒，但超过9个抖动回声后阈值不再显著变化。",
+        "main_limitation": "单被试设计（仅一只训练有素的海豚）限制了研究结果向其他个体或物种推广的程度。",
+        "research_implication": "该研究为理解回声定位中的多回声处理机制提供了重要参考，对生物声呐系统的听觉时间处理研究具有广泛意义。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "d1b25074a2609f72",
+        "updated_at": "2026-09-18T07:29:36Z"
+      }
     },
     {
       "title": "From Approximation to Validation: Rethinking Frequency-Matched Acoustic Models of Cochlear Implants",
@@ -1743,7 +1932,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-16",
-      "first_seen_at": "2026-09-17T07:46:50Z"
+      "first_seen_at": "2026-09-17T07:46:50Z",
+      "ai_analysis": {
+        "scientific_question": "本研究旨在验证声学模型能否作为人工耳蜗的有效替代品，并探讨 listener-specific frequency mismatch 是否为构建有效声学模型的关键参数",
+        "key_highlight": "研究发现传统的频率匹配声学模型无法准确复制人工耳蜗的感知音质，而 listener-specific 频率失配的自选模型在主观相似性和语音感知得分两方面都更接近真实人工耳蜗表现",
+        "main_limitation": "受试者均为单侧人工耳蜗佩戴者且对侧耳听力正常，研究结果可能无法推广至双侧人工耳蜗用户或对侧耳存在听力损失的人群",
+        "research_implication": "该研究对人工耳蜗研究具有直接指导意义，表明使用频率匹配声学模型作为人工耳蜗替代品进行实验研究时需谨慎，应考虑 listener-specific 个体化参数",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "299838bfa96bcbe8",
+        "updated_at": "2026-09-18T07:29:50Z"
+      }
     },
     {
       "title": "On the correlation between compaction in fine-grained barite sediment and its ultrasound attenuation and wave speed",
@@ -1890,6 +2091,7 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0046526",
       "url": "https://doi.org/10.1121/10.0046526",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/9/093602/3404599/Monitoring-building-HVAC-runtime-using-low-cost",
       "abstract": "This paper evaluates whether low-cost acoustic sensors can be used to predict HVAC on/off state and runtimes by comparing acoustically inferred air handler unit (AHU) operation with power level measurements from a dedicated AHU circuit. We demonstrate and evaluate this approach in a full-scale laboratory home designed for energy performance testing. A threshold-based state inference algorithm applied independently to the power and noise data showed 96.8% agreement, suggesting that overall A-weighted sound level can be used to estimate AHU state for two-state systems with careful sensor placement.",
       "first_author_affiliation": "Pacific Northwest National Laboratory 1 , Richland, Washington 99354,",
       "last_author_affiliation": "Pacific Northwest National Laboratory 1 , Richland, Washington 99354,",
@@ -1897,15 +2099,14 @@
       "open_access_url": "https://doi.org/10.1121/10.0046526",
       "open_access_source": "crossref_license",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-09-17T07:47:52Z",
+      "media_checked_at": "2026-09-17T07:47:52Z",
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
       "available_online_date": "2026-09-15",
-      "first_seen_at": "2026-09-17T07:46:16Z",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/9/093602/3404599/Monitoring-building-HVAC-runtime-using-low-cost",
-      "media_checked_at": "2026-09-17T07:47:52Z",
-      "open_access_image_checked_at": "2026-09-17T07:47:52Z"
+      "first_seen_at": "2026-09-17T07:46:16Z"
     },
     {
       "title": "Near-field acoustic holography with iteratively reweighted least squares–based outlier rejection and TV+ℓ1 regularization",
@@ -3775,39 +3976,6 @@
       "first_seen_at": "2026-09-07T07:23:22Z"
     },
     {
-      "title": "Effects of gap onset time and gap duration on the deviant-related negativity in typically developing school-age children",
-      "authors": [
-        "Shaghayegh Omidvar",
-        "Kenneth Campbell",
-        "Steven Aiken",
-        "Claude Alain",
-        "Amineh Koravand"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-09-03",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109787",
-      "url": "https://doi.org/10.1016/j.heares.2026.109787",
-      "abstract": "This study examined whether automatic change detection to within-stimulus gaps, indexed by the deviant-related response (DRN), varies with gap duration and the temporal position of the gap within a long-duration sound, and whether these effects differ between children and adults. Fifteen typically developing children (8-12 years) and fifteen adults (23-37 years) completed passive EEG recordings using a multi-deviant sequence in which standards and deviants alternated. All stimuli were 500-ms broadband-noise bursts. Deviants contained a silent gap of 10 or 30 ms inserted at 15, 50, 100, 200, 300, or 400 ms after stimulus onset. DRNs were derived from deviant-standard difference waves, and the presence of a DRN was evaluated using confidence interval (CI) procedures. In a separate behavioural task, participants performed active gap detection, and sensitivity was quantified using d'. In both groups, DRN amplitude increased with gap duration and decreased as the gap onset time was delayed. Reliable DRNs were absent at the latest gap position (400 ms) in both groups. In adults, a small DRN was evident at 300 ms, whereas in children, CI testing showed that significant DRNs were limited to the 30-ms gaps occurring at 15 and 50 ms.. Behavioural sensitivity was high overall but lower in children than in adults, and did not correlate with DRN amplitude. Automatic detection of within-stimulus gaps is constrained by the timing of the change, and this temporal constraint appears to be more pronounced in children. The dissociation between DRN outcomes and behavioural performance suggests that active detection may be supported by mechanisms beyond those indexed by the passive DRN.",
-      "last_author_affiliation": "School of Rehabilitation Sciences, University of Ottawa, Ottawa, Canada. Electronic address: amineh.koravand@uottawa.ca.",
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [
-        "Auditory temporal resolution",
-        "Development",
-        "Deviant-related response",
-        "Gap detection",
-        "Mismatch negativity",
-        "Sensory memory"
-      ],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-03",
-      "first_seen_at": "2026-09-04T07:17:01Z"
-    },
-    {
       "title": "Hearing Aid Noise Reduction Algorithms Support Neural Speech Tracking by Enhancing Spectrotemporal Consistency of Phase-Locked Brain Responses to Acoustic Edges",
       "authors": [
         "Adrian Mai",
@@ -3854,42 +4022,6 @@
       "source": "crossref",
       "available_online_date": "2026-09-03",
       "first_seen_at": "2026-09-04T07:16:57Z"
-    },
-    {
-      "title": "Neural origins of the acoustic change complex auditory evoked potential: Topographical maps and source localization in the auditory cortex",
-      "authors": [
-        "Sarah Meehan",
-        "Robert van den Berg",
-        "Nick M․ J․ Hanenberg",
-        "Marloes L. Adank",
-        "Laura I.A. Schellekens",
-        "Geert Geleijnse",
-        "Jantien L. Vroegop"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-09-03",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109799",
-      "url": "https://doi.org/10.1016/j.heares.2026.109799",
-      "abstract": "In general, the neural origins of the 'acoustic change complex' (ACC) are attributed to the auditory cortex, based on measurements performed on the brain response to the 'onset' of a sound, rather than a 'change' response per se. (1) to produce ACC topographical maps via high-density electroencephalography (EEG) multi-electrode arrays to visualise brain activity across the entire scalp; (2) to perform source localization specifically on the ACC. ACC responses were recorded via 128 channel EEG from 18 normal hearing adults. Sound stimulus: 1 kHz pure tone containing a 10% frequency change, 3000 ms pre-transition duration. 'Onset' and 'ACC' topographical maps were generated. Source localization was performed using MNE-Python and a standard linearly constrained minimum variance (LCMV) beamforming method. Classic P1-N1-P2 waveforms were observed for both the onset response and ACC by plotting voltage against time. The sound onset elicited a faster response than the sound change. ACC topographical maps resembled those of the onset response; P1, N1 and P2 peaks were identified, and central electrodes gave robust responses. ACC and onset response source time courses revealed bilateral localization of the N1 peaks in the auditory cortex. Topographical maps represent a useful means to explore the fidelity and temporal dynamics of the ACC. Results confirmed that neural origins of the ACC reside bilaterally in the auditory cortex. Interestingly, source localization of the ACC showed a similar spatial distribution to the onset response, suggesting similar neural generators, although further research is required for deeper clarification.",
-      "last_author_affiliation": "Department of Otorhinolaryngology and Head and Neck Surgery, Erasmus University Medical Center, Rotterdam, the Netherlands.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "(Cortical) auditory evoked potential (C)AEP",
-        "Acoustic change complex (ACC)",
-        "Electroencephalography (EEG)",
-        "Primary auditory cortex",
-        "Secondary auditory cortex",
-        "Source localization/estimation",
-        "Topographical map"
-      ],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-03",
-      "first_seen_at": "2026-09-04T07:17:01Z"
     },
     {
       "title": "Reconstructing individualized near-field head-related transfer functions from a small set of far-field data based on tensor decomposition",
@@ -11577,22 +11709,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044504",
-      "url": "https://doi.org/10.1121/10.0044504",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:37Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -11605,6 +11721,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:36Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044504",
+      "url": "https://doi.org/10.1121/10.0044504",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:37Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -19144,17 +19276,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -19175,18 +19308,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -28510,22 +28642,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -28538,6 +28654,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -35640,23 +35772,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -35670,6 +35785,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -39029,8 +39161,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -39044,8 +39176,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -44566,8 +44698,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -44581,8 +44713,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
