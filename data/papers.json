@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T07:28:19Z",
+  "generated_at": "2026-09-19T07:23:56Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
@@ -148,6 +148,42 @@
       "first_seen_at": "2026-08-31T08:42:32Z"
     },
     {
+      "title": "Contributions of aging, auditory nerve health, and speed of processing to psychophysical gap detection thresholds in cochlear implant users",
+      "authors": [
+        "Kara C. Schvartz-Leyzac",
+        "Kelly C. Harris"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109801",
+      "url": "https://doi.org/10.1016/j.heares.2026.109801",
+      "abstract": "Precise encoding of temporal speech cues is critical for speech understanding and are especially important for cochlear implant (CI) users, who receive limited spectral information. Silent gap detection is a simple index of auditory temporal precision, yet mechanisms and stimulus parameters driving variability in CI gap detection thresholds (GDTs) remain unclear. The overall aim of this study was to describe how AN density, aging, pulse rate, and cognitive speed of processing contribute to GDTs in adult CI users. Twenty post-lingually deafened adult Cochlear™ CI users (37-87 years) participated. We recorded electrically evoked compound action potentials (ECAPs) and psychophysical gap detection using direct stimulation techniques. ECAP interphase gap (IPG) slope effect was used as an estimate of AN density. GDTs were measured with 500 and 3500 pps pulse trains on two electrodes per ear paired with the highest and lowest IPG effect. Cognitive processing speed was assessed with the Connections Test. CNC word recognition was measured in the sound field. GDTs increased (worsened) with increasing age; but decreased (improved) overall when using a higher compared to lower pulse rate but more so for younger compared to older CI users. Estimates of AN density did not predict GDTs. Slower cognitive processing speed was associated with poorer GDTs, when using higher but not lower pulse rates. These results suggest that, at higher pulse rates central/cognitive mechanisms but not AN density status, predict encoding of temporal gaps in adult CI users particularly when using higher pulse rate stimuli.",
+      "ai_analysis": {
+        "scientific_question": "在人工耳蜗使用者中，年龄、听神经密度、刺激脉率和认知加工速度如何共同影响时域间隙检测阈值。",
+        "key_highlight": "在较高刺激脉率条件下，认知加工速度而非听神经密度状态可预测成人人工耳蜗使用者的时域间隙编码能力。",
+        "main_limitation": "样本量较小（n=20）且年龄跨度较大（37-87岁），研究结果的外推性存在一定局限。",
+        "research_implication": "该研究提示在人工耳蜗言语处理器参数优化中需考虑认知因素与刺激脉率的交互作用，尤其对老年用户的高频刺激策略设计具有参考意义。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "7a047cfe398c2281",
+        "updated_at": "2026-09-13T07:32:52Z"
+      },
+      "last_author_affiliation": "Medical University of South Carolina, Department of Otolaryngology-Head & Neck Surgery, 135 Rutledge Ave, MSC 550, Charleston, SC, 29425, USA.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "cochlear implant"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-04",
+      "first_seen_at": "2026-09-04T07:17:01Z"
+    },
+    {
       "title": "Domain-specific deficits in categorical perception unveil the neural architecture of auditory agnosia in dementia",
       "authors": [
         "Xiaotian Gao",
@@ -200,14 +236,6 @@
       "doi": "10.1016/j.heares.2026.109787",
       "url": "https://doi.org/10.1016/j.heares.2026.109787",
       "abstract": "This study examined whether automatic change detection to within-stimulus gaps, indexed by the deviant-related response (DRN), varies with gap duration and the temporal position of the gap within a long-duration sound, and whether these effects differ between children and adults. Fifteen typically developing children (8-12 years) and fifteen adults (23-37 years) completed passive EEG recordings using a multi-deviant sequence in which standards and deviants alternated. All stimuli were 500-ms broadband-noise bursts. Deviants contained a silent gap of 10 or 30 ms inserted at 15, 50, 100, 200, 300, or 400 ms after stimulus onset. DRNs were derived from deviant-standard difference waves, and the presence of a DRN was evaluated using confidence interval (CI) procedures. In a separate behavioural task, participants performed active gap detection, and sensitivity was quantified using d'. In both groups, DRN amplitude increased with gap duration and decreased as the gap onset time was delayed. Reliable DRNs were absent at the latest gap position (400 ms) in both groups. In adults, a small DRN was evident at 300 ms, whereas in children, CI testing showed that significant DRNs were limited to the 30-ms gaps occurring at 15 and 50 ms.. Behavioural sensitivity was high overall but lower in children than in adults, and did not correlate with DRN amplitude. Automatic detection of within-stimulus gaps is constrained by the timing of the change, and this temporal constraint appears to be more pronounced in children. The dissociation between DRN outcomes and behavioural performance suggests that active detection may be supported by mechanisms beyond those indexed by the passive DRN.",
-      "last_author_affiliation": "School of Rehabilitation Sciences, University of Ottawa, Ottawa, Canada. Electronic address: amineh.koravand@uottawa.ca.",
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-03",
-      "first_seen_at": "2026-09-04T07:17:01Z",
       "ai_analysis": {
         "scientific_question": "儿童和成人在对宽带噪声中短暂静音间隙的自动变化检测能力是否存在差异？",
         "key_highlight": "儿童对刺激内间隙的自动检测表现出更严格的时间约束，其显著DRN仅出现在较晚 onset 位置的30 ms间隙中，而成人则表现出更宽的时间敏感性。",
@@ -219,7 +247,50 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "9737f44acbce470e",
         "updated_at": "2026-09-18T07:28:53Z"
-      }
+      },
+      "last_author_affiliation": "School of Rehabilitation Sciences, University of Ottawa, Ottawa, Canada. Electronic address: amineh.koravand@uottawa.ca.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-03",
+      "first_seen_at": "2026-09-04T07:17:01Z"
+    },
+    {
+      "title": "Effects of salicylate on organ-of-Corti vibrations in the second turn of the gerbil cochlea",
+      "authors": [
+        "Sebastiaan W.F. Meenderink",
+        "Wei Dong"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109802",
+      "url": "https://doi.org/10.1016/j.heares.2026.109802",
+      "abstract": "Sound-evoked responses of the organ of Corti (OoC) in the living cochlea are enhanced by active processes driven by outer hair cells (OHCs). To assess how suppression of OHC function affects intracochlear mechanics, we applied salicylate-a blocker of OHC electromotility-to the round window of anesthetized Mongolian gerbils and measured both distortion product otoacoustic emissions (DPOAEs) and sound-evoked vibrations of the OoC in the second cochlear turn using optical coherence tomography (OCT). Salicylate reduced DPOAE amplitudes in a time- and frequency-dependent manner and decreased intracochlear vibration amplitudes throughout the OoC. The largest effects occurred for low-level stimuli near the best frequency, resulting in reduced cochlear gain consistent with suppression of OHC-mediated amplification. In contrast, phase relationships were largely preserved, suggesting attenuation of active feedback without major changes in intracochlear mechanical coupling. Salicylate affected responses over a broad frequency range extending more than two octaves below the best frequency, a pattern that differs from previous observations in the cochlear base. Similar reductions in basilar membrane (BM) and OHC-region vibrations indicate that OHC-generated forces contribute to motion throughout the local cochlear partition. DPOAE reductions closely matched intracochlear gain changes near the best frequency, supporting their use as a frequency-specific indicator of local cochlear amplification.",
+      "ai_analysis": {
+        "scientific_question": "抑制外毛细胞电运动功能如何影响耳蜗内部的机械振动特性？",
+        "key_highlight": "水杨酸钠在降低耳蜗增益和声诱发振动幅度的同时基本保留了相位关系，表明主动反馈被削弱但内部机械耦合未发生显著改变。",
+        "main_limitation": "基于急性动物模型的发现向人类慢性听觉病理状态的外推存在不确定性。",
+        "research_implication": "研究支持利用DPOAE作为频率特异性指标评估局部耳蜗放大功能，为助听器验配和听觉评估提供了生理学依据。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "f6d7888b832ebe90",
+        "updated_at": "2026-09-14T07:59:22Z"
+      },
+      "last_author_affiliation": "Department of Otolaryngology - Head and Neck Surgery, University of California, Irvine, CA, 92617, USA; VA Long Beach Healthcare System, Long Beach, CA, 90822, USA. Electronic address: weid10@hs.uci.edu.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-04",
+      "first_seen_at": "2026-09-05T06:58:29Z"
     },
     {
       "title": "Evaluating perceptual evidence of cross-modal plasticity in older adults with hearing loss using an audio–visual word mismatch task",
@@ -331,6 +402,42 @@
       "first_seen_at": "2026-09-01T07:52:01Z"
     },
     {
+      "title": "Hippocampal and amygdalar structures preferentially target somatostatin-expressing interneurons in the auditory cortex",
+      "authors": [
+        "Philip T. Williams",
+        "Tania Rinaldi Barkat",
+        "Florian Studer"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109804",
+      "url": "https://doi.org/10.1016/j.heares.2026.109804",
+      "abstract": "The auditory cortex integrates sensory and contextual inputs in emotion and fear driven situations that can be consolidated over learning. Somatostatin-expressing (SST+) interneurons play a key role in inhibitory modulation of sensory processing, yet their long-range inputs remain poorly characterised. We performed rabies-based retrograde monosynaptic tracing to compare the specific inputs to SST+ interneurons with the general input connectome of neurons in the mouse auditory cortex. Overall, inputs were similar, with the majority of presynaptic neurons originating from the ipsilateral auditory cortex, medial geniculate body and other sensory areas. However, SST+ interneurons received significantly more inputs from limbic regions, including the hippocampus and amygdala, than other auditory neurons. Our results show preferential targeting of SST+ interneurons in auditory cortex by regions involved in emotion and memory. These connections may be involved in auditory learning and state-dependent gating of auditory responses.",
+      "ai_analysis": {
+        "scientific_question": "探究小鼠听觉皮层中生长抑素阳性（SST+）中间神经元的远程输入连接特征及其与一般听觉皮层神经元输入组的差异。",
+        "key_highlight": "研究发现SST+中间神经元从边缘系统区域（包括海马和杏仁核）接收的输入显著多于其他听觉皮层神经元，揭示了情绪和记忆相关脑区对听觉皮层的优先调节。",
+        "main_limitation": "基于小鼠的解剖学追踪研究，其发现的功能意义和跨物种可译性尚未验证，且解剖连接的存在不等于功能性神经活动。",
+        "research_implication": "该研究为理解听觉皮层如何整合情绪和记忆调控提供了解剖学基础，可能对探索听觉学习障碍的神经机制具有参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "95aa7ee4f319a26a",
+        "updated_at": "2026-09-14T07:59:30Z"
+      },
+      "last_author_affiliation": "Department of Biomedicine, University of Basel, 4056, Switzerland. Electronic address: florian.studer@unibas.ch.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-04",
+      "first_seen_at": "2026-09-05T06:58:29Z"
+    },
+    {
       "title": "Mathematical and computational modelling of cochlear responses to environmental noise exposure: A preliminary multiscale computational study",
       "authors": [
         "Thiago Mathias de Oliveira",
@@ -388,16 +495,6 @@
       "doi": "10.1016/j.heares.2026.109799",
       "url": "https://doi.org/10.1016/j.heares.2026.109799",
       "abstract": "In general, the neural origins of the 'acoustic change complex' (ACC) are attributed to the auditory cortex, based on measurements performed on the brain response to the 'onset' of a sound, rather than a 'change' response per se. (1) to produce ACC topographical maps via high-density electroencephalography (EEG) multi-electrode arrays to visualise brain activity across the entire scalp; (2) to perform source localization specifically on the ACC. ACC responses were recorded via 128 channel EEG from 18 normal hearing adults. Sound stimulus: 1 kHz pure tone containing a 10% frequency change, 3000 ms pre-transition duration. 'Onset' and 'ACC' topographical maps were generated. Source localization was performed using MNE-Python and a standard linearly constrained minimum variance (LCMV) beamforming method. Classic P1-N1-P2 waveforms were observed for both the onset response and ACC by plotting voltage against time. The sound onset elicited a faster response than the sound change. ACC topographical maps resembled those of the onset response; P1, N1 and P2 peaks were identified, and central electrodes gave robust responses. ACC and onset response source time courses revealed bilateral localization of the N1 peaks in the auditory cortex. Topographical maps represent a useful means to explore the fidelity and temporal dynamics of the ACC. Results confirmed that neural origins of the ACC reside bilaterally in the auditory cortex. Interestingly, source localization of the ACC showed a similar spatial distribution to the onset response, suggesting similar neural generators, although further research is required for deeper clarification.",
-      "last_author_affiliation": "Department of Otorhinolaryngology and Head and Neck Surgery, Erasmus University Medical Center, Rotterdam, the Netherlands.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-09-03",
-      "first_seen_at": "2026-09-04T07:17:01Z",
       "ai_analysis": {
         "scientific_question": "声学变化复合波（ACC）的神经发生源位于何处，以及利用高密度脑电图拓扑图和源定位能否更精确地揭示其在听觉皮层的空间分布特征？",
         "key_highlight": "高密度128通道脑电图结合源定位技术证实，ACC的神经发生源双侧定位于听觉皮层，且其空间分布模式与声音起始反应相似，提示两者可能具有相似的神经发生器。",
@@ -409,7 +506,17 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "55784098d17e4e68",
         "updated_at": "2026-09-18T07:29:02Z"
-      }
+      },
+      "last_author_affiliation": "Department of Otorhinolaryngology and Head and Neck Surgery, Erasmus University Medical Center, Rotterdam, the Netherlands.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-03",
+      "first_seen_at": "2026-09-04T07:17:01Z"
     },
     {
       "title": "Oxaliplatin-chemotherapy induced cochlear synaptopathy",
@@ -1000,16 +1107,16 @@
     {
       "title": "Experimental analysis of cartilage graft positioning in tympanoplasty and its impact on middle ear mechanics",
       "authors": [
-        "Oestreicher David",
-        "Winkler Simon Tobias",
-        "Zhang Biru",
-        "Effertz Thomas",
-        "Hüser Marc Albert",
-        "Meyer Tim",
-        "Sackmann Benjamin",
-        "Lauxmann Michael",
-        "Beutner Dirk",
-        "Bevis Nicholas"
+        "David Oestreicher",
+        "Simon Tobias Winkler",
+        "Biru Zhang",
+        "Thomas Effertz",
+        "Marc Albert Hüser",
+        "Tim Meyer",
+        "Benjamin Sackmann",
+        "Michael Lauxmann",
+        "Dirk Beutner",
+        "Nicholas Bevis"
       ],
       "journal": "Hearing Research",
       "publication_date": "2026-10-01",
@@ -1529,14 +1636,31 @@
       "publication_date_precision": "day",
       "doi": "10.1097/aud.0000000000001891",
       "url": "https://doi.org/10.1097/aud.0000000000001891",
+      "full_text_url": "https://www.ovid.com/jnls/ear-hearing/fulltext/10.1097/aud.0000000000001891~behavioral-and-cortical-responses-to-frequency-changes-in",
       "abstract": "Objectives: This study proposes a new method for detecting cortical responses to formant frequency changes using the auditory change complex (ACC). These can be used as a proxy for discrimination performance between spectral characteristics of vowels. Design: We generated two sets of vowel-like stimuli, each of which contained four sinusoids with carrier frequencies chosen to correspond to the first three formants of the vowels/u/ and/i/, respectively. During EEG recordings, the second formant ( F 2) frequency changed in different step sizes to evoke an ACC response. We collected responses for both a hearing-impaired group (10 participants) and a control group with normal hearing (9 participants) and furthermore compared these to a behavioral measure of formant frequency discrimination. Results: The size of the change in the frequency of the F 2 formant, as well as the presence of hearing impairment, significantly affected the ACC response. Larger frequency changes produced larger ACC response amplitudes, specifically for the/u/ stimuli with more lower-frequency content. Responses tended to be lower overall for the hearing-impaired participants. Moreover, the ACC magnitude was correlated with behavioral formant discrimination thresholds. Conclusions: Taken altogether, these results lend support to the use of an ACC paradigm to assess frequency discrimination abilities objectively with speech-like stimuli. This study shows reliable responses as well as correlation with behavioral discrimination, which highlight the paradigm’s potential suitability for clinical purposes.",
+      "ai_analysis": {
+        "scientific_question": "听觉变化复合音（ACC）能否作为一种客观方法检测正常听力与听力受损者在元音频谱特征变化中的皮层反应？",
+        "key_highlight": "ACC振幅与行为形式的元音共振峰辨别阈值显著相关，且受频率变化幅度和听力损失状态的显著影响。",
+        "main_limitation": "样本量较小（听力受损组10人，正常听力组9人），且仅纳入特定类型的元音声刺激。",
+        "research_implication": "该ACC范式在语音刺激下具有客观评估频率辨别能力的临床应用潜力，可为助听器验配及言语感知功能评估提供电生理指标。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "96983c5fa4c3198d",
+        "updated_at": "2026-09-18T07:29:13Z"
+      },
       "first_author_affiliation": "Department of Health Technology, Technical University of Denmark, Kongens Lyngby, Denmark",
       "last_author_affiliation": "Interacoustics Research Unit, Technical University of Denmark, Lyngby, Kongens Lyngby, Denmark",
       "open_access": true,
       "open_access_url": "https://www.ovid.com/10.1097/AUD.0000000000001891",
       "open_access_source": "crossref_license",
       "license_url": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "open_access_image_checked_at": "2026-09-18T07:28:27Z",
+      "media_checked_at": "2026-09-18T07:28:28Z",
       "publication_stage": "early_access",
+      "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
+      "key_formula": "T 2 = N ( x ¯ − μ 0 ) ⊺ S − 1 ( x ¯ − μ 0 )",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [
         "Auditory change complex",
@@ -1550,24 +1674,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-17",
-      "first_seen_at": "2026-09-18T07:27:38Z",
-      "full_text_url": "https://www.ovid.com/jnls/ear-hearing/fulltext/10.1097/aud.0000000000001891~behavioral-and-cortical-responses-to-frequency-changes-in",
-      "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
-      "key_formula": "T 2 = N ( x ¯ − μ 0 ) ⊺ S − 1 ( x ¯ − μ 0 )",
-      "media_checked_at": "2026-09-18T07:28:28Z",
-      "open_access_image_checked_at": "2026-09-18T07:28:27Z",
-      "ai_analysis": {
-        "scientific_question": "听觉变化复合音（ACC）能否作为一种客观方法检测正常听力与听力受损者在元音频谱特征变化中的皮层反应？",
-        "key_highlight": "ACC振幅与行为形式的元音共振峰辨别阈值显著相关，且受频率变化幅度和听力损失状态的显著影响。",
-        "main_limitation": "样本量较小（听力受损组10人，正常听力组9人），且仅纳入特定类型的元音声刺激。",
-        "research_implication": "该ACC范式在语音刺激下具有客观评估频率辨别能力的临床应用潜力，可为助听器验配及言语感知功能评估提供电生理指标。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "96983c5fa4c3198d",
-        "updated_at": "2026-09-18T07:29:13Z"
-      }
+      "first_seen_at": "2026-09-18T07:27:38Z"
     },
     {
       "title": "Development and Evaluation of a Realistic Audio-Visual Multi-Talker Speech Comprehension Test",
@@ -1585,25 +1692,8 @@
       "publication_date_precision": "day",
       "doi": "10.1177/23312165261489985",
       "url": "https://doi.org/10.1177/23312165261489985",
-      "abstract": "Current speech comprehension assessments do not provide a reliable measure of listeners’ real-life speech comprehension ability, as they fail to capture the complexity and dynamic nature of real-world communicative scenarios. To better align laboratory assessment with real-world listening demands, we developed a new speech comprehension test using audio-visual recordings of spontaneous conversations between two talkers. The conversations were combined with babble noise at three different signal-to-noise ratios (SNRs) to vary task difficulty (Quiet, 0dB, and -5dB). Speech comprehension was assessed using a word monitoring paradigm, in which listeners were given a word category and responded to target words related to that category by pressing a hand-held button. Outcome measures included self-rated listening effort, hit rate, response time (RT), and head turn behavior. Thirty adults with normal hearing were tested. With decreasing SNR, self-reported listening effort increased, hit rate decreased, and RT increased. Participants predominantly oriented toward the active talker, with visual localization achieved through a combination of head and eye movements. Dynamic analyses around conversational floor transfers revealed that, listeners oriented earlier and more consistently toward the upcoming talker in more challenging conditions. None of the behavioral measures were significantly associated with listening effort ratings after accounting for SNR effects. Overall, our results demonstrate that the proposed test provides a sensitive measure of real-world speech comprehension and holds promise for assessing the impact of hearing loss and evaluating hearing device benefit in ecologically valid settings.",
-      "first_author_affiliation": "Macquarie University",
-      "last_author_affiliation": "Macquarie University",
-      "open_access": true,
-      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261489985",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "clinical audiology",
-        "real-world listening"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-09-17",
-      "first_seen_at": "2026-09-18T07:27:26Z",
       "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261489985",
-      "media_checked_at": "2026-09-18T07:28:28Z",
-      "open_access_image_checked_at": "2026-09-18T07:28:28Z",
+      "abstract": "Current speech comprehension assessments do not provide a reliable measure of listeners’ real-life speech comprehension ability, as they fail to capture the complexity and dynamic nature of real-world communicative scenarios. To better align laboratory assessment with real-world listening demands, we developed a new speech comprehension test using audio-visual recordings of spontaneous conversations between two talkers. The conversations were combined with babble noise at three different signal-to-noise ratios (SNRs) to vary task difficulty (Quiet, 0dB, and -5dB). Speech comprehension was assessed using a word monitoring paradigm, in which listeners were given a word category and responded to target words related to that category by pressing a hand-held button. Outcome measures included self-rated listening effort, hit rate, response time (RT), and head turn behavior. Thirty adults with normal hearing were tested. With decreasing SNR, self-reported listening effort increased, hit rate decreased, and RT increased. Participants predominantly oriented toward the active talker, with visual localization achieved through a combination of head and eye movements. Dynamic analyses around conversational floor transfers revealed that, listeners oriented earlier and more consistently toward the upcoming talker in more challenging conditions. None of the behavioral measures were significantly associated with listening effort ratings after accounting for SNR effects. Overall, our results demonstrate that the proposed test provides a sensitive measure of real-world speech comprehension and holds promise for assessing the impact of hearing loss and evaluating hearing device benefit in ecologically valid settings.",
       "ai_analysis": {
         "scientific_question": "当前语音理解评估方法能否可靠测量真实生活中的语音理解能力？",
         "key_highlight": "新开发的视听多人对话测试结合不同信噪比条件，能够敏感测量真实世界语音理解能力。",
@@ -1615,7 +1705,24 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "423005b05ef8f113",
         "updated_at": "2026-09-18T07:29:22Z"
-      }
+      },
+      "first_author_affiliation": "Macquarie University",
+      "last_author_affiliation": "Macquarie University",
+      "open_access": true,
+      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261489985",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-09-18T07:28:28Z",
+      "media_checked_at": "2026-09-18T07:28:28Z",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology",
+        "real-world listening"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-17",
+      "first_seen_at": "2026-09-18T07:27:26Z"
     },
     {
       "title": "A comprehensive catalog of hydroacoustic sources using the International Monitoring System network",
@@ -1866,14 +1973,6 @@
       "doi": "10.1121/10.0046470",
       "url": "https://doi.org/10.1121/10.0046470",
       "abstract": "Echolocating dolphins are able to resolve echo delay differences on the order of a microsecond or less if tested using jittered, phantom echoes. Rapid comparisons of alternating echo delays likely facilitate this “hyperacuity” compared to paradigms where echo delays change on longer time scales or with fewer opportunities to compare echoes. This study examined how an echolocating bottlenose dolphin's jitter-detection threshold varied as a function of the number of jittered echoes made available for comparison. The dolphin's task was to report when a phantom echo at a simulated range of 10 m began to jitter in delay. Experimental conditions included a single “step” change in echo delay, between 3 and 33 jittering echoes, and an unlimited number of jittering echoes. As the number of jittering echoes increased from 1 to 9, jitter-detection thresholds linearly decreased from 84 to 1.8 μs. There were no significant changes in thresholds for more than nine jittering echoes. The results were consistent with a decision model based on multiple looks and highlight the role of multi-echo processing in dolphin biosonar tasks.",
-      "first_author_affiliation": "National Marine Mammal Foundation 1 , 2240 Shelter Island Dr. #200, San Diego, California 92106,",
-      "last_author_affiliation": "National Marine Mammal Foundation 1 , 2240 Shelter Island Dr. #200, San Diego, California 92106,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-16",
-      "first_seen_at": "2026-09-17T07:46:13Z",
       "ai_analysis": {
         "scientific_question": "抖动回声数量如何影响回声定位海豚检测微秒级回声延迟变化的能力？",
         "key_highlight": "随着抖动回声数量从1个增加到9个，海豚的抖动检测阈值从84微秒线性下降至1.8微秒，但超过9个抖动回声后阈值不再显著变化。",
@@ -1885,7 +1984,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "d1b25074a2609f72",
         "updated_at": "2026-09-18T07:29:36Z"
-      }
+      },
+      "first_author_affiliation": "National Marine Mammal Foundation 1 , 2240 Shelter Island Dr. #200, San Diego, California 92106,",
+      "last_author_affiliation": "National Marine Mammal Foundation 1 , 2240 Shelter Island Dr. #200, San Diego, California 92106,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-16",
+      "first_seen_at": "2026-09-17T07:46:13Z"
     },
     {
       "title": "From Approximation to Validation: Rethinking Frequency-Matched Acoustic Models of Cochlear Implants",
@@ -1908,6 +2015,18 @@
       "doi": "10.1097/aud.0000000000001892",
       "url": "https://doi.org/10.1097/aud.0000000000001892",
       "abstract": "Objectives: This study aims to validate vocoders as acoustic models of cochlear implants by determining whether they capture both perceptual sound quality and speech performance. We hypothesize that valid acoustic models of cochlear implants require listener-specific amounts of frequency mismatch between input filters and output tones or noise bands. Design: Forty-four adult single-sided deaf cochlear implant users were tested 1 to 5 times for a total of 73 sessions at different time points after initial stimulation. Participants had a cochlear implant in one ear and normal or near-normal hearing in the contralateral ear, allowing within-subject comparisons. In Experiment 1, participants used a method-of-adjustment procedure to select acoustic models most similar to their cochlear implant by adjusting three parameters: low- and high-frequency cutoffs of the acoustic output, and channel interaction (overlap among output sound carriers). In Experiment 2, participants rated the perceptual similarity of five acoustic model types using questionnaires assessing overall similarity and four acoustic dimensions (intelligibility, pleasantness, harshness, and loudness). The five model types included the self-selected model, two all-channel frequency-matched vocoders (tone and noise), and two six-channel frequency-matched vocoders (tone and noise). Frequency-matched acoustic models had output noise bands or tones that were frequency-matched to the analysis filters. In Experiment 3, speech perception was evaluated under six conditions: with the cochlear implant alone and with each of the five acoustic model types presented to the normal hearing ear. Results: Nearly all participants (69 of 73 sessions) selected acoustic models with frequency ranges different from their clinical frequency allocation tables. The low-frequency edge of self-selected models was significantly higher than clinical allocations (456 Hz for Cochlear Ltd. and 266 Hz for MED-EL). Over 80% of selections used minimal channel interaction (tones, nonoverlapping noise bands, or adjacent noise bands). Self-selected models received significantly higher similarity ratings (mean of 6.11, where 6 means “somewhat similar” and 7 “very similar”) compared with all frequency-matched models, which were rated around 3 (“not very similar”). Self-selected models were rated most similar to the cochlear implant across multiple acoustic dimensions and were the only models not rated significantly different from the cochlear implant on any dimension. For speech perception, all-channel frequency-matched models significantly overestimated performance compared with the cochlear implant for both words and sentences. Self-selected models provided speech scores closest to cochlear implant performance. Joint analysis of similarity ratings and speech perception scores demonstrated that self-selected models were the only acoustic models achieving both perceptual similarity to the cochlear implant (rating of 6.11 with 7 being “very similar”) and comparable speech perception scores (within five percentage points). Conclusions: Frequency-matched acoustic models fail to replicate the sound of a cochlear implant and all-channel frequency-matched acoustic models also significantly overestimate speech perception. In contrast, self-selected acoustic models incorporating listener-specific perceptual frequency mismatch provide substantially better matches in both subjective sound quality and speech intelligibility. However, variability in similarity ratings across individuals may suggest that additional perceptual components remain unaccounted for in the current parameter set. These findings question the validity of frequency-matched acoustic models of cochlear implants in research applications.",
+      "ai_analysis": {
+        "scientific_question": "本研究旨在验证声学模型能否作为人工耳蜗的有效替代品，并探讨 listener-specific frequency mismatch 是否为构建有效声学模型的关键参数",
+        "key_highlight": "研究发现传统的频率匹配声学模型无法准确复制人工耳蜗的感知音质，而 listener-specific 频率失配的自选模型在主观相似性和语音感知得分两方面都更接近真实人工耳蜗表现",
+        "main_limitation": "受试者均为单侧人工耳蜗佩戴者且对侧耳听力正常，研究结果可能无法推广至双侧人工耳蜗用户或对侧耳存在听力损失的人群",
+        "research_implication": "该研究对人工耳蜗研究具有直接指导意义，表明使用频率匹配声学模型作为人工耳蜗替代品进行实验研究时需谨慎，应考虑 listener-specific 个体化参数",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "299838bfa96bcbe8",
+        "updated_at": "2026-09-18T07:29:50Z"
+      },
       "first_author_affiliation": "Department of Otolaryngology Head and Neck Surgery, New York University Grossman School of Medicine, New York, New York, USA",
       "last_author_affiliation": "Department of Otolaryngology Head and Neck Surgery, New York University Grossman School of Medicine, New York, New York, USA",
       "publication_stage": "early_access",
@@ -1932,19 +2051,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-16",
-      "first_seen_at": "2026-09-17T07:46:50Z",
-      "ai_analysis": {
-        "scientific_question": "本研究旨在验证声学模型能否作为人工耳蜗的有效替代品，并探讨 listener-specific frequency mismatch 是否为构建有效声学模型的关键参数",
-        "key_highlight": "研究发现传统的频率匹配声学模型无法准确复制人工耳蜗的感知音质，而 listener-specific 频率失配的自选模型在主观相似性和语音感知得分两方面都更接近真实人工耳蜗表现",
-        "main_limitation": "受试者均为单侧人工耳蜗佩戴者且对侧耳听力正常，研究结果可能无法推广至双侧人工耳蜗用户或对侧耳存在听力损失的人群",
-        "research_implication": "该研究对人工耳蜗研究具有直接指导意义，表明使用频率匹配声学模型作为人工耳蜗替代品进行实验研究时需谨慎，应考虑 listener-specific 个体化参数",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "299838bfa96bcbe8",
-        "updated_at": "2026-09-18T07:29:50Z"
-      }
+      "first_seen_at": "2026-09-17T07:46:50Z"
     },
     {
       "title": "On the correlation between compaction in fine-grained barite sediment and its ultrasound attenuation and wave speed",
@@ -1966,7 +2073,19 @@
       "tags": [],
       "source": "crossref",
       "available_online_date": "2026-09-16",
-      "first_seen_at": "2026-09-17T07:46:13Z"
+      "first_seen_at": "2026-09-17T07:46:13Z",
+      "ai_analysis": {
+        "scientific_question": "压实作用如何影响细粒重晶石沉积物的超声波衰减和声波速度特性？",
+        "key_highlight": "在低频（<600 kHz）时衰减随压实程度增加而降低，在高频（>600 kHz）时略有增加，且在高压实水平下衰减趋近于频率幂律α∝f²。",
+        "main_limitation": "研究仅在受控实验条件下针对特定频率范围（0.15-2 MHz）的细粒重晶石样品进行，可能难以直接推广至实际油田环境中复杂多变的沉积条件。",
+        "research_implication": "该研究属于沉积物声学范畴，与助听器、人工耳蜗或言语感知研究无直接关联，其发现仅对油气勘探领域的地球物理监测具有一定参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "9f4ad9c09e1a056a",
+        "updated_at": "2026-09-19T07:24:18Z"
+      }
     },
     {
       "title": "Formin-1 maintains cochlear microtubule architecture required for hearing in humans and mice.",
@@ -2106,7 +2225,19 @@
       "tags": [],
       "source": "crossref",
       "available_online_date": "2026-09-15",
-      "first_seen_at": "2026-09-17T07:46:16Z"
+      "first_seen_at": "2026-09-17T07:46:16Z",
+      "ai_analysis": {
+        "scientific_question": "低成本声学传感器能否通过与功率测量值的比较来预测 HVAC 的开关状态和运行时间？",
+        "key_highlight": "基于 A 计权声级的阈值状态推断算法与功率测量的一致性达 96.8%，表明声学方法可估算 AHU 两状态运行，但需注意传感器的安装位置。",
+        "main_limitation": "研究在实验室住宅环境中进行，实际建筑中的复杂噪声环境和多样化 HVAC 系统可能导致该方法的可推广性受限。",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "afcad6a1d2d16001",
+        "updated_at": "2026-09-19T07:24:28Z"
+      }
     },
     {
       "title": "Near-field acoustic holography with iteratively reweighted least squares–based outlier rejection and TV+ℓ1 regularization",
@@ -2627,6 +2758,52 @@
       "first_seen_at": "2026-09-14T07:57:49Z"
     },
     {
+      "title": "Increased listening effort and decreased speech perception at high presentation sound levels in older hearing-impaired adult listeners",
+      "authors": [
+        "Chengjie G. Huang",
+        "Natalie A. Field",
+        "Marie-Elise Latorre",
+        "Samira Anderson",
+        "Matthew J. Goupell"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-11",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109810",
+      "url": "https://doi.org/10.1016/j.heares.2026.109810",
+      "abstract": "The sounds we experience in our everyday communication can vary greatly depending on the environment. Paradoxically, increasing the sound level may lead to worse speech perception, especially in noise. This decline is known as \"rollover.\" It is unclear how rollover is experienced differentially across aging groups, as well as for those with and without hearing loss. In addition, there is mounting evidence that listening effort plays an important role in challenging listening conditions and can be directly quantified with objective measures such as pupil dilation. To investigate the interacting effects of temporality, sound level, background noise, and effort on perception, we assessed word identification at multiple levels and in quiet and in noise, in younger (≤25 years) and older (>50 years) listeners without or with mild-to-moderate hearing loss. Pupillometry was used to assess listening effort during these measurements. Behavioral results demonstrated that rollover occurred for both temporal and non-temporal speech contrasts. Rollover occurred in older normal-hearing and older hearing-impaired listeners when speech was presented in background noise. Pupillometry results demonstrated that listening effort was modulated by sound level and that greater listening effort was expended primarily in the presence of background noise. The effect of increased sound level on listening effort was exacerbated by age and hearing loss, with the greatest effect in older listeners with hearing loss. The age- and hearing-dependent effects of rollover highlight the potential negative impact of amplification of high sound levels and therefore has implications for effective treatment of age-related hearing loss.",
+      "last_author_affiliation": "Department of Hearing and Speech Sciences, University of Maryland, College Park, MD, 20742, USA.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Aging",
+        "Hearing loss",
+        "Rollover",
+        "Speech in noise"
+      ],
+      "tags": [
+        "clinical audiology",
+        "hearing aid",
+        "real-world listening",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-11",
+      "first_seen_at": "2026-09-12T07:12:30Z",
+      "ai_analysis": {
+        "scientific_question": "老化程度和听力损失程度如何影响语音在高分贝下的感知衰退（rollover现象）及相应的听觉努力负担？",
+        "key_highlight": "语音在背景噪声下呈现时，老年正常听力者和老年听力障碍者均出现rollover现象，且高声级对听觉努力的负面影响在老年听力障碍者中最为显著。",
+        "main_limitation": "研究仅纳入年轻（≤25岁）和老年（>50岁）受试者，且听力损失程度限定为轻至中度，样本范围限制了研究结论向中年群体及重度听力损失人群的推广。",
+        "research_implication": "研究结果提示助听器验配时需谨慎对待高分贝放大策略，以避免对老年听力障碍者产生潜在的负面影响。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "9bd5385453bb8373",
+        "updated_at": "2026-09-19T07:24:51Z"
+      }
+    },
+    {
       "title": "Physics-informed localization of sound sources in reflective environments including hidden sources",
       "authors": [
         "Mario Sroka",
@@ -2849,7 +3026,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-11",
-      "first_seen_at": "2026-09-11T07:20:33Z"
+      "first_seen_at": "2026-09-11T07:20:33Z",
+      "ai_analysis": {
+        "scientific_question": "不同的耳蜗损伤模式是否会对I型螺旋神经节神经元亚型产生一致的选择性易感性，还是易感性会随损伤性质的不同而变化。",
+        "key_highlight": "氨基糖苷类损伤会优先减少Ic型螺旋神经节神经元，而遗传性毛细胞消融模型中未观察到这种选择性易感性，表明不同的耳蜗损伤模式产生不同的神经亚型退化模式。",
+        "main_limitation": "Limited generalizability due to small or specific sample",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "466bd916565f253e",
+        "updated_at": "2026-09-19T07:24:59Z"
+      }
     },
     {
       "title": "Dual membrane condenser microphones: Post-processing strategies for nonlinear distortion reduction",
@@ -2965,6 +3154,49 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-10",
       "first_seen_at": "2026-09-11T07:20:26Z"
+    },
+    {
+      "title": "Musicianship enhances hearing-in-noise performance in older and younger adults: Evidence from the Music-in-Noise Task",
+      "authors": [
+        "Nathan Gagné",
+        "Marie-Anick Savard",
+        "Giulia Panaioli",
+        "Emily B.J. Coffey"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-10",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109803",
+      "url": "https://doi.org/10.1016/j.heares.2026.109803",
+      "abstract": "Hearing-in-noise (HIN) perception requires a complex interaction between sensory and cognitive functions. Older adults commonly report HIN difficulties, which contribute to social isolation, depression, and cognitive decline. Musical experience has emerged as a potential protective factor against age-related HIN deficits, with auditory working memory identified as a mediator. However, inconsistent findings regarding musicianship advantages persist, and research examining whether these benefits extend to older adults remains limited. In this study, we investigated the effects of musicianship on HIN perception in aging. We used a complex auditory task (i.e., the Music-in-Noise task) to isolate contributors, such as the use of predictive cues, auditory-visual integration and temporal processing. We compared 94 younger adults (YA; mean age = 23.6 years; age range: 18-28 years) and 90 older adults (OA; mean age = 69.59; age range: 60-86 years) with similar pure-tone hearing thresholds. We hypothesized that YA would outperform OA, particularly in conditions involving prediction and multimodal integration. We expected musicianship benefits across both age groups. Our results showed that YA performed better than OA on MINT conditions that offered additional cues (though equally on the baseline condition), and musical experience was associated with better performance. An earlier age of acquisition of musical experience was also correlated with better overall performance on the MINT. Our findings suggest that musical training enhances top-down cognitive mechanisms that support HIN perception, further promoting musical interventions to support successful auditory perception and social engagement across the lifespan.",
+      "last_author_affiliation": "Department of Psychology, Concordia University, Montreal, QC, Canada; The Centre for Research on Brain, Language and Music (CRBLM), Montreal, QC, Canada; International Laboratory for Brain, Music and Sound Research (BRAMS), Montreal, QC, Canada; Montreal Neurological Institute, McGill University, Montreal, QC, Canada; engAGE Centre for Research on Aging, Montreal, QC, Canada.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Aging",
+        "Cognition",
+        "Hearing-in-noise perception",
+        "Listening effort",
+        "Musicianship"
+      ],
+      "tags": [
+        "real-world listening"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-10",
+      "first_seen_at": "2026-09-11T07:20:33Z",
+      "ai_analysis": {
+        "scientific_question": "音乐训练是否能增强老年人和年轻人在噪声环境中的听觉感知能力？",
+        "key_highlight": "音乐经验与更好的噪声下听觉表现相关，且更早开始音乐学习的个体整体表现更优。",
+        "main_limitation": "使用的音乐噪声任务（MINT）可能无法完全推广到现实世界的聆听场景。",
+        "research_implication": "音乐训练可能成为支持终身听觉感知和社交参与的干预手段，对噪声下言语感知研究具有参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "4df9d166130ca34c",
+        "updated_at": "2026-09-19T07:25:09Z"
+      }
     },
     {
       "title": "Post-Training Zero-Shot TTS for Fine-Grained Emotion and Duration Control via Natural Language",
@@ -3797,132 +4029,6 @@
       "source": "crossref",
       "available_online_date": "2026-09-06",
       "first_seen_at": "2026-09-07T07:22:47Z"
-    },
-    {
-      "title": "Contributions of aging, auditory nerve health, and speed of processing to psychophysical gap detection thresholds in cochlear implant users",
-      "authors": [
-        "Kara C. Schvartz-Leyzac",
-        "Kelly C. Harris"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-09-04",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109801",
-      "url": "https://doi.org/10.1016/j.heares.2026.109801",
-      "abstract": "Precise encoding of temporal speech cues is critical for speech understanding and are especially important for cochlear implant (CI) users, who receive limited spectral information. Silent gap detection is a simple index of auditory temporal precision, yet mechanisms and stimulus parameters driving variability in CI gap detection thresholds (GDTs) remain unclear. The overall aim of this study was to describe how AN density, aging, pulse rate, and cognitive speed of processing contribute to GDTs in adult CI users. Twenty post-lingually deafened adult Cochlear™ CI users (37-87 years) participated. We recorded electrically evoked compound action potentials (ECAPs) and psychophysical gap detection using direct stimulation techniques. ECAP interphase gap (IPG) slope effect was used as an estimate of AN density. GDTs were measured with 500 and 3500 pps pulse trains on two electrodes per ear paired with the highest and lowest IPG effect. Cognitive processing speed was assessed with the Connections Test. CNC word recognition was measured in the sound field. GDTs increased (worsened) with increasing age; but decreased (improved) overall when using a higher compared to lower pulse rate but more so for younger compared to older CI users. Estimates of AN density did not predict GDTs. Slower cognitive processing speed was associated with poorer GDTs, when using higher but not lower pulse rates. These results suggest that, at higher pulse rates central/cognitive mechanisms but not AN density status, predict encoding of temporal gaps in adult CI users particularly when using higher pulse rate stimuli.",
-      "ai_analysis": {
-        "scientific_question": "在人工耳蜗使用者中，年龄、听神经密度、刺激脉率和认知加工速度如何共同影响时域间隙检测阈值。",
-        "key_highlight": "在较高刺激脉率条件下，认知加工速度而非听神经密度状态可预测成人人工耳蜗使用者的时域间隙编码能力。",
-        "main_limitation": "样本量较小（n=20）且年龄跨度较大（37-87岁），研究结果的外推性存在一定局限。",
-        "research_implication": "该研究提示在人工耳蜗言语处理器参数优化中需考虑认知因素与刺激脉率的交互作用，尤其对老年用户的高频刺激策略设计具有参考意义。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "7a047cfe398c2281",
-        "updated_at": "2026-09-13T07:32:52Z"
-      },
-      "last_author_affiliation": "Medical University of South Carolina, Department of Otolaryngology-Head & Neck Surgery, 135 Rutledge Ave, MSC 550, Charleston, SC, 29425, USA.",
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [
-        "Aging",
-        "Cochlear implant",
-        "Electrically evoked compound action potential",
-        "Neural health",
-        "Temporal processing"
-      ],
-      "tags": [
-        "auditory physiology",
-        "cochlear implant"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-04",
-      "first_seen_at": "2026-09-04T07:17:01Z"
-    },
-    {
-      "title": "Effects of salicylate on organ-of-Corti vibrations in the second turn of the gerbil cochlea",
-      "authors": [
-        "Sebastiaan W.F. Meenderink",
-        "Wei Dong"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-09-04",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109802",
-      "url": "https://doi.org/10.1016/j.heares.2026.109802",
-      "abstract": "Sound-evoked responses of the organ of Corti (OoC) in the living cochlea are enhanced by active processes driven by outer hair cells (OHCs). To assess how suppression of OHC function affects intracochlear mechanics, we applied salicylate-a blocker of OHC electromotility-to the round window of anesthetized Mongolian gerbils and measured both distortion product otoacoustic emissions (DPOAEs) and sound-evoked vibrations of the OoC in the second cochlear turn using optical coherence tomography (OCT). Salicylate reduced DPOAE amplitudes in a time- and frequency-dependent manner and decreased intracochlear vibration amplitudes throughout the OoC. The largest effects occurred for low-level stimuli near the best frequency, resulting in reduced cochlear gain consistent with suppression of OHC-mediated amplification. In contrast, phase relationships were largely preserved, suggesting attenuation of active feedback without major changes in intracochlear mechanical coupling. Salicylate affected responses over a broad frequency range extending more than two octaves below the best frequency, a pattern that differs from previous observations in the cochlear base. Similar reductions in basilar membrane (BM) and OHC-region vibrations indicate that OHC-generated forces contribute to motion throughout the local cochlear partition. DPOAE reductions closely matched intracochlear gain changes near the best frequency, supporting their use as a frequency-specific indicator of local cochlear amplification.",
-      "ai_analysis": {
-        "scientific_question": "抑制外毛细胞电运动功能如何影响耳蜗内部的机械振动特性？",
-        "key_highlight": "水杨酸钠在降低耳蜗增益和声诱发振动幅度的同时基本保留了相位关系，表明主动反馈被削弱但内部机械耦合未发生显著改变。",
-        "main_limitation": "基于急性动物模型的发现向人类慢性听觉病理状态的外推存在不确定性。",
-        "research_implication": "研究支持利用DPOAE作为频率特异性指标评估局部耳蜗放大功能，为助听器验配和听觉评估提供了生理学依据。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "f6d7888b832ebe90",
-        "updated_at": "2026-09-14T07:59:22Z"
-      },
-      "last_author_affiliation": "Department of Otolaryngology - Head and Neck Surgery, University of California, Irvine, CA, 92617, USA; VA Long Beach Healthcare System, Long Beach, CA, 90822, USA. Electronic address: weid10@hs.uci.edu.",
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [
-        "Cochlea",
-        "Gerbil",
-        "Optical coherence tomography",
-        "Organ of Corti",
-        "Salicylate"
-      ],
-      "tags": [
-        "auditory physiology",
-        "hearing aid"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-04",
-      "first_seen_at": "2026-09-05T06:58:29Z"
-    },
-    {
-      "title": "Hippocampal and amygdalar structures preferentially target somatostatin-expressing interneurons in the auditory cortex",
-      "authors": [
-        "Philip T. Williams",
-        "Tania Rinaldi Barkat",
-        "Florian Studer"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-09-04",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109804",
-      "url": "https://doi.org/10.1016/j.heares.2026.109804",
-      "abstract": "The auditory cortex integrates sensory and contextual inputs in emotion and fear driven situations that can be consolidated over learning. Somatostatin-expressing (SST+) interneurons play a key role in inhibitory modulation of sensory processing, yet their long-range inputs remain poorly characterised. We performed rabies-based retrograde monosynaptic tracing to compare the specific inputs to SST+ interneurons with the general input connectome of neurons in the mouse auditory cortex. Overall, inputs were similar, with the majority of presynaptic neurons originating from the ipsilateral auditory cortex, medial geniculate body and other sensory areas. However, SST+ interneurons received significantly more inputs from limbic regions, including the hippocampus and amygdala, than other auditory neurons. Our results show preferential targeting of SST+ interneurons in auditory cortex by regions involved in emotion and memory. These connections may be involved in auditory learning and state-dependent gating of auditory responses.",
-      "ai_analysis": {
-        "scientific_question": "探究小鼠听觉皮层中生长抑素阳性（SST+）中间神经元的远程输入连接特征及其与一般听觉皮层神经元输入组的差异。",
-        "key_highlight": "研究发现SST+中间神经元从边缘系统区域（包括海马和杏仁核）接收的输入显著多于其他听觉皮层神经元，揭示了情绪和记忆相关脑区对听觉皮层的优先调节。",
-        "main_limitation": "基于小鼠的解剖学追踪研究，其发现的功能意义和跨物种可译性尚未验证，且解剖连接的存在不等于功能性神经活动。",
-        "research_implication": "该研究为理解听觉皮层如何整合情绪和记忆调控提供了解剖学基础，可能对探索听觉学习障碍的神经机制具有参考价值。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "95aa7ee4f319a26a",
-        "updated_at": "2026-09-14T07:59:30Z"
-      },
-      "last_author_affiliation": "Department of Biomedicine, University of Basel, 4056, Switzerland. Electronic address: florian.studer@unibas.ch.",
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [
-        "Amygdala",
-        "Auditory cortex",
-        "Hippocampus",
-        "Rabies-based monosynaptic retrograde tracing",
-        "Somatostatin-expressing interneurons"
-      ],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-04",
-      "first_seen_at": "2026-09-05T06:58:29Z"
     },
     {
       "title": "ProLombard: Structured Multi-Scale Modeling for Normal-to-Lombard Speech Conversion",
@@ -5409,30 +5515,6 @@
       "first_seen_at": "2026-09-12T07:12:30Z"
     },
     {
-      "title": "Increased listening effort and decreased speech perception at high presentation sound levels in older hearing-impaired adult listeners",
-      "authors": [
-        "Chengjie G. Huang",
-        "Natalie A. Field",
-        "Marie-Elise Latorre",
-        "Samira Anderson",
-        "Matthew J. Goupell"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-09-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109810",
-      "url": "https://doi.org/10.1016/j.heares.2026.109810",
-      "abstract": null,
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "real-world listening",
-        "speech perception"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-09-12T07:12:30Z"
-    },
-    {
       "title": "Low-frequency broadband magnetostrictive-piezoelectric hybrid excitation Janus–Helmholtz transducer",
       "authors": [
         "Wenzhao Liu",
@@ -5600,26 +5682,6 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-06-29",
       "first_seen_at": "2026-07-07T06:28:36Z"
-    },
-    {
-      "title": "Musicianship enhances hearing-in-noise performance in older and younger adults: Evidence from the Music-in-Noise Task",
-      "authors": [
-        "Nathan Gagné",
-        "Marie-Anick Savard",
-        "Giulia Panaioli",
-        "Emily B.J. Coffey"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-09-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109803",
-      "url": "https://doi.org/10.1016/j.heares.2026.109803",
-      "abstract": null,
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-11T07:20:33Z"
     },
     {
       "title": "Ocean sound measurements collected from underwater gliders with marginal effects of flow noise",
@@ -11709,22 +11771,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -11737,6 +11783,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -19276,18 +19338,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -19308,17 +19369,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -28642,22 +28704,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -28670,6 +28716,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -35772,23 +35834,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -35802,6 +35847,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -39161,8 +39223,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -39176,8 +39238,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -44698,8 +44760,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -44713,8 +44775,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
