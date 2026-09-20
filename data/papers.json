@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T07:23:56Z",
+  "generated_at": "2026-09-20T07:48:29Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
@@ -2066,14 +2066,6 @@
       "doi": "10.1121/10.0046525",
       "url": "https://doi.org/10.1121/10.0046525",
       "abstract": "This study investigates the influence of compaction on P-wave attenuation and wave speed properties of fine-grained barite sediment over the ultrasonic frequency range from 0.15 to 2 MHz. Barite is a mineral widely used in drilling fluids that accumulates through sedimentation, eventually obstructing the transmission of static pressure in wellbores. Understanding its acoustic behavior may enable improved oil field monitoring. The measurements reveal that attenuation decreases with increasing compaction at lower frequencies (below 600 kHz), whereas at higher frequencies (above 600 kHz) it exhibits a slight increasing trend. An increase in the frequency power-law dependence of attenuation with compaction is also observed at lower frequencies, indicating a transition toward a stiffness-dominated regimen. The attenuation responses between the samples converge at higher levels of compaction to a frequency power-law of α∝f2. The P-wave speed exhibits positive dispersion over the lower investigated frequency range in the substitution method measurements, whereas it remains essentially frequency independent over the higher-frequency range investigated using the pulse-echo reflectometer method. For both methods, the P-wave speed decreases systematically with increasing initial compaction. These findings are interpreted using extended Biot-based models, particularly the modified corrected, Revil, extended Biot model, and suggest that poroelastic models have the potential to predict barite sediment compaction.",
-      "first_author_affiliation": "Energy Department, University of Campinas-UNICAMP , Campinas 13083-970,",
-      "last_author_affiliation": "Energy Department, University of Campinas-UNICAMP , Campinas 13083-970,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-16",
-      "first_seen_at": "2026-09-17T07:46:13Z",
       "ai_analysis": {
         "scientific_question": "压实作用如何影响细粒重晶石沉积物的超声波衰减和声波速度特性？",
         "key_highlight": "在低频（<600 kHz）时衰减随压实程度增加而降低，在高频（>600 kHz）时略有增加，且在高压实水平下衰减趋近于频率幂律α∝f²。",
@@ -2085,7 +2077,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "9f4ad9c09e1a056a",
         "updated_at": "2026-09-19T07:24:18Z"
-      }
+      },
+      "first_author_affiliation": "Energy Department, University of Campinas-UNICAMP , Campinas 13083-970,",
+      "last_author_affiliation": "Energy Department, University of Campinas-UNICAMP , Campinas 13083-970,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-16",
+      "first_seen_at": "2026-09-17T07:46:13Z"
     },
     {
       "title": "Formin-1 maintains cochlear microtubule architecture required for hearing in humans and mice.",
@@ -2212,6 +2212,18 @@
       "url": "https://doi.org/10.1121/10.0046526",
       "full_text_url": "https://pubs.aip.org/jel/article/6/9/093602/3404599/Monitoring-building-HVAC-runtime-using-low-cost",
       "abstract": "This paper evaluates whether low-cost acoustic sensors can be used to predict HVAC on/off state and runtimes by comparing acoustically inferred air handler unit (AHU) operation with power level measurements from a dedicated AHU circuit. We demonstrate and evaluate this approach in a full-scale laboratory home designed for energy performance testing. A threshold-based state inference algorithm applied independently to the power and noise data showed 96.8% agreement, suggesting that overall A-weighted sound level can be used to estimate AHU state for two-state systems with careful sensor placement.",
+      "ai_analysis": {
+        "scientific_question": "低成本声学传感器能否通过与功率测量值的比较来预测 HVAC 的开关状态和运行时间？",
+        "key_highlight": "基于 A 计权声级的阈值状态推断算法与功率测量的一致性达 96.8%，表明声学方法可估算 AHU 两状态运行，但需注意传感器的安装位置。",
+        "main_limitation": "研究在实验室住宅环境中进行，实际建筑中的复杂噪声环境和多样化 HVAC 系统可能导致该方法的可推广性受限。",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "afcad6a1d2d16001",
+        "updated_at": "2026-09-19T07:24:28Z"
+      },
       "first_author_affiliation": "Pacific Northwest National Laboratory 1 , Richland, Washington 99354,",
       "last_author_affiliation": "Pacific Northwest National Laboratory 1 , Richland, Washington 99354,",
       "open_access": true,
@@ -2225,19 +2237,7 @@
       "tags": [],
       "source": "crossref",
       "available_online_date": "2026-09-15",
-      "first_seen_at": "2026-09-17T07:46:16Z",
-      "ai_analysis": {
-        "scientific_question": "低成本声学传感器能否通过与功率测量值的比较来预测 HVAC 的开关状态和运行时间？",
-        "key_highlight": "基于 A 计权声级的阈值状态推断算法与功率测量的一致性达 96.8%，表明声学方法可估算 AHU 两状态运行，但需注意传感器的安装位置。",
-        "main_limitation": "研究在实验室住宅环境中进行，实际建筑中的复杂噪声环境和多样化 HVAC 系统可能导致该方法的可推广性受限。",
-        "research_implication": "General research findings",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "afcad6a1d2d16001",
-        "updated_at": "2026-09-19T07:24:28Z"
-      }
+      "first_seen_at": "2026-09-17T07:46:16Z"
     },
     {
       "title": "Near-field acoustic holography with iteratively reweighted least squares–based outlier rejection and TV+ℓ1 regularization",
@@ -2558,6 +2558,54 @@
       "first_seen_at": "2026-09-16T07:47:09Z"
     },
     {
+      "title": "Boosting auditory nerve function with cell therapy - status, surgical approach and potential candidates",
+      "authors": [
+        "Niels West",
+        "Charlotte Amalie Navntoft",
+        "Nicholas Haywood",
+        "Deborah Vickers",
+        "Jaime A Undurraga",
+        "Per Cayé-Thomasen"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-12",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109806",
+      "url": "https://doi.org/10.1016/j.heares.2026.109806",
+      "abstract": "Poor speech perception after cochlear implantation remains an important clinical problem, even when surgery is technically successful and rehabilitation is adequate. This heterogeneous \"poor performer\" phenotype can reflect device, electrode, cognitive, central-auditory, or neural factors, alone or in combination. A functionally competent auditory nerve is necessary for cochlear implant (CI) benefit, yet post-mortem studies have not shown a consistent relationship between absolute spiral ganglion neuron (SGN) counts and speech recognition. This suggests that neural function, rather than neuron number alone, is likely to be the limiting factor in many patients, and that otic neural progenitor (ONP) cell therapy is most plausible when loss of functional auditory neurons is itself the dominant, potentially treatable lesion. This review evaluates the evidence linking SGN integrity to CI outcomes, proposes a staged framework for identifying candidates for ONP therapy, appraises electrophysiological measures of neural function, and surveys surgical approaches for delivering cells to the human cochlea. Cadaveric and preclinical studies support the technical feasibility of surgical delivery, but current electrophysiological tools provide only indirect, largely within-patient information, and no single validated measure can yet identify SGN degeneration in an individual with the specificity required for trial inclusion. Ultimately, clinical benefit will depend on durable cell survival, correct differentiation and connectivity, and functional integration with CI stimulation. ONP therapy therefore represents a promising but still investigational strategy, whose path to the clinic will depend on rigorous patient stratification, validated diagnostic and outcome measures, and clear demonstration of long-term safety and efficacy.",
+      "last_author_affiliation": "Department of Otorhinolaryngology Head & Neck Surgery and Audiology, Rigshospitalet, University Hospital of Copenhagen, Denmark; Faculty of Health and Medical Sciences, University of Copenhagen, Blegdamsvej 3B, Copenhagen, 2200, Denmark.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Auditory neuropathy",
+        "Cell therapy",
+        "Cochlear implant",
+        "Hearing regeneration",
+        "Hearing therapeutics"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology",
+        "cochlear implant",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-12",
+      "first_seen_at": "2026-09-13T07:31:08Z",
+      "ai_analysis": {
+        "scientific_question": "如何确定哪些人工耳蜗植入患者可能从听觉神经祖细胞治疗中获益",
+        "key_highlight": "细胞递送在技术上可行，但目前缺乏能特异性识别个体螺旋神经节退化的经验证指标",
+        "main_limitation": "当前电生理学工具仅提供间接、有限的信息，尚无单一指标能满足临床试验纳入所需的特异性要求",
+        "research_implication": "该综述为通过细胞治疗改善人工耳蜗植入患者言语感知提供了理论依据，但临床转化需先建立有效的诊断和预后评估工具",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "f3004834aad0e7ef",
+        "updated_at": "2026-09-20T07:49:32Z"
+      }
+    },
+    {
       "title": "Acoustic-Black-Hole-Enabled bimorph ultrasonic transducers with enhanced vibration and radiation efficiency",
       "authors": [
         "Yifan Tang",
@@ -2772,6 +2820,18 @@
       "doi": "10.1016/j.heares.2026.109810",
       "url": "https://doi.org/10.1016/j.heares.2026.109810",
       "abstract": "The sounds we experience in our everyday communication can vary greatly depending on the environment. Paradoxically, increasing the sound level may lead to worse speech perception, especially in noise. This decline is known as \"rollover.\" It is unclear how rollover is experienced differentially across aging groups, as well as for those with and without hearing loss. In addition, there is mounting evidence that listening effort plays an important role in challenging listening conditions and can be directly quantified with objective measures such as pupil dilation. To investigate the interacting effects of temporality, sound level, background noise, and effort on perception, we assessed word identification at multiple levels and in quiet and in noise, in younger (≤25 years) and older (>50 years) listeners without or with mild-to-moderate hearing loss. Pupillometry was used to assess listening effort during these measurements. Behavioral results demonstrated that rollover occurred for both temporal and non-temporal speech contrasts. Rollover occurred in older normal-hearing and older hearing-impaired listeners when speech was presented in background noise. Pupillometry results demonstrated that listening effort was modulated by sound level and that greater listening effort was expended primarily in the presence of background noise. The effect of increased sound level on listening effort was exacerbated by age and hearing loss, with the greatest effect in older listeners with hearing loss. The age- and hearing-dependent effects of rollover highlight the potential negative impact of amplification of high sound levels and therefore has implications for effective treatment of age-related hearing loss.",
+      "ai_analysis": {
+        "scientific_question": "老化程度和听力损失程度如何影响语音在高分贝下的感知衰退（rollover现象）及相应的听觉努力负担？",
+        "key_highlight": "语音在背景噪声下呈现时，老年正常听力者和老年听力障碍者均出现rollover现象，且高声级对听觉努力的负面影响在老年听力障碍者中最为显著。",
+        "main_limitation": "研究仅纳入年轻（≤25岁）和老年（>50岁）受试者，且听力损失程度限定为轻至中度，样本范围限制了研究结论向中年群体及重度听力损失人群的推广。",
+        "research_implication": "研究结果提示助听器验配时需谨慎对待高分贝放大策略，以避免对老年听力障碍者产生潜在的负面影响。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "9bd5385453bb8373",
+        "updated_at": "2026-09-19T07:24:51Z"
+      },
       "last_author_affiliation": "Department of Hearing and Speech Sciences, University of Maryland, College Park, MD, 20742, USA.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
@@ -2789,19 +2849,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-11",
-      "first_seen_at": "2026-09-12T07:12:30Z",
-      "ai_analysis": {
-        "scientific_question": "老化程度和听力损失程度如何影响语音在高分贝下的感知衰退（rollover现象）及相应的听觉努力负担？",
-        "key_highlight": "语音在背景噪声下呈现时，老年正常听力者和老年听力障碍者均出现rollover现象，且高声级对听觉努力的负面影响在老年听力障碍者中最为显著。",
-        "main_limitation": "研究仅纳入年轻（≤25岁）和老年（>50岁）受试者，且听力损失程度限定为轻至中度，样本范围限制了研究结论向中年群体及重度听力损失人群的推广。",
-        "research_implication": "研究结果提示助听器验配时需谨慎对待高分贝放大策略，以避免对老年听力障碍者产生潜在的负面影响。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "9bd5385453bb8373",
-        "updated_at": "2026-09-19T07:24:51Z"
-      }
+      "first_seen_at": "2026-09-12T07:12:30Z"
     },
     {
       "title": "Physics-informed localization of sound sources in reflective environments including hidden sources",
@@ -3010,6 +3058,18 @@
       "doi": "10.1016/j.heares.2026.109808",
       "url": "https://doi.org/10.1016/j.heares.2026.109808",
       "abstract": "Spiral ganglion neurons (SGNs) are molecularly heterogeneous, and low-spontaneous-rate (Type Ic) SGNs are considered important for suprathreshold auditory processing, including encoding sounds in noisy environments. Preferential vulnerability of Type Ic SGNs has been reported in conditions in which primary neural injury is thought to play a major role, such as aging and noise exposure. However, it remains unclear whether preferential Type Ic vulnerability is shared across cochlear injury paradigms or varies with the nature of injury. Here, we investigated subtype-specific patterns of SGN degeneration using three cochlear injury models in adult mice: genetic hair cell-specific ablation in Pou4f3-diphtheria toxin receptor (DTR) mice, and local and acute systemic aminoglycoside injury models. In the DTR model, Type I SGNs underwent progressive degeneration without a detectable change in the proportion of Type Ic SGNs. In contrast, both aminoglycoside models showed significant reductions in Type I SGN density, accompanied by a decreased proportion of Type Ic SGNs, despite distinct patterns of hair cell injury between the local and acute systemic models. These findings demonstrate that distinct cochlear injury paradigms produce different patterns of SGN subtype vulnerability, suggesting that Type Ic vulnerability depends on the nature of cochlear injury.",
+      "ai_analysis": {
+        "scientific_question": "不同的耳蜗损伤模式是否会对I型螺旋神经节神经元亚型产生一致的选择性易感性，还是易感性会随损伤性质的不同而变化。",
+        "key_highlight": "氨基糖苷类损伤会优先减少Ic型螺旋神经节神经元，而遗传性毛细胞消融模型中未观察到这种选择性易感性，表明不同的耳蜗损伤模式产生不同的神经亚型退化模式。",
+        "main_limitation": "Limited generalizability due to small or specific sample",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "466bd916565f253e",
+        "updated_at": "2026-09-19T07:24:59Z"
+      },
       "last_author_affiliation": "Department of Otolaryngology, Head and Neck Surgery, Graduate School of Medicine, Kyoto University, Kyoto, 606-8507, Japan. Electronic address: k_nishimura@ent.kuhp.kyoto-u.ac.jp.",
       "publication_stage": "early_access",
       "section": null,
@@ -3026,19 +3086,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-11",
-      "first_seen_at": "2026-09-11T07:20:33Z",
-      "ai_analysis": {
-        "scientific_question": "不同的耳蜗损伤模式是否会对I型螺旋神经节神经元亚型产生一致的选择性易感性，还是易感性会随损伤性质的不同而变化。",
-        "key_highlight": "氨基糖苷类损伤会优先减少Ic型螺旋神经节神经元，而遗传性毛细胞消融模型中未观察到这种选择性易感性，表明不同的耳蜗损伤模式产生不同的神经亚型退化模式。",
-        "main_limitation": "Limited generalizability due to small or specific sample",
-        "research_implication": "General research findings",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "466bd916565f253e",
-        "updated_at": "2026-09-19T07:24:59Z"
-      }
+      "first_seen_at": "2026-09-11T07:20:33Z"
     },
     {
       "title": "Dual membrane condenser microphones: Post-processing strategies for nonlinear distortion reduction",
@@ -3169,6 +3217,18 @@
       "doi": "10.1016/j.heares.2026.109803",
       "url": "https://doi.org/10.1016/j.heares.2026.109803",
       "abstract": "Hearing-in-noise (HIN) perception requires a complex interaction between sensory and cognitive functions. Older adults commonly report HIN difficulties, which contribute to social isolation, depression, and cognitive decline. Musical experience has emerged as a potential protective factor against age-related HIN deficits, with auditory working memory identified as a mediator. However, inconsistent findings regarding musicianship advantages persist, and research examining whether these benefits extend to older adults remains limited. In this study, we investigated the effects of musicianship on HIN perception in aging. We used a complex auditory task (i.e., the Music-in-Noise task) to isolate contributors, such as the use of predictive cues, auditory-visual integration and temporal processing. We compared 94 younger adults (YA; mean age = 23.6 years; age range: 18-28 years) and 90 older adults (OA; mean age = 69.59; age range: 60-86 years) with similar pure-tone hearing thresholds. We hypothesized that YA would outperform OA, particularly in conditions involving prediction and multimodal integration. We expected musicianship benefits across both age groups. Our results showed that YA performed better than OA on MINT conditions that offered additional cues (though equally on the baseline condition), and musical experience was associated with better performance. An earlier age of acquisition of musical experience was also correlated with better overall performance on the MINT. Our findings suggest that musical training enhances top-down cognitive mechanisms that support HIN perception, further promoting musical interventions to support successful auditory perception and social engagement across the lifespan.",
+      "ai_analysis": {
+        "scientific_question": "音乐训练是否能增强老年人和年轻人在噪声环境中的听觉感知能力？",
+        "key_highlight": "音乐经验与更好的噪声下听觉表现相关，且更早开始音乐学习的个体整体表现更优。",
+        "main_limitation": "使用的音乐噪声任务（MINT）可能无法完全推广到现实世界的聆听场景。",
+        "research_implication": "音乐训练可能成为支持终身听觉感知和社交参与的干预手段，对噪声下言语感知研究具有参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "4df9d166130ca34c",
+        "updated_at": "2026-09-19T07:25:09Z"
+      },
       "last_author_affiliation": "Department of Psychology, Concordia University, Montreal, QC, Canada; The Centre for Research on Brain, Language and Music (CRBLM), Montreal, QC, Canada; International Laboratory for Brain, Music and Sound Research (BRAMS), Montreal, QC, Canada; Montreal Neurological Institute, McGill University, Montreal, QC, Canada; engAGE Centre for Research on Aging, Montreal, QC, Canada.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
@@ -3184,19 +3244,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-10",
-      "first_seen_at": "2026-09-11T07:20:33Z",
-      "ai_analysis": {
-        "scientific_question": "音乐训练是否能增强老年人和年轻人在噪声环境中的听觉感知能力？",
-        "key_highlight": "音乐经验与更好的噪声下听觉表现相关，且更早开始音乐学习的个体整体表现更优。",
-        "main_limitation": "使用的音乐噪声任务（MINT）可能无法完全推广到现实世界的聆听场景。",
-        "research_implication": "音乐训练可能成为支持终身听觉感知和社交参与的干预手段，对噪声下言语感知研究具有参考价值。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "4df9d166130ca34c",
-        "updated_at": "2026-09-19T07:25:09Z"
-      }
+      "first_seen_at": "2026-09-11T07:20:33Z"
     },
     {
       "title": "Post-Training Zero-Shot TTS for Fine-Grained Emotion and Duration Control via Natural Language",
@@ -4508,30 +4556,6 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-06-24",
       "first_seen_at": "2026-06-28T06:38:49Z"
-    },
-    {
-      "title": "Boosting Auditory Nerve Function with Cell Therapy - Status, Surgical Approach and Potential Candidates",
-      "authors": [
-        "Niels West",
-        "Charlotte Amalie Navntoft",
-        "Nicholas Haywood",
-        "Deborah Vickers",
-        "Jaime A. Undurraga",
-        "Per Cayé-Thomasen"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-09-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109806",
-      "url": "https://doi.org/10.1016/j.heares.2026.109806",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-09-13T07:31:08Z"
     },
     {
       "title": "Brain-wide mapping of neuroanatomical connections to the auditory cortex of hearing and deaf mice",
@@ -11771,22 +11795,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044504",
-      "url": "https://doi.org/10.1121/10.0044504",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:37Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -11799,6 +11807,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:36Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044504",
+      "url": "https://doi.org/10.1121/10.0044504",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:37Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -19338,17 +19362,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -19369,18 +19394,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -28704,22 +28728,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -28732,6 +28740,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -35834,23 +35858,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -35864,6 +35871,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -36016,7 +36040,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-03-07",
-      "first_seen_at": "2026-05-14T02:29:18Z"
+      "first_seen_at": "2026-05-14T02:29:18Z",
+      "ai_analysis": {
+        "scientific_question": "哪些因素影响人工耳蜗用户的双耳融合能力，特别是植入方式（同时或顺序植入）以及声电混合听觉如何影响双耳融合对语音分离的效果？",
+        "key_highlight": "顺序植入的双侧人工耳蜗用户在双耳聆听时表现更差，且双耳-单耳阈值差与植入间隔时间呈负相关；声电混合听觉用户则表现出高度不对称的收益模式，取决于目标语音呈现的侧别。",
+        "main_limitation": "样本量相对较小（各组10-16人），且结果可能受限于特定植入方案和残余听力水平的用户群体。",
+        "research_implication": "该研究为双侧人工耳蜗的手术时机决策及声电混合刺激策略的优化提供了实验依据。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "0d865ad236fb64be",
+        "updated_at": "2026-09-20T07:49:40Z"
+      }
     },
     {
       "title": "Generalization of repetition-based segregation with novel sounds and nonsense speech",
@@ -36047,7 +36083,19 @@
       "tags": [],
       "source": "crossref",
       "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
+      "first_seen_at": "2026-05-14T02:28:42Z",
+      "ai_analysis": {
+        "scientific_question": "重复聆听训练中获得的听觉目标分离能力能否泛化到全新的干扰声音？",
+        "key_highlight": "仅在单一重复干扰声或安静条件下训练几乎无法迁移到新干扰声，而暴露于变化干扰声则能使听者快速适应并有效分离目标。",
+        "main_limitation": "研究对象特征未明确说明，结论的可推广性受限于被试群体和实验条件。",
+        "research_implication": "提示听觉训练中干扰信号的变异性可能是促进听者适应性分离能力发展的关键因素，对言语感知和听觉康复训练具有参考意义。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "c5ebf965470e7dfe",
+        "updated_at": "2026-09-20T07:49:49Z"
+      }
     },
     {
       "title": "Hearing Aids: What Works Well and What Can Be Improved.",
@@ -36089,7 +36137,19 @@
       ],
       "source": "pubmed",
       "available_online_date": "2026-02-13",
-      "first_seen_at": "2026-05-14T02:29:04Z"
+      "first_seen_at": "2026-05-14T02:29:04Z",
+      "ai_analysis": {
+        "scientific_question": "现有助听器技术的实际性能表现如何，以及存在哪些可以改进的方面？",
+        "key_highlight": "助听器在声学耦合方式、反馈消除、幅度压缩和噪声处理等方面均存在固有的技术权衡，开放验配虽可减轻堵耳效应但会削弱方向性麦克风的降噪效果。",
+        "main_limitation": "Limited generalizability due to small or specific sample",
+        "research_implication": "该综述揭示了助听器各技术模块之间的相互制约关系，为后续助听器算法优化和验配策略改进提供了综合考量方向。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "d5797042d8b05485",
+        "updated_at": "2026-09-20T07:50:01Z"
+      }
     },
     {
       "title": "Integrated Histology and Molecular Profiling of Postmortem Human Auditory and Vestibular Organs via a Poly (Methyl Methacrylate)-Based Workflow.",
@@ -36145,7 +36205,19 @@
       "tags": [],
       "source": "pubmed",
       "available_online_date": "2026-02-23",
-      "first_seen_at": "2026-05-14T02:29:04Z"
+      "first_seen_at": "2026-05-14T02:29:04Z",
+      "ai_analysis": {
+        "scientific_question": "如何开发一种更快、更多功能的人类颞骨组织学工作流程，在保持形态学完整性的同时兼容分子分析。",
+        "key_highlight": "基于rPMMA的嵌入方法将处理时间和成本降低90%以上，在保持可比组织形态学质量的同时实现了多重免疫荧光、全基因组测序和单细胞分辨率mRNA检测的兼容性。",
+        "main_limitation": "样本量小（n=7），且DNA质量仅在死后间隔小于24小时的样本中得到保证，限制了结果的普适性和实际应用条件。",
+        "research_implication": "该方法为研究人类听觉和前庭疾病的分子机制提供了新工具，特别是在保存人工耳蜗等植入物与组织界面的原生结构方面具有应用潜力。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "ec4f03775e4c63b3",
+        "updated_at": "2026-09-20T07:50:28Z"
+      }
     },
     {
       "title": "Integrative network toxicology and proteomics identifies key pathways in gentamicin-induced ototoxicity",
@@ -39223,8 +39295,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -39238,8 +39310,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -44760,8 +44832,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -44775,8 +44847,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
