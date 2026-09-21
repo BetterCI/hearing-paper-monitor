@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T07:48:29Z",
+  "generated_at": "2026-09-21T08:02:11Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
@@ -1624,6 +1624,57 @@
       "first_seen_at": "2026-08-18T03:11:28Z"
     },
     {
+      "title": "Online Algorithms for Independent Low-Rank Matrix Analysis and Rank-Constrained Spatial Covariance Matrix Estimation Based on Maximum Weighted Likelihood Estimation",
+      "authors": [
+        "Yuto Ishikawa",
+        "Norihiro Takamune",
+        "Tomohiko Nakamura",
+        "Daichi Kitamura",
+        "Hiroshi Saruwatari",
+        "Yu Takahashi",
+        "Kazunobu Kondo"
+      ],
+      "journal": "arXiv",
+      "publication_date": "2026-09-18",
+      "publication_date_precision": "day",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.21180v1",
+      "abstract": "Real-time multichannel speech extraction (MSE) under diffuse noise conditions is an important task with a wide range of applications, such as speech recognition and hearing aids. In this paper, we propose online algorithms for independent low-rank matrix analysis (ILRMA) and rank-constrained spatial covariance matrix estimation (RCSCME). Previously, we proposed a real-time extension of the RCSCME-based method: an MSE method based on ILRMA and RCSCME using the blockwise batch algorithm. However, it assumes that the spatial characteristics are stationary within a single batch, and thus, in dynamic situations where the target speaker moves, its performance may degrade. To address this problem, we derive the online algorithms for ILRMA and RCSCME in the following three steps. First, we formulate framewise cost functions for ILRMA and RCSCME on the basis of maximum weighted likelihood estimation. Second, we derive the update rules for the framewise cost functions on the basis of auxiliary-function techniques. These naive update rules are computationally costly for real-time execution on a practical machine. Thus, we finally derive the online algorithms by approximating some intermediate parameters with their estimates. Furthermore, we propose stabilization and further acceleration techniques for these online algorithms. In experiments, we simulate situations where a target speaker is stationary or moves and show that the proposed method achieves superior speech extraction performance compared with conventional methods. In addition, using real-world recorded signals, we demonstrate the effectiveness of the proposed method in practical scenarios.",
+      "publication_stage": "preprint",
+      "section": null,
+      "keywords": [
+        "cs.SD"
+      ],
+      "tags": [],
+      "source": "arxiv",
+      "available_online_date": "2026-09-18",
+      "source_group": "preprint_filtered",
+      "source_group_label": "Preprints (arXiv)",
+      "actual_journal": "arXiv",
+      "match_level": "topic_filtered_hearing_speech",
+      "matched_keywords": [
+        "hearing aid",
+        "hearing aids"
+      ],
+      "match_fields": [
+        "abstract"
+      ],
+      "needs_review": true,
+      "first_seen_at": "2026-09-21T08:02:11Z",
+      "ai_analysis": {
+        "scientific_question": "如何设计能够在说话人移动等动态场景下实现实时多通道语音提取的在线算法，以克服先前批处理算法假设空间特性在批次内静止的局限性？",
+        "key_highlight": "通过基于最大加权似然估计的帧级代价函数推导，结合辅助函数技术近似中间参数，实现了兼顾计算效率和语音提取性能的在线ILRMA和RCSCME算法。",
+        "main_limitation": "实验验证主要基于模拟动态场景和真实录音，在多样化的实际声学环境中的鲁棒性尚未充分验证。",
+        "research_implication": "该算法为助听器等需要实时语音增强的设备提供了潜在的低复杂度解决方案，但实际硬件部署的可行性仍需进一步验证。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "5670c76da9d3e00c",
+        "updated_at": "2026-09-21T08:02:33Z"
+      }
+    },
+    {
       "title": "Behavioral and Cortical Responses to Frequency Changes in Vowel-Like Stimuli in Listeners With Normal and Impaired Hearing",
       "authors": [
         "Mats Rekswinkel",
@@ -2423,7 +2474,19 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-15",
-      "first_seen_at": "2026-09-16T07:45:42Z"
+      "first_seen_at": "2026-09-16T07:45:42Z",
+      "ai_analysis": {
+        "scientific_question": "确定前庭复合动作电位(vCAP)对脉冲性双耳骨传导振动的阈值，并估算多种哺乳动物的正弦骨传导振动和镫骨振动的同步调谐曲线。",
+        "key_highlight": "刺激诱发的vCAP随峰值加速度呈线性增加，临界剪切速率阈值约为-34 dB，预测不同物种的特征频率在210 Hz（人类）至688 Hz（小鼠）之间变化。",
+        "main_limitation": "基于动物数据的外推存在固有局限，且简化双自由度机械模型可能无法完全反映真实前庭系统的响应特性。",
+        "research_implication": "为骨传导刺激的前庭生物力学机制提供基础参考，但其发现向临床听力康复设备的转化仍需进一步研究。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "28ea08345e3cfa75",
+        "updated_at": "2026-09-21T08:03:15Z"
+      }
     },
     {
       "title": "A dual-stream spectral network for versatile full-band speech enhancement",
@@ -2573,6 +2636,18 @@
       "doi": "10.1016/j.heares.2026.109806",
       "url": "https://doi.org/10.1016/j.heares.2026.109806",
       "abstract": "Poor speech perception after cochlear implantation remains an important clinical problem, even when surgery is technically successful and rehabilitation is adequate. This heterogeneous \"poor performer\" phenotype can reflect device, electrode, cognitive, central-auditory, or neural factors, alone or in combination. A functionally competent auditory nerve is necessary for cochlear implant (CI) benefit, yet post-mortem studies have not shown a consistent relationship between absolute spiral ganglion neuron (SGN) counts and speech recognition. This suggests that neural function, rather than neuron number alone, is likely to be the limiting factor in many patients, and that otic neural progenitor (ONP) cell therapy is most plausible when loss of functional auditory neurons is itself the dominant, potentially treatable lesion. This review evaluates the evidence linking SGN integrity to CI outcomes, proposes a staged framework for identifying candidates for ONP therapy, appraises electrophysiological measures of neural function, and surveys surgical approaches for delivering cells to the human cochlea. Cadaveric and preclinical studies support the technical feasibility of surgical delivery, but current electrophysiological tools provide only indirect, largely within-patient information, and no single validated measure can yet identify SGN degeneration in an individual with the specificity required for trial inclusion. Ultimately, clinical benefit will depend on durable cell survival, correct differentiation and connectivity, and functional integration with CI stimulation. ONP therapy therefore represents a promising but still investigational strategy, whose path to the clinic will depend on rigorous patient stratification, validated diagnostic and outcome measures, and clear demonstration of long-term safety and efficacy.",
+      "ai_analysis": {
+        "scientific_question": "如何确定哪些人工耳蜗植入患者可能从听觉神经祖细胞治疗中获益",
+        "key_highlight": "细胞递送在技术上可行，但目前缺乏能特异性识别个体螺旋神经节退化的经验证指标",
+        "main_limitation": "当前电生理学工具仅提供间接、有限的信息，尚无单一指标能满足临床试验纳入所需的特异性要求",
+        "research_implication": "该综述为通过细胞治疗改善人工耳蜗植入患者言语感知提供了理论依据，但临床转化需先建立有效的诊断和预后评估工具",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "f3004834aad0e7ef",
+        "updated_at": "2026-09-20T07:49:32Z"
+      },
       "last_author_affiliation": "Department of Otorhinolaryngology Head & Neck Surgery and Audiology, Rigshospitalet, University Hospital of Copenhagen, Denmark; Faculty of Health and Medical Sciences, University of Copenhagen, Blegdamsvej 3B, Copenhagen, 2200, Denmark.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
@@ -2591,19 +2666,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-12",
-      "first_seen_at": "2026-09-13T07:31:08Z",
-      "ai_analysis": {
-        "scientific_question": "如何确定哪些人工耳蜗植入患者可能从听觉神经祖细胞治疗中获益",
-        "key_highlight": "细胞递送在技术上可行，但目前缺乏能特异性识别个体螺旋神经节退化的经验证指标",
-        "main_limitation": "当前电生理学工具仅提供间接、有限的信息，尚无单一指标能满足临床试验纳入所需的特异性要求",
-        "research_implication": "该综述为通过细胞治疗改善人工耳蜗植入患者言语感知提供了理论依据，但临床转化需先建立有效的诊断和预后评估工具",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "f3004834aad0e7ef",
-        "updated_at": "2026-09-20T07:49:32Z"
-      }
+      "first_seen_at": "2026-09-13T07:31:08Z"
     },
     {
       "title": "Acoustic-Black-Hole-Enabled bimorph ultrasonic transducers with enhanced vibration and radiation efficiency",
@@ -11795,22 +11858,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -11823,6 +11870,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -19362,18 +19425,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -19394,17 +19456,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -28728,22 +28791,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -28756,6 +28803,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -35858,23 +35921,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -35888,6 +35934,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -36024,6 +36087,18 @@
       "url": "https://doi.org/10.1016/j.heares.2026.109605",
       "full_text_url": "https://linkinghub.elsevier.com/retrieve/pii/S037859552600081X",
       "abstract": "For cochlear implant (CI) users, differences in peripheral input patterns across ears may disrupt binaural fusion, thereby limiting binaural perception. The present study investigated factors affecting binaural fusion for speech segregation. Speech recognition thresholds (SRTs) were adaptively measured in 11 simultaneously implanted (SIM) and 10 sequentially implanted (SEQ) bilateral CI (BiCI) users, as well as in 16 CI users with substantial acoustic hearing (AH) in the non-implanted ear (acoustic-electric hearing; \"AEH\"). Target sentences, spoken by a male talker, were presented alongside two competing sentences spoken by two different male talkers (same-sex maskers) or female talkers (different-sex maskers). The target speech was delivered to one ear, while masker speech was presented either to the same ear as the target (monaural) or to both ears simultaneously (bilateral). The difference in SRTs between bilateral and monaural listening (bilateral-monaural difference; \"BMD\") was used to indirectly estimate binaural fusion. Results showed higher (poorer) SRTs with bilateral than with monaural listening in SEQ-BiCI, but not in SIM-BiCI users. Across BiCI users, the BMD was negatively correlated with the inter-implant interval. Across AEH CI users, SRTs were statistically significantly better with bilateral than with monaural listening when the target speech was presented to the AH ear, but statistically significantly poorer when the target speech was presented to the CI ear. The impact of binaural fusion on speech segregation was highly asymmetric in SEQ-BiCI and AEH CI users, with a relative advantage when the target speech is presented to the first-implanted ear or the AH ear, respectively.",
+      "ai_analysis": {
+        "scientific_question": "哪些因素影响人工耳蜗用户的双耳融合能力，特别是植入方式（同时或顺序植入）以及声电混合听觉如何影响双耳融合对语音分离的效果？",
+        "key_highlight": "顺序植入的双侧人工耳蜗用户在双耳聆听时表现更差，且双耳-单耳阈值差与植入间隔时间呈负相关；声电混合听觉用户则表现出高度不对称的收益模式，取决于目标语音呈现的侧别。",
+        "main_limitation": "样本量相对较小（各组10-16人），且结果可能受限于特定植入方案和残余听力水平的用户群体。",
+        "research_implication": "该研究为双侧人工耳蜗的手术时机决策及声电混合刺激策略的优化提供了实验依据。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "0d865ad236fb64be",
+        "updated_at": "2026-09-20T07:49:40Z"
+      },
       "first_author_affiliation": "Department of Otorhinolaryngology Head and Neck Surgery, Beijing Tongren Hospital, Capital Medical University, Beijing, PR China.",
       "last_author_affiliation": "Department of Head and Neck Surgery, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, California 90095, USA. Electronic address: qfu@mednet.ucla.edu.",
       "section": "Psychological and Physiological Acoustics",
@@ -36040,19 +36115,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-03-07",
-      "first_seen_at": "2026-05-14T02:29:18Z",
-      "ai_analysis": {
-        "scientific_question": "哪些因素影响人工耳蜗用户的双耳融合能力，特别是植入方式（同时或顺序植入）以及声电混合听觉如何影响双耳融合对语音分离的效果？",
-        "key_highlight": "顺序植入的双侧人工耳蜗用户在双耳聆听时表现更差，且双耳-单耳阈值差与植入间隔时间呈负相关；声电混合听觉用户则表现出高度不对称的收益模式，取决于目标语音呈现的侧别。",
-        "main_limitation": "样本量相对较小（各组10-16人），且结果可能受限于特定植入方案和残余听力水平的用户群体。",
-        "research_implication": "该研究为双侧人工耳蜗的手术时机决策及声电混合刺激策略的优化提供了实验依据。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "0d865ad236fb64be",
-        "updated_at": "2026-09-20T07:49:40Z"
-      }
+      "first_seen_at": "2026-05-14T02:29:18Z"
     },
     {
       "title": "Generalization of repetition-based segregation with novel sounds and nonsense speech",
@@ -36070,6 +36133,18 @@
       "url": "https://doi.org/10.1121/10.0043223",
       "full_text_url": "https://pubs.aip.org/jel/article/6/4/044403/3385971/Generalization-of-repetition-based-segregation",
       "abstract": "Repetition helps listeners identify an unfamiliar target sound in the presence of different competing sounds and later recognize it in quiet. To further characterize this perceptual learning process, we tested whether recognition remains robust when the target is paired with a novel distractor sound. Exposure to the repeating target with either a single repeating distractor or in quiet offered limited benefit for detecting the target with a new distractor. In contrast, exposure with varying distractors led to strong recognition, suggesting that listeners adapt their expectations and learn to isolate the target only when distractor variability is present.",
+      "ai_analysis": {
+        "scientific_question": "重复聆听训练中获得的听觉目标分离能力能否泛化到全新的干扰声音？",
+        "key_highlight": "仅在单一重复干扰声或安静条件下训练几乎无法迁移到新干扰声，而暴露于变化干扰声则能使听者快速适应并有效分离目标。",
+        "main_limitation": "研究对象特征未明确说明，结论的可推广性受限于被试群体和实验条件。",
+        "research_implication": "提示听觉训练中干扰信号的变异性可能是促进听者适应性分离能力发展的关键因素，对言语感知和听觉康复训练具有参考意义。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "c5ebf965470e7dfe",
+        "updated_at": "2026-09-20T07:49:49Z"
+      },
       "first_author_affiliation": "Department of Communication Sciences & Disorders, University of South Florida 1 , Tampa, Florida 33620,",
       "last_author_affiliation": "Department of Psychology, The University of Texas at Dallas 2 , Richardson, Texas 75080,",
       "open_access": true,
@@ -36083,19 +36158,7 @@
       "tags": [],
       "source": "crossref",
       "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z",
-      "ai_analysis": {
-        "scientific_question": "重复聆听训练中获得的听觉目标分离能力能否泛化到全新的干扰声音？",
-        "key_highlight": "仅在单一重复干扰声或安静条件下训练几乎无法迁移到新干扰声，而暴露于变化干扰声则能使听者快速适应并有效分离目标。",
-        "main_limitation": "研究对象特征未明确说明，结论的可推广性受限于被试群体和实验条件。",
-        "research_implication": "提示听觉训练中干扰信号的变异性可能是促进听者适应性分离能力发展的关键因素，对言语感知和听觉康复训练具有参考意义。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "c5ebf965470e7dfe",
-        "updated_at": "2026-09-20T07:49:49Z"
-      }
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Hearing Aids: What Works Well and What Can Be Improved.",
@@ -36109,6 +36172,18 @@
       "url": "https://doi.org/10.1007/s10162-026-01031-5",
       "full_text_url": "https://link.springer.com/article/10.1007/s10162-026-01031-5",
       "abstract": "Abstract This paper evaluates the current performance of hearing aids, based on research findings and my experiences with hearing aids. The type of acoustic coupling to the ear is important. The fitting can be “closed” (sealing the ear canal), but this can lead to the occlusion effect; the user’s own voice sounds too loud or too boomy. Alternatively, the fitting can be open (the eartip has a vent). This alleviates the occlusion effect, but it introduces comb-filtering (heard as perceptual coloration) and leads to little or no gain at low frequencies. Also, the highest frequency at which useful gain can be achieved is often about 5 kHz, which is lower than optimal. While acoustic feedback cancellation systems have improved markedly, they can still introduce artifacts and impair sound quality, especially for music. Hearing aids use multi-channel amplitude compression to compensate for the reduced dynamic range of hearing-impaired people, but they often fail to restore the audibility of soft sounds, especially at high frequencies, and the amount of compression is often limited (and less than indicated by the manufacturers’ fitting software), leading to loudness discomfort (and sometimes reduced speech intelligibility) at high sound levels. Also, compression systems introduce cross-modulation, impairing sound quality. Most hearing aids incorporate directional processing and noise-reduction systems intended to improve the ability to understand speech in noisy situations. These systems can be effective with a closed fitting, but much of the benefit is lost with an open fitting because of leakage of background sounds through the vent.",
+      "ai_analysis": {
+        "scientific_question": "现有助听器技术的实际性能表现如何，以及存在哪些可以改进的方面？",
+        "key_highlight": "助听器在声学耦合方式、反馈消除、幅度压缩和噪声处理等方面均存在固有的技术权衡，开放验配虽可减轻堵耳效应但会削弱方向性麦克风的降噪效果。",
+        "main_limitation": "Limited generalizability due to small or specific sample",
+        "research_implication": "该综述揭示了助听器各技术模块之间的相互制约关系，为后续助听器算法优化和验配策略改进提供了综合考量方向。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "d5797042d8b05485",
+        "updated_at": "2026-09-20T07:50:01Z"
+      },
       "first_author_affiliation": "Cambridge Hearing Group, Department of Psychology, University of Cambridge, Downing Street, Cambridge, CB2 3EB, UK. bcjm@cam.ac.uk.",
       "last_author_affiliation": "Cambridge Hearing Group, Department of Psychology, University of Cambridge, Downing Street, Cambridge, CB2 3EB, UK. bcjm@cam.ac.uk.",
       "open_access": true,
@@ -36137,19 +36212,7 @@
       ],
       "source": "pubmed",
       "available_online_date": "2026-02-13",
-      "first_seen_at": "2026-05-14T02:29:04Z",
-      "ai_analysis": {
-        "scientific_question": "现有助听器技术的实际性能表现如何，以及存在哪些可以改进的方面？",
-        "key_highlight": "助听器在声学耦合方式、反馈消除、幅度压缩和噪声处理等方面均存在固有的技术权衡，开放验配虽可减轻堵耳效应但会削弱方向性麦克风的降噪效果。",
-        "main_limitation": "Limited generalizability due to small or specific sample",
-        "research_implication": "该综述揭示了助听器各技术模块之间的相互制约关系，为后续助听器算法优化和验配策略改进提供了综合考量方向。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "d5797042d8b05485",
-        "updated_at": "2026-09-20T07:50:01Z"
-      }
+      "first_seen_at": "2026-05-14T02:29:04Z"
     },
     {
       "title": "Integrated Histology and Molecular Profiling of Postmortem Human Auditory and Vestibular Organs via a Poly (Methyl Methacrylate)-Based Workflow.",
@@ -36182,6 +36245,18 @@
       "url": "https://doi.org/10.1007/s10162-026-01032-4",
       "full_text_url": "https://link.springer.com/article/10.1007/s10162-026-01032-4",
       "abstract": "Hearing and balance disorders are among the most prevalent sensory impairments globally, yet their cellular and molecular basis remains poorly understood. This gap stems from the inaccessibility of the inner ear, which is encased in the temporal bone (TB)-the hardest bone in the body-and cannot be biopsied in living patients. Conventional histopathology workflows, particularly the century-old celloidin method, are time-consuming, labor-intensive, and incompatible with modern molecular analyses. We aimed to develop a faster, more versatile histology workflow for human TBs that preserves both morphology and molecular integrity. We developed a reversible polymethyl methacrylate (rPMMA) embedding protocol for formalin-fixed, calcified TBs using low-temperature resin infiltration (-40 to +4 °C). Precision near-serial sections (10-50 µm) were generated via femtosecond laser microtomy or precision diamond wire sawing. Deacrylation was performed to restore tissue accessibility for histological staining, multiplex immunofluorescence, whole-genome sequencing, and in situ RNA detection (RNAscope™). Compared to the celloidin workflow, our method reduced processing time and costs by over 90% while preserving histomorphology of comparable quality (n = 7 human TBs). It maintained antigenicity for multiplexed immunofluorescence, preserved native tissue-implant interfaces in implant-containing specimens, yielded high-quality DNA suitable for whole-genome sequencing (mean coverage 7.4 × in specimens with postmortem intervals < 24 h), and enabled mRNA detection at single-cell resolution. Celloidin-embedded controls consistently failed to support these molecular assays. This rPMMA-based workflow combines gold-standard histomorphology with full compatibility for advanced molecular analyses. With dramatically reduced time and cost, it offers a new benchmark for integrated, spatially resolved studies of human hearing and balance pathologies.",
+      "ai_analysis": {
+        "scientific_question": "如何开发一种更快、更多功能的人类颞骨组织学工作流程，在保持形态学完整性的同时兼容分子分析。",
+        "key_highlight": "基于rPMMA的嵌入方法将处理时间和成本降低90%以上，在保持可比组织形态学质量的同时实现了多重免疫荧光、全基因组测序和单细胞分辨率mRNA检测的兼容性。",
+        "main_limitation": "样本量小（n=7），且DNA质量仅在死后间隔小于24小时的样本中得到保证，限制了结果的普适性和实际应用条件。",
+        "research_implication": "该方法为研究人类听觉和前庭疾病的分子机制提供了新工具，特别是在保存人工耳蜗等植入物与组织界面的原生结构方面具有应用潜力。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "ec4f03775e4c63b3",
+        "updated_at": "2026-09-20T07:50:28Z"
+      },
       "first_author_affiliation": "Department of Otorhinolaryngology, Head and Neck Surgery, University Hospital Zurich, Zurich, Switzerland.",
       "last_author_affiliation": "Otopathology Laboratory, Mass Eye and Ear, Boston, MA, USA. aeckhard@meei.harvard.edu.",
       "open_access": true,
@@ -36205,19 +36280,7 @@
       "tags": [],
       "source": "pubmed",
       "available_online_date": "2026-02-23",
-      "first_seen_at": "2026-05-14T02:29:04Z",
-      "ai_analysis": {
-        "scientific_question": "如何开发一种更快、更多功能的人类颞骨组织学工作流程，在保持形态学完整性的同时兼容分子分析。",
-        "key_highlight": "基于rPMMA的嵌入方法将处理时间和成本降低90%以上，在保持可比组织形态学质量的同时实现了多重免疫荧光、全基因组测序和单细胞分辨率mRNA检测的兼容性。",
-        "main_limitation": "样本量小（n=7），且DNA质量仅在死后间隔小于24小时的样本中得到保证，限制了结果的普适性和实际应用条件。",
-        "research_implication": "该方法为研究人类听觉和前庭疾病的分子机制提供了新工具，特别是在保存人工耳蜗等植入物与组织界面的原生结构方面具有应用潜力。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "ec4f03775e4c63b3",
-        "updated_at": "2026-09-20T07:50:28Z"
-      }
+      "first_seen_at": "2026-05-14T02:29:04Z"
     },
     {
       "title": "Integrative network toxicology and proteomics identifies key pathways in gentamicin-induced ototoxicity",
@@ -36248,7 +36311,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-02-19",
-      "first_seen_at": "2026-05-14T02:29:18Z"
+      "first_seen_at": "2026-05-14T02:29:18Z",
+      "ai_analysis": {
+        "scientific_question": "庆大霉素诱导耳毒性的具体分子机制是什么？",
+        "key_highlight": "通过网络毒理学预测与蛋白质组学验证相结合的研究方法，揭示了HIF-1、PI3K-Akt、FoxO等信号通路紊乱以及补体系统介导的炎症反应和自噬失调在庆大霉素致内耳毛细胞损伤中的关键作用。",
+        "main_limitation": "计算预测和动物实验结果在人体中的适用性有待进一步验证。",
+        "research_implication": "为药物性听力损失的早期预警和干预靶点研究提供了潜在的生物标志物和分子依据。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "f6170ce781997832",
+        "updated_at": "2026-09-21T08:03:27Z"
+      }
     },
     {
       "title": "Intranasal gentamicin irrigation impacts number and morphology of auditory brainstem neurons",
@@ -36282,7 +36357,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-03-09",
-      "first_seen_at": "2026-05-14T02:29:18Z"
+      "first_seen_at": "2026-05-14T02:29:18Z",
+      "ai_analysis": {
+        "scientific_question": "鼻腔灌注庆大霉素是否会导致听觉脑干神经元数量、形态和钙结合蛋白表达的改变？",
+        "key_highlight": "研究发现从螺旋神经节到下丘的听觉通路上出现显著的神经元形态改变、螺旋神经节密度降低，以及腹侧耳蜗核、内侧上橄榄核和MNTB神经元数量减少。",
+        "main_limitation": "Limited generalizability due to small or specific sample",
+        "research_implication": "研究结果提示即使是低剂量庆大霉素经鼻腔给药也具有耳毒性，强调在临床使用中需要进行听觉和前庭功能筛查。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "6a01b28f4216fea8",
+        "updated_at": "2026-09-21T08:03:40Z"
+      }
     },
     {
       "title": "Low-frequency broadband sound absorption of micro-perforated panel absorber with different extended necks",
@@ -36307,7 +36394,19 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
+      "first_seen_at": "2026-05-14T02:28:38Z",
+      "ai_analysis": {
+        "scientific_question": "不同扩展颈构型对微穿孔板吸声体低频吸声性能的影响规律是什么？",
+        "key_highlight": "内扩颈长度对共振频率的敏感度最高，穿孔直径对吸收峰的影响最为显著，外径和背腔厚度的变化仅影响共振频率而不改变吸收峰和带宽。",
+        "main_limitation": "理论建模和数值分析占主导，实验验证的规模和覆盖范围有限，结论的普适性有待更多实证检验。",
+        "research_implication": "属于声学材料与噪声控制领域的基础研究，与助听器、人工耳蜗或言语感知研究无直接关联。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "c677e937a1a2ca01",
+        "updated_at": "2026-09-21T08:03:52Z"
+      }
     },
     {
       "title": "Modeling sperm whale seasonal dynamics using probabilistic machine learning of passive acoustic data",
@@ -36338,7 +36437,19 @@
       ],
       "source": "crossref",
       "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
+      "first_seen_at": "2026-05-14T02:28:42Z",
+      "ai_analysis": {
+        "scientific_question": "墨西哥湾北部抹香鲸的声学活动是否存在显著的季节性变化模式？",
+        "key_highlight": "基于广义线性模型框架分析两年被动声学数据，发现抹香鲸声学活动在冬季和秋季最高，春季最低，建立了区域性的季节性活动基线。",
+        "main_limitation": "仅基于墨西哥湾北部两年的数据，其季节性模式在其他地理区域或更长时间尺度上的适用性有待验证。",
+        "research_implication": "该研究展示了处理非正态声学计数数据的统计方法，可为其他物种的声学监测和生态学研究提供方法论参考。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "7bd76e9c942acc67",
+        "updated_at": "2026-09-21T08:04:14Z"
+      }
     },
     {
       "title": "Multi-frequency acoustic backscatter inversion for measuring multi-class sediment suspensions",
@@ -39295,8 +39406,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -39310,8 +39421,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -44832,8 +44943,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -44847,8 +44958,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
