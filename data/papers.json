@@ -1,6 +1,42 @@
 {
-  "generated_at": "2026-09-26T07:48:49Z",
+  "generated_at": "2026-09-27T08:18:26Z",
   "papers": [
+    {
+      "title": "Brain-wide mapping of neuroanatomical connections to the auditory cortex of hearing and deaf mice",
+      "authors": [
+        "Thomas C. Harmon",
+        "Andrew C. Jin",
+        "Evelyn J. Hardin",
+        "Richard Mooney"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-12-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109800",
+      "url": "https://doi.org/10.1016/j.heares.2026.109800",
+      "abstract": "Remarkable therapeutic innovations have made it possible to establish hearing in congenitally deaf subjects. Despite these advances, a potential obstacle to restoring auditory function is that the absence of auditory experience alters the connectivity of the auditory cortex, a region that contributes to auditory perception and cognition. Here we used an intersectional genetic approach to map the brainwide inputs to the primary auditory cortex of congenitally deaf mice and their hearing littermates. We found that deaf mice displayed a significant reduction in afferents arising from the basomedial amygdala, the core of the medial geniculate nucleus, and anterior auditory thalamic nuclei. Nonetheless, major aspects of auditory cortical connectivity, including input from other thalamic nuclei and from non-auditory regions of the cortex, were unaffected by deafness. These findings highlight altered and preserved connectivity of the auditory cortex in the absence of auditory experience, which may inform therapies designed to establish hearing in congenitally deaf subjects.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-09",
+      "first_seen_at": "2026-09-10T07:21:38Z",
+      "ai_analysis": {
+        "scientific_question": "先天性耳聋是否以及如何改变听觉皮层的全脑输入连接？",
+        "key_highlight": "先天性聋鼠的基底内侧杏仁核、内侧膝状体核和前侧听觉丘脑核向初级听觉皮层的传入神经显著减少，而其他丘脑核和非听觉皮层区域的输入则未受影响。",
+        "main_limitation": "小鼠模型的研究结果向人类听觉系统及临床治疗的转化应用存在不确定性。",
+        "research_implication": "该研究为先天性耳聋患者的听觉恢复疗法设计提供了关于听觉皮层神经环路改变的解剖学基础。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "07a78dcb96e729b6",
+        "updated_at": "2026-09-27T08:18:48Z"
+      }
+    },
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
       "authors": [
@@ -191,6 +227,45 @@
       "source": "crossref",
       "available_online_date": "2026-08-07",
       "first_seen_at": "2026-08-08T03:45:40Z"
+    },
+    {
+      "title": "Boosting auditory nerve function with cell therapy - status, surgical approach and potential candidates",
+      "authors": [
+        "Niels West",
+        "Charlotte Amalie Navntoft",
+        "Nicholas Haywood",
+        "Deborah Vickers",
+        "Jaime A Undurraga",
+        "Per Cayé-Thomasen"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109806",
+      "url": "https://doi.org/10.1016/j.heares.2026.109806",
+      "abstract": "Poor speech perception after cochlear implantation remains an important clinical problem, even when surgery is technically successful and rehabilitation is adequate. This heterogeneous \"poor performer\" phenotype can reflect device, electrode, cognitive, central-auditory, or neural factors, alone or in combination. A functionally competent auditory nerve is necessary for cochlear implant (CI) benefit, yet post-mortem studies have not shown a consistent relationship between absolute spiral ganglion neuron (SGN) counts and speech recognition. This suggests that neural function, rather than neuron number alone, is likely to be the limiting factor in many patients, and that otic neural progenitor (ONP) cell therapy is most plausible when loss of functional auditory neurons is itself the dominant, potentially treatable lesion. This review evaluates the evidence linking SGN integrity to CI outcomes, proposes a staged framework for identifying candidates for ONP therapy, appraises electrophysiological measures of neural function, and surveys surgical approaches for delivering cells to the human cochlea. Cadaveric and preclinical studies support the technical feasibility of surgical delivery, but current electrophysiological tools provide only indirect, largely within-patient information, and no single validated measure can yet identify SGN degeneration in an individual with the specificity required for trial inclusion. Ultimately, clinical benefit will depend on durable cell survival, correct differentiation and connectivity, and functional integration with CI stimulation. ONP therapy therefore represents a promising but still investigational strategy, whose path to the clinic will depend on rigorous patient stratification, validated diagnostic and outcome measures, and clear demonstration of long-term safety and efficacy.",
+      "ai_analysis": {
+        "scientific_question": "如何确定哪些人工耳蜗植入患者可能从听觉神经祖细胞治疗中获益",
+        "key_highlight": "细胞递送在技术上可行，但目前缺乏能特异性识别个体螺旋神经节退化的经验证指标",
+        "main_limitation": "当前电生理学工具仅提供间接、有限的信息，尚无单一指标能满足临床试验纳入所需的特异性要求",
+        "research_implication": "该综述为通过细胞治疗改善人工耳蜗植入患者言语感知提供了理论依据，但临床转化需先建立有效的诊断和预后评估工具",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "f3004834aad0e7ef",
+        "updated_at": "2026-09-20T07:49:32Z"
+      },
+      "last_author_affiliation": "Department of Otorhinolaryngology Head & Neck Surgery and Audiology, Rigshospitalet, University Hospital of Copenhagen, Denmark; Faculty of Health and Medical Sciences, University of Copenhagen, Blegdamsvej 3B, Copenhagen, 2200, Denmark.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-12",
+      "first_seen_at": "2026-09-13T07:31:08Z"
     },
     {
       "title": "Close-to-critical Hopf oscillators boost cochlear gain in realistic models with fluid focusing",
@@ -1786,12 +1861,6 @@
       "doi": "10.1121/10.0046647",
       "url": "https://doi.org/10.1121/10.0046647",
       "abstract": "Editor's Note: Readers of this journal are encouraged to submit news items on awards, appointments, and other activities about themselves or their colleagues. Deadline dates for news and notices are 2 months prior to publication.",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-25",
-      "first_seen_at": "2026-09-26T07:48:30Z",
       "ai_analysis": {
         "scientific_question": "非研究论文，为期刊编辑说明，招募奖项、任命等新闻稿件",
         "key_highlight": "非原创研究内容，为期刊公告性质的编辑说明",
@@ -1803,7 +1872,13 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "5cfaec2190a77b43",
         "updated_at": "2026-09-26T07:49:08Z"
-      }
+      },
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-25",
+      "first_seen_at": "2026-09-26T07:48:30Z"
     },
     {
       "title": "Effects of glottal and velopharyngeal port openings on the first formant frequency in natural speech",
@@ -1823,22 +1898,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0046531",
       "url": "https://doi.org/10.1121/10.0046531",
-      "abstract": "The present study investigated the effects of the glottal opening during phonation and small openings of the velopharyngeal port on the first vowel formant frequency (F1). While previous studies confirmed that these boundary conditions increase the formant frequencies of speech sounds based on models and simulations, such a trend was so far not evident in in vivo experiments with humans. To estimate the effects of the boundary conditions on F1 in natural speech, we recorded the audio signal simultaneously with optopalatography (OPG), electroglottography, and nasal airflow of 21 speakers producing logatomes with the eight German tense vowels under varying conditions. The effects of oral articulation were controlled using OPG and larynx height measurements. An increase in average glottal area, approximated based on glottal open quotient, tended to decrease F1. This finding contradicts the predictions from previous simulation studies regarding the glottal boundary condition. On the other hand, a small increase in the estimated area of the velopharyngeal port opening increased F1 in both spoken and shouted vowels. These results provide evidence that F1 is not only determined by the cross-sectional area function of the vocal tract, but is also affected by small openings of the velopharyngeal port.",
-      "first_author_affiliation": "Institute of Acoustics and Speech Communication, Technische Universität Dresden 1 , Helmholtzstraße 18, 01069 Dresden,",
-      "last_author_affiliation": "Institute of Acoustics and Speech Communication, Technische Universität Dresden 1 , Helmholtzstraße 18, 01069 Dresden,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0046531",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-25",
-      "first_seen_at": "2026-09-26T07:48:30Z",
       "full_text_url": "https://pubs.aip.org/jasa/article/160/3/2530/3405276/Effects-of-glottal-and-velopharyngeal-port",
-      "media_checked_at": "2026-09-26T07:48:57Z",
-      "open_access_image_checked_at": "2026-09-26T07:48:57Z",
+      "abstract": "The present study investigated the effects of the glottal opening during phonation and small openings of the velopharyngeal port on the first vowel formant frequency (F1). While previous studies confirmed that these boundary conditions increase the formant frequencies of speech sounds based on models and simulations, such a trend was so far not evident in in vivo experiments with humans. To estimate the effects of the boundary conditions on F1 in natural speech, we recorded the audio signal simultaneously with optopalatography (OPG), electroglottography, and nasal airflow of 21 speakers producing logatomes with the eight German tense vowels under varying conditions. The effects of oral articulation were controlled using OPG and larynx height measurements. An increase in average glottal area, approximated based on glottal open quotient, tended to decrease F1. This finding contradicts the predictions from previous simulation studies regarding the glottal boundary condition. On the other hand, a small increase in the estimated area of the velopharyngeal port opening increased F1 in both spoken and shouted vowels. These results provide evidence that F1 is not only determined by the cross-sectional area function of the vocal tract, but is also affected by small openings of the velopharyngeal port.",
       "ai_analysis": {
         "scientific_question": "本研究探讨发声时声门开放程度和腭帆孔微小开放对第一共振峰频率(F1)的影响。",
         "key_highlight": "在21名说话者的自然语音实验中，声门面积增大倾向于降低F1（与先前模拟预测相反），而腭帆孔微小开放则在说话和喊叫元音中均增加了F1。",
@@ -1850,7 +1911,21 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "0c24631218a3d14d",
         "updated_at": "2026-09-26T07:49:19Z"
-      }
+      },
+      "first_author_affiliation": "Institute of Acoustics and Speech Communication, Technische Universität Dresden 1 , Helmholtzstraße 18, 01069 Dresden,",
+      "last_author_affiliation": "Institute of Acoustics and Speech Communication, Technische Universität Dresden 1 , Helmholtzstraße 18, 01069 Dresden,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046531",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-09-26T07:48:57Z",
+      "media_checked_at": "2026-09-26T07:48:57Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-25",
+      "first_seen_at": "2026-09-26T07:48:30Z"
     },
     {
       "title": "Effects of identity-related voice cues on speech timing under delayed auditory feedback",
@@ -1864,25 +1939,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0046693",
       "url": "https://doi.org/10.1121/10.0046693",
-      "abstract": "Delayed auditory feedback (DAF) disrupts speech timing, but whether this disruption depends on acoustic cues in the feedback voice remains unclear. Twelve Japanese male speakers read sentences while feedback was presented with actual delays of 30–40, 130–140, and 230–240 ms and with pitch shifting and/or spectral-envelope expansion/compression. Mixed-effects analyses treating pitch and spectral-envelope manipulations separately showed that utterance duration increased with delay and exhibited a significant delay-dependent effect of spectral-envelope manipulation, whereas pitch effects were not significant. Total mora count increased with delay without clear pitch- or spectral-envelope-related modulation, and mean mora duration also increased with delay.",
-      "first_author_affiliation": "Japan Advanced Institute of Science and Technology , 1-1 Asahidai, Nomi, Ishikawa 923-1292,",
-      "last_author_affiliation": "Japan Advanced Institute of Science and Technology , 1-1 Asahidai, Nomi, Ishikawa 923-1292,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0046693",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "priority section",
-        "psychoacoustics"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-09-25",
-      "first_seen_at": "2026-09-26T07:48:31Z",
       "full_text_url": "https://pubs.aip.org/jel/article/6/9/098501/3405278/Effects-of-identity-related-voice-cues-on-speech",
-      "media_checked_at": "2026-09-26T07:48:58Z",
-      "open_access_image_checked_at": "2026-09-26T07:48:58Z",
+      "abstract": "Delayed auditory feedback (DAF) disrupts speech timing, but whether this disruption depends on acoustic cues in the feedback voice remains unclear. Twelve Japanese male speakers read sentences while feedback was presented with actual delays of 30–40, 130–140, and 230–240 ms and with pitch shifting and/or spectral-envelope expansion/compression. Mixed-effects analyses treating pitch and spectral-envelope manipulations separately showed that utterance duration increased with delay and exhibited a significant delay-dependent effect of spectral-envelope manipulation, whereas pitch effects were not significant. Total mora count increased with delay without clear pitch- or spectral-envelope-related modulation, and mean mora duration also increased with delay.",
       "ai_analysis": {
         "scientific_question": "延迟听觉反馈对言语时间的干扰是否受到反馈声音中声学线索（音高和频谱包络）的影响？",
         "key_highlight": "发音时长随延迟增加而延长，且表现出显著的延迟依赖性频谱包络操纵效应，而音高效应不显著。",
@@ -1894,7 +1952,24 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "9e4d9875c4a225eb",
         "updated_at": "2026-09-26T07:49:31Z"
-      }
+      },
+      "first_author_affiliation": "Japan Advanced Institute of Science and Technology , 1-1 Asahidai, Nomi, Ishikawa 923-1292,",
+      "last_author_affiliation": "Japan Advanced Institute of Science and Technology , 1-1 Asahidai, Nomi, Ishikawa 923-1292,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046693",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-09-26T07:48:58Z",
+      "media_checked_at": "2026-09-26T07:48:58Z",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "priority section",
+        "psychoacoustics"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-25",
+      "first_seen_at": "2026-09-26T07:48:31Z"
     },
     {
       "title": "Temporal variability of high-frequency seafloor scattering strength at a sandy site in the Gulf of Maine",
@@ -1908,22 +1983,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0046728",
       "url": "https://doi.org/10.1121/10.0046728",
-      "abstract": "The goal of this research was to quantify the variability of seafloor backscattering strength occurring on time scales of weeks to months. Acoustic data were acquired using a 2-m-tall stationary mooring placed on the seafloor in a shallow water, sandy site located at the mouth of the Piscataqua River, New Hampshire, USA. Seafloor backscattering was measured at three frequencies (70, 200 and 333 kHz) and at low grazing angles (11° to 20°). Results show that scattering strength at fixed grazing angles varied weekly up to 10 dB and up to 18.8 dB over the 8-month deployment.",
-      "first_author_affiliation": "Center for Acoustics Research and Education, University of New Hampshire 1 , Durham, New Hampshire 03824,",
-      "last_author_affiliation": "Center for Acoustics Research and Education, University of New Hampshire 1 , Durham, New Hampshire 03824,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0046728",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-25",
-      "first_seen_at": "2026-09-26T07:48:31Z",
       "full_text_url": "https://pubs.aip.org/jel/article/6/9/096004/3405289/Temporal-variability-of-high-frequency-seafloor",
-      "media_checked_at": "2026-09-26T07:48:58Z",
-      "open_access_image_checked_at": "2026-09-26T07:48:58Z",
+      "abstract": "The goal of this research was to quantify the variability of seafloor backscattering strength occurring on time scales of weeks to months. Acoustic data were acquired using a 2-m-tall stationary mooring placed on the seafloor in a shallow water, sandy site located at the mouth of the Piscataqua River, New Hampshire, USA. Seafloor backscattering was measured at three frequencies (70, 200 and 333 kHz) and at low grazing angles (11° to 20°). Results show that scattering strength at fixed grazing angles varied weekly up to 10 dB and up to 18.8 dB over the 8-month deployment.",
       "ai_analysis": {
         "scientific_question": "海床背散射强度在数周至数月时间尺度上的变化程度如何？",
         "key_highlight": "使用固定式声学系泊系统在砂质海床进行8个月测量，发现固定掠射角下的散射强度每周变化可达10 dB，8个月内累计变化达18.8 dB。",
@@ -1935,7 +1996,21 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "cfd851b143869980",
         "updated_at": "2026-09-26T07:49:38Z"
-      }
+      },
+      "first_author_affiliation": "Center for Acoustics Research and Education, University of New Hampshire 1 , Durham, New Hampshire 03824,",
+      "last_author_affiliation": "Center for Acoustics Research and Education, University of New Hampshire 1 , Durham, New Hampshire 03824,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046728",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-09-26T07:48:58Z",
+      "media_checked_at": "2026-09-26T07:48:58Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-25",
+      "first_seen_at": "2026-09-26T07:48:31Z"
     },
     {
       "title": "Does per-frame early exit pay? A compute-matched study of dynamic depth for on-device speech enhancement",
@@ -2281,6 +2356,18 @@
       "doi": null,
       "url": "https://arxiv.org/abs/2609.26937v1",
       "abstract": "Temporal envelopes carry cues critical to speech intelligibility, yet ASR frontends based on log-mel spectrograms do not explicitly model continuous sub-band envelope structure. This limitation is particularly acute for children's speech, where high acoustic variability demands robust feature representations. We propose a modular time-domain frontend that decomposes speech into sub-band envelopes using mel-spaced windowed-sinc filters and the Hilbert transform, with learnable per-channel energy normalization (PCEN) jointly optimized with the Whisper model. On the MyST children's speech corpus, systematic ablations identify full-band windowed-sinc filters, Hilbert envelopes, a 25 Hz smoothing cutoff, and learnable PCEN as the best configuration. Under the same Whisper-small fine-tuning setup, the frontend reduces WER from 13.16% to 11.08%, a 15.8% relative reduction over the log-mel baseline, and outperforms the evaluated Kid-Whisper checkpoint on the same cleaned test split. These results show that temporal-envelope representations and learnable frontend normalization are effective complements to backend adaptation for children's ASR.",
+      "ai_analysis": {
+        "scientific_question": "如何通过时间包络表示和学习型每通道能量归一化来提高高声学变异性的儿童语音自动语音识别的鲁棒性",
+        "key_highlight": "基于希尔伯特变换的时间包络前端在MyST儿童语音语料库上将词错误率从13.16%降至11.08%，相比log-mel基线实现15.8%的相对降低",
+        "main_limitation": "Limited generalizability due to small or specific sample（仅在单一MyST语料库上验证，未在成人语音或其他儿童语料库上测试）",
+        "research_implication": "General research findings（该研究聚焦于ASR前端优化，虽非直接涉及助听器或人工耳蜗，但对儿童言语处理和辅助听力技术开发具有潜在参考价值）",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "01812ec977d6db6c",
+        "updated_at": "2026-09-26T07:49:48Z"
+      },
       "publication_stage": "preprint",
       "section": null,
       "keywords": [
@@ -2300,19 +2387,7 @@
         "abstract"
       ],
       "needs_review": true,
-      "first_seen_at": "2026-09-24T07:39:48Z",
-      "ai_analysis": {
-        "scientific_question": "如何通过时间包络表示和学习型每通道能量归一化来提高高声学变异性的儿童语音自动语音识别的鲁棒性",
-        "key_highlight": "基于希尔伯特变换的时间包络前端在MyST儿童语音语料库上将词错误率从13.16%降至11.08%，相比log-mel基线实现15.8%的相对降低",
-        "main_limitation": "Limited generalizability due to small or specific sample（仅在单一MyST语料库上验证，未在成人语音或其他儿童语料库上测试）",
-        "research_implication": "General research findings（该研究聚焦于ASR前端优化，虽非直接涉及助听器或人工耳蜗，但对儿童言语处理和辅助听力技术开发具有潜在参考价值）",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "01812ec977d6db6c",
-        "updated_at": "2026-09-26T07:49:48Z"
-      }
+      "first_seen_at": "2026-09-24T07:39:48Z"
     },
     {
       "title": "A confidence-aware contrastive deep learning network for coral reef fish sound classification",
@@ -2392,22 +2467,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046572",
-      "url": "https://doi.org/10.1121/10.0046572",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:56Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -2420,6 +2479,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:59Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046572",
+      "url": "https://doi.org/10.1121/10.0046572",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:56Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -2770,7 +2845,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-21",
-      "first_seen_at": "2026-09-22T07:46:41Z"
+      "first_seen_at": "2026-09-22T07:46:41Z",
+      "ai_analysis": {
+        "scientific_question": "探究轻度双侧听力损失儿童助听后的皮层神经加工如何影响其在噪声环境中的言语感知能力",
+        "key_highlight": "虽然助听未能显著改善行为学上的空间掩蔽释放效益，但功能近红外光谱测量显示助听可增强双侧颞叶皮层对时域和频域调制的神经反应，且该皮层活动的增强与更好的噪声下言语感知表现相关",
+        "main_limitation": "样本量较小（11名轻度双侧听力损失儿童），且儿童年龄跨度较大（6-14岁），可能限制结果的稳健性和对发育阶段的泛化",
+        "research_implication": "研究提示皮层神经指标可能比行为学指标更敏感地反映轻度听力损失儿童的助听效益，对临床验配决策具有参考价值",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "f859a8eb17e87b26",
+        "updated_at": "2026-09-27T08:19:02Z"
+      }
     },
     {
       "title": "Evidence for a cancellation tooth in the absence of a harmonic partial",
@@ -2838,7 +2925,19 @@
         "abstract"
       ],
       "needs_review": true,
-      "first_seen_at": "2026-09-24T07:39:48Z"
+      "first_seen_at": "2026-09-24T07:39:48Z",
+      "ai_analysis": {
+        "scientific_question": "如何在资源受限的边缘设备上实现低比特率实时语音通信同时保留语音可懂度和说话人特征。",
+        "key_highlight": "TinyCall通过轻量化神经音频编解码器和伪前瞻解码、残余有限标量量化等技术，在Raspberry Pi上实现了低至2.3 kbps的实时语音通信。",
+        "main_limitation": "缺乏正式的主观测听验证来确认语音可懂度和说话人特征保留的实际效果，且研究聚焦于特定低功耗平台。",
+        "research_implication": "该研究属于边缘计算语音编解码领域，对助听器或人工耳蜗等辅助听力设备中的高效音频传输具有一定参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "d6357135ecb79f09",
+        "updated_at": "2026-09-27T08:19:13Z"
+      }
     },
     {
       "title": "Open-source real-time passive acoustic tracking of beaked whales for low-power devices",
@@ -2968,7 +3067,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-17",
-      "first_seen_at": "2026-09-25T07:56:18Z"
+      "first_seen_at": "2026-09-25T07:56:18Z",
+      "ai_analysis": {
+        "scientific_question": "单侧重度听力损失患者在言语感知过程中皮层活动如何改变，以及特定受累耳对半球偏侧化模式的影响是什么？",
+        "key_highlight": "单侧听力损失患者的高级言语处理区域（颞上回）活动显著降低，且左耳听力损失组表现出增强的左向半球偏侧化特征。",
+        "main_limitation": "受限于特定的严重单侧语后聋患者群体，且刺激材料仅包含单音节词和纯音。",
+        "research_implication": "该研究为单侧听力损失患者言语感知困难的神经生理机制提供了新见解，提示需关注单侧听力损失对高级听觉处理的影响。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "9d31fbea7a0cfc47",
+        "updated_at": "2026-09-27T08:19:26Z"
+      }
     },
     {
       "title": "Behavioral and Cortical Responses to Frequency Changes in Vowel-Like Stimuli in Listeners With Normal and Impaired Hearing",
@@ -3399,6 +3510,49 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-16",
       "first_seen_at": "2026-09-17T07:46:50Z"
+    },
+    {
+      "title": "Low-frequency oscillations in frontocentral EEG responses associated with auditory motion processing",
+      "authors": [
+        "Ekaterina A. Petropavlovskaia",
+        "Varvara V. Semenova",
+        "Lidia B. Shestopalova"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-16",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109814",
+      "url": "https://doi.org/10.1016/j.heares.2026.109814",
+      "abstract": "This study investigated the oscillatory dynamics underlying sound motion processing in a delayed motion paradigm. Auditory motion was simulated by linear changes in interaural time difference. EEG was recorded while stimuli moved at seven velocities from 90 deg/s to 450 deg/s plus an abrupt displacement. We aimed to determine how the timing and magnitude of oscillatory responses scale with motion velocity, and how they relate to motion-onset response (MOR) components. The analysis focused on MOR deflections (cN1 and cP2) and oscillatory dynamics measured via event-related spectral perturbations (ERSP) and inter-trial phase coherence (ITC) in theta and lower alpha bands. Velocity dependence was quantified using the time required for the stimulus to traverse one degree of azimuth, termed 1-degree shift time. ITC peaked earlier than ERSP, with peak latencies increasing linearly with 1-degree shift time. Nonlinear regression showed that response magnitudes followed a hyperbolic decline as a function of 1-degree shift time, which is equivalent to linear growth with velocity. Together, our findings indicate that auditory motion processing relies on common temporal integration mechanisms across evoked and oscillatory responses, with ITC showing the highest sensitivity to velocity. The observed relationships between response magnitude, latency, and velocity can be explained by the joint activity of neural populations with broad unilateral receptive fields that differ in spatial thresholds and in integration time after the stimulus enters the receptive field.",
+      "last_author_affiliation": "Pavlov Institute of Physiology, Russian Academy of Sciences, Makarova emb., 6, Saint Petersburg, 199034, Russia. Electronic address: shestopalovalb@infran.ru.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [
+        "Auditory motion",
+        "EEG",
+        "ERSP",
+        "ITC",
+        "Temporal integration",
+        "Velocity dependence"
+      ],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-16",
+      "first_seen_at": "2026-09-27T08:18:09Z",
+      "ai_analysis": {
+        "scientific_question": "听觉运动处理过程中振荡反应的时序和幅度如何随运动速度缩放，以及它们与运动起始反应成分之间存在何种关系？",
+        "key_highlight": "ITC峰潜伏期随一度位移时间线性增加，反应幅度随一度位移时间呈双曲下降（即随速度呈线性增长），提示听觉运动处理依赖共同的时序整合机制，且ITC对速度最为敏感。",
+        "main_limitation": "采用仅七个速度条件下的延迟运动范式模拟ITD变化，且未说明样本量，其发现向真实动态听觉场景的推广性有限。",
+        "research_implication": "该研究为听觉运动处理的神经时序整合机制提供了电生理基础，可为空间听觉相关的听觉辅助设备算法设计提供参考。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "2ba7231958d6d631",
+        "updated_at": "2026-09-27T08:19:38Z"
+      }
     },
     {
       "title": "On the correlation between compaction in fine-grained barite sediment and its ultrasound attenuation and wave speed",
@@ -3917,52 +4071,57 @@
       "first_seen_at": "2026-09-16T07:47:09Z"
     },
     {
-      "title": "Boosting auditory nerve function with cell therapy - status, surgical approach and potential candidates",
+      "title": "Structure-guided mapping of ototoxicity-related proteins: drug entry, damage amplification, cell death execution, and endogenous otoprotection",
       "authors": [
-        "Niels West",
-        "Charlotte Amalie Navntoft",
-        "Nicholas Haywood",
-        "Deborah Vickers",
-        "Jaime A Undurraga",
-        "Per Cayé-Thomasen"
+        "Verónica Aranda-Chan",
+        "Gabriel I. Ortega-López",
+        "Paola Ester López-Díaz",
+        "Andrea Michelle Hernández-Nava",
+        "Montserrat Gutiérrez-Soto",
+        "Jorge Luis Rosas Trigueros",
+        "Rosaura Palma Orozco",
+        "Absalom Zamorano Carrillo",
+        "Claudia G. Benítez-Cardoza"
       ],
       "journal": "Hearing Research",
-      "publication_date": "2026-09-12",
+      "publication_date": "2026-09-13",
       "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109806",
-      "url": "https://doi.org/10.1016/j.heares.2026.109806",
-      "abstract": "Poor speech perception after cochlear implantation remains an important clinical problem, even when surgery is technically successful and rehabilitation is adequate. This heterogeneous \"poor performer\" phenotype can reflect device, electrode, cognitive, central-auditory, or neural factors, alone or in combination. A functionally competent auditory nerve is necessary for cochlear implant (CI) benefit, yet post-mortem studies have not shown a consistent relationship between absolute spiral ganglion neuron (SGN) counts and speech recognition. This suggests that neural function, rather than neuron number alone, is likely to be the limiting factor in many patients, and that otic neural progenitor (ONP) cell therapy is most plausible when loss of functional auditory neurons is itself the dominant, potentially treatable lesion. This review evaluates the evidence linking SGN integrity to CI outcomes, proposes a staged framework for identifying candidates for ONP therapy, appraises electrophysiological measures of neural function, and surveys surgical approaches for delivering cells to the human cochlea. Cadaveric and preclinical studies support the technical feasibility of surgical delivery, but current electrophysiological tools provide only indirect, largely within-patient information, and no single validated measure can yet identify SGN degeneration in an individual with the specificity required for trial inclusion. Ultimately, clinical benefit will depend on durable cell survival, correct differentiation and connectivity, and functional integration with CI stimulation. ONP therapy therefore represents a promising but still investigational strategy, whose path to the clinic will depend on rigorous patient stratification, validated diagnostic and outcome measures, and clear demonstration of long-term safety and efficacy.",
-      "ai_analysis": {
-        "scientific_question": "如何确定哪些人工耳蜗植入患者可能从听觉神经祖细胞治疗中获益",
-        "key_highlight": "细胞递送在技术上可行，但目前缺乏能特异性识别个体螺旋神经节退化的经验证指标",
-        "main_limitation": "当前电生理学工具仅提供间接、有限的信息，尚无单一指标能满足临床试验纳入所需的特异性要求",
-        "research_implication": "该综述为通过细胞治疗改善人工耳蜗植入患者言语感知提供了理论依据，但临床转化需先建立有效的诊断和预后评估工具",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "f3004834aad0e7ef",
-        "updated_at": "2026-09-20T07:49:32Z"
-      },
-      "last_author_affiliation": "Department of Otorhinolaryngology Head & Neck Surgery and Audiology, Rigshospitalet, University Hospital of Copenhagen, Denmark; Faculty of Health and Medical Sciences, University of Copenhagen, Blegdamsvej 3B, Copenhagen, 2200, Denmark.",
+      "doi": "10.1016/j.heares.2026.109811",
+      "url": "https://doi.org/10.1016/j.heares.2026.109811",
+      "abstract": "Drug-induced ototoxicity remains a clinically relevant challenge associated with the use of several essential pharmacological agents, because effective strategies to prevent permanent auditory or vestibular damage are still limited. Ototoxic drugs differ in their chemical structure, therapeutic indication, and mechanism of action, but their damaging effects converge on partially overlapping molecular events within cochlear and vestibular tissues. These events include drug access to inner-ear compartments and cellular uptake, calcium dysregulation, oxidative stress, inflammatory amplification, mitochondrial dysfunction, apoptotic execution, and the failure or insufficiency of endogenous protective responses. In this review, we organize ototoxicity-related proteins into four interconnected functional layers: drug access and entry pathways, intracellular stress amplification and damage mediation, cell death execution, and endogenous otoprotective and repair-oriented responses. For each layer, we discuss proteins with functional relevance in the inner ear, available structural information, known ligands, binding-site data, and therapeutic tractability. This structure-guided perspective highlights early entry checkpoints such as TMC1/TMC2, OCT2, CTR1, and TRPV1; damage-amplifying hubs such as NOX3, inflammatory signaling mediators, RGS17, PRMTs, and CDK2; execution mediators such as Bax, calpains, and caspases; and protective systems including HSPs, G6PD, BDNF, PINK1, KCNQ4, and sirtuins. We propose that effective otoprotection will require precise modulation rather than simple inhibition of these targets. Finally, we discuss structural druggability, delivery challenges, timing of intervention, model limitations, and target prioritization as key considerations for the rational development of precision otoprotective strategies.",
+      "last_author_affiliation": "Laboratorios de Investigación Bioquímica y de Biofísica Computacional, Doctorado en Ciencias en Biotecnología, SEPI-ENMH Instituto Politécnico Nacional, Av. Guillermo Massieu Helguera 239, Fracc. La Escalera, Ticomán, Gustavo A. Madero, Ciudad De México, 07320, Mexico. Electronic address: cbenitezc@ipn.mx.",
       "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
+      "section": null,
       "keywords": [
-        "Auditory neuropathy",
-        "Cell therapy",
-        "Cochlear implant",
-        "Hearing regeneration",
-        "Hearing therapeutics"
+        "Apoptosis",
+        "Cochlea",
+        "Druggability",
+        "Inflammation",
+        "Mitophagy",
+        "Otoprotection",
+        "Ototoxicity",
+        "Vestibular"
       ],
       "tags": [
         "auditory physiology",
         "clinical audiology",
-        "cochlear implant",
-        "speech perception"
+        "hearing aid"
       ],
       "source": "crossref+pubmed",
-      "available_online_date": "2026-09-12",
-      "first_seen_at": "2026-09-13T07:31:08Z"
+      "available_online_date": "2026-09-13",
+      "first_seen_at": "2026-09-14T07:57:46Z",
+      "ai_analysis": {
+        "scientific_question": "如何利用结构导向的方法系统梳理耳毒性相关蛋白的功能层次并指导精准耳保护策略的药物开发？",
+        "key_highlight": "该综述将耳毒性相关蛋白归纳为药物进入、损伤放大、细胞死亡执行和内源性保护四个功能层次，并识别了TMC1/TMC2、NOX3、Bax等关键靶点。",
+        "main_limitation": "本研究受限于模型局限性和递送挑战，且所提出的靶点优先排序策略尚需实验验证。",
+        "research_implication": "该综述为内耳药物靶点的精准调控提供了分子层面依据，但其转化为临床耳保护干预策略的有效性仍需进一步研究验证。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "ff0e3e173891a8f7",
+        "updated_at": "2026-09-27T08:19:46Z"
+      }
     },
     {
       "title": "Acoustic-Black-Hole-Enabled bimorph ultrasonic transducers with enhanced vibration and radiation efficiency",
@@ -5735,28 +5894,6 @@
       "first_seen_at": "2026-06-28T06:38:49Z"
     },
     {
-      "title": "Brain-wide mapping of neuroanatomical connections to the auditory cortex of hearing and deaf mice",
-      "authors": [
-        "Thomas C. Harmon",
-        "Andrew C. Jin",
-        "Evelyn J. Hardin",
-        "Richard Mooney"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-09-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109800",
-      "url": "https://doi.org/10.1016/j.heares.2026.109800",
-      "abstract": null,
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-09-10T07:21:38Z"
-    },
-    {
       "title": "Clarin-1 mRNA expression in the central auditory system of Fischer Brown Norway rats",
       "authors": [
         "Laila S. Almassri",
@@ -7376,33 +7513,6 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-06-27",
       "first_seen_at": "2026-07-04T05:57:51Z"
-    },
-    {
-      "title": "Structure-guided mapping of ototoxicity-related proteins: drug entry, damage amplification, cell death execution, and endogenous otoprotection",
-      "authors": [
-        "Verónica Aranda-Chan",
-        "Gabriel I. Ortega-López",
-        "Paola López-Díaz",
-        "Andrea Michelle Hernández-Nava",
-        "Montserrat Gutiérrez-Soto",
-        "Jorge Luis Rosas Trigueros",
-        "Rosaura Palma Orozco",
-        "Absalom Zamorano Carrillo",
-        "Claudia G. Benítez-Cardoza"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-09-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109811",
-      "url": "https://doi.org/10.1016/j.heares.2026.109811",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "hearing aid"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-09-14T07:57:46Z"
     },
     {
       "title": "TGF-β signaling regulates flat epithelium formation in severely injured adult mouse utricle through epithelial-mesenchymal transition",
@@ -12972,22 +13082,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -13000,6 +13094,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -20539,18 +20649,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -20571,17 +20680,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -29905,22 +30015,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -29933,6 +30027,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -37035,23 +37145,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -37065,6 +37158,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -40544,8 +40654,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -40559,8 +40669,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -46081,8 +46191,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -46096,8 +46206,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
