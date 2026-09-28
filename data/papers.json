@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T08:18:26Z",
+  "generated_at": "2026-09-28T08:46:07Z",
   "papers": [
     {
       "title": "Brain-wide mapping of neuroanatomical connections to the auditory cortex of hearing and deaf mice",
@@ -15,15 +15,6 @@
       "doi": "10.1016/j.heares.2026.109800",
       "url": "https://doi.org/10.1016/j.heares.2026.109800",
       "abstract": "Remarkable therapeutic innovations have made it possible to establish hearing in congenitally deaf subjects. Despite these advances, a potential obstacle to restoring auditory function is that the absence of auditory experience alters the connectivity of the auditory cortex, a region that contributes to auditory perception and cognition. Here we used an intersectional genetic approach to map the brainwide inputs to the primary auditory cortex of congenitally deaf mice and their hearing littermates. We found that deaf mice displayed a significant reduction in afferents arising from the basomedial amygdala, the core of the medial geniculate nucleus, and anterior auditory thalamic nuclei. Nonetheless, major aspects of auditory cortical connectivity, including input from other thalamic nuclei and from non-auditory regions of the cortex, were unaffected by deafness. These findings highlight altered and preserved connectivity of the auditory cortex in the absence of auditory experience, which may inform therapies designed to establish hearing in congenitally deaf subjects.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-09",
-      "first_seen_at": "2026-09-10T07:21:38Z",
       "ai_analysis": {
         "scientific_question": "先天性耳聋是否以及如何改变听觉皮层的全脑输入连接？",
         "key_highlight": "先天性聋鼠的基底内侧杏仁核、内侧膝状体核和前侧听觉丘脑核向初级听觉皮层的传入神经显著减少，而其他丘脑核和非听觉皮层区域的输入则未受影响。",
@@ -35,7 +26,58 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "07a78dcb96e729b6",
         "updated_at": "2026-09-27T08:18:48Z"
-      }
+      },
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-09",
+      "first_seen_at": "2026-09-10T07:21:38Z"
+    },
+    {
+      "title": "Structure-guided mapping of ototoxicity-related proteins: drug entry, damage amplification, cell death execution, and endogenous otoprotection",
+      "authors": [
+        "Verónica Aranda-Chan",
+        "Gabriel I. Ortega-López",
+        "Paola Ester López-Díaz",
+        "Andrea Michelle Hernández-Nava",
+        "Montserrat Gutiérrez-Soto",
+        "Jorge Luis Rosas Trigueros",
+        "Rosaura Palma Orozco",
+        "Absalom Zamorano Carrillo",
+        "Claudia G. Benítez-Cardoza"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-12-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109811",
+      "url": "https://doi.org/10.1016/j.heares.2026.109811",
+      "abstract": "Drug-induced ototoxicity remains a clinically relevant challenge associated with the use of several essential pharmacological agents, because effective strategies to prevent permanent auditory or vestibular damage are still limited. Ototoxic drugs differ in their chemical structure, therapeutic indication, and mechanism of action, but their damaging effects converge on partially overlapping molecular events within cochlear and vestibular tissues. These events include drug access to inner-ear compartments and cellular uptake, calcium dysregulation, oxidative stress, inflammatory amplification, mitochondrial dysfunction, apoptotic execution, and the failure or insufficiency of endogenous protective responses. In this review, we organize ototoxicity-related proteins into four interconnected functional layers: drug access and entry pathways, intracellular stress amplification and damage mediation, cell death execution, and endogenous otoprotective and repair-oriented responses. For each layer, we discuss proteins with functional relevance in the inner ear, available structural information, known ligands, binding-site data, and therapeutic tractability. This structure-guided perspective highlights early entry checkpoints such as TMC1/TMC2, OCT2, CTR1, and TRPV1; damage-amplifying hubs such as NOX3, inflammatory signaling mediators, RGS17, PRMTs, and CDK2; execution mediators such as Bax, calpains, and caspases; and protective systems including HSPs, G6PD, BDNF, PINK1, KCNQ4, and sirtuins. We propose that effective otoprotection will require precise modulation rather than simple inhibition of these targets. Finally, we discuss structural druggability, delivery challenges, timing of intervention, model limitations, and target prioritization as key considerations for the rational development of precision otoprotective strategies.",
+      "ai_analysis": {
+        "scientific_question": "如何利用结构导向的方法系统梳理耳毒性相关蛋白的功能层次并指导精准耳保护策略的药物开发？",
+        "key_highlight": "该综述将耳毒性相关蛋白归纳为药物进入、损伤放大、细胞死亡执行和内源性保护四个功能层次，并识别了TMC1/TMC2、NOX3、Bax等关键靶点。",
+        "main_limitation": "本研究受限于模型局限性和递送挑战，且所提出的靶点优先排序策略尚需实验验证。",
+        "research_implication": "该综述为内耳药物靶点的精准调控提供了分子层面依据，但其转化为临床耳保护干预策略的有效性仍需进一步研究验证。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "ff0e3e173891a8f7",
+        "updated_at": "2026-09-27T08:19:46Z"
+      },
+      "last_author_affiliation": "Laboratorios de Investigación Bioquímica y de Biofísica Computacional, Doctorado en Ciencias en Biotecnología, SEPI-ENMH Instituto Politécnico Nacional, Av. Guillermo Massieu Helguera 239, Fracc. La Escalera, Ticomán, Gustavo A. Madero, Ciudad De México, 07320, Mexico. Electronic address: cbenitezc@ipn.mx.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "hearing aid"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-13",
+      "first_seen_at": "2026-09-14T07:57:46Z"
     },
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
@@ -2467,22 +2509,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046571",
-      "url": "https://doi.org/10.1121/10.0046571",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:59Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -2495,6 +2521,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:56Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046571",
+      "url": "https://doi.org/10.1121/10.0046571",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:59Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -2827,6 +2869,18 @@
       "doi": "10.1097/aud.0000000000001893",
       "url": "https://doi.org/10.1097/aud.0000000000001893",
       "abstract": "Objectives: Children with mild bilateral hearing loss (CHL), defined as having thresholds between 20 and 40 dB HL, experience difficulties conversing in adverse acoustic conditions with background noise, despite having near-normal speech perception in quiet. Mixed evidence of hearing aid benefit among CHL has led to guidelines that emphasize individualized management, making it challenging for clinicians to suggest intervention options. The overarching goal of this study was to investigate the influence of suprathreshold neural processing on speech perception in noise and how it is influenced by amplification. We focused primarily on auditory temporal and spectral processing, the two main predictors of speech perception in noise among adults with hearing loss. Design: In 11 neurotypical CHL (6- to 14-yr-old) and 28 age-matched neurotypical children with normal hearing (CNH), the signal to noise ratio required to achieve 70% accuracy on a speech perception in noise task was tracked using a spatial release from masking paradigm. Across three conditions, target words were presented from a front loudspeaker (0°), while noise (2-talker babble) was presented either from the same front loudspeaker or from the left or right loudspeaker (±45° azimuth), with a copy of the noise being presented from the front loudspeaker 3-msec later from the lead noise to simulate spatial separation between the target words and noise. Neural sensitivity to spectral and temporal modulations was assessed objectively using functional near-infrared spectroscopy (fNIRS). The fNIRS responses were recorded in the bilateral frontotemporal area, when children listened to broadband noise that was unprocessed (reference), amplitude-modulated at 4 Hz, or spectrally modulated with spectral ripple noise. Results: CNH and CHL, whether unaided or aided, benefited similarly from the spatial separation between noise and target speech. Aiding neither enhanced nor deteriorated the benefit of spatial release from masking. fNIRS measures in aided CHL showed increased cortical activation to the temporal and spectral modulations in the temporal cortex (TC) compared to both unaided conditions and CNH. Higher aided than unaided cortical activity in the TC likely reflects enhanced sensitivity to speech-relevant acoustic features with amplification. Further, in CHL, lower cortical activity to temporal modulation in the right frontotemporal cortex and higher activity to spectral modulation in the left TC were associated with lower signal to noise ratio required to achieve 70% accuracy. The associations likely reflect region-specific and cue-specific contributions to speech perception in noise among CHL. No associations were found in CNH. Conclusions: Our study highlights the value of hearing aid fitting in improving speech-in-noise outcomes in CHL. While behavioral benefits may be subtle or inconsistent, cortical data revealed enhancement in auditory processing with amplification, particularly in the TC. Our findings suggest that suprathreshold neural processing underlies the variation in speech perception in noise among CHL.",
+      "ai_analysis": {
+        "scientific_question": "探究轻度双侧听力损失儿童助听后的皮层神经加工如何影响其在噪声环境中的言语感知能力",
+        "key_highlight": "虽然助听未能显著改善行为学上的空间掩蔽释放效益，但功能近红外光谱测量显示助听可增强双侧颞叶皮层对时域和频域调制的神经反应，且该皮层活动的增强与更好的噪声下言语感知表现相关",
+        "main_limitation": "样本量较小（11名轻度双侧听力损失儿童），且儿童年龄跨度较大（6-14岁），可能限制结果的稳健性和对发育阶段的泛化",
+        "research_implication": "研究提示皮层神经指标可能比行为学指标更敏感地反映轻度听力损失儿童的助听效益，对临床验配决策具有参考价值",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "f859a8eb17e87b26",
+        "updated_at": "2026-09-27T08:19:02Z"
+      },
       "first_author_affiliation": "National Acoustic Laboratories, Sydney, New South Wales, Australia",
       "last_author_affiliation": "National Acoustic Laboratories, Sydney, New South Wales, Australia",
       "publication_stage": "early_access",
@@ -2845,19 +2899,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-21",
-      "first_seen_at": "2026-09-22T07:46:41Z",
-      "ai_analysis": {
-        "scientific_question": "探究轻度双侧听力损失儿童助听后的皮层神经加工如何影响其在噪声环境中的言语感知能力",
-        "key_highlight": "虽然助听未能显著改善行为学上的空间掩蔽释放效益，但功能近红外光谱测量显示助听可增强双侧颞叶皮层对时域和频域调制的神经反应，且该皮层活动的增强与更好的噪声下言语感知表现相关",
-        "main_limitation": "样本量较小（11名轻度双侧听力损失儿童），且儿童年龄跨度较大（6-14岁），可能限制结果的稳健性和对发育阶段的泛化",
-        "research_implication": "研究提示皮层神经指标可能比行为学指标更敏感地反映轻度听力损失儿童的助听效益，对临床验配决策具有参考价值",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "f859a8eb17e87b26",
-        "updated_at": "2026-09-27T08:19:02Z"
-      }
+      "first_seen_at": "2026-09-22T07:46:41Z"
     },
     {
       "title": "Evidence for a cancellation tooth in the absence of a harmonic partial",
@@ -2906,6 +2948,18 @@
       "doi": null,
       "url": "https://arxiv.org/abs/2609.25379v1",
       "abstract": "Low-bitrate speech communication on resource-constrained edge devices remains challenging due to stringent computational, memory, and bandwidth constraints. We present TinyCall, a lightweight neural audio codec designed for real-time speech communication on low-power platforms such as the ESP32 microcontroller and Raspberry Pi. The proposed system targets emergency communication and other bandwidth-limited scenarios while preserving speech intelligibility, speaker identity, and vocal expressiveness. To enable efficient deployment, we propose a minimal neural audio codec architecture together with a framework for converting a causally trained codec into a truly streamable codec through pseudo-lookahead decoding and decoder-input caching. We further replace conventional residual vector quantization (RVQ) with Residual Finite Scalar Quantization (RFSQ) to reduce inference complexity on edge processors and employ a progressive three-stage training strategy for stable optimization under latent quantization. An MFCC-based perceptual loss encourages preservation of speaker characteristics, including harmonic structure and vocal timbre. Experimental results demonstrate real-time operation on a Raspberry Pi 3 while achieving intelligible speech reconstruction at bitrates as low as 2.3 kbps. The proposed approach demonstrates that practical neural speech communication is feasible on highly resource-constrained edge devices.",
+      "ai_analysis": {
+        "scientific_question": "如何在资源受限的边缘设备上实现低比特率实时语音通信同时保留语音可懂度和说话人特征。",
+        "key_highlight": "TinyCall通过轻量化神经音频编解码器和伪前瞻解码、残余有限标量量化等技术，在Raspberry Pi上实现了低至2.3 kbps的实时语音通信。",
+        "main_limitation": "缺乏正式的主观测听验证来确认语音可懂度和说话人特征保留的实际效果，且研究聚焦于特定低功耗平台。",
+        "research_implication": "该研究属于边缘计算语音编解码领域，对助听器或人工耳蜗等辅助听力设备中的高效音频传输具有一定参考价值。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "d6357135ecb79f09",
+        "updated_at": "2026-09-27T08:19:13Z"
+      },
       "publication_stage": "preprint",
       "section": null,
       "keywords": [
@@ -2925,19 +2979,7 @@
         "abstract"
       ],
       "needs_review": true,
-      "first_seen_at": "2026-09-24T07:39:48Z",
-      "ai_analysis": {
-        "scientific_question": "如何在资源受限的边缘设备上实现低比特率实时语音通信同时保留语音可懂度和说话人特征。",
-        "key_highlight": "TinyCall通过轻量化神经音频编解码器和伪前瞻解码、残余有限标量量化等技术，在Raspberry Pi上实现了低至2.3 kbps的实时语音通信。",
-        "main_limitation": "缺乏正式的主观测听验证来确认语音可懂度和说话人特征保留的实际效果，且研究聚焦于特定低功耗平台。",
-        "research_implication": "该研究属于边缘计算语音编解码领域，对助听器或人工耳蜗等辅助听力设备中的高效音频传输具有一定参考价值。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "d6357135ecb79f09",
-        "updated_at": "2026-09-27T08:19:13Z"
-      }
+      "first_seen_at": "2026-09-24T07:39:48Z"
     },
     {
       "title": "Open-source real-time passive acoustic tracking of beaked whales for low-power devices",
@@ -3049,6 +3091,18 @@
       "doi": "10.1016/j.heares.2026.109812",
       "url": "https://doi.org/10.1016/j.heares.2026.109812",
       "abstract": "Severe unilateral hearing loss is often managed conservatively after initial treatment because hearing in the contralateral ear is preserved. However, patients frequently experience difficulties in speech perception, particularly in noisy environments, that are not fully captured by conventional audiological assessments. Because central auditory pathways project predominantly to the contralateral hemisphere and speech processing is typically left-lateralized, input from the right ear may reach the left-hemispheric speech areas more directly. This anatomical and functional asymmetry suggests that the side of hearing loss could differentially affect speech-related cortical processing. This study aimed to investigate cortical activity during speech perception in severe postlingual unilateral hearing loss and examine the effects of ear-specific input on hemispheric lateralization. Functional magnetic resonance imaging (fMRI) was performed in individuals with severe unilateral hearing loss (right- and left-sided) and in normal-hearing controls during a speech perception task. Auditory stimuli (monosyllables and pure tones) were presented binaurally. Region-of-interest analyses were conducted for the primary auditory cortex (transverse temporal gyrus, TTG) and the superior temporal gyrus (STG). The mean activation and laterality indices were compared between the groups. No significant intergroup differences were observed in the primary auditory cortex. In contrast, STG activity was significantly reduced in patients with unilateral hearing loss compared to controls, particularly in the right-sided hearing loss group. The hemispherical lateralization of STG activity was altered, with increased leftward dominance observed in the left-sided hearing loss group. Unilateral hearing loss affects higher-order speech-related cortical processing rather than primary auditory responses. The observed changes in STG activity and lateralization suggest that ear-specific auditory input influences the cortical organization. These findings are consistent with the concept of a right-ear advantage and provide neurophysiological insights into speech perception difficulties in unilateral hearing loss.",
+      "ai_analysis": {
+        "scientific_question": "单侧重度听力损失患者在言语感知过程中皮层活动如何改变，以及特定受累耳对半球偏侧化模式的影响是什么？",
+        "key_highlight": "单侧听力损失患者的高级言语处理区域（颞上回）活动显著降低，且左耳听力损失组表现出增强的左向半球偏侧化特征。",
+        "main_limitation": "受限于特定的严重单侧语后聋患者群体，且刺激材料仅包含单音节词和纯音。",
+        "research_implication": "该研究为单侧听力损失患者言语感知困难的神经生理机制提供了新见解，提示需关注单侧听力损失对高级听觉处理的影响。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "9d31fbea7a0cfc47",
+        "updated_at": "2026-09-27T08:19:26Z"
+      },
       "last_author_affiliation": "Department of Otolaryngology, Graduate School of Medicine, Institute of Science Tokyo, Bunkyo-ku, Tokyo, Japan. Electronic address: tsutsumi.oto@md.isct.ac.jp.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
@@ -3067,19 +3121,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-17",
-      "first_seen_at": "2026-09-25T07:56:18Z",
-      "ai_analysis": {
-        "scientific_question": "单侧重度听力损失患者在言语感知过程中皮层活动如何改变，以及特定受累耳对半球偏侧化模式的影响是什么？",
-        "key_highlight": "单侧听力损失患者的高级言语处理区域（颞上回）活动显著降低，且左耳听力损失组表现出增强的左向半球偏侧化特征。",
-        "main_limitation": "受限于特定的严重单侧语后聋患者群体，且刺激材料仅包含单音节词和纯音。",
-        "research_implication": "该研究为单侧听力损失患者言语感知困难的神经生理机制提供了新见解，提示需关注单侧听力损失对高级听觉处理的影响。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "9d31fbea7a0cfc47",
-        "updated_at": "2026-09-27T08:19:26Z"
-      }
+      "first_seen_at": "2026-09-25T07:56:18Z"
     },
     {
       "title": "Behavioral and Cortical Responses to Frequency Changes in Vowel-Like Stimuli in Listeners With Normal and Impaired Hearing",
@@ -3524,6 +3566,18 @@
       "doi": "10.1016/j.heares.2026.109814",
       "url": "https://doi.org/10.1016/j.heares.2026.109814",
       "abstract": "This study investigated the oscillatory dynamics underlying sound motion processing in a delayed motion paradigm. Auditory motion was simulated by linear changes in interaural time difference. EEG was recorded while stimuli moved at seven velocities from 90 deg/s to 450 deg/s plus an abrupt displacement. We aimed to determine how the timing and magnitude of oscillatory responses scale with motion velocity, and how they relate to motion-onset response (MOR) components. The analysis focused on MOR deflections (cN1 and cP2) and oscillatory dynamics measured via event-related spectral perturbations (ERSP) and inter-trial phase coherence (ITC) in theta and lower alpha bands. Velocity dependence was quantified using the time required for the stimulus to traverse one degree of azimuth, termed 1-degree shift time. ITC peaked earlier than ERSP, with peak latencies increasing linearly with 1-degree shift time. Nonlinear regression showed that response magnitudes followed a hyperbolic decline as a function of 1-degree shift time, which is equivalent to linear growth with velocity. Together, our findings indicate that auditory motion processing relies on common temporal integration mechanisms across evoked and oscillatory responses, with ITC showing the highest sensitivity to velocity. The observed relationships between response magnitude, latency, and velocity can be explained by the joint activity of neural populations with broad unilateral receptive fields that differ in spatial thresholds and in integration time after the stimulus enters the receptive field.",
+      "ai_analysis": {
+        "scientific_question": "听觉运动处理过程中振荡反应的时序和幅度如何随运动速度缩放，以及它们与运动起始反应成分之间存在何种关系？",
+        "key_highlight": "ITC峰潜伏期随一度位移时间线性增加，反应幅度随一度位移时间呈双曲下降（即随速度呈线性增长），提示听觉运动处理依赖共同的时序整合机制，且ITC对速度最为敏感。",
+        "main_limitation": "采用仅七个速度条件下的延迟运动范式模拟ITD变化，且未说明样本量，其发现向真实动态听觉场景的推广性有限。",
+        "research_implication": "该研究为听觉运动处理的神经时序整合机制提供了电生理基础，可为空间听觉相关的听觉辅助设备算法设计提供参考。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "2ba7231958d6d631",
+        "updated_at": "2026-09-27T08:19:38Z"
+      },
       "last_author_affiliation": "Pavlov Institute of Physiology, Russian Academy of Sciences, Makarova emb., 6, Saint Petersburg, 199034, Russia. Electronic address: shestopalovalb@infran.ru.",
       "publication_stage": "early_access",
       "section": null,
@@ -3540,19 +3594,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-16",
-      "first_seen_at": "2026-09-27T08:18:09Z",
-      "ai_analysis": {
-        "scientific_question": "听觉运动处理过程中振荡反应的时序和幅度如何随运动速度缩放，以及它们与运动起始反应成分之间存在何种关系？",
-        "key_highlight": "ITC峰潜伏期随一度位移时间线性增加，反应幅度随一度位移时间呈双曲下降（即随速度呈线性增长），提示听觉运动处理依赖共同的时序整合机制，且ITC对速度最为敏感。",
-        "main_limitation": "采用仅七个速度条件下的延迟运动范式模拟ITD变化，且未说明样本量，其发现向真实动态听觉场景的推广性有限。",
-        "research_implication": "该研究为听觉运动处理的神经时序整合机制提供了电生理基础，可为空间听觉相关的听觉辅助设备算法设计提供参考。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "2ba7231958d6d631",
-        "updated_at": "2026-09-27T08:19:38Z"
-      }
+      "first_seen_at": "2026-09-27T08:18:09Z"
     },
     {
       "title": "On the correlation between compaction in fine-grained barite sediment and its ultrasound attenuation and wave speed",
@@ -4069,59 +4111,6 @@
       ],
       "needs_review": true,
       "first_seen_at": "2026-09-16T07:47:09Z"
-    },
-    {
-      "title": "Structure-guided mapping of ototoxicity-related proteins: drug entry, damage amplification, cell death execution, and endogenous otoprotection",
-      "authors": [
-        "Verónica Aranda-Chan",
-        "Gabriel I. Ortega-López",
-        "Paola Ester López-Díaz",
-        "Andrea Michelle Hernández-Nava",
-        "Montserrat Gutiérrez-Soto",
-        "Jorge Luis Rosas Trigueros",
-        "Rosaura Palma Orozco",
-        "Absalom Zamorano Carrillo",
-        "Claudia G. Benítez-Cardoza"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-09-13",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109811",
-      "url": "https://doi.org/10.1016/j.heares.2026.109811",
-      "abstract": "Drug-induced ototoxicity remains a clinically relevant challenge associated with the use of several essential pharmacological agents, because effective strategies to prevent permanent auditory or vestibular damage are still limited. Ototoxic drugs differ in their chemical structure, therapeutic indication, and mechanism of action, but their damaging effects converge on partially overlapping molecular events within cochlear and vestibular tissues. These events include drug access to inner-ear compartments and cellular uptake, calcium dysregulation, oxidative stress, inflammatory amplification, mitochondrial dysfunction, apoptotic execution, and the failure or insufficiency of endogenous protective responses. In this review, we organize ototoxicity-related proteins into four interconnected functional layers: drug access and entry pathways, intracellular stress amplification and damage mediation, cell death execution, and endogenous otoprotective and repair-oriented responses. For each layer, we discuss proteins with functional relevance in the inner ear, available structural information, known ligands, binding-site data, and therapeutic tractability. This structure-guided perspective highlights early entry checkpoints such as TMC1/TMC2, OCT2, CTR1, and TRPV1; damage-amplifying hubs such as NOX3, inflammatory signaling mediators, RGS17, PRMTs, and CDK2; execution mediators such as Bax, calpains, and caspases; and protective systems including HSPs, G6PD, BDNF, PINK1, KCNQ4, and sirtuins. We propose that effective otoprotection will require precise modulation rather than simple inhibition of these targets. Finally, we discuss structural druggability, delivery challenges, timing of intervention, model limitations, and target prioritization as key considerations for the rational development of precision otoprotective strategies.",
-      "last_author_affiliation": "Laboratorios de Investigación Bioquímica y de Biofísica Computacional, Doctorado en Ciencias en Biotecnología, SEPI-ENMH Instituto Politécnico Nacional, Av. Guillermo Massieu Helguera 239, Fracc. La Escalera, Ticomán, Gustavo A. Madero, Ciudad De México, 07320, Mexico. Electronic address: cbenitezc@ipn.mx.",
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [
-        "Apoptosis",
-        "Cochlea",
-        "Druggability",
-        "Inflammation",
-        "Mitophagy",
-        "Otoprotection",
-        "Ototoxicity",
-        "Vestibular"
-      ],
-      "tags": [
-        "auditory physiology",
-        "clinical audiology",
-        "hearing aid"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-13",
-      "first_seen_at": "2026-09-14T07:57:46Z",
-      "ai_analysis": {
-        "scientific_question": "如何利用结构导向的方法系统梳理耳毒性相关蛋白的功能层次并指导精准耳保护策略的药物开发？",
-        "key_highlight": "该综述将耳毒性相关蛋白归纳为药物进入、损伤放大、细胞死亡执行和内源性保护四个功能层次，并识别了TMC1/TMC2、NOX3、Bax等关键靶点。",
-        "main_limitation": "本研究受限于模型局限性和递送挑战，且所提出的靶点优先排序策略尚需实验验证。",
-        "research_implication": "该综述为内耳药物靶点的精准调控提供了分子层面依据，但其转化为临床耳保护干预策略的有效性仍需进一步研究验证。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "ff0e3e173891a8f7",
-        "updated_at": "2026-09-27T08:19:46Z"
-      }
     },
     {
       "title": "Acoustic-Black-Hole-Enabled bimorph ultrasonic transducers with enhanced vibration and radiation efficiency",
@@ -13082,22 +13071,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044504",
-      "url": "https://doi.org/10.1121/10.0044504",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:37Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -13110,6 +13083,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:36Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044504",
+      "url": "https://doi.org/10.1121/10.0044504",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:37Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -20649,17 +20638,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -20680,18 +20670,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -30015,22 +30004,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -30043,6 +30016,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -37145,23 +37134,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -37175,6 +37147,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -37797,7 +37786,19 @@
       ],
       "source": "pubmed",
       "available_online_date": "2026-02-25",
-      "first_seen_at": "2026-05-14T02:29:04Z"
+      "first_seen_at": "2026-05-14T02:29:04Z",
+      "ai_analysis": {
+        "scientific_question": "神经性听力损失的定义、病理机制、诊断局限以及新兴生物学治疗策略的可行性是什么？",
+        "key_highlight": "多种新兴生物学疗法（包括药物、基因、营养因子和细胞疗法）展现出保护和修复螺旋神经节神经元的潜在临床应用前景。",
+        "main_limitation": "本文为视角综述类文章，主要综述现有研究而非报告原创性实验数据，所述治疗策略大多处于临床前阶段，实际疗效尚待验证。",
+        "research_implication": "当前助听器和人工耳蜗主要针对感觉功能缺失，对神经性听力损失疗效有限，新型生物学疗法的进展可能为这一临床难题提供替代解决方案。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "a4e5e077093e3eb7",
+        "updated_at": "2026-09-28T08:46:29Z"
+      }
     },
     {
       "title": "Neural encoding of speech in noise: Effects of background noise and behavioral correlates",
@@ -37833,7 +37834,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-02-26",
-      "first_seen_at": "2026-05-14T02:29:18Z"
+      "first_seen_at": "2026-05-14T02:29:18Z",
+      "ai_analysis": {
+        "scientific_question": "频率跟随反应(FFR)能否作为评估噪声下言语感知(SIN)能力的可靠神经生物标记？",
+        "key_highlight": "噪声同时增强了FFR对基频的响应和音调轮廓追踪能力，但降低了共振峰响应并增加了神经传导延迟，且FFR指标与行为学SIN任务表现仅存在部分关联。",
+        "main_limitation": "研究样本仅为116名健康年轻成人，缺乏老年人或听损患者的证据，外推至一般人群的能力受限。",
+        "research_implication": "FFR可作为评估噪声下听觉神经系统处理能力的可靠标记，但对预测实际言语感知表现的支持有限，提示需进一步研究明确其作为助听设备相关生物标记的适用性。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "4d39c871743176b9",
+        "updated_at": "2026-09-28T08:46:38Z"
+      }
     },
     {
       "title": "Neural processing of speech in noise recognition in preschool children with different auditory processing abilities: a fNIRS study",
@@ -37869,7 +37882,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-03-10",
-      "first_seen_at": "2026-05-14T02:29:18Z"
+      "first_seen_at": "2026-05-14T02:29:18Z",
+      "ai_analysis": {
+        "scientific_question": "存在听觉处理缺陷的学前儿童与正常发育儿童在噪声下进行语音识别时，大脑激活模式是否存在差异？",
+        "key_highlight": "与正常发育儿童相比，听觉处理缺陷儿童在噪声下语音识别准确率更低，且右侧额下回、颞上回和颞中回的神经激活显著降低。",
+        "main_limitation": "样本为特定的学前儿童群体且分组人数相对有限，可能难以推广至其他年龄段或不同类型的听觉处理障碍。",
+        "research_implication": "该研究为理解听觉处理缺陷儿童语音感知困难的神经机制提供了参考，对早期听觉筛查和干预策略的开发具有潜在指导意义。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "1aa9222c33a03fa1",
+        "updated_at": "2026-09-28T08:46:48Z"
+      }
     },
     {
       "title": "Neuronal Representation of Auditory Distance Percepts vs. Cues in Human Auditory Cortex.",
@@ -37912,7 +37937,19 @@
       ],
       "source": "pubmed",
       "available_online_date": "2026-01-30",
-      "first_seen_at": "2026-05-14T02:29:04Z"
+      "first_seen_at": "2026-05-14T02:29:04Z",
+      "ai_analysis": {
+        "scientific_question": "人类听觉皮层的特定区域究竟是编码声音距离的具体线索还是整合后的距离感知。",
+        "key_highlight": "在相同的PT和pSTG脑区，线索编码呈现局部分布模式而距离感知则呈现分布式编码模式。",
+        "main_limitation": "样本量较小（15名参与者）且实验环境为人工虚拟环境，使用宽带噪声刺激，可能难以完全反映真实世界中的距离感知机制。",
+        "research_implication": "为助听器和人工耳蜗的声源定位功能设计提供了听觉皮层空间距离编码的基础神经科学依据。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "780bc51855debe55",
+        "updated_at": "2026-09-28T08:46:58Z"
+      }
     },
     {
       "title": "Objective comparison of audiometric profile frameworks across large-scale datasets",
@@ -37942,7 +37979,19 @@
       ],
       "source": "crossref",
       "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
+      "first_seen_at": "2026-05-14T02:28:42Z",
+      "ai_analysis": {
+        "scientific_question": "不同大规模数据集的特征是否会系统性地影响 audiogram 分类框架的结构性能？",
+        "key_highlight": "尽管存在框架特异性差异，但基于 Davies-Bouldin 指数的聚类性能在大规模数据集间表现基本相当。",
+        "main_limitation": "研究聚焦于聚类指标评估，未涉及临床预后或表型验证；数据集仅限于美国和德国人群，跨种族/跨地区泛化性未明确。",
+        "research_implication": "研究结果为 audiogram 分类框架在临床听力学应用中的稳健性提供了数据支持，但仍需进一步临床验证。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "59e52f36bd36bdd4",
+        "updated_at": "2026-09-28T08:47:04Z"
+      }
     },
     {
       "title": "Objective measures of sensory gating capacity do not predict the severity of misophonia symptoms",
@@ -37974,7 +38023,19 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-02-26",
-      "first_seen_at": "2026-05-14T02:29:18Z"
+      "first_seen_at": "2026-05-14T02:29:18Z",
+      "ai_analysis": {
+        "scientific_question": "前意识层面的感觉门控缺陷是否参与催音恐惧症（对特定声音产生强烈负面情绪反应）的病理生理机制？",
+        "key_highlight": "尽管自我报告的感觉门控困难与催音恐惧症严重程度显著相关，但客观测量的P50抑制比率与催音恐惧症症状之间未发现显著关联，提示催音恐惧症可能并非源于早期自动感觉过滤机制的缺陷。",
+        "main_limitation": "样本量相对较小（48人）且以女性为主，可能限制了对不同年龄和性别群体的推广性。",
+        "research_implication": "该研究结果不支持将早期感觉过滤干预作为改善催音恐惧症的方法，提示相关研究应关注更高阶的听觉处理和显著性网络功能，而非仅聚焦于低-level的感觉门控机制。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "93896ee7a8bfb83a",
+        "updated_at": "2026-09-28T08:47:15Z"
+      }
     },
     {
       "title": "Perceptual dereverberation in listeners with normal-hearing and cochlear implants",
@@ -40654,8 +40715,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -40669,8 +40730,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -46191,8 +46252,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -46206,8 +46267,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
