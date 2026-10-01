@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:39:53Z",
+  "generated_at": "2026-10-01T09:03:30Z",
   "papers": [
     {
       "title": "Brain-wide mapping of neuroanatomical connections to the auditory cortex of hearing and deaf mice",
@@ -36,6 +36,78 @@
       "source": "crossref",
       "available_online_date": "2026-09-09",
       "first_seen_at": "2026-09-10T07:21:38Z"
+    },
+    {
+      "title": "Efficacy and safety of intracochlear corticosteroid delivery as salvage therapy for complete sudden sensorineural hearing loss",
+      "authors": [
+        "Wei Li",
+        "Andi Zhang",
+        "Yanqing Fang",
+        "Yi Wang",
+        "Dongmei Tang",
+        "Ying Ma",
+        "Xintai Fan",
+        "Yibo Huang",
+        "Jianghong Xu",
+        "Hui Zhao",
+        "Jing Wang",
+        "Chunfu Dai",
+        "Wuqing Wang",
+        "Yilai Shu",
+        "Huawei Li"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-12-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109805",
+      "url": "https://doi.org/10.1016/j.heares.2026.109805",
+      "abstract": null,
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-19",
+      "first_seen_at": "2026-10-01T09:02:42Z"
+    },
+    {
+      "title": "Low-frequency oscillations in frontocentral EEG responses associated with auditory motion processing",
+      "authors": [
+        "Ekaterina A. Petropavlovskaia",
+        "Varvara V. Semenova",
+        "Lidia B. Shestopalova"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-12-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109814",
+      "url": "https://doi.org/10.1016/j.heares.2026.109814",
+      "abstract": "This study investigated the oscillatory dynamics underlying sound motion processing in a delayed motion paradigm. Auditory motion was simulated by linear changes in interaural time difference. EEG was recorded while stimuli moved at seven velocities from 90 deg/s to 450 deg/s plus an abrupt displacement. We aimed to determine how the timing and magnitude of oscillatory responses scale with motion velocity, and how they relate to motion-onset response (MOR) components. The analysis focused on MOR deflections (cN1 and cP2) and oscillatory dynamics measured via event-related spectral perturbations (ERSP) and inter-trial phase coherence (ITC) in theta and lower alpha bands. Velocity dependence was quantified using the time required for the stimulus to traverse one degree of azimuth, termed 1-degree shift time. ITC peaked earlier than ERSP, with peak latencies increasing linearly with 1-degree shift time. Nonlinear regression showed that response magnitudes followed a hyperbolic decline as a function of 1-degree shift time, which is equivalent to linear growth with velocity. Together, our findings indicate that auditory motion processing relies on common temporal integration mechanisms across evoked and oscillatory responses, with ITC showing the highest sensitivity to velocity. The observed relationships between response magnitude, latency, and velocity can be explained by the joint activity of neural populations with broad unilateral receptive fields that differ in spatial thresholds and in integration time after the stimulus enters the receptive field.",
+      "ai_analysis": {
+        "scientific_question": "听觉运动处理过程中振荡反应的时序和幅度如何随运动速度缩放，以及它们与运动起始反应成分之间存在何种关系？",
+        "key_highlight": "ITC峰潜伏期随一度位移时间线性增加，反应幅度随一度位移时间呈双曲下降（即随速度呈线性增长），提示听觉运动处理依赖共同的时序整合机制，且ITC对速度最为敏感。",
+        "main_limitation": "采用仅七个速度条件下的延迟运动范式模拟ITD变化，且未说明样本量，其发现向真实动态听觉场景的推广性有限。",
+        "research_implication": "该研究为听觉运动处理的神经时序整合机制提供了电生理基础，可为空间听觉相关的听觉辅助设备算法设计提供参考。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "2ba7231958d6d631",
+        "updated_at": "2026-09-27T08:19:38Z"
+      },
+      "last_author_affiliation": "Pavlov Institute of Physiology, Russian Academy of Sciences, Makarova emb., 6, Saint Petersburg, 199034, Russia. Electronic address: shestopalovalb@infran.ru.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-16",
+      "first_seen_at": "2026-09-27T08:18:09Z"
     },
     {
       "title": "Structure-guided mapping of ototoxicity-related proteins: drug entry, damage amplification, cell death execution, and endogenous otoprotection",
@@ -1242,14 +1314,20 @@
         "updated_at": "2026-08-22T03:10:40Z"
       },
       "last_author_affiliation": "Department of Audiology, Hacettepe University Faculty of Health Sciences, 06100 Sıhhiye, Ankara, Turkey.",
-      "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
+      "keywords": [
+        "Asymmetry index",
+        "Auditory brainstem response (ABR)",
+        "Multisensory integration",
+        "Neuroplasticity",
+        "Subjective somatic tinnitus",
+        "Vestibular evoked myogenic potentials (VEMP)"
+      ],
       "tags": [
         "auditory physiology",
         "clinical audiology"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-08-10",
       "first_seen_at": "2026-08-11T03:56:31Z"
     },
@@ -1274,12 +1352,11 @@
       "abstract": null,
       "first_author_affiliation": "School of Biomedical Engineering, Capital Medical University, Beijing 100069, China; Beijing Key Laboratory of Clinical Engineering Solutions for Mental Health, Capital Medical University, Beijing 100069, China.",
       "last_author_affiliation": "School of Biomedical Engineering, Capital Medical University, Beijing 100069, China; Beijing Key Laboratory of Clinical Engineering Solutions for Mental Health, Capital Medical University, Beijing 100069, China. Electronic address: lichunlin1981@163.com.",
-      "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [],
       "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-07-13",
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-07-12",
       "first_seen_at": "2026-07-12T05:40:11Z"
     },
     {
@@ -1313,13 +1390,20 @@
         "updated_at": "2026-08-22T03:10:49Z"
       },
       "last_author_affiliation": "Department of Communication Sciences and Disorders, Montclair State University, Montclair, NJ, USA.",
-      "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
+      "keywords": [
+        "Attentional",
+        "Cortical",
+        "Lexical attention",
+        "Neural SNR",
+        "Sensory",
+        "Speech perception",
+        "Syllable encoding"
+      ],
       "tags": [
         "speech perception"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-08-08",
       "first_seen_at": "2026-08-09T03:54:29Z"
     },
@@ -1354,11 +1438,14 @@
       },
       "first_author_affiliation": "Department of Human Sciences, Guglielmo Marconi University, Via Plinio 44, 00193, Roma, Italy. Electronic address: m.fazi@unimarconi.it.",
       "last_author_affiliation": "Department of Human Sciences, Guglielmo Marconi University, Via Plinio 44, 00193, Roma, Italy. Electronic address: g.romano@unimarconi.it.",
-      "publication_stage": "early_access",
       "section": null,
-      "keywords": [],
+      "keywords": [
+        "Early maladaptive schemas",
+        "Misophonia",
+        "Personality traits"
+      ],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-07-29",
       "first_seen_at": "2026-08-02T05:38:25Z"
     },
@@ -1371,12 +1458,10 @@
       "doi": "10.1016/s0378-5955(26)00266-2",
       "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
       "abstract": null,
-      "publication_stage": "early_access",
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-09-01",
       "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
@@ -1408,13 +1493,19 @@
         "updated_at": "2026-07-31T05:47:41Z"
       },
       "last_author_affiliation": "Wolfson Sensory, Pain and Regeneration Centre, King's College London, London SE1 1UL, UK. Electronic address: karen.steel@kcl.ac.uk.",
-      "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
+      "keywords": [
+        "Cdh23",
+        "Genetic background",
+        "Hearing loss",
+        "Mouse mutant",
+        "Wbp2"
+      ],
       "tags": [
+        "auditory physiology",
         "clinical audiology"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-07-25",
       "first_seen_at": "2026-07-31T05:46:39Z"
     },
@@ -1454,14 +1545,20 @@
       "pubmed_full_text_source": "pmc",
       "pubmed_full_text_image_checked_at": "2026-08-16T03:15:11Z",
       "media_checked_at": "2026-08-16T03:15:11Z",
-      "publication_stage": "early_access",
       "section": null,
-      "keywords": [],
+      "keywords": [
+        "Amplitude growth function",
+        "Cochlear implant",
+        "Electrode-neuron interface",
+        "Refractory recovery",
+        "eCAP"
+      ],
       "tags": [
         "auditory physiology",
-        "cochlear implant"
+        "cochlear implant",
+        "hearing aid"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-08-06",
       "first_seen_at": "2026-08-07T04:33:41Z"
     },
@@ -1498,12 +1595,17 @@
         "updated_at": "2026-08-02T05:39:40Z"
       },
       "last_author_affiliation": "Department of Otorhinolaryngology, Head and Neck Surgery, University Medical Center Göttingen, Robert-Koch-Str. 40, 37075, Göttingen, Germany.",
-      "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
+      "keywords": [
+        "Cartilage",
+        "Finite element model",
+        "Laser Doppler Vibrometry",
+        "Middle ear transfer function",
+        "Tympanoplasty"
+      ],
       "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-07-24",
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-07-23",
       "first_seen_at": "2026-08-01T05:37:31Z"
     },
     {
@@ -1532,14 +1634,18 @@
         "updated_at": "2026-07-26T05:43:39Z"
       },
       "last_author_affiliation": "Department of Psychology, Edge Hill University, United Kingdom. Electronic address: belykm@edgehill.ac.uk.",
-      "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
+      "keywords": [
+        "Age-related hearing loss",
+        "Brain volume",
+        "Healthy ageing",
+        "Physical activity"
+      ],
       "tags": [
         "clinical audiology"
       ],
-      "source": "crossref",
-      "available_online_date": "2026-07-13",
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-07-11",
       "first_seen_at": "2026-07-13T05:49:52Z"
     },
     {
@@ -1569,13 +1675,21 @@
         "updated_at": "2026-08-22T03:11:00Z"
       },
       "last_author_affiliation": "Department of Computer Science, University College London, London, UK.",
-      "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "clinical audiology"
+      "keywords": [
+        "Extended high-frequency audiometry",
+        "Hyperacusis",
+        "Noise exposure",
+        "Speech intelligibility",
+        "Uncomfortable loudness levels",
+        "Young population"
       ],
-      "source": "crossref",
+      "tags": [
+        "clinical audiology",
+        "psychoacoustics",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
       "available_online_date": "2026-08-12",
       "first_seen_at": "2026-08-13T04:22:23Z"
     },
@@ -1605,14 +1719,24 @@
         "updated_at": "2026-07-24T05:32:59Z"
       },
       "last_author_affiliation": "Department of Audiology, Faculty of Medicine, Marmara University, 34899, Istanbul, Türkiye. Electronic address: nilufer.bal@marmara.edu.tr.",
-      "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
+      "keywords": [
+        "Auditory sensory memory",
+        "Children",
+        "Cochlear implant",
+        "Domain specificity",
+        "Music perception",
+        "Short–term memory",
+        "Tone pattern detection"
+      ],
       "tags": [
         "auditory physiology",
-        "cochlear implant"
+        "clinical audiology",
+        "cochlear implant",
+        "psychoacoustics",
+        "real-world listening"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-07-18",
       "first_seen_at": "2026-07-23T05:35:35Z"
     },
@@ -1645,11 +1769,19 @@
         "updated_at": "2026-08-14T04:19:56Z"
       },
       "last_author_affiliation": "Department of Hearing and Speech Sciences, University of Maryland, College Park, MD, 20742, USA. Electronic address: sander22@umd.edu.",
-      "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
+      "keywords": [
+        "Aging",
+        "Cortical envelope tracking",
+        "Frequency-following response",
+        "Hearing loss",
+        "Time-compressed speech"
+      ],
+      "tags": [
+        "clinical audiology",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
       "available_online_date": "2026-07-29",
       "first_seen_at": "2026-08-06T05:28:30Z"
     },
@@ -1677,11 +1809,16 @@
         "updated_at": "2026-08-22T03:11:08Z"
       },
       "last_author_affiliation": "Department for General Psychology and Cognitive Neuroscience, Friedrich Schiller University Jena, Germany; Voice Research Unit, Friedrich Schiller University, Jena, Germany. Electronic address: christine.nussbaum@uni-jena.de.",
-      "publication_stage": "early_access",
       "section": null,
-      "keywords": [],
+      "keywords": [
+        "Adaptation",
+        "Identity",
+        "Simultaneous opposite aftereffects",
+        "Speaker gender",
+        "Vocal emotions"
+      ],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-08-08",
       "first_seen_at": "2026-08-09T03:54:29Z"
     },
@@ -1715,11 +1852,20 @@
         "updated_at": "2026-07-27T06:04:45Z"
       },
       "last_author_affiliation": "Faculty of Science and Engineering, School of Engineering, Macquarie University, Sydney, NSW, 2109, Australia. Electronic address: christopher.pastras@mq.edu.au.",
-      "publication_stage": "early_access",
       "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
+      "keywords": [
+        "Bone-conducted vibration",
+        "Facial nerve canal",
+        "Far-field recording",
+        "Guinea pig",
+        "Near-field recording",
+        "Otolith",
+        "Vestibular evoked potential"
+      ],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref+pubmed",
       "available_online_date": "2026-07-22",
       "first_seen_at": "2026-07-27T06:02:33Z"
     },
@@ -1750,14 +1896,19 @@
         "updated_at": "2026-08-02T05:39:20Z"
       },
       "last_author_affiliation": "Department of Otorhinolaryngology, TUM University Hospital, Technical University of Munich, Munich, Germany. Electronic address: wilhelm.wimmer@tum.de.",
-      "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
+      "keywords": [
+        "Hearing preservation",
+        "Intracochlear pressure",
+        "Noise dosimetry",
+        "Objective monitoring"
+      ],
       "tags": [
         "auditory physiology",
+        "clinical audiology",
         "cochlear implant"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-07-31",
       "first_seen_at": "2026-08-02T05:38:25Z"
     },
@@ -1792,13 +1943,19 @@
         "updated_at": "2026-08-23T03:18:19Z"
       },
       "last_author_affiliation": "Department of Communication Sciences and Disorders, University of South Carolina, Columbia, SC, USA.",
-      "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
+      "keywords": [
+        "Age-related hearing loss",
+        "Aging",
+        "Cognitive function",
+        "Hearing sensitivity",
+        "Nonword repetition",
+        "Phonological working memory"
+      ],
       "tags": [
         "clinical audiology"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-08-06",
       "first_seen_at": "2026-08-07T04:33:41Z"
     },
@@ -1831,15 +1988,22 @@
         "updated_at": "2026-08-13T04:23:21Z"
       },
       "last_author_affiliation": "MED-EL Medical Electronics GmbH, Fürstenweg 77a, 6020, Innsbruck, Austria.",
-      "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
+      "keywords": [
+        "Amplitude growth function",
+        "Cochlear implant",
+        "Compression mapping",
+        "Electrically evoked compound action potential (ECAP)",
+        "Individualized fitting",
+        "Loudness growth"
+      ],
       "tags": [
         "auditory physiology",
         "cochlear implant",
-        "hearing aid"
+        "hearing aid",
+        "psychoacoustics"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-07-29",
       "first_seen_at": "2026-08-08T03:45:40Z"
     },
@@ -1878,13 +2042,19 @@
       "pubmed_full_text_source": "pmc",
       "pubmed_full_text_image_checked_at": "2026-08-25T03:14:57Z",
       "media_checked_at": "2026-08-25T03:14:57Z",
-      "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "clinical audiology"
+      "keywords": [
+        "Auditory streaming",
+        "Harmonicity",
+        "Hearing loss",
+        "Music perception",
+        "Pitch"
       ],
-      "source": "crossref",
+      "tags": [
+        "clinical audiology",
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
       "available_online_date": "2026-08-11",
       "first_seen_at": "2026-08-12T04:18:51Z"
     },
@@ -1902,11 +2072,10 @@
       "abstract": null,
       "first_author_affiliation": "Department of Psychology, Concordia University, Montreal, Quebec, Canada; Montreal Neurological Institute, McGill University, Montreal, Quebec, Canada; Centre for Research on Brain, Language and Music, Montreal, Quebec, Canada; Laboratory for Brain, Music and Sound Research (BRAMS), Montreal, Quebec, Canada. Electronic address: emily.coffey@concordia.ca.",
       "last_author_affiliation": "Centre for Research on Brain, Language and Music, Montreal, Quebec, Canada; Laboratory for Brain, Music and Sound Research (BRAMS), Montreal, Quebec, Canada; School of Rehabilitation Sciences, Université Laval, QC, Canada; Institut Pasteur, AP-HP, INSERM, Fondation Pour l'Audition, IHU reConnect, Paris, France.",
-      "publication_stage": "early_access",
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-08-08",
       "first_seen_at": "2026-08-09T03:54:29Z"
     },
@@ -1941,14 +2110,20 @@
         "updated_at": "2026-08-23T03:18:33Z"
       },
       "last_author_affiliation": "Department of Otolaryngology-Head and Neck Surgery, The Second Hospital of Hebei Medical University, Shijiazhuang, China. Electronic address: wangbaoshan@hebmu.edu.cn.",
-      "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
+      "keywords": [
+        "ARHL",
+        "Aging",
+        "Crosstalk",
+        "GRN",
+        "Hair cells",
+        "MLCs"
+      ],
       "tags": [
         "auditory physiology",
         "clinical audiology"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-08-06",
       "first_seen_at": "2026-08-07T04:33:41Z"
     },
@@ -1976,13 +2151,163 @@
         "abstract_hash": "e57ad27f08982613",
         "updated_at": "2026-08-19T03:13:45Z"
       },
-      "publication_stage": "early_access",
+      "last_author_affiliation": "Laboratory of Cognitive Psychophysiology, Tokyo Gakugei University, Koganei, Tokyo, Japan. Electronic address: kazunari@u-gakugei.ac.jp.",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Global deviant",
+        "Inter-group intervals",
+        "Local deviant",
+        "Mismatch negativity",
+        "Perceptual grouping"
+      ],
+      "tags": [
+        "auditory physiology",
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-07-27",
+      "first_seen_at": "2026-08-18T03:11:28Z"
+    },
+    {
+      "title": "Acoustic event detection for spatiotemporal patterns of bird activity in protected areas",
+      "authors": [
+        "Xiaoqing Xu",
+        "Yaling Huang",
+        "Xueyao Sun",
+        "Chengyun Zhang",
+        "Jiale Ling",
+        "Shang Yu"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-30",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044420",
+      "url": "https://doi.org/10.1121/10.0044420",
+      "abstract": "The spatiotemporal variation in bird vocalization activity reflects systematic patterns related to circadian rhythms and human activity intensity. Understanding these patterns is crucial for interpreting bird diversity in protected areas increasingly impacted by human activities. Passive acoustic monitoring (PAM) enables long-term, noninvasive tracking of these patterns, yet the sheer volume of complex data poses significant analytical challenges. Acoustic event detection (AED) models provide a critical solution by extracting acoustic events from continuous recordings. Using PAM data collected from August to December 2023 in the Huanglong Protected Area, Sichuan, China, this study applied locally trained bird species recognition models and AED models to quantify spatiotemporal variation in bird acoustic activity across multiple temporal scales and disturbance intensities. Results identified key species within the protected area and revealed distinct daily and monthly activity patterns, with bird activity peaking in mid-morning, remaining low at night, and declining over successive months. Bird activity also decreased along gradients of increasing human disturbance. These patterns were further supported by false-color spectrograms with consistent time–frequency structures. Overall, this study demonstrates the value of AED-based PAM for characterizing bird community dynamics and supporting biodiversity monitoring and tourism management in protected areas.",
+      "first_author_affiliation": "College of Architecture and Urban Planning, Tongji University 1 , Shanghai 200092,",
+      "last_author_affiliation": "Guangzhou Lingdong Ecological Technology Co., Ltd. 4 , Guangzhou 510555,",
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-27",
-      "first_seen_at": "2026-08-18T03:11:28Z"
+      "available_online_date": "2026-09-30",
+      "first_seen_at": "2026-10-01T09:02:19Z"
+    },
+    {
+      "title": "Acoustic radiation of tail bubble dynamics in underwater cylinder launch",
+      "authors": [
+        "Qihang Chen",
+        "A-Man Zhang",
+        "Rui Han",
+        "Shuai Li"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-30",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046726",
+      "url": "https://doi.org/10.1121/10.0046726",
+      "abstract": "This study experimentally and numerically investigates the acoustic radiation from high-pressure tail bubbles generated during underwater cylinder launch. Synchronous high-speed imaging and hydrophone measurements in a water tank capture the transient bubble evolution and the acoustic signatures, clarifying the relationship between tail bubble dynamics and acoustic radiation. A boundary integral model reproduces the experimental observations, and a natural frequency model is developed to characterize the acoustic response of non-spherical bubbles. A systematic parametric study is then performed to evaluate the effects of ventilated pressure and free surface on tail bubble dynamics and acoustic radiation. The results reveal a stage-dependent acoustic radiation feature: acoustic radiation is negligible while the cylinder moves inside the launcher. Upon exit, significant acoustic radiation is produced by the tail bubble. After pinch-off, oscillations of two residual bubble structures dominate late-stage acoustic signals. The proposed model shows good predictive accuracy for the tail bubble natural frequency. Furthermore, the dominant acoustic frequency exhibits a non-monotonic depth dependence with a distinct minimum at intermediate depths. Beyond a critical depth, it is primarily governed by the ambient pressure. These findings constitute a valuable reference for underwater launch bubble acoustics.",
+      "first_author_affiliation": "College of Shipbuilding Engineering, Harbin Engineering University 1 , Harbin 150001,",
+      "last_author_affiliation": "College of Shipbuilding Engineering, Harbin Engineering University 1 , Harbin 150001,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-30",
+      "first_seen_at": "2026-10-01T09:02:19Z"
+    },
+    {
+      "title": "Evaluating Human Auditory Nerve (AN) and Brainstem Function Through Level-Dependent Chirps and Predicted AN Firing Distributions",
+      "authors": [
+        "Skyler G. Jennings",
+        "Tabitha Pickard",
+        "Jessica Chen",
+        "Shawn S. Goodman"
+      ],
+      "journal": "Journal of the Association for Research in Otolaryngology",
+      "publication_date": "2026-09-30",
+      "publication_date_precision": "day",
+      "doi": "10.1007/s10162-026-01075-7",
+      "url": "https://doi.org/10.1007/s10162-026-01075-7",
+      "abstract": null,
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-30",
+      "first_seen_at": "2026-10-01T09:02:30Z"
+    },
+    {
+      "title": "Numerical investigation of a three-port transfer matrix of a dual-swirler burner",
+      "authors": [
+        "Henri Wolff",
+        "Muhammad Yasir",
+        "Bruno Schuermans",
+        "Alessandro Orchini"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-30",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046725",
+      "url": "https://doi.org/10.1121/10.0046725",
+      "abstract": "The acoustic properties of a dual-swirl humid combustor are investigated numerically by determining its burner transfer matrix (BTM). The three-port BTM is computed using a combination of finite-element and finite-volume methods. Complex-valued matrix elements are obtained, where the imaginary part represents acoustic reactance and the real part acoustic resistance. Reactance is evaluated by solving the pressure wave equation in the frequency domain, whereas resistive effects are captured by solving the incompressible Navier–Stokes equations for a multi-component gas. Acoustic forcing is applied separately at each port using harmonic or broadband signals in the range 50–650 Hz. The resulting pressure and velocity responses at both inlets and the outlet are used to assemble the 3×3 BTM. The numerical BTM is compared with predictions from an extended l-ζ model. The effective length and pressure loss coefficient are identified by fitting the simulated matrix components to the model. However, extending the classical two-port l-ζ formulation to the present three-port configuration is found to be invalid, as indicated by non-zero coupling terms between the inlets and unrealistically large fitted parameters. Variations in operating conditions, including speed of sound and inlet momentum ratio, show only minor influence on the BTM.",
+      "first_author_affiliation": "Chair of Nonlinear Thermo-Fluid Mechanics, Technische Universität Berlin 1 , Berlin,",
+      "last_author_affiliation": "Chair of Nonlinear Thermo-Fluid Mechanics, Technische Universität Berlin 1 , Berlin,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "hearing aid"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-30",
+      "first_seen_at": "2026-10-01T09:02:19Z"
+    },
+    {
+      "title": "The Enigmatic Presence of Actin Rings, Actin Cables and Ectopic Hair Cells in the Vestibular Maculae of Mice and Humans",
+      "authors": [
+        "Mark E. Warchol",
+        "Jaclynn Lett",
+        "Alain Dabdoub"
+      ],
+      "journal": "Journal of the Association for Research in Otolaryngology",
+      "publication_date": "2026-09-30",
+      "publication_date_precision": "day",
+      "doi": "10.1007/s10162-026-01074-8",
+      "url": "https://doi.org/10.1007/s10162-026-01074-8",
+      "abstract": "Abstract Purpose Prior studies have shown that the utricles of mice contain a population of actin rings that reside in the lower stratum of the sensory epithelium, embedded among the nuclei of supporting cells. Although these structures display structural similarities with phagosomes, their function is not clear. The present study characterized actin rings, as well as actin cables and ectopic hair cells, in the sensory epithelia of normal, developing, and ototoxically-lesioned utricles of mice, and in utricles of adult humans. Methods Filamentous actin structures in the utricles of mice were labeled with phalloidin. Actin rings in developing, mature and lesioned utricles were characterized and quantified. Intraepithelial actin cables and ectopic hair cells in normal and developing utricles were also examined. Similar studies were conducted on utricles obtained from adult humans. Results All mouse utricles contained actin rings, whose number was unaffected by hair cell injury. Actin rings present in ototoxically-lesioned utricles did not clearly engage in the phagocytosis of hair cell debris. The lower stratum of the sensory epithelium also contained actin cables, which were associated with ‘ectopic’ hair cells. Although many ectopic hair cells appeared to be ‘impaled’ by the actin cables, those hair cells showed no clear signs of pathology or degeneration. Actin rings, actin cables and ectopic hair cells were also present in the utricles of neonatal mice, well before the full population of hair cells had been generated. Actin rings and cables were also observed in utricles of mature humans (2 males, ages 30 and 67; two females, ages 27 and 75). Conclusions Actin rings were present in mouse utricles, but were not affected by hair cell damage. Developmental data suggest that, if actin rings and cables are associated with spontaneous hair cell death, then such processes are likely to begin before the utricle has fully matured. At present, the origin and function of these structures remain unclear.",
+      "open_access": true,
+      "open_access_url": "https://link.springer.com/article/10.1007/s10162-026-01074-8",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-30",
+      "first_seen_at": "2026-10-01T09:02:30Z",
+      "full_text_url": "https://link.springer.com/article/10.1007/s10162-026-01074-8",
+      "key_image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs10162-026-01074-8/MediaObjects/10162_2026_1074_Fig1_HTML.png",
+      "key_image_alt": "Content cover image",
+      "media_checked_at": "2026-10-01T09:03:39Z",
+      "open_access_image_checked_at": "2026-10-01T09:03:38Z",
+      "ai_analysis": {
+        "scientific_question": "小鼠和人类前庭囊斑中肌动蛋白环、肌动蛋白丝和异位毛细胞的结构特征与功能是什么？",
+        "key_highlight": "肌动蛋白环在正常、损伤和发育中的小鼠前庭囊斑以及人类前庭囊斑中均存在，且不参与清除毛细胞碎片，提示其功能尚不明确。",
+        "main_limitation": "人类样本仅包含4名成人（年龄27-75岁），样本量极小，限制了研究结果的普遍适用性。",
+        "research_implication": "该研究为前庭系统发育生物学和毛细胞稳态维持机制提供了基础性参考，但与助听器、人工耳蜗或言语感知研究无直接关联。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "212a74e0fcdb34e0",
+        "updated_at": "2026-10-01T09:04:51Z"
+      }
     },
     {
       "title": "Beampattern null characterization in planar differential microphone arrays: Analytical modeling and experiment results",
@@ -1997,16 +2322,6 @@
       "doi": "10.1121/10.0046670",
       "url": "https://doi.org/10.1121/10.0046670",
       "abstract": "Planar differential microphone arrays (PDMAs) offer flexible beam steering with frequency-invariant beampatterns within compact array geometries. Formation of deep and well-defined beampattern nulls are crucial for effective suppression of interfering sources in applications, such as hearing-aids, rotor-noise mitigation in drones and unmanned aerial vehicles, and hand-free voice communication. While performance measures, such as white-noise gain and directivity factor, assess noise robustness and global spatial selectivity, they do not explicitly quantify the depth and angular extent of these nulls. To address this, we first investigated null-related measures, namely, null-depth (ND) and null-width for different beampatterns of a first-order PDMA configuration. Second, the paper presents a study on signal quantization effects across different PDMA beampatterns by deriving an analytical expression for the quantized beampattern and ND. ND invariance with respect to steering angle is demonstrated, and its dependence on temporal frequency and inter-sensor spacing is characterized. Third, this work reports the achievement of a measured ND of –61.93 dB for a first-order planar cardioid. The experiment results provide proof-of-concept evidence for the analytical framework and demonstrate practical effectiveness of PDMA in suppressing interference. Key experimental considerations required to achieve such sharp and well-defined null are also discussed.",
-      "first_author_affiliation": "Centre for Applied Research in Electronics , IIT Delhi-110016,",
-      "last_author_affiliation": "Centre for Applied Research in Electronics , IIT Delhi-110016,",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "priority section"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-09-29",
-      "first_seen_at": "2026-09-30T08:39:26Z",
       "ai_analysis": {
         "scientific_question": "如何量化和表征平面差分麦克风阵列中波束模式零点的深度和角度范围，以实现有效的干扰抑制？",
         "key_highlight": "本研究实现了一阶平面心形指向图-61.93 dB的测量零点深度，证明了零点深度相对于指向角的不变性，并揭示了其与时间频率和传感器间距的依赖关系。",
@@ -2018,7 +2333,17 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "36b4763ee8c7243c",
         "updated_at": "2026-09-30T08:40:18Z"
-      }
+      },
+      "first_author_affiliation": "Centre for Applied Research in Electronics , IIT Delhi-110016,",
+      "last_author_affiliation": "Centre for Applied Research in Electronics , IIT Delhi-110016,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "priority section"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-29",
+      "first_seen_at": "2026-09-30T08:39:26Z"
     },
     {
       "title": "Hybrid matrix method, a stable method for the prediction of multilayered structures including poroelastic media",
@@ -2032,14 +2357,6 @@
       "doi": "10.1121/10.0046650",
       "url": "https://doi.org/10.1121/10.0046650",
       "abstract": "This paper proposes a hybrid matrix method (HMM) to predict the response of multilayered structures including poroelastic media. Hybrid matrices are a generalization of impedance and admittance matrices. It is shown that they are more convenient than the latter to deal with coupling between layers composed of media of different types. They are then a powerful tool to solve multilayered structure problems with any kind of interface. HMM is in addition designed to be stable thereby overcoming the major drawback of the transfer matrix method. The proposed method is also shown to be simpler and more efficient than a recursive method that was previously proposed. Various post-processing tools (finite-size effects, computation of dissipated powers) are also presented so as to illustrate its interest.",
-      "first_author_affiliation": "Laboratoire d'Acoustique de l'Université du Mans (LAUM), UMR 6613, Institut d'Acoustique–Graduate School (IA-GS), CNRS, Le Mans Université ,",
-      "last_author_affiliation": "Laboratoire d'Acoustique de l'Université du Mans (LAUM), UMR 6613, Institut d'Acoustique–Graduate School (IA-GS), CNRS, Le Mans Université ,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-29",
-      "first_seen_at": "2026-09-30T08:39:26Z",
       "ai_analysis": {
         "scientific_question": "如何开发一种稳定且高效的方法来预测包含多孔弹性介质的层状结构响应？",
         "key_highlight": "混合矩阵方法在处理不同类型介质层之间的耦合时比传统阻抗和导纳矩阵更方便，且在数值计算上稳定可靠。",
@@ -2051,7 +2368,15 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "eab0fdb4211ea0b5",
         "updated_at": "2026-09-30T08:40:30Z"
-      }
+      },
+      "first_author_affiliation": "Laboratoire d'Acoustique de l'Université du Mans (LAUM), UMR 6613, Institut d'Acoustique–Graduate School (IA-GS), CNRS, Le Mans Université ,",
+      "last_author_affiliation": "Laboratoire d'Acoustique de l'Université du Mans (LAUM), UMR 6613, Institut d'Acoustique–Graduate School (IA-GS), CNRS, Le Mans Université ,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-29",
+      "first_seen_at": "2026-09-30T08:39:26Z"
     },
     {
       "title": "Neural-operator surrogates for outdoor acoustics using parameterized wind and terrain profiles",
@@ -2066,22 +2391,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0046653",
       "url": "https://doi.org/10.1121/10.0046653",
-      "abstract": "Outdoor sound propagation is strongly shaped by boundary layer meteorology and terrain, yet high-fidelity simulation remains too expensive for rapid scenario studies. This paper shows the development of neural-operator surrogates that map parameterized wind profiles and/or terrain profiles to acoustic fields over a region of interest, using training data from a two-dimensional linearized Euler equation finite-difference time-domain solver with Sobol'-sequence sampling. Two operator-learning families are evaluated: deep operator networks and Fourier neural operators (FNOs) on wind-only, terrain-only, and joint wind+terrain datasets spanning multiple profile families. Beyond direct prediction of complex pressure (and derived sound pressure level), also studied is residual learning relative to fixed reference environments (no-wind and flat-ground baselines) for single-input settings. The paper provides a controlled comparison of architectures and targets and identifies when residual learning improves conditioning and generalization by emphasizing environment-induced modifications of the acoustic field. In this controlled two-dimensional setting, FNOs gave the most reliable full-field fixed-grid predictions, with out-of-distribution mean absolute sound-pressure-level errors below 2 dB and simulation speedups on the order of 10 000. The remaining errors are concentrated near shadow boundaries, near-ground regions, and interference structures, identifying these regions as key targets for reliability assessment in future neural-operator surrogate models.",
-      "first_author_affiliation": "Institut für Physik der Atmosphäre, Deutsches Zentrum für Luft- und Raumfahrt e.V. 1 , Wessling 82234,",
-      "last_author_affiliation": "School of Computation, Information and Technology, Technical University of Munich 2 , Munich 80333,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0046653",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-29",
-      "first_seen_at": "2026-09-30T08:39:26Z",
       "full_text_url": "https://pubs.aip.org/jasa/article/160/3/2653/3405543/Neural-operator-surrogates-for-outdoor-acoustics",
-      "media_checked_at": "2026-09-30T08:40:01Z",
-      "open_access_image_checked_at": "2026-09-30T08:40:01Z",
+      "abstract": "Outdoor sound propagation is strongly shaped by boundary layer meteorology and terrain, yet high-fidelity simulation remains too expensive for rapid scenario studies. This paper shows the development of neural-operator surrogates that map parameterized wind profiles and/or terrain profiles to acoustic fields over a region of interest, using training data from a two-dimensional linearized Euler equation finite-difference time-domain solver with Sobol'-sequence sampling. Two operator-learning families are evaluated: deep operator networks and Fourier neural operators (FNOs) on wind-only, terrain-only, and joint wind+terrain datasets spanning multiple profile families. Beyond direct prediction of complex pressure (and derived sound pressure level), also studied is residual learning relative to fixed reference environments (no-wind and flat-ground baselines) for single-input settings. The paper provides a controlled comparison of architectures and targets and identifies when residual learning improves conditioning and generalization by emphasizing environment-induced modifications of the acoustic field. In this controlled two-dimensional setting, FNOs gave the most reliable full-field fixed-grid predictions, with out-of-distribution mean absolute sound-pressure-level errors below 2 dB and simulation speedups on the order of 10 000. The remaining errors are concentrated near shadow boundaries, near-ground regions, and interference structures, identifying these regions as key targets for reliability assessment in future neural-operator surrogate models.",
       "ai_analysis": {
         "scientific_question": "如何利用神经算子代理模型实现参数化风速和地形条件下的室外声场快速预测，以替代计算成本高昂的高保真模拟。",
         "key_highlight": "傅里叶神经算子在二维受控设定下实现了可靠的声压级全场预测，平均绝对误差低于2分贝，计算速度提升约10000倍。",
@@ -2093,7 +2404,21 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "b75a8ee10d1a9579",
         "updated_at": "2026-09-30T08:40:41Z"
-      }
+      },
+      "first_author_affiliation": "Institut für Physik der Atmosphäre, Deutsches Zentrum für Luft- und Raumfahrt e.V. 1 , Wessling 82234,",
+      "last_author_affiliation": "School of Computation, Information and Technology, Technical University of Munich 2 , Munich 80333,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046653",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-09-30T08:40:01Z",
+      "media_checked_at": "2026-09-30T08:40:01Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-29",
+      "first_seen_at": "2026-09-30T08:39:26Z"
     },
     {
       "title": "Zephyr: An Efficient Audio Denoising System Using Spiking Neural Networks Enabled With A Sparsity-Aware Flexible FPGA PE Array",
@@ -2112,6 +2437,18 @@
       "doi": null,
       "url": "https://arxiv.org/abs/2609.37711v1",
       "abstract": "In this work we look to neuromorphic computing to solve the power consumption problem that audio denoising neural networks face on edge devices like smartphones, wireless headphones and hearing aids. Spiking neural networks (SNNs) have the potential to solve this problem due to their high activation sparsity and low complexity, however many SOTA SNNs require hardware that supports a mixture of operations to be able to fully perform inference. To solve this problem, we convert SOTA audio denoising neural network Spiking-FullSubNet to a hardware friendly version showing that via QAT and activation function simplification we can achieve $\\approx28\\times$ improvement in power consumption to 52.9nJ per 32ms audio frame when calculated for custom digital hardware in a 45nm process node. We then propose a digital circuit which by means of a sparsity-aware flexible PE array can perform inference of the heterogeneous compute load of Spiking-FullSubNet, and validate this circuit on a PYNQ-Z1 FPGA achieving a real-time factor of 0.727 at 100MHz.",
+      "ai_analysis": {
+        "scientific_question": "如何利用脉冲神经网络的硬件友好特性解决边缘设备上音频降噪神经网络的高功耗问题？",
+        "key_highlight": "通过量化感知训练和激活函数简化将Spiking-FullSubNet转换为硬件友好版本，在45nm工艺节点上实现每32ms音频帧仅52.9nJ的功耗，达到约28倍的能效提升。",
+        "main_limitation": "实验验证仅在PYNQ-Z1 FPGA和45nm工艺节点上进行，芯片级实现的实际性能及与其他工艺节点的兼容性尚未验证。",
+        "research_implication": "该研究为助听器和无线耳机等边缘音频设备提供了低功耗实时音频降噪的硬件实现思路，但实际集成到这些设备中的效果仍需进一步验证。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "f10dd5788294a2b8",
+        "updated_at": "2026-09-30T08:40:49Z"
+      },
       "publication_stage": "preprint",
       "section": null,
       "keywords": [
@@ -2133,19 +2470,7 @@
         "abstract"
       ],
       "needs_review": true,
-      "first_seen_at": "2026-09-30T08:39:53Z",
-      "ai_analysis": {
-        "scientific_question": "如何利用脉冲神经网络的硬件友好特性解决边缘设备上音频降噪神经网络的高功耗问题？",
-        "key_highlight": "通过量化感知训练和激活函数简化将Spiking-FullSubNet转换为硬件友好版本，在45nm工艺节点上实现每32ms音频帧仅52.9nJ的功耗，达到约28倍的能效提升。",
-        "main_limitation": "实验验证仅在PYNQ-Z1 FPGA和45nm工艺节点上进行，芯片级实现的实际性能及与其他工艺节点的兼容性尚未验证。",
-        "research_implication": "该研究为助听器和无线耳机等边缘音频设备提供了低功耗实时音频降噪的硬件实现思路，但实际集成到这些设备中的效果仍需进一步验证。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "f10dd5788294a2b8",
-        "updated_at": "2026-09-30T08:40:49Z"
-      }
+      "first_seen_at": "2026-09-30T08:39:53Z"
     },
     {
       "title": "Computational analysis of asymmetric thyroarytenoid and cricothyroid activation in human phonation",
@@ -2184,13 +2509,16 @@
     {
       "title": "Harmonizing Spectral Evolution in Conditional Flow Matching for TTS",
       "authors": [
-        "Isha Pandey Varad Deshpande Abhijat Bharadwaj Ganesh Ramakrishnan"
+        "Isha Pandey",
+        "Varad Deshpande",
+        "Abhijat Bharadwaj",
+        "Ganesh Ramakrishnan"
       ],
       "journal": "arXiv",
       "publication_date": "2026-09-28",
       "publication_date_precision": "day",
       "doi": null,
-      "url": "https://arxiv.org/abs/2609.34431v1",
+      "url": "https://arxiv.org/abs/2609.34431v2",
       "abstract": "Conditional Flow Matching (CFM) models for text-to-speech (TTS) suffer from incoherent frequency evolution during inference. While similar spectral imbalances are addressed in diffusion models for other domains, those generic solutions fail to generalize to the inherently uncoordinated acoustic dynamics of CFM. We demonstrate that this issue can be effectively mitigated by introducing a novel training-free frequency-selective boosting strategy. Using the Discrete Wavelet Transform (DWT), our method dynamically modulates mel-spectrogram sub-bands during ODE integration, synchronizing spectral development by penalizing aggressive low-frequency growth and boosting lagging high-frequency details. Validated across diverse architectures (Matcha-TTS, F5-TTS, IndicF5), our approach reduces the required Number of Function Evaluations (NFE) from 32 to 26 and improves Frechet Audio Distance (FAD) by up to 61%, all without compromising mean opinion scores, speaker similarity, and speech intelligibility.",
       "ai_analysis": {
         "scientific_question": "如何解决条件流匹配文本到语音合成模型在推理过程中出现的频率演化不一致问题",
@@ -2241,6 +2569,18 @@
       "doi": null,
       "url": "https://arxiv.org/abs/2609.36272v1",
       "abstract": "Cochlear neural degeneration (CND) can impair suprathreshold coding without elevating pure-tone thresholds, complicating its diagnosis when it coexists with hair cell loss. We present a unified comparison of temporal and noise-based probes for CND detection using low-context vowel-consonant-vowel (VCV) syllables to reduce linguistic and contextual cues. Using a phenomenological auditory nerve model, we simulated responses to 21 VCV tokens under time compression, reverberation, and speech-in-noise conditions across presentation levels and seven CND profiles. We computed mutual information (MI) between inner hair cell potentials and auditory nerve neurograms and quantified information loss relative to a normal-hearing baseline. Time compression and amplitude-modulated (AM) noise produced the largest modeled information losses. We then evaluated these stimuli in a consonant-identification study involving 36 listeners with normal audiograms, 12 of whom reported difficulty understanding speech in noise. Neither 40 percent time compression in quiet nor AM noise alone distinguished listeners with and without these difficulties. However, compressed speech presented in AM noise separated the two groups. This partial agreement between model predictions and behavior supports our MI-based stimulus design framework and motivates further evaluation of combined temporal and noise-based probes for CND detection.",
+      "ai_analysis": {
+        "scientific_question": "如何利用低语境VCV音节探针结合听觉神经模型检测耳蜗神经退化（CND），以及模型预测与行为实验结果的一致性如何？",
+        "key_highlight": "在安静条件下单独使用时无法区分有噪声下言语理解困难者的压缩语音和幅度调制噪声，只有两者结合使用时才能区分两类听者，且与基于互信息的模型预测部分吻合。",
+        "main_limitation": "受试者样本量较小且均为正常听阈个体，自我报告的困难感知可能存在主观偏差，模型预测仅获得部分验证。",
+        "research_implication": "该研究为开发针对CND的言语检测刺激提供了基于互信息的优化框架，对未来听力诊断和言语感知研究具有指导意义。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "e8b1b4ee581f4c71",
+        "updated_at": "2026-09-30T08:40:59Z"
+      },
       "publication_stage": "preprint",
       "section": null,
       "keywords": [
@@ -2261,19 +2601,7 @@
         "abstract"
       ],
       "needs_review": true,
-      "first_seen_at": "2026-09-30T08:39:53Z",
-      "ai_analysis": {
-        "scientific_question": "如何利用低语境VCV音节探针结合听觉神经模型检测耳蜗神经退化（CND），以及模型预测与行为实验结果的一致性如何？",
-        "key_highlight": "在安静条件下单独使用时无法区分有噪声下言语理解困难者的压缩语音和幅度调制噪声，只有两者结合使用时才能区分两类听者，且与基于互信息的模型预测部分吻合。",
-        "main_limitation": "受试者样本量较小且均为正常听阈个体，自我报告的困难感知可能存在主观偏差，模型预测仅获得部分验证。",
-        "research_implication": "该研究为开发针对CND的言语检测刺激提供了基于互信息的优化框架，对未来听力诊断和言语感知研究具有指导意义。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "e8b1b4ee581f4c71",
-        "updated_at": "2026-09-30T08:40:59Z"
-      }
+      "first_seen_at": "2026-09-30T08:39:53Z"
     },
     {
       "title": "Multipath-induced non-orthogonal inter-carrier interference mitigation for underwater acoustic orthogonal multicarrier multiple frequency-shift keying with sweep-spread carrier modulation",
@@ -2326,16 +2654,6 @@
       "doi": "10.1121/10.0046669",
       "url": "https://doi.org/10.1121/10.0046669",
       "abstract": "Reliable detection and recovery of multiple frequency line structures in Lofargrams are crucial for passive underwater acoustic target analysis. Although deep neural networks have shown promising performance for this task, most existing methods rely heavily on dense pixel-level annotations. To address this limitation, we propose a weakly supervised unified framework for multiple frequency line detection and recovery. Specifically, line detection is conducted under coarse region-level supervision, whereas line recovery is achieved through gradient-based visualization in a weakly supervised manner without pixel-level masks. To ensure that the recovered lines faithfully preserve fine-grained dynamic characteristics, such as continuity and fluctuations, we further introduce a recovery loss that enforces curvature smoothness and structural consistency. Extensive experiments show that the proposed multiple DeepLofargram achieves state-of-the-art performance on multiple coexisting frequency lines with fragmented and fluctuating structures under low-signal-to-noise conditions.",
-      "first_author_affiliation": "School of Marine Science and Technology, Northwestern Polytechnical University 1 , Xi'an 710072,",
-      "last_author_affiliation": "School of Marine Science and Technology, Northwestern Polytechnical University 1 , Xi'an 710072,",
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "machine learning"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-09-28",
-      "first_seen_at": "2026-09-29T08:38:55Z",
       "ai_analysis": {
         "scientific_question": "如何在弱监督条件下实现对Lofargram中多个频率线结构的可靠检测和恢复，从而减少对密集像素级标注的依赖？",
         "key_highlight": "该方法通过粗粒度区域级监督结合梯度可视化实现弱监督检测和恢复，在低信噪比条件下达到先进性能。",
@@ -2347,7 +2665,17 @@
         "prompt_version": "2026-05-13-no-methodology-flow",
         "abstract_hash": "7a2da88112938101",
         "updated_at": "2026-09-30T08:41:10Z"
-      }
+      },
+      "first_author_affiliation": "School of Marine Science and Technology, Northwestern Polytechnical University 1 , Xi'an 710072,",
+      "last_author_affiliation": "School of Marine Science and Technology, Northwestern Polytechnical University 1 , Xi'an 710072,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "machine learning"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-09-28",
+      "first_seen_at": "2026-09-29T08:38:55Z"
     },
     {
       "title": "Pointwise encoding time reduction with radial acquisition (PETRA) to pseudo-CT (computer tomography) mapping for precision focused transcranial ultrasound applications",
@@ -2413,7 +2741,19 @@
       "tags": [],
       "source": "crossref",
       "available_online_date": "2026-09-28",
-      "first_seen_at": "2026-09-29T08:38:55Z"
+      "first_seen_at": "2026-09-29T08:38:55Z",
+      "ai_analysis": {
+        "scientific_question": "如何在海洋声学中以低计算成本实现多径到达时间和幅度的高分辨率估计？",
+        "key_highlight": "所提出的稀疏参数化框架结合变量投影方法，在降低计算开销的同时有效修正了匹配滤波的偏差并提升了密集到达信号的分辨能力。",
+        "main_limitation": "Limited generalizability due to small or specific sample",
+        "research_implication": "General research findings",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "f1aef9b7f9958f51",
+        "updated_at": "2026-10-01T09:05:01Z"
+      }
     },
     {
       "title": "Treating Hearing Loss and Improved Mild Cognitive Impairment.",
@@ -2484,7 +2824,51 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-27",
-      "first_seen_at": "2026-09-29T08:39:35Z"
+      "first_seen_at": "2026-09-29T08:39:35Z",
+      "ai_analysis": {
+        "scientific_question": "皮质语音追踪作为客观语音噪声评估指标的边界条件和有效性问题",
+        "key_highlight": "皮质语音追踪可作为群体水平的条件敏感和注意敏感标记，但个体层面的神经计量言语接收阈值预测受限于协议依赖性",
+        "main_limitation": "个体拟合的神经计量阈值与实际阈值的相关性较弱（r=0.29），且EEG标记仅产生较小的、依赖模型的交叉验证预测增益",
+        "research_implication": "该结果表明皮质语音追踪指标目前难以实现个体化临床应用，在助听器验配或人工耳蜗效果评估中的应用仍需更稳健的方法学框架",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "50e416cdc1020519",
+        "updated_at": "2026-10-01T09:05:20Z"
+      }
+    },
+    {
+      "title": "FK506-mediated prevention of noise-induced hearing loss is associated with attenuated ER stress responses",
+      "authors": [
+        "Hongguo Su",
+        "Fan Wu",
+        "Khujista Haque",
+        "Su-Hua Sha"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-26",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109824",
+      "url": "https://doi.org/10.1016/j.heares.2026.109824",
+      "abstract": "Noise-induced permanent hearing loss results primarily from the irreversible loss of cochlear sensory hair cells, which do not regenerate in adult mammals. Endoplasmic reticulum (ER) stress may play a major role in noise-induced outer hair cell (OHC) loss. We previously reported that FK506 prevents noise-induced hearing loss (NIHL) in adult CBA/J mice; however, the molecular mechanisms underlying this preventive effect remain incompletely understood. Here, we show that treatment with FK506 attenuates NIHL in adult FVB/NJ mice of both sexes and that this preventive effect is associated with suppression of noise-induced ER stress. Using a permanent threshold shift noise model that reliably induces OHC loss, exploratory RNA-seq analysis identified unfolded protein binding and protein processing among the top enriched pathways associated with FK506-mediated prevention, which guided subsequent validation studies focused on ER-stress-related markers. Noise exposure significantly increased BiP (Grp78) expression and decreased FKBP8 levels in cochlear homogenates within 1-3 h after exposure, whereas FK506 pretreatment prevented these changes. FK506 also blocked CHOP upregulation in basal- turn OHCs, where degeneration typically begins after acoustic trauma. Under physiological conditions, FKBP8 was expressed in sensory hair cells, spiral ganglion neurons, and the stria vascularis and showed predominant colocalization with the ER marker KDEL in OHCs. In HEI-OC1 cells, FK506 similarly prevented thapsigargin-induced increases in BiP and CHOP and the associated decrease in FKBP8 levels, further supporting the association between FK506 treatment and modulation of ER stress. Together, these findings indicate that FK506-mediated prevention of NIHL is associated with suppression of ER stress and preservation of OHC integrity and suggest that FKBP8 may contribute to FK506-associated regulation of ER homeostasis in the cochlea. However, the present data support an association rather than a direct causal role of ER-stress suppression in FK506-mediated prevention of NIHL.",
+      "last_author_affiliation": "Department of Pathology and Laboratory Medicine, Medical University of South Carolina, Charleston, SC, 29425, USA. Electronic address: shasu@musc.edu.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Endoplasmic reticulum stress",
+        "FK506 (Tacrolimus)",
+        "Noise-induced hearing loss",
+        "Outer hair cells",
+        "Unfolded protein response"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-26",
+      "first_seen_at": "2026-10-01T09:02:42Z"
     },
     {
       "title": "ACOUSTICAL NEWS",
@@ -2783,6 +3167,37 @@
       ],
       "needs_review": true,
       "first_seen_at": "2026-09-25T07:56:37Z"
+    },
+    {
+      "title": "Toward accessible hearing care: A systematic review of low-cost portable otoacoustic emission devices and measurement advances",
+      "authors": [
+        "Hassan Almaeeni",
+        "Suna Ro",
+        "Walter D. Leon-Salas",
+        "Joshua Alexander",
+        "Noori Kim"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-24",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109813",
+      "url": "https://doi.org/10.1016/j.heares.2026.109813",
+      "abstract": "Otoacoustic emissions (OAEs) are essential for non-invasive assessment of cochlear function but remain inaccessible in many low-resource settings because conventional systems are expensive, insufficiently portable, and largely supplied through proprietary platforms from a limited number of manufacturers. This systematic review characterized portable and low-cost OAE systems, focusing on their hardware architectures, measurement platforms, OAE modalities, performance, and technical or clinical validation. Studies directly evaluating portable, low-cost, mobile, smartphone-integrated, or consumer-grade OAE systems were eligible. IEEE Xplore, PubMed, and the ACM Digital Library were searched through 24 November 2025, identifying 1551 records. Risk of bias in studies reporting diagnostic accuracy was assessed using the Quality Assessment of Diagnostic Accuracy Studies 2 (QUADAS-2) tool and findings were synthesized narratively because of methodological and outcome heterogeneity. Seven studies met the eligibility criteria and evaluated smartphone-connected probes, wireless earbuds, single-transducer prototypes, and other portable platforms. Three studies assessing diagnostic classification against clinical hearing-status information reported sensitivities of 100% and specificities of 88.0%-89.7%, while several systems were supported only by small feasibility studies, normal-hearing samples, simulations, or artificial-ear testing and lacked independent clinical diagnostic validation. Portable and low-cost OAE technologies show promise for expanding access to cochlear assessment; however, standardized calibration and noise characterization, larger clinical studies, and validation against appropriate reference standards are required before they can serve as reliable alternatives to established clinical systems. The review followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 framework and was prospectively registered in the International Prospective Register of Systematic Reviews (PROSPERO; CRD420251250576). This work was supported by the Ralph W. and Grace M. Showalter Research Trust (No. 41001449), the Clifford B. Kinley Trust, and Purdue University's Health of the Forces initiative.",
+      "last_author_affiliation": "Purdue University, School of Engineering Technology, West Lafayette, 47907, IN, United States. Electronic address: kim4147@purdue.edu.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Otoacoustic emissions (OAEs)",
+        "Portable diagnostics",
+        "Systematic review"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-24",
+      "first_seen_at": "2026-10-01T09:02:42Z"
     },
     {
       "title": "Binaural pitch fusion in cochlear implant users is broader and narrower with coherent and incoherent envelope modulation, respectively",
@@ -3191,22 +3606,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046572",
-      "url": "https://doi.org/10.1121/10.0046572",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:56Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -3219,6 +3618,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:59Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046572",
+      "url": "https://doi.org/10.1121/10.0046572",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:56Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -4234,49 +4649,6 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-16",
       "first_seen_at": "2026-09-17T07:46:50Z"
-    },
-    {
-      "title": "Low-frequency oscillations in frontocentral EEG responses associated with auditory motion processing",
-      "authors": [
-        "Ekaterina A. Petropavlovskaia",
-        "Varvara V. Semenova",
-        "Lidia B. Shestopalova"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-09-16",
-      "publication_date_precision": "day",
-      "doi": "10.1016/j.heares.2026.109814",
-      "url": "https://doi.org/10.1016/j.heares.2026.109814",
-      "abstract": "This study investigated the oscillatory dynamics underlying sound motion processing in a delayed motion paradigm. Auditory motion was simulated by linear changes in interaural time difference. EEG was recorded while stimuli moved at seven velocities from 90 deg/s to 450 deg/s plus an abrupt displacement. We aimed to determine how the timing and magnitude of oscillatory responses scale with motion velocity, and how they relate to motion-onset response (MOR) components. The analysis focused on MOR deflections (cN1 and cP2) and oscillatory dynamics measured via event-related spectral perturbations (ERSP) and inter-trial phase coherence (ITC) in theta and lower alpha bands. Velocity dependence was quantified using the time required for the stimulus to traverse one degree of azimuth, termed 1-degree shift time. ITC peaked earlier than ERSP, with peak latencies increasing linearly with 1-degree shift time. Nonlinear regression showed that response magnitudes followed a hyperbolic decline as a function of 1-degree shift time, which is equivalent to linear growth with velocity. Together, our findings indicate that auditory motion processing relies on common temporal integration mechanisms across evoked and oscillatory responses, with ITC showing the highest sensitivity to velocity. The observed relationships between response magnitude, latency, and velocity can be explained by the joint activity of neural populations with broad unilateral receptive fields that differ in spatial thresholds and in integration time after the stimulus enters the receptive field.",
-      "ai_analysis": {
-        "scientific_question": "听觉运动处理过程中振荡反应的时序和幅度如何随运动速度缩放，以及它们与运动起始反应成分之间存在何种关系？",
-        "key_highlight": "ITC峰潜伏期随一度位移时间线性增加，反应幅度随一度位移时间呈双曲下降（即随速度呈线性增长），提示听觉运动处理依赖共同的时序整合机制，且ITC对速度最为敏感。",
-        "main_limitation": "采用仅七个速度条件下的延迟运动范式模拟ITD变化，且未说明样本量，其发现向真实动态听觉场景的推广性有限。",
-        "research_implication": "该研究为听觉运动处理的神经时序整合机制提供了电生理基础，可为空间听觉相关的听觉辅助设备算法设计提供参考。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "2ba7231958d6d631",
-        "updated_at": "2026-09-27T08:19:38Z"
-      },
-      "last_author_affiliation": "Pavlov Institute of Physiology, Russian Academy of Sciences, Makarova emb., 6, Saint Petersburg, 199034, Russia. Electronic address: shestopalovalb@infran.ru.",
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [
-        "Auditory motion",
-        "EEG",
-        "ERSP",
-        "ITC",
-        "Temporal integration",
-        "Velocity dependence"
-      ],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-16",
-      "first_seen_at": "2026-09-27T08:18:09Z"
     },
     {
       "title": "On the correlation between compaction in fine-grained barite sediment and its ultrasound attenuation and wave speed",
@@ -13753,22 +14125,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -13781,6 +14137,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -21320,18 +21692,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -21352,17 +21723,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -30686,22 +31058,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -30714,6 +31070,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -37816,23 +38188,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -37846,6 +38201,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -41397,8 +41769,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -41412,8 +41784,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -46934,8 +47306,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -46949,8 +47321,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
