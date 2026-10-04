@@ -367,10 +367,8 @@ select:focus {
 
 .overview-grid {
   display: grid;
-  grid-template-columns: minmax(240px, 0.95fr) minmax(270px, 1.05fr) minmax(270px, 1fr) minmax(230px, 0.85fr);
-  grid-template-areas:
-    "new selected highlights figure"
-    "new selected highlights topics";
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas: "selected";
   gap: 14px;
   align-items: start;
 }
@@ -1790,17 +1788,10 @@ select:focus {
     grid-template-columns: 1fr 1fr;
   }
 
-  .overview-grid,
   .digest-grid {
     grid-template-columns: 1fr 1fr;
   }
 
-  .overview-grid {
-    grid-template-areas:
-      "new selected"
-      "figure highlights"
-      "topics highlights";
-  }
 
   .overview-panel-figure .featured-figure {
     grid-template-columns: minmax(230px, 0.72fr) minmax(0, 1fr);
@@ -1827,19 +1818,10 @@ select:focus {
   }
 
   .controls,
-  .overview-grid,
   .digest-grid {
     grid-template-columns: 1fr;
   }
 
-  .overview-grid {
-    grid-template-areas:
-      "new"
-      "selected"
-      "figure"
-      "topics"
-      "highlights";
-  }
 
   .featured-figure {
     grid-template-columns: 1fr;

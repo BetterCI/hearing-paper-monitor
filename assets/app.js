@@ -921,26 +921,7 @@ function renderPaper(paper) {
 }
 
 function renderRecentOverview(papers = state.papers) {
-  const sorted = sortedPapers(papers);
   const visibleSources = papers.filter((paper) => state.filters.showOtherJasaSections || !isOtherJasaSectionPaper(paper));
-  const newlyAdded = papersForNewlyAddedPanel(visibleSources);
-  if (els.newlyAddedSummary) setTranslatableText(els.newlyAddedSummary, `${newlyAdded.length} papers added in the last 7 days`);
-  if (els.newlyAddedViewAll) {
-    els.newlyAddedViewAll.hidden = newlyAdded.length === 0;
-    setTranslatableText(els.newlyAddedViewAll, `View all ${newlyAdded.length} newly added papers`);
-  }
-  renderCompactPaperList(els.newThisUpdate, newlyAdded.slice(0, 5), {
-    showAffiliation: true,
-    highlightTitleKeywords: true,
-    fullTitle: true,
-    emptyText: "No papers added in the last 7 days.",
-  });
-
-  const highlights = sorted.filter(isJasaHearingOrSpeechPaper).slice(0, 4);
-  renderCompactPaperList(els.sectionHighlights, highlights, { showAuthors: true, showAffiliation: true });
-
-  renderRandomPaperSpotlight(papers);
-
   const selectedSource = papersInLatestWindow(visibleSources, 7);
   if (els.recentPublicationWindow) {
     const end = currentLocalDate();
@@ -951,7 +932,6 @@ function renderRecentOverview(papers = state.papers) {
     highlightTitleKeywords: true,
     fullTitle: true,
   });
-  renderFeaturedFigure(papers);
 }
 
 function renderFeaturedFigure(papers = state.papers) {

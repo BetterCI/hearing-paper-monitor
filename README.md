@@ -40,7 +40,7 @@ All monitored journals are treated equally at the journal level. For JASA and JA
 - Exports a static JSON file at `data/papers.json`.
 - Renders a searchable, filterable static web dashboard.
 - Defaults to Recently added, ordered by first collection time across all publication months; monthly and early-access views remain available.
-- Shows papers added in the last seven calendar days, with a View all button, separately from up to five recent publication picks from the last seven calendar days.
+- Keeps the overview focused on Recent Publication Picks: up to five papers published in the last seven calendar days. Newly added, JASA/JASA-EL highlights, random-paper and featured-figure panels are hidden from the overview.
 - Keeps hearing and speech papers from JASA/JASA-EL visible even when section metadata is missing. Title, author, and DOI searches bypass implicit month and other-JASA-section exclusions; explicit journal, section, and tag filters still apply.
 - Checks for updated data every five minutes while visible and when returning to the page, preserves active filters, and keeps the current data if a refresh fails.
 - Displays the original English metadata by default. Translation is not run automatically.
