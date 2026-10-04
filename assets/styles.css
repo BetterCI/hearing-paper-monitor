@@ -852,11 +852,15 @@ select:focus {
 
 .papers {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
   gap: 12px;
 }
 
 .paper {
   display: grid;
+  min-width: 0;
+  overflow-wrap: anywhere;
   gap: 10px;
   padding: 18px;
   border: 1px solid var(--line);
@@ -889,6 +893,7 @@ select:focus {
 }
 
 .paper-list-sentinel {
+  grid-column: 1 / -1;
   padding: 18px;
   text-align: center;
   color: var(--muted);
@@ -1923,7 +1928,7 @@ select:focus {
 .paper-actions { margin: 8px 0 10px; }
 .paper-actions label { display: inline-flex; gap: 5px; align-items: center; font-size: 12px; }
 .paper-actions input { width: auto; margin: 0; }
-.abstract-preview { font-size: 13px; line-height: 1.65; color: #516474; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; margin: 8px 0; }
+.abstract-unavailable { font-size: 13px; line-height: 1.65; color: #617179; margin: 8px 0; }
 .paper-details > summary { cursor: pointer; font-size: 13px; color: #315f85; padding: 8px 0; }
 .paper-details[open] > summary { margin-bottom: 6px; }
 .note-label { display: grid; gap: 6px; margin: 15px 0 5px; color: #516474; font-size: 12px; }
@@ -1965,3 +1970,7 @@ select:focus {
 }
 
 .analysis-failure { display: block; margin-top: 5px; color: #936029; }
+
+@media (min-width: 1024px) {
+  .papers { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+}

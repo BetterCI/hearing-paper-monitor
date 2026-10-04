@@ -883,10 +883,14 @@ function renderPaper(paper) {
 
   article.appendChild(renderLibraryActions(paper));
   if (abstractText) {
-    const preview = document.createElement("p");
-    preview.className = "abstract-preview";
-    preview.textContent = abstractText;
-    article.appendChild(preview);
+    article.appendChild(renderAbstract(paper));
+  } else {
+    const missing = document.createElement("p");
+    missing.className = "abstract-unavailable";
+    setTranslatableText(missing, "Abstract not available yet.");
+    article.appendChild(missing);
+    const lab = renderLastAuthorLab(paper);
+    if (lab) article.appendChild(lab);
   }
   article.appendChild(renderPaperDetails(paper));
 
@@ -2788,14 +2792,13 @@ function renderPaperDetails(paper) {
   const details = document.createElement("details");
   details.className = "paper-details";
   const summary = document.createElement("summary");
-  summary.textContent = "Abstract, AI analysis & notes";
+  summary.textContent = "AI analysis, figures & notes";
   details.appendChild(summary);
   const key = paperStorageKey(paper);
   let populated = false;
   function populate() {
     if (populated) return;
     populated = true;
-    if (displayAbstract(paper) || paper.last_author_lab_url) details.appendChild(renderAbstract(paper));
     const analysis = renderAiAnalysis(paper);
     if (analysis) details.appendChild(analysis);
     else {
