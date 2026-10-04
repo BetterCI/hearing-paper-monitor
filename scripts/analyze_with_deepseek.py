@@ -121,12 +121,13 @@ def main() -> None:
     pending = [p for p in payload.get("papers", []) if should_analyze(p, args.refresh)]
     # Newly collected core articles without an analysis precede migration of older caches.
     pending.sort(key=lambda p: (p.get("source_group") in {None, "", "core"},
-                               not bool(p.get("ai_analysis")), p.get("first_seen_at") or ""), reverse=True)
+                               not bool(p.get("ai_analysis")), p.get("available_online_date") or p.get("publication_date") or "",
+                               p.get("first_seen_at") or ""), reverse=True)
     status = {"checked_at": utc_now(), "provider": "deepseek", "model": os.getenv("DEEPSEEK_MODEL") or DEFAULT_MODEL,
-              "pending": len(pending), "attempted": 0, "updated": 0, "failed": 0}
+              "pending": len(pending), "attempted": 0, "updated": 0, "failed": 0, "failures": [], "needs_attention": False}
     key = os.getenv("DEEPSEEK_API_KEY")
     if not key:
-        status.update(state="not_configured", message="DEEPSEEK_API_KEY is not configured.")
+        status.update(state="not_configured", needs_attention=True, message="DEEPSEEK_API_KEY is not configured.")
     else:
         client = DeepSeekClient(key, os.getenv("DEEPSEEK_API_BASE") or DEFAULT_API_BASE,
                                 status["model"], time.monotonic() + max(1, args.time_budget))
@@ -140,8 +141,11 @@ def main() -> None:
                 status["failed"] += 1
                 # Do not print response bodies, request headers, or secret-bearing URLs.
                 code = exc.response.status_code if isinstance(exc, requests.HTTPError) and exc.response is not None else None
-                print(f"DeepSeek analysis failed: {type(exc).__name__}" + (f" HTTP {code}" if code else ""))
+                reason = f"HTTP {code}" if code else str(exc)[:160] if isinstance(exc, ValueError) else type(exc).__name__
+                status["failures"].append({"doi": paper.get("doi"), "reason": reason})
+                print(f"DeepSeek analysis failed: {type(exc).__name__}: {reason}")
                 if code in {401, 402, 403}:
+                    status["needs_attention"] = True
                     status["message"] = f"DeepSeek returned HTTP {code}; check the API key and account balance."
                     break
                 continue

@@ -2870,13 +2870,21 @@ function renderMonitoringStatus() {
   const analysis = document.querySelector("#analysisStatus");
   if (analysis) {
     const status = research.analysisStatus;
-    analysis.textContent = !status || status.state === "not_checked" ? "DeepSeek: awaiting the next backend update" : `DeepSeek: ${status.state} · ${status.updated || 0} analyses updated · ${status.pending || 0} pending` + (status.message ? ` · ${status.message}` : "") + (status.checked_at ? ` · checked ${formatDateTime(status.checked_at)}` : "");
+    analysis.textContent = !status || status.state === "not_checked" ? "DeepSeek: awaiting the next backend update" : `DeepSeek: ${status.state} · ${status.updated || 0} analyses updated · ${status.failed || 0} failed (queued for retry) · ${status.pending || 0} pending` + (status.message ? ` · ${status.message}` : "") + (status.checked_at ? ` · checked ${formatDateTime(status.checked_at)}` : "");
+  }
+  if (analysis && research.analysisStatus?.failures?.length) {
+    for (const failure of research.analysisStatus.failures) {
+      const line = document.createElement("span");
+      line.className = "analysis-failure";
+      line.textContent = `Retry pending: ${failure.doi || "article"} · ${failure.reason || "Response validation failed"}`;
+      analysis.appendChild(line);
+    }
   }
   const summary = document.querySelector("#sourceHealthSummary");
   if (summary) {
     const entries = research.sourceStatus?.journals || [];
     const completed = core.filter(([key]) => entries.some(entry => entry.key === key && entry.state === "ok" && Date.now() - new Date(entry.checked_at).valueOf() <= 36 * 60 * 60 * 1000)).length;
     const aiState = research.analysisStatus?.state;
-    summary.textContent = `Core journal update status · ${completed}/6 fetches completed` + (["partial", "not_configured"].includes(aiState) ? " · DeepSeek needs attention" : "");
+    summary.textContent = `Core journal update status · ${completed}/6 fetches completed` + (research.analysisStatus?.needs_attention || aiState === "not_configured" ? " · DeepSeek needs attention" : research.analysisStatus?.failed ? ` · ${research.analysisStatus.failed} AI analyses queued for retry` : "");
   }
 }

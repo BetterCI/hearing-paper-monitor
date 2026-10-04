@@ -71,3 +71,39 @@ def test_prompt_does_not_force_generic_weaknesses():
     prompt = prompt_for_paper(PAPER, "zh")
     assert "摘要未明确报告局限" in prompt
     assert "Limited generalizability due to small" not in prompt
+
+
+def test_main_preserves_cached_analysis_on_auth_failure_and_reports_attention(tmp_path, monkeypatch):
+    import analyze_with_deepseek as script
+    old = {**VALUE, "provider": "minimax"}
+    payload = {"papers": [{**PAPER, "doi": "10.0000/cache", "ai_analysis": old}]}
+    output = tmp_path / "papers.json"
+    output.write_text(json.dumps(payload), encoding="utf-8")
+    status_path = tmp_path / "status.json"
+    monkeypatch.setenv("DEEPSEEK_API_KEY", "dummy-test-key")
+    monkeypatch.setattr(sys, "argv", ["analyze", "--input", str(output), "--output", str(output), "--status", str(status_path)])
+    client = Mock(model="deepseek-flash", deadline=float("inf"))
+    client.analyze.side_effect = requests.HTTPError(response=Mock(status_code=401))
+    monkeypatch.setattr(script, "DeepSeekClient", Mock(return_value=client))
+    script.main()
+    assert json.loads(output.read_text(encoding="utf-8")) == payload
+    status = json.loads(status_path.read_text(encoding="utf-8"))
+    assert status["needs_attention"]
+    assert status["failed"] == 1
+    assert status["failures"] == [{"doi": "10.0000/cache", "reason": "HTTP 401"}]
+    assert "dummy-test-key" not in status_path.read_text(encoding="utf-8")
+
+
+def test_daily_budget_prioritizes_recent_publications_over_historical_batch_additions(tmp_path, monkeypatch):
+    import analyze_with_deepseek as script
+    output = tmp_path / "papers.json"
+    old = {**PAPER, "doi": "10.0000/old", "publication_date": "2026-08-01", "first_seen_at": "2026-10-04T10:00:00Z"}
+    recent = {**PAPER, "doi": "10.0000/recent", "publication_date": "2026-10-02", "first_seen_at": "2026-10-02T10:00:00Z"}
+    output.write_text(json.dumps({"papers": [old,recent]}), encoding="utf-8")
+    monkeypatch.setenv("DEEPSEEK_API_KEY", "dummy-test-key")
+    monkeypatch.setattr(sys,"argv", ["analyze","--input",str(output),"--output",str(output),"--status",str(tmp_path/"status.json"),"--limit","1"])
+    client = Mock(model="deepseek-flash",deadline=float("inf"))
+    client.analyze.return_value = VALUE
+    monkeypatch.setattr(script,"DeepSeekClient",Mock(return_value=client))
+    script.main()
+    assert client.analyze.call_args.args[0]["doi"] == recent["doi"]

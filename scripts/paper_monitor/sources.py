@@ -342,15 +342,7 @@ def fetch_topic_filtered_crossref(config: MonitorConfig, days: int) -> list[Pape
 
 
 def fetch_topic_filtered_crossref_between(config: MonitorConfig, start_date: dt.date, end_date: dt.date) -> list[Paper]:
-    papers: list[Paper] = []
-
-    for journal in config.topic_filtered_journals:
-        for paper in fetch_crossref_between(journal, start_date, end_date):
-            filtered = _topic_filtered_paper(paper, journal.name)
-            if filtered:
-                papers.append(filtered)
-
-    return papers
+    return _fetch_topic_filtered_window(config, start_date, end_date, fetch_crossref_between)
 
 
 def fetch_topic_filtered_pubmed(config: MonitorConfig, days: int) -> list[Paper]:
@@ -360,14 +352,26 @@ def fetch_topic_filtered_pubmed(config: MonitorConfig, days: int) -> list[Paper]
 
 
 def fetch_topic_filtered_pubmed_between(config: MonitorConfig, start_date: dt.date, end_date: dt.date) -> list[Paper]:
-    papers: list[Paper] = []
+    return _fetch_topic_filtered_window(config, start_date, end_date, fetch_pubmed_between)
 
+
+def _fetch_topic_filtered_window(config, start_date, end_date, fetch):
+    papers, failures = [], []
     for journal in config.topic_filtered_journals:
-        for paper in fetch_pubmed_between(journal, start_date, end_date):
+        try:
+            result = fetch(journal, start_date, end_date)
+        except SourceFetchError as exc:
+            result = exc.papers
+            failures.append(str(exc))
+        except requests.RequestException as exc:
+            result = []
+            failures.append(f"{journal.name}: {type(exc).__name__}")
+        for paper in result:
             filtered = _topic_filtered_paper(paper, journal.name)
             if filtered:
                 papers.append(filtered)
-
+    if failures:
+        raise SourceFetchError(papers, failures)
     return papers
 
 

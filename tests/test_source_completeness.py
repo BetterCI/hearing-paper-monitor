@@ -3,6 +3,7 @@ import sys
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 from unittest.mock import Mock
+from types import SimpleNamespace
 
 import pytest
 import requests
@@ -92,3 +93,18 @@ def test_source_http_retry_avoids_retrying_auth_errors(monkeypatch):
     with pytest.raises(requests.HTTPError):
         sources._get_response("https://example.com")
     assert sources.SESSION.get.call_count == 1
+
+
+def test_partial_topic_source_retains_relevant_papers_without_leaking_unfiltered_records(monkeypatch):
+    relevant = paper(1)
+    relevant.title = "Hearing aid benefits"
+    unrelated = paper(2)
+    unrelated.title = "Fluid bubble dynamics"
+    fetch = Mock(side_effect=sources.SourceFetchError([relevant, unrelated], ["Partial source"]))
+    monkeypatch.setattr(sources, "fetch_crossref_between", fetch)
+    config = SimpleNamespace(topic_filtered_journals=[JOURNAL])
+    result, ok = _safe_fetch_with_status("Crossref", "Topics", lambda: sources.fetch_topic_filtered_crossref(config,14))
+    assert not ok
+    assert len(result) == 1
+    assert result[0].title == relevant.title
+    assert result[0].source_group == "topic_filtered"
