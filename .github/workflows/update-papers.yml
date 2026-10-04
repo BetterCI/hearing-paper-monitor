@@ -41,9 +41,9 @@ jobs:
 
   update-data:
     needs: test
-    if: github.event_name != 'push' && needs.test.result == 'success'
+    if: (github.event_name != 'push' || contains(github.event.head_commit.message, '[refresh-data]')) && needs.test.result == 'success'
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
@@ -60,8 +60,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Collect papers
-        timeout-minutes: 8
-        run: python -u scripts/collect.py --days 14 --max-journal-lookback-days 30 --skip-backfill --skip-high-impact-crossref
+        timeout-minutes: 16
+        run: python -u scripts/collect.py --days 14 --journal-days 60 --max-journal-lookback-days 60 --skip-backfill --skip-high-impact-crossref
 
       - name: Backfill missing abstracts
         continue-on-error: true
@@ -78,21 +78,21 @@ jobs:
         timeout-minutes: 2
         run: python scripts/enrich_labs.py --days 14 --limit 4
 
-      - name: Analyze abstracts with MiniMax
+      - name: Analyze abstracts with DeepSeek
         continue-on-error: true
         timeout-minutes: 6
         env:
-          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
-          MINIMAX_API_BASE: ${{ secrets.MINIMAX_API_BASE }}
-          MINIMAX_MODEL: ${{ secrets.MINIMAX_MODEL }}
-          MINIMAX_ANALYSIS_LANGUAGE: ${{ vars.MINIMAX_ANALYSIS_LANGUAGE }}
-        run: python scripts/analyze_with_minimax.py --limit 6
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_API_BASE: ${{ vars.DEEPSEEK_API_BASE }}
+          DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL }}
+          DEEPSEEK_ANALYSIS_LANGUAGE: ${{ vars.DEEPSEEK_ANALYSIS_LANGUAGE }}
+        run: python -u scripts/analyze_with_deepseek.py --limit 6 --time-budget 270
 
       - name: Commit refreshed data
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Update paper metadata"
-          file_pattern: data/papers.json data/backfill_state.json
+          file_pattern: data/papers.json data/backfill_state.json data/source_status.json data/analysis_status.json
 
   deploy-pages:
     needs:

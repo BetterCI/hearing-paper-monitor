@@ -1,4 +1,7 @@
 import { BUNNY_QUOTES } from "./bunny_quotes.js";
+import { paperStorageKey, matchesResearchQuery, articleCategory, createPaperLibrary, matchesLibraryView, uniqueBatchBibTeX } from "./research.js?v=20261004-2";
+
+const research = {library: createPaperLibrary(() => window.localStorage), selected: new Set(), open: new Set(), sourceStatus: null, analysisStatus: null};
 
 const state = {
   papers: [],
@@ -18,6 +21,7 @@ const state = {
     journal: "",
     section: "",
     tag: "",
+    tags: [], tagMode: "all", searchScope: "all", category: "", libraryView: "",
     month: "__recent_added",
     showOtherJasaSections: false,
   },
@@ -303,10 +307,11 @@ function detectPreferredTargetLanguage() {
 }
 
 async function init() {
-  await loadData();
+  await Promise.all([loadData(), loadMonitoringStatus()]);
   populateFilters();
   addLanguageControl();
   bindFilters();
+  bindResearchControls();
   startBunnyMotions();
   render();
   startDataRefresh();
@@ -353,15 +358,21 @@ async function refreshData() {
   state.lastDataRefreshAt = Date.now();
   try {
     const changed = await loadData({ preserveOnError: true, onlyIfChanged: true });
+    await loadMonitoringStatus();
     if (changed) populateFilters();
-    if (changed || state.renderedDate !== toDateString(currentLocalDate())) render();
+    if (changed || state.renderedDate !== toDateString(currentLocalDate())) {
+      if (document.activeElement?.classList.contains("paper-note")) {
+        document.activeElement.addEventListener("blur", () => render(), {once: true});
+      } else render();
+    }
   } finally {
     state.dataRefreshInProgress = false;
   }
 }
 
 function showNewlyAddedPapers() {
-  Object.assign(state.filters, { query: "", journal: "", section: "", tag: "", month: WEEKLY_ADDED_FILTER });
+  Object.assign(state.filters, { query: "", journal: "", section: "", tag: "", tags: [], category: "", libraryView: "", month: WEEKLY_ADDED_FILTER });
+  syncResearchControls();
   els.search.value = "";
   populateFilters();
   resetPaperListLimit();
@@ -390,7 +401,7 @@ function addLanguageControl() {
     els.language.appendChild(option);
   });
   els.language.value = state.targetLanguage;
-  markTranslatablePlaceholder(els.search, "Title or author...");
+  markTranslatablePlaceholder(els.search, 'Keywords, "exact phrase", DOI; OR, -exclude');
 }
 
 function bindFilters() {
@@ -411,7 +422,9 @@ function bindFilters() {
     render();
   });
   els.tag.addEventListener("change", () => {
-    state.filters.tag = els.tag.value;
+    if (els.tag.value && !state.filters.tags.includes(els.tag.value)) state.filters.tags.push(els.tag.value);
+    state.filters.tag = "";
+    els.tag.value = "";
     resetPaperListLimit();
     render();
   });
@@ -679,6 +692,7 @@ function render() {
     renderRecentOverview(sourcePapers);
     renderWeeklyDigest(sourcePapers);
     renderPaperList(visiblePapers, papers.length);
+    renderResearchToolbar(papers);
     els.empty.hidden = papers.length > 0;
     markStaticUiForTranslation();
     translateVisibleTitles(visiblePapers);
@@ -775,28 +789,23 @@ function populateMonthFilter(papers = state.papers) {
 
 function matchesFilters(paper) {
   const hasSearchQuery = Boolean(state.filters.query);
-  const queryText = [
-    paper.title,
-    paper.title_zh,
-    paper.chinese_title,
-    paper.doi,
-    (paper.authors || []).join(" "),
-  ]
-    .filter(Boolean)
-    .join(" ")
-    .toLowerCase();
-
-  if (state.filters.query && !queryText.includes(state.filters.query)) return false;
+  if (!matchesResearchQuery(paper, state.filters.query, state.filters.searchScope)) return false;
+  if (state.filters.category && articleCategory(paper) !== state.filters.category) return false;
+  if (!matchesLibraryView(research.library.get(paper), state.filters.libraryView)) return false;
   if (state.filters.journal && sourceFilterValue(paper) !== state.filters.journal) return false;
   if (state.filters.section && paper.section !== state.filters.section) return false;
-  if (state.filters.tag && !publicPaperTags(paper).includes(state.filters.tag)) return false;
+  const selectedTags = [...(state.filters.tags || []), ...(state.filters.tag ? [state.filters.tag] : [])];
+  if (selectedTags.length) {
+    const matches = selectedTags.map(tag => publicPaperTags(paper).includes(tag));
+    if (state.filters.tagMode === "any" ? !matches.some(Boolean) : !matches.every(Boolean)) return false;
+  }
   if (!hasSearchQuery) {
     if (state.filters.month === WEEKLY_ADDED_FILTER && !isPaperAddedInLastDays(paper, 7)) return false;
     if (state.filters.month === CURRENT_UPDATE_FILTER && !isPaperInCurrentUpdate(paper)) return false;
     if (state.filters.month === EARLY_ACCESS_MONTH && !isEarlyAccess(paper)) return false;
     if (state.filters.month && ![RECENT_ADDED_FILTER, WEEKLY_ADDED_FILTER, CURRENT_UPDATE_FILTER, EARLY_ACCESS_MONTH].includes(state.filters.month) && getPaperMonth(paper) !== state.filters.month) return false;
   }
-  if (!hasSearchQuery && !state.filters.showOtherJasaSections && isOtherJasaSectionPaper(paper)) return false;
+  if (!hasSearchQuery && !state.filters.libraryView && !state.filters.showOtherJasaSections && isOtherJasaSectionPaper(paper)) return false;
   return true;
 }
 
@@ -872,22 +881,14 @@ function renderPaper(paper) {
 
   article.append(heading, meta);
 
-  if (abstractText || paper.last_author_lab_url) {
-    article.appendChild(renderAbstract(paper));
+  article.appendChild(renderLibraryActions(paper));
+  if (abstractText) {
+    const preview = document.createElement("p");
+    preview.className = "abstract-preview";
+    preview.textContent = abstractText;
+    article.appendChild(preview);
   }
-
-  const aiAnalysis = renderAiAnalysis(paper);
-  if (aiAnalysis) {
-    article.appendChild(aiAnalysis);
-  } else {
-    const btn = createGenerateAnalysisButton(paper);
-    if (btn) article.appendChild(btn);
-  }
-
-  const media = renderKeyMedia(paper);
-  if (media) {
-    article.appendChild(media);
-  }
+  article.appendChild(renderPaperDetails(paper));
 
   const chips = document.createElement("div");
   chips.className = "chips";
@@ -1596,8 +1597,22 @@ function renderAiAnalysis(paper) {
 
   const footer = document.createElement("p");
   footer.className = "ai-analysis-footer";
-  const model = analysis.model || "MiniMax-M2.7";
-  footer.textContent = `由 ${model} 生成`;
+  const model = analysis.model || "legacy model";
+  const stale = paper.ai_analysis?.provider !== "deepseek" ? " · 历史分析，待更新" : "";
+  footer.textContent = `基于标题与摘要，由 ${model} 生成${stale}。请对照原文核实。`;
+  if (analysis.evidence?.length) {
+    const evidence = document.createElement("div");
+    evidence.className = "ai-evidence";
+    const label = document.createElement("strong");
+    label.textContent = "摘要原文依据";
+    evidence.appendChild(label);
+    for (const quote of analysis.evidence) {
+      const block = document.createElement("blockquote");
+      block.textContent = quote;
+      evidence.appendChild(block);
+    }
+    wrapper.appendChild(evidence);
+  }
 
   wrapper.append(title, list, footer);
   return list.children.length ? wrapper : null;
@@ -1612,78 +1627,9 @@ function getAiAnalysis(paper) {
     main_limitation: analysis.main_limitation || analysis.mainLimitation || analysis.limitation,
     research_implication: analysis.research_implication || analysis.researchImplication,
     model: analysis.model,
+    evidence: Array.isArray(analysis.evidence) ? analysis.evidence.filter(q => typeof q === "string") : [],
   };
   return Object.values(values).some(Boolean) ? values : null;
-}
-
-const CF_WORKER_URL = "https://hearing-paper-monitor.mengqinglin08.workers.dev";
-const ENABLE_INLINE_AI_ANALYSIS = false;
-
-async function generateAnalysis(paper) {
-  const response = await fetch(CF_WORKER_URL, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      paper: {
-        title: paper.title,
-        abstract: paper.abstract,
-        journal: paper.journal,
-        section: paper.section,
-        keywords: paper.keywords || [],
-        tags: paper.tags || [],
-      },
-      language: document.documentElement.lang || "en",
-    }),
-  });
-  let result = null;
-  try {
-    result = await response.json();
-  } catch {
-    result = null;
-  }
-  if (!response.ok || result?.error) {
-    throw new Error(result?.error || `Analysis failed: ${response.status}`);
-  }
-  return result;
-}
-
-function createGenerateAnalysisButton(paper) {
-  if (!ENABLE_INLINE_AI_ANALYSIS) return null;
-  if (!paper.abstract || paper.abstract.length < 120) return null;
-  const btn = document.createElement("button");
-  btn.type = "button";
-  btn.className = "generate-analysis-btn";
-  btn.textContent = "Generate AI Analysis";
-  btn.disabled = false;
-
-  btn.addEventListener("click", async () => {
-    btn.disabled = true;
-    btn.textContent = "Generating...";
-    try {
-      const result = await generateAnalysis(paper);
-      paper.ai_analysis = {
-        ...result,
-        provider: "minimax",
-        model: result.model || "MiniMax-M2.7",
-        generated_at: new Date().toISOString(),
-      };
-      const card = btn.closest(".paper");
-      if (card) {
-        const existing = card.querySelector(".ai-analysis");
-        if (existing) existing.remove();
-        const aiSection = renderAiAnalysis(paper);
-        if (aiSection) card.insertBefore(aiSection, btn);
-      }
-      btn.remove();
-    } catch (err) {
-      btn.disabled = false;
-      btn.textContent = "Retry AI Analysis";
-      btn.title = err.message || "Analysis generation failed";
-      console.error("Analysis generation failed:", err);
-    }
-  });
-
-  return btn;
 }
 
 function analysisSearchTerms(paper) {
@@ -2003,7 +1949,7 @@ function markStaticUiForTranslation() {
   document
     .querySelectorAll("#journalFilter option[value=''], #sectionFilter option[value=''], #tagFilter option")
     .forEach((option) => markTranslatable(option, option.dataset.sourceText || option.textContent.trim()));
-  markTranslatablePlaceholder(els.search, "Title or author...");
+  markTranslatablePlaceholder(els.search, 'Keywords, "exact phrase", DOI; OR, -exclude');
 }
 
 function restoreOriginalPageText() {
@@ -2431,7 +2377,7 @@ function generateRIS(paper) {
   if (paper.authors?.length) {
     paper.authors.forEach((author) => lines.push(`AU  - ${author}`));
   }
-  if (paper.journal) lines.push(`JO  - ${paper.journal}`);
+  if (paper.actual_journal || paper.journal) lines.push(`JO  - ${paper.actual_journal || paper.journal}`);
   if (paper.publication_date) {
     const year = paper.publication_date.slice(0, 4);
     if (year) lines.push(`PY  - ${year}`);
@@ -2462,7 +2408,7 @@ function generateBibTeX(paper) {
     const authorStr = paper.authors.join(" and ");
     fields.push(`  author = {${escapeBibTeX(authorStr)}}`);
   }
-  if (paper.journal) fields.push(`  journal = {${escapeBibTeX(paper.journal)}}`);
+  if (paper.actual_journal || paper.journal) fields.push(`  journal = {${escapeBibTeX(paper.actual_journal || paper.journal)}}`);
   if (paper.publication_date) {
     const year = paper.publication_date.slice(0, 4);
     if (year) fields.push(`  year = {${year}}`);
@@ -2703,4 +2649,234 @@ function renderVisitorMap() {
   resizeObserver.observe(container);
 
   window.addEventListener("resize", () => chart.resize());
+}
+
+
+function bindResearchControls() {
+  for (const [id, key] of [["searchScope", "searchScope"], ["tagMode", "tagMode"], ["categoryFilter", "category"], ["libraryFilter", "libraryView"]]) {
+    document.getElementById(id)?.addEventListener("change", event => {
+      state.filters[key] = event.target.value;
+      resetPaperListLimit();
+      render();
+    });
+  }
+  document.getElementById("clearFilters")?.addEventListener("click", clearResearchFilters);
+  document.getElementById("selectMatching")?.addEventListener("click", () => {
+    dashboardPapers().filter(matchesFilters).forEach(paper => research.selected.add(paperStorageKey(paper)));
+    render();
+  });
+  document.getElementById("clearSelection")?.addEventListener("click", () => {research.selected.clear(); render();});
+  for (const format of ["RIS", "BibTeX"]) {
+    document.getElementById(`export${format}`)?.addEventListener("click", () => {
+      const papers = state.papers.filter(p => research.selected.has(paperStorageKey(p)));
+      if (!papers.length) return;
+      const content = format === "RIS" ? papers.map(generateRIS).join("\n\n") : uniqueBatchBibTeX(papers, generateBibTeX);
+      downloadFile(content, `hearing-papers-${toDateString(currentLocalDate())}.${format === "RIS" ? "ris" : "bib"}`, "text/plain;charset=utf-8");
+    });
+  }
+  document.getElementById("exportLibrary")?.addEventListener("click", () => downloadFile(research.library.export(), `hearing-library-${toDateString(currentLocalDate())}.json`, "application/json"));
+  document.getElementById("importLibrary")?.addEventListener("change", async event => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+    try {
+      if (file.size > 10 * 1024 * 1024) throw new Error("Backup exceeds 10 MB.");
+      const count = research.library.import(await file.text());
+      document.getElementById("libraryMessage").textContent = `Restored ${count} library records.`;
+      render();
+    } catch (error) {
+      document.getElementById("libraryMessage").textContent = `Backup could not be imported: ${error.message}`;
+    } finally {
+      event.target.value = "";
+    }
+  });
+  const overview = document.getElementById("overviewDetails");
+  if (window.matchMedia("(max-width: 700px)").matches) {
+    if (overview) overview.open = false;
+    document.getElementById("advancedFilters").open = false;
+  }
+}
+
+function syncResearchControls() {
+  for (const [id, key] of [["searchScope", "searchScope"], ["tagMode", "tagMode"], ["categoryFilter", "category"], ["libraryFilter", "libraryView"]]) {
+    const element = document.getElementById(id);
+    if (element) element.value = state.filters[key];
+  }
+}
+
+function clearResearchFilters() {
+  Object.assign(state.filters, {query: "", journal: "", section: "", tag: "", tags: [], tagMode: "all", searchScope: "all", category: "", libraryView: "", month: RECENT_ADDED_FILTER, showOtherJasaSections: false});
+  els.search.value = "";
+  els.showOtherJasaSections.checked = false;
+  syncResearchControls();
+  populateFilters();
+  resetPaperListLimit();
+  render();
+}
+
+function renderResearchToolbar(papers) {
+  const container = document.querySelector("#activeFilters");
+  if (container) {
+    container.replaceChildren();
+    const entries = [...(state.filters.tags || []).map(tag => ["tags", tag]), ...["query", "journal", "section", "category", "libraryView"].filter(key => state.filters[key]).map(key => [key, state.filters[key]])];
+    for (const [key, value] of entries) {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "filter-chip";
+      button.textContent = `${key === "tags" ? "Topic" : key}: ${value} ×`;
+      button.setAttribute("aria-label", `Remove ${key}: ${value}`);
+      button.addEventListener("click", () => {
+        if (key === "tags") state.filters.tags = state.filters.tags.filter(tag => tag !== value);
+        else state.filters[key] = "";
+        els.search.value = state.filters.query;
+        syncResearchControls();
+        populateFilters();
+        resetPaperListLimit();
+        render();
+      });
+      container.appendChild(button);
+    }
+  }
+  const count = state.papers.filter(p => research.selected.has(paperStorageKey(p))).length;
+  const selection = document.querySelector("#selectionCount");
+  if (selection) selection.textContent = `${papers.length} matching · ${count} selected`;
+  for (const id of ["exportRIS", "exportBibTeX", "clearSelection"]) {
+    const button = document.querySelector(`#${id}`);
+    if (button) button.disabled = count === 0;
+  }
+  const warning = document.querySelector("#libraryWarning");
+  if (warning) warning.textContent = research.library.warning;
+}
+
+function renderLibraryActions(paper) {
+  const toolbar = document.createElement("div");
+  toolbar.className = "paper-actions";
+  const selection = document.createElement("label");
+  const checkbox = document.createElement("input");
+  checkbox.type = "checkbox";
+  checkbox.checked = research.selected.has(paperStorageKey(paper));
+  checkbox.setAttribute("aria-label", `Select ${paper.title} for export`);
+  checkbox.addEventListener("change", () => {
+    if (checkbox.checked) research.selected.add(paperStorageKey(paper));
+    else research.selected.delete(paperStorageKey(paper));
+    renderResearchToolbar(dashboardPapers().filter(matchesFilters));
+  });
+  selection.append(checkbox, document.createTextNode(" Select"));
+  toolbar.appendChild(selection);
+  for (const [key, off, on] of [["favorite", "Save", "Saved"], ["read", "Mark read", "Read"], ["later", "Read later", "Later"]]) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.dataset.libraryAction = key;
+    const active = Boolean(research.library.get(paper)[key]);
+    button.setAttribute("aria-pressed", String(active));
+    button.textContent = active ? on : off;
+    button.addEventListener("click", () => {
+      research.library.update(paper, {[key]: !research.library.get(paper)[key]});
+      if (state.filters.libraryView) render();
+      else {
+        const value = Boolean(research.library.get(paper)[key]);
+        button.textContent = value ? on : off;
+        button.setAttribute("aria-pressed", String(value));
+        renderResearchToolbar(dashboardPapers().filter(matchesFilters));
+      }
+    });
+    toolbar.appendChild(button);
+  }
+  return toolbar;
+}
+
+function renderPaperDetails(paper) {
+  const details = document.createElement("details");
+  details.className = "paper-details";
+  const summary = document.createElement("summary");
+  summary.textContent = "Abstract, AI analysis & notes";
+  details.appendChild(summary);
+  const key = paperStorageKey(paper);
+  let populated = false;
+  function populate() {
+    if (populated) return;
+    populated = true;
+    if (displayAbstract(paper) || paper.last_author_lab_url) details.appendChild(renderAbstract(paper));
+    const analysis = renderAiAnalysis(paper);
+    if (analysis) details.appendChild(analysis);
+    else {
+      const pending = document.createElement("p");
+      pending.className = "ai-analysis-footer";
+      pending.textContent = (paper.abstract || "").length >= 120 ? "AI analysis is queued for a backend update." : "The available abstract is too short for AI analysis.";
+      details.appendChild(pending);
+    }
+    const media = renderKeyMedia(paper);
+    if (media) details.appendChild(media);
+    const label = document.createElement("label");
+    label.className = "note-label";
+    const caption = document.createElement("span");
+    caption.textContent = "Personal note · saved in this browser";
+    const note = document.createElement("textarea");
+    note.className = "paper-note";
+    note.rows = 3;
+    note.maxLength = 20000;
+    note.placeholder = "Your observations or reproduction ideas…";
+    note.value = research.library.get(paper).note || "";
+    note.addEventListener("input", () => {
+      research.library.update(paper, {note: note.value});
+      renderResearchToolbar(dashboardPapers().filter(matchesFilters));
+    });
+    label.append(caption, note);
+    details.appendChild(label);
+  }
+  details.addEventListener("toggle", () => {
+    if (details.open) {research.open.add(key); populate();}
+    else research.open.delete(key);
+  });
+  if (research.open.has(key)) {details.open = true; populate();}
+  return details;
+}
+
+async function loadMonitoringStatus() {
+  const statuses = await Promise.all(["source_status", "analysis_status"].map(async file => {
+    try {
+      const response = await fetch(`data/${file}.json?t=${Date.now()}`, {cache: "no-store", signal: AbortSignal.timeout(10000)});
+      return response.ok ? await response.json() : null;
+    } catch {return null;}
+  }));
+  if (Array.isArray(statuses[0]?.journals)) research.sourceStatus = statuses[0];
+  if (statuses[1]?.provider === "deepseek") research.analysisStatus = statuses[1];
+  renderMonitoringStatus();
+}
+
+function renderMonitoringStatus() {
+  const container = document.querySelector("#sourceHealthCards");
+  if (!container) return;
+  container.replaceChildren();
+  const core = [["jasa", "JASA"], ["jasael", "JASA Express Letters"], ["trends-hearing", "Trends in Hearing"], ["jaro", "JARO"], ["ear-hearing", "Ear and Hearing"], ["hearing-research", "Hearing Research"]];
+  for (const [key, name] of core) {
+    const entry = research.sourceStatus?.journals?.find(j => j.key === key);
+    const card = document.createElement("article");
+    card.className = "source-health-card";
+    const heading = document.createElement("strong");
+    heading.textContent = name;
+    const status = document.createElement("p");
+    const stale = entry?.checked_at && Date.now() - new Date(entry.checked_at).valueOf() > 36 * 60 * 60 * 1000;
+    status.textContent = !entry ? "Not yet checked" : stale ? "Check overdue" : entry.state === "ok" ? "Fetch completed" : entry.state === "partial" ? "Some sources failed" : "Fetch failed";
+    card.dataset.status = !entry || stale ? "unknown" : entry.state;
+    const checked = document.createElement("small");
+    checked.textContent = entry ? `Checked ${formatDateTime(entry.checked_at)} · ${entry.newly_added || 0} new` : "Waiting for the next update";
+    const source = document.createElement("small");
+    source.textContent = entry?.sources?.map(s => `${s.name}: ${s.state === "ok" ? s.records + " records" : "failed"}`).join(" · ") || "";
+    const success = document.createElement("small");
+    success.textContent = entry?.last_success_at ? `Last complete fetch: ${formatDateTime(entry.last_success_at)}` : "No complete fetch recorded yet";
+    card.append(heading, status, checked, source, success);
+    container.appendChild(card);
+  }
+  const analysis = document.querySelector("#analysisStatus");
+  if (analysis) {
+    const status = research.analysisStatus;
+    analysis.textContent = !status || status.state === "not_checked" ? "DeepSeek: awaiting the next backend update" : `DeepSeek: ${status.state} · ${status.updated || 0} analyses updated · ${status.pending || 0} pending` + (status.message ? ` · ${status.message}` : "") + (status.checked_at ? ` · checked ${formatDateTime(status.checked_at)}` : "");
+  }
+  const summary = document.querySelector("#sourceHealthSummary");
+  if (summary) {
+    const entries = research.sourceStatus?.journals || [];
+    const completed = core.filter(([key]) => entries.some(entry => entry.key === key && entry.state === "ok" && Date.now() - new Date(entry.checked_at).valueOf() <= 36 * 60 * 60 * 1000)).length;
+    const aiState = research.analysisStatus?.state;
+    summary.textContent = `Core journal update status · ${completed}/6 fetches completed` + (["partial", "not_configured"].includes(aiState) ? " · DeepSeek needs attention" : "");
+  }
 }

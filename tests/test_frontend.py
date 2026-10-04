@@ -8,7 +8,7 @@ def test_frontend_regressions():
     assert node, "Node.js 18 or newer is required for frontend regression tests"
     root = Path(__file__).resolve().parents[1]
     result = subprocess.run(
-        [node, "--test", str(root / "tests" / "frontend.test.cjs")],
+        [node, "--test", *[str(path) for path in sorted((root / "tests").glob("*.test.cjs"))]],
         cwd=root,
         capture_output=True,
         text=True,

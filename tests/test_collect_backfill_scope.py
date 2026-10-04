@@ -86,3 +86,14 @@ def test_daily_run_can_cap_a_journal_lookback_override():
 
     assert _journal_lookback_days(journal, default_days=14, max_days=30) == 30
     assert _journal_lookback_days(journal, default_days=14) == 180
+
+
+def test_daily_run_can_use_longer_core_journal_window_without_changing_global_window():
+    journal = Journal(
+        key="hearing-research",
+        name="Hearing Research",
+        aliases=[],
+        issn=[],
+    )
+
+    assert _journal_lookback_days(journal, default_days=14, max_days=60, journal_days=60) == 60

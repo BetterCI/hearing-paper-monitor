@@ -114,31 +114,35 @@ python scripts/translate_zh.py
 
 ## AI-Generated Abstract Analysis
 
-The dashboard can display optional AI-generated abstract analysis with three fields:
+The dashboard can display optional AI-generated abstract analysis with four fields:
 
 - scientific question
 - key highlight
 - main limitation
+- research implication
 
-The analysis is generated server-side and stored in `data/papers.json` as `ai_analysis`; the browser never sees the MiniMax API key.
-Each paper is analyzed only once by default. Future workflow runs skip papers that already have a complete `ai_analysis` block, so existing abstracts do not repeatedly spend MiniMax tokens. Use `--refresh` only when you intentionally want to recompute existing analyses.
+The analysis is generated server-side with DeepSeek and saved in `data/papers.json` as `ai_analysis`. API keys remain in GitHub Actions; the browser receives only the saved analysis. The default model is `deepseek-flash`, with JSON output and thinking disabled for short abstract analysis.
 
-To enable it in GitHub Actions, add this repository secret:
+In [repository Settings → Secrets and variables → Actions](https://github.com/BetterCI/hearing-paper-monitor/settings/secrets/actions), add a repository secret named `DEEPSEEK_API_KEY`. Create the key on the [DeepSeek platform](https://platform.deepseek.com/api_keys). Optional **repository variables** are `DEEPSEEK_API_BASE` (default `https://api.deepseek.com`), `DEEPSEEK_MODEL` and `DEEPSEEK_ANALYSIS_LANGUAGE` (default `zh`). Never place keys in site files or browser settings.
 
-- `MINIMAX_API_KEY`
+Each daily update attempts at most six analyses within 270 seconds. Newly collected core papers without an analysis come first; older MiniMax analyses remain visible with a legacy label until replaced. Valid DeepSeek caches are reused while their title/abstract hash and prompt version match. Use `--refresh` only for an intentional rerun. New analyses include exact abstract quotes; missing limitations are reported as insufficient information instead of invented generic weaknesses. A failed request preserves the existing analysis. `data/analysis_status.json` records configuration, failures and pending analyses.
 
-Optional settings:
-
-- `MINIMAX_API_BASE`: defaults to `https://api.minimaxi.com/v1`. Set to `https://api.minimax.io/v1` if your account uses the international endpoint.
-- `MINIMAX_MODEL`: defaults to `MiniMax-M2.7`.
-- Repository variable `MINIMAX_ANALYSIS_LANGUAGE`: defaults to `zh`; set to `en` only if English analysis text is needed.
-
-Run locally:
+Run **Actions → Update paper monitor → Run workflow** to collect metadata and verify the configured API. A main-branch commit with `[refresh-data]` in its message also requests a complete backend update; ordinary code pushes only test and deploy.
 
 ```powershell
-$env:MINIMAX_API_KEY="your-key"
-python scripts/analyze_with_minimax.py --limit 10
+# Set DEEPSEEK_API_KEY in your environment before running (do not commit it).
+python scripts/analyze_with_deepseek.py --limit 6
 ```
+
+The previous MiniMax script is retained for historical compatibility. The optional Cloudflare worker is separate from this scheduled analysis pipeline and inline generation remains disabled.
+
+## Collection and reading workflow
+
+The existing journal configuration is unchanged. Core journals use a 60-day publication lookback, Crossref publication/online/creation-date queries with cursor pagination, and paginated PubMed publication/creation-date searches. Late deposits with only a month or year date are included. Transient network errors retry; partial source failures preserve successful pages. `data/source_status.json` exposes per-journal source counts, newly added records, checks and last complete fetch times. A successful source check establishes fetch completion, not publisher completeness.
+
+Search includes abstracts by default. Separate words must all match, quoted phrases match together, `OR` separates alternatives, and a leading `-` excludes a term. Topic tags can be combined with all/any matching. Article categories use explicit title cues and preprint source metadata; they are not verified study-design classifications. Clear all filters resets the list to recently added papers. Advanced filters and the digest collapse initially on phones.
+
+Cards start with an abstract preview. Expand a card to read its abstract, saved AI analysis, figures and personal notes. Save/read/later markers and notes use browser-local storage. **Export library backup** saves a versioned JSON backup; import merges by modification time. These records do not sync automatically between browsers. Select individual papers or all matching results, then export one RIS or BibTeX file. Exported journal names use the actual journal and batch BibTeX keys are unique.
 
 ## Citation Export
 

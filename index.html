@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Hearing Science Monitor</title>
-    <link rel="stylesheet" href="assets/styles.css?v=20261004-1" />
+    <link rel="stylesheet" href="assets/styles.css?v=20261004-2" />
   </head>
   <body>
     <header class="topbar">
@@ -27,6 +27,70 @@
     </header>
 
     <main>
+        <section class="controls" aria-label="Paper filters">
+<label class="search">
+            <span>Search</span>
+            <input id="searchInput" type="search" placeholder='Keywords, "exact phrase", DOI; OR, -exclude' />
+          </label>
+<label>
+            <span>Journal</span>
+            <select id="journalFilter">
+              <option value="">All journals</option>
+            </select>
+          </label>
+<label>
+            <span>View / Month</span>
+            <select id="monthFilter"></select>
+          </label>
+<label><span>My library</span><select id="libraryFilter"><option value="">All papers</option><option value="favorite">Saved</option><option value="unread">Unread</option><option value="read">Read</option><option value="later">Read later</option></select></label>
+<details id="advancedFilters" class="advanced-filters" open><summary>More filters · topics, section &amp; search options</summary><div class="advanced-filter-grid">
+<label>
+            <span>Section</span>
+            <select id="sectionFilter">
+              <option value="">All sections</option>
+            </select>
+          </label>
+<label>
+            <span>Add topic tag</span>
+            <select id="tagFilter">
+              <option value="">All tags</option>
+            </select>
+          </label>
+<label class="toggle-control">
+            <input id="showOtherJasaSections" type="checkbox" />
+            <span>Show other JASA/JASA EL sections</span>
+          </label>
+<label><span>Search in</span><select id="searchScope"><option value="all">Title, authors, DOI &amp; abstract</option><option value="identity">Title, authors &amp; DOI</option></select></label>
+<label><span>Selected tags</span><select id="tagMode"><option value="all">Match all tags</option><option value="any">Match any tag</option></select></label>
+<label><span>Article category · title cues</span><select id="categoryFilter"><option value="">All categories</option><option value="review">Review / meta-analysis</option><option value="trial">Trial / randomized study</option><option value="preprint">Preprint</option><option value="other">Other articles</option></select></label>
+</div></details>
+        </section>
+      <div class="research-toolbar">
+        <div id="activeFilters" class="active-filters" aria-label="Active filters"></div>
+        <button id="clearFilters" type="button">Clear all filters</button>
+      </div>
+      <div class="batch-toolbar" aria-label="Batch citation export">
+        <span id="selectionCount" aria-live="polite"></span>
+        <button id="selectMatching" type="button">Select matching papers</button>
+        <button id="clearSelection" type="button" disabled>Clear selection</button>
+        <button id="exportRIS" type="button" disabled>Export RIS</button>
+        <button id="exportBibTeX" type="button" disabled>Export BibTeX</button>
+      </div>
+      <details class="library-backup"><summary>Library backup · stored in this browser</summary>
+        <p>Saved papers, reading status and notes stay in this browser. Export a backup to move them to another device. Import merges records and keeps the most recent changes.</p>
+        <button id="exportLibrary" type="button">Export library backup</button>
+        <label class="import-backup">Import backup <input id="importLibrary" type="file" accept="application/json,.json" /></label>
+        <p id="libraryMessage" role="status"></p>
+      </details>
+      <p id="libraryWarning" role="status" class="library-warning"></p>
+      <details class="source-health"><summary id="sourceHealthSummary">Core journal update status</summary>
+        <p class="source-health-note">Source checks show whether collection completed. Publication dates may precede the first collection date. A successful fetch does not guarantee that a publisher has deposited every article.</p>
+        <div id="sourceHealthCards" class="source-health-cards"></div>
+        <p id="analysisStatus" role="status"></p>
+      </details>
+
+      <details id="overviewDetails" class="overview-details" open>
+        <summary>Recent papers &amp; highlights</summary>
       <div class="overview-grid">
           <article class="overview-panel overview-panel-new">
             <h3>Added in Last 7 Days</h3>
@@ -55,44 +119,7 @@
             <div id="featuredFigure"></div>
           </article>
         </div>
-
-        <section class="controls" aria-label="Paper filters">
-          <label class="search">
-            <span>Search</span>
-            <input id="searchInput" type="search" placeholder="Title or author..." />
-          </label>
-
-          <label>
-            <span>Journal</span>
-            <select id="journalFilter">
-              <option value="">All journals</option>
-            </select>
-          </label>
-
-          <label>
-            <span>Section</span>
-            <select id="sectionFilter">
-              <option value="">All sections</option>
-            </select>
-          </label>
-
-          <label>
-            <span>Tag</span>
-            <select id="tagFilter">
-              <option value="">All tags</option>
-            </select>
-          </label>
-
-          <label>
-            <span>View / Month</span>
-            <select id="monthFilter"></select>
-          </label>
-
-          <label class="toggle-control">
-            <input id="showOtherJasaSections" type="checkbox" />
-            <span>Show other JASA/JASA EL sections</span>
-          </label>
-        </section>
+      </details>
 
       <section class="weekly-digest" id="weeklyDigest" aria-labelledby="weeklyDigestTitle" hidden>
         <div class="section-heading">
@@ -177,6 +204,6 @@
       </svg>
     </div>
 
-    <script src="assets/app.js?v=20261004-1" type="module"></script>
+    <script src="assets/app.js?v=20261004-2" type="module"></script>
   </body>
 </html>

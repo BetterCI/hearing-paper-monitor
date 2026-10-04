@@ -17,6 +17,7 @@ function element() {
     classList: { add() {}, remove() {} },
     replaceChildren(...nodes) { this.options = nodes; },
     appendChild(node) { this.options.push(node); },
+    append(...nodes) { this.options.push(...nodes); },
     addEventListener() {}, setAttribute() {}, scrollIntoView() {},
   };
 }
@@ -36,6 +37,7 @@ function app(papers = []) {
       return elements.get(selector);
     },
     querySelectorAll: () => [],
+    getElementById(id) { return this.querySelector(`#${id}`); },
     createElement: () => element(),
     addEventListener: (event, callback) => events.set(event, callback),
   };
@@ -45,7 +47,8 @@ function app(papers = []) {
   };
   const context = vm.createContext({ console, Date: FixedDate, AbortSignal, document, window, papers });
   const source = fs.readFileSync(path.join(__dirname, "../assets/app.js"), "utf8")
-    .replace(/^import .*;\r?\n/m, "").replace(/^init\(\);\r?\n/m, "");
+    .replace(/^import .*;\r?\n/gm, "").replace(/^init\(\);\r?\n/m, "");
+  vm.runInContext(fs.readFileSync(path.join(__dirname, "../assets/research.js"), "utf8").replace(/^export /gm, ""), context);
   vm.runInContext(source + "\nstate.papers = papers; state.generatedAt = '2026-10-04T08:31:03Z';", context);
   return { context, elements, events, timers, run: (code) => vm.runInContext(code, context) };
 }
@@ -191,7 +194,7 @@ test("unchanged data still refreshes calendar-based panels after midnight", asyn
 test("refresh triggers are registered and background or overlapping requests are skipped", async () => {
   const a = app([latePaper]);
   let calls = 0;
-  a.context.fetch = async () => { calls++; return { ok: true, json: async () => ({ papers: [latePaper] }) }; };
+  a.context.fetch = async (url) => { if (url.includes("papers.json")) calls++; return { ok: true, json: async () => ({ papers: [latePaper] }) }; };
   a.run("startDataRefresh(); render=()=>{}");
   assert.equal(a.timers[0].delay, 300000);
   assert.ok(a.events.has("focus"));
@@ -210,4 +213,17 @@ test("refresh triggers are registered and background or overlapping requests are
   assert.equal(a.run("state.dataRefreshInProgress"), false);
   await a.run("refreshData()");
   assert.equal(calls, 1);
+});
+
+test("multiple topic tags combine with all or any matching", () => {
+  const a = app([{...latePaper, tags: ["cochlear implant", "speech perception"]}]);
+  assert.equal(a.run("state.filters.tags=['Cochlear Implants','Speech Perception']; matchesFilters(state.papers[0])"),true);
+  assert.equal(a.run("state.filters.tags=['Cochlear Implants','Hearing Aids']; matchesFilters(state.papers[0])"),false);
+  assert.equal(a.run("state.filters.tagMode='any'; matchesFilters(state.papers[0])"),true);
+});
+
+test("saved JASA papers remain accessible in the personal library", () => {
+  const a = app([{...jasaPaper, title: "Fluid bubble detachment", abstract: "A fluid experiment."}]);
+  assert.equal(a.run("matchesFilters(state.papers[0])"),false);
+  assert.equal(a.run("research.library.update(state.papers[0], {favorite:true}); state.filters.libraryView='favorite'; matchesFilters(state.papers[0])"),true);
 });

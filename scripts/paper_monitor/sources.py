@@ -167,73 +167,94 @@ def fetch_crossref_between(journal: Journal, start_date: dt.date, end_date: dt.d
     return _fetch_crossref_window(journal, start_date, end_date)
 
 
+class SourceFetchError(RuntimeError):
+    """Retain successful pages while exposing incomplete source coverage."""
+    def __init__(self, papers, failures):
+        super().__init__("; ".join(failures))
+        self.papers = papers
+
+
 def _fetch_crossref_window(journal: Journal, start_date: dt.date, end_date: dt.date | None = None) -> list[Paper]:
     if not journal.crossref:
         return []
-    papers: list[Paper] = []
-
+    papers, failures = [], []
+    end_date = end_date or dt.date.today()
     for issn in journal.issn:
-        for date_filter in ("pub-date", "online-pub-date"):
-            filters = [f"from-{date_filter}:{start_date.isoformat()}", "type:journal-article"]
-            if end_date:
-                filters.insert(1, f"until-{date_filter}:{end_date.isoformat()}")
-            params = {
-                "filter": ",".join(filters),
-                "sort": "published",
-                "order": "desc",
-                "rows": "100",
-                "mailto": "example@example.com",
-            }
-            url = f"https://api.crossref.org/journals/{issn}/works?{urlencode(params)}"
+        # Creation date catches papers deposited late, even with only a year/month publication date.
+        for date_filter in ("pub-date", "online-pub-date", "created-date"):
+            params = {"filter": f"from-{date_filter}:{start_date},until-{date_filter}:{end_date},type:journal-article",
+                      "sort": "created", "order": "desc", "rows": "100", "cursor": "*"}
             try:
-                data = _get_json(url)
-            except requests.HTTPError as exc:
-                print(f"Warning: Crossref ISSN {issn} {date_filter} failed for {journal.name}: {exc}")
-                continue
-            for item in data.get("message", {}).get("items", []):
-                paper = _paper_from_crossref(item, journal)
-                if paper:
-                    papers.append(paper)
-            time.sleep(0.15)
-
+                seen_cursors = set()
+                for page in range(100):
+                    data = _get_json(f"https://api.crossref.org/journals/{issn}/works?{urlencode(params)}")
+                    message = data.get("message", {})
+                    if not isinstance(message.get("items"), list):
+                        raise ValueError("Invalid Crossref response")
+                    items = message["items"]
+                    for item in items:
+                        paper = _paper_from_crossref(item, journal)
+                        if paper:
+                            papers.append(paper)
+                    if len(items) < 100:
+                        break
+                    cursor = message.get("next-cursor")
+                    if not cursor or cursor in seen_cursors:
+                        raise ValueError("Crossref pagination did not advance")
+                    seen_cursors.add(cursor)
+                    params["cursor"] = cursor
+                    time.sleep(0.2)
+                else:
+                    raise ValueError("Crossref page safety limit reached")
+            except (requests.RequestException, ValueError) as exc:
+                failures.append(f"ISSN {issn} {date_filter}: {type(exc).__name__}")
+            time.sleep(0.2)
+    papers = merge_dedupe([papers])
+    if failures:
+        raise SourceFetchError(papers, failures)
     return papers
 
 
 def fetch_pubmed(journal: Journal, days: int) -> list[Paper]:
     end_date = dt.date.today()
-    start_date = end_date - dt.timedelta(days=days)
-    return fetch_pubmed_between(journal, start_date, end_date)
+    return fetch_pubmed_between(journal, end_date - dt.timedelta(days=days), end_date)
 
 
 def fetch_pubmed_between(journal: Journal, start_date: dt.date, end_date: dt.date) -> list[Paper]:
     if not journal.pubmed:
         return []
-
     query = " OR ".join(f'"{alias}"[Journal]' for alias in journal.aliases)
-    date_range = f"{start_date:%Y/%m/%d}:{end_date:%Y/%m/%d}[Date - Publication]"
-    params = {
-        "db": "pubmed",
-        "term": f"({query}) AND ({date_range})",
-        "retmode": "json",
-        "retmax": "200",
-        "sort": "pub date",
-    }
-    search_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
-    ids = _get_json(f"{search_url}?{urlencode(params)}").get("esearchresult", {}).get("idlist", [])
-    if not ids:
-        return []
-
-    fetch_params = {
-        "db": "pubmed",
-        "id": ",".join(ids),
-        "retmode": "xml",
-    }
-    xml_text = SESSION.get(
-        f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?{urlencode(fetch_params)}",
-        timeout=REQUEST_TIMEOUT_SECONDS,
-    ).text
-    root = ET.fromstring(xml_text)
-    return [_paper_from_pubmed(article, journal) for article in root.findall(".//PubmedArticle")]
+    dates = f"{start_date:%Y/%m/%d}:{end_date:%Y/%m/%d}"
+    params = {"db": "pubmed", "term": f"({query}) AND ({dates}[Date - Publication] OR {dates}[Create Date])",
+              "retmode": "json", "retmax": "200", "sort": "pub date", "retstart": 0}
+    ids = []
+    papers = []
+    try:
+        while True:
+            result = _get_json(f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?{urlencode(params)}").get("esearchresult", {})
+            page_ids = result.get("idlist")
+            if not isinstance(page_ids, list) or "count" not in result:
+                raise ValueError("Invalid PubMed search response")
+            ids.extend(page_ids)
+            params["retstart"] += len(page_ids)
+            if params["retstart"] >= int(result["count"]):
+                break
+            if not page_ids or params["retstart"] >= 9999:
+                raise ValueError("PubMed search pagination incomplete")
+            time.sleep(0.35)
+        ids = list(dict.fromkeys(ids))
+        for offset in range(0, len(ids), 100):
+            fetch_params = {"db": "pubmed", "id": ",".join(ids[offset:offset + 100]), "retmode": "xml"}
+            response = _get_response(f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?{urlencode(fetch_params)}")
+            document = ET.fromstring(response.text)
+            articles = document.findall(".//PubmedArticle")
+            papers.extend(_paper_from_pubmed(article, journal) for article in articles)
+            if len(articles) != len(ids[offset:offset + 100]):
+                raise ValueError("PubMed returned an incomplete article batch")
+            time.sleep(0.35)
+    except (requests.RequestException, ValueError, ET.ParseError) as exc:
+        raise SourceFetchError(papers, [f"PubMed: {type(exc).__name__}"]) from exc
+    return papers
 
 
 def fetch_high_impact_crossref(config: MonitorConfig, days: int) -> list[Paper]:
@@ -1121,10 +1142,25 @@ def _month_to_int(value: str) -> int:
             return 1
 
 
+def _get_response(url: str):
+    for attempt in range(3):
+        try:
+            response = SESSION.get(url, timeout=REQUEST_TIMEOUT_SECONDS)
+            response.raise_for_status()
+            return response
+        except requests.HTTPError as exc:
+            code = exc.response.status_code if exc.response is not None else 0
+            if code not in {429, 500, 502, 503, 504} or attempt == 2:
+                raise
+        except (requests.Timeout, requests.ConnectionError):
+            if attempt == 2:
+                raise
+        time.sleep(2 ** (attempt + 1))
+    raise RuntimeError("Source retries exhausted")
+
+
 def _get_json(url: str) -> dict:
-    response = SESSION.get(url, timeout=REQUEST_TIMEOUT_SECONDS)
-    response.raise_for_status()
-    return response.json()
+    return _get_response(url).json()
 
 
 def _clean(value: str) -> str:
