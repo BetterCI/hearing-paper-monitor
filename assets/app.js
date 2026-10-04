@@ -312,7 +312,6 @@ async function init() {
   addLanguageControl();
   bindFilters();
   bindResearchControls();
-  startBunnyMotions();
   render();
   startDataRefresh();
 }
