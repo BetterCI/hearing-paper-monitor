@@ -22,8 +22,8 @@ const state = {
     section: "",
     tag: "",
     tags: [], tagMode: "all", searchScope: "all", category: "", libraryView: "",
-    month: "__recent_added",
-    showOtherJasaSections: false,
+    month: "",
+    showOtherJasaSections: true,
   },
 };
 
@@ -749,6 +749,11 @@ function populateMonthFilter(papers = state.papers) {
   const hasCurrentUpdate = newPapersInCurrentUpdate(papers).length > 0;
   const options = [RECENT_ADDED_FILTER, WEEKLY_ADDED_FILTER, "", ...(hasCurrentUpdate ? [CURRENT_UPDATE_FILTER] : []), ...months, ...(hasEarlyAccess ? [EARLY_ACCESS_MONTH] : [])];
   els.month.replaceChildren();
+  const allOption = document.createElement("option");
+  allOption.value = "";
+  allOption.textContent = "All publications · newest first";
+  markTranslatable(allOption, "All publications · newest first");
+  els.month.appendChild(allOption);
   [[RECENT_ADDED_FILTER, "Recently added"], [WEEKLY_ADDED_FILTER, "Added in last 7 days"]].forEach(([value, label]) => {
     const option = document.createElement("option");
     option.value = value;
@@ -756,11 +761,6 @@ function populateMonthFilter(papers = state.papers) {
     markTranslatable(option, label);
     els.month.appendChild(option);
   });
-  const allOption = document.createElement("option");
-  allOption.value = "";
-  allOption.textContent = "All months";
-  markTranslatable(allOption, "All months");
-  els.month.appendChild(allOption);
   if (hasCurrentUpdate) {
     const updateOption = document.createElement("option");
     updateOption.value = CURRENT_UPDATE_FILTER;
@@ -782,7 +782,7 @@ function populateMonthFilter(papers = state.papers) {
     els.month.appendChild(option);
   }
 
-  if (!options.includes(state.filters.month)) state.filters.month = RECENT_ADDED_FILTER;
+  if (!options.includes(state.filters.month)) state.filters.month = "";
   els.month.value = state.filters.month;
 }
 
@@ -2137,7 +2137,7 @@ function isJasaHearingOrSpeechPaper(paper) {
 }
 
 function papersForList(papers) {
-  return state.filters.query || [RECENT_ADDED_FILTER, WEEKLY_ADDED_FILTER, CURRENT_UPDATE_FILTER].includes(state.filters.month)
+  return [RECENT_ADDED_FILTER, WEEKLY_ADDED_FILTER, CURRENT_UPDATE_FILTER].includes(state.filters.month)
     ? papersRecentlyFirstSeen(papers)
     : sortedPapers(papers);
 }
@@ -2687,9 +2687,9 @@ function syncResearchControls() {
 }
 
 function clearResearchFilters() {
-  Object.assign(state.filters, {query: "", journal: "", section: "", tag: "", tags: [], tagMode: "all", searchScope: "all", category: "", libraryView: "", month: RECENT_ADDED_FILTER, showOtherJasaSections: false});
+  Object.assign(state.filters, {query: "", journal: "", section: "", tag: "", tags: [], tagMode: "all", searchScope: "all", category: "", libraryView: "", month: "", showOtherJasaSections: true});
   els.search.value = "";
-  els.showOtherJasaSections.checked = false;
+  els.showOtherJasaSections.checked = true;
   syncResearchControls();
   populateFilters();
   resetPaperListLimit();

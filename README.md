@@ -39,7 +39,7 @@ All monitored journals are treated equally at the journal level. For JASA and JA
   - Auditory Physiology
 - Exports a static JSON file at `data/papers.json`.
 - Renders a searchable, filterable static web dashboard.
-- Defaults to Recently added, ordered by first collection time across all publication months; monthly and early-access views remain available.
+- Defaults to all collected research papers across journals and JASA sections, ordered newest to oldest by publication date (using the online date for early-access, future issue dates or imprecise issue dates when available). Recently added remains an optional view ordered by first collection time; monthly and early-access views remain available. Searching preserves the chosen view's ordering, and clearing filters restores the publication-date default.
 - Keeps the overview focused on Recent Publication Picks: up to five papers published in the last seven calendar days. Newly added, JASA/JASA-EL highlights, random-paper and featured-figure panels are hidden from the overview.
 - Keeps hearing and speech papers from JASA/JASA-EL visible even when section metadata is missing. Title, author, and DOI searches bypass implicit month and other-JASA-section exclusions; explicit journal, section, and tag filters still apply.
 - Checks for updated data every five minutes while visible and when returning to the page, preserves active filters, and keeps the current data if a refresh fails.

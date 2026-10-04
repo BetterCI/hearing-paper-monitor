@@ -72,9 +72,10 @@ test("late-arriving September paper appears in default list and new-paper panel"
   assert.equal(a.run("papersForNewlyAddedPanel(dashboardPapers()).length"), 1);
 });
 
-test("default list orders first collection time before publication date", () => {
+test("default list orders publication date before first collection time", () => {
   const a = app([latePaper, { ...latePaper, doi: "older-arrival", publication_date: "2026-10-02", first_seen_at: "2026-10-03T08:00:00Z" }]);
-  assert.equal(a.run("papersForList(dashboardPapers())[0].doi"), latePaper.doi);
+  assert.equal(a.run("papersForList(dashboardPapers())[0].doi"), "older-arrival");
+  assert.equal(a.run("state.filters.month=RECENT_ADDED_FILTER; papersForList(dashboardPapers())[0].doi"), latePaper.doi);
 });
 
 test("monthly view remains explicit and uses publication ordering", () => {
@@ -98,10 +99,11 @@ test("title and DOI searches bypass month and implicit JASA exclusions", () => {
   assert.equal(a.run("state.filters.journal='Hearing Research'; matchesFilters(state.papers[0])"), false);
 });
 
-test("misleading tag and word substrings do not make unrelated JASA papers visible", () => {
+test("all JASA sections are visible by default and can explicitly be hidden", () => {
   const a = app([{ ...jasaPaper, title: "Shearing of an elastic beam", abstract: "An elastic fabrication technique.", tags: ["auditory physiology"] }]);
-  assert.equal(a.run("matchesFilters(state.papers[0])"), false);
-  assert.equal(a.run("state.filters.showOtherJasaSections=true; matchesFilters(state.papers[0])"), true);
+  assert.equal(a.run("matchesFilters(state.papers[0])"), true);
+  assert.equal(a.run("isJasaHearingOrSpeechPaper(state.papers[0])"), false);
+  assert.equal(a.run("state.filters.showOtherJasaSections=false; matchesFilters(state.papers[0])"), false);
 });
 
 test("new-paper window includes late arrivals and follows local calendar boundaries", () => {
@@ -224,6 +226,30 @@ test("multiple topic tags combine with all or any matching", () => {
 
 test("saved JASA papers remain accessible in the personal library", () => {
   const a = app([{...jasaPaper, title: "Fluid bubble detachment", abstract: "A fluid experiment."}]);
-  assert.equal(a.run("matchesFilters(state.papers[0])"),false);
+  assert.equal(a.run("state.filters.showOtherJasaSections=false; matchesFilters(state.papers[0])"),false);
   assert.equal(a.run("research.library.update(state.papers[0], {favorite:true}); state.filters.libraryView='favorite'; matchesFilters(state.papers[0])"),true);
+});
+
+test("default and search results interleave journals by publication date, including online-first papers", () => {
+  const a = app([
+    {...latePaper, doi: "recent-arrival", first_seen_at: "2026-10-04T10:00:00Z"},
+    {...jasaPaper, doi: "jasa", first_seen_at: "2026-10-04T09:00:00Z"},
+    {...latePaper, doi: "tih", journal: "Trends in Hearing", publication_date: "2026-10-03", first_seen_at: "2026-10-02T08:00:00Z"},
+    {...latePaper, doi: "online", journal: "Ear and Hearing", publication_date: "2027-01-01", available_online_date: "2026-10-01", publication_stage: "early_access"},
+  ]);
+  const expected = ["tih", "jasa", "online", "recent-arrival"];
+  assert.deepEqual(Array.from(a.run("papersForList(dashboardPapers().filter(matchesFilters)).map(p=>p.doi)")), expected);
+  a.run("state.filters.query='perception'");
+  assert.deepEqual(Array.from(a.run("papersForList(state.papers).map(p=>p.doi)")), expected);
+});
+
+test("clearing filters and an invalid view restore all publications", () => {
+  const a = app([jasaPaper]);
+  a.run("render=()=>{}; state.filters.month=RECENT_ADDED_FILTER; state.filters.showOtherJasaSections=false; state.filters.journal='JASA'; clearResearchFilters()");
+  assert.equal(a.run("state.filters.month"), "");
+  assert.equal(a.run("state.filters.showOtherJasaSections"), true);
+  assert.equal(a.elements.get("#showOtherJasaSections").checked, true);
+  a.run("state.filters.month='invalid-view'; populateMonthFilter()");
+  assert.equal(a.run("state.filters.month"), "");
+  assert.equal(a.elements.get("#monthFilter").options[0].value, "");
 });
