@@ -9,18 +9,25 @@ const state = {
   paperListLimit: 18,
   paperListObserver: null,
   randomPaperKey: "",
+  dataSignature: "",
+  dataRefreshInProgress: false,
+  lastDataRefreshAt: 0,
+  renderedDate: "",
   filters: {
     query: "",
     journal: "",
     section: "",
     tag: "",
-    month: "",
+    month: "__recent_added",
     showOtherJasaSections: false,
   },
 };
 
 const EARLY_ACCESS_MONTH = "__early_access";
 const CURRENT_UPDATE_FILTER = "__current_update";
+const RECENT_ADDED_FILTER = "__recent_added";
+const WEEKLY_ADDED_FILTER = "__weekly_added";
+const DATA_REFRESH_INTERVAL_MS = 5 * 60 * 1000;
 const HIGH_IMPACT_LABEL = "High-impact Journals";
 const CURRENT_UPDATE_WINDOW_MS = 4 * 60 * 60 * 1000;
 const INITIAL_PAPER_LIST_LIMIT = 18;
@@ -263,10 +270,13 @@ const els = {
   hearingBunny: document.querySelector("#hearingBunny"),
   translationStatus: null,
   newThisUpdate: document.querySelector("#newThisUpdate"),
+  newlyAddedSummary: document.querySelector("#newlyAddedSummary"),
+  newlyAddedViewAll: document.querySelector("#newlyAddedViewAll"),
   sectionHighlights: document.querySelector("#sectionHighlights"),
   randomPaperButton: document.querySelector("#randomPaperButton"),
   randomPaperSpotlight: document.querySelector("#randomPaperSpotlight"),
   selectedRecentPapers: document.querySelector("#selectedRecentPapers"),
+  recentPublicationWindow: document.querySelector("#recentPublicationWindow"),
   featuredFigurePanel: document.querySelector("#featuredFigurePanel"),
   featuredFigure: document.querySelector("#featuredFigure"),
   weeklyDigestWindow: document.querySelector("#weeklyDigestWindow"),
@@ -299,23 +309,64 @@ async function init() {
   bindFilters();
   startBunnyMotions();
   render();
+  startDataRefresh();
 }
 
-async function loadData() {
+async function loadData({ preserveOnError = false, onlyIfChanged = false } = {}) {
   try {
-    const response = await fetch(`data/papers.json?t=${Date.now()}`, { cache: "no-store" });
+    const response = await fetch(`data/papers.json?t=${Date.now()}`, {
+      cache: "no-store",
+      signal: AbortSignal.timeout(20000),
+    });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const payload = await response.json();
-    state.papers = payload.papers || [];
+    if (!Array.isArray(payload.papers)) throw new Error("Invalid paper data");
+    const signature = JSON.stringify(payload);
+    if (onlyIfChanged && signature === state.dataSignature) return false;
+    state.papers = payload.papers;
+    state.dataSignature = signature;
     state.generatedAt = payload.generated_at || "";
     state.translatedTitles.clear();
     state.titleTranslationStatus = "idle";
     setTranslatableText(els.generatedAt, payload.generated_at ? `Updated ${formatDateTime(payload.generated_at)}` : "Not yet updated");
+    return true;
   } catch (error) {
+    if (preserveOnError) return false;
     setTranslatableText(els.generatedAt, "No data file found");
     state.papers = [];
     state.generatedAt = "";
+    return false;
   }
+}
+
+function startDataRefresh() {
+  window.setInterval(() => refreshData(), DATA_REFRESH_INTERVAL_MS);
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden) refreshData();
+  });
+  window.addEventListener("focus", () => refreshData());
+}
+
+async function refreshData() {
+  if (document.hidden || state.dataRefreshInProgress || Date.now() - state.lastDataRefreshAt < 60000) return;
+  state.dataRefreshInProgress = true;
+  state.lastDataRefreshAt = Date.now();
+  try {
+    const changed = await loadData({ preserveOnError: true, onlyIfChanged: true });
+    if (changed) populateFilters();
+    if (changed || state.renderedDate !== toDateString(currentLocalDate())) render();
+  } finally {
+    state.dataRefreshInProgress = false;
+  }
+}
+
+function showNewlyAddedPapers() {
+  Object.assign(state.filters, { query: "", journal: "", section: "", tag: "", month: WEEKLY_ADDED_FILTER });
+  els.search.value = "";
+  populateFilters();
+  resetPaperListLimit();
+  render();
+  els.papers.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function addLanguageControl() {
@@ -343,6 +394,7 @@ function addLanguageControl() {
 }
 
 function bindFilters() {
+  els.newlyAddedViewAll?.addEventListener("click", showNewlyAddedPapers);
   els.search.addEventListener("input", () => {
     state.filters.query = els.search.value.trim().toLowerCase();
     resetPaperListLimit();
@@ -585,6 +637,10 @@ function populateFilters() {
   fillSelect(els.journal, orderedSourceFilters(papers.map(sourceFilterValue)));
   fillSelect(els.section, unique(papers.map((paper) => paper.section).filter(Boolean)));
   fillTagSelect(papers);
+  ["journal", "section", "tag"].forEach((key) => {
+    if (![...els[key].options].some((option) => option.value === state.filters[key])) state.filters[key] = "";
+    els[key].value = state.filters[key];
+  });
   populateMonthFilter(papers);
 }
 
@@ -616,7 +672,7 @@ function fillTagSelect(papers = state.papers) {
 function render() {
   try {
     const sourcePapers = dashboardPapers();
-    const papers = sortedPapers(sourcePapers.filter(matchesFilters));
+    const papers = papersForList(sourcePapers.filter(matchesFilters));
     const visiblePapers = papers.slice(0, Math.min(state.paperListLimit, papers.length));
     setTranslatableText(els.paperCount, `${papers.length} ${papers.length === 1 ? "paper" : "papers"}`);
 
@@ -628,6 +684,7 @@ function render() {
     translateVisibleTitles(visiblePapers);
     translateRenderedPage();
     queueBunnyMove();
+    state.renderedDate = toDateString(currentLocalDate());
   } catch (e) {
     console.error("Render error:", e);
   }
@@ -677,8 +734,15 @@ function populateMonthFilter(papers = state.papers) {
   const months = unique(papers.map(getPaperMonth).filter(Boolean)).sort().reverse();
   const hasEarlyAccess = papers.some(isEarlyAccess);
   const hasCurrentUpdate = newPapersInCurrentUpdate(papers).length > 0;
-  const options = ["", ...(hasCurrentUpdate ? [CURRENT_UPDATE_FILTER] : []), ...months, ...(hasEarlyAccess ? [EARLY_ACCESS_MONTH] : [])];
+  const options = [RECENT_ADDED_FILTER, WEEKLY_ADDED_FILTER, "", ...(hasCurrentUpdate ? [CURRENT_UPDATE_FILTER] : []), ...months, ...(hasEarlyAccess ? [EARLY_ACCESS_MONTH] : [])];
   els.month.replaceChildren();
+  [[RECENT_ADDED_FILTER, "Recently added"], [WEEKLY_ADDED_FILTER, "Added in last 7 days"]].forEach(([value, label]) => {
+    const option = document.createElement("option");
+    option.value = value;
+    option.textContent = label;
+    markTranslatable(option, label);
+    els.month.appendChild(option);
+  });
   const allOption = document.createElement("option");
   allOption.value = "";
   allOption.textContent = "All months";
@@ -687,8 +751,8 @@ function populateMonthFilter(papers = state.papers) {
   if (hasCurrentUpdate) {
     const updateOption = document.createElement("option");
     updateOption.value = CURRENT_UPDATE_FILTER;
-    updateOption.textContent = "Newly added";
-    markTranslatable(updateOption, "Newly added");
+    updateOption.textContent = "Latest update";
+    markTranslatable(updateOption, "Latest update");
     els.month.appendChild(updateOption);
   }
   months.forEach((month) => {
@@ -705,10 +769,7 @@ function populateMonthFilter(papers = state.papers) {
     els.month.appendChild(option);
   }
 
-  if (!state.filters.month || !options.includes(state.filters.month)) {
-    const currentMonth = toDateString(currentLocalDate()).slice(0, 7);
-    state.filters.month = months.includes(currentMonth) ? currentMonth : months[0] || "";
-  }
+  if (!options.includes(state.filters.month)) state.filters.month = RECENT_ADDED_FILTER;
   els.month.value = state.filters.month;
 }
 
@@ -718,6 +779,7 @@ function matchesFilters(paper) {
     paper.title,
     paper.title_zh,
     paper.chinese_title,
+    paper.doi,
     (paper.authors || []).join(" "),
   ]
     .filter(Boolean)
@@ -729,11 +791,12 @@ function matchesFilters(paper) {
   if (state.filters.section && paper.section !== state.filters.section) return false;
   if (state.filters.tag && !publicPaperTags(paper).includes(state.filters.tag)) return false;
   if (!hasSearchQuery) {
+    if (state.filters.month === WEEKLY_ADDED_FILTER && !isPaperAddedInLastDays(paper, 7)) return false;
     if (state.filters.month === CURRENT_UPDATE_FILTER && !isPaperInCurrentUpdate(paper)) return false;
     if (state.filters.month === EARLY_ACCESS_MONTH && !isEarlyAccess(paper)) return false;
-    if (state.filters.month && ![CURRENT_UPDATE_FILTER, EARLY_ACCESS_MONTH].includes(state.filters.month) && getPaperMonth(paper) !== state.filters.month) return false;
+    if (state.filters.month && ![RECENT_ADDED_FILTER, WEEKLY_ADDED_FILTER, CURRENT_UPDATE_FILTER, EARLY_ACCESS_MONTH].includes(state.filters.month) && getPaperMonth(paper) !== state.filters.month) return false;
   }
-  if (!state.filters.showOtherJasaSections && isOtherJasaSectionPaper(paper)) return false;
+  if (!hasSearchQuery && !state.filters.showOtherJasaSections && isOtherJasaSectionPaper(paper)) return false;
   return true;
 }
 
@@ -855,20 +918,30 @@ function renderPaper(paper) {
 
 function renderRecentOverview(papers = state.papers) {
   const sorted = sortedPapers(papers);
-  const newlyAdded = papersForNewlyAddedPanel(papers).slice(0, 5);
-  renderCompactPaperList(els.newThisUpdate, newlyAdded, {
+  const visibleSources = papers.filter((paper) => state.filters.showOtherJasaSections || !isOtherJasaSectionPaper(paper));
+  const newlyAdded = papersForNewlyAddedPanel(visibleSources);
+  if (els.newlyAddedSummary) setTranslatableText(els.newlyAddedSummary, `${newlyAdded.length} papers added in the last 7 days`);
+  if (els.newlyAddedViewAll) {
+    els.newlyAddedViewAll.hidden = newlyAdded.length === 0;
+    setTranslatableText(els.newlyAddedViewAll, `View all ${newlyAdded.length} newly added papers`);
+  }
+  renderCompactPaperList(els.newThisUpdate, newlyAdded.slice(0, 5), {
     showAffiliation: true,
     highlightTitleKeywords: true,
     fullTitle: true,
-    emptyText: "No newly added papers are available yet.",
+    emptyText: "No papers added in the last 7 days.",
   });
 
-  const highlights = sorted.filter(isJasaSectionHighlight).slice(0, 4);
+  const highlights = sorted.filter(isJasaHearingOrSpeechPaper).slice(0, 4);
   renderCompactPaperList(els.sectionHighlights, highlights, { showAuthors: true, showAffiliation: true });
 
   renderRandomPaperSpotlight(papers);
 
-  const selectedSource = papersInLatestWindow(papers, 7);
+  const selectedSource = papersInLatestWindow(visibleSources, 7);
+  if (els.recentPublicationWindow) {
+    const end = currentLocalDate();
+    setTranslatableText(els.recentPublicationWindow, `${formatDate(toDateString(addDays(end, -6)))} - ${formatDate(toDateString(end))} · Up to 5 selected papers`);
+  }
   renderCompactPaperList(els.selectedRecentPapers, selectRecentPapers(selectedSource, 5), {
     showAffiliation: true,
     highlightTitleKeywords: true,
@@ -965,7 +1038,7 @@ function renderFeaturedFigure(papers = state.papers) {
 function renderWeeklyDigest(papers = state.papers) {
   const weekly = papersInLatestWindow(papers, 7);
   const sortedWeekly = sortedPapers(weekly);
-  const latestDate = maxPaperDate(papers);
+  const latestDate = currentLocalDate();
   const startDate = latestDate ? addDays(latestDate, -6) : null;
 
   if (els.weeklyDigestWindow) els.weeklyDigestWindow.textContent = startDate && latestDate ? `${formatDate(toDateString(startDate))} - ${formatDate(toDateString(latestDate))}` : "No dated papers available";
@@ -1723,7 +1796,7 @@ function getCodeInfo(paper) {
 
 function isSpeechOrHearingRelated(paper) {
   const tags = paper.tags || [];
-  if (tags.some((tag) => RELEVANT_TAGS.has(tag))) return true;
+  if (!JASA_JOURNALS.has(paper.journal) && tags.some((tag) => RELEVANT_TAGS.has(tag))) return true;
   const text = [
     paper.title,
     paper.abstract,
@@ -1733,7 +1806,10 @@ function isSpeechOrHearingRelated(paper) {
     .filter(Boolean)
     .join(" ")
     .toLowerCase();
-  return RELEVANT_TERMS.some((term) => text.includes(term));
+  return RELEVANT_TERMS.some((term) => {
+    const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    return new RegExp(`\\b${escaped}\\b`, "i").test(text);
+  });
 }
 
 function isEarAndHearing(paper) {
@@ -2124,7 +2200,17 @@ function isEarlyAccess(paper) {
 }
 
 function isOtherJasaSectionPaper(paper) {
-  return JASA_JOURNALS.has(paper.journal) && !isJasaSectionHighlight(paper);
+  return JASA_JOURNALS.has(paper.journal) && !isJasaHearingOrSpeechPaper(paper);
+}
+
+function isJasaHearingOrSpeechPaper(paper) {
+  return JASA_JOURNALS.has(paper.journal) && (isJasaSectionHighlight(paper) || isSpeechOrHearingRelated(paper));
+}
+
+function papersForList(papers) {
+  return state.filters.query || [RECENT_ADDED_FILTER, WEEKLY_ADDED_FILTER, CURRENT_UPDATE_FILTER].includes(state.filters.month)
+    ? papersRecentlyFirstSeen(papers)
+    : sortedPapers(papers);
 }
 
 function sortedPapers(papers) {
@@ -2141,8 +2227,7 @@ function comparePaperDates(left, right) {
 }
 
 function papersInLatestWindow(papers, days) {
-  const latest = maxPaperDate(papers);
-  if (!latest) return [];
+  const latest = currentLocalDate();
   const start = addDays(latest, -(days - 1));
   return papers.filter((paper) => {
     const date = parsePaperDate(effectiveDate(paper));
@@ -2151,19 +2236,29 @@ function papersInLatestWindow(papers, days) {
 }
 
 function newPapersInCurrentUpdate(papers) {
-  return sortedPapers(papers.filter(isPaperInCurrentUpdate));
+  return papersRecentlyFirstSeen(papers.filter(isPaperInCurrentUpdate));
 }
 
 function papersForNewlyAddedPanel(papers) {
-  const currentUpdatePapers = newPapersInCurrentUpdate(papers);
-  if (currentUpdatePapers.length) return currentUpdatePapers;
-  return papersRecentlyFirstSeen(papers);
+  return papersRecentlyFirstSeen(papers.filter((paper) => isPaperAddedInLastDays(paper, 7)));
+}
+
+function isPaperAddedInLastDays(paper, days) {
+  const firstSeen = parseDateTime(paper.first_seen_at);
+  if (Number.isNaN(firstSeen)) return false;
+  const start = addDays(currentLocalDate(), -(days - 1));
+  const end = addDays(currentLocalDate(), 1);
+  return firstSeen >= start.getTime() && firstSeen < end.getTime();
 }
 
 function papersRecentlyFirstSeen(papers) {
-  return [...papers]
-    .filter((paper) => !Number.isNaN(parseDateTime(paper.first_seen_at)))
-    .sort((left, right) => parseDateTime(right.first_seen_at) - parseDateTime(left.first_seen_at));
+  return [...papers].sort((left, right) => {
+    const leftSeen = parseDateTime(left.first_seen_at);
+    const rightSeen = parseDateTime(right.first_seen_at);
+    const safeLeft = Number.isNaN(leftSeen) ? 0 : leftSeen;
+    const safeRight = Number.isNaN(rightSeen) ? 0 : rightSeen;
+    return safeRight - safeLeft || comparePaperDates(left, right);
+  });
 }
 
 function isPaperInCurrentUpdate(paper) {
@@ -2238,7 +2333,7 @@ function addDays(date, days) {
 }
 
 function toDateString(date) {
-  return date.toISOString().slice(0, 10);
+  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
 }
 
 function topTagCounts(papers, limit) {

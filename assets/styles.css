@@ -447,6 +447,32 @@ select:focus {
   background: var(--overview-accent, var(--accent));
 }
 
+.overview-panel-note {
+  margin: -4px 0 12px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+
+.overview-view-all {
+  margin-top: 12px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--accent-dark);
+  background: var(--surface);
+  font: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.overview-view-all:hover,
+.overview-view-all:focus-visible {
+  border-color: var(--accent);
+  outline: 2px solid rgba(11, 111, 114, 0.16);
+  outline-offset: 2px;
+}
+
 .compact-list ul {
   display: grid;
   gap: 0;

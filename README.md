@@ -39,8 +39,10 @@ All monitored journals are treated equally at the journal level. For JASA and JA
   - Auditory Physiology
 - Exports a static JSON file at `data/papers.json`.
 - Renders a searchable, filterable static web dashboard.
-- Shows a Recent Overview with latest updates, JASA/JASA-EL section highlights, trending topics, and selected recent papers.
-- Provides a public Weekly Hearing Science Digest based on the most recent week available in `data/papers.json`.
+- Defaults to Recently added, ordered by first collection time across all publication months; monthly and early-access views remain available.
+- Shows papers added in the last seven calendar days, with a View all button, separately from up to five recent publication picks from the last seven calendar days.
+- Keeps hearing and speech papers from JASA/JASA-EL visible even when section metadata is missing. Title, author, and DOI searches bypass implicit month and other-JASA-section exclusions; explicit journal, section, and tag filters still apply.
+- Checks for updated data every five minutes while visible and when returning to the page, preserves active filters, and keeps the current data if a refresh fails.
 - Displays the original English metadata by default. Translation is not run automatically.
 - Never downloads or stores PDFs.
 - Links only to official publisher pages, PubMed pages, or DOI pages.
@@ -70,6 +72,9 @@ python scripts/export_static.py
 
 # Run tests
 python -m pytest
+
+# Run frontend regression tests (Node.js 18 or newer)
+node --test tests/frontend.test.cjs
 ```
 
 ## Configuration
