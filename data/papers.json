@@ -1,6 +1,29 @@
 {
-  "generated_at": "2026-10-04T13:35:49Z",
+  "generated_at": "2026-10-05T09:12:28Z",
   "papers": [
+    {
+      "title": "Exploring Auditory Attention Decoding to go with mobile and portable hardware",
+      "authors": [
+        "Thorge Haupt",
+        "Lisa Straetmans",
+        "Kamil Adiloglu",
+        "Martin G. Bleichner",
+        "Stefan Debener"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-12-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109817",
+      "url": "https://doi.org/10.1016/j.heares.2026.109817",
+      "abstract": null,
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-10-01",
+      "first_seen_at": "2026-10-02T08:37:35Z"
+    },
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
       "authors": [
@@ -2007,6 +2030,21 @@
     {
       "title": "Editorial Board",
       "authors": [],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00266-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-02T07:09:02Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-10-01",
       "publication_date_precision": "day",
@@ -2019,21 +2057,6 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00266-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Effective model of fiber Bragg gratings for simulation of ultrasonic guided wave measurements using spectral finite elements",
@@ -2215,27 +2238,6 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-07-23",
       "first_seen_at": "2026-08-01T05:37:31Z"
-    },
-    {
-      "title": "Exploring Auditory Attention Decoding to go with mobile and portable hardware",
-      "authors": [
-        "Thorge Haupt",
-        "Lisa Straetmans",
-        "Kamil Adiloglu",
-        "Martin G. Bleichner",
-        "Stefan Debener"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109817",
-      "url": "https://doi.org/10.1016/j.heares.2026.109817",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-10-02T08:37:35Z"
     },
     {
       "title": "Hearing healthy: physical activity moderates the association between age-related hearing loss and brain volume",
@@ -2610,14 +2612,6 @@
       "doi": "10.1121/10.0046802",
       "url": "https://doi.org/10.1121/10.0046802",
       "abstract": "For matched field localization using ship radiated noise as sources of opportunity, replica libraries are often incomplete because vessel trajectories cannot fully cover the observation region. The completion problem can be formulated as recovering missing replica entries from partial observations, for which Bayesian matrix completion methods provide a probabilistic framework. However, the relatively high effective rank of replica libraries constructed from cross correlation functions requires more observations for reliable completion. To address this issue, a physics guided extension of Bayesian matrix completion with graphs (BMCG) is proposed. An envelope transform (ET) is applied to mitigate rapid propagation induced phase oscillations, thereby reducing the effective rank of the replica library. The circular structures revealed by ET are exploited to construct an initialization for BMCG. By incorporating ET-based rank reduction and circular-pattern initialization into BMCG, the proposed method enables reliable replica recovery. Simulations and experimental results demonstrate the effectiveness of the proposed method in localization, with observations of the sources of opportunity available only along a limited number of trajectories.",
-      "first_author_affiliation": "College of Information Science and Electronic Engineering, Zhejiang University 1 , Hangzhou 310027,",
-      "last_author_affiliation": "Scripps Institution of Oceanography, University of California San Diego 5 , La Jolla, California 92093,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-01",
-      "first_seen_at": "2026-10-02T08:37:25Z",
       "ai_analysis": {
         "scientific_question": "如何从有限观测中可靠地补全用于匹配场定位的不完整副本库？",
         "key_highlight": "提出物理引导的贝叶斯矩阵补全扩展方法，通过包络变换降低副本库有效秩并利用圆形结构初始化BMCG，实现可靠的副本恢复。",
@@ -2633,7 +2627,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "2f581994da9f5383",
         "updated_at": "2026-10-04T13:36:12Z"
-      }
+      },
+      "first_author_affiliation": "College of Information Science and Electronic Engineering, Zhejiang University 1 , Hangzhou 310027,",
+      "last_author_affiliation": "Scripps Institution of Oceanography, University of California San Diego 5 , La Jolla, California 92093,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-01",
+      "first_seen_at": "2026-10-02T08:37:25Z"
     },
     {
       "title": "Physics-informed neural operators for the in situ characterization of locally reacting sound absorbers",
@@ -2772,14 +2774,6 @@
       "doi": "10.1121/10.0046762",
       "url": "https://doi.org/10.1121/10.0046762",
       "abstract": "The purpose of these acoustical patent reviews is to provide enough information for a Journal reader to decide whether to seek more information from the patent itself. Any opinions expressed here are those of the reviewers as individuals and are not legal opinions. Patents are available via the internet at the USPTO website at http://www.uspto.gov.",
-      "first_author_affiliation": "Dept. of Linguistics California State University Fresno 5245 N. Backer Avenue, Fresno, California 93740-8001",
-      "last_author_affiliation": "Dept. of Linguistics California State University Fresno 5245 N. Backer Avenue, Fresno, California 93740-8001",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-10-01",
-      "first_seen_at": "2026-10-02T08:37:25Z",
       "ai_analysis": {
         "scientific_question": "这些声学专利综述旨在为读者提供何种信息，以帮助其决定是否查阅专利原文？",
         "key_highlight": "综述的目的是提供足够信息，让《期刊》读者判断是否需要从专利本身获取更多信息。",
@@ -2795,7 +2789,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "ce3791edf97e69a4",
         "updated_at": "2026-10-04T13:36:13Z"
-      }
+      },
+      "first_author_affiliation": "Dept. of Linguistics California State University Fresno 5245 N. Backer Avenue, Fresno, California 93740-8001",
+      "last_author_affiliation": "Dept. of Linguistics California State University Fresno 5245 N. Backer Avenue, Fresno, California 93740-8001",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-10-01",
+      "first_seen_at": "2026-10-02T08:37:25Z"
     },
     {
       "title": "Relationship between age-related hearing loss, phonological working memory, and global cognitive performance",
@@ -2907,16 +2909,6 @@
       "doi": "10.1121/10.0046797",
       "url": "https://doi.org/10.1121/10.0046797",
       "abstract": "Villa elevator noise is predominantly concentrated in the 20–500 Hz frequency range, with a reverberation time of 0.2 s, which is far shorter than the 0.4 s of conventional elevators. This makes it challenging for adaptive filters to guarantee effective noise reduction performance. A novel deep learning-based active noise cancellation method is proposed based on Dominant Transmission Path and Complex-spectrum Network (DTPC-Net). First, a transmission path model was established, and the primary noise source and its dominant propagation direction were identified based on coherence analysis and energy distribution. Subsequently, a one-dimensional modeling strategy oriented toward the dominant propagation direction is proposed to address the high computational complexity of three-dimensional modeling. Furthermore, a convolutional recurrent network was designed to estimate the complex spectrum of noise signal. A hierarchical long short-term memory module and a Squeeze-and-Excitation attention module were incorporated to capture dynamically varying noise features. In addition, a predictive compensation mechanism based on blank frame padding was proposed to train the neural network and mitigate system delay. Finally, noise was reduced by 10.29 dB and 8.76 dB when the villa elevator operates at 0.4 m/s and 1 m/s, respectively. And the corresponding A-weighted reductions were 7.62 dBA and 7.54 dBA.",
-      "first_author_affiliation": "School of Mechanical and Electrical Engineering, Shandong Jianzhu University 1 , Jinan 250101, Shandong Province,",
-      "last_author_affiliation": "Shandong FUJIZY Elevator Co., Ltd. 2 , Dezhou 253400, Shandong Province,",
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "machine learning"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-01",
-      "first_seen_at": "2026-10-02T08:37:25Z",
       "ai_analysis": {
         "scientific_question": "如何针对别墅电梯在20–500 Hz频段、混响时间仅0.2 s的噪声环境，实现有效的主动降噪？",
         "key_highlight": "提出基于主传播路径与复频谱网络（DTPC-Net）的深度学习主动降噪方法，在0.4 m/s和1 m/s运行速度下分别实现10.29 dB和8.76 dB的降噪量。",
@@ -2932,7 +2924,17 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "8c6feb908fe5ab78",
         "updated_at": "2026-10-04T13:36:15Z"
-      }
+      },
+      "first_author_affiliation": "School of Mechanical and Electrical Engineering, Shandong Jianzhu University 1 , Jinan 250101, Shandong Province,",
+      "last_author_affiliation": "Shandong FUJIZY Elevator Co., Ltd. 2 , Dezhou 253400, Shandong Province,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "machine learning"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-01",
+      "first_seen_at": "2026-10-02T08:37:25Z"
     },
     {
       "title": "Role of harmonicity in counting and hearing out voices in polyphonic music: Effects of hearing loss",
@@ -3004,14 +3006,6 @@
       "doi": "10.1121/10.0046804",
       "url": "https://doi.org/10.1121/10.0046804",
       "abstract": "Enhancing and extracting sinusoidal signals (tonals) is a key challenge in underwater acoustic signal processing. However, conventional tonal enhancement methods deteriorate seriously under high levels of impulse noise. To address this problem, we propose a sparse spatial-frequency adaptive learning method for robust tonal enhancement in the presence of impulse noise. An array signal model is formulated to characterize spatially correlated impulse noise. Based on this model, we exploit the sparsity of tonals in the spatial-frequency domain and develop a sparse spatial-frequency beamforming approach to achieve initial tonal enhancement. To mitigate the false alarms caused by impulse noise artifacts in the resulting azimuth-frequency spectrum, we further introduce an adaptive learning scheme. This scheme exploits the stationarity of tonal signals and the non-stationarity of impulse noise to effectively suppress noise-induced artifacts, thereby achieving a higher output signal-to-noise ratio. The proposed method is validated using both simulated and real experimental data. Comparative results demonstrate that our approach outperforms baseline methods in terms of azimuth resolution and processing gain under impulse noise conditions.",
-      "first_author_affiliation": "Institute of Acoustics, Chinese Academy of Sciences 1 , Beijing 100190,",
-      "last_author_affiliation": "Institute of Acoustics, Chinese Academy of Sciences 1 , Beijing 100190,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-01",
-      "first_seen_at": "2026-10-02T08:37:25Z",
       "ai_analysis": {
         "scientific_question": "在高脉冲噪声的水下声学环境中，如何稳健地增强和提取正弦信号（tonals）？",
         "key_highlight": "提出了一种稀疏空间-频率自适应学习方法，利用tonals在空间-频率域的稀疏性以及tonals的平稳性与脉冲噪声的非平稳性，在脉冲噪声下实现了优于基线方法的方位分辨率和处理增益。",
@@ -3027,7 +3021,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "a34a3039d0f20e73",
         "updated_at": "2026-10-04T13:36:16Z"
-      }
+      },
+      "first_author_affiliation": "Institute of Acoustics, Chinese Academy of Sciences 1 , Beijing 100190,",
+      "last_author_affiliation": "Institute of Acoustics, Chinese Academy of Sciences 1 , Beijing 100190,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-01",
+      "first_seen_at": "2026-10-02T08:37:25Z"
     },
     {
       "title": "Special issue on misophonia and hyperacusis",
@@ -3065,6 +3067,22 @@
       "url": "https://doi.org/10.1097/aud.0000000000001904",
       "full_text_url": "https://www.ovid.com/jnls/ear-hearing/fulltext/10.1097/aud.0000000000001904~the-intelligibility-based-repeat-recall-test-ii-performance",
       "abstract": "Objectives: To gather normal-hearing (NH) reference data for an intelligibility-based Repeat-Recall Test (i-RRT) against which to compare the performance of hearing-impaired (HI) listeners. Design: A single-blind, within-subjects design involving 20 NH and 19 HI adult listeners who performed the i-RRT protocol in two stages. First, listeners were tested with an adaptive “easy” Speech Reception Threshold test to estimate their performance-intensity functions for speech-in-noise (SiN). Second, listeners were tested at fixed signal to noise ratios (SNRs) corresponding to individualized speech reception thresholds (SRTs) for different performance criteria. NH listeners were tested separately for high context (HC) and low context (LC) materials drawn from the Repeat-Recall Test (RRT) speech corpus, presented from the front at a fixed level of 68 dBA, in two-talker babble-noise from the front (2TBN-0°) or speech-shaped noise back (SSN-180°) masking configurations. NH listeners then performed the i-RRT at SNRs corresponding to individualized estimates of speech reception threshold at a criterion of 25% correct, SRT50, SRT75, and SRT90. The i-RRT involved repeating lists of six RRT sentences, then recalling the content of those sentences, and providing ratings of listening effort (LE) and willingness to stay in noise (i.e., tolerable time [TT]). Each combination of SRT criterion, noise configuration, and sentence context was tested twice to assess test–retest reliability. As a demonstration, HI listeners were tested in the aided mode using only HC speech materials in 2TBN-0° and SSN-180° noise configurations, and the i-RRT was administered at SNRs corresponding to SRT50 and SRT90. Results: The “easy” Speech Reception Threshold performance of NH listeners was significantly better for HC than LC sentences and for SSN-180° than 2TBN-0° noise configurations. All subsequent outcome measures of the i-RRT (repeat, recall, LE, and TT) were significantly affected by SRT criteria. However, even at equal SRT criteria, the i-RRT outcome measures of recall, LE, and TT were still significantly affected by sentence context; recall and TT outcomes were also significantly affected by noise configuration. Specifically, NH listeners exhibited poorer recall, higher LE, and lower TT for LC than HC sentences and poorer recall and lower TT for 2TBN-0° than SSN-180° conditions. Test–retest reliability analyses showed the lowest reliability for LC recall in both noise configurations and for repeat scores in 2TBN-0°; other measures showed moderate to excellent reliability. HI listeners’ recall and LE ratings were typically in the lower 25 to 30 percentile of NH performance. Conclusions: Conditions of the i-RRT, including sentence context and noise configuration, in addition to listeners’ hearing status, not only impacted the SNR required for different listeners to achieve certain SRT criteria, but also affected secondary measures of recall, LE, and TT ratings assessed at matched SRT criteria. These results suggest that certain SiN test factors demand cognitive resource allocation from listeners that cannot be accommodated by SNR adjustment. While still a research tool, the i-RRT may be useful in the future to clinically profile listeners’ SiN difficulties and their allocation of listening-related cognitive resources as captured by recall, LE, and TT.",
+      "ai_analysis": {
+        "scientific_question": "在基于可懂度的重复-回忆测试（i-RRT）中，句子语境和噪声配置如何影响正常听力与助听听障听者的表现？",
+        "key_highlight": "即使匹配言语接收阈标准，句子语境和噪声配置仍显著影响回忆、聆听努力和可容忍时间等次要指标。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "i-RRT可能有助于未来临床评估听者在噪声中的困难及其聆听相关认知资源分配，但目前仍属研究工具。",
+        "evidence": [
+          "However, even at equal SRT criteria, the i-RRT outcome measures of recall, LE, and TT were still significantly affected by sentence context; recall and TT outcomes were also significantly affected by noise configuration.",
+          "While still a research tool, the i-RRT may be useful in the future to clinically profile listeners’ SiN difficulties and their allocation of listening-related cognitive resources as captured by recall, LE, and TT."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "bebed2209bd9955d",
+        "updated_at": "2026-10-04T13:36:08Z"
+      },
       "first_author_affiliation": "WSA Office of Research in Clinical Amplification (ORCA-USA), Lisle, Illinois, USA.",
       "last_author_affiliation": "WSA Office of Research in Clinical Amplification (ORCA-USA), Lisle, Illinois, USA.",
       "open_access": true,
@@ -3091,23 +3109,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-01",
-      "first_seen_at": "2026-10-02T08:37:33Z",
-      "ai_analysis": {
-        "scientific_question": "在基于可懂度的重复-回忆测试（i-RRT）中，句子语境和噪声配置如何影响正常听力与助听听障听者的表现？",
-        "key_highlight": "即使匹配言语接收阈标准，句子语境和噪声配置仍显著影响回忆、聆听努力和可容忍时间等次要指标。",
-        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
-        "research_implication": "i-RRT可能有助于未来临床评估听者在噪声中的困难及其聆听相关认知资源分配，但目前仍属研究工具。",
-        "evidence": [
-          "However, even at equal SRT criteria, the i-RRT outcome measures of recall, LE, and TT were still significantly affected by sentence context; recall and TT outcomes were also significantly affected by noise configuration.",
-          "While still a research tool, the i-RRT may be useful in the future to clinically profile listeners’ SiN difficulties and their allocation of listening-related cognitive resources as captured by recall, LE, and TT."
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "bebed2209bd9955d",
-        "updated_at": "2026-10-04T13:36:08Z"
-      }
+      "first_seen_at": "2026-10-02T08:37:33Z"
     },
     {
       "title": "The decline of progranulin expression in cochlear Microglia-Like Cells accelerates the progression of age-related hearing loss",
@@ -3233,7 +3235,23 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-01",
-      "first_seen_at": "2026-10-02T08:37:25Z"
+      "first_seen_at": "2026-10-02T08:37:25Z",
+      "ai_analysis": {
+        "scientific_question": "增材制造（熔融沉积建模）制备的结构的弹性振动响应在不同打印设备之间存在多大变异性？",
+        "key_highlight": "在跨六家机构的循环比对研究中，不同打印机之间的变异性在体材料动态性能上约为20%，而在耦合谐振器-梁动态性能上高达280%。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该研究为跨多种打印机硬件的超材料设计提供了设计界限，并提示需理解该制造方法的可重复性。",
+        "evidence": [
+          "Measured resonance response of each set of samples revealed that the variability between printers was roughly 20% in bulk dynamic properties and as large as 280% in coupled resonator-beam dynamic performance.",
+          "The study provides design bounds for metamaterial design across various printer hardware and highlights the importance of understanding repeatability using this fabrication approach."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "ee5a0d7c56f70284",
+        "updated_at": "2026-10-05T09:12:48Z"
+      }
     },
     {
       "title": "Vertical line array observations of the angles of intromission into a layered shallow water seabed",
@@ -3251,20 +3269,6 @@
       "url": "https://doi.org/10.1121/10.0046787",
       "full_text_url": "https://pubs.aip.org/jel/article/6/10/106001/3405757/Vertical-line-array-observations-of-the-angles-of",
       "abstract": "Bottom-reflected acoustic arrivals from muddy seabeds can exhibit incident grazing angle-dependent reflection loss associated with the angle of intromission. Previous studies investigated this phenomenon through bottom-reflection measurements on individual hydrophones. In this Letter, acoustic transmissions from a towed source in two mid-frequency bands (3.5–4.5 and 5.5–6.5 kHz) are analyzed using vertical line array hydrophones deployed on the Washington shelf. Weak bottom-reflected arrivals are observed, exhibiting more complex frequency-dependent behavior than predicted by a homogeneous muddy halfspace. Guided by sub-bottom profiler measurements, a preliminary multilayer analysis shows that interference among reflections from multiple sediment layers provides a plausible explanation.",
-      "first_author_affiliation": "Marine Physical Laboratory, Scripps Institution of Oceanography, University of California San Diego 1 , La Jolla, California 92093,",
-      "last_author_affiliation": "Applied Physics Laboratory, University of Washington 2 , Seattle, Washington 98105,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0046787",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "open_access_image_checked_at": "2026-10-02T08:37:59Z",
-      "media_checked_at": "2026-10-02T08:37:59Z",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-10-01",
-      "first_seen_at": "2026-10-02T08:37:26Z",
       "ai_analysis": {
         "scientific_question": "在华盛顿陆架浅海泥质海底，利用垂直阵水听器观测到的海底入射角（intromission angle）相关的反射损失，其频率依赖行为能否用均匀泥质半空间模型解释？",
         "key_highlight": "观测到弱的海底反射到达，其频率依赖行为比均匀泥质半空间预测更复杂，初步多层分析表明多层沉积物反射之间的干涉提供了合理解释。",
@@ -3280,7 +3284,21 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "e8a763ee62ef3956",
         "updated_at": "2026-10-04T13:36:10Z"
-      }
+      },
+      "first_author_affiliation": "Marine Physical Laboratory, Scripps Institution of Oceanography, University of California San Diego 1 , La Jolla, California 92093,",
+      "last_author_affiliation": "Applied Physics Laboratory, University of Washington 2 , Seattle, Washington 98105,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046787",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-10-02T08:37:59Z",
+      "media_checked_at": "2026-10-02T08:37:59Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-10-01",
+      "first_seen_at": "2026-10-02T08:37:26Z"
     },
     {
       "title": "Acoustic event detection for spatiotemporal patterns of bird activity in protected areas",
@@ -3305,7 +3323,23 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-30",
-      "first_seen_at": "2026-10-01T09:02:19Z"
+      "first_seen_at": "2026-10-01T09:02:19Z",
+      "ai_analysis": {
+        "scientific_question": "在黄龙保护区，如何利用声学事件检测（AED）与本地训练的鸟类物种识别模型，量化鸟类发声活动的时空变化及其与人类干扰强度的关系？",
+        "key_highlight": "研究识别出保护区内关键物种，并发现鸟类活动呈明显昼夜与月度模式：上午中段达到高峰、夜间维持低位、并随月份推移而下降，同时沿人类干扰增强的梯度而减少。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该研究提示基于AED的被动声学监测可用于刻画鸟类群落动态，并可能为保护区的生物多样性监测与旅游管理提供支持，但摘要未报告因果机制或具体管理效果。",
+        "evidence": [
+          "Results identified key species within the protected area and revealed distinct daily and monthly activity patterns, with bird activity peaking in mid-morning, remaining low at night, and declining over successive months.",
+          "Bird activity also decreased along gradients of increasing human disturbance."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "1d6871a744bbddf1",
+        "updated_at": "2026-10-05T09:12:52Z"
+      }
     },
     {
       "title": "Acoustic radiation of tail bubble dynamics in underwater cylinder launch",
@@ -3328,7 +3362,23 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-30",
-      "first_seen_at": "2026-10-01T09:02:19Z"
+      "first_seen_at": "2026-10-01T09:02:19Z",
+      "ai_analysis": {
+        "scientific_question": "水下圆柱发射过程中尾部气泡动力学如何产生声辐射，以及通气压力与自由表面对其有何影响？",
+        "key_highlight": "研究揭示阶段依赖的声辐射特征：圆柱在发射筒内时声辐射可忽略，出筒后尾部气泡产生显著声辐射，夹断后两个残余气泡结构的振荡主导后期声信号。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "所提模型对尾部气泡固有频率具有较好预测精度，相关发现可为水下发射气泡声学研究提供参考。",
+        "evidence": [
+          "The results reveal a stage-dependent acoustic radiation feature: acoustic radiation is negligible while the cylinder moves inside the launcher. Upon exit, significant acoustic radiation is produced by the tail bubble.",
+          "Furthermore, the dominant acoustic frequency exhibits a non-monotonic depth dependence with a distinct minimum at intermediate depths."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "1737b329378995d5",
+        "updated_at": "2026-10-05T09:12:58Z"
+      }
     },
     {
       "title": "Evaluating Human Auditory Nerve (AN) and Brainstem Function Through Level-Dependent Chirps and Predicted AN Firing Distributions",
@@ -3368,7 +3418,23 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-30",
-      "first_seen_at": "2026-10-01T09:02:30Z"
+      "first_seen_at": "2026-10-01T09:02:30Z",
+      "ai_analysis": {
+        "scientific_question": "在正常听力成人中，衰减低频能量的啁啾声能否相对于原始平坦频谱啁啾声和喀嗒声提高CAP与ABR波幅，并反映听觉神经同步性？",
+        "key_highlight": "低频衰减啁啾声在几乎所有刺激强度下产生的CAP和ABR波幅均大于喀嗒声和原始啁啾声，其推导的AN放电分布与更强的AN同步性一致。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "这些发现提示低频衰减啁啾声与预测的AN放电分布可能有助于评估人类AN功能，包括AN纤维损失及其他疾病状态的影响。",
+        "evidence": [
+          "Low-frequency-attenuated chirps produced larger CAP and ABR wave amplitudes than clicks and the original chirp for nearly all stimulus levels.",
+          "The distributions for low-frequency-attenuated chirps were consistent with greater AN synchrony compared to those for clicks and the original chirp."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "e951dabb78af72bb",
+        "updated_at": "2026-10-05T09:12:50Z"
+      }
     },
     {
       "title": "Frequency-Weighted Soft-Constrained Spatially Selective Active Noise Control for Open-Fitting Hearables",
@@ -3463,7 +3529,23 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-30",
-      "first_seen_at": "2026-10-01T09:02:19Z"
+      "first_seen_at": "2026-10-01T09:02:19Z",
+      "ai_analysis": {
+        "scientific_question": "双旋流燃烧器的三端口燃烧器传递矩阵（BTM）如何通过数值方法确定，并与扩展的l-ζ模型预测进行比较？",
+        "key_highlight": "数值计算得到复值3×3 BTM，但将经典两端口l-ζ公式扩展到三端口配置被判定为无效，表现为入口间非零耦合项和拟合参数不合理地大。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "结果表明三端口配置需要超越经典两端口l-ζ公式的建模方法，但摘要未说明具体替代方案或实际应用。",
+        "evidence": [
+          "extending the classical two-port l-ζ formulation to the present three-port configuration is found to be invalid, as indicated by non-zero coupling terms between the inlets and unrealistically large fitted parameters",
+          "Variations in operating conditions, including speed of sound and inlet momentum ratio, show only minor influence on the BTM."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "bba6760e2f8aaa85",
+        "updated_at": "2026-10-05T09:12:59Z"
+      }
     },
     {
       "title": "The Enigmatic Presence of Actin Rings, Actin Cables and Ectopic Hair Cells in the Vestibular Maculae of Mice and Humans",
@@ -4847,22 +4929,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046572",
-      "url": "https://doi.org/10.1121/10.0046572",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:56Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -4875,6 +4941,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:59Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046572",
+      "url": "https://doi.org/10.1121/10.0046572",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:56Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -15798,22 +15880,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -15826,6 +15892,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -44721,18 +44803,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -44753,17 +44834,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -54087,22 +54169,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -54115,6 +54181,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -61217,23 +61299,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -61247,6 +61312,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -64798,8 +64880,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -64813,8 +64895,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -70335,8 +70417,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -70350,8 +70432,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
