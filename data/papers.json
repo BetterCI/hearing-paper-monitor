@@ -1,26 +1,6 @@
 {
-  "generated_at": "2026-10-07T08:48:48Z",
+  "generated_at": "2026-10-08T09:07:15Z",
   "papers": [
-    {
-      "title": "Central auditory processing skills in stuttering school-age children with and without dyslexia: a preliminary study",
-      "authors": [
-        "Alaa Mamdouh abdelhamed Radwan",
-        "HebatAllah Ismail Abdelmotaleb"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-12-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109829",
-      "url": "https://doi.org/10.1016/j.heares.2026.109829",
-      "abstract": null,
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-30",
-      "first_seen_at": "2026-10-04T13:29:35Z"
-    },
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
       "authors": [
@@ -1308,6 +1288,250 @@
       "first_seen_at": "2026-09-03T07:13:37Z"
     },
     {
+      "title": "A Lightweight Hybrid Framework for Acoustic Echo Cancellation and Suppression via Constrained Recursive Training",
+      "authors": [
+        "Huawei Zhang",
+        "Rilin Chen",
+        "Hao Zhang",
+        "Meng Yu",
+        "Dong Yu"
+      ],
+      "journal": "arXiv",
+      "publication_date": "2026-10-07",
+      "publication_date_precision": "day",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2610.09655v1",
+      "abstract": "We propose a hybrid framework that combines deep learning with adaptive filtering for acoustic echo cancellation (AEC) and suppression. It integrates a multi-output neural network to jointly update filter parameters and perform post-processing. A learnable variant of the normalized least mean squares (NLMS) filter is introduced, incorporating a variable step size and a variable transition factor that are recursively updated for dynamic adaptation. In addition, an enhanced near-end speech estimate is generated from the filter output to suppress the residual echoes. To ensure training stability, we propose a constrained recursive training strategy that aligns with the adaptive nature of the filter, where an upper-bound constraint is introduced on the filter output. For efficiency, the framework adopts a lightweight implementation with only 253 k parameters. Experimental results show that the framework outperforms the baselines in terms of both signal quality and speech intelligibility.",
+      "publication_stage": "preprint",
+      "section": null,
+      "keywords": [
+        "eess.AS"
+      ],
+      "tags": [],
+      "source": "arxiv",
+      "available_online_date": "2026-10-07",
+      "source_group": "preprint_filtered",
+      "source_group_label": "Preprints (arXiv)",
+      "actual_journal": "arXiv",
+      "match_level": "topic_filtered_hearing_speech",
+      "matched_keywords": [
+        "speech intelligibility"
+      ],
+      "match_fields": [
+        "abstract"
+      ],
+      "needs_review": true,
+      "first_seen_at": "2026-10-08T09:07:15Z"
+    },
+    {
+      "title": "Auditory- and Visual-Speech Evoked Activation of the Superior Temporal Gyrus Contralateral to the Cochlear Implant Predicts Speech Recognition Outcomes",
+      "authors": [
+        "Tommy Peng",
+        "Katherine R. Henshall",
+        "Jamal Esmaelpoor",
+        "Mica Haneman",
+        "Linty McDonald",
+        "Maureen J. Shader",
+        "Robert Luke",
+        "Colette M. McKay"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-10-07",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001900",
+      "url": "https://doi.org/10.1097/aud.0000000000001900",
+      "abstract": "Objectives: Speech recognition outcomes vary widely in cochlear implant recipients, but the reasons for this variability are not well explained by patient history factors alone. Neuroplastic reorganization after both deafness and cochlear implant switch-on can affect how new recipients adapt to electrical hearing. In this study, we evaluate the associations between speech recognition outcomes and stimulus-evoked activation of cortical language processing areas. Design: Forty-three newly implanted post-lingually deaf adult cochlear implant recipients (17 female, mean age at implantation: 58.5 yr, SD: 14.4 yr) were recruited for the longitudinal study. Participants attended two research visits: the first conducted within 1 mo of device switch-on, and the second conducted 1 yr after device switch-on. At each visit, we evaluated speech recognition outcomes in noise and cortical activation using functional near-infrared spectroscopy during a passive listening task, during which a story was told in either an auditory- or visual-speech (lipreading) condition. Results: We found consistent negative correlations between speech understanding outcomes at 1 yr and activation of the superior temporal gyrus at 1 mo in response to both auditory and visual speech. These associations were not observed for activation measured at 1 yr. Subgroup regression analysis revealed that these correlations were most consistently seen in the superior temporal gyrus contralateral to the cochlear implant. Activation in the superior temporal gyrus contralateral to the implant at 1 mo also explained additional variance in speech outcomes at 1 yr beyond clinical factors alone. However, longitudinal analysis showed no association between within-subject changes in activation and changes in speech understanding outcomes within this first year of implant use. Conclusions: Our evidence highlights that neuroplastic changes which occur following adult-onset deafness play an important role in how cochlear implant recipients adapt to their devices after switch-on. The relationship between neuroimaging measures made within 1 mo after device switch-on and speech recognition outcomes at 1 yr can potentially enable triaging of recipients to improve clinical management of implant recipients.",
+      "first_author_affiliation": "The Bionics Institute, Melbourne, Australia",
+      "last_author_affiliation": "The Bionics Institute, Melbourne, Australia",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Cochlear implant",
+        "Cross-modal activation",
+        "Speech understanding outcomes",
+        "fNIRS"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology",
+        "cochlear implant",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-07",
+      "first_seen_at": "2026-10-08T09:06:24Z",
+      "ai_analysis": {
+        "scientific_question": "在成年语后聋人工耳蜗植入者中，植入后1个月内听觉言语与视觉言语（唇读）诱发的皮层语言区激活，是否与植入1年后的言语识别结果相关？",
+        "key_highlight": "植入后1个月时，对侧于人工耳蜗的颞上回在听觉和视觉言语条件下的激活与1年后言语理解成绩呈一致的负相关，且该激活在临床因素之外额外解释了1年后言语结果的变异。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "摘要提示，植入后1个月内的神经影像指标可能有助于对人工耳蜗植入者进行分诊并改善临床管理，但这属于作者提出的潜在应用，尚需进一步验证。",
+        "evidence": [
+          "We found consistent negative correlations between speech understanding outcomes at 1 yr and activation of the superior temporal gyrus at 1 mo in response to both auditory and visual speech.",
+          "However, longitudinal analysis showed no association between within-subject changes in activation and changes in speech understanding outcomes within this first year of implant use."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "74f62c26a4fae9aa",
+        "updated_at": "2026-10-08T09:07:46Z"
+      }
+    },
+    {
+      "title": "Cognitive, Learning, and Executive Function Behaviors in Children With Cochlear Implants",
+      "authors": [
+        "Angelika Illg",
+        "Melina Schipper",
+        "William Kronenberger",
+        "Andrej Kral"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-10-07",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001902",
+      "url": "https://doi.org/10.1097/aud.0000000000001902",
+      "abstract": "Objectives: Hearing loss in early childhood can affect the development of language, cognition, and executive functions (EF). Although cochlear implantation (CI) restores auditory input, considerable variability in cognitive and academic outcomes remains. This study investigated everyday EF, learning, and academic behaviors in children with CIs compared with typically hearing peers. Design: Parents of 279 children aged 6 to 18 yr (119 children with CIs, 160 typical hearing) completed the Learning, Executive, and Attention Functioning (LEAF) questionnaire. Subscales were analyzed using Wilcoxon tests and generalized linear modeling to compare cognitive domains (Cognitive-Executive, Cognitive-Learning, Academic) and to explore associations with speech recognition outcomes. Results: Children with CIs showed significantly higher LEAF scores across most domains, indicating greater EF and academic difficulties, even after excluding participants with additional comorbidities. The strongest group differences occurred in comprehension, conceptual learning, and academic skills (reading, writing, and mathematics). While overall EF performance (composite cLEAF) was not correlated with speech recognition, the Cognitive-Learning domain—particularly comprehension and conceptual learning—was negatively associated with speech-in-noise performance. Children with CIs also exhibited greater intraindividual variability across cognitive subdomains. Conclusions: Children with CIs, despite good speech recognition, demonstrate domain-specific and heterogeneous challenges in EF and academic performance. These difficulties are not fully explained by auditory or speech recognition abilities, underscoring the importance of addressing broader neurocognitive factors in clinical assessment and intervention. Targeted cognitive and educational support may help reduce cognitive scatter and improve functional outcomes.",
+      "first_author_affiliation": "Clinic for Otorhinolaryngology, Hannover Medical School, Hannover, Germany",
+      "last_author_affiliation": "Clinic for Otorhinolaryngology, Hannover Medical School, Hannover, Germany",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Academic skills",
+        "Children",
+        "Cochlear implants",
+        "Cognition",
+        "Executive functions",
+        "Learning",
+        "Speech recognition"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology",
+        "cochlear implant",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-07",
+      "first_seen_at": "2026-10-08T09:06:24Z",
+      "ai_analysis": {
+        "scientific_question": "与典型听力同龄人相比，植入人工耳蜗的儿童在日常执行功能、学习和学业行为方面表现出怎样的差异？",
+        "key_highlight": "植入人工耳蜗的儿童在多数LEAF领域得分显著更高，表明其执行功能与学业困难更多，且在理解、概念学习和学业技能上组间差异最大。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "这些困难不能完全由听觉或言语识别能力解释，提示临床评估与干预需关注更广泛的神经认知因素，并可能需要针对性的认知与教育支持。",
+        "evidence": [
+          "Children with CIs showed significantly higher LEAF scores across most domains, indicating greater EF and academic difficulties, even after excluding participants with additional comorbidities.",
+          "While overall EF performance (composite cLEAF) was not correlated with speech recognition, the Cognitive-Learning domain—particularly comprehension and conceptual learning—was negatively associated with speech-in-noise performance."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "6317fb5e0833ce40",
+        "updated_at": "2026-10-08T09:07:47Z"
+      }
+    },
+    {
+      "title": "Creating an Ear and Hearing Health Culture for Professional Ear Users: Current Perspectives on Challenges, Management, and Recommendations",
+      "authors": [
+        "David Bächinger",
+        "Marshall Chasin",
+        "Michael Santucci",
+        "Fiona Butterworth",
+        "Steven D. Rauch",
+        "Hannah Keppler",
+        "Ian O’Brien",
+        "Samuel Couth",
+        "Raphael Jecker",
+        "Katrin Bucher",
+        "Carl Firle",
+        "Cosima Riemenschnitter",
+        "Rico Gubler",
+        "Horst Hildebrandt",
+        "Tobias Kleinjung",
+        "Dorothe Veraguth"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-10-07",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001898",
+      "url": "https://doi.org/10.1097/aud.0000000000001898",
+      "abstract": "Professional ear users (PEUs), including musicians, instrument makers, or sound engineers, depend on highly trained auditory abilities for occupational performance. Given these demands, PEUs may benefit from tailored prevention, diagnostics, and treatment. Ear and hearing disorders are common and potentially career-ending in these populations, yet PEU-specific care pathways remain underdeveloped. This narrative review synthesizes the clinical experience of the authors with current evidence, recommendations, and challenges to advance an interdisciplinary framework for PEU ear and hearing health care: prevention of music- and noise-induced disorders, attention to non-noise risk factors, advanced diagnostics beyond standard audiometry, allied-health collaboration, and individualized treatment addressing professional consequences. Although most evidence comes from musicians and, to a lesser extent, other PEUs, the framework applies broadly to auditory-dependent professions. Drawing on the Capability-Opportunity-Motivation model and analogous cultures in performing arts and elite sports, we propose concrete anchors for behavioral and institutional change, advocating an interdisciplinary culture integrating education, monitoring, and specialized care across medical, occupational, educational, and regulatory stakeholders. Empirical evaluation of comprehensive PEU-specific protocols has yet to be conducted. Therefore, the recommendations presented here are also intended as a basis for future studies testing their effectiveness.",
+      "first_author_affiliation": "Department of Otorhinolaryngology, Head and Neck Surgery, University Hospital Zurich, Zurich, Switzerland",
+      "last_author_affiliation": "Department of Otorhinolaryngology, Head and Neck Surgery, University Hospital Zurich, Zurich, Switzerland",
+      "open_access": true,
+      "open_access_url": "https://www.ovid.com/10.1097/AUD.0000000000001898",
+      "open_access_source": "crossref_license",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Audiology",
+        "Extended high-frequency",
+        "Hearing conservation",
+        "Hearing protection",
+        "Hearing protection devices",
+        "Music",
+        "Music-induced hearing loss",
+        "Musician’s medicine",
+        "Noise-induced hearing loss",
+        "Occupational hearing loss",
+        "Performing arts medicine"
+      ],
+      "tags": [
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-07",
+      "first_seen_at": "2026-10-08T09:06:24Z",
+      "full_text_url": "https://www.ovid.com/jnls/ear-hearing/fulltext/10.1097/aud.0000000000001898~creating-an-ear-and-hearing-health-culture-for-professional",
+      "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
+      "media_checked_at": "2026-10-08T09:07:28Z",
+      "open_access_image_checked_at": "2026-10-08T09:07:27Z",
+      "ai_analysis": {
+        "scientific_question": "如何为专业用耳人群（如音乐家、乐器制造者、音响工程师）建立跨学科的耳与听力健康照护框架？",
+        "key_highlight": "该叙述性综述综合作者临床经验与现有证据，提出涵盖预防、非噪声风险因素、超越标准听力计的诊断、联合健康协作及个体化治疗的跨学科框架。",
+        "main_limitation": "摘要明确指出，针对专业用耳人群的综合专属方案尚未开展实证评估，因此所提建议仅作为未来研究检验其有效性的基础。",
+        "research_implication": "这些建议可作为未来研究检验其有效性的基础，用以推动针对专业用耳人群的专属方案实证评估。",
+        "evidence": [
+          "Empirical evaluation of comprehensive PEU-specific protocols has yet to be conducted.",
+          "Therefore, the recommendations presented here are also intended as a basis for future studies testing their effectiveness."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "c82df8a3815f005d",
+        "updated_at": "2026-10-08T09:07:49Z"
+      }
+    },
+    {
+      "title": "Effects of winding configuration on the perceived timbre of aluminum-wound violin strings",
+      "authors": [
+        "Maki Ashida",
+        "Akihiko Dempo",
+        "Shotaro Hisano",
+        "Chie Ashida",
+        "Taichi Akutsu"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-10-07",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046801",
+      "url": "https://doi.org/10.1121/10.0046801",
+      "abstract": "Winding construction of violin strings may influence subjective impressions of timbre even with comparable constituent materials and the same nominal pitch. However, the effects of winding-related structural differences on these impressions of timbre remain unclear. In this study, a subjective evaluation of timbre was conducted using two commercially available violin A-strings, designated as String-1 and String-2. Material characterization indicated that both strings had comparable constituent materials, including polyether ether ketone (PEEK)-like synthetic multifilament cores and two layers of Al-5Mg alloy flat-wire windings. The two strings differed in the winding configuration, helical geometry, total linear density, and component-wise mass distribution. The participants' musical experience was measured using the Goldsmiths Musical Sophistication Index. Subjective evaluations showed that String-2 was rated as more massive than String-1 regardless of musical experience. These results suggest that even among strings with comparable constituent materials, the contact conditions and mechanical properties associated with differences in the winding structure of strings may influence the subjective impressions of the timbre of a violin, especially in terms of massiveness.",
+      "first_author_affiliation": "Department of Science and Technology, Faculty of Science and Technology, Seikei University 1 , Musashino 180-8633, Tokyo,",
+      "last_author_affiliation": "Department of Early Childhood Studies, Faculty of Health and Welfare Science, Okayama Prefectural University 5 , Soja 719-1197, Okayama,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "priority section",
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-07",
+      "first_seen_at": "2026-10-08T09:06:00Z"
+    },
+    {
       "title": "Audiovisual joint learning for end-to-end hearing aids",
       "authors": [
         "You-Jin Li",
@@ -1678,6 +1902,34 @@
       "first_seen_at": "2026-10-03T08:14:09Z"
     },
     {
+      "title": "Concentration-dependent effects of dimethyl sulfoxide on cochlear efferent function and outer hair cell motility",
+      "authors": [
+        "Choongheon Lee",
+        "Jong-Hoon Nam"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-02",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109831",
+      "url": "https://doi.org/10.1016/j.heares.2026.109831",
+      "abstract": "Dimethyl sulfoxide (DMSO) is widely used as a solvent in auditory and vestibular pharmacology, yet its direct effects on cochlear function are not well defined. We tested whether DMSO in artificial perilymph, delivered through the posterior semicircular canal in mice, alters distortion product otoacoustic emissions (DPOAEs) and medial olivocochlear (MOC)-mediated cochlear responses in the absence of active drug. Artificial perilymph alone produced no measurable change in either MOC-mediated responses or baseline DPOAEs. In contrast, 5% DMSO progressively increased MOC-mediated suppression, 10% DMSO produced a more marked enhancement of MOC-mediated suppression, and 15% DMSO initially enhanced MOC-mediated suppression but subsequently caused progressive loss of both baseline DPOAEs and MOC-mediated suppression. Averaged response profiles showed a concentration dependent increase in MOC-mediated suppression, and Hill-type analysis yielded an EC50 of 5.29% DMSO. At higher concentrations, 15% DMSO elevated DPOAE threshold by approximately 30 dB. Because DMSO containing solutions were markedly hyperosmotic relative to artificial perilymph, osmotic stress likely contributed to the observed effects. To test direct cochlear action, we also examined outer hair cell (OHC) electromotility ex vivo using optical coherence tomography in gerbils. In this preparation, 5% DMSO reversibly reduced OHC electromotility without obvious structural damage. These findings indicate that DMSO effects depend on centration and experimental context. Although 1% DMSO produced no measurable effect, direct perilymphatic exposure to concentrations of 5% or greater altered MOC-mediated responses and OHC electromotility. These results support the continued use of matched vehicle controls, particularly when higher DMSO concentrations are required for local inner ear delivery.",
+      "last_author_affiliation": "Department of Mechanical Engineering, University of Rochester, Rochester, NY, United States; Department of Biomedical Engineering, University of Rochester, Rochester, NY, United States; Department of Neuroscience, University of Rochester, Rochester, NY, United States.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [
+        "Dimethyl sulfoxide",
+        "Medial olivocochlear",
+        "Outer hair cell",
+        "Posterior canal delivery"
+      ],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-02",
+      "first_seen_at": "2026-10-03T08:14:20Z"
+    },
+    {
       "title": "From signals to species: Improving acoustic classification reliability for North Pacific false killer whales",
       "authors": [
         "Y. M. Barkley",
@@ -2019,26 +2271,6 @@
       "first_seen_at": "2026-10-02T08:37:25Z"
     },
     {
-      "title": "Concentration-dependent effects of dimethyl sulfoxide on cochlear efferent function and outer hair cell motility",
-      "authors": [
-        "Choongheon Lee",
-        "Jong-Hoon Nam"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109831",
-      "url": "https://doi.org/10.1016/j.heares.2026.109831",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-10-03T08:14:20Z"
-    },
-    {
       "title": "Corrigendum to “Dynamics of Intra- and Inter-Regional Activities of the Auditory ‘Where’ Pathway during Sound Localization: An fMRI Study” [Hearing Research 477 (2026) 109650]",
       "authors": [
         "Jiashuai Su",
@@ -2244,21 +2476,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00266-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-02T07:09:02Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-10-01",
       "publication_date_precision": "day",
@@ -2271,6 +2488,21 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00266-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Effective model of fiber Bragg gratings for simulation of ultrasonic guided wave measurements using spectral finite elements",
@@ -3644,6 +3876,52 @@
       "first_seen_at": "2026-10-01T09:02:19Z"
     },
     {
+      "title": "Central auditory processing skills in stuttering school-age children with and without dyslexia: a preliminary study",
+      "authors": [
+        "Alaa Mamdouh abdelhamed Radwan",
+        "HebatAllah Ismail Abdelmotaleb"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-30",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109829",
+      "url": "https://doi.org/10.1016/j.heares.2026.109829",
+      "abstract": "Central auditory processing disorder (CAPD) has been linked separately to developmental stuttering (DS) and developmental dyslexia (DD), with limited information available when both disorders are present. Our study aimed to evaluate central auditory processing (CAP) in children with both disorders. The study included 39 children distributed into three groups: two stuttering groups, with dyslexia (n= 13: 9 males, 4 females), and without dyslexia (n= 13: 10 males, 3 females), and a typically developing group (n= 13: 8 males, 5 females). The three groups were aged 6-12 years. Both stuttering groups had a formal quantitative assessment for stuttering severity. The three groups were assessed using the behavioral Arabic version of CAP. There was no significant difference between the groups regarding age and sex distribution. There was no significant difference between both stuttering groups regarding the quantitative measures of stuttering severity. Both stuttering groups had significantly lower scores than the typically developing group for the dichotic digits test (DDT), binaural fusion (BF), pitch pattern sequence (PPS) test, and the right ear speech intelligibility in noise (SPIN) tests. The PPS scores were significantly lower in the group with both disorders. There was a significant correlation between some behavioral CAP assessments (e.g., DDT, BF, and PPS) and quantitative stuttering measures in the group of DS without DD. Co-occurrence of DS and DD may be associated with exacerbated CAPD, particularly in temporal ordering, pattern recognition, and dichotic listening. Concomitant fluency and literacy disorders may have the potential to negatively impact CAP abilities. Therefore, CAP assessments should be incorporated in comprehensive evaluations for children with stuttering and dyslexia to maximize the effectiveness of targeted intervention outcomes.",
+      "last_author_affiliation": "Unit of audio-vestibular medicine, Otorhinolaryngology Department, Faculty of Medicine, Alexandria University, Egypt. Electronic address: H_ahmed152@alexmed.edu.eg.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Auditory temporal processing",
+        "Central auditory processing",
+        "Dichotic listening",
+        "Dyslexia",
+        "Stuttering"
+      ],
+      "tags": [
+        "psychoacoustics",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-30",
+      "first_seen_at": "2026-10-04T13:29:35Z",
+      "ai_analysis": {
+        "scientific_question": "在同时患有发育性口吃与发育性阅读障碍的学龄儿童中，其中枢听觉加工能力与仅患口吃或典型发育儿童相比是否存在差异？",
+        "key_highlight": "两个口吃组在双耳分听数字、双耳融合、音高模式序列及右耳噪声中言语可懂度测试上的得分均显著低于典型发育组，且口吃合并阅读障碍组的音高模式序列得分显著更低。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "作者提出，对同时存在口吃与阅读障碍的儿童，应将中枢听觉加工评估纳入综合评估，以优化针对性干预效果，但该建议属推论而非本研究直接验证的结论。",
+        "evidence": [
+          "The PPS scores were significantly lower in the group with both disorders.",
+          "Co-occurrence of DS and DD may be associated with exacerbated CAPD, particularly in temporal ordering, pattern recognition, and dichotic listening."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "f0031e0b87c95689",
+        "updated_at": "2026-10-08T09:08:02Z"
+      }
+    },
+    {
       "title": "Evaluating Human Auditory Nerve (AN) and Brainstem Function Through Level-Dependent Chirps and Predicted AN Firing Distributions",
       "authors": [
         "Skyler G. Jennings",
@@ -4486,6 +4764,22 @@
       "doi": "10.1016/j.heares.2026.109824",
       "url": "https://doi.org/10.1016/j.heares.2026.109824",
       "abstract": "Noise-induced permanent hearing loss results primarily from the irreversible loss of cochlear sensory hair cells, which do not regenerate in adult mammals. Endoplasmic reticulum (ER) stress may play a major role in noise-induced outer hair cell (OHC) loss. We previously reported that FK506 prevents noise-induced hearing loss (NIHL) in adult CBA/J mice; however, the molecular mechanisms underlying this preventive effect remain incompletely understood. Here, we show that treatment with FK506 attenuates NIHL in adult FVB/NJ mice of both sexes and that this preventive effect is associated with suppression of noise-induced ER stress. Using a permanent threshold shift noise model that reliably induces OHC loss, exploratory RNA-seq analysis identified unfolded protein binding and protein processing among the top enriched pathways associated with FK506-mediated prevention, which guided subsequent validation studies focused on ER-stress-related markers. Noise exposure significantly increased BiP (Grp78) expression and decreased FKBP8 levels in cochlear homogenates within 1-3 h after exposure, whereas FK506 pretreatment prevented these changes. FK506 also blocked CHOP upregulation in basal- turn OHCs, where degeneration typically begins after acoustic trauma. Under physiological conditions, FKBP8 was expressed in sensory hair cells, spiral ganglion neurons, and the stria vascularis and showed predominant colocalization with the ER marker KDEL in OHCs. In HEI-OC1 cells, FK506 similarly prevented thapsigargin-induced increases in BiP and CHOP and the associated decrease in FKBP8 levels, further supporting the association between FK506 treatment and modulation of ER stress. Together, these findings indicate that FK506-mediated prevention of NIHL is associated with suppression of ER stress and preservation of OHC integrity and suggest that FKBP8 may contribute to FK506-associated regulation of ER homeostasis in the cochlea. However, the present data support an association rather than a direct causal role of ER-stress suppression in FK506-mediated prevention of NIHL.",
+      "ai_analysis": {
+        "scientific_question": "FK506预防噪声性听力损失是否与抑制内质网应激反应相关？",
+        "key_highlight": "在成年FVB/NJ小鼠中，FK506减轻噪声性听力损失，且该预防作用与抑制噪声诱导的内质网应激标志物（BiP升高、FKBP8降低、CHOP上调）相关。",
+        "main_limitation": "摘要明确指出现有数据仅支持内质网应激抑制与FK506预防噪声性听力损失之间的关联，而非直接因果关系。",
+        "research_implication": "研究提示FKBP8可能参与FK506相关的耳蜗内质网稳态调控，但需进一步研究验证内质网应激抑制在其中的因果作用。",
+        "evidence": [
+          "However, the present data support an association rather than a direct causal role of ER-stress suppression in FK506-mediated prevention of NIHL.",
+          "FK506 also blocked CHOP upregulation in basal- turn OHCs, where degeneration typically begins after acoustic trauma."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "54d86322dca96836",
+        "updated_at": "2026-10-07T08:49:12Z"
+      },
       "last_author_affiliation": "Department of Pathology and Laboratory Medicine, Medical University of South Carolina, Charleston, SC, 29425, USA. Electronic address: shasu@musc.edu.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
@@ -4502,23 +4796,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-26",
-      "first_seen_at": "2026-10-01T09:02:42Z",
-      "ai_analysis": {
-        "scientific_question": "FK506预防噪声性听力损失是否与抑制内质网应激反应相关？",
-        "key_highlight": "在成年FVB/NJ小鼠中，FK506减轻噪声性听力损失，且该预防作用与抑制噪声诱导的内质网应激标志物（BiP升高、FKBP8降低、CHOP上调）相关。",
-        "main_limitation": "摘要明确指出现有数据仅支持内质网应激抑制与FK506预防噪声性听力损失之间的关联，而非直接因果关系。",
-        "research_implication": "研究提示FKBP8可能参与FK506相关的耳蜗内质网稳态调控，但需进一步研究验证内质网应激抑制在其中的因果作用。",
-        "evidence": [
-          "However, the present data support an association rather than a direct causal role of ER-stress suppression in FK506-mediated prevention of NIHL.",
-          "FK506 also blocked CHOP upregulation in basal- turn OHCs, where degeneration typically begins after acoustic trauma."
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "54d86322dca96836",
-        "updated_at": "2026-10-07T08:49:12Z"
-      }
+      "first_seen_at": "2026-10-01T09:02:42Z"
     },
     {
       "title": "ACOUSTICAL NEWS",
@@ -4833,21 +5111,6 @@
       "doi": "10.1016/j.heares.2026.109813",
       "url": "https://doi.org/10.1016/j.heares.2026.109813",
       "abstract": "Otoacoustic emissions (OAEs) are essential for non-invasive assessment of cochlear function but remain inaccessible in many low-resource settings because conventional systems are expensive, insufficiently portable, and largely supplied through proprietary platforms from a limited number of manufacturers. This systematic review characterized portable and low-cost OAE systems, focusing on their hardware architectures, measurement platforms, OAE modalities, performance, and technical or clinical validation. Studies directly evaluating portable, low-cost, mobile, smartphone-integrated, or consumer-grade OAE systems were eligible. IEEE Xplore, PubMed, and the ACM Digital Library were searched through 24 November 2025, identifying 1551 records. Risk of bias in studies reporting diagnostic accuracy was assessed using the Quality Assessment of Diagnostic Accuracy Studies 2 (QUADAS-2) tool and findings were synthesized narratively because of methodological and outcome heterogeneity. Seven studies met the eligibility criteria and evaluated smartphone-connected probes, wireless earbuds, single-transducer prototypes, and other portable platforms. Three studies assessing diagnostic classification against clinical hearing-status information reported sensitivities of 100% and specificities of 88.0%-89.7%, while several systems were supported only by small feasibility studies, normal-hearing samples, simulations, or artificial-ear testing and lacked independent clinical diagnostic validation. Portable and low-cost OAE technologies show promise for expanding access to cochlear assessment; however, standardized calibration and noise characterization, larger clinical studies, and validation against appropriate reference standards are required before they can serve as reliable alternatives to established clinical systems. The review followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 framework and was prospectively registered in the International Prospective Register of Systematic Reviews (PROSPERO; CRD420251250576). This work was supported by the Ralph W. and Grace M. Showalter Research Trust (No. 41001449), the Clifford B. Kinley Trust, and Purdue University's Health of the Forces initiative.",
-      "last_author_affiliation": "Purdue University, School of Engineering Technology, West Lafayette, 47907, IN, United States. Electronic address: kim4147@purdue.edu.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Otoacoustic emissions (OAEs)",
-        "Portable diagnostics",
-        "Systematic review"
-      ],
-      "tags": [
-        "auditory physiology",
-        "clinical audiology"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-24",
-      "first_seen_at": "2026-10-01T09:02:42Z",
       "ai_analysis": {
         "scientific_question": "便携式与低成本耳声发射（OAE）系统在硬件架构、测量平台、模态及性能验证方面的现状如何？",
         "key_highlight": "七项符合标准的研究评估了智能手机连接探头、无线耳塞、单换能器原型等便携平台，其中三项针对临床听力状态进行诊断分类的研究报告灵敏度为100%、特异度为88.0%-89.7%。",
@@ -4863,7 +5126,22 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "33b4f848cf261ec3",
         "updated_at": "2026-10-07T08:49:17Z"
-      }
+      },
+      "last_author_affiliation": "Purdue University, School of Engineering Technology, West Lafayette, 47907, IN, United States. Electronic address: kim4147@purdue.edu.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Otoacoustic emissions (OAEs)",
+        "Portable diagnostics",
+        "Systematic review"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-24",
+      "first_seen_at": "2026-10-01T09:02:42Z"
     },
     {
       "title": "Binaural pitch fusion in cochlear implant users is broader and narrower with coherent and incoherent envelope modulation, respectively",
@@ -5272,22 +5550,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046571",
-      "url": "https://doi.org/10.1121/10.0046571",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:59Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -5300,6 +5562,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:56Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046571",
+      "url": "https://doi.org/10.1121/10.0046571",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:59Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -5814,6 +6092,22 @@
       "doi": "10.1016/j.heares.2026.109805",
       "url": "https://doi.org/10.1016/j.heares.2026.109805",
       "abstract": "Complete idiopathic sudden sensorineural hearing loss (ISSNHL, defined as pure-tone average ≥ 95 dB HL according to the 2021 WHO hearing loss classification) is a refractory otoneurological emergency with extremely poor prognosis. Conventional intratympanic therapy depends on passive diffusion across the round window membrane, leading to inadequate intracochlear drug accumulation and limited hearing recovery. To evaluate the efficacy and safety of intracochlear corticosteroid delivery as salvage treatment for complete ISSNHL that is refractory to 2 weeks of conventional therapy. Prospective and controlled clinical study. A total of 83 patients with complete ISSNHL refractory to conventional treatment were enrolled and assigned to 3 intracochlear groups and 1 intratympanic control group. Of these, 80 patients completed the 1-month follow-up and were analyzed. Intracochlear triamcinolone acetonide (IC-TA), intracochlear dexamethasone sodium phosphate (IC-Dex), intracochlear Dex plus Dex-soaked gelfoam (IC‑Dex‑TMgel), or intratympanic Dex (IT-Dex). Intracochlear delivery was performed via a microinjection system using 30 µL aliquots. Primary outcomes were 1-month change in PTA (ΔPTA) and adverse events (AEs). Secondary outcomes included speech recognition rate, vertigo, tinnitus, and prognostic factors. Eight mild, transient adverse events (AEs) were reported in the intracochlear groups (exacerbated vertigo, n=5; tongue numbness, n=2; exacerbated tinnitus, n=1), all resolving within 2 weeks. The median 1-month ΔPTA was 13.75 dB HL (interquartile range, 9.69-24.69) for IC-TA, 23.13 dB HL (11.25-32.50) for IC-Dex, 21.25 dB HL (15.00-28.13) for IC-Dex-TMgel, and 6.88 dB HL (0.00-16.88) for IT-Dex (overall P = 0.005). All intracochlear groups demonstrated significantly greater hearing improvement than the control group. Slight recovery (SR, ΔPTA ≥ 15 dB HL) occurred in 80% (IC-Dex-TMgel), 70% (IC-Dex), 50% (IC-TA), and 30% (IT-Dex). Disease duration (P < 0.001) and preoperative Dizziness Handicap Inventory (DHI) score (P = 0.020) were independently associated with hearing outcomes. Intervention within 17.5 days of symptom onset was associated with superior recovery. To our knowledge, this is the first prospective controlled clinical trial providing preliminary evidence that intracochlear corticosteroid injection was associated with hearing improvement and a favorable safety profile for salvage treatment of complete ISSNHL. Disease duration and preoperative vertigo (DHI score) were independently associated with hearing outcomes. Early intervention within 17.5 days of onset was associated with superior recovery. This strategy may represent a promising salvage approach for managing this refractory otoneurological emergency.",
+      "ai_analysis": {
+        "scientific_question": "对于经2周常规治疗无效的完全性突发性感音神经性聋患者，耳蜗内皮质类固醇递送作为补救治疗的疗效和安全性如何？",
+        "key_highlight": "这项前瞻性对照研究初步显示，耳蜗内皮质类固醇注射与听力改善相关，且安全性良好，各耳蜗内组的听力改善均显著大于鼓室内注射对照组。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该策略可能成为治疗这一难治性耳神经急症的一种有前景的补救方法，但需进一步研究验证。",
+        "evidence": [
+          "Eight mild, transient adverse events (AEs) were reported in the intracochlear groups (exacerbated vertigo, n=5; tongue numbness, n=2; exacerbated tinnitus, n=1), all resolving within 2 weeks.",
+          "All intracochlear groups demonstrated significantly greater hearing improvement than the control group."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "49cc99a99d286a2a",
+        "updated_at": "2026-10-07T08:49:19Z"
+      },
       "last_author_affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye and ENT Hospital, Fudan University, Shanghai, China; Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Shanghai, China; Institutes of Biomedical Sciences, Fudan University, Shanghai, China; State Key Laboratory of Medical Neurobiology and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China. Electronic address: hwli@shmu.edu.cn.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
@@ -5832,23 +6126,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-19",
-      "first_seen_at": "2026-10-01T09:02:42Z",
-      "ai_analysis": {
-        "scientific_question": "对于经2周常规治疗无效的完全性突发性感音神经性聋患者，耳蜗内皮质类固醇递送作为补救治疗的疗效和安全性如何？",
-        "key_highlight": "这项前瞻性对照研究初步显示，耳蜗内皮质类固醇注射与听力改善相关，且安全性良好，各耳蜗内组的听力改善均显著大于鼓室内注射对照组。",
-        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
-        "research_implication": "该策略可能成为治疗这一难治性耳神经急症的一种有前景的补救方法，但需进一步研究验证。",
-        "evidence": [
-          "Eight mild, transient adverse events (AEs) were reported in the intracochlear groups (exacerbated vertigo, n=5; tongue numbness, n=2; exacerbated tinnitus, n=1), all resolving within 2 weeks.",
-          "All intracochlear groups demonstrated significantly greater hearing improvement than the control group."
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "49cc99a99d286a2a",
-        "updated_at": "2026-10-07T08:49:19Z"
-      }
+      "first_seen_at": "2026-10-01T09:02:42Z"
     },
     {
       "title": "Online Algorithms for Independent Low-Rank Matrix Analysis and Rank-Constrained Spatial Covariance Matrix Estimation Based on Maximum Weighted Likelihood Estimation",
@@ -16194,22 +16472,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044504",
-      "url": "https://doi.org/10.1121/10.0044504",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:37Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -16222,6 +16484,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:36Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044504",
+      "url": "https://doi.org/10.1121/10.0044504",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:37Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -16763,13 +17041,6 @@
       "doi": "10.1121/10.0045191",
       "url": "https://doi.org/10.1121/10.0045191",
       "abstract": "Low-frequency, downward-looking synthetic aperture sonar (SAS) can be used to detect and localize both surficial and buried unexploded ordnance (UXO) in very shallow water environments. Using a 2-D pulse-echo array deployed from a moving platform, the recorded echoes are reconstructed into 3-D imagery. The reconstruction process, however, is complicated by several factors. Acoustic propagation is anisotropic when imaging into the sediment volume, the array aperture is usually sparsely sampled in at least one dimension, and the sensor resolution is different in all three dimensions. Additionally, the burial depth of UXO and its pose relative to the sensor are unknown but affect the appearance of an object in the image. This presentation will describe recent investigations into two different image reconstruction algorithms to improve the quality of 3-D SAS imagery for the detection and classification of UXO. The first approach exploits spatial coherence information to improve the contrast of objects located near the sediment-water interface. Thesecond approach uses iterative deconvolution and an analysis by synthesis reconstruction using implicit neural representations. The results will quantitatively and qualitatively demonstrate the benefits and drawbacks for reconstructing high-resolution, 3-D acoustic imagery with these techniques.",
-      "first_author_affiliation": "Univ. of New Hampshire, Durham, NH 03824, thomas.blanford@unh.edu",
-      "last_author_affiliation": "Penn State Univ., State College, PA",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z",
       "ai_analysis": {
         "scientific_question": "如何改进三维合成孔径声呐图像重建，以用于探测和分类未爆弹药？",
         "key_highlight": "该报告描述了两种图像重建算法（利用空间相干性，以及迭代反卷积与基于隐式神经表示的分析-合成重建），旨在提升三维合成孔径声呐图像质量。",
@@ -16785,7 +17056,14 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "6950be05358bd2a0",
         "updated_at": "2026-10-07T08:49:21Z"
-      }
+      },
+      "first_author_affiliation": "Univ. of New Hampshire, Durham, NH 03824, thomas.blanford@unh.edu",
+      "last_author_affiliation": "Penn State Univ., State College, PA",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-10-04T13:29:21Z"
     },
     {
       "title": "A Bayes factor discriminant for active sonar under depth uncertainty",
@@ -16918,13 +17196,6 @@
       "doi": "10.1121/10.0045275",
       "url": "https://doi.org/10.1121/10.0045275",
       "abstract": "The soundscape approach is not concerned with the sound level of an acoustic environment, but how it relates to human perception, how it is conceived by the individual, and how it should be measured and managed. Based on soundscape perception on place attachment, identifying the relationships between sound and the built environment can provide valuable information for decision-makers to promote sensation, satisfaction, and positive emotions. This study examines how soundscape perception varies across different spatial conditions in dormitories and how these perceptions relate to residents’ sense of place attachment. The research is conducted at Bilkent University, where dormitories are situated in five diverse perceived acoustic environments. This study presents the qualitative analysis based on the semi-structured interviews conducted with 45 participants to develop a conceptual framework. The findings indicate that residents do not merely respond to different sound environments but actively interpret soundscapes in relation to daily routines, expectations, and residential meanings. While some sound sources are described as disruptive to daily activities, others contribute to liveliness, familiarity, or a sense of social presence, depending on spatial configuration and individual interpretation.",
-      "first_author_affiliation": "Architecture, Hasan Kalyoncu Univ., Hasan Kalyoncu University, Dept. of Architecture, Gaziantep 27000, Turkey, semiha@bilkent.edu.tr",
-      "last_author_affiliation": "Interior Architecture and Environ. Design, Bilkent Univ., Ankara, Turkey",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z",
       "ai_analysis": {
         "scientific_question": "宿舍声景感知如何随不同空间条件而变化，以及这些感知如何与居住者的地方依恋相关？",
         "key_highlight": "研究发现居住者并非仅对不同声音环境作出反应，而是结合日常作息、期望与居住意义主动解读声景。",
@@ -16940,7 +17211,14 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "866a51d738abe366",
         "updated_at": "2026-10-07T08:49:23Z"
-      }
+      },
+      "first_author_affiliation": "Architecture, Hasan Kalyoncu Univ., Hasan Kalyoncu University, Dept. of Architecture, Gaziantep 27000, Turkey, semiha@bilkent.edu.tr",
+      "last_author_affiliation": "Interior Architecture and Environ. Design, Bilkent Univ., Ankara, Turkey",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-10-04T13:29:21Z"
     },
     {
       "title": "A comparative analysis of stage support parameters measured in different venues",
@@ -45149,17 +45427,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -45180,18 +45459,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -54515,22 +54793,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -54543,6 +54805,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -61645,23 +61923,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -61675,6 +61936,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -65226,8 +65504,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -65241,8 +65519,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -70763,8 +71041,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -70778,8 +71056,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
