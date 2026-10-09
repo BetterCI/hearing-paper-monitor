@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T09:07:15Z",
+  "generated_at": "2026-10-09T09:13:53Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
@@ -1288,6 +1288,127 @@
       "first_seen_at": "2026-09-03T07:13:37Z"
     },
     {
+      "title": "Precision Phenotyping With Audiometric Data and Gene Discovery for Sensorineural Hearing Loss.",
+      "authors": [
+        "Andrea J DeFreese",
+        "Tanguy Rubat du Mérac",
+        "Quanhu Sheng",
+        "Srishti Nayak",
+        "Taha A Jan"
+      ],
+      "journal": "High-impact Journals",
+      "publication_date": "2026-10-08",
+      "publication_date_precision": "day",
+      "doi": "10.1001/jamaoto.2026.3089",
+      "url": "https://doi.org/10.1001/jamaoto.2026.3089",
+      "abstract": "The genetic architecture underlying hearing sensitivity as a quantitative trait is critical for advancing precision medicine in hearing health. Despite extensive genome-wide association study (GWAS) efforts, few strong genetic drivers have been identified. To compare the sensitivity for detecting genetic variants associated with sensorineural hearing loss (SNHL) using precision phenotyping with pure-tone averages (PTAs) with common phenotyping using diagnostic coding approaches. In this genetic association study, 2 separate GWASs were conducted using different phenotyping approaches for SNHL: (1) diagnostic code control and (2) precision phenotyping with PTA data. Whole-genome sequencing data from a population with European genetic ancestry collected at a single tertiary center biobank was used. For the control GWAS based on diagnostic codes, case and control participants were defined using primarily International Classification of Diseases, Ninth Revision (ICD-9) and International Statistical Classification of Diseases and Related Health Problems, Tenth Revision (ICD-10) diagnosis and procedure codes related to SNHL hearing loss. For the precision phenotyping GWAS, hearing status was defined as a continuous variable, using the standard 3-frequency PTA of the better hearing ear from the audiogram. Data analysis was conducted from August 2025 to April 2026. GWAS summary statistics were used to calculate estimates of single-nucleotide variant (SNV)-based heritability for PTA and ICD phenotypes; to map the genetic risk loci to candidate genes using functional annotation; to evaluate genetic correlations with existing GWASs; and to calculate polygenic risk scores for testing in an independent cohort from the National Institutes of Health's All of Us Research Program. Overall, 10 164 case participants (mean [SD] age, 63.9 [21.3] years; 5118 [50.4%] female) and 51 305 control participants (mean [SD] age, 51.1 [21.0] years; 28 784 [56.1%] female) were included in the first GWAS; 16 057 participants with PTA (mean [SD] age, 55.5 [21.8] years; 9147 [57.0%] female) were included in the second GWAS. PTA-based GWAS identified 3 genome-wide significant loci mapped to 4 genes: EML6, SPTBN1, ARHGEF28, and EYA4 (SNV-based heritability estimate [h2] = 11.78%; SE = 2.84%). ICD-based GWAS identified no significant loci (h2 = 2.90%; SE = 0.77%). Genome-wide correlations between the PTA-based GWAS and 3 hearing-related ability traits were found (eg, PTA-based GWAS and hearing aid use: r = 0.985; SE = 0.163; P = 1.56 × 10-9). In the All of Us cohort, PTA-derived polygenic risk scores were significantly associated with self-reported deafness (odds ratio [OR], 1.09; 95% CI, 1.07-1.12), whereas ICD-derived scores were not (OR, 1.00; 95% CI, 0.97-1.02). In this genetic association study, precision phenotyping using audiometric PTAs improved genetic discovery for SNHL compared with diagnostic code-based approaches. Higher heritability estimates, identification of genome-wide significant loci, and stronger polygenic risk estimation indicate that quantitative hearing measures better capture genetic architecture, supporting precision medicine in hearing health.",
+      "first_author_affiliation": "Department of Hearing and Speech Sciences, Vanderbilt University, Nashville, Tennessee.",
+      "last_author_affiliation": "Department of Hearing and Speech Sciences, Vanderbilt University, Nashville, Tennessee.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "pubmed",
+      "available_online_date": "2026-10-08",
+      "source_group": "high_impact",
+      "source_group_label": "High-impact Journals",
+      "actual_journal": "JAMA otolaryngology-- head & neck surgery",
+      "match_level": "level_2_hearing_specific",
+      "matched_keywords": [
+        "hearing loss"
+      ],
+      "match_fields": [
+        "title"
+      ],
+      "needs_review": false,
+      "first_seen_at": "2026-10-09T09:13:18Z"
+    },
+    {
+      "title": "SEER: Source-Conditioned Emotion Enhancement via Retrieval for Cochlear-Implant Speech",
+      "authors": [
+        "Hsing-Hang Chou",
+        "Yun-Shao Lin",
+        "Ching-Chin Sung",
+        "Chi-Chun Lee"
+      ],
+      "journal": "arXiv",
+      "publication_date": "2026-10-08",
+      "publication_date_precision": "day",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2610.11131v1",
+      "abstract": "Cochlear implants (CIs) restore speech access but weaken cues needed for vocal emotion recognition. Prior CI-oriented enhancement requires parallel normal/strong recordings and intensity labels. We propose SEER, a retrieval-based framework that learns which same-emotion reference helps each source remain recognizable after CI processing. A source-conditioned retriever learns CI-aware utility from sampled emotional voice conversion outcomes, while uncertainty-guided exploration avoids exhaustive pair evaluation; neither parallel recordings nor intensity labels are required. SEER improves Source macro-F1 at N8 by 7.30 points on RAVDESS and 11.66 points on ESD, with significant ESD gains across N4/N8/N16. Sixteen-listener RAVDESS gains are significant across all conditions. Exhaustive analysis finds an aggregate benefit from stronger references but little effect from matching gender or content.",
+      "publication_stage": "preprint",
+      "section": null,
+      "keywords": [
+        "cs.SD",
+        "eess.SP"
+      ],
+      "tags": [],
+      "source": "arxiv",
+      "available_online_date": "2026-10-08",
+      "source_group": "preprint_filtered",
+      "source_group_label": "Preprints (arXiv)",
+      "actual_journal": "arXiv",
+      "match_level": "topic_filtered_hearing_speech",
+      "matched_keywords": [
+        "cochlear implant",
+        "cochlear implants"
+      ],
+      "match_fields": [
+        "abstract"
+      ],
+      "needs_review": true,
+      "first_seen_at": "2026-10-09T09:13:53Z"
+    },
+    {
+      "title": "Spaciousness as an acoustic measure of prosody in autistic children",
+      "authors": [
+        "Boram Kim",
+        "Rhiannon Luyster",
+        "Jason Bishop"
+      ],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-10-08",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046854",
+      "url": "https://doi.org/10.1121/10.0046854",
+      "abstract": "Distinctive prosody has been reported in autism, yet acoustic studies have yielded inconsistent findings, particularly for F0-related measures. Two dynamic measures, spaciousness (magnitude of pitch excursions) and wiggliness (rate of pitch-direction changes), offer alternatives, but spaciousness has not yet been applied to English-speaking autistic children. The present study therefore compared acoustic characteristics of prosody from autistic and language-skill matched nonautistic children (age 3–7) using spaciousness, wiggliness, F0 measures (mean, standard deviation, and range), and speech rate. Linear mixed-effects models revealed that only spaciousness showed significant group differences, and these differences were independent of utterance length. Replication in larger samples is warranted.",
+      "first_author_affiliation": "Department of Speech-Language-Hearing Sciences, Lehman College, City University of New York 1 , New York, New York 10468,",
+      "last_author_affiliation": "Linguistics Program, Graduate Center, City University of New York 3 , New York, New York 10016,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046854",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "priority section",
+        "psychoacoustics"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-10-08",
+      "first_seen_at": "2026-10-09T09:12:41Z",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/10/105202/3406201/Spaciousness-as-an-acoustic-measure-of-prosody-in",
+      "media_checked_at": "2026-10-09T09:14:02Z",
+      "open_access_image_checked_at": "2026-10-09T09:14:02Z",
+      "ai_analysis": {
+        "scientific_question": "在英语自闭症儿童中，spaciousness（音高偏移幅度）这一动态韵律声学指标是否比wiggliness及F0相关指标更能区分自闭症儿童与非自闭症儿童？",
+        "key_highlight": "线性混合效应模型显示，仅spaciousness呈现显著的组间差异，且该差异不依赖话语长度。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "作者指出需要在更大样本中重复验证，提示spaciousness作为韵律声学指标的初步发现尚待进一步确认。",
+        "evidence": [
+          "Linear mixed-effects models revealed that only spaciousness showed significant group differences, and these differences were independent of utterance length.",
+          "Replication in larger samples is warranted."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "223df7d8645420cc",
+        "updated_at": "2026-10-09T09:14:12Z"
+      }
+    },
+    {
       "title": "A Lightweight Hybrid Framework for Acoustic Echo Cancellation and Suppression via Constrained Recursive Training",
       "authors": [
         "Huawei Zhang",
@@ -1341,6 +1462,22 @@
       "doi": "10.1097/aud.0000000000001900",
       "url": "https://doi.org/10.1097/aud.0000000000001900",
       "abstract": "Objectives: Speech recognition outcomes vary widely in cochlear implant recipients, but the reasons for this variability are not well explained by patient history factors alone. Neuroplastic reorganization after both deafness and cochlear implant switch-on can affect how new recipients adapt to electrical hearing. In this study, we evaluate the associations between speech recognition outcomes and stimulus-evoked activation of cortical language processing areas. Design: Forty-three newly implanted post-lingually deaf adult cochlear implant recipients (17 female, mean age at implantation: 58.5 yr, SD: 14.4 yr) were recruited for the longitudinal study. Participants attended two research visits: the first conducted within 1 mo of device switch-on, and the second conducted 1 yr after device switch-on. At each visit, we evaluated speech recognition outcomes in noise and cortical activation using functional near-infrared spectroscopy during a passive listening task, during which a story was told in either an auditory- or visual-speech (lipreading) condition. Results: We found consistent negative correlations between speech understanding outcomes at 1 yr and activation of the superior temporal gyrus at 1 mo in response to both auditory and visual speech. These associations were not observed for activation measured at 1 yr. Subgroup regression analysis revealed that these correlations were most consistently seen in the superior temporal gyrus contralateral to the cochlear implant. Activation in the superior temporal gyrus contralateral to the implant at 1 mo also explained additional variance in speech outcomes at 1 yr beyond clinical factors alone. However, longitudinal analysis showed no association between within-subject changes in activation and changes in speech understanding outcomes within this first year of implant use. Conclusions: Our evidence highlights that neuroplastic changes which occur following adult-onset deafness play an important role in how cochlear implant recipients adapt to their devices after switch-on. The relationship between neuroimaging measures made within 1 mo after device switch-on and speech recognition outcomes at 1 yr can potentially enable triaging of recipients to improve clinical management of implant recipients.",
+      "ai_analysis": {
+        "scientific_question": "在成年语后聋人工耳蜗植入者中，植入后1个月内听觉言语与视觉言语（唇读）诱发的皮层语言区激活，是否与植入1年后的言语识别结果相关？",
+        "key_highlight": "植入后1个月时，对侧于人工耳蜗的颞上回在听觉和视觉言语条件下的激活与1年后言语理解成绩呈一致的负相关，且该激活在临床因素之外额外解释了1年后言语结果的变异。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "摘要提示，植入后1个月内的神经影像指标可能有助于对人工耳蜗植入者进行分诊并改善临床管理，但这属于作者提出的潜在应用，尚需进一步验证。",
+        "evidence": [
+          "We found consistent negative correlations between speech understanding outcomes at 1 yr and activation of the superior temporal gyrus at 1 mo in response to both auditory and visual speech.",
+          "However, longitudinal analysis showed no association between within-subject changes in activation and changes in speech understanding outcomes within this first year of implant use."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "74f62c26a4fae9aa",
+        "updated_at": "2026-10-08T09:07:46Z"
+      },
       "first_author_affiliation": "The Bionics Institute, Melbourne, Australia",
       "last_author_affiliation": "The Bionics Institute, Melbourne, Australia",
       "publication_stage": "early_access",
@@ -1359,23 +1496,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-07",
-      "first_seen_at": "2026-10-08T09:06:24Z",
-      "ai_analysis": {
-        "scientific_question": "在成年语后聋人工耳蜗植入者中，植入后1个月内听觉言语与视觉言语（唇读）诱发的皮层语言区激活，是否与植入1年后的言语识别结果相关？",
-        "key_highlight": "植入后1个月时，对侧于人工耳蜗的颞上回在听觉和视觉言语条件下的激活与1年后言语理解成绩呈一致的负相关，且该激活在临床因素之外额外解释了1年后言语结果的变异。",
-        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
-        "research_implication": "摘要提示，植入后1个月内的神经影像指标可能有助于对人工耳蜗植入者进行分诊并改善临床管理，但这属于作者提出的潜在应用，尚需进一步验证。",
-        "evidence": [
-          "We found consistent negative correlations between speech understanding outcomes at 1 yr and activation of the superior temporal gyrus at 1 mo in response to both auditory and visual speech.",
-          "However, longitudinal analysis showed no association between within-subject changes in activation and changes in speech understanding outcomes within this first year of implant use."
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "74f62c26a4fae9aa",
-        "updated_at": "2026-10-08T09:07:46Z"
-      }
+      "first_seen_at": "2026-10-08T09:06:24Z"
     },
     {
       "title": "Cognitive, Learning, and Executive Function Behaviors in Children With Cochlear Implants",
@@ -1391,6 +1512,22 @@
       "doi": "10.1097/aud.0000000000001902",
       "url": "https://doi.org/10.1097/aud.0000000000001902",
       "abstract": "Objectives: Hearing loss in early childhood can affect the development of language, cognition, and executive functions (EF). Although cochlear implantation (CI) restores auditory input, considerable variability in cognitive and academic outcomes remains. This study investigated everyday EF, learning, and academic behaviors in children with CIs compared with typically hearing peers. Design: Parents of 279 children aged 6 to 18 yr (119 children with CIs, 160 typical hearing) completed the Learning, Executive, and Attention Functioning (LEAF) questionnaire. Subscales were analyzed using Wilcoxon tests and generalized linear modeling to compare cognitive domains (Cognitive-Executive, Cognitive-Learning, Academic) and to explore associations with speech recognition outcomes. Results: Children with CIs showed significantly higher LEAF scores across most domains, indicating greater EF and academic difficulties, even after excluding participants with additional comorbidities. The strongest group differences occurred in comprehension, conceptual learning, and academic skills (reading, writing, and mathematics). While overall EF performance (composite cLEAF) was not correlated with speech recognition, the Cognitive-Learning domain—particularly comprehension and conceptual learning—was negatively associated with speech-in-noise performance. Children with CIs also exhibited greater intraindividual variability across cognitive subdomains. Conclusions: Children with CIs, despite good speech recognition, demonstrate domain-specific and heterogeneous challenges in EF and academic performance. These difficulties are not fully explained by auditory or speech recognition abilities, underscoring the importance of addressing broader neurocognitive factors in clinical assessment and intervention. Targeted cognitive and educational support may help reduce cognitive scatter and improve functional outcomes.",
+      "ai_analysis": {
+        "scientific_question": "与典型听力同龄人相比，植入人工耳蜗的儿童在日常执行功能、学习和学业行为方面表现出怎样的差异？",
+        "key_highlight": "植入人工耳蜗的儿童在多数LEAF领域得分显著更高，表明其执行功能与学业困难更多，且在理解、概念学习和学业技能上组间差异最大。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "这些困难不能完全由听觉或言语识别能力解释，提示临床评估与干预需关注更广泛的神经认知因素，并可能需要针对性的认知与教育支持。",
+        "evidence": [
+          "Children with CIs showed significantly higher LEAF scores across most domains, indicating greater EF and academic difficulties, even after excluding participants with additional comorbidities.",
+          "While overall EF performance (composite cLEAF) was not correlated with speech recognition, the Cognitive-Learning domain—particularly comprehension and conceptual learning—was negatively associated with speech-in-noise performance."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "6317fb5e0833ce40",
+        "updated_at": "2026-10-08T09:07:47Z"
+      },
       "first_author_affiliation": "Clinic for Otorhinolaryngology, Hannover Medical School, Hannover, Germany",
       "last_author_affiliation": "Clinic for Otorhinolaryngology, Hannover Medical School, Hannover, Germany",
       "publication_stage": "early_access",
@@ -1412,23 +1549,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-07",
-      "first_seen_at": "2026-10-08T09:06:24Z",
-      "ai_analysis": {
-        "scientific_question": "与典型听力同龄人相比，植入人工耳蜗的儿童在日常执行功能、学习和学业行为方面表现出怎样的差异？",
-        "key_highlight": "植入人工耳蜗的儿童在多数LEAF领域得分显著更高，表明其执行功能与学业困难更多，且在理解、概念学习和学业技能上组间差异最大。",
-        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
-        "research_implication": "这些困难不能完全由听觉或言语识别能力解释，提示临床评估与干预需关注更广泛的神经认知因素，并可能需要针对性的认知与教育支持。",
-        "evidence": [
-          "Children with CIs showed significantly higher LEAF scores across most domains, indicating greater EF and academic difficulties, even after excluding participants with additional comorbidities.",
-          "While overall EF performance (composite cLEAF) was not correlated with speech recognition, the Cognitive-Learning domain—particularly comprehension and conceptual learning—was negatively associated with speech-in-noise performance."
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "6317fb5e0833ce40",
-        "updated_at": "2026-10-08T09:07:47Z"
-      }
+      "first_seen_at": "2026-10-08T09:06:24Z"
     },
     {
       "title": "Creating an Ear and Hearing Health Culture for Professional Ear Users: Current Perspectives on Challenges, Management, and Recommendations",
@@ -1455,14 +1576,34 @@
       "publication_date_precision": "day",
       "doi": "10.1097/aud.0000000000001898",
       "url": "https://doi.org/10.1097/aud.0000000000001898",
+      "full_text_url": "https://www.ovid.com/jnls/ear-hearing/fulltext/10.1097/aud.0000000000001898~creating-an-ear-and-hearing-health-culture-for-professional",
       "abstract": "Professional ear users (PEUs), including musicians, instrument makers, or sound engineers, depend on highly trained auditory abilities for occupational performance. Given these demands, PEUs may benefit from tailored prevention, diagnostics, and treatment. Ear and hearing disorders are common and potentially career-ending in these populations, yet PEU-specific care pathways remain underdeveloped. This narrative review synthesizes the clinical experience of the authors with current evidence, recommendations, and challenges to advance an interdisciplinary framework for PEU ear and hearing health care: prevention of music- and noise-induced disorders, attention to non-noise risk factors, advanced diagnostics beyond standard audiometry, allied-health collaboration, and individualized treatment addressing professional consequences. Although most evidence comes from musicians and, to a lesser extent, other PEUs, the framework applies broadly to auditory-dependent professions. Drawing on the Capability-Opportunity-Motivation model and analogous cultures in performing arts and elite sports, we propose concrete anchors for behavioral and institutional change, advocating an interdisciplinary culture integrating education, monitoring, and specialized care across medical, occupational, educational, and regulatory stakeholders. Empirical evaluation of comprehensive PEU-specific protocols has yet to be conducted. Therefore, the recommendations presented here are also intended as a basis for future studies testing their effectiveness.",
+      "ai_analysis": {
+        "scientific_question": "如何为专业用耳人群（如音乐家、乐器制造者、音响工程师）建立跨学科的耳与听力健康照护框架？",
+        "key_highlight": "该叙述性综述综合作者临床经验与现有证据，提出涵盖预防、非噪声风险因素、超越标准听力计的诊断、联合健康协作及个体化治疗的跨学科框架。",
+        "main_limitation": "摘要明确指出，针对专业用耳人群的综合专属方案尚未开展实证评估，因此所提建议仅作为未来研究检验其有效性的基础。",
+        "research_implication": "这些建议可作为未来研究检验其有效性的基础，用以推动针对专业用耳人群的专属方案实证评估。",
+        "evidence": [
+          "Empirical evaluation of comprehensive PEU-specific protocols has yet to be conducted.",
+          "Therefore, the recommendations presented here are also intended as a basis for future studies testing their effectiveness."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "c82df8a3815f005d",
+        "updated_at": "2026-10-08T09:07:49Z"
+      },
       "first_author_affiliation": "Department of Otorhinolaryngology, Head and Neck Surgery, University Hospital Zurich, Zurich, Switzerland",
       "last_author_affiliation": "Department of Otorhinolaryngology, Head and Neck Surgery, University Hospital Zurich, Zurich, Switzerland",
       "open_access": true,
       "open_access_url": "https://www.ovid.com/10.1097/AUD.0000000000001898",
       "open_access_source": "crossref_license",
       "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-10-08T09:07:27Z",
+      "media_checked_at": "2026-10-08T09:07:28Z",
       "publication_stage": "early_access",
+      "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [
         "Audiology",
@@ -1482,27 +1623,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-07",
-      "first_seen_at": "2026-10-08T09:06:24Z",
-      "full_text_url": "https://www.ovid.com/jnls/ear-hearing/fulltext/10.1097/aud.0000000000001898~creating-an-ear-and-hearing-health-culture-for-professional",
-      "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
-      "media_checked_at": "2026-10-08T09:07:28Z",
-      "open_access_image_checked_at": "2026-10-08T09:07:27Z",
-      "ai_analysis": {
-        "scientific_question": "如何为专业用耳人群（如音乐家、乐器制造者、音响工程师）建立跨学科的耳与听力健康照护框架？",
-        "key_highlight": "该叙述性综述综合作者临床经验与现有证据，提出涵盖预防、非噪声风险因素、超越标准听力计的诊断、联合健康协作及个体化治疗的跨学科框架。",
-        "main_limitation": "摘要明确指出，针对专业用耳人群的综合专属方案尚未开展实证评估，因此所提建议仅作为未来研究检验其有效性的基础。",
-        "research_implication": "这些建议可作为未来研究检验其有效性的基础，用以推动针对专业用耳人群的专属方案实证评估。",
-        "evidence": [
-          "Empirical evaluation of comprehensive PEU-specific protocols has yet to be conducted.",
-          "Therefore, the recommendations presented here are also intended as a basis for future studies testing their effectiveness."
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "c82df8a3815f005d",
-        "updated_at": "2026-10-08T09:07:49Z"
-      }
+      "first_seen_at": "2026-10-08T09:06:24Z"
     },
     {
       "title": "Effects of winding configuration on the perceived timbre of aluminum-wound violin strings",
@@ -1529,7 +1650,23 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-07",
-      "first_seen_at": "2026-10-08T09:06:00Z"
+      "first_seen_at": "2026-10-08T09:06:00Z",
+      "ai_analysis": {
+        "scientific_question": "在构成材料和标称音高相近的情况下，小提琴弦的绕线结构差异是否会以及如何影响听者对音色的主观印象？",
+        "key_highlight": "两项构成材料相近但绕线构型、螺旋几何、线密度及质量分布不同的A弦中，String-2在主观评价中被认为比String-1更具厚重感，且不受音乐经验影响。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "结果提示，绕线结构差异所关联的接触条件与力学特性可能影响小提琴音色的主观印象，尤其是厚重感方面，但这一解释仍属推测。",
+        "evidence": [
+          "Subjective evaluations showed that String-2 was rated as more massive than String-1 regardless of musical experience.",
+          "the contact conditions and mechanical properties associated with differences in the winding structure of strings may influence the subjective impressions of the timbre of a violin, especially in terms of massiveness"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "0793496ac21cc899",
+        "updated_at": "2026-10-09T09:14:18Z"
+      }
     },
     {
       "title": "Audiovisual joint learning for end-to-end hearing aids",
@@ -1821,6 +1958,58 @@
       "first_seen_at": "2026-10-06T09:05:15Z"
     },
     {
+      "title": "A binaural loudness model for evaluating round-window stimulation based on a physiological peripheral auditory front-end module",
+      "authors": [
+        "Zhaohai Liu",
+        "Houguang Liu",
+        "Xinjian He",
+        "Thomas Lenarz",
+        "Hannes Maier",
+        "Brian C.J. Moore"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-02",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109830",
+      "url": "https://doi.org/10.1016/j.heares.2026.109830",
+      "abstract": "Some active middle-ear implants use round-window stimulation to extend their application to mixed hearing loss. However, current loudness models are unable to predict loudness under round-window stimulation, which prevents the development of fitting procedures. This paper presents a new loudness model for round-window stimulation. The model consists of a peripheral auditory front-end module, which translates the signal picked up by the microphone to round-window stimulation and to effective cochlear response, and a loudness perception back-end module for converting the cochlear response into loudness. The accuracy of the front-end module was validated by comparing the predicted results with experimental data on cochlear responses to a variety of stimuli. The accuracy of the back-end module was validated by comparing the predicted results with experimental data on the loudness of pure tones and noise. The increase in loudness with increasing drive voltage amplitude under round-window stimulation was consistent with that for acoustic stimulation, but the shapes of the equal-loudness contours were different from those for acoustic stimulation, reflecting the different transfer functions and the characteristics of the transducer. When a frequency-dependent correction was applied to allow for this, the predicted equal-loudness contours were similar to those for acoustic stimulation. Additionally, the model-predicted results for diotic and dichotic noise exhibited slight deviations from those for acoustic stimulation, whereas the model-predicted results for pure tones aligned more consistently with those for acoustic stimulation. This research forms the foundation for the development of fitting procedures for round-window stimulating active middle ear implants.",
+      "last_author_affiliation": "Cambridge Hearing Group, Department of Psychology, University of Cambridge, Cambridge, CB2 3EB, United Kingdom.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Active middle ear implant",
+        "Auditory periphery",
+        "Loudness model",
+        "Physiological model",
+        "Round-window stimulation"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology",
+        "hearing aid",
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-02",
+      "first_seen_at": "2026-10-02T08:37:35Z",
+      "ai_analysis": {
+        "scientific_question": "如何构建一个能够预测圆窗刺激下响度的双耳响度模型，以支持主动中耳植入物的验配？",
+        "key_highlight": "该模型由外周听觉前端模块和响度感知后端模块组成，其前端预测的耳蜗反应和后端预测的纯音与噪声响度均与实验数据进行了对比验证。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该研究为圆窗刺激主动中耳植入物验配程序的开发奠定了基础，但摘要未报告临床验配效果。",
+        "evidence": [
+          "This paper presents a new loudness model for round-window stimulation.",
+          "This research forms the foundation for the development of fitting procedures for round-window stimulating active middle ear implants."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "a01c8facadc49378",
+        "updated_at": "2026-10-09T09:14:21Z"
+      }
+    },
+    {
       "title": "Acoustic analyses on German vowels in read speech, recited speech, and singing",
       "authors": [
         "Franka Zebe-Sheng",
@@ -1927,7 +2116,23 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-02",
-      "first_seen_at": "2026-10-03T08:14:20Z"
+      "first_seen_at": "2026-10-03T08:14:20Z",
+      "ai_analysis": {
+        "scientific_question": "在无活性药物存在时，经后半规管向小鼠内耳递送不同浓度的DMSO是否会改变耳蜗传出功能与基线DPOAE？",
+        "key_highlight": "DMSO对耳蜗功能的影响呈浓度依赖性：5%和10%增强MOC介导的抑制，15%先增强后导致基线DPOAE与MOC抑制的进行性丧失，且5% DMSO在离体条件下可逆性降低OHC电运动性。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "结果提示局部内耳递送实验中应继续使用匹配的溶剂对照，尤其在使用5%及以上DMSO浓度时；但DMSO效应是否由渗透压应激或直接细胞作用主导，尚需进一步研究。",
+        "evidence": [
+          "Artificial perilymph alone produced no measurable change in either MOC-mediated responses or baseline DPOAEs.",
+          "In this preparation, 5% DMSO reversibly reduced OHC electromotility without obvious structural damage."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "18cd82a939e63f14",
+        "updated_at": "2026-10-09T09:14:20Z"
+      }
     },
     {
       "title": "From signals to species: Improving acoustic classification reliability for North Pacific false killer whales",
@@ -2061,30 +2266,6 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-02",
       "first_seen_at": "2026-10-03T08:14:14Z"
-    },
-    {
-      "title": "A binaural loudness model for evaluating round-window stimulation based on a physiological peripheral auditory front-end module",
-      "authors": [
-        "Zhaohai Liu",
-        "Houguang Liu",
-        "Xinjian He",
-        "Thomas Lenarz",
-        "Hannes Maier",
-        "Brian C.J. Moore"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109830",
-      "url": "https://doi.org/10.1016/j.heares.2026.109830",
-      "abstract": null,
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "psychoacoustics"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-10-02T08:37:35Z"
     },
     {
       "title": "A dual-data-driven approach for predicting cochlear implant dynamic range parameters using neural response telemetry and electrically evoked auditory brainstem response thresholds",
@@ -2476,6 +2657,21 @@
     {
       "title": "Editorial Board",
       "authors": [],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00266-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-02T07:09:02Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-10-01",
       "publication_date_precision": "day",
@@ -2488,21 +2684,6 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00266-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Effective model of fiber Bragg gratings for simulation of ultrasonic guided wave measurements using spectral finite elements",
@@ -3887,6 +4068,22 @@
       "doi": "10.1016/j.heares.2026.109829",
       "url": "https://doi.org/10.1016/j.heares.2026.109829",
       "abstract": "Central auditory processing disorder (CAPD) has been linked separately to developmental stuttering (DS) and developmental dyslexia (DD), with limited information available when both disorders are present. Our study aimed to evaluate central auditory processing (CAP) in children with both disorders. The study included 39 children distributed into three groups: two stuttering groups, with dyslexia (n= 13: 9 males, 4 females), and without dyslexia (n= 13: 10 males, 3 females), and a typically developing group (n= 13: 8 males, 5 females). The three groups were aged 6-12 years. Both stuttering groups had a formal quantitative assessment for stuttering severity. The three groups were assessed using the behavioral Arabic version of CAP. There was no significant difference between the groups regarding age and sex distribution. There was no significant difference between both stuttering groups regarding the quantitative measures of stuttering severity. Both stuttering groups had significantly lower scores than the typically developing group for the dichotic digits test (DDT), binaural fusion (BF), pitch pattern sequence (PPS) test, and the right ear speech intelligibility in noise (SPIN) tests. The PPS scores were significantly lower in the group with both disorders. There was a significant correlation between some behavioral CAP assessments (e.g., DDT, BF, and PPS) and quantitative stuttering measures in the group of DS without DD. Co-occurrence of DS and DD may be associated with exacerbated CAPD, particularly in temporal ordering, pattern recognition, and dichotic listening. Concomitant fluency and literacy disorders may have the potential to negatively impact CAP abilities. Therefore, CAP assessments should be incorporated in comprehensive evaluations for children with stuttering and dyslexia to maximize the effectiveness of targeted intervention outcomes.",
+      "ai_analysis": {
+        "scientific_question": "在同时患有发育性口吃与发育性阅读障碍的学龄儿童中，其中枢听觉加工能力与仅患口吃或典型发育儿童相比是否存在差异？",
+        "key_highlight": "两个口吃组在双耳分听数字、双耳融合、音高模式序列及右耳噪声中言语可懂度测试上的得分均显著低于典型发育组，且口吃合并阅读障碍组的音高模式序列得分显著更低。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "作者提出，对同时存在口吃与阅读障碍的儿童，应将中枢听觉加工评估纳入综合评估，以优化针对性干预效果，但该建议属推论而非本研究直接验证的结论。",
+        "evidence": [
+          "The PPS scores were significantly lower in the group with both disorders.",
+          "Co-occurrence of DS and DD may be associated with exacerbated CAPD, particularly in temporal ordering, pattern recognition, and dichotic listening."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "f0031e0b87c95689",
+        "updated_at": "2026-10-08T09:08:02Z"
+      },
       "last_author_affiliation": "Unit of audio-vestibular medicine, Otorhinolaryngology Department, Faculty of Medicine, Alexandria University, Egypt. Electronic address: H_ahmed152@alexmed.edu.eg.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
@@ -3903,23 +4100,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-30",
-      "first_seen_at": "2026-10-04T13:29:35Z",
-      "ai_analysis": {
-        "scientific_question": "在同时患有发育性口吃与发育性阅读障碍的学龄儿童中，其中枢听觉加工能力与仅患口吃或典型发育儿童相比是否存在差异？",
-        "key_highlight": "两个口吃组在双耳分听数字、双耳融合、音高模式序列及右耳噪声中言语可懂度测试上的得分均显著低于典型发育组，且口吃合并阅读障碍组的音高模式序列得分显著更低。",
-        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
-        "research_implication": "作者提出，对同时存在口吃与阅读障碍的儿童，应将中枢听觉加工评估纳入综合评估，以优化针对性干预效果，但该建议属推论而非本研究直接验证的结论。",
-        "evidence": [
-          "The PPS scores were significantly lower in the group with both disorders.",
-          "Co-occurrence of DS and DD may be associated with exacerbated CAPD, particularly in temporal ordering, pattern recognition, and dichotic listening."
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "f0031e0b87c95689",
-        "updated_at": "2026-10-08T09:08:02Z"
-      }
+      "first_seen_at": "2026-10-04T13:29:35Z"
     },
     {
       "title": "Evaluating Human Auditory Nerve (AN) and Brainstem Function Through Level-Dependent Chirps and Predicted AN Firing Distributions",
@@ -5550,22 +5731,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046572",
-      "url": "https://doi.org/10.1121/10.0046572",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:56Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -5578,6 +5743,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:59Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046572",
+      "url": "https://doi.org/10.1121/10.0046572",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:56Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -16472,22 +16653,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -16500,6 +16665,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -17240,7 +17421,23 @@
         "priority section"
       ],
       "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z"
+      "first_seen_at": "2026-10-04T13:29:21Z",
+      "ai_analysis": {
+        "scientific_question": "不同演出场所中测量的舞台支持参数之间关系如何，以及这些参数能否可靠区分舞台配置？",
+        "key_highlight": "不同舞台支持参数之间存在显著相关性，但相似数值（含不确定度）可对应非常不同的舞台配置。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "摘要提示该领域仍需进一步研究，并应纳入主观评价，以明确哪些参数能更可靠地辅助声学设计师优化演出者舞台布置。",
+        "evidence": [
+          "significant correlations appear among the different parameters, while comparable values (including uncertainties) correspond to very different configurations",
+          "suggesting that further investigations are required in this field, also involving subjective ratings"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "a9fd7c91b3cf38ab",
+        "updated_at": "2026-10-09T09:14:28Z"
+      }
     },
     {
       "title": "A comparison of clinical outcomes and model-based predictions with a hearing aid embedded acoustic denoising network",
@@ -45427,18 +45624,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -45459,17 +45655,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -54793,22 +54990,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -54821,6 +55002,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -61923,23 +62120,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -61953,6 +62133,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -65504,8 +65701,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -65519,8 +65716,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -71041,8 +71238,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -71056,8 +71253,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
