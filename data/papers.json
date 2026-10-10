@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T09:13:53Z",
+  "generated_at": "2026-10-10T08:36:40Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
@@ -1288,6 +1288,64 @@
       "first_seen_at": "2026-09-03T07:13:37Z"
     },
     {
+      "title": "Broadband low-frequency sound absorption of underwater metamaterial coverings combining slit-helical structures and stepped plates",
+      "authors": [
+        "Changlong Li",
+        "Yongshui Lin",
+        "Jianfei Chen",
+        "Jinshun Hu",
+        "Weiguo Wu"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-10-09",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046798",
+      "url": "https://doi.org/10.1121/10.0046798",
+      "abstract": "An underwater acoustic metamaterial coating—comprising a slit, helical water cavity, stepped metal plate, and rubber—is proposed for broadband low-frequency sound absorption. Finite-element method analysis reveals that the slit facilitates acoustic wave entry, exciting local resonances and promoting mode conversion to enhance shear energy dissipation. The helical water cavity reduces structural stiffness, facilitating low-frequency resonance and amplifying the mode conversion effect within the rubber damping layer. Simultaneously, the stepped metal plate optimizes impedance matching and enhances frictional energy consumption at the rubber-metal interface. This plate promotes wave-mode conversion and thereby enhances viscoelastic energy dissipation in the surrounding rubber, contributing to improved high-frequency absorption performance. Structural optimization using a deep neural network and particle swarm optimization demonstrates that effective absorption is achievable at 80 Hz with a 0.5 loss factor. The average absorption coefficient reaches 0.94 across the 10 Hz to 10 kHz range. This study offers a robust approach for designing high-performance underwater acoustic coating structures through synergistic multi-structural mechanisms.",
+      "first_author_affiliation": "Hubei Key Laboratory of Theory and Application of Advanced Materials Mechanics, School of Physics and Mechanics, Wuhan University of Technology 1 , Wuhan 430070,",
+      "last_author_affiliation": "Green &Smart River-Sea-Going Ship, Cruise and Yacht Research Center, Wuhan University of Technology 2 , Wuhan 430063, Hubei,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "machine learning"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-09",
+      "first_seen_at": "2026-10-10T08:36:12Z",
+      "ai_analysis": {
+        "scientific_question": "如何通过狭缝-螺旋结构与阶梯板协同设计，实现水下低频宽带声吸收？",
+        "key_highlight": "所提出的水下声学超材料覆盖层在10 Hz至10 kHz范围内平均吸收系数达0.94，并在80 Hz、损耗因子0.5时实现有效吸收。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该研究提示多结构机制协同可为高性能水下声学覆盖层设计提供一种途径，但实际应用效果仍需进一步验证。",
+        "evidence": [
+          "The average absorption coefficient reaches 0.94 across the 10 Hz to 10 kHz range.",
+          "Structural optimization using a deep neural network and particle swarm optimization demonstrates that effective absorption is achievable at 80 Hz with a 0.5 loss factor."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "a291e2ccd0718507",
+        "updated_at": "2026-10-10T08:36:57Z"
+      }
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-10-09",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046766",
+      "url": "https://doi.org/10.1121/10.0046766",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-10-09",
+      "first_seen_at": "2026-10-10T08:36:12Z"
+    },
+    {
       "title": "Precision Phenotyping With Audiometric Data and Gene Discovery for Sensorineural Hearing Loss.",
       "authors": [
         "Andrea J DeFreese",
@@ -1372,25 +1430,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0046854",
       "url": "https://doi.org/10.1121/10.0046854",
-      "abstract": "Distinctive prosody has been reported in autism, yet acoustic studies have yielded inconsistent findings, particularly for F0-related measures. Two dynamic measures, spaciousness (magnitude of pitch excursions) and wiggliness (rate of pitch-direction changes), offer alternatives, but spaciousness has not yet been applied to English-speaking autistic children. The present study therefore compared acoustic characteristics of prosody from autistic and language-skill matched nonautistic children (age 3–7) using spaciousness, wiggliness, F0 measures (mean, standard deviation, and range), and speech rate. Linear mixed-effects models revealed that only spaciousness showed significant group differences, and these differences were independent of utterance length. Replication in larger samples is warranted.",
-      "first_author_affiliation": "Department of Speech-Language-Hearing Sciences, Lehman College, City University of New York 1 , New York, New York 10468,",
-      "last_author_affiliation": "Linguistics Program, Graduate Center, City University of New York 3 , New York, New York 10016,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0046854",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "priority section",
-        "psychoacoustics"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-10-08",
-      "first_seen_at": "2026-10-09T09:12:41Z",
       "full_text_url": "https://pubs.aip.org/jel/article/6/10/105202/3406201/Spaciousness-as-an-acoustic-measure-of-prosody-in",
-      "media_checked_at": "2026-10-09T09:14:02Z",
-      "open_access_image_checked_at": "2026-10-09T09:14:02Z",
+      "abstract": "Distinctive prosody has been reported in autism, yet acoustic studies have yielded inconsistent findings, particularly for F0-related measures. Two dynamic measures, spaciousness (magnitude of pitch excursions) and wiggliness (rate of pitch-direction changes), offer alternatives, but spaciousness has not yet been applied to English-speaking autistic children. The present study therefore compared acoustic characteristics of prosody from autistic and language-skill matched nonautistic children (age 3–7) using spaciousness, wiggliness, F0 measures (mean, standard deviation, and range), and speech rate. Linear mixed-effects models revealed that only spaciousness showed significant group differences, and these differences were independent of utterance length. Replication in larger samples is warranted.",
       "ai_analysis": {
         "scientific_question": "在英语自闭症儿童中，spaciousness（音高偏移幅度）这一动态韵律声学指标是否比wiggliness及F0相关指标更能区分自闭症儿童与非自闭症儿童？",
         "key_highlight": "线性混合效应模型显示，仅spaciousness呈现显著的组间差异，且该差异不依赖话语长度。",
@@ -1406,7 +1447,24 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "223df7d8645420cc",
         "updated_at": "2026-10-09T09:14:12Z"
-      }
+      },
+      "first_author_affiliation": "Department of Speech-Language-Hearing Sciences, Lehman College, City University of New York 1 , New York, New York 10468,",
+      "last_author_affiliation": "Linguistics Program, Graduate Center, City University of New York 3 , New York, New York 10016,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046854",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-10-09T09:14:02Z",
+      "media_checked_at": "2026-10-09T09:14:02Z",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "priority section",
+        "psychoacoustics"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-10-08",
+      "first_seen_at": "2026-10-09T09:12:41Z"
     },
     {
       "title": "A Lightweight Hybrid Framework for Acoustic Echo Cancellation and Suppression via Constrained Recursive Training",
@@ -1640,17 +1698,6 @@
       "doi": "10.1121/10.0046801",
       "url": "https://doi.org/10.1121/10.0046801",
       "abstract": "Winding construction of violin strings may influence subjective impressions of timbre even with comparable constituent materials and the same nominal pitch. However, the effects of winding-related structural differences on these impressions of timbre remain unclear. In this study, a subjective evaluation of timbre was conducted using two commercially available violin A-strings, designated as String-1 and String-2. Material characterization indicated that both strings had comparable constituent materials, including polyether ether ketone (PEEK)-like synthetic multifilament cores and two layers of Al-5Mg alloy flat-wire windings. The two strings differed in the winding configuration, helical geometry, total linear density, and component-wise mass distribution. The participants' musical experience was measured using the Goldsmiths Musical Sophistication Index. Subjective evaluations showed that String-2 was rated as more massive than String-1 regardless of musical experience. These results suggest that even among strings with comparable constituent materials, the contact conditions and mechanical properties associated with differences in the winding structure of strings may influence the subjective impressions of the timbre of a violin, especially in terms of massiveness.",
-      "first_author_affiliation": "Department of Science and Technology, Faculty of Science and Technology, Seikei University 1 , Musashino 180-8633, Tokyo,",
-      "last_author_affiliation": "Department of Early Childhood Studies, Faculty of Health and Welfare Science, Okayama Prefectural University 5 , Soja 719-1197, Okayama,",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "priority section",
-        "psychoacoustics"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-07",
-      "first_seen_at": "2026-10-08T09:06:00Z",
       "ai_analysis": {
         "scientific_question": "在构成材料和标称音高相近的情况下，小提琴弦的绕线结构差异是否会以及如何影响听者对音色的主观印象？",
         "key_highlight": "两项构成材料相近但绕线构型、螺旋几何、线密度及质量分布不同的A弦中，String-2在主观评价中被认为比String-1更具厚重感，且不受音乐经验影响。",
@@ -1666,7 +1713,18 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "0793496ac21cc899",
         "updated_at": "2026-10-09T09:14:18Z"
-      }
+      },
+      "first_author_affiliation": "Department of Science and Technology, Faculty of Science and Technology, Seikei University 1 , Musashino 180-8633, Tokyo,",
+      "last_author_affiliation": "Department of Early Childhood Studies, Faculty of Health and Welfare Science, Okayama Prefectural University 5 , Soja 719-1197, Okayama,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "priority section",
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-07",
+      "first_seen_at": "2026-10-08T09:06:00Z"
     },
     {
       "title": "Audiovisual joint learning for end-to-end hearing aids",
@@ -1973,6 +2031,22 @@
       "doi": "10.1016/j.heares.2026.109830",
       "url": "https://doi.org/10.1016/j.heares.2026.109830",
       "abstract": "Some active middle-ear implants use round-window stimulation to extend their application to mixed hearing loss. However, current loudness models are unable to predict loudness under round-window stimulation, which prevents the development of fitting procedures. This paper presents a new loudness model for round-window stimulation. The model consists of a peripheral auditory front-end module, which translates the signal picked up by the microphone to round-window stimulation and to effective cochlear response, and a loudness perception back-end module for converting the cochlear response into loudness. The accuracy of the front-end module was validated by comparing the predicted results with experimental data on cochlear responses to a variety of stimuli. The accuracy of the back-end module was validated by comparing the predicted results with experimental data on the loudness of pure tones and noise. The increase in loudness with increasing drive voltage amplitude under round-window stimulation was consistent with that for acoustic stimulation, but the shapes of the equal-loudness contours were different from those for acoustic stimulation, reflecting the different transfer functions and the characteristics of the transducer. When a frequency-dependent correction was applied to allow for this, the predicted equal-loudness contours were similar to those for acoustic stimulation. Additionally, the model-predicted results for diotic and dichotic noise exhibited slight deviations from those for acoustic stimulation, whereas the model-predicted results for pure tones aligned more consistently with those for acoustic stimulation. This research forms the foundation for the development of fitting procedures for round-window stimulating active middle ear implants.",
+      "ai_analysis": {
+        "scientific_question": "如何构建一个能够预测圆窗刺激下响度的双耳响度模型，以支持主动中耳植入物的验配？",
+        "key_highlight": "该模型由外周听觉前端模块和响度感知后端模块组成，其前端预测的耳蜗反应和后端预测的纯音与噪声响度均与实验数据进行了对比验证。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该研究为圆窗刺激主动中耳植入物验配程序的开发奠定了基础，但摘要未报告临床验配效果。",
+        "evidence": [
+          "This paper presents a new loudness model for round-window stimulation.",
+          "This research forms the foundation for the development of fitting procedures for round-window stimulating active middle ear implants."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "a01c8facadc49378",
+        "updated_at": "2026-10-09T09:14:21Z"
+      },
       "last_author_affiliation": "Cambridge Hearing Group, Department of Psychology, University of Cambridge, Cambridge, CB2 3EB, United Kingdom.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
@@ -1991,23 +2065,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-02",
-      "first_seen_at": "2026-10-02T08:37:35Z",
-      "ai_analysis": {
-        "scientific_question": "如何构建一个能够预测圆窗刺激下响度的双耳响度模型，以支持主动中耳植入物的验配？",
-        "key_highlight": "该模型由外周听觉前端模块和响度感知后端模块组成，其前端预测的耳蜗反应和后端预测的纯音与噪声响度均与实验数据进行了对比验证。",
-        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
-        "research_implication": "该研究为圆窗刺激主动中耳植入物验配程序的开发奠定了基础，但摘要未报告临床验配效果。",
-        "evidence": [
-          "This paper presents a new loudness model for round-window stimulation.",
-          "This research forms the foundation for the development of fitting procedures for round-window stimulating active middle ear implants."
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "a01c8facadc49378",
-        "updated_at": "2026-10-09T09:14:21Z"
-      }
+      "first_seen_at": "2026-10-02T08:37:35Z"
     },
     {
       "title": "Acoustic analyses on German vowels in read speech, recited speech, and singing",
@@ -2102,21 +2160,6 @@
       "doi": "10.1016/j.heares.2026.109831",
       "url": "https://doi.org/10.1016/j.heares.2026.109831",
       "abstract": "Dimethyl sulfoxide (DMSO) is widely used as a solvent in auditory and vestibular pharmacology, yet its direct effects on cochlear function are not well defined. We tested whether DMSO in artificial perilymph, delivered through the posterior semicircular canal in mice, alters distortion product otoacoustic emissions (DPOAEs) and medial olivocochlear (MOC)-mediated cochlear responses in the absence of active drug. Artificial perilymph alone produced no measurable change in either MOC-mediated responses or baseline DPOAEs. In contrast, 5% DMSO progressively increased MOC-mediated suppression, 10% DMSO produced a more marked enhancement of MOC-mediated suppression, and 15% DMSO initially enhanced MOC-mediated suppression but subsequently caused progressive loss of both baseline DPOAEs and MOC-mediated suppression. Averaged response profiles showed a concentration dependent increase in MOC-mediated suppression, and Hill-type analysis yielded an EC50 of 5.29% DMSO. At higher concentrations, 15% DMSO elevated DPOAE threshold by approximately 30 dB. Because DMSO containing solutions were markedly hyperosmotic relative to artificial perilymph, osmotic stress likely contributed to the observed effects. To test direct cochlear action, we also examined outer hair cell (OHC) electromotility ex vivo using optical coherence tomography in gerbils. In this preparation, 5% DMSO reversibly reduced OHC electromotility without obvious structural damage. These findings indicate that DMSO effects depend on centration and experimental context. Although 1% DMSO produced no measurable effect, direct perilymphatic exposure to concentrations of 5% or greater altered MOC-mediated responses and OHC electromotility. These results support the continued use of matched vehicle controls, particularly when higher DMSO concentrations are required for local inner ear delivery.",
-      "last_author_affiliation": "Department of Mechanical Engineering, University of Rochester, Rochester, NY, United States; Department of Biomedical Engineering, University of Rochester, Rochester, NY, United States; Department of Neuroscience, University of Rochester, Rochester, NY, United States.",
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [
-        "Dimethyl sulfoxide",
-        "Medial olivocochlear",
-        "Outer hair cell",
-        "Posterior canal delivery"
-      ],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-02",
-      "first_seen_at": "2026-10-03T08:14:20Z",
       "ai_analysis": {
         "scientific_question": "在无活性药物存在时，经后半规管向小鼠内耳递送不同浓度的DMSO是否会改变耳蜗传出功能与基线DPOAE？",
         "key_highlight": "DMSO对耳蜗功能的影响呈浓度依赖性：5%和10%增强MOC介导的抑制，15%先增强后导致基线DPOAE与MOC抑制的进行性丧失，且5% DMSO在离体条件下可逆性降低OHC电运动性。",
@@ -2132,7 +2175,22 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "18cd82a939e63f14",
         "updated_at": "2026-10-09T09:14:20Z"
-      }
+      },
+      "last_author_affiliation": "Department of Mechanical Engineering, University of Rochester, Rochester, NY, United States; Department of Biomedical Engineering, University of Rochester, Rochester, NY, United States; Department of Neuroscience, University of Rochester, Rochester, NY, United States.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [
+        "Dimethyl sulfoxide",
+        "Medial olivocochlear",
+        "Outer hair cell",
+        "Posterior canal delivery"
+      ],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-02",
+      "first_seen_at": "2026-10-03T08:14:20Z"
     },
     {
       "title": "From signals to species: Improving acoustic classification reliability for North Pacific false killer whales",
@@ -2657,21 +2715,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00266-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-02T07:09:02Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-10-01",
       "publication_date_precision": "day",
@@ -2684,6 +2727,21 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00266-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Effective model of fiber Bragg gratings for simulation of ultrasonic guided wave measurements using spectral finite elements",
@@ -4055,6 +4113,58 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-30",
       "first_seen_at": "2026-10-01T09:02:19Z"
+    },
+    {
+      "title": "Affective nonverbal vocalizations and implications for cochlear implants: A scoping review",
+      "authors": [
+        "Beatrice Fumagalli",
+        "Katarzyna Pisanski",
+        "Yue Zhang",
+        "Gloria Araiza-Illan",
+        "Adrien Daniel",
+        "David Reby",
+        "Deniz Başkent"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-09-30",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109828",
+      "url": "https://doi.org/10.1016/j.heares.2026.109828",
+      "abstract": "Nonverbal vocalizations (NVVs) like laughs, cries and screams are powerful carriers of affective meaning and trigger rapid attentional responses. Evidence linking specific acoustic cues of adult NVVs to affective perception remains fragmented across heterogeneous studies in typically-hearing listeners, and largely absent in cochlear‑implant users. To map empirical evidence linking acoustic cues of adult NVVs to emotion and salience perception in typically‑hearing listeners, and to determine whether comparable evidence exists for cochlear implant users. Following PRISMA‑ScR guidelines, peer‑reviewed studies were included that quantified acoustic features of NVVs and related them to perceived affect or salience in typically-hearing or cochlear implant listeners. Twenty-seven studies (44 experiments, 2010-2025) met inclusion criteria. In typically-hearing listeners, multiple acoustic cues show consistent associations with affective dimensions, but do not map onto affective meaning in a one-to-one manner. Overall, affective perception depends on combinations of acoustic cues and is systematically modulated by call type (e.g., laugh, cry). Evidence concerning salience was concentrated on amplitude modulation in the 30-150 Hz range, mainly in screams. Few studies compared cue-perception associations across NVV types. Evidence for cochlear implant users was extremely limited: only one study provided acoustic analyses, indicating compressed affective spaces and reliance on envelope‑based cues. NVV perception depends on integrated cues whose perceptual roles vary across call types, with more convergent evidence for salience than for affect perception. Major gaps include NVV salience beyond screams, differences across call types, and cue‑level investigations in cochlear implant listeners.",
+      "last_author_affiliation": "Graduate School of Medical Sciences, Research School of Behavioural and Cognitive Neurosciences, University of Groningen, Groningen, Netherlands; Department of Otorhinolaryngology / Head and Neck Surgery, University Medical Center Groningen, University of Groningen, Groningen, Netherlands; ROBOTICS, PRECISION, University Medical Center Groningen, University of Groningen, Groningen, Netherlands.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Acoustics",
+        "Affect",
+        "Cochlear implants",
+        "Emotion",
+        "Salience",
+        "Vocalizations"
+      ],
+      "tags": [
+        "auditory physiology",
+        "cochlear implant"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-09-30",
+      "first_seen_at": "2026-10-04T13:29:35Z",
+      "ai_analysis": {
+        "scientific_question": "在典型听力者中，成人非言语发声的声学线索如何与情感和显著性感知相关联，以及是否存在针对人工耳蜗使用者的可比证据？",
+        "key_highlight": "综述发现情感感知依赖多种声学线索的组合并随发声类型系统变化，而人工耳蜗使用者的证据极为有限。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "未来研究需关注非尖叫类发声的显著性、跨发声类型的差异以及人工耳蜗使用者的线索层面探究。",
+        "evidence": [
+          "Overall, affective perception depends on combinations of acoustic cues and is systematically modulated by call type (e.g., laugh, cry).",
+          "Evidence for cochlear implant users was extremely limited: only one study provided acoustic analyses, indicating compressed affective spaces and reliance on envelope‑based cues."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "41380b5f34fa4680",
+        "updated_at": "2026-10-10T08:36:59Z"
+      }
     },
     {
       "title": "Central auditory processing skills in stuttering school-age children with and without dyslexia: a preliminary study",
@@ -5731,22 +5841,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046571",
-      "url": "https://doi.org/10.1121/10.0046571",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:59Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -5759,6 +5853,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:56Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046571",
+      "url": "https://doi.org/10.1121/10.0046571",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:59Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -9212,32 +9322,6 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-01",
       "first_seen_at": "2026-09-02T07:08:57Z"
-    },
-    {
-      "title": "Affective Nonverbal Vocalizations and Implications for Cochlear Implants: A Scoping Review",
-      "authors": [
-        "Beatrice Fumagalli",
-        "Katarzyna Pisanski",
-        "Yue Zhang",
-        "Gloria Araiza-Illan",
-        "Adrien Daniel",
-        "David Reby",
-        "Deniz Başkent"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-09-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109828",
-      "url": "https://doi.org/10.1016/j.heares.2026.109828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "auditory physiology",
-        "cochlear implant"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:35Z"
     },
     {
       "title": "An optimized tissue processing pipeline for multiscale imaging of the intact peripheral auditory pathway",
@@ -16653,22 +16737,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044504",
-      "url": "https://doi.org/10.1121/10.0044504",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:37Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -16681,6 +16749,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:36Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044504",
+      "url": "https://doi.org/10.1121/10.0044504",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:37Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -17413,15 +17497,6 @@
       "doi": "10.1121/10.0044936",
       "url": "https://doi.org/10.1121/10.0044936",
       "abstract": "Since their first appearance in the architectural acoustics field, stage support parameters slowly gained popularity but, at the same time, underwent small changes that slightly modified their definition (in particular to better fit hearing oneself and hearing others), while other parameters were proposed to better explore the specific acoustic features of stages. In fact, a limited, but significant, number of subjective studies pointed out that different parameters could better discriminate stage configurations while proving more robust to small stage differences and showing improved agreement with subjective preferences that pointed out the importance of the reverberant response of the main hall. The analysis of the measurements collected in a number of different venues is presented and discussed, showing that, as already pointed out by other authors, significant correlations appear among the different parameters, while comparable values (including uncertainties) correspond to very different configurations, suggesting that further investigations are required in this field, also involving subjective ratings, so to clarify which parameters could more reliably help acousticians in designing optimal arrangements for performers.",
-      "first_author_affiliation": "Dept. of Architecture, Construction and Design, Politecnico di Bari, Via Orabona 4, Bari 70125, Italy, francesco.martellotta@poliba.it",
-      "last_author_affiliation": "D'Orazio Acoust., Bologna, Italy",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "priority section"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z",
       "ai_analysis": {
         "scientific_question": "不同演出场所中测量的舞台支持参数之间关系如何，以及这些参数能否可靠区分舞台配置？",
         "key_highlight": "不同舞台支持参数之间存在显著相关性，但相似数值（含不确定度）可对应非常不同的舞台配置。",
@@ -17437,7 +17512,16 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "a9fd7c91b3cf38ab",
         "updated_at": "2026-10-09T09:14:28Z"
-      }
+      },
+      "first_author_affiliation": "Dept. of Architecture, Construction and Design, Politecnico di Bari, Via Orabona 4, Bari 70125, Italy, francesco.martellotta@poliba.it",
+      "last_author_affiliation": "D'Orazio Acoust., Bologna, Italy",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "priority section"
+      ],
+      "source": "crossref",
+      "first_seen_at": "2026-10-04T13:29:21Z"
     },
     {
       "title": "A comparison of clinical outcomes and model-based predictions with a hearing aid embedded acoustic denoising network",
@@ -17461,7 +17545,23 @@
         "speech perception"
       ],
       "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z"
+      "first_seen_at": "2026-10-04T13:29:21Z",
+      "ai_analysis": {
+        "scientific_question": "嵌入式助听器降噪网络在噪声环境中对语音识别和音质的临床效果如何，并与预测模型的输出相比如何？",
+        "key_highlight": "多项临床试验均显示，启用降噪网络后，噪声中的语音识别显著改善。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "这些行为数据可与包含传统固定参数方法和基于AI的语音识别预测模型的输出进行比较，以评估模型预测与临床结果的一致性。",
+        "evidence": [
+          "The results of multiple clinical trials will be summarized, each showing significantly improved speech recognition in noise when the denoising network is engaged.",
+          "These behavioral data will be compared to the output of predictive models of speech recognition that include traditional fixed parameter approaches and comparatively modern AI-based systems that leverage techniques like automatic speech recognition."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "1e86bffd9cc0e54e",
+        "updated_at": "2026-10-10T08:37:07Z"
+      }
     },
     {
       "title": "A comparison of impulse response techniques for marimba auralization in a concert hall",
@@ -17482,7 +17582,23 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z"
+      "first_seen_at": "2026-10-04T13:29:21Z",
+      "ai_analysis": {
+        "scientific_question": "在音乐厅中，哪种脉冲响应测量技术（拍板脉冲、线性/对数/步进正弦扫频）能最准确地重现马林巴演奏的混响效果与频率响应？",
+        "key_highlight": "初步分析表明，步进正弦扫频和拍板脉冲与干声马林巴卷积后，对音乐厅声学特征的再现最为准确。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该结果提示不同脉冲响应测量技术可能影响马林巴听觉化效果，但需进一步研究验证其普遍性。",
+        "evidence": [
+          "Preliminary analysis indicates that stepped sine sweeps and slapstick impulses provide the most accurate reproduction of the hall’s acoustic profile when convolved with dry marimba audio.",
+          "The dry recordings are convolved with the hall's impulse responses to generate auralizations."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "82bafa175ef92f92",
+        "updated_at": "2026-10-10T08:37:09Z"
+      }
     },
     {
       "title": "A comparison of the squeaking vocalizations of North American wild canids",
@@ -17502,7 +17618,23 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z"
+      "first_seen_at": "2026-10-04T13:29:21Z",
+      "ai_analysis": {
+        "scientific_question": "北美野生犬科动物（郊狼与狼）的亲和性吱叫声在结构上有何异同？",
+        "key_highlight": "郊狼吱叫声的频带宽度（3.0–11.0 kHz）更接近红狼（2.7–9.5 kHz）而非灰狼（1.8–6.0 kHz），但单个吱叫声在平均频率范围和时长上更接近灰狼。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "低频成分传播距离不及高频成分，可能影响偷听同种个体的接收效果，但摘要未报告行为或因果验证。",
+        "evidence": [
+          "The frequencies bandwidth within which coyotes squeaked (3.0–11.0 kHz) was broad, more similar to red wolves (2.7–9.5 kHz) than gray wolves (1.8–6.0 kHz).",
+          "The low-frequency component did not travel as far as the high-frequency component, which may affect eavesdropping conspecifics."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "2640da6282c396b7",
+        "updated_at": "2026-10-10T08:37:10Z"
+      }
     },
     {
       "title": "A database approach to identifying factors influencing acoustic modem performance",
@@ -45624,17 +45756,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -45655,18 +45788,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -54990,22 +55122,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -55018,6 +55134,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -62120,23 +62252,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -62150,6 +62265,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -65701,8 +65833,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -65716,8 +65848,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -71238,8 +71370,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -71253,8 +71385,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
