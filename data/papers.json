@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T08:36:40Z",
+  "generated_at": "2026-10-11T09:01:02Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
@@ -1288,6 +1288,63 @@
       "first_seen_at": "2026-09-03T07:13:37Z"
     },
     {
+      "title": "Automated Question-and-Answer-Based Speech-In-Noise Hearing Test Using a Large Language Model",
+      "authors": [
+        "Mohsen Fatehifar",
+        "Kevin J. Munro",
+        "Michael A. Stone",
+        "David Wong",
+        "Tim Cootes",
+        "Josef Schlittenlacher"
+      ],
+      "journal": "Trends in Hearing",
+      "publication_date": "2026-10-10",
+      "publication_date_precision": "day",
+      "doi": "10.1177/23312165261479670",
+      "url": "https://doi.org/10.1177/23312165261479670",
+      "abstract": "A conversational speech-in-noise test administered without human supervision is desirable to reduce the need to attend the clinic. This study aimed to create and evaluate a novel question-and-answer-based speech-in-noise test called ‘CHAT’, where stimuli were synthesised using text-to-speech (TTS), responses captured using automatic speech recognition (ASR), and responses evaluated using a large language model (LLM). Three tests were compared: the newly developed CHAT, the Adaptive Sentence List (ASL) and the Four Alternative Auditory Feature Test (FAAF). CHAT used synthetic speech while ASL and FAAF by default used human-recorded speech. Speech reception thresholds (SRT) of 20 participants with normal hearing and 20 with mild to moderate hearing loss were measured using these three tests. Validity was evaluated using receiver operating characteristic (ROC) analysis and correlations between SRTs and average pure-tone audiometry (PTA), across the three speech tests. Reliability was evaluated by comparing limits-of-agreement between SRTs achieved by repeated runs of CHAT and ASL tests using Bland-Altman analysis. Results revealed limits-of-agreement between repeated runs of CHAT and ASL were ±3.6 dB and ±3.1 dB, respectively. The area under the ROC curve was 0.97 for CHAT, 0.95 for ASL and 0.89 for FAAF. The correlation between SRT and PTA results was 0.86 for CHAT, 0.82 for ASL and 0.79 for FAAF. These findings indicate that CHAT demonstrates reliability and validity comparable to human-recorded ASL and FAAF, supporting the use of synthetic speech for speech-in-noise testing. Overall, the results suggest that AI tools can help create and administer conversational speech-in-noise tests.",
+      "first_author_affiliation": "The University of Manchester",
+      "last_author_affiliation": "University College London",
+      "open_access": true,
+      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261479670",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Automated Test",
+        "Automatic Speech Recognition",
+        "Large Language Models",
+        "Speech-In-Noise Test",
+        "Text-To-Speech"
+      ],
+      "tags": [
+        "clinical audiology",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-10",
+      "first_seen_at": "2026-10-11T09:00:32Z",
+      "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261479670",
+      "media_checked_at": "2026-10-11T09:01:12Z",
+      "open_access_image_checked_at": "2026-10-11T09:01:12Z",
+      "ai_analysis": {
+        "scientific_question": "本研究旨在创建并评估一种名为CHAT的问答式噪声下言语测试，并将其与ASL和FAAF测试在信度和效度上进行比较。",
+        "key_highlight": "CHAT的ROC曲线下面积为0.97，SRT与PTA的相关系数为0.86，重复测量的一致性界限为±3.6 dB，显示出与使用人工录音的ASL和FAAF相当的信度和效度。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "这些结果提示AI工具可能有助于创建和实施对话式噪声下言语测试，但摘要未报告临床部署或与助听设备相关的结论。",
+        "evidence": [
+          "Results revealed limits-of-agreement between repeated runs of CHAT and ASL were ±3.6 dB and ±3.1 dB, respectively.",
+          "The correlation between SRT and PTA results was 0.86 for CHAT, 0.82 for ASL and 0.79 for FAAF."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "f6455f1d49c68d5e",
+        "updated_at": "2026-10-11T09:01:26Z"
+      }
+    },
+    {
       "title": "Broadband low-frequency sound absorption of underwater metamaterial coverings combining slit-helical structures and stepped plates",
       "authors": [
         "Changlong Li",
@@ -1302,16 +1359,6 @@
       "doi": "10.1121/10.0046798",
       "url": "https://doi.org/10.1121/10.0046798",
       "abstract": "An underwater acoustic metamaterial coating—comprising a slit, helical water cavity, stepped metal plate, and rubber—is proposed for broadband low-frequency sound absorption. Finite-element method analysis reveals that the slit facilitates acoustic wave entry, exciting local resonances and promoting mode conversion to enhance shear energy dissipation. The helical water cavity reduces structural stiffness, facilitating low-frequency resonance and amplifying the mode conversion effect within the rubber damping layer. Simultaneously, the stepped metal plate optimizes impedance matching and enhances frictional energy consumption at the rubber-metal interface. This plate promotes wave-mode conversion and thereby enhances viscoelastic energy dissipation in the surrounding rubber, contributing to improved high-frequency absorption performance. Structural optimization using a deep neural network and particle swarm optimization demonstrates that effective absorption is achievable at 80 Hz with a 0.5 loss factor. The average absorption coefficient reaches 0.94 across the 10 Hz to 10 kHz range. This study offers a robust approach for designing high-performance underwater acoustic coating structures through synergistic multi-structural mechanisms.",
-      "first_author_affiliation": "Hubei Key Laboratory of Theory and Application of Advanced Materials Mechanics, School of Physics and Mechanics, Wuhan University of Technology 1 , Wuhan 430070,",
-      "last_author_affiliation": "Green &Smart River-Sea-Going Ship, Cruise and Yacht Research Center, Wuhan University of Technology 2 , Wuhan 430063, Hubei,",
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "machine learning"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-09",
-      "first_seen_at": "2026-10-10T08:36:12Z",
       "ai_analysis": {
         "scientific_question": "如何通过狭缝-螺旋结构与阶梯板协同设计，实现水下低频宽带声吸收？",
         "key_highlight": "所提出的水下声学超材料覆盖层在10 Hz至10 kHz范围内平均吸收系数达0.94，并在80 Hz、损耗因子0.5时实现有效吸收。",
@@ -1327,7 +1374,17 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "a291e2ccd0718507",
         "updated_at": "2026-10-10T08:36:57Z"
-      }
+      },
+      "first_author_affiliation": "Hubei Key Laboratory of Theory and Application of Advanced Materials Mechanics, School of Physics and Mechanics, Wuhan University of Technology 1 , Wuhan 430070,",
+      "last_author_affiliation": "Green &Smart River-Sea-Going Ship, Cruise and Yacht Research Center, Wuhan University of Technology 2 , Wuhan 430063, Hubei,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "machine learning"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-09",
+      "first_seen_at": "2026-10-10T08:36:12Z"
     },
     {
       "title": "Editorial Board",
@@ -2715,6 +2772,21 @@
     {
       "title": "Editorial Board",
       "authors": [],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00266-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-02T07:09:02Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-10-01",
       "publication_date_precision": "day",
@@ -2727,21 +2799,6 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00266-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Effective model of fiber Bragg gratings for simulation of ultrasonic guided wave measurements using spectral finite elements",
@@ -4131,6 +4188,22 @@
       "doi": "10.1016/j.heares.2026.109828",
       "url": "https://doi.org/10.1016/j.heares.2026.109828",
       "abstract": "Nonverbal vocalizations (NVVs) like laughs, cries and screams are powerful carriers of affective meaning and trigger rapid attentional responses. Evidence linking specific acoustic cues of adult NVVs to affective perception remains fragmented across heterogeneous studies in typically-hearing listeners, and largely absent in cochlear‑implant users. To map empirical evidence linking acoustic cues of adult NVVs to emotion and salience perception in typically‑hearing listeners, and to determine whether comparable evidence exists for cochlear implant users. Following PRISMA‑ScR guidelines, peer‑reviewed studies were included that quantified acoustic features of NVVs and related them to perceived affect or salience in typically-hearing or cochlear implant listeners. Twenty-seven studies (44 experiments, 2010-2025) met inclusion criteria. In typically-hearing listeners, multiple acoustic cues show consistent associations with affective dimensions, but do not map onto affective meaning in a one-to-one manner. Overall, affective perception depends on combinations of acoustic cues and is systematically modulated by call type (e.g., laugh, cry). Evidence concerning salience was concentrated on amplitude modulation in the 30-150 Hz range, mainly in screams. Few studies compared cue-perception associations across NVV types. Evidence for cochlear implant users was extremely limited: only one study provided acoustic analyses, indicating compressed affective spaces and reliance on envelope‑based cues. NVV perception depends on integrated cues whose perceptual roles vary across call types, with more convergent evidence for salience than for affect perception. Major gaps include NVV salience beyond screams, differences across call types, and cue‑level investigations in cochlear implant listeners.",
+      "ai_analysis": {
+        "scientific_question": "在典型听力者中，成人非言语发声的声学线索如何与情感和显著性感知相关联，以及是否存在针对人工耳蜗使用者的可比证据？",
+        "key_highlight": "综述发现情感感知依赖多种声学线索的组合并随发声类型系统变化，而人工耳蜗使用者的证据极为有限。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "未来研究需关注非尖叫类发声的显著性、跨发声类型的差异以及人工耳蜗使用者的线索层面探究。",
+        "evidence": [
+          "Overall, affective perception depends on combinations of acoustic cues and is systematically modulated by call type (e.g., laugh, cry).",
+          "Evidence for cochlear implant users was extremely limited: only one study provided acoustic analyses, indicating compressed affective spaces and reliance on envelope‑based cues."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "41380b5f34fa4680",
+        "updated_at": "2026-10-10T08:36:59Z"
+      },
       "last_author_affiliation": "Graduate School of Medical Sciences, Research School of Behavioural and Cognitive Neurosciences, University of Groningen, Groningen, Netherlands; Department of Otorhinolaryngology / Head and Neck Surgery, University Medical Center Groningen, University of Groningen, Groningen, Netherlands; ROBOTICS, PRECISION, University Medical Center Groningen, University of Groningen, Groningen, Netherlands.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
@@ -4148,23 +4221,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-30",
-      "first_seen_at": "2026-10-04T13:29:35Z",
-      "ai_analysis": {
-        "scientific_question": "在典型听力者中，成人非言语发声的声学线索如何与情感和显著性感知相关联，以及是否存在针对人工耳蜗使用者的可比证据？",
-        "key_highlight": "综述发现情感感知依赖多种声学线索的组合并随发声类型系统变化，而人工耳蜗使用者的证据极为有限。",
-        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
-        "research_implication": "未来研究需关注非尖叫类发声的显著性、跨发声类型的差异以及人工耳蜗使用者的线索层面探究。",
-        "evidence": [
-          "Overall, affective perception depends on combinations of acoustic cues and is systematically modulated by call type (e.g., laugh, cry).",
-          "Evidence for cochlear implant users was extremely limited: only one study provided acoustic analyses, indicating compressed affective spaces and reliance on envelope‑based cues."
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "41380b5f34fa4680",
-        "updated_at": "2026-10-10T08:36:59Z"
-      }
+      "first_seen_at": "2026-10-04T13:29:35Z"
     },
     {
       "title": "Central auditory processing skills in stuttering school-age children with and without dyslexia: a preliminary study",
@@ -5841,22 +5898,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046572",
-      "url": "https://doi.org/10.1121/10.0046572",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:56Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -5869,6 +5910,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:59Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046572",
+      "url": "https://doi.org/10.1121/10.0046572",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:56Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -16737,22 +16794,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -16765,6 +16806,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -17534,18 +17591,6 @@
       "doi": "10.1121/10.0045458",
       "url": "https://doi.org/10.1121/10.0045458",
       "abstract": "The treatment of hearing loss with hearing aids first aims to address the reduced audibility of sound. However, restoration of audibility alone will not meet the needs of all listeners. Even for experienced hearing aid wearers, the most common complaints relate to understanding speech in noisy environments. This presentation will describe the design of a hearing aid-embedded denoising network that is optimized to enhance speech in background noise while maintaining clinically acceptable sound quality. The results of multiple clinical trials will be summarized, each showing significantly improved speech recognition in noise when the denoising network is engaged. These behavioral data will be compared to the output of predictive models of speech recognition that include traditional fixed parameter approaches and comparatively modern AI-based systems that leverage techniques like automatic speech recognition.",
-      "first_author_affiliation": "Sonova Group, 750 N Commons Dr., Aurora, IL 60504, jason.galster@sonova.com",
-      "last_author_affiliation": "Sonova Group, 750 N Commons Dr., Aurora, IL 60504, jason.galster@sonova.com",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "clinical audiology",
-        "hearing aid",
-        "priority section",
-        "speech perception"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z",
       "ai_analysis": {
         "scientific_question": "嵌入式助听器降噪网络在噪声环境中对语音识别和音质的临床效果如何，并与预测模型的输出相比如何？",
         "key_highlight": "多项临床试验均显示，启用降噪网络后，噪声中的语音识别显著改善。",
@@ -17561,7 +17606,19 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "1e86bffd9cc0e54e",
         "updated_at": "2026-10-10T08:37:07Z"
-      }
+      },
+      "first_author_affiliation": "Sonova Group, 750 N Commons Dr., Aurora, IL 60504, jason.galster@sonova.com",
+      "last_author_affiliation": "Sonova Group, 750 N Commons Dr., Aurora, IL 60504, jason.galster@sonova.com",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology",
+        "hearing aid",
+        "priority section",
+        "speech perception"
+      ],
+      "source": "crossref",
+      "first_seen_at": "2026-10-04T13:29:21Z"
     },
     {
       "title": "A comparison of impulse response techniques for marimba auralization in a concert hall",
@@ -17576,13 +17633,6 @@
       "doi": "10.1121/10.0045343",
       "url": "https://doi.org/10.1121/10.0045343",
       "abstract": "In this project, Utah Valley University's Noorda Center Concert Hall (Orem, UT) is acoustically characterized by employing slapstick impulses as well as linear, logarithmic, and stepped sine sweeps recorded in-hall to calculate the impulse response function. A Marimba One (Arcata, CA) 3100 Basso Bravo Concert Marimba is recorded by a professional musician both in the Concert Hall and in an acoustically dry practice room. The dry recordings are convolved with the hall's impulse responses to generate auralizations. These auralizations are compared quantitatively and qualitatively to the live recording of the marimba performance in the hall to determine which method most accurately reproduces the concert hall's reverberation effect and frequency response. Preliminary analysis indicates that stepped sine sweeps and slapstick impulses provide the most accurate reproduction of the hall’s acoustic profile when convolved with dry marimba audio.",
-      "first_author_affiliation": "Phys., Utah Valley Univ., 800 W University Parkway, Orem, UT 84058, benjaminjholt@outlook.com",
-      "last_author_affiliation": "Music, Utah Valley Univ., Orem, UT",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z",
       "ai_analysis": {
         "scientific_question": "在音乐厅中，哪种脉冲响应测量技术（拍板脉冲、线性/对数/步进正弦扫频）能最准确地重现马林巴演奏的混响效果与频率响应？",
         "key_highlight": "初步分析表明，步进正弦扫频和拍板脉冲与干声马林巴卷积后，对音乐厅声学特征的再现最为准确。",
@@ -17598,7 +17648,14 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "82bafa175ef92f92",
         "updated_at": "2026-10-10T08:37:09Z"
-      }
+      },
+      "first_author_affiliation": "Phys., Utah Valley Univ., 800 W University Parkway, Orem, UT 84058, benjaminjholt@outlook.com",
+      "last_author_affiliation": "Music, Utah Valley Univ., Orem, UT",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-10-04T13:29:21Z"
     },
     {
       "title": "A comparison of the squeaking vocalizations of North American wild canids",
@@ -17612,13 +17669,6 @@
       "doi": "10.1121/10.0045287",
       "url": "https://doi.org/10.1121/10.0045287",
       "abstract": "The affiliative squeaking vocalization, consisting of sequences of low-amplitude, high-frequency tonal units, has not been systematically described or studied in coyotes (Canis latrans), despite their close relationship with wolves (Canis lupus and Canis rufus). To compare the structure of coyote squeaks to those of wolves, we observed three breeding pairs at the USDA Predator Research Station in Millville, Utah using camera traps and continuous audio recordings from five recorders. Like wolves, the number of squeaks per vocalization varied greatly. The frequencies bandwidth within which coyotes squeaked (3.0–11.0 kHz) was broad, more similar to red wolves (2.7–9.5 kHz) than gray wolves (1.8–6.0 kHz). Individual squeaks more closely resembled those of gray wolves, with larger average frequency ranges and longer durations than those of red wolves. Squeaks of all three species display a variety of contours, with flat or bump-like shapes being among the most common. Like red wolves, coyotes produced sound units with a second fundamental frequency (0.5–1.6 kHz), either in the form of frequency jumps or biphonations. The low-frequency component did not travel as far as the high-frequency component, which may affect eavesdropping conspecifics. North American wild canids share a common affiliative vocalization, despite differences in social structure complexity.",
-      "first_author_affiliation": "Dept. of Psych., LCC Int. Univ., Kretingos 36, Klaipeda LT-92307, Lithuania, jschneider@lcc.lt",
-      "last_author_affiliation": "Utah Res. Station, USDA APHIS WS, National Wildlife Res. Ctr., Millville, UT",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z",
       "ai_analysis": {
         "scientific_question": "北美野生犬科动物（郊狼与狼）的亲和性吱叫声在结构上有何异同？",
         "key_highlight": "郊狼吱叫声的频带宽度（3.0–11.0 kHz）更接近红狼（2.7–9.5 kHz）而非灰狼（1.8–6.0 kHz），但单个吱叫声在平均频率范围和时长上更接近灰狼。",
@@ -17634,7 +17684,14 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "2640da6282c396b7",
         "updated_at": "2026-10-10T08:37:10Z"
-      }
+      },
+      "first_author_affiliation": "Dept. of Psych., LCC Int. Univ., Kretingos 36, Klaipeda LT-92307, Lithuania, jschneider@lcc.lt",
+      "last_author_affiliation": "Utah Res. Station, USDA APHIS WS, National Wildlife Res. Ctr., Millville, UT",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-10-04T13:29:21Z"
     },
     {
       "title": "A database approach to identifying factors influencing acoustic modem performance",
@@ -17658,7 +17715,23 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z"
+      "first_seen_at": "2026-10-04T13:29:21Z",
+      "ai_analysis": {
+        "scientific_question": "如何构建一个在时间上一致的数据库，以识别与声学调制解调器解码性能下降相关的多种因素？",
+        "key_highlight": "提出了一套构建数据库的通用流程，纳入解码性能统计、海洋学数据和传播度量，并发现交互式数据分析中的数据刷选与联动方法虽简单却特别有用。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该流程与交互式可视化方法可能帮助在不同声学环境中快速识别与调制解调器性能下降相关的因素，但摘要未报告实际识别出的具体因素或验证结果。",
+        "evidence": [
+          "A generalized process is presented for constructing a database that incorporates a wide range of potentially relevant factors in a temporally consistent manner",
+          "Despite their simplicity, data brushing and linking methods were found to be particularly useful."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "7abd4489a8239eae",
+        "updated_at": "2026-10-11T09:01:34Z"
+      }
     },
     {
       "title": "A decade of direct sediment acoustic measurements inspired by Tom Muir",
@@ -17680,7 +17753,23 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z"
+      "first_seen_at": "2026-10-04T13:29:21Z",
+      "ai_analysis": {
+        "scientific_question": "过去十年中，直接测量沉积物声学特性的方法体系是如何从实验室实验逐步发展到原位测量系统的？",
+        "key_highlight": "该研究回顾了从受Tom Muir启发的实验室剪切波测量，到浅水河口探针、声学取芯系统，再到最近声学多管取样系统的十年发展历程。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "这些测量系统的演进可能为在不同环境下以最小扰动获取沉积物声学特性提供方法基础，但摘要未报告具体结果。",
+        "evidence": [
+          "Our work began with controlled laboratory experiments that produced a unique set of measurements of shear-wave speed and attenuation in kaolinite-based muds, using circa-1970 bender elements provided by Tom.",
+          "Most recently, we have developed an acoustic multicore system that enables in situ measurements of surficial sediment acoustic properties with minimal disturbance."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "2215301c282d3dbe",
+        "updated_at": "2026-10-11T09:01:36Z"
+      }
     },
     {
       "title": "A double-reed sound source for physical models of the human vocal tract",
@@ -17699,7 +17788,23 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z"
+      "first_seen_at": "2026-10-04T13:29:21Z",
+      "ai_analysis": {
+        "scientific_question": "如何设计一种双簧片声源，以在人体声道物理模型中模拟不对称振动及粗糙或气息音质？",
+        "key_highlight": "通过将两个簧片台背靠背连接，实现了双簧片同步稳定振动，并可通过单侧加小重物或凸起模拟不对称声带振动，产生粗糙和/或气息音质。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该双簧片声源可能有助于在物理模型中观察声源与滤波器的相互作用，尤其是粗糙或气息音质。",
+        "evidence": [
+          "A simple solution to achieve this goal was to join two “tables” for reeds back to back.",
+          "We confirmed that outcomes from a vocal-tract model with such asymmetrical double-reed sound sources had voice qualities of roughness and/or breathiness."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "c1796c29f53829ef",
+        "updated_at": "2026-10-11T09:01:37Z"
+      }
     },
     {
       "title": "A dynamic homogenization framework for elastic metamaterials",
@@ -17719,7 +17824,23 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z"
+      "first_seen_at": "2026-10-04T13:29:21Z",
+      "ai_analysis": {
+        "scientific_question": "如何用等效连续体描述替代复杂亚尺度几何特征，以加速弹性超材料的动态仿真？",
+        "key_highlight": "该研究提出基于周期单胞理论和Bloch波分析的动态均匀化框架，系统提取频率相关的刚度与密度张量，并在大尺度仿真中与高保真全解析几何模型验证一致。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该方法有望实现超声波传播的快速准确建模，并为振动隔离与冲击缓解的高效轻量化设计提供途径。",
+        "evidence": [
+          "Using a finite-element model based on periodic unit-cell theory and Bloch wave analysis, we systematically extract full frequency-dependent stiffness and density tensors.",
+          "The results reveal pronounced frequency-dependent dispersion and anisotropy that are overlooked by static homogenization, which fails to account for micro-scale periodicity as the wavelength approaches the unit-cell size."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "60cc1b8a4f399965",
+        "updated_at": "2026-10-11T09:01:39Z"
+      }
     },
     {
       "title": "A hybrid learning framework for speaker verification in elementary classroom environments",
@@ -45756,18 +45877,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -45788,17 +45908,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -55122,22 +55243,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -55150,6 +55255,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -62252,23 +62373,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -62282,6 +62386,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -65833,8 +65954,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -65848,8 +65969,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -71370,8 +71491,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -71385,8 +71506,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
