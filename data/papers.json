@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T09:01:02Z",
+  "generated_at": "2026-10-12T09:21:53Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
@@ -1302,31 +1302,8 @@
       "publication_date_precision": "day",
       "doi": "10.1177/23312165261479670",
       "url": "https://doi.org/10.1177/23312165261479670",
-      "abstract": "A conversational speech-in-noise test administered without human supervision is desirable to reduce the need to attend the clinic. This study aimed to create and evaluate a novel question-and-answer-based speech-in-noise test called ‘CHAT’, where stimuli were synthesised using text-to-speech (TTS), responses captured using automatic speech recognition (ASR), and responses evaluated using a large language model (LLM). Three tests were compared: the newly developed CHAT, the Adaptive Sentence List (ASL) and the Four Alternative Auditory Feature Test (FAAF). CHAT used synthetic speech while ASL and FAAF by default used human-recorded speech. Speech reception thresholds (SRT) of 20 participants with normal hearing and 20 with mild to moderate hearing loss were measured using these three tests. Validity was evaluated using receiver operating characteristic (ROC) analysis and correlations between SRTs and average pure-tone audiometry (PTA), across the three speech tests. Reliability was evaluated by comparing limits-of-agreement between SRTs achieved by repeated runs of CHAT and ASL tests using Bland-Altman analysis. Results revealed limits-of-agreement between repeated runs of CHAT and ASL were ±3.6 dB and ±3.1 dB, respectively. The area under the ROC curve was 0.97 for CHAT, 0.95 for ASL and 0.89 for FAAF. The correlation between SRT and PTA results was 0.86 for CHAT, 0.82 for ASL and 0.79 for FAAF. These findings indicate that CHAT demonstrates reliability and validity comparable to human-recorded ASL and FAAF, supporting the use of synthetic speech for speech-in-noise testing. Overall, the results suggest that AI tools can help create and administer conversational speech-in-noise tests.",
-      "first_author_affiliation": "The University of Manchester",
-      "last_author_affiliation": "University College London",
-      "open_access": true,
-      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261479670",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Automated Test",
-        "Automatic Speech Recognition",
-        "Large Language Models",
-        "Speech-In-Noise Test",
-        "Text-To-Speech"
-      ],
-      "tags": [
-        "clinical audiology",
-        "speech perception"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-10",
-      "first_seen_at": "2026-10-11T09:00:32Z",
       "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261479670",
-      "media_checked_at": "2026-10-11T09:01:12Z",
-      "open_access_image_checked_at": "2026-10-11T09:01:12Z",
+      "abstract": "A conversational speech-in-noise test administered without human supervision is desirable to reduce the need to attend the clinic. This study aimed to create and evaluate a novel question-and-answer-based speech-in-noise test called ‘CHAT’, where stimuli were synthesised using text-to-speech (TTS), responses captured using automatic speech recognition (ASR), and responses evaluated using a large language model (LLM). Three tests were compared: the newly developed CHAT, the Adaptive Sentence List (ASL) and the Four Alternative Auditory Feature Test (FAAF). CHAT used synthetic speech while ASL and FAAF by default used human-recorded speech. Speech reception thresholds (SRT) of 20 participants with normal hearing and 20 with mild to moderate hearing loss were measured using these three tests. Validity was evaluated using receiver operating characteristic (ROC) analysis and correlations between SRTs and average pure-tone audiometry (PTA), across the three speech tests. Reliability was evaluated by comparing limits-of-agreement between SRTs achieved by repeated runs of CHAT and ASL tests using Bland-Altman analysis. Results revealed limits-of-agreement between repeated runs of CHAT and ASL were ±3.6 dB and ±3.1 dB, respectively. The area under the ROC curve was 0.97 for CHAT, 0.95 for ASL and 0.89 for FAAF. The correlation between SRT and PTA results was 0.86 for CHAT, 0.82 for ASL and 0.79 for FAAF. These findings indicate that CHAT demonstrates reliability and validity comparable to human-recorded ASL and FAAF, supporting the use of synthetic speech for speech-in-noise testing. Overall, the results suggest that AI tools can help create and administer conversational speech-in-noise tests.",
       "ai_analysis": {
         "scientific_question": "本研究旨在创建并评估一种名为CHAT的问答式噪声下言语测试，并将其与ASL和FAAF测试在信度和效度上进行比较。",
         "key_highlight": "CHAT的ROC曲线下面积为0.97，SRT与PTA的相关系数为0.86，重复测量的一致性界限为±3.6 dB，显示出与使用人工录音的ASL和FAAF相当的信度和效度。",
@@ -1342,7 +1319,30 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "f6455f1d49c68d5e",
         "updated_at": "2026-10-11T09:01:26Z"
-      }
+      },
+      "first_author_affiliation": "The University of Manchester",
+      "last_author_affiliation": "University College London",
+      "open_access": true,
+      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261479670",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-10-11T09:01:12Z",
+      "media_checked_at": "2026-10-11T09:01:12Z",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Automated Test",
+        "Automatic Speech Recognition",
+        "Large Language Models",
+        "Speech-In-Noise Test",
+        "Text-To-Speech"
+      ],
+      "tags": [
+        "clinical audiology",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-10",
+      "first_seen_at": "2026-10-11T09:00:32Z"
     },
     {
       "title": "Broadband low-frequency sound absorption of underwater metamaterial coverings combining slit-helical structures and stepped plates",
@@ -1403,6 +1403,45 @@
       "first_seen_at": "2026-10-10T08:36:12Z"
     },
     {
+      "title": "Efficient Audio-Visual Speech Enhancement via Reinforcement Learning-Based Neural Architecture Search",
+      "authors": [
+        "Khubaib Ahmed",
+        "Ahsan Adeel",
+        "Nasir Saleem",
+        "Kia Dashtipour",
+        "Ahsan Ulhaq",
+        "Amir Hussain"
+      ],
+      "journal": "arXiv",
+      "publication_date": "2026-10-08",
+      "publication_date_precision": "day",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2610.12796v1",
+      "abstract": "Audio-visual speech enhancement (AVSE) improves speech intelligibility in noisy environments but often relies on computationally expensive models unsuitable for resource-constrained edge devices. This paper introduces a reinforcement learning-driven neural architecture search (RL-NAS) framework to discover compact, efficient AVSE architectures. The search space preserves temporal alignment between audio and visual streams, while a novel reward function jointly optimises speech enhancement performance, measured by SI-SNR improvement, and model compactness. Using proximal policy optimisation with constraint-aware action masking, the framework evaluates only 35 candidate architectures and identifies a model with 2.9 million parameters, compared with 22 million in the baseline. The proposed architecture achieves a 14.5 dB SI-SNR improvement, only 0.7 dB below the baseline, while reducing model size by approximately nine-fold. Evaluation on commercial mobile CPUs demonstrates a 4.3-fold reduction in real-time factor, supporting practical on-device deployment. Compared with random search, RL-NAS achieves 92% higher search efficiency. Architectural analysis reveals that shallower but wider temporal convolutional blocks and aggressive visual pathway pruning can maintain enhancement performance while substantially reducing computational requirements. These findings demonstrate the potential of reinforcement learning-guided architecture search for developing lightweight, efficient and deployable multimodal speech enhancement systems.",
+      "publication_stage": "preprint",
+      "section": null,
+      "keywords": [
+        "cs.AI",
+        "cs.SD",
+        "eess.AS"
+      ],
+      "tags": [],
+      "source": "arxiv",
+      "available_online_date": "2026-10-08",
+      "source_group": "preprint_filtered",
+      "source_group_label": "Preprints (arXiv)",
+      "actual_journal": "arXiv",
+      "match_level": "topic_filtered_hearing_speech",
+      "matched_keywords": [
+        "speech intelligibility"
+      ],
+      "match_fields": [
+        "abstract"
+      ],
+      "needs_review": true,
+      "first_seen_at": "2026-10-12T09:21:53Z"
+    },
+    {
       "title": "Precision Phenotyping With Audiometric Data and Gene Discovery for Sensorineural Hearing Loss.",
       "authors": [
         "Andrea J DeFreese",
@@ -1456,6 +1495,7 @@
       "section": null,
       "keywords": [
         "cs.SD",
+        "eess.AS",
         "eess.SP"
       ],
       "tags": [],
@@ -2772,21 +2812,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00266-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-02T07:09:02Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-10-01",
       "publication_date_precision": "day",
@@ -2799,6 +2824,21 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00266-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Effective model of fiber Bragg gratings for simulation of ultrasonic guided wave measurements using spectral finite elements",
@@ -5898,22 +5938,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046571",
-      "url": "https://doi.org/10.1121/10.0046571",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:59Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -5926,6 +5950,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:56Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046571",
+      "url": "https://doi.org/10.1121/10.0046571",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:59Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -16794,22 +16834,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044504",
-      "url": "https://doi.org/10.1121/10.0044504",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:37Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -16822,6 +16846,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:36Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044504",
+      "url": "https://doi.org/10.1121/10.0044504",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:37Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -17709,13 +17749,6 @@
       "doi": "10.1121/10.0045190",
       "url": "https://doi.org/10.1121/10.0045190",
       "abstract": "The decoding performance of acoustic modems depends on a multitude of factors. Those factors that are strongly correlated with degraded performance will generally vary from one acoustic environment to another, over both space and time. A generalized process is presented for constructing a database that incorporates a wide range of potentially relevant factors in a temporally consistent manner, including but not limited to; decoding performance statistics from the acoustic modem of interest, oceanographic data, such as wind speed and tidal phase, and propagation metrics associated with the acoustic path, such as transmission loss and channel time spread. Propagation metrics derived from processed measurements, and numerical modeling using tools, such as Bellhop3D, are addressed. While there are many approaches to analyzing the database to identify factors that are highly correlated with degraded modem performance, we found significant value in techniques from interactive data analysis. Despite their simplicity, data brushing and linking methods were found to be particularly useful. These methods are easy to deploy using a number of data visualization software packages, and the results are fast and easy to interpret without special training in advanced statistics.",
-      "first_author_affiliation": "Heat, Light, and Sound Res., Inc., La Jolla, CA 92037-4501, jcp@jcp-consulting.com",
-      "last_author_affiliation": "Woods Hole Oceanogr. Inst., Woods Hole, MA",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z",
       "ai_analysis": {
         "scientific_question": "如何构建一个在时间上一致的数据库，以识别与声学调制解调器解码性能下降相关的多种因素？",
         "key_highlight": "提出了一套构建数据库的通用流程，纳入解码性能统计、海洋学数据和传播度量，并发现交互式数据分析中的数据刷选与联动方法虽简单却特别有用。",
@@ -17731,7 +17764,14 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "7abd4489a8239eae",
         "updated_at": "2026-10-11T09:01:34Z"
-      }
+      },
+      "first_author_affiliation": "Heat, Light, and Sound Res., Inc., La Jolla, CA 92037-4501, jcp@jcp-consulting.com",
+      "last_author_affiliation": "Woods Hole Oceanogr. Inst., Woods Hole, MA",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-10-04T13:29:21Z"
     },
     {
       "title": "A decade of direct sediment acoustic measurements inspired by Tom Muir",
@@ -17747,13 +17787,6 @@
       "doi": "10.1121/10.0045686",
       "url": "https://doi.org/10.1121/10.0045686",
       "abstract": "Tom Muir played an instrumental role in initiating our investigation of direct measurements of sediment acoustic properties, a line of research we have continued to develop over the past decade. Our work began with controlled laboratory experiments that produced a unique set of measurements of shear-wave speed and attenuation in kaolinite-based muds, using circa-1970 bender elements provided by Tom. From the laboratory, we moved to shallow-water estuarine environments, employing spear-like probes that could be deployed by hand or mounted in a small frame, again using instrumentation derived from Tom’s early work in sediment acoustics. In the next iteration, we developed the acoustic coring system, which incorporates compressional- and shear-wave probes mounted on the penetrating tip of a gravity core. This system was also directly inspired by Tom, who provided us with a nose cone designed to mount acoustic sensors—another artifact from the earlier work in sediment acoustics. Most recently, we have developed an acoustic multicore system that enables in situ measurements of surficial sediment acoustic properties with minimal disturbance. This presentation describes the evolution of these measurement systems, highlights Tom’s influence throughout their development, and presents representative results obtained using each approach.",
-      "first_author_affiliation": "Univ. of Texas at Austin, 10000 Burnet Rd., Austin, TX 78665, meganb@arlut.utexas.edu",
-      "last_author_affiliation": "Mech. Eng. and Appl. Res. Labs., The Univ. of Texas at Austin, Austin, TX",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z",
       "ai_analysis": {
         "scientific_question": "过去十年中，直接测量沉积物声学特性的方法体系是如何从实验室实验逐步发展到原位测量系统的？",
         "key_highlight": "该研究回顾了从受Tom Muir启发的实验室剪切波测量，到浅水河口探针、声学取芯系统，再到最近声学多管取样系统的十年发展历程。",
@@ -17769,7 +17802,14 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "2215301c282d3dbe",
         "updated_at": "2026-10-11T09:01:36Z"
-      }
+      },
+      "first_author_affiliation": "Univ. of Texas at Austin, 10000 Burnet Rd., Austin, TX 78665, meganb@arlut.utexas.edu",
+      "last_author_affiliation": "Mech. Eng. and Appl. Res. Labs., The Univ. of Texas at Austin, Austin, TX",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-10-04T13:29:21Z"
     },
     {
       "title": "A double-reed sound source for physical models of the human vocal tract",
@@ -17782,13 +17822,6 @@
       "doi": "10.1121/10.0045394",
       "url": "https://doi.org/10.1121/10.0045394",
       "abstract": "For a long time, a single-reed sound source has been used as part of our set of physical models for demonstrating human speech production. However, this type of sound source is unable to show asymmetrical patterns of vibrations as a phonation source demonstrating the voice qualities of roughness and breathiness, for instance. Physically simulating a rough or breathy voice in voice disorders is especially important for observing the source and filter interaction. Here, we designed a double-reed mechanism for our sound source settings. A simple solution to achieve this goal was to join two “tables” for reeds back to back. This allowed us to stably vibrate two sets of reeds synchronously by blowing a steady air flow into the mouthpiece. Furthermore, we could use the source to simulate an asymmetrical vocal-fold vibration by adding a small weight only on one side of two reeds or a bump on one side of the two tables. We confirmed that outcomes from a vocal-tract model with such asymmetrical double-reed sound sources had voice qualities of roughness and/or breathiness. [This work was supported by JSPS KAKENHI Grant No. 24K06423 and Sophia University Special Grant for Academic Research (Research in Priority Areas).]",
-      "first_author_affiliation": "Information and Commun. Sci., Sophia Univ., 7-1 Kioi-cho, Chiyoda-ku, Tokyo 102-8554, Japan, arai@sophia.ac.jp",
-      "last_author_affiliation": "Information and Commun. Sci., Sophia Univ., 7-1 Kioi-cho, Chiyoda-ku, Tokyo 102-8554, Japan, arai@sophia.ac.jp",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z",
       "ai_analysis": {
         "scientific_question": "如何设计一种双簧片声源，以在人体声道物理模型中模拟不对称振动及粗糙或气息音质？",
         "key_highlight": "通过将两个簧片台背靠背连接，实现了双簧片同步稳定振动，并可通过单侧加小重物或凸起模拟不对称声带振动，产生粗糙和/或气息音质。",
@@ -17804,7 +17837,14 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "c1796c29f53829ef",
         "updated_at": "2026-10-11T09:01:37Z"
-      }
+      },
+      "first_author_affiliation": "Information and Commun. Sci., Sophia Univ., 7-1 Kioi-cho, Chiyoda-ku, Tokyo 102-8554, Japan, arai@sophia.ac.jp",
+      "last_author_affiliation": "Information and Commun. Sci., Sophia Univ., 7-1 Kioi-cho, Chiyoda-ku, Tokyo 102-8554, Japan, arai@sophia.ac.jp",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-10-04T13:29:21Z"
     },
     {
       "title": "A dynamic homogenization framework for elastic metamaterials",
@@ -17818,13 +17858,6 @@
       "doi": "10.1121/10.0045392",
       "url": "https://doi.org/10.1121/10.0045392",
       "abstract": "Elastic metamaterials, including architected materials and lattice structures, are increasingly used to engineer novel material properties through geometry and topology. While significant progress has been made in their static characterization, their extension to dynamic problems, such as wave and vibration control, is limited by the prohibitive computational cost of simulating millions of unit cells in large structures. This work develops a technique to replace complex subscale geometric features with an equivalent continuum description to accelerate dynamic simulations. Using a finite-element model based on periodic unit-cell theory and Bloch wave analysis, we systematically extract full frequency-dependent stiffness and density tensors. The method maps the eigenfrequencies and vibration modes of a repeating unit cell into macroscopic properties suitable for large-scale simulations. The technique is applied to cubic lattice structures with varying geometric configurations. The results reveal pronounced frequency-dependent dispersion and anisotropy that are overlooked by static homogenization, which fails to account for micro-scale periodicity as the wavelength approaches the unit-cell size. It is then validated in large-scale simulations against high-fidelity, fully resolved geometric models of the metamaterials. Ultimately, this method enables fast and accurate modeling of ultrasonic wave propagation and paves the way for efficient, lightweight designs in vibration isolation and impact mitigation.",
-      "first_author_affiliation": "Mech. & Mater. Eng., Univ. of Cincinnati, 2600 Clifton Ave. Cincinnati, OH 45221, abdolien@mail.uc.edu",
-      "last_author_affiliation": "Mech. & Mater. Eng., Univ. of Cincinnati, Cincinnati, OH",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z",
       "ai_analysis": {
         "scientific_question": "如何用等效连续体描述替代复杂亚尺度几何特征，以加速弹性超材料的动态仿真？",
         "key_highlight": "该研究提出基于周期单胞理论和Bloch波分析的动态均匀化框架，系统提取频率相关的刚度与密度张量，并在大尺度仿真中与高保真全解析几何模型验证一致。",
@@ -17840,7 +17873,14 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "60cc1b8a4f399965",
         "updated_at": "2026-10-11T09:01:39Z"
-      }
+      },
+      "first_author_affiliation": "Mech. & Mater. Eng., Univ. of Cincinnati, 2600 Clifton Ave. Cincinnati, OH 45221, abdolien@mail.uc.edu",
+      "last_author_affiliation": "Mech. & Mater. Eng., Univ. of Cincinnati, Cincinnati, OH",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-10-04T13:29:21Z"
     },
     {
       "title": "A hybrid learning framework for speaker verification in elementary classroom environments",
@@ -17889,7 +17929,23 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z"
+      "first_seen_at": "2026-10-04T13:29:21Z",
+      "ai_analysis": {
+        "scientific_question": "在惯性空化驱动的无催化剂氮固定中，声学参数如何影响自由基生成与产物选择性？",
+        "key_highlight": "脉冲聚焦超声下气泡近绝热坍缩产生>5000 K热点与约3 ns热脉冲，从而在尖峰期间活化N≡N并快速淬灭稳定产物。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "频率与声压沿独立轴（坍缩强度与气泡数密度）作用，可为声化学反应器优化提供框架。",
+        "evidence": [
+          "pulsed focused ultrasound (e.g., 820 kHz, 6.1% duty cycle), gas–vapourbubbles nucleate, expand, and collapse nearly adiabatically, producing hotspot temperatures >5000 K",
+          "Frequency and acoustic pressure act along independent axes—collapse intensity versus bubble population density—providing a practical framework for sonochemical reactor optimization."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "e289403c77abbbd7",
+        "updated_at": "2026-10-12T09:22:30Z"
+      }
     },
     {
       "title": "A model experiment using spark-produced N waves to study the effect of turbulence on waveform and rise time",
@@ -17908,7 +17964,23 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z"
+      "first_seen_at": "2026-10-04T13:29:21Z",
+      "ai_analysis": {
+        "scientific_question": "在模型实验中，火花产生的N波穿过平面射流湍流场时，湍流如何影响波形、上升时间和峰值压力？",
+        "key_highlight": "实验观察到湍流平均增加上升时间并降低峰值压力，且上升时间数据与Allan Pierce的波前折叠模型吻合良好。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "这些结果可用于检验声爆传播模型，并提示波前折叠模型可能适用于弱冲击波在湍流中的上升时间预测。",
+        "evidence": [
+          "On average, turbulence increases rise time and reduces peak pressure.",
+          "The model experiment rise time data were found to agree well with the wave front folding model."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "15bddddc551615f0",
+        "updated_at": "2026-10-12T09:22:32Z"
+      }
     },
     {
       "title": "A novel fractional derivative model for rubber-like viscoelastic materials",
@@ -17927,7 +17999,23 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z"
+      "first_seen_at": "2026-10-04T13:29:21Z",
+      "ai_analysis": {
+        "scientific_question": "如何用一个分数阶导数模型同时描述橡胶类粘弹性材料在转变区与橡胶区的动态力学行为？",
+        "key_highlight": "论文提出一个含五个参数的新型分数阶导数模型，可覆盖转变区与橡胶区，并给出了本构关系推导、参数物理意义与热力学约束。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该模型对橡胶类隔振材料实验数据的拟合结果提示其可能比现有分数阶模型具有更宽的适用范围，但摘要未给出定量比较细节。",
+        "evidence": [
+          "This paper introduces a novel fractional derivative model, characterized by five parameters, which is capable of describing the dynamic behavior of rubber-like materials across both the transition and rubbery ranges.",
+          "the proposed model is fitted to experimental data on rubber-like materials used for structure-borne sound insulation, demonstrating its accuracy and a wider range of applicability compared to existing fractional derivative models."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "14c839e3a86d8bd9",
+        "updated_at": "2026-10-12T09:22:33Z"
+      }
     },
     {
       "title": "A novel paradigm for rapid determination of listener-specific phonetic boundaries",
@@ -17950,7 +18038,23 @@
         "speech perception"
       ],
       "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z"
+      "first_seen_at": "2026-10-04T13:29:21Z",
+      "ai_analysis": {
+        "scientific_question": "该研究提出的滑块任务能否快速、可靠地确定听者个体的语音范畴边界？",
+        "key_highlight": "新任务让听者沿声学连续体拖动滑块并在最大模糊点停止，最少六次试验即可完成，并与传统2AFC任务进行了可靠性比较。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该任务可能有助于需要缩短实验时间或减少总输入量的研究，例如适应研究。",
+        "evidence": [
+          "We introduce a novel task wherein listeners directly control their input along an acoustic continuum by dragging a slider between labelled endpoints, and stop dragging at the point of maximal ambiguity.",
+          "Requiring as few as six trials, this new task can facilitate studies where minimizing experiment time or total input is desirable."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "62763ad68f94619a",
+        "updated_at": "2026-10-12T09:22:35Z"
+      }
     },
     {
       "title": "A practical application of uncertainty quantification in underwater acoustics",
@@ -45877,17 +45981,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -45908,18 +46013,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -55243,22 +55347,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -55271,6 +55359,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -62373,23 +62477,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -62403,6 +62490,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -65954,8 +66058,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -65969,8 +66073,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -71491,8 +71595,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -71506,8 +71610,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
