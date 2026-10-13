@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T09:21:53Z",
+  "generated_at": "2026-10-13T09:31:50Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
@@ -1288,6 +1288,121 @@
       "first_seen_at": "2026-09-03T07:13:37Z"
     },
     {
+      "title": "A cross-scale, element-based model incorporating vibration-acoustic coupling for predicting sound absorption in woven fabrics",
+      "authors": [
+        "Jie Xu",
+        "Xueting Liu",
+        "Mi Xiao",
+        "Liang Gao"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-10-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046845",
+      "url": "https://doi.org/10.1121/10.0046845",
+      "abstract": "This study presents a cross-scale, element-based framework for predicting sound absorption in single-layer orthogonal woven fabrics. Each weave repeat is represented as a spatial arrangement of four fundamental structural element types through a top-down procedure. The element geometries are mapped to the five transport parameters of the Johnson-Champoux-Allard model and integrated at the scale of the weave repeat, thereby linking designable fabric parameters to the acoustic properties associated with pore flow. For lightweight fabrics that vibrate under acoustic excitation, a vibration-acoustic coupling model is developed by expressing the equivalent fluid relation in terms of the velocity of the pore air relative to the moving yarn skeleton and coupling fabric vibration with the spatially varying pressure field in the backing cavity. A simplified model assuming a spatially uniform interface pressure is also derived to improve computational efficiency. Numerical and experimental comparisons support the reliability of the framework, with predicted absorption coefficients remaining reasonably close to measurements at mid-to-high frequencies. A further validation case demonstrates its extensibility through appropriate modification of the geometric representation. The model provides a physically interpretable basis for designing woven fabrics with desired sound absorption performance based on their structural parameters.",
+      "first_author_affiliation": "School of Textile Science and Engineering, Wuhan Textile University 1 , Wuhan 430200,",
+      "last_author_affiliation": "State Key Laboratory of Intelligent Manufacturing Equipment and Technology, School of Mechanical Science and Engineering, Huazhong University of Science and Technology 2 , Wuhan 430074,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-12",
+      "first_seen_at": "2026-10-13T09:31:12Z",
+      "ai_analysis": {
+        "scientific_question": "如何基于织物结构参数跨尺度预测单层正交机织物的吸声性能？",
+        "key_highlight": "提出了一种基于元素的跨尺度框架，将织造重复单元映射到Johnson-Champoux-Allard模型的五个传输参数，并针对轻质织物开发了振动-声耦合模型。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该模型为基于结构参数设计具有目标吸声性能的机织物提供了物理可解释的基础。",
+        "evidence": [
+          "This study presents a cross-scale, element-based framework for predicting sound absorption in single-layer orthogonal woven fabrics.",
+          "Numerical and experimental comparisons support the reliability of the framework, with predicted absorption coefficients remaining reasonably close to measurements at mid-to-high frequencies."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "9eb9d7efeea35fe7",
+        "updated_at": "2026-10-13T09:32:14Z"
+      }
+    },
+    {
+      "title": "A wave equation for sound in unsteady, inhomogeneous moving media including thermoviscous and nonlinear effects",
+      "authors": [
+        "Roberto Sabatini",
+        "Oleg A. Godin"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-10-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046234",
+      "url": "https://doi.org/10.1121/10.0046234",
+      "abstract": "An approximate wave equation is derived for sound propagation in unsteady, inhomogeneous, moving fluids, incorporating viscous and thermal-conduction effects. The formulation extends the work of Pierce [(1990). J. Acoust. Soc. Am. 87(6), 2292–2299] and relies on a separation of scales between acoustic and ambient fields. Acoustic wavelengths and periods are assumed to be small compared with the characteristic spatial and temporal scales of the background flow, and thermoviscous effects are assumed to remain weak over distances and times comparable to acoustic scales. Under these assumptions, propagation is locally equivalent to that in a homogeneous, steady medium, whereas cumulative effects due to unsteadiness, inhomogeneity, and thermoviscous processes emerge over many wavelengths and periods. The wave equation is further extended to include terms accounting for weak nonlinearities within the same asymptotic framework. In the particular case of steady, inhomogeneous low-Mach-number flows, the formulation is generalized to incorporate weak relaxation effects. In appropriate limiting regimes, the resulting models reduce to previously established approximate wave equations.",
+      "first_author_affiliation": "Ecole Centrale de Lyon, CNRS, Université Lyon 1, INSA Lyon 1 , LMFA, UMR5509, 69130, Ecully,",
+      "last_author_affiliation": "Department of Physics, Naval Postgraduate School 2 , Monterey, California 93943,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-12",
+      "first_seen_at": "2026-10-13T09:31:12Z",
+      "ai_analysis": {
+        "scientific_question": "如何在非定常、非均匀运动流体中推导一个同时包含热黏性与弱非线性效应的近似声波方程？",
+        "key_highlight": "该推导在声学尺度与背景流尺度分离的假设下，将局部传播视为均匀定常介质中的传播，而把非定常性、非均匀性与热黏性过程处理为多波长、多周期上的累积效应。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该方程在适当极限下可退化为已有近似声波方程，可能为后续在非定常非均匀流动中建模热黏性与弱非线性声传播提供理论框架。",
+        "evidence": [
+          "An approximate wave equation is derived for sound propagation in unsteady, inhomogeneous, moving fluids, incorporating viscous and thermal-conduction effects.",
+          "In appropriate limiting regimes, the resulting models reduce to previously established approximate wave equations."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "f43962cc02edaa26",
+        "updated_at": "2026-10-13T09:32:16Z"
+      }
+    },
+    {
+      "title": "Transient cavitation dynamics of vaporized perfluorocarbon nanodroplets measured with an acoustical camera",
+      "authors": [
+        "Mark T. Burgess",
+        "Jeffrey A. Ketterling"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-10-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046799",
+      "url": "https://doi.org/10.1121/10.0046799",
+      "abstract": "Perfluorocarbon nanodroplets are metastable phase-change contrast agents that convert into gas bubbles on demand through acoustic droplet vaporization (ADV). Their transient radial dynamics are difficult to measure without high-speed optical imaging. An acoustical camera approach characterizes post-ADV bubble dynamics acoustically. Perfluoropentane nanodroplets were activated with a 5 MHz focused pulse (peak negative pressure ≈5 MPa) and simultaneously probed at 35 MHz, with the side-scattered signal detected by an orthogonal receiver. Scattered amplitude scales with bubble radius, so the Hilbert-transformed envelope yields a relative radius–time response with microsecond resolution, revealing rapid growth and collapse consistent with transient inertial cavitation. Collapse times give a mean maximum bubble radius of 13.2 ± 1.8μm (N=475), roughly 300 times the >∼46 nm precursor radius, confirming strongly inertial overshoot. Deriving from pulse timing rather than amplitude, this estimate is independent of bubble position within the probe beam. The 35 MHz focal zone is approximately four times narrower than the 5 MHz activation zone, so the detected amplitude reflects lateral position rather than size, and only 7% of events fall within ±20% of the timing estimate. The technique offers a low-complexity route to quantifying post-ADV cavitation dynamics and comparing nanodroplet formulations.",
+      "first_author_affiliation": "Department of Medical Physics, Memorial Sloan Kettering Cancer Center 1 , New York, New York 10065,",
+      "last_author_affiliation": "Department of Radiology, Weill Cornell Medicine 2 , New York, New York 10022,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-12",
+      "first_seen_at": "2026-10-13T09:31:12Z",
+      "ai_analysis": {
+        "scientific_question": "如何在不依赖高速光学成像的情况下，测量全氟化碳纳米液滴经声致液滴汽化（ADV）后的瞬态径向动力学？",
+        "key_highlight": "该声学相机方法通过35 MHz探测的侧向散射信号包络获得微秒分辨率的相对半径—时间响应，测得平均最大气泡半径为13.2 ± 1.8 μm（N=475），约为前驱体半径的300倍，符合瞬态惯性空化特征。",
+        "main_limitation": "35 MHz焦区比5 MHz激活区窄约四倍，导致检测幅度主要反映横向位置而非气泡尺寸，仅7%的事件落在时间估计值±20%范围内。",
+        "research_implication": "该技术可能为量化ADV后空化动力学及比较不同纳米液滴配方提供一种低复杂度的途径，但其尺寸估计的适用范围受上述焦区与位置效应限制。",
+        "evidence": [
+          "Collapse times give a mean maximum bubble radius of 13.2 ± 1.8μm (N=475), roughly 300 times the >∼46 nm precursor radius, confirming strongly inertial overshoot.",
+          "The 35 MHz focal zone is approximately four times narrower than the 5 MHz activation zone, so the detected amplitude reflects lateral position rather than size, and only 7% of events fall within ±20% of the timing estimate."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "3172c6e2a15e57e8",
+        "updated_at": "2026-10-13T09:32:18Z"
+      }
+    },
+    {
       "title": "Automated Question-and-Answer-Based Speech-In-Noise Hearing Test Using a Large Language Model",
       "authors": [
         "Mohsen Fatehifar",
@@ -2113,6 +2228,52 @@
       "first_seen_at": "2026-10-06T09:05:15Z"
     },
     {
+      "title": "Medial olivocochlear strength influences auditory brainstem response development in mice",
+      "authors": [
+        "Valeria C. Castagna",
+        "Amanda M. Lauer",
+        "Ana Belén Elgoyhen",
+        "María Eugenia Gomez-Casati"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-03",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109833",
+      "url": "https://doi.org/10.1016/j.heares.2026.109833",
+      "abstract": "The medial olivocochlear efferent system has been proposed to influence the maturation of auditory circuits during early postnatal development. Here, we examined the acquisition of auditory evoked responses in mice with absent α9α10 nicotinic cholinergic receptor activity (α9 knock-out mice; α9KO) or enhanced medial olivocochlear function (α9 knock-in mice; α9KI). Auditory brainstem responses were evaluated throughout juvenile postnatal development. Enhanced medial olivocochlear activity accelerated the onset and early maturation of auditory function, whereas its absence delayed these developmental processes. Despite this accelerated maturation, α9KI mice exhibited reduced auditory brainstem response wave amplitudes later in development, resembling the deficits observed in α9KO mice. Thus, enhanced and absent medial olivocochlear activity produced opposing effects on the timing of auditory maturation but converged on reduced response wave amplitudes later in development. Together, these findings suggest that appropriate levels of medial olivocochlear activity are required for normal maturation of the auditory system.",
+      "last_author_affiliation": "Instituto de Farmacología, Facultad de Medicina, Universidad de Buenos Aires, Buenos Aires, 1121, Argentina; Consejo Nacional de Investigaciones Científicas y Técnicas, Buenos Aires, 1425, Argentina. Electronic address: megomezcasati@gmail.com.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [
+        "Auditory brainstem responses",
+        "Development",
+        "Medial olivocochlear system",
+        "α9α10 nicotinic cholinergic receptors"
+      ],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-03",
+      "first_seen_at": "2026-10-04T08:30:51Z",
+      "ai_analysis": {
+        "scientific_question": "内侧橄榄耳蜗传出系统的活动强度如何影响小鼠出生后听觉脑干反应的发展？",
+        "key_highlight": "增强内侧橄榄耳蜗活动加速听觉功能的发生与早期成熟，而缺失则延迟这些过程；但两者在发育后期均表现为听觉脑干反应波幅降低。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "研究提示适当水平的内侧橄榄耳蜗活动可能是听觉系统正常成熟所必需的，但这一含义需进一步实验验证。",
+        "evidence": [
+          "Enhanced medial olivocochlear activity accelerated the onset and early maturation of auditory function, whereas its absence delayed these developmental processes.",
+          "Despite this accelerated maturation, α9KI mice exhibited reduced auditory brainstem response wave amplitudes later in development, resembling the deficits observed in α9KO mice."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "01b2e26e41b77bc3",
+        "updated_at": "2026-10-13T09:32:20Z"
+      }
+    },
+    {
       "title": "A binaural loudness model for evaluating round-window stimulation based on a physiological peripheral auditory front-end module",
       "authors": [
         "Zhaohai Liu",
@@ -2447,6 +2608,27 @@
       "first_seen_at": "2026-10-04T08:30:51Z"
     },
     {
+      "title": "Acoustic Masking of Electric Stimulation at Basal and Extra-Cochlear Sites",
+      "authors": [
+        "Patrick Hinz",
+        "Waldo Nogueira"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109835",
+      "url": "https://doi.org/10.1016/j.heares.2026.109835",
+      "abstract": null,
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "psychoacoustics"
+      ],
+      "source": "crossref",
+      "first_seen_at": "2026-10-13T09:31:29Z"
+    },
+    {
       "title": "Acoustic emission mechanisms of bubble detachment and pinch-off",
       "authors": [
         "Mingyue Kuang",
@@ -2565,6 +2747,50 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-08-10",
       "first_seen_at": "2026-08-11T03:56:31Z"
+    },
+    {
+      "title": "Binaural Cue Characterization in Cochlear Implants: Impact of Signal Processing and Interaural Linked Channel Selection",
+      "authors": [
+        "Gianpaolo Palo",
+        "Obaid ur Rehman Qazi",
+        "Tom Bertens",
+        "Myles Mc Laughlin",
+        "Jan Wouters"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109838",
+      "url": "https://doi.org/10.1016/j.heares.2026.109838",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "cochlear implant"
+      ],
+      "source": "crossref",
+      "first_seen_at": "2026-10-13T09:31:29Z"
+    },
+    {
+      "title": "Central auditory decline precedes cochlear deficits in a D-galactose mimetic model of aging",
+      "authors": [
+        "Aravindakshan Parthasarathy",
+        "Edward L. Bartlett"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109836",
+      "url": "https://doi.org/10.1016/j.heares.2026.109836",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref",
+      "first_seen_at": "2026-10-13T09:31:29Z"
     },
     {
       "title": "Child acquisition of complex consonants: The role of oral motor control in developing acoustic targets",
@@ -2812,6 +3038,21 @@
     {
       "title": "Editorial Board",
       "authors": [],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00266-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-02T07:09:02Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-10-01",
       "publication_date_precision": "day",
@@ -2824,21 +3065,6 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00266-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Effective model of fiber Bragg gratings for simulation of ultrasonic guided wave measurements using spectral finite elements",
@@ -3315,28 +3541,6 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:25Z"
-    },
-    {
-      "title": "Medial Olivocochlear Strength Influences Auditory Brainstem Response Development in Mice",
-      "authors": [
-        "Valeria C. Castagna",
-        "Amanda M. Lauer",
-        "Ana Belén Elgoyhen",
-        "María Eugenia Gomez-Casati"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109833",
-      "url": "https://doi.org/10.1016/j.heares.2026.109833",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-10-04T08:30:51Z"
     },
     {
       "title": "Near-field recordings expose the limits of far-field measures of peripheral vestibular nerve activity: implications for experimental controls",
@@ -5938,22 +6142,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046572",
-      "url": "https://doi.org/10.1121/10.0046572",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:56Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -5966,6 +6154,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:59Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046572",
+      "url": "https://doi.org/10.1121/10.0046572",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:56Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -16834,22 +17038,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -16862,6 +17050,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -17903,7 +18107,23 @@
         "real-world listening"
       ],
       "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z"
+      "first_seen_at": "2026-10-04T13:29:21Z",
+      "ai_analysis": {
+        "scientific_question": "在小学课堂真实录音条件下，如何构建稳健的说话人验证模型以应对儿童语音、非平稳噪声与重叠语音？",
+        "key_highlight": "该研究提出混合框架：先在无标注课堂录音上自监督学习说话人表征，再在少量标注子集上监督微调，并与仅监督、仅自监督方法及ECAPA-TDNN和WavLM-Large模型进行比较。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "结果可能为标注数据有限的小学课堂说话人验证提供可行建模思路，但摘要未报告具体性能结论，实际效果仍需进一步验证。",
+        "evidence": [
+          "Of this corpus, approximately 188 h lack speaker identity annotations, while only 12 h are labeled, consisting of one annotated lesson per classroom.",
+          "we propose a hybrid speaker verification framework that first leverages self-supervised learning on unlabeled classroom recordings to learn speaker representations, and then fine-tunes these embeddings with supervised learning on the labeled subset."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "de86ba072533fd74",
+        "updated_at": "2026-10-13T09:32:32Z"
+      }
     },
     {
       "title": "A mechanistic insight into sonochemical nitrogen fixation",
@@ -17923,13 +18143,6 @@
       "doi": "10.1121/10.0045762",
       "url": "https://doi.org/10.1121/10.0045762",
       "abstract": "Acoustic cavitation concentrates ultrasonic energy into transient microreactors capable of driving chemistry far from equilibrium. Here, we investigate catalyst-free nitrogen fixation driven by inertial cavitation and quantify the effects of acoustic parameters on radical generation and product selectivity. Using a combination of experimental and theoretical methods, we show that pulsed focused ultrasound (e.g., 820 kHz, 6.1% duty cycle), gas–vapourbubbles nucleate, expand, and collapse nearly adiabatically, producing hotspot temperatures >5000 K with ultrafast heating/cooling (∼10¹² K/s) and a ∼3 ns thermal pulse. These extremes enable N≡N activation during the spike, followed by rapid quenching that stabilizes products before reverse-reactions can occur, thereby avoiding any stable equilibrium. By varying feed-gas composition and cavitation dynamics, we switch between oxidative NOx chemistry (nitrite/nitrate) and reductive NH4+ formation. Cavitation nuclei (talc) reduce the cavitation threshold and improve collapse reproducibility, while noble-gas doping modifies collapse temperature and shifts nitrate-to-nitrite ratios. Frequency and acoustic pressure act along independent axes—collapse intensity versus bubble population density—providing a practical framework for sonochemical reactor optimization. Finally, 3D mapping of the acoustic pressure field enables energy accounting and yields an optimized oxidative energy cost of 3.75 MJ/mol fixed nitrogen.",
-      "first_author_affiliation": "Eng. Sci., Univ. of Oxford, Warwick, United Kingdom",
-      "last_author_affiliation": "Dept. of Eng. Sci., Univ. of Oxford, Parks Rd., Oxford OX1 3PJ, United Kingdom, james.kwan@eng.ox.ac.uk",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z",
       "ai_analysis": {
         "scientific_question": "在惯性空化驱动的无催化剂氮固定中，声学参数如何影响自由基生成与产物选择性？",
         "key_highlight": "脉冲聚焦超声下气泡近绝热坍缩产生>5000 K热点与约3 ns热脉冲，从而在尖峰期间活化N≡N并快速淬灭稳定产物。",
@@ -17945,7 +18158,14 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "e289403c77abbbd7",
         "updated_at": "2026-10-12T09:22:30Z"
-      }
+      },
+      "first_author_affiliation": "Eng. Sci., Univ. of Oxford, Warwick, United Kingdom",
+      "last_author_affiliation": "Dept. of Eng. Sci., Univ. of Oxford, Parks Rd., Oxford OX1 3PJ, United Kingdom, james.kwan@eng.ox.ac.uk",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-10-04T13:29:21Z"
     },
     {
       "title": "A model experiment using spark-produced N waves to study the effect of turbulence on waveform and rise time",
@@ -17958,13 +18178,6 @@
       "doi": "10.1121/10.0045220",
       "url": "https://doi.org/10.1121/10.0045220",
       "abstract": "In the 1990s NASA engaged in a High-Speed Research Program to evaluate the feasibility of overland sonic boom propagation. There were several research groups active at various Universities. The author was part of the team at the University of Texas at Austin, led by David Blackstock. At the same time, Allan Pierce directed a significant effort of sonic boom propagation studies at Penn State University. The author’s work focused on a model experiment in which spark-produced N waves propagated across a turbulent flow field of a plane jet. The N waves were measured by a wide band condenser microphone and the turbulence was measured by hot-wire anemometry. Waveform distortion, rise time, and peak pressure were measured as function of propagation distance and turbulence intensity. The observed waveform distortions were similar to sonic booms propagating through a turbulent atmosphere. On average, turbulence increases rise time and reduces peak pressure. The data were used to test sonic boom propagation models. Allan Pierce had developed a wave front folding model [J. Acoust. Soc. Am. 49, 906–24 (1971)] that predicts sonic boom or weak shock rise time. The model experiment rise time data were found to agree well with the wave front folding model.",
-      "first_author_affiliation": "Pharmaceutical and Administrative Sci., Western New England Univ., 1215 Wilbraham Rd., Springfield, MA 01119, blipkens@wne.edu",
-      "last_author_affiliation": "Pharmaceutical and Administrative Sci., Western New England Univ., 1215 Wilbraham Rd., Springfield, MA 01119, blipkens@wne.edu",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z",
       "ai_analysis": {
         "scientific_question": "在模型实验中，火花产生的N波穿过平面射流湍流场时，湍流如何影响波形、上升时间和峰值压力？",
         "key_highlight": "实验观察到湍流平均增加上升时间并降低峰值压力，且上升时间数据与Allan Pierce的波前折叠模型吻合良好。",
@@ -17980,7 +18193,14 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "15bddddc551615f0",
         "updated_at": "2026-10-12T09:22:32Z"
-      }
+      },
+      "first_author_affiliation": "Pharmaceutical and Administrative Sci., Western New England Univ., 1215 Wilbraham Rd., Springfield, MA 01119, blipkens@wne.edu",
+      "last_author_affiliation": "Pharmaceutical and Administrative Sci., Western New England Univ., 1215 Wilbraham Rd., Springfield, MA 01119, blipkens@wne.edu",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-10-04T13:29:21Z"
     },
     {
       "title": "A novel fractional derivative model for rubber-like viscoelastic materials",
@@ -17993,13 +18213,6 @@
       "doi": "10.1121/10.0045847",
       "url": "https://doi.org/10.1121/10.0045847",
       "abstract": "Fractional derivative models provide a powerful tool for describing the frequency-dependent dynamic elastic and damping behavior of viscoelastic polymeric materials used in sound and vibration control. Existing literature primarily focuses on modeling the damping peak of materials that occurs in the transition range of rubber-like polymeric materials. While advanced models, such as the four- or five-parameter fractional Zener model, effectively describe the damping peak, they are usually inadequate in the rubbery range of viscoelastic behavior. This paper introduces a novel fractional derivative model, characterized by five parameters, which is capable of describing the dynamic behavior of rubber-like materials across both the transition and rubbery ranges. The derivation of the constitutive stress–strain relationship is presented, followed by a comprehensive analysis of the model. The model behavior is demonstrated over a wide frequency spectrum. The physical meaning of the model parameters is clarified, and thermodynamic constraints are established to ensure physical admissibility. Finally, the proposed model is fitted to experimental data on rubber-like materials used for structure-borne sound insulation, demonstrating its accuracy and a wider range of applicability compared to existing fractional derivative models.",
-      "first_author_affiliation": "Budapest Univ. of Technol. and Economics, Műegyetem rkp. 3-9, Budapest 1111, Hungary, tampri@eik.bme.hu",
-      "last_author_affiliation": "Budapest Univ. of Technol. and Economics, Műegyetem rkp. 3-9, Budapest 1111, Hungary, tampri@eik.bme.hu",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z",
       "ai_analysis": {
         "scientific_question": "如何用一个分数阶导数模型同时描述橡胶类粘弹性材料在转变区与橡胶区的动态力学行为？",
         "key_highlight": "论文提出一个含五个参数的新型分数阶导数模型，可覆盖转变区与橡胶区，并给出了本构关系推导、参数物理意义与热力学约束。",
@@ -18015,7 +18228,14 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "14c839e3a86d8bd9",
         "updated_at": "2026-10-12T09:22:33Z"
-      }
+      },
+      "first_author_affiliation": "Budapest Univ. of Technol. and Economics, Műegyetem rkp. 3-9, Budapest 1111, Hungary, tampri@eik.bme.hu",
+      "last_author_affiliation": "Budapest Univ. of Technol. and Economics, Műegyetem rkp. 3-9, Budapest 1111, Hungary, tampri@eik.bme.hu",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-10-04T13:29:21Z"
     },
     {
       "title": "A novel paradigm for rapid determination of listener-specific phonetic boundaries",
@@ -18029,16 +18249,6 @@
       "doi": "10.1121/10.0045858",
       "url": "https://doi.org/10.1121/10.0045858",
       "abstract": "The two-alternative forced choice (2AFC) task is one of the most popular methods in speech perception research, establishing basic effects across domains (Ganong, McGurk, perceptual learning, accent adaptation, etc.). However, interpretation of this task often assumes—but does not directly test—that a token is perceptually “maximally ambiguous” at the point of subjective equality (e.g., when categorized 50% of the time as “sh” and 50% as “s”, for an /ʃ/-/s/ continuum). Furthermore, the task requires many repetitions of identical items to establish a reliable categorization curve. This is especially troublesome for studies of adaptation, where input may rapidly attenuate evidence of learning. We introduce a novel task wherein listeners directly control their input along an acoustic continuum by dragging a slider between labelled endpoints, and stop dragging at the point of maximal ambiguity. The task instructions are validated using a visual analogue of the same task (where a “ground truth” ambiguous shape exists between two endpoints). We benchmark the reliability of the new task with traditional 2AFC tasks using the same stimulus continua. Requiring as few as six trials, this new task can facilitate studies where minimizing experiment time or total input is desirable.",
-      "first_author_affiliation": "Univ. of California, Irvine, 226 Prospect St., Newport beach, CA 06226, scummin2@uci.edu",
-      "last_author_affiliation": "Univ. of California Irvine, Irvine, CA",
-      "section": "Speech Communication",
-      "keywords": [],
-      "tags": [
-        "priority section",
-        "speech perception"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z",
       "ai_analysis": {
         "scientific_question": "该研究提出的滑块任务能否快速、可靠地确定听者个体的语音范畴边界？",
         "key_highlight": "新任务让听者沿声学连续体拖动滑块并在最大模糊点停止，最少六次试验即可完成，并与传统2AFC任务进行了可靠性比较。",
@@ -18054,7 +18264,17 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "62763ad68f94619a",
         "updated_at": "2026-10-12T09:22:35Z"
-      }
+      },
+      "first_author_affiliation": "Univ. of California, Irvine, 226 Prospect St., Newport beach, CA 06226, scummin2@uci.edu",
+      "last_author_affiliation": "Univ. of California Irvine, Irvine, CA",
+      "section": "Speech Communication",
+      "keywords": [],
+      "tags": [
+        "priority section",
+        "speech perception"
+      ],
+      "source": "crossref",
+      "first_seen_at": "2026-10-04T13:29:21Z"
     },
     {
       "title": "A practical application of uncertainty quantification in underwater acoustics",
@@ -45981,18 +46201,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -46013,17 +46232,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -55347,22 +55567,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -55375,6 +55579,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -62477,23 +62697,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -62507,6 +62710,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -66058,8 +66278,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -66073,8 +66293,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -71595,8 +71815,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -71610,8 +71830,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
