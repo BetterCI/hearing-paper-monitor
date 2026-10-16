@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T07:32:42Z",
+  "generated_at": "2026-10-16T07:17:50Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level",
@@ -1289,6 +1289,286 @@
       "first_seen_at": "2026-09-03T07:13:37Z"
     },
     {
+      "title": "A dual-scale kernel reconstruction smoothed particle hydrodynamics method for broadband acoustic dispersion suppression",
+      "authors": [
+        "Ning Lu",
+        "Yunke Huang",
+        "Hong Hou"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-10-15",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046864",
+      "url": "https://doi.org/10.1121/10.0046864",
+      "abstract": "Meshfree methods are suited to acoustic simulations involving moving interfaces and complex boundaries, such as noise from moving machinery and fluid-structure interactions. Smoothed particle hydrodynamics (SPH) provides a Lagrangian framework for such problems. However, conventional SPH accumulates numerical dispersion during long-range broadband propagation. Its kernel-gradient operator acts as a dispersive filter, producing frequency-dependent phase distortion, high-frequency attenuation, and spurious trailing oscillations. Direct assignment of broadband signals to particles may produce discontinuous pressure distributions within the source region, thereby distorting the injected waveform before propagation. This paper proposes an analytically dual-scale kernel (DSK) reconstruction operator that cancels the leading dispersion error at the operator level. Combined with the corrected smoothed particle method (CSPM), it corrects spectral dispersion and local consistency errors. A retarded-time source loading strategy with impedance matching is introduced to prevent injection-stage distortion. The framework is validated through one-dimensional long-distance propagation, two-dimensional plane wave propagation, and cylindrical-wave radiation. Results show that DSK-CSPM reduces the one-dimensional L2 pressure error by approximately a factor of 150 relative to standard SPH, brings phase velocities close to the sound speed, and incurs a computational overhead of 2.9% in the two-dimensional plane wave test. The method provides an accurate and efficient strategy for high-fidelity particle-based broadband acoustic simulation.",
+      "first_author_affiliation": "School of Marine Science and Technology, Northwestern Polytechnical University 1 , Xi'an 710072,",
+      "last_author_affiliation": "School of Marine Science and Technology, Northwestern Polytechnical University 1 , Xi'an 710072,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-15",
+      "first_seen_at": "2026-10-16T07:17:14Z"
+    },
+    {
+      "title": "Borehole reflection waveform inversion based on subarray decomposition",
+      "authors": [
+        "Weihong Huang",
+        "Xiao He",
+        "Jiacheng Li",
+        "Jixin Yang",
+        "Dehua Chen"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-10-15",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046848",
+      "url": "https://doi.org/10.1121/10.0046848",
+      "abstract": "High-resolution imaging of near-borehole structures and quantitative inversion is crucial for reservoir characterization. However, conventional acoustic logging is dominated by direct waves, limiting its investigation depth to the near-borehole invasion zone. Full-waveform inversion is a waveform-fitting inversion technique that offers high resolution and is not constrained by assumptions of homogeneity. To reconstruct deep formation properties and structures, we apply the method of borehole reflection waveform inversion to array acoustic logging data. By dividing the array into subarrays and exploiting the spatial correlation of adjoint wavefields, this approach implicitly suppresses crosstalk artifacts in the adjoint-state method under the framework of elastic waves. Additionally, energy weighting and anisotropic diffusion filtering are applied to precondition the gradient, effectively mitigating severe illumination imbalances and high-wavenumber noises. A frequency hierarchy strategy is further integrated to enhance convergence stability. This method provides a theoretical P-wave velocity reconstruction workflow for single-borehole deep acoustic sensing without adding significant computational complexity. Numerical results demonstrate that the proposed method reconstructs complex two-dimensional heterogeneities with high precision.",
+      "first_author_affiliation": "Institute of Acoustics, State Key Laboratory of Acoustics and Marine Information, Chinese Academy of Sciences 1 , Beijing 100190,",
+      "last_author_affiliation": "Institute of Acoustics, State Key Laboratory of Acoustics and Marine Information, Chinese Academy of Sciences 1 , Beijing 100190,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "hearing aid"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-15",
+      "first_seen_at": "2026-10-16T07:17:14Z",
+      "ai_analysis": {
+        "scientific_question": "如何利用阵列声波测井数据进行井旁反射波形反演，以重建深部地层性质与结构？",
+        "key_highlight": "通过子阵列分解与伴随波场空间相关性隐式压制串扰伪影，并结合能量加权、各向异性扩散滤波和频率递进策略，数值结果高精度重建了复杂二维非均质体。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该方法为单井深部声波探测提供了理论P波速度重建流程，且未显著增加计算复杂度。",
+        "evidence": [
+          "By dividing the array into subarrays and exploiting the spatial correlation of adjoint wavefields, this approach implicitly suppresses crosstalk artifacts in the adjoint-state method under the framework of elastic waves.",
+          "Numerical results demonstrate that the proposed method reconstructs complex two-dimensional heterogeneities with high precision."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "c566cb724cb69d71",
+        "updated_at": "2026-10-16T07:18:20Z"
+      }
+    },
+    {
+      "title": "Longitudinal Growth of Mandated Hearing Aid Benefits in the US.",
+      "authors": [
+        "Michelle L Arnold",
+        "Lauren Tonti",
+        "Serena Phillips",
+        "Stacie P Kershner",
+        "Brandy Lipton",
+        "Brianna Heslin",
+        "Benjamin Ukert",
+        "Austin Landini",
+        "Michael F Pesko"
+      ],
+      "journal": "High-impact Journals",
+      "publication_date": "2026-10-15",
+      "publication_date_precision": "day",
+      "doi": "10.1001/jamaoto.2026.3143",
+      "url": "https://doi.org/10.1001/jamaoto.2026.3143",
+      "abstract": "Inconsistent hearing aid coverage across US health plans poses substantial barriers to essential care. Prior research has examined private insurance and Medicaid mandates separately, leaving the overall reach of coverage across all major US programs unclear. To identify mandated hearing aid coverage under private insurance, Medicaid, and federal direct-service programs and to compare coverage for US youth, adults, and older adults by coverage plan and economic indicators. This cross-sectional study used population-level policy surveillance data with nationally representative insurance data from the American Community Survey (ACS) from 2008 to 2023. ACS respondents were categorized by age (younger than 18 years, 18 to 64 years, and 65 years or older), insurance type (state-level private insurance, Medicaid, and federal direct-service insurance providers), and eligibility for hearing aid coverage. Data were analyzed from February 2024 to August 2026. Mandated health coverage for hearing aids through private insurers, Medicaid, US Department of Veterans Affairs, TRICARE, and Indian Health Service. Annual estimates of the proportion of US individuals with mandated coverage for hearing aids across insurance types, classified into coverage groups. ACS measures included are age, annual household income, and home ownership status. Among 50 203 993 ACS respondents from 2008 to 2023, mandated hearing aid coverage increased from 34.1% (95% CI, 34.0-34.2) to 52.5% (95% CI, 52.4-52.6) among youth younger than 18 years. Among adults aged 18 to 64 years, coverage rose from 10.2% (95% CI, 10.1-10.2) to 19.2% (95% CI, 19.2-19.3), with Medicaid the largest contributor. Mandated coverage for adults 65 years and older declined from 18.5% (95% CI, 18.4-18.6) to 16.9% (95% CI, 16.8-17.0), with Medicaid the primary source. Mandated hearing aid coverage grew 1.03 percentage points (95% CI, 1.02-1.04; P < .001) faster per year among youth younger than 18 years than among adults 65 years and older, largely reflecting consistent Medicaid coverage through the long-standing Early and Periodic Screening, Diagnostic, and Treatment (EPSDT) benefit and the adoption of private insurance pediatric mandates. In 2023, renters and individuals in households below the federal poverty level threshold were more likely to hold mandated coverage than homeowners and those at or above the threshold in every age group. In this cross-sectional study, despite gradual improvements, substantial gaps remained in mandated hearing aid coverage, particularly for older adults and adults with limited economic resources. Policy reforms, including expanded Medicaid coverage and mandates requiring hearing aid benefits in private insurance and Medicare, could improve access and health outcomes.",
+      "first_author_affiliation": "Department of Communication Sciences & Disorders, College of Behavioral and Community Sciences, University of South Florida, Tampa.",
+      "last_author_affiliation": "Department of Economics, University of Missouri, Columbia.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "pubmed",
+      "available_online_date": "2026-10-15",
+      "source_group": "high_impact",
+      "source_group_label": "High-impact Journals",
+      "actual_journal": "JAMA otolaryngology-- head & neck surgery",
+      "match_level": "level_1_direct",
+      "matched_keywords": [
+        "hearing aid"
+      ],
+      "match_fields": [
+        "title"
+      ],
+      "needs_review": false,
+      "first_seen_at": "2026-10-16T07:17:32Z"
+    },
+    {
+      "title": "Maturation of auditory stream segregation in school-age children: Effects of signal repetition and frequency predictability",
+      "authors": [
+        "Emily Buss",
+        "Samantha J. Gustafson",
+        "John H. Grose",
+        "Lori J. Leibold"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-10-15",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046847",
+      "url": "https://doi.org/10.1121/10.0046847",
+      "abstract": "In multi-source auditory environments, effective listening requires segregation and selective attention to sound streams of interest. School-age children often perform worse than adults under these conditions, but the component skills responsible for child–adult differences are poorly understood. This study measured masked detection thresholds for three groups of children (5–7, 8–10, and 11–13 yrs) and adults, all with normal hearing. The masker was a continuous stream of four-tone bursts, with the frequencies of those four tones randomized for each burst. The signal was a single tone added to one, two, four, or eight sequential bursts. Signal frequency was either 1000 Hz (fixed) or 1000 Hz ± 0.5 octave, randomly selected for each trial (variable). Overall, thresholds were lower for the fixed than variable signal frequency, and thresholds fell with increasing numbers of repeating signal bursts. Signal-frequency variability had differential effects as a function of age group and number of sequential signal bursts. While some aspects of the data are consistent with maturation of the ability to benefit from signal repetition in the context of a random-frequency masker, more research is needed to understand how segregation and selective attention change with age under these stimulus conditions.",
+      "first_author_affiliation": "Department of Otolaryngology/Head and Neck Surgery, University of North Carolina at Chapel Hill 1 , Chapel Hill, North Carolina 27599,",
+      "last_author_affiliation": "Center for Hearing Research, Boys Town National Research Hospital 3 , Omaha, Nebraska 68010,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "priority section"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-15",
+      "first_seen_at": "2026-10-16T07:17:14Z",
+      "ai_analysis": {
+        "scientific_question": "学龄儿童在随机频率掩蔽声条件下对信号流的掩蔽检测阈值如何随年龄、信号重复次数和信号频率可预测性变化？",
+        "key_highlight": "固定信号频率条件下的阈值低于可变频率条件，且阈值随连续信号爆发次数增加而降低；信号频率可变性的效应因年龄组和连续信号爆发次数而异。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "部分数据与儿童利用信号重复获益能力的成熟过程一致，但需更多研究理解这些刺激条件下分离与选择性注意如何随年龄变化。",
+        "evidence": [
+          "Overall, thresholds were lower for the fixed than variable signal frequency, and thresholds fell with increasing numbers of repeating signal bursts.",
+          "Signal-frequency variability had differential effects as a function of age group and number of sequential signal bursts."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "03d05bb3f5c2fe77",
+        "updated_at": "2026-10-16T07:18:21Z"
+      }
+    },
+    {
+      "title": "Over-the-Counter Hearing Aids 4 Years Later: Regulatory Reform Alone Is Insufficient to Ensure Consumer Benefits.",
+      "authors": [
+        "Kathryn A Phillips",
+        "Christine K Cassel"
+      ],
+      "journal": "High-impact Journals",
+      "publication_date": "2026-10-15",
+      "publication_date_precision": "day",
+      "doi": "10.1001/jama.2026.19796",
+      "url": "https://doi.org/10.1001/jama.2026.19796",
+      "abstract": "This Viewpoint discusses over-the-counter hearing aids following their authorization in 2022, highlighting the importance of clinical and policy initiatives for improving uptake and implementation.",
+      "first_author_affiliation": "Center for Translational and Policy Research on Precision Medicine (TRANSPERS), Department of Clinical Pharmacy, University of California, San Francisco.",
+      "last_author_affiliation": "School of Medicine, University of California, San Francisco.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "pubmed",
+      "available_online_date": "2026-10-15",
+      "source_group": "high_impact",
+      "source_group_label": "High-impact Journals",
+      "actual_journal": "JAMA",
+      "match_level": "level_1_direct",
+      "matched_keywords": [
+        "hearing aid",
+        "hearing aids"
+      ],
+      "match_fields": [
+        "title"
+      ],
+      "needs_review": false,
+      "first_seen_at": "2026-10-16T07:17:32Z"
+    },
+    {
+      "title": "Speech Perception in Noise in Individuals With Tinnitus: Top-Down and Bottom-Up Processes",
+      "authors": [
+        "Halime Sümeyra Sevmez",
+        "Emre Gürses",
+        "Hatice Merve Yücel",
+        "Meral Didem Türkyilmaz",
+        "Harvey Dillon"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-10-15",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001896",
+      "url": "https://doi.org/10.1097/aud.0000000000001896",
+      "abstract": "Objectives: To evaluate speech-in-noise and spatial listening performance in patients with tinnitus by examining the potential contributions of top-down and bottom-up processes. Design: Thirty-one patients with tinnitus and 31 age-matched controls without tinnitus (participants with normal hearing), aged 18 to 60 years, underwent audiological evaluation. All participants completed the Listening in Spatialized Noise–Universal Test to assess speech-in-noise performance under different spatial conditions and cognitive tests (Serial Digit Learning and Stroop) to assess attention and memory. Results: Hearing thresholds did not differ significantly between groups ( p > 0.05), although a significant main effect of frequency was observed ( p < 0.001). Participants with tinnitus demonstrated poorer speech-in-noise performance than controls across both colocated and spatially separated listening conditions [ F (1,60) = 12.53, p = 0.001], whereas spatial advantage ( t = 1.08, p = 0.28) and cognitive performance (all p > 0.05) were comparable between groups. Conclusions: Patients with tinnitus demonstrated poorer speech-in-noise performance than controls in both spatially separated and colocated listening conditions. Spatial advantage and cognitive test performance were comparable between groups, suggesting that the between-group difference in speech-in-noise performance was evident across both listening conditions rather than being limited to spatial cue utilization.",
+      "first_author_affiliation": "Faculty of Health Sciences, Department of Audiology, Hacettepe University, Ankara, Turkiye",
+      "last_author_affiliation": "Department of Linguistics, Macquarie University, Sydney, Australia",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Cognitive function",
+        "Extended high-frequency hearing thresholds",
+        "Spatial auditory processing",
+        "Speech-in-noise perception",
+        "Tinnitus"
+      ],
+      "tags": [
+        "clinical audiology",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-15",
+      "first_seen_at": "2026-10-16T07:17:28Z",
+      "ai_analysis": {
+        "scientific_question": "在听力正常的耳鸣患者中，其噪声下言语感知表现是否较对照组更差，以及这种差异是否与自上而下（认知）或自下而上（空间线索利用）过程有关？",
+        "key_highlight": "耳鸣患者在共置和空间分离两种聆听条件下的噪声下言语感知均差于对照组，但空间优势与认知测试表现两组相当。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "组间噪声下言语感知差异在两种聆听条件下均存在，而非仅限于空间线索利用，提示差异可能不源于所测的空间加工或认知因素。",
+        "evidence": [
+          "Participants with tinnitus demonstrated poorer speech-in-noise performance than controls across both colocated and spatially separated listening conditions",
+          "Spatial advantage and cognitive test performance were comparable between groups"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "322136a3bd96233b",
+        "updated_at": "2026-10-16T07:18:10Z"
+      }
+    },
+    {
+      "title": "Work Productivity Loss and Increased Recovery Needs in Working-Age Adults With Bilateral Severe Hearing Loss: Evidence From a Prospective Cohort Study",
+      "authors": [
+        "Cato Philips",
+        "Laure Jacquemin",
+        "Marc J. W. Lammers",
+        "Griet Mertens",
+        "Annick Gilles",
+        "Olivier M. Vanderveken",
+        "Vincent Van Rompaey"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-10-15",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001895",
+      "url": "https://doi.org/10.1097/aud.0000000000001895",
+      "abstract": "Objectives: The impact of severe bilateral hearing loss on work productivity has not been fully explored. Given the communication difficulties experienced by this population, it has been hypothesized that work productivity may be affected, resulting in an economic burden. This study aimed to investigate work productivity among participants with severe acquired bilateral hearing loss. In addition, cognitive functioning was also examined to control for the possible intermediate effect on work productivity. Design: This study presents observational data from 50 participants, aged between 18 and 65 years, who have been diagnosed with severe bilateral hearing loss, defined as an average hearing loss of at least 70 decibels hearing level in the worst ear. The Work Limitations Questionnaire, the Work Productivity and Activity Impairment Questionnaire, and the need for recovery subscale of the Dutch Questionnaire on the Experience and Evaluation of Work (Dutch Vragenlijst Beleving en Beoordeling van de Arbeid) were employed to assess work productivity and the short-term effects of fatigue resulting from work activities. To assess the risk of long-term sick leave, the Quickscan questionnaire was administered. In addition, an audiometric assessment (pure-tone audiometry, speech perception in quiet, and speech perception in noise) was performed. Cognitive functioning and visuospatial short-term memory were investigated using the Repeatable Battery for the Assessment of Neuropsychological Status adjusted for Hearing-impaired individuals and the Corsi Block-tapping task. Results: The study found that participants with severe bilateral hearing loss exhibited a decline in self-reported work productivity and an increased need for recovery after work. Participants diagnosed with bilateral hearing loss reported higher rates of work productivity loss compared with healthy controls and the general population, as reported in earlier studies. Furthermore, they reported a greater need for recovery after work compared with normal hearing controls in previous studies. Moreover, participants with tinnitus appeared to experience even greater work productivity loss and a higher need for recovery than those without tinnitus. The impact of bilateral hearing loss on cognitive functioning was limited. Conclusions: Participants diagnosed with severe bilateral hearing loss reported a significant impact of their hearing loss on work productivity and need for recovery after work. These findings highlight the importance of multidisciplinary strategies to support employability and well-being in this population. Future research should develop objective, hearing-specific work productivity measures and explore factors contributing to work productivity and recovery needs.",
+      "first_author_affiliation": "Resonant Labs Antwerp, Department of Translational Neurosciences, Faculty of Medicine and Health Sciences, University of Antwerp, Antwerp, Belgium",
+      "last_author_affiliation": "Resonant Labs Antwerp, Department of Translational Neurosciences, Faculty of Medicine and Health Sciences, University of Antwerp, Antwerp, Belgium",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Bilateral hearing loss",
+        "Employment",
+        "Productivity",
+        "Work Performance"
+      ],
+      "tags": [
+        "clinical audiology",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-15",
+      "first_seen_at": "2026-10-16T07:17:28Z",
+      "ai_analysis": {
+        "scientific_question": "在患有重度双侧听力损失的劳动年龄成人中，其自报工作生产力与工作后恢复需求呈现何种状况？",
+        "key_highlight": "该队列中重度双侧听力损失参与者报告工作生产力下降且工作后恢复需求增加，伴耳鸣者似乎更为明显。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "研究提示需发展客观的、针对听力的工作生产力测量工具，并探索影响工作生产力与恢复需求的因素，同时支持多学科就业与福祉策略。",
+        "evidence": [
+          "The study found that participants with severe bilateral hearing loss exhibited a decline in self-reported work productivity and an increased need for recovery after work.",
+          "Moreover, participants with tinnitus appeared to experience even greater work productivity loss and a higher need for recovery than those without tinnitus."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "7d3f1215886daf2c",
+        "updated_at": "2026-10-16T07:18:12Z"
+      }
+    },
+    {
       "title": "Amateur singers' advantage in Mandarin tone perception and imitation",
       "authors": [
         "Runqing Cheng",
@@ -1300,17 +1580,6 @@
       "doi": "10.1121/10.0046467",
       "url": "https://doi.org/10.1121/10.0046467",
       "abstract": "Musical advantage in speech perception has been widely studied for instrumentalists, but it remains unclear whether singers share this benefit. In speech production, although singers' superiority has been observed relative to non-musicians, little is known about how they achieve this advantage. To address these gaps, this study investigated (i) whether singers outperformed non-musicians in Mandarin tone perception and imitation, (ii) whether singers' potential advantage in imitation depended on auditory feedback, and (iii) whether both groups' imitation improved across repetitions. Singers and non-musicians completed a Mandarin tone AXB discrimination task to evaluate their Mandarin tone perception. As for tone production, they completed a Mandarin tone word imitation task under two conditions—with and without auditory feedback. Results showed that singers achieved higher accuracy in tone perception, extending the OPERA hypothesis from Patel [(2011). Front Psychol. 2, 142; (2014) Hear. Res. 308, 98–108] by demonstrating that vocal training can also enhance auditory sensitivity to speech sounds. The singers also surpassed non-musicians in tone imitation, an advantage independent of auditory feedback, possibly reflecting reliance on somatosensory feedback or feedforward control. No effect of repetition was observed. Additionally, the high-level and high-falling tones appeared to rely more heavily on auditory feedback during imitation.",
-      "first_author_affiliation": "Academic Unit of Human Communication, Learning, and Development, The University of Hong Kong 1 , Hong Kong,",
-      "last_author_affiliation": "Academic Unit of Human Communication, Learning, and Development, The University of Hong Kong 1 , Hong Kong,",
-      "section": "Speech Communication",
-      "keywords": [],
-      "tags": [
-        "priority section",
-        "speech perception"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-14",
-      "first_seen_at": "2026-10-15T07:32:02Z",
       "ai_analysis": {
         "scientific_question": "业余歌手在普通话声调感知与模仿上是否优于非音乐人，其模仿优势是否依赖听觉反馈，以及两组模仿是否随重复而改善？",
         "key_highlight": "结果显示歌手在声调感知准确率上更高，并在声调模仿上优于非音乐人，且该优势不依赖听觉反馈，重复未产生效应。",
@@ -1326,7 +1595,18 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "5f8128cc57757d46",
         "updated_at": "2026-10-15T07:33:16Z"
-      }
+      },
+      "first_author_affiliation": "Academic Unit of Human Communication, Learning, and Development, The University of Hong Kong 1 , Hong Kong,",
+      "last_author_affiliation": "Academic Unit of Human Communication, Learning, and Development, The University of Hong Kong 1 , Hong Kong,",
+      "section": "Speech Communication",
+      "keywords": [],
+      "tags": [
+        "priority section",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-14",
+      "first_seen_at": "2026-10-15T07:32:02Z"
     },
     {
       "title": "An Item Response Theory-Based Validation of the Vanderbilt Classroom Listening Assessment Short Survey for Children With Unilateral Hearing Loss",
@@ -1341,34 +1621,8 @@
       "publication_date_precision": "day",
       "doi": "10.1097/aud.0000000000001897",
       "url": "https://doi.org/10.1097/aud.0000000000001897",
-      "abstract": "Objectives: The Vanderbilt Classroom Listening Assessment Short Survey (VCLASS) was previously developed as a tool to monitor listening difficulties experienced by school-aged children in classrooms. However, the previous statistical approach used in the initial validation did not fully evaluate the questionnaire’s psychometric properties, did not take into account the ordinal nature of responses, and did not contrast hearing-aided versus hearing-unaided conditions. The present study aimed to evaluate the psychometric properties of the 15‑item VCLASS using item response theory (IRT) in both hearing-aided and unaided conditions. More specifically, we aimed to (1) assess the latent structure for each listening condition (unaided and aided); (2) determine appropriate IRT-based models to estimate item discrimination and threshold parameters for each listening condition; (3) assess reliability from the IRT-based model; and (4) evaluate both uniform and nonuniform age-related differential item functioning (DIF) under each listening condition. Design: We applied IRT-based analyses to analyze responses previously collected from children aged 9 to 17 years with unilateral hearing loss. All children (n = 1148) completed the VCLASS imagining they were not using a device (unaided); most children (n = 897) also completed the VCLASS imagining they were using their personal listening device (aided). For each listening condition (unaided, aided), dimensionality of VCLASS items was assessed taking into account the ordinal nature of responses. Next, the best-fitting models were used to estimate item discrimination ( â ) and threshold parameters ( β̂ 1 to β̂ 4 ), to evaluate item and person fit, and to examine reliability. Last, age-related uniform and nonuniform DIF were assessed for each listening condition. Results: Parallel analysis based on polychoric correlations supported a two-factor structure for both the hearing-unaided and hearing-aided conditions. In both conditions, response patterns were largely captured by a dominant, general school-related listening-difficulty factor; additionally, one item (when unaided) or four (when aided) items loaded on a specific/minor factor representing school-related close-proximity listening difficulty. The two-factor graded response model provided better model fit relative to the two-factor generalized partial credit model. All items showed good fit and high discrimination. IRT-based marginal reliability for factor score estimates was strong (unaided: 0.88 and 0.89; aided: 0.86 and 0.85 for factors 1 and 2, respectively). Test information curves indicated greatest measurement precision where there were the most sample respondents—which included low, middle, and high, but not extreme, levels of listening difficulty—with comparable profiles across listening conditions. Age-related DIF effects on item responses were negligible, supporting age-invariant measurement. Conclusions: The IRT-based validation confirms that the VCLASS provides a reliable and consistent measure of classroom listening difficulty across unaided and aided listening conditions in children with unilateral hearing loss. By considering the ordinal nature of the data in both modeling and missing data imputation, current results support a two-factor structure across unaided and aided conditions. We also demonstrated that the VCLASS has strong item functioning and trivial age‑related bias. The VCLASS provides listening difficulty scores on an interval‑level continuum for classroom listening difficulties, supporting its use in clinical and research settings for children with unilateral hearing loss.",
-      "first_author_affiliation": "Quantitative Methods and Data Analytics, Vanderbilt University, Nashville, Tennessee, USA",
-      "last_author_affiliation": "Department of Hearing and Speech Sciences, Vanderbilt University Medical Center, Nashville, Tennessee, USA.",
-      "open_access": true,
-      "open_access_url": "https://www.ovid.com/10.1097/AUD.0000000000001897",
-      "open_access_source": "crossref_license",
-      "license_url": "http://creativecommons.org/licenses/by/4.0/",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Children",
-        "Hearing loss",
-        "Item response theory",
-        "Listening difficulties",
-        "Psychometric",
-        "Validation"
-      ],
-      "tags": [
-        "clinical audiology",
-        "hearing aid"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-14",
-      "first_seen_at": "2026-10-15T07:32:20Z",
       "full_text_url": "https://www.ovid.com/jnls/ear-hearing/fulltext/10.1097/aud.0000000000001897~an-item-response-theory-based-validation-of-the-vanderbilt",
-      "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
-      "media_checked_at": "2026-10-15T07:32:52Z",
-      "open_access_image_checked_at": "2026-10-15T07:32:52Z",
+      "abstract": "Objectives: The Vanderbilt Classroom Listening Assessment Short Survey (VCLASS) was previously developed as a tool to monitor listening difficulties experienced by school-aged children in classrooms. However, the previous statistical approach used in the initial validation did not fully evaluate the questionnaire’s psychometric properties, did not take into account the ordinal nature of responses, and did not contrast hearing-aided versus hearing-unaided conditions. The present study aimed to evaluate the psychometric properties of the 15‑item VCLASS using item response theory (IRT) in both hearing-aided and unaided conditions. More specifically, we aimed to (1) assess the latent structure for each listening condition (unaided and aided); (2) determine appropriate IRT-based models to estimate item discrimination and threshold parameters for each listening condition; (3) assess reliability from the IRT-based model; and (4) evaluate both uniform and nonuniform age-related differential item functioning (DIF) under each listening condition. Design: We applied IRT-based analyses to analyze responses previously collected from children aged 9 to 17 years with unilateral hearing loss. All children (n = 1148) completed the VCLASS imagining they were not using a device (unaided); most children (n = 897) also completed the VCLASS imagining they were using their personal listening device (aided). For each listening condition (unaided, aided), dimensionality of VCLASS items was assessed taking into account the ordinal nature of responses. Next, the best-fitting models were used to estimate item discrimination ( â ) and threshold parameters ( β̂ 1 to β̂ 4 ), to evaluate item and person fit, and to examine reliability. Last, age-related uniform and nonuniform DIF were assessed for each listening condition. Results: Parallel analysis based on polychoric correlations supported a two-factor structure for both the hearing-unaided and hearing-aided conditions. In both conditions, response patterns were largely captured by a dominant, general school-related listening-difficulty factor; additionally, one item (when unaided) or four (when aided) items loaded on a specific/minor factor representing school-related close-proximity listening difficulty. The two-factor graded response model provided better model fit relative to the two-factor generalized partial credit model. All items showed good fit and high discrimination. IRT-based marginal reliability for factor score estimates was strong (unaided: 0.88 and 0.89; aided: 0.86 and 0.85 for factors 1 and 2, respectively). Test information curves indicated greatest measurement precision where there were the most sample respondents—which included low, middle, and high, but not extreme, levels of listening difficulty—with comparable profiles across listening conditions. Age-related DIF effects on item responses were negligible, supporting age-invariant measurement. Conclusions: The IRT-based validation confirms that the VCLASS provides a reliable and consistent measure of classroom listening difficulty across unaided and aided listening conditions in children with unilateral hearing loss. By considering the ordinal nature of the data in both modeling and missing data imputation, current results support a two-factor structure across unaided and aided conditions. We also demonstrated that the VCLASS has strong item functioning and trivial age‑related bias. The VCLASS provides listening difficulty scores on an interval‑level continuum for classroom listening difficulties, supporting its use in clinical and research settings for children with unilateral hearing loss.",
       "ai_analysis": {
         "scientific_question": "使用项目反应理论（IRT）评估15项VCLASS问卷在单侧听力损失儿童助听与非助听条件下的心理测量学特性如何？",
         "key_highlight": "平行分析支持非助听与助听条件下均为两因子结构，两因子分级反应模型拟合更优，所有条目拟合良好且区分度高，IRT边际信度较强（非助听0.88和0.89；助听0.86和0.85），年龄相关DIF效应可忽略。",
@@ -1384,7 +1638,33 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "dabd1e534a7a2748",
         "updated_at": "2026-10-15T07:33:10Z"
-      }
+      },
+      "first_author_affiliation": "Quantitative Methods and Data Analytics, Vanderbilt University, Nashville, Tennessee, USA",
+      "last_author_affiliation": "Department of Hearing and Speech Sciences, Vanderbilt University Medical Center, Nashville, Tennessee, USA.",
+      "open_access": true,
+      "open_access_url": "https://www.ovid.com/10.1097/AUD.0000000000001897",
+      "open_access_source": "crossref_license",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-10-15T07:32:52Z",
+      "media_checked_at": "2026-10-15T07:32:52Z",
+      "publication_stage": "early_access",
+      "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Children",
+        "Hearing loss",
+        "Item response theory",
+        "Listening difficulties",
+        "Psychometric",
+        "Validation"
+      ],
+      "tags": [
+        "clinical audiology",
+        "hearing aid"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-14",
+      "first_seen_at": "2026-10-15T07:32:20Z"
     },
     {
       "title": "On the mechanism of accordion pitch bending",
@@ -1401,17 +1681,6 @@
       "doi": "10.1121/10.0046472",
       "url": "https://doi.org/10.1121/10.0046472",
       "abstract": "This paper presents a minimal model explaining pitch bending (a decrease in pitch) that occurs in an accordion when the bellows is operated forcefully while a key is pressed partially. The phenomenon is attributed to the pressure loss at the vent hole of the reed chamber opened partially by the pallet. This pressure loss causes the internal pressure of the reed chamber to fluctuate in a way that exerts a stronger force to close the reed near its closed position and a weaker force when it is open. Consequently, the restoring force of the reed is partially offset, leading to a decrease in the effective spring constant and thus causing the pitch to bend. To elucidate this mechanism, the qualitative behavior is first explained using an equivalent circuit, followed by the presentation of a physical model of accordion sound production. Through numerical simulations and theoretical nonlinear oscillation analysis, the model, incorporating adjustable pressure loss coefficients whose calibrated values are hydrodynamically realistic, yields results in good agreement with those from the accordion pitch-bending experiment of Okada, Nishimiya, and Cho [J. Acoust. Soc. Japan 81(11), 739–742 (2025)], which was conducted under controlled airflow and pallet-opening conditions.",
-      "first_author_affiliation": "School of Marine Science and Technology, Tianjin University 1 , Tianjin 300072,",
-      "last_author_affiliation": "Faculty of Information Technology, Kanagawa Institute of Technology 4 , Atsugi 243-0292,",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "priority section",
-        "psychoacoustics"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-14",
-      "first_seen_at": "2026-10-15T07:32:02Z",
       "ai_analysis": {
         "scientific_question": "手风琴在按键部分按下且风箱用力操作时音高下降（pitch bending）的机制是什么？",
         "key_highlight": "论文提出一个最小模型，将该现象归因于部分开启的簧片室通气孔处的压力损失，使簧片有效弹簧常数降低从而导致音高下降。",
@@ -1427,7 +1696,18 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "175a947e6765938b",
         "updated_at": "2026-10-15T07:33:18Z"
-      }
+      },
+      "first_author_affiliation": "School of Marine Science and Technology, Tianjin University 1 , Tianjin 300072,",
+      "last_author_affiliation": "Faculty of Information Technology, Kanagawa Institute of Technology 4 , Atsugi 243-0292,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "priority section",
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-14",
+      "first_seen_at": "2026-10-15T07:32:02Z"
     },
     {
       "title": "Predicting Interaural Time Difference Sensitivity for Bilateral Cochlear-Implant Listeners From Loudness Levels and Factors Reflective of the Electrode-to-Neural Interface",
@@ -1442,32 +1722,8 @@
       "publication_date_precision": "day",
       "doi": "10.1177/23312165261487553",
       "url": "https://doi.org/10.1177/23312165261487553",
-      "abstract": "This study evaluated how interaural-time-difference (ITD) thresholds for bilateral cochlear-implant listeners were related to monaural and binaural factors associated with behavioral loudness perception and objective measures associated with the interface between electrode contacts and target neurons (the electrode-to-neural interface, ENI). For 11 bilateral cochlear-implant listeners, ITD thresholds for number-matched interaural electrode pairs were measured at five places along the array. On these same electrodes, the most comfortable current level used for stimulation (C-level), electrically evoked compound action potentials (ECAPs), and electrode positions relative to the modiolus based on computed-tomography scans were recorded. Monaural predictors included stimulation level (quantified by C-levels), modiolar distance (related to the width of neural activation), and efficacy of auditory nerve fiber responses to electrical stimulation [ECAP amplitude growth function (AGF) slopes]. Binaural predictors included the degree of interaural asymmetry in both C-levels and modiolar distances. It was hypothesized that better ITD sensitivity would be related to higher C-levels and larger modiolar distances (because of increased loudness and broader neural activation), steeper ECAP AGF slopes (because of more numerous and healthy neurons), and smaller interaural asymmetry (because of a larger proportion of binaurally excited neurons). The hypotheses were tested via backwards elimination in mixed-effects models with bias and stability analyses performed using bootstrapping. Partially confirming the hypotheses, higher C-levels and greater modiolar distance for electrodes in the ear with better ENI (as defined primarily by the ECAP AGF slope) were significantly associated with better ITD thresholds. These results highlight the role of monaural processing in binaural performance.",
-      "first_author_affiliation": "University of Wisconsin-Madison",
-      "last_author_affiliation": "University of Maryland",
-      "open_access": true,
-      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261487553",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "binaural hearing",
-        "bootstrapping stability analyses",
-        "cochlear implantation",
-        "electrically evoked compound action potential",
-        "electrode-to-neural interface"
-      ],
-      "tags": [
-        "auditory physiology",
-        "cochlear implant",
-        "psychoacoustics"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-14",
-      "first_seen_at": "2026-10-15T07:32:08Z",
       "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261487553",
-      "media_checked_at": "2026-10-15T07:32:53Z",
-      "open_access_image_checked_at": "2026-10-15T07:32:53Z",
+      "abstract": "This study evaluated how interaural-time-difference (ITD) thresholds for bilateral cochlear-implant listeners were related to monaural and binaural factors associated with behavioral loudness perception and objective measures associated with the interface between electrode contacts and target neurons (the electrode-to-neural interface, ENI). For 11 bilateral cochlear-implant listeners, ITD thresholds for number-matched interaural electrode pairs were measured at five places along the array. On these same electrodes, the most comfortable current level used for stimulation (C-level), electrically evoked compound action potentials (ECAPs), and electrode positions relative to the modiolus based on computed-tomography scans were recorded. Monaural predictors included stimulation level (quantified by C-levels), modiolar distance (related to the width of neural activation), and efficacy of auditory nerve fiber responses to electrical stimulation [ECAP amplitude growth function (AGF) slopes]. Binaural predictors included the degree of interaural asymmetry in both C-levels and modiolar distances. It was hypothesized that better ITD sensitivity would be related to higher C-levels and larger modiolar distances (because of increased loudness and broader neural activation), steeper ECAP AGF slopes (because of more numerous and healthy neurons), and smaller interaural asymmetry (because of a larger proportion of binaurally excited neurons). The hypotheses were tested via backwards elimination in mixed-effects models with bias and stability analyses performed using bootstrapping. Partially confirming the hypotheses, higher C-levels and greater modiolar distance for electrodes in the ear with better ENI (as defined primarily by the ECAP AGF slope) were significantly associated with better ITD thresholds. These results highlight the role of monaural processing in binaural performance.",
       "ai_analysis": {
         "scientific_question": "在双侧人工耳蜗使用者中，单侧与双侧因素（行为响度感知及电极-神经接口相关客观指标）如何与双耳间时间差（ITD）阈值相关？",
         "key_highlight": "部分验证假设：较高C级和较好ENI耳（主要由ECAP AGF斜率定义）电极的更大蜗轴距离与更好的ITD阈值显著相关。",
@@ -1483,7 +1739,31 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "9200f0437bacd946",
         "updated_at": "2026-10-15T07:33:12Z"
-      }
+      },
+      "first_author_affiliation": "University of Wisconsin-Madison",
+      "last_author_affiliation": "University of Maryland",
+      "open_access": true,
+      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261487553",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "open_access_image_checked_at": "2026-10-15T07:32:53Z",
+      "media_checked_at": "2026-10-15T07:32:53Z",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "binaural hearing",
+        "bootstrapping stability analyses",
+        "cochlear implantation",
+        "electrically evoked compound action potential",
+        "electrode-to-neural interface"
+      ],
+      "tags": [
+        "auditory physiology",
+        "cochlear implant",
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-14",
+      "first_seen_at": "2026-10-15T07:32:08Z"
     },
     {
       "title": "The QuickGIN: Development of a rapid gap detection test for clinical temporal processing assessment",
@@ -1497,25 +1777,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0046855",
       "url": "https://doi.org/10.1121/10.0046855",
-      "abstract": "Auditory gap detection thresholds are an important tool for evaluating temporal processing deficits in human listeners, but current tests are too cumbersome for widespread clinical use. This letter describes the development and validation of a rapid 18-trial test for assessing gap detection based on an earlier binaural tone-in-noise paradigm. Results from 616 normal-hearing listeners show psychometric properties similar to the clinical gaps-in-noise test and provide normative values that support preliminary use as a screener for temporal processing deficits in clinical populations.",
-      "first_author_affiliation": "National Military Audiology and Speech Pathology Center, Walter Reed National Military Medical Center 1 , Bethesda, Maryland 20889,",
-      "last_author_affiliation": "Alaka'ina Foundation Family of Companies 3 , Orlando, Florida 32826,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0046855",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "clinical audiology",
-        "priority section"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-10-14",
-      "first_seen_at": "2026-10-15T07:32:05Z",
       "full_text_url": "https://pubs.aip.org/jel/article/6/10/104402/3406525/The-QuickGIN-Development-of-a-rapid-gap-detection",
-      "media_checked_at": "2026-10-15T07:32:53Z",
-      "open_access_image_checked_at": "2026-10-15T07:32:53Z",
+      "abstract": "Auditory gap detection thresholds are an important tool for evaluating temporal processing deficits in human listeners, but current tests are too cumbersome for widespread clinical use. This letter describes the development and validation of a rapid 18-trial test for assessing gap detection based on an earlier binaural tone-in-noise paradigm. Results from 616 normal-hearing listeners show psychometric properties similar to the clinical gaps-in-noise test and provide normative values that support preliminary use as a screener for temporal processing deficits in clinical populations.",
       "ai_analysis": {
         "scientific_question": "能否开发一种快速、适用于临床的听觉间隙检测测试，以评估人类听者的时间处理缺陷？",
         "key_highlight": "该研究开发并验证了一种基于双耳噪声中纯音范式的18试次快速间隙检测测试，616名正常听力听者的结果显示其心理测量学特性与临床GIN测试相似，并提供了支持初步用作筛查工具的正常值。",
@@ -1531,7 +1794,24 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "4825843ec1438cd6",
         "updated_at": "2026-10-15T07:33:14Z"
-      }
+      },
+      "first_author_affiliation": "National Military Audiology and Speech Pathology Center, Walter Reed National Military Medical Center 1 , Bethesda, Maryland 20889,",
+      "last_author_affiliation": "Alaka'ina Foundation Family of Companies 3 , Orlando, Florida 32826,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046855",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-10-15T07:32:53Z",
+      "media_checked_at": "2026-10-15T07:32:53Z",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology",
+        "priority section"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-10-14",
+      "first_seen_at": "2026-10-15T07:32:05Z"
     },
     {
       "title": "A quasi-uniform acoustic leaky-wave antenna: Analysis, design and experimental validation",
@@ -2072,6 +2352,42 @@
       ],
       "needs_review": true,
       "first_seen_at": "2026-10-14T07:45:30Z"
+    },
+    {
+      "title": "Binaural cue characterization in cochlear implants: Impact of signal processing and interaural linked channel selection",
+      "authors": [
+        "Gianpaolo Palo",
+        "Obaid ur Rehman Qazi",
+        "Tom Bertens",
+        "Myles Mc Laughlin",
+        "Jan Wouters"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-12",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109838",
+      "url": "https://doi.org/10.1016/j.heares.2026.109838",
+      "abstract": "Bilateral cochlear implantation is a primary clinical intervention to re-establish access to binaural hearing in individuals with severe-to-profound hearing loss. While many binaural auditory functions depend critically on interaural cues, existing sound coding strategies do not fully preserve these cues. Based on simulations, this study systematically examines how cochlear implant signal processing affects the encoding of interaural time and level differences across key processing stages. The impact of linked channel selection and number of maxima is also investigated on binaural cue encoding and speech intelligibility in noise. Non-linear compressions emerge as the dominant source of interaural level distortion, introducing errors up to 10.4 ± 0.5 dB. While envelope extraction and channel selection are the primary contributors to interaural timing degradation, with errors up to 101 ± 17 µs. Linking channel selection between left and right processors reduces level distortions under strong head-shadow conditions (from 1.8 ± 0.2 dB to 0.2 ± 0.1 dB), however, this improvement does not persist at later processing stages and also introduces substantial timing distortions (up to 338 ± 14 µs). Increasing maxima from 8 to 12 provides modest benefits, while further increases lead to little extra improvement, which also does not persist at later processing stages. Speech intelligibility simulation analyses show consistent benefits of linked channel selection on the side with poorer signal-to-noise ratio, also when increasing maxima from 8 to 12 to 16. These findings underscore persistent limitations in interaural cue preservation and highlight the need for coding strategies that explicitly preserve these cues.",
+      "last_author_affiliation": "Experimental Oto-rhino-laryngology (ExpORL) research group, Department of Neurosciences, KU Leuven, Leuven, 3000, Belgium; Leuven Brain Institute, Department of Neurosciences, KU Leuven, Leuven, 3000, Belgium. Electronic address: jan.wouters@kuleuven.be.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Binaural cues",
+        "Binaural hearing",
+        "Cochlear implants",
+        "Interaural level difference",
+        "Interaural time difference",
+        "Sound coding strategy"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology",
+        "cochlear implant",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-12",
+      "first_seen_at": "2026-10-13T09:31:29Z"
     },
     {
       "title": "Transient cavitation dynamics of vaporized perfluorocarbon nanodroplets measured with an acoustical camera",
@@ -3327,6 +3643,30 @@
       "first_seen_at": "2026-10-03T08:14:14Z"
     },
     {
+      "title": "A Hole in the Chain: Synchrotron MicroCT Reveals a Stapes Footplate Gateway to the Inner Ear in Murine Otitis Media",
+      "authors": [
+        "Diana Cobas",
+        "Jordan Villa",
+        "Alessandra Carriero",
+        "Christoph Rau",
+        "Shashidhara Marathe",
+        "Joaquin Cury",
+        "Grace E. Stutzmann",
+        "Claus Peter Richter"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109840",
+      "url": "https://doi.org/10.1016/j.heares.2026.109840",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-10-16T07:17:30Z"
+    },
+    {
       "title": "Acoustic Masking of Electric Stimulation at Basal and Extra-Cochlear Sites",
       "authors": [
         "Patrick Hinz",
@@ -3466,30 +3806,6 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-08-10",
       "first_seen_at": "2026-08-11T03:56:31Z"
-    },
-    {
-      "title": "Binaural Cue Characterization in Cochlear Implants: Impact of Signal Processing and Interaural Linked Channel Selection",
-      "authors": [
-        "Gianpaolo Palo",
-        "Obaid ur Rehman Qazi",
-        "Tom Bertens",
-        "Myles Mc Laughlin",
-        "Jan Wouters"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109838",
-      "url": "https://doi.org/10.1016/j.heares.2026.109838",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "auditory physiology",
-        "cochlear implant"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-10-13T09:31:29Z"
     },
     {
       "title": "Central auditory decline precedes cochlear deficits in a D-galactose mimetic model of aging",
@@ -3757,21 +4073,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00266-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-02T07:09:02Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-10-01",
       "publication_date_precision": "day",
@@ -3784,6 +4085,21 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00266-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Effective model of fiber Bragg gratings for simulation of ultrasonic guided wave measurements using spectral finite elements",
@@ -6882,22 +7198,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046571",
-      "url": "https://doi.org/10.1121/10.0046571",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:59Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -6910,6 +7210,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:56Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046571",
+      "url": "https://doi.org/10.1121/10.0046571",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:59Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -17778,22 +18094,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044504",
-      "url": "https://doi.org/10.1121/10.0044504",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:37Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -17806,6 +18106,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:36Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044504",
+      "url": "https://doi.org/10.1121/10.0044504",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:37Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -46941,17 +47257,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -46972,18 +47289,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -56307,22 +56623,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -56335,6 +56635,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -63437,23 +63753,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -63467,6 +63766,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -67018,8 +67334,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -67033,8 +67349,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -72555,8 +72871,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -72570,8 +72886,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
