@@ -1,28 +1,6 @@
 {
-  "generated_at": "2026-10-18T07:17:38Z",
+  "generated_at": "2026-10-19T07:56:36Z",
   "papers": [
-    {
-      "title": "Central auditory decline precedes cochlear deficits in a D-galactose mimetic model of aging",
-      "authors": [
-        "Aravindakshan Parthasarathy",
-        "Edward L. Bartlett"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-12-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109836",
-      "url": "https://doi.org/10.1016/j.heares.2026.109836",
-      "abstract": null,
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-10-12",
-      "first_seen_at": "2026-10-13T09:31:29Z"
-    },
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level.",
       "authors": [
@@ -1174,7 +1152,7 @@
       "first_seen_at": "2026-09-04T07:17:01Z"
     },
     {
-      "title": "The role of binaural input in music perception: Evidence from adults with single-sided deafness",
+      "title": "The role of binaural input in music perception: Evidence from adults with single-sided deafness.",
       "authors": [
         "Mert Kılıç",
         "Hatice Merve Yücel",
@@ -1199,6 +1177,7 @@
         "abstract_hash": "5d4239075f9dba0f",
         "updated_at": "2026-08-29T09:09:12Z"
       },
+      "first_author_affiliation": "Department of Audiology, Hamidiye Faculty of Health Sciences, University of Health Sciences, Istanbul, Türkiye. Electronic address: mert.kilic@sbu.edu.tr.",
       "last_author_affiliation": "Department of Audiology, Hamidiye Faculty of Health Sciences, University of Health Sciences, Istanbul, Türkiye; Department of Otolaryngology, Umraniye Training and Research Hospital, University of Health Sciences, Istanbul, Türkiye.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
@@ -1214,7 +1193,7 @@
         "psychoacoustics",
         "real-world listening"
       ],
-      "source": "crossref+pubmed",
+      "source": "pubmed",
       "available_online_date": "2026-08-19",
       "first_seen_at": "2026-08-28T14:24:28Z"
     },
@@ -2025,20 +2004,6 @@
       "url": "https://doi.org/10.1121/10.0046796",
       "full_text_url": "https://pubs.aip.org/jasa/article/160/4/2988/3406458/A-quasi-uniform-acoustic-leaky-wave-antenna",
       "abstract": "This paper introduces an efficient analytical tool for the design of quasi-uniform acoustic leaky-wave antennas (ALWAs) based on circular holes perforated along the broad wall of a rectangular acoustic waveguide, together with experimental validation in terms of frequency-scanning capability. The analytical formulation combines the transverse equivalent network and the transverse resonance equation to predict leaky-mode dispersion parameters, including the phase constant and leakage rate. Compared with previously reported metamaterial-based ALWAs, which rely on complex resonant unit cells and exhibit limited scanning performance, the proposed structure provides a simpler alternative while maintaining effective beam-steering capability. The proposed approach bridges the gap between theoretical modeling and practical implementation, establishing a robust framework for the design and optimization of compact and cost-effective ALWAs suitable for acoustic sensing, communication, and localization applications.",
-      "first_author_affiliation": "Division of Applied Acoustics, Department of Architecture and Civil Engineering, Chalmers University of Technology 1 , SE-412 96 Gothenburg,",
-      "last_author_affiliation": "Department of Communication and Information Technologies, Technical University of Cartagena 2 , 30202 Cartagena,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0046796",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "open_access_image_checked_at": "2026-10-14T07:45:39Z",
-      "media_checked_at": "2026-10-14T07:45:39Z",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-13",
-      "first_seen_at": "2026-10-14T07:44:29Z",
       "ai_analysis": {
         "scientific_question": "如何为基于矩形声波导宽壁圆孔的准均匀声学漏波天线建立高效解析设计工具，并通过实验验证其频率扫描能力？",
         "key_highlight": "该解析方法结合横向等效网络与横向谐振方程预测漏模色散参数（相位常数与泄漏率），并在频率扫描能力上获得实验验证。",
@@ -2054,7 +2019,21 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "511ef5cb66f93b08",
         "updated_at": "2026-10-18T07:18:12Z"
-      }
+      },
+      "first_author_affiliation": "Division of Applied Acoustics, Department of Architecture and Civil Engineering, Chalmers University of Technology 1 , SE-412 96 Gothenburg,",
+      "last_author_affiliation": "Department of Communication and Information Technologies, Technical University of Cartagena 2 , 30202 Cartagena,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046796",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-10-14T07:45:39Z",
+      "media_checked_at": "2026-10-14T07:45:39Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-13",
+      "first_seen_at": "2026-10-14T07:44:29Z"
     },
     {
       "title": "Advances in Stem Cell Therapy for Hearing Loss",
@@ -2121,14 +2100,6 @@
       "doi": "10.1121/10.0046727",
       "url": "https://doi.org/10.1121/10.0046727",
       "abstract": "The spatial coherence function is widely used in ultrafast ultrasound imaging to characterize tissue microstructure and anisotropy. In coherent plane wave compounding, however, systematic characterization and experimental validation of how angular compounding and imaging depth jointly govern the effective transmit aperture and the resulting measured coherence remain limited. The spatial coherence function in plane wave imaging is revisited through theoretical analysis, simulations, and experiments. In a one-dimensional linear-array configuration, an expression for the spatial coherence function of synthetically focused signals obtained via coherent compounding is derived. This expression links the measured coherence to the scatterers' distribution and to an effective transmit aperture whose lateral extent is governed by the physical probe aperture and by a synthetic aperture that scales with imaging depth and the maximum steering angle. The influence of angular range, number of plane waves, and depth is then examined. The coherence-support width increases with both angular range and depth, whereas the angular step size mainly affects sampling-related modulation within the coherence curve. These findings provide intuitive insights and practical guidance for designing ultrafast imaging protocols to assess tissue anisotropy, and the framework can serve as a tool for optimizing coherence-based methods in high-frame-rate applications such as cardiac fiber orientation estimation.",
-      "first_author_affiliation": "INSA-Lyon, Universite Claude Bernard Lyon 1, CNRS, Inserm 1 , CREATIS UMR 5220, U1294, F-69621, Lyon,",
-      "last_author_affiliation": "INSA-Lyon, Universite Claude Bernard Lyon 1, CNRS, Inserm 1 , CREATIS UMR 5220, U1294, F-69621, Lyon,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-13",
-      "first_seen_at": "2026-10-14T07:44:29Z",
       "ai_analysis": {
         "scientific_question": "在相干平面波复合中，角度复合与成像深度如何共同决定有效发射孔径及所测空间相干函数？",
         "key_highlight": "推导出的空间相干函数表达式将测量相干性与散射体分布及有效发射孔径联系起来，该孔径由物理探头孔径和随深度与最大偏转角缩放的合成孔径共同决定。",
@@ -2144,7 +2115,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "697e30c5c0ace879",
         "updated_at": "2026-10-18T07:18:14Z"
-      }
+      },
+      "first_author_affiliation": "INSA-Lyon, Universite Claude Bernard Lyon 1, CNRS, Inserm 1 , CREATIS UMR 5220, U1294, F-69621, Lyon,",
+      "last_author_affiliation": "INSA-Lyon, Universite Claude Bernard Lyon 1, CNRS, Inserm 1 , CREATIS UMR 5220, U1294, F-69621, Lyon,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-13",
+      "first_seen_at": "2026-10-14T07:44:29Z"
     },
     {
       "title": "Echoes of Renewal: Rebuilding the Mammalian Inner Ear",
@@ -2208,14 +2187,6 @@
       "doi": "10.1121/10.0044523",
       "url": "https://doi.org/10.1121/10.0044523",
       "abstract": "It is known that listeners lose the ability to discriminate the direction of motion of a revolving sound (clockwise vs counterclockwise) beyond a critical velocity [“the upper limit (UL)”], likely due to degraded front–back discrimination. Little is known about how this ability is affected by simultaneously present distractor sounds, despite the real-life importance of tracking moving sounds in the presence of distractors. We hypothesized that the presence of a static distractor sound would impair the perception of moving target sounds and reduce the UL and show that this is indeed the case. A distractor on the right was as effective as a distractor at the front in reducing the UL, despite the likely importance of resolving front–back confusions. By manipulating the spectral content of both the target and distractor, we found that the UL was significantly reduced only when the distractor spectrally overlaps with the target in the frequency range relevant for front–back discrimination. Our findings form the first steps toward a better understanding of the tracking of multiple sounds in the presence of distractors.",
-      "first_author_affiliation": "Department of Physiology, McGill University 1 , Montréal, Québec,",
-      "last_author_affiliation": "Department of Physiology, McGill University 1 , Montréal, Québec,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-13",
-      "first_seen_at": "2026-10-14T07:44:29Z",
       "ai_analysis": {
         "scientific_question": "静态干扰声的存在是否会损害对运动目标声的感知并降低其方向辨别速度上限（UL）？",
         "key_highlight": "当干扰声与目标声在用于前后辨别的频段上存在频谱重叠时，UL显著降低，且右侧干扰声与前方干扰声效果相当。",
@@ -2231,7 +2202,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "2595aa9a5f0d34ff",
         "updated_at": "2026-10-18T07:18:16Z"
-      }
+      },
+      "first_author_affiliation": "Department of Physiology, McGill University 1 , Montréal, Québec,",
+      "last_author_affiliation": "Department of Physiology, McGill University 1 , Montréal, Québec,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-13",
+      "first_seen_at": "2026-10-14T07:44:29Z"
     },
     {
       "title": "Emerging Therapies for Genetic Deafness: The Rise of Precision Gene Editing",
@@ -2249,6 +2228,22 @@
       "url": "https://doi.org/10.1097/aud.0000000000001903",
       "full_text_url": "https://www.ovid.com/jnls/ear-hearing/fulltext/10.1097/aud.0000000000001903~emerging-therapies-for-genetic-deafness-the-rise-of",
       "abstract": "Hearing loss is a prevalent sensory disorder with profound social and health impacts. Although hearing aids and cochlear implants can significantly restore auditory perception, they do not address the underlying genetic causes. Inherited forms of hearing loss, often monogenic, are ideal candidates for gene therapy, particularly since over 150 genes have been linked to deafness. Advances in vector engineering and genome editing technologies now enable precise targeting of auditory cells within the inner ear. Technologies such as Clustered Regularly Interspaced Short Palindromic Repeats-Cas systems, base editing, and prime editing offer powerful tools to correct pathogenic variants at their native genomic loci. This review summarizes the current landscape of gene editing approaches for both hereditary and acquired hearing loss, emphasizing key preclinical studies in mouse models encompassing dominant and recessive forms of deafness. We discuss the advantages and limitations of different editing techniques, vector delivery systems, and administration routes, and explore obstacles including editing efficiency, cell-specific targeting, and the translation of these therapies to humans. Collectively, these advances represent a pivotal step toward variant-specific, durable, and potentially curative treatments for hearing loss.",
+      "ai_analysis": {
+        "scientific_question": "基因编辑技术（如CRISPR-Cas、碱基编辑和先导编辑）能否在遗传性与获得性听力损失的动物模型中实现精准的致病变异校正，并最终转化为人类治疗？",
+        "key_highlight": "该综述总结了针对遗传性与获得性听力损失的基因编辑研究现状，强调小鼠模型中显性与隐性耳聋形式的关键临床前研究，并讨论不同编辑技术、载体递送系统与给药途径的优劣。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "这些进展被视为迈向变异特异性、持久且可能具治愈性的听力损失治疗的关键一步，但摘要所述仍属临床前研究，向人类转化尚待验证。",
+        "evidence": [
+          "This review summarizes the current landscape of gene editing approaches for both hereditary and acquired hearing loss, emphasizing key preclinical studies in mouse models encompassing dominant and recessive forms of deafness.",
+          "Collectively, these advances represent a pivotal step toward variant-specific, durable, and potentially curative treatments for hearing loss."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "2a00be40d8ad861e",
+        "updated_at": "2026-10-18T07:18:02Z"
+      },
       "first_author_affiliation": "Université Paris Cité, Institut Pasteur, AP-HP, INSERM, CNRS, Fondation Pour l’Audition, Institut de l’Audition, IHU reConnect, Paris, F-75012, France",
       "last_author_affiliation": "Université Paris Cité, Institut Pasteur, AP-HP, INSERM, CNRS, Fondation Pour l’Audition, Institut de l’Audition, IHU reConnect, Paris, F-75012, France",
       "open_access": true,
@@ -2274,23 +2269,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-13",
-      "first_seen_at": "2026-10-14T07:44:51Z",
-      "ai_analysis": {
-        "scientific_question": "基因编辑技术（如CRISPR-Cas、碱基编辑和先导编辑）能否在遗传性与获得性听力损失的动物模型中实现精准的致病变异校正，并最终转化为人类治疗？",
-        "key_highlight": "该综述总结了针对遗传性与获得性听力损失的基因编辑研究现状，强调小鼠模型中显性与隐性耳聋形式的关键临床前研究，并讨论不同编辑技术、载体递送系统与给药途径的优劣。",
-        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
-        "research_implication": "这些进展被视为迈向变异特异性、持久且可能具治愈性的听力损失治疗的关键一步，但摘要所述仍属临床前研究，向人类转化尚待验证。",
-        "evidence": [
-          "This review summarizes the current landscape of gene editing approaches for both hereditary and acquired hearing loss, emphasizing key preclinical studies in mouse models encompassing dominant and recessive forms of deafness.",
-          "Collectively, these advances represent a pivotal step toward variant-specific, durable, and potentially curative treatments for hearing loss."
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "2a00be40d8ad861e",
-        "updated_at": "2026-10-18T07:18:02Z"
-      }
+      "first_seen_at": "2026-10-14T07:44:51Z"
     },
     {
       "title": "Gene Therapy: Routes of Inner Ear Delivery",
@@ -2395,6 +2374,22 @@
       "url": "https://doi.org/10.1121/10.0046844",
       "full_text_url": "https://pubs.aip.org/jel/article/6/10/104401/3406459/Matching-laboratory-and-real-world-listening",
       "abstract": "Laboratory speech-in-noise measures fail to predict real-world listening performance. This study tested whether matching laboratory to real-world environments using self-reported noise sources from ecological momentary assessment (EMA) improves predictions. Speech intelligibility and listening effort were measured in virtual acoustic environments in 51 normal-hearing adults, who then self-rated both via EMA for 1 week. Laboratory intelligibility predicted real-world intelligibility only when laboratory and real-world environments were matched. Effort results were not significant. Findings suggest that environment-specific laboratory testing improves ecological validity of intelligibility measures, though environment matching explained only 1.1% of variance in real-world ratings, with individual differences accounting for substantially more.",
+      "ai_analysis": {
+        "scientific_question": "将实验室测试环境与通过生态瞬时评估（EMA）获得的真实世界噪声源相匹配，是否能改善对真实世界言语感知的预测？",
+        "key_highlight": "实验室言语清晰度仅在实验室与真实世界环境相匹配时才能预测真实世界的清晰度，而努力度的结果不显著。",
+        "main_limitation": "环境匹配仅解释了真实世界评分方差的1.1%，个体差异解释的方差要大得多。",
+        "research_implication": "研究结果提示，针对特定环境的实验室测试可能提高清晰度测量的生态效度，但预测能力有限，且个体差异的影响更大。",
+        "evidence": [
+          "Laboratory intelligibility predicted real-world intelligibility only when laboratory and real-world environments were matched.",
+          "environment matching explained only 1.1% of variance in real-world ratings, with individual differences accounting for substantially more."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "2f074515b81a275f",
+        "updated_at": "2026-10-18T07:18:10Z"
+      },
       "first_author_affiliation": "Department of Communication Sciences and Disorders, University of Wisconsin—Madison , Madison, Wisconsin 53704,",
       "last_author_affiliation": "Department of Communication Sciences and Disorders, University of Wisconsin—Madison , Madison, Wisconsin 53704,",
       "open_access": true,
@@ -2412,23 +2407,7 @@
       ],
       "source": "crossref",
       "available_online_date": "2026-10-13",
-      "first_seen_at": "2026-10-14T07:44:33Z",
-      "ai_analysis": {
-        "scientific_question": "将实验室测试环境与通过生态瞬时评估（EMA）获得的真实世界噪声源相匹配，是否能改善对真实世界言语感知的预测？",
-        "key_highlight": "实验室言语清晰度仅在实验室与真实世界环境相匹配时才能预测真实世界的清晰度，而努力度的结果不显著。",
-        "main_limitation": "环境匹配仅解释了真实世界评分方差的1.1%，个体差异解释的方差要大得多。",
-        "research_implication": "研究结果提示，针对特定环境的实验室测试可能提高清晰度测量的生态效度，但预测能力有限，且个体差异的影响更大。",
-        "evidence": [
-          "Laboratory intelligibility predicted real-world intelligibility only when laboratory and real-world environments were matched.",
-          "environment matching explained only 1.1% of variance in real-world ratings, with individual differences accounting for substantially more."
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "2f074515b81a275f",
-        "updated_at": "2026-10-18T07:18:10Z"
-      }
+      "first_seen_at": "2026-10-14T07:44:33Z"
     },
     {
       "title": "Merit: Making every modality earn its contribution in multimodal attention decoding",
@@ -2664,6 +2643,54 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-12",
       "first_seen_at": "2026-10-13T09:31:29Z"
+    },
+    {
+      "title": "Central auditory decline precedes cochlear deficits in a D-galactose mimetic model of aging",
+      "authors": [
+        "Aravindakshan Parthasarathy",
+        "Edward L. Bartlett"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-12",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109836",
+      "url": "https://doi.org/10.1016/j.heares.2026.109836",
+      "abstract": "Age-related hearing loss reflects a mixture of concurrent peripheral cochlear and central auditory pathway degeneration. Disentangling their relative contributions has remained challenging because both decline together with natural aging. Here, we test the hypothesis that systemic D-galactose (D-gal) administration will selectively accelerate central auditory aging while preserving peripheral cochlear function. Eight male Fischer 344 rats received daily subcutaneous D-gal injections (500 mg/kg) for eight consecutive weeks. Two-channel auditory evoked potentials, including auditory brainstem responses (ABRs) and envelope-following responses (EFRs), were recorded at three time points: pre-injection, immediately following injections (2 months post), and 12 months post-injection cessation. Two months post-injection, there was a significant reduction in ABR wave amplitudes from central auditory generators (Waves IV and V) and EFRs to slow modulation frequencies (≤45 Hz), which reflect midbrain and cortical generators. In contrast, ABR thresholds, wave amplitudes from peripheral generators (Waves I and III), and EFRs to fast modulation rates (>128 Hz), reflecting peripheral neural activity, remained unchanged at this time point, indicating preserved cochlear and early brainstem function. Peripheral deficits emerged only by the 12-month follow-up, with elevated thresholds, reduced peripheral wave amplitudes, and reduced EFRs at fast modulation rates, consistent with presbycusis. These findings demonstrate a clear temporal dissociation in which central auditory decline in the D-gal model precedes age-related peripheral cochlear and neural loss. This paradigm provides a tractable experimental window for studying mechanisms of central auditory aging in isolation from age-related cochlear pathology, bridging an important gap between peripheral and central models of presbycusis.",
+      "last_author_affiliation": "Department of Biological Sciences, Purdue University, West Lafayette, IN, USA; Weldon School of Biomedical Engineering, Purdue University, West Lafayette, IN, USA. Electronic address: ebartle@purdue.edu.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Auditory brainstem response",
+        "Central auditory aging",
+        "D-galactose",
+        "Envelope-following response",
+        "Fischer 344 rat",
+        "Oxidative stress",
+        "Presbycusis"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-12",
+      "first_seen_at": "2026-10-13T09:31:29Z",
+      "ai_analysis": {
+        "scientific_question": "在D-半乳糖（D-gal）衰老模型中，全身性D-gal给药是否会选择性加速中枢听觉老化，同时保持外周耳蜗功能？",
+        "key_highlight": "注射后2个月，中枢听觉发生波（ABR IV、V波）和慢调制频率EFR显著降低，而ABR阈值、外周波（I、III波）和快调制频率EFR保持不变，外周缺陷直到12个月随访才出现。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该模型提供了将中枢听觉老化与年龄相关耳蜗病理分离研究的实验窗口，但摘要所述结果仅为该模型中的观察，尚不能直接外推至自然衰老或人类。",
+        "evidence": [
+          "Two months post-injection, there was a significant reduction in ABR wave amplitudes from central auditory generators (Waves IV and V) and EFRs to slow modulation frequencies (≤45 Hz)",
+          "Peripheral deficits emerged only by the 12-month follow-up, with elevated thresholds, reduced peripheral wave amplitudes, and reduced EFRs at fast modulation rates, consistent with presbycusis."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "a414c9f48548ce28",
+        "updated_at": "2026-10-19T07:57:17Z"
+      }
     },
     {
       "title": "Transient cavitation dynamics of vaporized perfluorocarbon nanodroplets measured with an acoustical camera",
@@ -3560,7 +3587,23 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-03",
-      "first_seen_at": "2026-10-04T08:30:51Z"
+      "first_seen_at": "2026-10-04T08:30:51Z",
+      "ai_analysis": {
+        "scientific_question": "NRT阈值与EABR阈值是否与人工耳蜗植入者的主观行为T/C电平相关，以及能否用二者联合构建神经网络模型来预测这些调机参数？",
+        "key_highlight": "NRT和EABR阈值均与T/C电平呈显著正相关，而基于二者联合输入的BR-BP神经网络将各测试电极的预测误差稳定控制在约60 CL以内。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该模型可能为人工耳蜗调机提供自动化起始图谱，尤其可能对不配合患者有价值，但这属于作者提出的可能应用，尚非已验证的临床结论。",
+        "evidence": [
+          "Both NRT and EABR thresholds exhibited significant positive correlations with T- and C-levels (P < 0.05).",
+          "stably constrained the prediction errors across all tested electrodes to within approximately 60 CL"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "03f74d9dbfd741c2",
+        "updated_at": "2026-10-19T07:57:19Z"
+      }
     },
     {
       "title": "Medial olivocochlear strength influences auditory brainstem response development in mice",
@@ -4369,6 +4412,21 @@
     {
       "title": "Editorial Board",
       "authors": [],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00266-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-02T07:09:02Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-10-01",
       "publication_date_precision": "day",
@@ -4381,21 +4439,6 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00266-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Effective model of fiber Bragg gratings for simulation of ultrasonic guided wave measurements using spectral finite elements",
@@ -6216,7 +6259,23 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-29",
-      "first_seen_at": "2026-10-04T08:30:51Z"
+      "first_seen_at": "2026-10-04T08:30:51Z",
+      "ai_analysis": {
+        "scientific_question": "在普通狨猴（Callithrix jacchus）中，头皮记录的听觉诱发电位（AEP）的幅度如何随纯音的频率和强度变化，以及参考电极的选择如何影响其极性？",
+        "key_highlight": "AEP幅度强烈依赖刺激频率，在每个成分和每只动物中均于1000 Hz达到峰值，并随强度增加而增大，且频率调谐在高强度下更明显。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "这些结果提示，在设计更复杂的听觉范式（如oddball和失匹配负波设计）时，需要控制狨猴AEP的频率依赖性和参考依赖性极性。",
+        "evidence": [
+          "AEP magnitude depended strongly on stimulus frequency, peaking at 1000 Hz for every component and animal and declining at both lower and higher frequencies.",
+          "reference choice strongly altered scalp polarity"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "d92c37d8e904b4c5",
+        "updated_at": "2026-10-19T07:57:21Z"
+      }
     },
     {
       "title": "Hybrid matrix method, a stable method for the prediction of multilayered structures including poroelastic media",
@@ -7511,22 +7570,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046572",
-      "url": "https://doi.org/10.1121/10.0046572",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:56Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -7539,6 +7582,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:59Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046572",
+      "url": "https://doi.org/10.1121/10.0046572",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:56Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -9462,7 +9521,23 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-11",
-      "first_seen_at": "2026-09-12T07:12:30Z"
+      "first_seen_at": "2026-09-12T07:12:30Z",
+      "ai_analysis": {
+        "scientific_question": "在非临床样本中，用于评估听觉过敏（hyperacusis）的德语版HIQ与SSSQ问卷是否具有与原版一致的心理测量学特性，并且听觉过敏与噪声敏感性是否为两个不同但部分重叠的构念？",
+        "key_highlight": "两种听觉过敏问卷的总分分布呈偏态，且与噪声敏感性仅呈中等相关，提示二者在概念、测量与实证层面可区分。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "结果提示未来研究与应用中宜将听觉过敏与噪声敏感性作为不同构念分别测量，但该含义属推论，尚需进一步研究验证。",
+        "evidence": [
+          "Both consequences of hyperacusis (HIQ: Spearman's ρ = .57) and the severity of symptoms (SSSQ: ρ = .42) correlated moderately with noise sensitivity.",
+          "the total-score distributions of the hyperacusis questionnaires were skewed, with a fifth (HIQ) to a third (SSSQ) of the participants showing no (or hardly any) hyperacusis symptoms."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "a4c1a6223ccd8ab8",
+        "updated_at": "2026-10-19T07:57:23Z"
+      }
     },
     {
       "title": "Physics-informed localization of sound sources in reflective environments including hidden sources",
@@ -18416,22 +18491,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -18444,6 +18503,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -47579,18 +47654,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -47611,17 +47685,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -56945,22 +57020,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -56973,6 +57032,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -64075,23 +64150,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -64105,6 +64163,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -67656,8 +67731,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -67671,8 +67746,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -73193,8 +73268,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -73208,8 +73283,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
