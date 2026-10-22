@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T07:46:23Z",
+  "generated_at": "2026-10-22T07:41:51Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level.",
@@ -362,7 +362,7 @@
       "first_seen_at": "2026-09-04T07:17:01Z"
     },
     {
-      "title": "Domain-specific deficits in categorical perception unveil the neural architecture of auditory agnosia in dementia",
+      "title": "Domain-specific deficits in categorical perception unveil the neural architecture of auditory agnosia in dementia.",
       "authors": [
         "Xiaotian Gao",
         "Dan Ma",
@@ -390,6 +390,7 @@
         "abstract_hash": "6380c8db1c3f686d",
         "updated_at": "2026-08-27T12:53:22Z"
       },
+      "first_author_affiliation": "Cangzhou Research Centre for Child Language Rehabilitation, Cangzhou Normal University, Hebei, China.",
       "last_author_affiliation": "Guangdong Key Laboratory of Biomedical Measurements and Ultrasound Imaging, School of Biomedical Engineering, Shenzhen University Medical School, Shenzhen University, 518060, PR China. Electronic address: lllhjf@gmail.com.",
       "publication_stage": "early_access",
       "section": null,
@@ -405,7 +406,7 @@
         "machine learning",
         "speech perception"
       ],
-      "source": "crossref+pubmed",
+      "source": "pubmed",
       "available_online_date": "2026-08-22",
       "first_seen_at": "2026-08-27T12:51:57Z"
     },
@@ -883,7 +884,7 @@
       "first_seen_at": "2026-09-04T07:17:01Z"
     },
     {
-      "title": "Oxaliplatin-chemotherapy induced cochlear synaptopathy",
+      "title": "Oxaliplatin-chemotherapy induced cochlear synaptopathy.",
       "authors": [
         "Marion Souchal",
         "David Balayssac",
@@ -908,6 +909,7 @@
         "abstract_hash": "42702fa9c740878e",
         "updated_at": "2026-08-30T08:23:10Z"
       },
+      "first_author_affiliation": "Neurosensory Biophysics Team, University Clermont Auvergne, Clermont-Ferrand, France; UMR 1107 INSERM, NeuroDol, University Clermont Auvergne, Clermont-Ferrand, France. Electronic address: marion.souchal@gmail.com.",
       "last_author_affiliation": "Neurosensory Biophysics Team, University Clermont Auvergne, Clermont-Ferrand, France; UMR 1107 INSERM, NeuroDol, University Clermont Auvergne, Clermont-Ferrand, France; Université Paris Cité, Institut Pasteur, AP-HP, INSERM, CNRS, Fondation Pour l'Audition, Institut de l'Audition, IHU reConnect, F-75012 Paris, France. Electronic address: fabrice.giraudet@uca.fr.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
@@ -923,7 +925,7 @@
         "auditory physiology",
         "clinical audiology"
       ],
-      "source": "crossref+pubmed",
+      "source": "pubmed",
       "available_online_date": "2026-08-22",
       "first_seen_at": "2026-08-29T09:07:40Z"
     },
@@ -1294,6 +1296,136 @@
       "first_seen_at": "2026-09-03T07:13:37Z"
     },
     {
+      "title": "Communication-aware Hankel singular value decomposition denoising method for underwater acoustic communication",
+      "authors": [
+        "Dawei Yin",
+        "Yanan Tian",
+        "Yanjun Liu",
+        "Derui Li",
+        "Haiyuan Peng",
+        "Yu Li"
+      ],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-10-21",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046665",
+      "url": "https://doi.org/10.1121/10.0046665",
+      "abstract": "This Letter proposes a communication-aware Hankel singular value decomposition denoising method (CA-HSVD) for underwater acoustic communication. The received passband signal is decomposed into singular components, whose communication relevance is evaluated using the normalized correlation-peak prominence of a known training sequence and mapped to continuous reconstruction weights through a sigmoid function. Semi-physical simulations using simulated communication signals, a measured sea-trial channel, and measured underwater acoustic noise show that CA-HSVD achieves the lowest bit error rate (BER) over the tested signal-to-noise ratio (SNR) range and provides a SNR gain of approximately 2 dB over training-guided hard-Hankel singular value decomposition at the same BER level.",
+      "first_author_affiliation": "Institute of Acoustics, Chinese Academy of Sciences 1 , Beijing, 100190,",
+      "last_author_affiliation": "Institute of Acoustics, Chinese Academy of Sciences 1 , Beijing, 100190,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046665",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-10-21",
+      "first_seen_at": "2026-10-22T07:41:22Z",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/10/106003/3406890/Communication-aware-Hankel-singular-value",
+      "media_checked_at": "2026-10-22T07:41:59Z",
+      "open_access_image_checked_at": "2026-10-22T07:41:59Z",
+      "ai_analysis": {
+        "scientific_question": "该研究探讨如何利用已知训练序列评估Hankel奇异值分解中各奇异分量的通信相关性，以实现面向水声通信的去噪。",
+        "key_highlight": "所提出的CA-HSVD方法在测试信噪比范围内取得最低误码率，并在相同误码率水平下相较训练引导的硬阈值Hankel奇异值分解获得约2 dB的信噪比增益。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "结果提示基于通信相关性的连续加权重构可能改善水声通信去噪性能，但该含义需进一步验证。",
+        "evidence": [
+          "whose communication relevance is evaluated using the normalized correlation-peak prominence of a known training sequence and mapped to continuous reconstruction weights through a sigmoid function",
+          "CA-HSVD achieves the lowest bit error rate (BER) over the tested signal-to-noise ratio (SNR) range and provides a SNR gain of approximately 2 dB"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "a9343d2688ddfdee",
+        "updated_at": "2026-10-22T07:42:13Z"
+      }
+    },
+    {
+      "title": "Optimized Compressor Parameterization for Produced Music in Hearing Aids",
+      "authors": [
+        "Robin Holland",
+        "Christoph Hoog Antink",
+        "Henning Puder"
+      ],
+      "journal": "arXiv",
+      "publication_date": "2026-10-21",
+      "publication_date_precision": "day",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2610.29613v1",
+      "abstract": "Hearing aid compression is typically designed for speech, yet music demands different trade-offs due to its narrower dynamic range (DR) and impulsive transients. This paper investigates whether music fitting benefits from being signal-aware, both in mapping compression demand across signal-audiogram conditions and in tuning its parameters to these combinations rather than inheriting them from speech-derived prescriptions. Compression demand is characterized across eight audiometric profiles, three residual DR severities, and three produced music signals under linear gain. Signal dynamics emerge as a first-order factor: production-compressed music fits the residual DR of the mild-to-moderate profiles evaluated, while dynamically rich recordings challenge even moderate hearing loss. Per-signal optimization of single- and multi-band wide dynamic range compression is then applied to two profiles with the highest compression demand. This optimization improves the Hearing Aid Audio Quality Index over gain-optimized NAL-NL2 baselines while also improving audibility, indicating substantial headroom for music-specific fitting.",
+      "publication_stage": "preprint",
+      "section": null,
+      "keywords": [
+        "eess.AS"
+      ],
+      "tags": [],
+      "source": "arxiv",
+      "available_online_date": "2026-10-21",
+      "source_group": "preprint_filtered",
+      "source_group_label": "Preprints (arXiv)",
+      "actual_journal": "arXiv",
+      "match_level": "topic_filtered_hearing_speech",
+      "matched_keywords": [
+        "hearing aid",
+        "hearing aids",
+        "hearing loss"
+      ],
+      "match_fields": [
+        "abstract",
+        "title"
+      ],
+      "needs_review": true,
+      "first_seen_at": "2026-10-22T07:41:51Z"
+    },
+    {
+      "title": "The whale binaural rings experiment: Long-range acoustic monitoring of North Atlantic right whales in the Gulf of St. Lawrence",
+      "authors": [
+        "Yvan Simard",
+        "Kevin Duquette",
+        "Cédric Gervaise",
+        "Charlotte Constans",
+        "Lolita Bruneau",
+        "Philippe Royer",
+        "Nathalie Roy",
+        "Florian Aulanier"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-10-21",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046898",
+      "url": "https://doi.org/10.1121/10.0046898",
+      "abstract": "Effective real-time monitoring of baleen whales over broad areas was assessed using two 20-m circular hydrophone arrays designed for detecting and localizing North Atlantic right whale (NARW) upcalls. The system was deployed over a 24-d period in August 2021 to monitor a ∼80-km-wide trough heavily frequented by NARWs in the Gulf of St. Lawrence. Key functional parameters throughout the processing chain were estimated from in situ conditions and integrated with numerical simulations. The spatiotemporal performances of the system—using deep-learning neural networks upcall detection and bearing-crossing localization—under in situ noise levels was consistent with predictions from comprehensive acoustic modelling of the full transmission pathway, from source emission to signal reception. Among the 3117 NARW upcalls detected, 30% were successfully localized within the common detection area shared by the two hydrophone arrays. Significant diel changes in call occurrence rates were observed. Spatiotemporal call patterns reveal multi-scale habitat use across the 3600-km2 surveyed region. This study highlights the enhanced capabilities and operational constraints of this beamformed, high-gain, directional listening system relative to conventional single-hydrophone passive acoustic monitoring approaches, particularly under conditions of elevated anthropogenic noise.",
+      "first_author_affiliation": "Maurice Lamontagne Institute, Fisheries and Oceans Canada 1 , Mont-Joli, Québec G5H 3Z4,",
+      "last_author_affiliation": "Maurice Lamontagne Institute, Fisheries and Oceans Canada 1 , Mont-Joli, Québec G5H 3Z4,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "machine learning"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-10-21",
+      "first_seen_at": "2026-10-22T07:41:20Z",
+      "ai_analysis": {
+        "scientific_question": "该研究评估两个20米环形水听器阵列在圣劳伦斯湾大范围实时探测与定位北大西洋露脊鲸upcall的性能。",
+        "key_highlight": "在3117次检测到的upcall中，30%在两个阵列共有的探测区域内被成功定位，且观测到显著的昼夜呼叫发生率变化。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "结果表明该波束形成定向监听系统相对常规单水听器监测具有更强能力，但其实际应用价值仍需进一步研究。",
+        "evidence": [
+          "Among the 3117 NARW upcalls detected, 30% were successfully localized within the common detection area shared by the two hydrophone arrays.",
+          "Significant diel changes in call occurrence rates were observed."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "5515f90b8556a88a",
+        "updated_at": "2026-10-22T07:42:15Z"
+      }
+    },
+    {
       "title": "A Mandarin Speech Intelligibility Prediction Model for Hearing Aids",
       "authors": [
         "Chenyang Xu",
@@ -1309,32 +1441,8 @@
       "publication_date_precision": "day",
       "doi": "10.1177/23312165261496844",
       "url": "https://doi.org/10.1177/23312165261496844",
-      "abstract": "Objective speech intelligibility prediction methods provide a low-cost alternative to tests with human listeners, allowing the investigation of many factors affecting intelligibility. However, the objective prediction of speech intelligibility for Mandarin-speaking listeners with hearing impairment is largely underdeveloped. Existing intelligibility metrics are based on English linguistic structures and/or are designed primarily for normal-hearing listeners. This paper introduces a Mandarin Chinese Hearing-Aid Speech Perception Index (MCHASPI), an objective metric for predicting the intelligibility of speech processed by hearing aids for Mandarin Chinese speakers with or without hearing loss. A key challenge was the scarcity of high-quality datasets and the lack of models tailored to the perceptual characteristics of Mandarin Chinese. To address this, we first constructed a Mandarin intelligibility dataset using subjective hearing tests, for speech with six types of distortions. A hearing loss simulator was employed to preprocess the reference (undistorted) and test speech signals. Multiple features were extracted from these processed signals and combined for subsequent analysis. Two prediction models were developed, namely MCHASPI-NN and MCHASPI-L, utilizing a neural network and a logistic mapping function, respectively, to predict intelligibility from feature values. The core of the MCHASPI model involves a perceptually motivated segmental stretching scheme for precise signal alignment, followed by frame-wise threshold detection and multi-feature fusion. Evaluations with normal-hearing and hearing-impaired listeners demonstrated that MCHASPI gave significantly more accurate predictions than existing models across all tested datasets. This validates the effectiveness of MCHASPI for assessing Mandarin speech intelligibility for populations with varying degrees of hearing loss.",
-      "first_author_affiliation": "Chinese Academy of Sciences",
-      "last_author_affiliation": "Chinese Academy of Sciences",
-      "open_access": true,
-      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261496844",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Hearing aids",
-        "Hearing loss simulation",
-        "Intelligibility prediction",
-        "Mandarin Chinese"
-      ],
-      "tags": [
-        "clinical audiology",
-        "hearing aid",
-        "machine learning",
-        "speech perception"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-20",
-      "first_seen_at": "2026-10-21T07:45:52Z",
       "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261496844",
-      "media_checked_at": "2026-10-21T07:46:41Z",
-      "open_access_image_checked_at": "2026-10-21T07:46:41Z",
+      "abstract": "Objective speech intelligibility prediction methods provide a low-cost alternative to tests with human listeners, allowing the investigation of many factors affecting intelligibility. However, the objective prediction of speech intelligibility for Mandarin-speaking listeners with hearing impairment is largely underdeveloped. Existing intelligibility metrics are based on English linguistic structures and/or are designed primarily for normal-hearing listeners. This paper introduces a Mandarin Chinese Hearing-Aid Speech Perception Index (MCHASPI), an objective metric for predicting the intelligibility of speech processed by hearing aids for Mandarin Chinese speakers with or without hearing loss. A key challenge was the scarcity of high-quality datasets and the lack of models tailored to the perceptual characteristics of Mandarin Chinese. To address this, we first constructed a Mandarin intelligibility dataset using subjective hearing tests, for speech with six types of distortions. A hearing loss simulator was employed to preprocess the reference (undistorted) and test speech signals. Multiple features were extracted from these processed signals and combined for subsequent analysis. Two prediction models were developed, namely MCHASPI-NN and MCHASPI-L, utilizing a neural network and a logistic mapping function, respectively, to predict intelligibility from feature values. The core of the MCHASPI model involves a perceptually motivated segmental stretching scheme for precise signal alignment, followed by frame-wise threshold detection and multi-feature fusion. Evaluations with normal-hearing and hearing-impaired listeners demonstrated that MCHASPI gave significantly more accurate predictions than existing models across all tested datasets. This validates the effectiveness of MCHASPI for assessing Mandarin speech intelligibility for populations with varying degrees of hearing loss.",
       "ai_analysis": {
         "scientific_question": "能否构建一个针对汉语普通话、适用于助听器处理语音且兼顾听力损失人群的客观语音可懂度预测指标？",
         "key_highlight": "论文提出MCHASPI（含神经网络版MCHASPI-NN与逻辑映射版MCHASPI-L），并在正常听力与听力受损听者评估中报告其预测精度显著优于现有模型。",
@@ -1350,7 +1458,31 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "004f06bc68504f5e",
         "updated_at": "2026-10-21T07:47:06Z"
-      }
+      },
+      "first_author_affiliation": "Chinese Academy of Sciences",
+      "last_author_affiliation": "Chinese Academy of Sciences",
+      "open_access": true,
+      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261496844",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "open_access_image_checked_at": "2026-10-21T07:46:41Z",
+      "media_checked_at": "2026-10-21T07:46:41Z",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Hearing aids",
+        "Hearing loss simulation",
+        "Intelligibility prediction",
+        "Mandarin Chinese"
+      ],
+      "tags": [
+        "clinical audiology",
+        "hearing aid",
+        "machine learning",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-20",
+      "first_seen_at": "2026-10-21T07:45:52Z"
     },
     {
       "title": "Acoustic repertoire and vocal activity of three juvenile female cerrado red-nosed mice, Wiedomys cerradensis (Rodentia: Cricetidae)",
@@ -1366,22 +1498,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0046922",
       "url": "https://doi.org/10.1121/10.0046922",
-      "abstract": "We describe and classify the vocal repertoire of three juvenile female Wiedomys cerradensis from 144 h of continuous recordings. We identified 42 260 calls, categorized into six distinct vocalization types: quaver, flat, varied, sustained, sweep, and scream. A supervised Random Forest algorithm mathematically validated these classifications with high accuracy (98.12%; Kappa = 0.96), identifying frequency modulation and spectral structure as the most informative parameters for discrimination. Preliminary analysis revealed daily activity peaks across the 24 h cycle. This preliminary study characterizes a complex vocal repertoire in three juvenile female W. cerradensis, addressing knowledge gaps in Neotropical rodent bioacoustics.",
-      "first_author_affiliation": "Laboratory of Bioacoustics/EcoAcoustic Research Hub, Centro de Biociências, Universidade Federal do Rio Grande do Norte , Av. Senador Salgado Filho, Natal 59065-741,",
-      "last_author_affiliation": "Laboratory of Bioacoustics/EcoAcoustic Research Hub, Centro de Biociências, Universidade Federal do Rio Grande do Norte , Av. Senador Salgado Filho, Natal 59065-741,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0046922",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-10-20",
-      "first_seen_at": "2026-10-21T07:45:50Z",
       "full_text_url": "https://pubs.aip.org/jel/article/6/10/101202/3406818/Acoustic-repertoire-and-vocal-activity-of-three",
-      "media_checked_at": "2026-10-21T07:46:45Z",
-      "open_access_image_checked_at": "2026-10-21T07:46:45Z",
+      "abstract": "We describe and classify the vocal repertoire of three juvenile female Wiedomys cerradensis from 144 h of continuous recordings. We identified 42 260 calls, categorized into six distinct vocalization types: quaver, flat, varied, sustained, sweep, and scream. A supervised Random Forest algorithm mathematically validated these classifications with high accuracy (98.12%; Kappa = 0.96), identifying frequency modulation and spectral structure as the most informative parameters for discrimination. Preliminary analysis revealed daily activity peaks across the 24 h cycle. This preliminary study characterizes a complex vocal repertoire in three juvenile female W. cerradensis, addressing knowledge gaps in Neotropical rodent bioacoustics.",
       "ai_analysis": {
         "scientific_question": "三种幼年雌性塞拉多红鼻鼠（Wiedomys cerradensis）的声学曲目由哪些发声类型构成，其分类能否被监督学习算法验证？",
         "key_highlight": "研究从144小时连续录音中识别出42 260次叫声，划分为六种发声类型，并用随机森林算法以98.12%的准确率（Kappa=0.96）验证了分类。",
@@ -1397,7 +1515,21 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "f4a04dd8ba42c853",
         "updated_at": "2026-10-21T07:47:08Z"
-      }
+      },
+      "first_author_affiliation": "Laboratory of Bioacoustics/EcoAcoustic Research Hub, Centro de Biociências, Universidade Federal do Rio Grande do Norte , Av. Senador Salgado Filho, Natal 59065-741,",
+      "last_author_affiliation": "Laboratory of Bioacoustics/EcoAcoustic Research Hub, Centro de Biociências, Universidade Federal do Rio Grande do Norte , Av. Senador Salgado Filho, Natal 59065-741,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046922",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-10-21T07:46:45Z",
+      "media_checked_at": "2026-10-21T07:46:45Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-10-20",
+      "first_seen_at": "2026-10-21T07:45:50Z"
     },
     {
       "title": "Hearing Aids for Mild to Moderate Hearing Loss in Adults-Reply.",
@@ -1478,14 +1610,6 @@
       "doi": "10.1121/10.0046891",
       "url": "https://doi.org/10.1121/10.0046891",
       "abstract": "In distributed localization of underwater targets, joint time-difference-of-arrival and direction-of-arrival measurements provide an effective means for target localization. However, increased measurement errors under low signal-to-noise ratio (SNR) conditions can make the approximation errors introduced by the linear treatment of nonlinear observation equations more pronounced, thereby degrading localization performance. To address these issues, an improved localization method based on joint time-difference-of-arrival and direction-of-arrival estimation is proposed. The method introduces auxiliary variables to transform the nonlinear observation equations into a pseudo-linear form, enabling the construction of a weighted least squares problem for estimating the target location. The initial solution is further refined by imposing a projection constraint derived from the geometric relationship between the target and the reference node, thereby reducing the estimation inconsistency arising from the pseudo-linear formulation. On this basis, iterative optimization is employed to obtain a more accurate estimate, thereby extending the effective SNR range. The method achieves high accuracy under high-SNR conditions while maintaining robustness in low-SNR environments. Theoretical analysis shows that the projection-corrected closed-form estimate can achieve the Cramer–Rao lower bound under small noise conditions. Simulation results and processing of SWellEx-96 experimental data verify the effectiveness of the proposed method.",
-      "first_author_affiliation": "Key Laboratory of Underwater Acoustic Signal Processing (Southeast University), Ministry of Education , Nanjing 210096,",
-      "last_author_affiliation": "Key Laboratory of Underwater Acoustic Signal Processing (Southeast University), Ministry of Education , Nanjing 210096,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-20",
-      "first_seen_at": "2026-10-21T07:45:48Z",
       "ai_analysis": {
         "scientific_question": "在低信噪比条件下，如何改进基于到达时间差与到达方向联合估计的水下目标分布式定位方法以降低线性化近似误差带来的性能退化？",
         "key_highlight": "该方法通过引入辅助变量将非线性观测方程转化为伪线性形式并构建加权最小二乘问题，再利用投影约束和迭代优化修正初始解，从而在高信噪比下保持高精度并在低信噪比下保持稳健性。",
@@ -1501,7 +1625,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "0540b197e13f3011",
         "updated_at": "2026-10-21T07:47:10Z"
-      }
+      },
+      "first_author_affiliation": "Key Laboratory of Underwater Acoustic Signal Processing (Southeast University), Ministry of Education , Nanjing 210096,",
+      "last_author_affiliation": "Key Laboratory of Underwater Acoustic Signal Processing (Southeast University), Ministry of Education , Nanjing 210096,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-20",
+      "first_seen_at": "2026-10-21T07:45:48Z"
     },
     {
       "title": "Parameter dependence for acoustic propagation and tunneling in a curved nonlinear internal wave duct",
@@ -1516,14 +1648,6 @@
       "doi": "10.1121/10.0046816",
       "url": "https://doi.org/10.1121/10.0046816",
       "abstract": "The curved nonlinear internal waves (NIWs) commonly found in shallow-water ocean regions can have significant effects on acoustic propagation. Energy trapped in ducts between waves can be carried over distances of tens of kilometers or more. A three-dimensional feature model for curved NIWs with finite-width waves can produce horizontally tunneling “companion” modes with similar phase patterns to trapped modes, which carry greater energy into the far field than classical tunneling modes. Azimuthal (along-wavefront) wavenumbers and their corresponding mode shapes are presented, and wavenumber approximations obtained from a mode number conservation law compare favorably with benchmark values from the modal dispersion relation. Wavenumbers dependence on NIW radius of curvature is shown, and wavenumber approximations are accurate enough for use in sensitive computations such as modal transmission loss. Transmission loss computations for varying radius of curvature are performed, and the statistical distribution of solutions is examined. Favorable comparisons between this idealized model and a sech2 wave profile suggest that the enhanced tunneling effects of companion modes are realistic. Results for the computations and tests in this paper indicate that the approximation and analysis methods presented are appropriate for a variety of curved waveguide feature models, including those with multiple interfaces.",
-      "first_author_affiliation": "Scripps Institution of Oceanography, UC San Diego 1 , La Jolla, California 92093,",
-      "last_author_affiliation": "Mathematical Sciences Department, Rensselaer Polytechnic Institute 2 , Troy, New York 12180,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-20",
-      "first_seen_at": "2026-10-21T07:45:48Z",
       "ai_analysis": {
         "scientific_question": "弯曲非线性内波波导中，方位波数与曲率半径等参数如何影响声传播与隧穿模式？",
         "key_highlight": "基于模式数守恒律的波数近似与模态色散关系的基准值吻合良好，且精度足以用于模态传输损失等敏感计算。",
@@ -1539,7 +1663,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "ef600aec76f364a9",
         "updated_at": "2026-10-21T07:47:12Z"
-      }
+      },
+      "first_author_affiliation": "Scripps Institution of Oceanography, UC San Diego 1 , La Jolla, California 92093,",
+      "last_author_affiliation": "Mathematical Sciences Department, Rensselaer Polytechnic Institute 2 , Troy, New York 12180,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-20",
+      "first_seen_at": "2026-10-21T07:45:48Z"
     },
     {
       "title": "Acoustic field prediction in Pekeris waveguides using a learnable effective depth",
@@ -2467,20 +2599,6 @@
       "doi": "10.1016/j.heares.2026.109837",
       "url": "https://doi.org/10.1016/j.heares.2026.109837",
       "abstract": "Variants in MYO15A are an important cause of autosomal recessive non-syndromic sensorineural hearing loss (DFNB3). Non-canonical splicing variants remain challenging to interpret without transcript-level evidence. We investigated a consanguineous Iranian family affected by congenital profound non-syndromic hearing loss. Exome sequencing, segregation analysis, and in silico splice prediction tools were applied. A structured literature review of reported MYO15A splicing variants was also performed. A novel homozygous MYO15A non-canonical splice-region variant, c.9230-3C>T (intron 54), was identified in the affected individual. The variant co-segregated with the disease within the family. Splice-prediction algorithms consistently indicated weakening the splice acceptor site, suggesting a potential splice-altering effect. Based on ACMG criteria, the variant was classified as of likely pathogenic. A structured literature review of splicing variants across multiple families revealed a predominance of severe-to-profound hearing loss among affected individuals, underscoring the clinical relevance of splicing disruption in MYO15A. This study broadens the understanding of the genetic diversity of MYO15A by identifying a novel non-canonical splice-region variant in an Iranian family. Additionally, we present an updated review of known MYO15A splicing variants. Functional RNA-based assays are required to determine the molecular consequence of this non-canonical splice-region variant and to enable definitive clinical classification.",
-      "last_author_affiliation": "Genetics Research Center, University of Social Welfare and Rehabilitation Sciences, Tehran, Iran. Electronic address: bazazzadeganniloofar@gmail.com.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "MYO15A",
-        "Non-syndromic hearing loss",
-        "Splicing variants"
-      ],
-      "tags": [
-        "clinical audiology"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-14",
-      "first_seen_at": "2026-10-15T07:32:23Z",
       "ai_analysis": {
         "scientific_question": "在一个伊朗近亲婚配家系中，MYO15A的非经典剪接区变异c.9230-3C>T是否与先天性重度非综合征性听力损失相关，以及已报道的MYO15A剪接变异呈现怎样的临床特征？",
         "key_highlight": "研究在该家系中发现了一个新的纯合MYO15A非经典剪接区变异c.9230-3C>T，该变异与疾病共分离，剪接预测提示其可能削弱剪接受体位点，并被评为可能致病。",
@@ -2496,7 +2614,21 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "6e0c407d3a6306c8",
         "updated_at": "2026-10-21T07:47:14Z"
-      }
+      },
+      "last_author_affiliation": "Genetics Research Center, University of Social Welfare and Rehabilitation Sciences, Tehran, Iran. Electronic address: bazazzadeganniloofar@gmail.com.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "MYO15A",
+        "Non-syndromic hearing loss",
+        "Splicing variants"
+      ],
+      "tags": [
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-14",
+      "first_seen_at": "2026-10-15T07:32:23Z"
     },
     {
       "title": "On the mechanism of accordion pitch bending",
@@ -5069,21 +5201,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00266-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-02T07:09:02Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-10-01",
       "publication_date_precision": "day",
@@ -5096,6 +5213,21 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00266-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Effective model of fiber Bragg gratings for simulation of ultrasonic guided wave measurements using spectral finite elements",
@@ -5583,6 +5715,12 @@
       },
       "first_author_affiliation": "Department of Head and Neck Surgery, University of California, Los Angeles , 31-24 Rehabilitation Center 1000 Veteran Ave., Los Angeles, California 90095-1794",
       "last_author_affiliation": "Department of Head and Neck Surgery, University of California, Los Angeles , 31-24 Rehabilitation Center 1000 Veteran Ave., Los Angeles, California 90095-1794",
+      "open_access": true,
+      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13682269/",
+      "open_access_source": "pubmed_pmc",
+      "pubmed_full_text_available": true,
+      "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13682269/",
+      "pubmed_full_text_source": "pmc",
       "section": null,
       "keywords": [],
       "tags": [],
@@ -8225,22 +8363,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046571",
-      "url": "https://doi.org/10.1121/10.0046571",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:59Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -8253,6 +8375,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:56Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046571",
+      "url": "https://doi.org/10.1121/10.0046571",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:59Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -13204,6 +13342,12 @@
       },
       "first_author_affiliation": "Department of Neurobiology and Behavior, University of California, Irvine, 2205 McGaugh Hall, Irvine, CA 92692-4550, USA. Electronic address: schokr@uci.edu.",
       "last_author_affiliation": "Department of Neurobiology and Behavior, University of California, Irvine, 2205 McGaugh Hall, Irvine, CA 92692-4550, USA. Electronic address: cramerk@uci.edu.",
+      "open_access": true,
+      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13685586/",
+      "open_access_source": "pubmed_pmc",
+      "pubmed_full_text_available": true,
+      "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13685586/",
+      "pubmed_full_text_source": "pmc",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [
         "Auditory brainstem",
@@ -19146,22 +19290,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044504",
-      "url": "https://doi.org/10.1121/10.0044504",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:37Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -19174,6 +19302,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:36Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044504",
+      "url": "https://doi.org/10.1121/10.0044504",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:37Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -20401,7 +20545,23 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z"
+      "first_seen_at": "2026-10-04T13:29:21Z",
+      "ai_analysis": {
+        "scientific_question": "如何将水下声学建模与仿真结果纳入不确定性量化，以估计经典定量风险量并向利益相关者传达风险信息？",
+        "key_highlight": "该工作描述了一种方法，将建模与仿真结果用于估计经典定量风险量，从而把模型结果转化为更易被管理者或监管者等利益相关者解读的形式。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "所讨论的方法可能有助于在《海洋哺乳动物保护法》许可等场景中以定量方式传达水下声风险，但这属于摘要所述潜在应用，而非已报告的验证结果。",
+        "evidence": [
+          "a method is described for incorporating results from modeling and simulation to estimate classical quantitative risk quantities",
+          "Potential applications are discussed in the context of permitting under the Marine Mammal Protection Act of 1972"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "4027bb0acf66a502",
+        "updated_at": "2026-10-22T07:42:30Z"
+      }
     },
     {
       "title": "A quantum approach for vortex shedding induced vibrations",
@@ -20421,7 +20581,23 @@
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z"
+      "first_seen_at": "2026-10-04T13:29:21Z",
+      "ai_analysis": {
+        "scientific_question": "能否利用Carleman线性化将涡激振动中的非线性尾流振子模型嵌入适合量子线性求解器的形式，并评估其精度与系统规模扩展？",
+        "key_highlight": "该工作探索了基于Carleman线性化的量子算法框架，用于计算涡致脱落引起的振动，并讨论了线性化精度及与现有量子线性求解器整合的实际问题。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该研究提示Carleman线性化可能为将非线性涡激振动问题映射到量子线性求解器提供途径，但其实际可行性与优势仍需进一步验证。",
+        "evidence": [
+          "This work investigates the use of Carleman linearization as a means of embedding the nonlinear behavior into a form suitable for quantum linear solvers.",
+          "We examine the accuracy of the linearization and discuss the scaling of the system size alongside practical issues related to its integration into available quantum linear solver algorithms."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "128489dc17d20370",
+        "updated_at": "2026-10-22T07:42:32Z"
+      }
     },
     {
       "title": "A quieter sound of freedom: Multiple-jet interactions in the delta IV heavy launch vehicle",
@@ -48309,17 +48485,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -48340,18 +48517,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -57675,22 +57851,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -57703,6 +57863,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -64805,23 +64981,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -64835,6 +64994,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -68386,8 +68562,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -68401,8 +68577,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -73923,8 +74099,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -73938,8 +74114,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
