@@ -1,53 +1,21 @@
 {
-  "generated_at": "2026-10-23T07:39:28Z",
+  "generated_at": "2026-10-24T07:23:13Z",
   "papers": [
     {
-      "title": "A hole in the chain: Synchrotron MicroCT reveals a stapes footplate gateway to the inner ear in murine otitis media",
+      "title": "Amygdala: Function and neural basis",
       "authors": [
-        "Diana Cobas",
-        "Jordan Villa",
-        "Alessandra Carriero",
-        "Christoph Rau",
-        "Shashidhara Marathe",
-        "Joaquin Cury",
-        "Grace E. Stutzmann",
-        "Claus Peter Richter"
+        "Guang-Di Chen"
       ],
       "journal": "Hearing Research",
-      "publication_date": "2026-12-01",
+      "publication_date": "2027-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109840",
-      "url": "https://doi.org/10.1016/j.heares.2026.109840",
+      "doi": "10.1016/j.heares.2026.109839",
+      "url": "https://doi.org/10.1016/j.heares.2026.109839",
       "abstract": null,
       "publication_stage": "early_access",
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-10-16",
-      "first_seen_at": "2026-10-16T07:17:30Z"
-    },
-    {
-      "title": "Age-dependent variation in eCAP measures across cochlear electrode locations: effects of interphase gap in cochlear implant users",
-      "authors": [
-        "Roya Karimi Pour",
-        "Mohammad Maarefvand",
-        "Hesamaldin Emamdjomeh",
-        "Mohammad Farhadi"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-12-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109834",
-      "url": "https://doi.org/10.1016/j.heares.2026.109834",
-      "abstract": null,
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "auditory physiology",
-        "cochlear implant"
-      ],
       "source": "crossref",
       "available_online_date": "2026-10-16",
       "first_seen_at": "2026-10-17T07:01:41Z"
@@ -1347,6 +1315,240 @@
       "first_seen_at": "2026-09-03T07:13:37Z"
     },
     {
+      "title": "A reduced-order semi-analytical model for load-modulated acoustic reflection from coated Tonpilz transducers",
+      "authors": [
+        "Yu Luo",
+        "Lina Pu"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-10-23",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046896",
+      "url": "https://doi.org/10.1121/10.0046896",
+      "abstract": "Underwater acoustic reconfigurable intelligent surfaces modulate the electrical load impedance of a piezoelectric transducer to control the amplitude and phase of the reflected wave. Predicting this load-dependent response is challenging: one-dimensional Mason circuits neglect oblique-incidence and shear-vertical-wave effects in elastomer coatings, while full three-dimensional finite-element models are computationally expensive and offer limited physical insight. This paper presents a reduced-order semi-analytical model for a Tonpilz-inspired tunable reflector. The model combines a primary–shear-vertical elastodynamic state-space description of a polyurethane coating, angle-dependent water loading, and a lumped electromechanical Tonpilz model terminated by an external electrical load. It yields compact expressions for the angle- and frequency-dependent acoustic reflection coefficient. Under thin-coating, moderate-incidence, and strong tangential-clamping conditions, the model shows that the reflection coefficient becomes a linear-fractional (Möbius) image of a capacitance-normalized load parameter. From this structure, physical conditions for strong load-to-reflection tracking are derived and translated into concrete reflector-design guidelines. Validation against three-dimensional finite-element simulations and tank experiments near a series-resonant frequency of 28.4 kHz shows that the model captures the dominant resonance behavior, the load-dependent amplitude and phase trends, and the angle-dependent reflection characteristics. Remaining quantitative discrepancies in absolute phase and resonance sharpness are reported explicitly and attributed to reduced-order assumptions and simplified three-dimensional structural dynamics.",
+      "first_author_affiliation": "Department of Electrical and Computer Engineering, Mississippi State University 1 , Mississippi State, Mississippi 39759,",
+      "last_author_affiliation": "Department of Computer Science, University of Alabama 2 , Tuscaloosa, Alabama 35487,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-10-23",
+      "first_seen_at": "2026-10-24T07:22:44Z",
+      "ai_analysis": {
+        "scientific_question": "如何以低计算成本预测带弹性体涂层的Tonpilz换能器在外部电负载调制下的角度与频率相关声反射系数？",
+        "key_highlight": "在薄涂层、中等入射角和强切向夹持条件下，反射系数可表示为电容归一化负载参数的线性分式（Möbius）映射，并据此导出强负载—反射跟踪的物理条件与设计准则。",
+        "main_limitation": "摘要明确报告绝对相位与共振锐度仍存在定量偏差，并将其归因于降阶假设与简化的三维结构动力学。",
+        "research_implication": "该模型可为负载调制反射器的设计提供紧凑的解析表达与设计指引，但其定量精度仍需在降阶假设之外进一步检验。",
+        "evidence": [
+          "the reflection coefficient becomes a linear-fractional (Möbius) image of a capacitance-normalized load parameter",
+          "Remaining quantitative discrepancies in absolute phase and resonance sharpness are reported explicitly and attributed to reduced-order assumptions and simplified three-dimensional structural dynamics."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "076d6b1a1759f104",
+        "updated_at": "2026-10-24T07:23:38Z"
+      }
+    },
+    {
+      "title": "Acoustic inpainting of loudspeaker radiation balloons from sparse polar data using deep learning",
+      "authors": [
+        "Víctor M. Catalá-Iborra",
+        "Antonio Martínez-González",
+        "Germán Ramos",
+        "Emilio Soria-Olivas",
+        "Maximo Cobos"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-10-23",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046894",
+      "url": "https://doi.org/10.1121/10.0046894",
+      "abstract": "Accurate characterization of loudspeaker radiation patterns is essential for system design and acoustic simulation, yet obtaining complete three-dimensional radiation balloons typically requires extensive and time-consuming measurements. This paper presents a deep-learning framework for the acoustic inpainting of high-resolution radiation balloons from a sparse set of only three polar measurement planes. By mapping non-uniform spherical coordinates onto a structured two-dimensional grid, we leverage a geo-informed convolutional U-Net architecture designed to learn high-dimensional spatial–spectral correlations from empirical radiation data within a curated dataset of measured professional loudspeakers. On unseen cabinets, the model achieves a global mean absolute error (MAE) of 1.24±0.07 dB, yielding an improvement of up to 0.65 dB over standard interpolation baselines. The practical utility of the model is validated through integration into professional simulation software, where the reconstructed patterns enable accurate line array modeling. This approach significantly reduces measurement complexity while maintaining the high fidelity required for advanced predictive acoustic engineering.",
+      "first_author_affiliation": "DAS Audio Group S. L 1 ., Fuente del Jarro, Paterna 46988,",
+      "last_author_affiliation": "Departamento de Informática, Universitat de Valencia 4 , Burjassot 46100,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "machine learning"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-10-23",
+      "first_seen_at": "2026-10-24T07:22:44Z",
+      "ai_analysis": {
+        "scientific_question": "能否仅用三个稀疏极坐标测量平面，通过深度学习重建高分辨率扬声器三维辐射球面？",
+        "key_highlight": "所提出的地理信息卷积U-Net在未见过的音箱上取得1.24±0.07 dB的全局平均绝对误差，较标准插值基线最多改善0.65 dB。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "摘要报告该方法可降低测量复杂度并支持线阵列建模，但这是作者所述的应用验证，其普适性仍需独立评估。",
+        "evidence": [
+          "This paper presents a deep-learning framework for the acoustic inpainting of high-resolution radiation balloons from a sparse set of only three polar measurement planes.",
+          "On unseen cabinets, the model achieves a global mean absolute error (MAE) of 1.24±0.07 dB, yielding an improvement of up to 0.65 dB over standard interpolation baselines."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "17b959bdc99ed2da",
+        "updated_at": "2026-10-24T07:23:40Z"
+      }
+    },
+    {
+      "title": "Appraising a stationary phase-based diffraction theory for elastic wave diffraction from three-dimensional rough crack edges",
+      "authors": [
+        "Zhengyu Wei",
+        "Kaihao Zhang",
+        "Shifeng Guo",
+        "Fan Shi"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-10-23",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046887",
+      "url": "https://doi.org/10.1121/10.0046887",
+      "abstract": "Surface roughness of crack-like defects strongly influences ultrasonic edge diffraction, thereby affecting defect detectability and characterization in ultrasonic nondestructive evaluation. Although most existing studies have focused on two-dimensional cracks where the edge reduces to a point, the more complex case of three-dimensional (3D) rough-crack edges has rarely been addressed. This work extends a previously proposed stationary phase-based theory of diffraction (SPTD), originally validated for smooth-surface cracks, to 3D rough cracks and evaluates its region of validity using high-fidelity finite element-boundary integral (FEBI) simulations combined with Monte Carlo analyses. A general SPTD formulation is derived to incorporate both surface roughness and in-plane crack-edge perturbations. Ensembles of rough-crack models with varying roughness levels are generated, and their edge diffractions are analyzed using both FEBI and SPTD. The results establish the validity region of SPTD with respect to roughness parameters and incident angles. The distinct effects of surface-height gradients and in-plane edge perturbations are clarified, showing that they modify the diffracted field in different ways. Near-surface head and Rayleigh waves are further identified as key mechanisms limiting SPTD applicability. In summary, this study extends SPTD to realistic 3D rough-crack edges, providing an efficient framework for ultrasonic diffraction prediction in defect characterization.",
+      "first_author_affiliation": "Department of Mechanical and Aerospace Engineering, Hong Kong University of Science and Technology 1 , Hong Kong,",
+      "last_author_affiliation": "Department of Mechanical and Aerospace Engineering, Hong Kong University of Science and Technology 1 , Hong Kong,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-10-23",
+      "first_seen_at": "2026-10-24T07:22:44Z",
+      "ai_analysis": {
+        "scientific_question": "将基于稳相法的衍射理论（SPTD）推广到三维粗糙裂纹边缘时，其有效适用范围如何，并受哪些粗糙度参数与入射角条件限制？",
+        "key_highlight": "研究推导了同时纳入表面粗糙度与面内裂纹边缘扰动的SPTD一般形式，并通过FEBI模拟与蒙特卡洛分析确定了其相对于粗糙度参数和入射角的有效区域。",
+        "main_limitation": "摘要指出近表面头波与瑞利波是限制SPTD适用性的关键机制，但未明确报告其他局限，无法仅凭摘要判断。",
+        "research_implication": "该工作为三维粗糙裂纹边缘的超声衍射预测提供了高效框架，可能有助于缺陷表征中的衍射场预测，但摘要未报告实际检测性能的验证。",
+        "evidence": [
+          "The results establish the validity region of SPTD with respect to roughness parameters and incident angles.",
+          "Near-surface head and Rayleigh waves are further identified as key mechanisms limiting SPTD applicability."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "a8e8249dab4904d0",
+        "updated_at": "2026-10-24T07:23:42Z"
+      }
+    },
+    {
+      "title": "Computing leaky circumferential and axial guided wave dispersion curves with spectral collocation",
+      "authors": [
+        "Evripides Georgiades",
+        "Michael J. S. Lowe",
+        "Richard V. Craster"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-10-23",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046912",
+      "url": "https://doi.org/10.1121/10.0046912",
+      "abstract": "Leaky waves propagating around the circumference or along the axis of immersed or buried cylindrical waveguides play a prominent role in the guided wave non-destructive evaluation inspection of submerged or embedded structures; a thorough understanding of the complex characteristics of leaky waves in such systems is essential for a range of applications. In this contribution, we apply a spectral collocation approach for the computation of the dispersion curves of both leaky circumferential and axial waves radiating from submerged or embedded multilayered cylinders. Therein, a complex coordinate transformation of the exterior ensures the numerical decay of the wave field of interest, while also preserving all of its physical characteristics. The proposed discretization enables the dispersion curves of leaky waves to be retrieved as eigenvalues of a simple polynomial eigenvalue problem and avoids the numerical instabilities associated with Bessel functions or the non-linear eigenvalue problems one often encounters in such calculations. Results were validated against both analytical methods and dispersion curves from commercially available root-finding software.",
+      "first_author_affiliation": "Department of Mechanical Engineering, Imperial College London , London, SW7 1AY,",
+      "last_author_affiliation": "Department of Mechanical Engineering, Imperial College London , London, SW7 1AY,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-10-23",
+      "first_seen_at": "2026-10-24T07:22:44Z",
+      "ai_analysis": {
+        "scientific_question": "如何用谱配点法计算浸没或埋置多层圆柱中泄漏周向与轴向导波的频散曲线？",
+        "key_highlight": "该方法通过外部复坐标变换保证波场数值衰减，并将泄漏波频散曲线转化为简单多项式特征值问题求解，从而避免贝塞尔函数数值不稳定和非线性特征值问题。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该方法可能为水下或埋置结构中泄漏导波的计算提供更稳定的数值途径，但其实际适用性仍需进一步评估。",
+        "evidence": [
+          "we apply a spectral collocation approach for the computation of the dispersion curves of both leaky circumferential and axial waves radiating from submerged or embedded multilayered cylinders",
+          "Results were validated against both analytical methods and dispersion curves from commercially available root-finding software."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "ab7fdfad33be250e",
+        "updated_at": "2026-10-24T07:23:44Z"
+      }
+    },
+    {
+      "title": "Statistical models of Falcon 9 launch noise metrics at Vandenberg Space Force Base",
+      "authors": [
+        "Levi T. Moats",
+        "Kent L. Gee",
+        "Lucas K. Hall",
+        "Grant W. Hart"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-10-23",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046889",
+      "url": "https://doi.org/10.1121/10.0046889",
+      "abstract": "The Falcon 9 Block 5 is the world's most frequently launched orbital rocket, with 165 launches in 2025 alone. This cadence enables robust characterization of launch noise from repeated field measurements. This study analyzes 548 acoustic measurements from 76 Falcon 9 launches at Vandenberg Space Force Base (VSFB), spanning pad-to-station distances from approximately 230 m to 30 km. Mixed-effects models are developed to describe maximum sound level (Lmax) and sound exposure level (SEL), including A- and C-weighted metrics, as functions of distance. Variability is modeled using a power-law variance structure, revealing increasing heteroskedasticity with distance. Prediction intervals derived from this structure quantify the range of expected individual measurements. Comparisons with Starship Super Heavy Flight 6 and launches from Florida suggest the model form is broadly applicable, though coefficients vary by vehicle. Additional analyses examine seasonal, diurnal, and terrain effects. Seasonal and diurnal effects are small for the present dataset, whereas terrain shielding can produce systematic reductions in level. Overall, this work provides a statistically grounded description of Falcon 9 launch noise and its variability and establishes a measured reference dataset for evaluation and future development of launch-noise prediction models.",
+      "first_author_affiliation": "Department of Physics and Astronomy, Brigham Young University 1 , Provo, Utah 84602,",
+      "last_author_affiliation": "Department of Physics and Astronomy, Brigham Young University 1 , Provo, Utah 84602,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-10-23",
+      "first_seen_at": "2026-10-24T07:22:44Z",
+      "ai_analysis": {
+        "scientific_question": "该研究旨在建立统计模型，用以描述范登堡太空军基地猎鹰9号发射噪声指标（Lmax与SEL，含A计权与C计权）随距离的变化及其变异性。",
+        "key_highlight": "研究基于76次发射的548次声学测量，采用混合效应模型与幂律方差结构，刻画了噪声随距离增大而增强的异方差性，并给出个体测量的预测区间。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该研究提供了统计基础的猎鹰9号发射噪声参考数据集与模型形式，可用于评估和未来开发发射噪声预测模型；与其他火箭及佛罗里达发射的比较提示模型形式可能具有较广适用性，但系数随飞行器而异。",
+        "evidence": [
+          "This study analyzes 548 acoustic measurements from 76 Falcon 9 launches at Vandenberg Space Force Base (VSFB), spanning pad-to-station distances from approximately 230 m to 30 km.",
+          "Seasonal and diurnal effects are small for the present dataset, whereas terrain shielding can produce systematic reductions in level."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "5aadcf7a97835483",
+        "updated_at": "2026-10-24T07:23:46Z"
+      }
+    },
+    {
+      "title": "The investigation of the relation between the split in fundamental air-cavity mode and the force amplification at the wheel hub for a statically deformed tire",
+      "authors": [
+        "Won Hong Choi",
+        "J. Stuart Bolton"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-10-23",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046861",
+      "url": "https://doi.org/10.1121/10.0046861",
+      "abstract": "Reduction of tire/road noise has become increasingly important in electric vehicles, where powertrain noise is no longer dominant. The tire air-cavity mode is a major source of spindle forces transmitted to the suspension and can contribute to increased interior noise. Previous studies have shown that the fundamental air-cavity mode of passenger-car tires, typically near 200 Hz, splits into two distinct acoustic modes under static loading because geometric symmetry is lost. In this study, dispersion relations were measured for loaded tires, and a coupled finite element (FE) model was developed to characterize this frequency split and its relation to force transmission at the wheel hub. The frequency split was quantified as a function of static load, and the coupled simulations showed pronounced hub-force peaks when the split acoustic modes coincide in frequency and circumferential wavenumber with neighboring structural modes. The principal contribution of the present work is therefore not the general observation that cavity resonance can increase hub force, but the experimental and numerical identification of the deformation-induced frequency split and its modal-coincidence mechanism with the tire structure. An additional impedance-boundary sensitivity simulation shows that the representative absorbing boundary strongly suppresses the cavity-related force peaks, providing an additional numerical check of the modal interpretation. These results provide a physically based framework for interpreting and mitigating tire-cavity-induced structure-borne force transmission.",
+      "first_author_affiliation": "Ray W. Herrick Laboratories, School of Mechanical Engineering, Purdue University , 177 South Russell Street, West Lafayette, Indiana 47907-2099,",
+      "last_author_affiliation": "Ray W. Herrick Laboratories, School of Mechanical Engineering, Purdue University , 177 South Russell Street, West Lafayette, Indiana 47907-2099,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "hearing aid"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-10-23",
+      "first_seen_at": "2026-10-24T07:22:44Z",
+      "ai_analysis": {
+        "scientific_question": "静态加载导致的轮胎基频空气腔模态分裂与轮毂力放大之间存在怎样的关系？",
+        "key_highlight": "该研究通过实验与耦合有限元模型识别出变形诱发的频率分裂，以及分裂声学模态与相邻结构模态在频率和周向波数上重合时的模态匹配机制。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "结果为解释和缓解轮胎空腔引起的结构传力提供了基于物理的框架，但摘要未报告实际降噪效果。",
+        "evidence": [
+          "The frequency split was quantified as a function of static load, and the coupled simulations showed pronounced hub-force peaks when the split acoustic modes coincide in frequency and circumferential wavenumber with neighboring structural modes.",
+          "An additional impedance-boundary sensitivity simulation shows that the representative absorbing boundary strongly suppresses the cavity-related force peaks"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "2b0148a7a6da0096",
+        "updated_at": "2026-10-24T07:23:47Z"
+      }
+    },
+    {
       "title": "Acoustic radiation of collapsing spark-induced cavitation bubbles under various boundary conditions",
       "authors": [
         "Ruiqi Mou",
@@ -1361,14 +1563,6 @@
       "doi": "10.1121/10.0046859",
       "url": "https://doi.org/10.1121/10.0046859",
       "abstract": "Cavitation bubble collapse-induced acoustic radiation is closely associated with underwater propeller noise and structural material erosion in marine engineering. Boundary effects can significantly alter bubble collapse dynamics and acoustic radiation, yet the quantitative effects of boundaries on non-spherical bubble evolution and acoustic characteristics remain unclear. In this work, centimeter scale cavitation bubbles are generated by spark discharge, and the acoustic radiation is investigated under three conditions: in the free field, near a rigid wall, and near a free surface. The results show that the first collapse peak pressure broadly follows the energy-based reference scaling P∝Rmax3/2 over the investigated bubble size range. For bubbles adjacent to a rigid wall, the peak pressures of the first and second collapses exhibit distinct dependences on the dimensionless stand-off distance. For bubbles near a free surface, the measured acoustic directivity is quantitatively consistent with the dipole image-source model. In addition, a pressure-based acoustic inversion method is developed to estimate the early bubble radius evolution that cannot be directly resolved by high-speed imaging because of spark luminescence. These findings establish a quantitative relationship among boundary conditions, collapse dynamics, and acoustic loading, and provide a systematic experimental benchmark for cavitation noise modeling and control.",
-      "first_author_affiliation": "College of Shipbuilding Engineering, Harbin Engineering University 1 , Harbin 150001,",
-      "last_author_affiliation": "College of Shipbuilding Engineering, Harbin Engineering University 1 , Harbin 150001,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-10-22",
-      "first_seen_at": "2026-10-23T07:38:51Z",
       "ai_analysis": {
         "scientific_question": "在不同边界条件（自由场、刚性壁面、自由液面）下，火花诱导的厘米级空化气泡在溃灭过程中产生的声辐射具有哪些定量特征？",
         "key_highlight": "实验表明，首次溃灭峰值压力大致遵循基于能量的参考标度 P∝Rmax3/2；靠近刚性壁面时，第一、二次溃灭峰值压力随无量纲距离呈现不同依赖关系；靠近自由液面时，声指向性与偶极镜像源模型定量一致。",
@@ -1384,7 +1578,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "f3f03978466206cc",
         "updated_at": "2026-10-23T07:39:53Z"
-      }
+      },
+      "first_author_affiliation": "College of Shipbuilding Engineering, Harbin Engineering University 1 , Harbin 150001,",
+      "last_author_affiliation": "College of Shipbuilding Engineering, Harbin Engineering University 1 , Harbin 150001,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-22",
+      "first_seen_at": "2026-10-23T07:38:51Z"
     },
     {
       "title": "Beyond the audiogram: Maternal education is associated with speech perception in noise in young adults with clinically normal hearing",
@@ -1396,26 +1598,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0047002",
       "url": "https://doi.org/10.1121/10.0047002",
-      "abstract": "Speech perception in noise varies among individuals with clinically normal hearing and is not fully explained by peripheral hearing sensitivity. This study examined whether maternal education, an indicator of socioeconomic status, is associated with Quick Speech-in-Noise (QuickSIN) performance in 63 young adults with normal hearing. Hierarchical multiple regression analyses showed that higher maternal education was associated with better speech perception in noise performance, while controlling for pure-tone average, age, and sex. Pure-tone hearing sensitivity was not associated with QuickSIN performance. These findings suggest that maternal education is associated with individual differences in speech perception in noise beyond peripheral hearing sensitivity and may warrant consideration when examining factors related to auditory performance.",
-      "first_author_affiliation": "Department of Communication Arts, Sciences, and Disorders, City University of New York–Brooklyn College , Brooklyn, New York 11210,",
-      "last_author_affiliation": "Department of Communication Arts, Sciences, and Disorders, City University of New York–Brooklyn College , Brooklyn, New York 11210,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0047002",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "clinical audiology",
-        "priority section",
-        "speech perception"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-10-22",
-      "first_seen_at": "2026-10-23T07:38:53Z",
       "full_text_url": "https://pubs.aip.org/jel/article/6/10/105203/3407147/Beyond-the-audiogram-Maternal-education-is",
-      "media_checked_at": "2026-10-23T07:39:37Z",
-      "open_access_image_checked_at": "2026-10-23T07:39:37Z",
+      "abstract": "Speech perception in noise varies among individuals with clinically normal hearing and is not fully explained by peripheral hearing sensitivity. This study examined whether maternal education, an indicator of socioeconomic status, is associated with Quick Speech-in-Noise (QuickSIN) performance in 63 young adults with normal hearing. Hierarchical multiple regression analyses showed that higher maternal education was associated with better speech perception in noise performance, while controlling for pure-tone average, age, and sex. Pure-tone hearing sensitivity was not associated with QuickSIN performance. These findings suggest that maternal education is associated with individual differences in speech perception in noise beyond peripheral hearing sensitivity and may warrant consideration when examining factors related to auditory performance.",
       "ai_analysis": {
         "scientific_question": "在听力临床正常的年轻成人中，母亲受教育程度是否与噪声下言语感知表现相关？",
         "key_highlight": "在控制纯音平均听阈、年龄和性别后，较高的母亲受教育程度与更好的QuickSIN噪声下言语感知表现相关。",
@@ -1431,7 +1615,25 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "e587d30815600702",
         "updated_at": "2026-10-23T07:39:51Z"
-      }
+      },
+      "first_author_affiliation": "Department of Communication Arts, Sciences, and Disorders, City University of New York–Brooklyn College , Brooklyn, New York 11210,",
+      "last_author_affiliation": "Department of Communication Arts, Sciences, and Disorders, City University of New York–Brooklyn College , Brooklyn, New York 11210,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0047002",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-10-23T07:39:37Z",
+      "media_checked_at": "2026-10-23T07:39:37Z",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology",
+        "priority section",
+        "speech perception"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-10-22",
+      "first_seen_at": "2026-10-23T07:38:53Z"
     },
     {
       "title": "Computational stress formulation for ultrasonic wave dispersion and attenuation in polycrystalline materials",
@@ -1448,14 +1650,6 @@
       "doi": "10.1121/10.0046885",
       "url": "https://doi.org/10.1121/10.0046885",
       "abstract": "Ultrasonic wave propagation in polycrystalline materials is governed by grain scattering, which causes frequency-dependent attenuation and dispersion that are directly linked to the underlying microstructure. Accurate numerical modeling of these phenomena is essential for nondestructive evaluation (NDE) and materials characterization, yet traditional displacement-based finite difference (FD) methods face numerical challenges at grain boundaries due to spatial derivatives of the stiffness tensor. We present a stress-based FD formulation that reformulates the elastodynamic equations in terms of stress components only, eliminating stiffness spatial derivatives and naturally enforcing traction continuity at grain boundaries. The formulation is implemented with GPU acceleration and validated against theoretical predictions based on the Von Kármán correlation function for aluminum, iron, and lithium polycrystals. The results demonstrate good agreement within the investigated frequency range for both attenuation and phase velocity dispersion, with normalized results revealing material-dependent scattering behavior. The formulation is further extended to coupled fluid-solid systems, demonstrating accurate attenuation predictions in immersion-based NDE configurations. Compared to displacement-based methods, the stress-based approach offers improved numerical stability, a 39% reduction in GPU memory usage, and a unified treatment of fluid-solid coupling through a single primary variable.",
-      "first_author_affiliation": "Department of Engineering Science and Mechanics, The Pennsylvania State University 1 , University Park, Pennsylvania 16802,",
-      "last_author_affiliation": "Department of Engineering Science and Mechanics, The Pennsylvania State University 1 , University Park, Pennsylvania 16802,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-10-22",
-      "first_seen_at": "2026-10-23T07:38:51Z",
       "ai_analysis": {
         "scientific_question": "如何用仅以应力分量为变量的有限差分公式，数值模拟多晶材料中由晶粒散射引起的超声波衰减与频散？",
         "key_highlight": "所提出的应力型有限差分公式消除了刚度张量的空间导数，在铝、铁、锂多晶中与基于Von Kármán相关函数的理论预测在考察频段内吻合良好。",
@@ -1471,7 +1665,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "2f544d2fb445c65c",
         "updated_at": "2026-10-23T07:39:55Z"
-      }
+      },
+      "first_author_affiliation": "Department of Engineering Science and Mechanics, The Pennsylvania State University 1 , University Park, Pennsylvania 16802,",
+      "last_author_affiliation": "Department of Engineering Science and Mechanics, The Pennsylvania State University 1 , University Park, Pennsylvania 16802,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-22",
+      "first_seen_at": "2026-10-23T07:38:51Z"
     },
     {
       "title": "Dictionary reduction: A preprocessing method for efficient sparse reconstruction-based direction-of-arrival estimation",
@@ -1487,14 +1689,6 @@
       "doi": "10.1121/10.0046883",
       "url": "https://doi.org/10.1121/10.0046883",
       "abstract": "Direction-of-arrival (DOA) estimation based on sparse reconstruction typically constructs an overcomplete dictionary over the array observable range. Due to source sparsity, most dictionary atoms are redundant. This paper proposes two simple dictionary reduction methods to reduce computational cost. Method 1 calculates the distances of each atom to the signal subspace and the noise subspace and retains those atoms that are closer to the signal subspace. Method 2 reduces the dimension of either the signal subspace or the noise subspace to make the two subspaces equal in dimension and then performs dictionary reduction based on these two subspaces. Numerical simulations show that combining dictionary reduction with classical sparse reconstruction methods significantly reduces computational cost while also enhancing DOA estimation accuracy and resolution. Experimental results further validate the effectiveness of the proposed methods.",
-      "first_author_affiliation": "National Key Laboratory of Underwater Acoustic Technology, Harbin Engineering University 1 , Harbin 150001,",
-      "last_author_affiliation": "College of Electronic Information Engineering, Beihang University 5 , Beijing, 100191,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-10-22",
-      "first_seen_at": "2026-10-23T07:38:51Z",
       "ai_analysis": {
         "scientific_question": "能否通过减少过完备字典中的冗余原子来降低稀疏重构波达方向估计的计算成本，同时保持或改善估计性能？",
         "key_highlight": "论文提出两种简单的字典缩减方法，数值仿真显示将其与经典稀疏重构方法结合可显著降低计算成本，并提升DOA估计精度与分辨率。",
@@ -1510,7 +1704,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "01230467538c1446",
         "updated_at": "2026-10-23T07:39:57Z"
-      }
+      },
+      "first_author_affiliation": "National Key Laboratory of Underwater Acoustic Technology, Harbin Engineering University 1 , Harbin 150001,",
+      "last_author_affiliation": "College of Electronic Information Engineering, Beihang University 5 , Beijing, 100191,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-22",
+      "first_seen_at": "2026-10-23T07:38:51Z"
     },
     {
       "title": "Generation of ring-shaped acoustic pressure fields based on the bottle beam concept using airborne ultrasonic phased arrays",
@@ -1526,14 +1728,6 @@
       "doi": "10.1121/10.0046800",
       "url": "https://doi.org/10.1121/10.0046800",
       "abstract": "This paper verifies the feasibility of generating acoustic ring beams—defined as ring-shaped, high-pressure distributions localized around a target plane—using an airborne ultrasonic phased array. Physical experiments using a 40 kHz airborne ultrasonic phased array confirmed that the diameter of the proposed acoustic ring beam is much larger than the wavelength. The proposed method is expected to open up possibilities for applications, such as the acoustic cloaking of large objects.",
-      "first_author_affiliation": "Graduate School of Information Science and Technology, The University of Tokyo 1 , 7-3-1, Hongo, Bunkyo-ku, Tokyo,",
-      "last_author_affiliation": "Graduate School of Frontier Sciences, The University of Tokyo 2 , 5-1-5, Kashiwanoha, Kashiwa-shi, Chiba,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-10-22",
-      "first_seen_at": "2026-10-23T07:38:51Z",
       "ai_analysis": {
         "scientific_question": "能否利用机载超声相控阵，基于瓶束概念在目标平面附近生成环状高压分布的声学环束？",
         "key_highlight": "40 kHz机载超声相控阵的物理实验证实，所提出的声学环束直径远大于波长。",
@@ -1549,7 +1743,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "9c0f6369a493ba7d",
         "updated_at": "2026-10-23T07:39:58Z"
-      }
+      },
+      "first_author_affiliation": "Graduate School of Information Science and Technology, The University of Tokyo 1 , 7-3-1, Hongo, Bunkyo-ku, Tokyo,",
+      "last_author_affiliation": "Graduate School of Frontier Sciences, The University of Tokyo 2 , 5-1-5, Kashiwanoha, Kashiwa-shi, Chiba,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-22",
+      "first_seen_at": "2026-10-23T07:38:51Z"
     },
     {
       "title": "Homomorphic cyclostationary morphology matching for short-observation underwater acoustic pseudonoise-code period estimation",
@@ -1566,14 +1768,6 @@
       "doi": "10.1121/10.0046853",
       "url": "https://doi.org/10.1121/10.0046853",
       "abstract": "The short-observation condition in noncooperative underwater acoustic direct-sequence spread spectrum signals analysis makes conventional pseudonoise (PN)-code period estimation face problems such as degraded noise robustness and insufficient suppression of information-symbol-induced multiplicative interference (IMI). In this paper, a homomorphic cyclostationary morphology matching method is proposed to address these issues. Unlike conventional methods, the proposed method does not rely on spectral-line extraction and spacing estimation supported by long observations, but estimates the PN-code period by applying morphology matching to the homomorphically filtered received-signal autocorrelation. The received-signal autocorrelation is transformed into the homomorphic domain to convert the IMI into an additive structure. Candidate-period time synchronous averaging is then applied to average delay-domain values separated by each candidate period, enhancing the cyclostationary PN-code component and suppressing noise and IMI with less reliance on the number of available information symbols. A homomorphic cyclostationary morphology matching degree is further defined to quantify the morphology matching result, and the PN-code period is estimated by selecting the candidate period that maximizes this degree. Numerical simulations and experimental data demonstrate that the proposed method outperforms conventional methods under short-observation and low-signal-to-noise-ratio conditions.",
-      "first_author_affiliation": "National Key Laboratory of Underwater Acoustic Technology, Harbin Engineering University 1 , Harbin 150001,",
-      "last_author_affiliation": "National Key Laboratory of Underwater Acoustic Technology, Harbin Engineering University 1 , Harbin 150001,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-10-22",
-      "first_seen_at": "2026-10-23T07:38:51Z",
       "ai_analysis": {
         "scientific_question": "在短观测、非合作水声直接序列扩频信号条件下，如何不依赖长观测支持的谱线提取与间距估计来估计伪噪声码周期？",
         "key_highlight": "所提方法对同态滤波后的接收信号自相关进行形态匹配，并定义同态循环平稳形态匹配度，通过选取使该匹配度最大的候选周期来估计PN码周期。",
@@ -1589,7 +1783,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "bfdee37769640c96",
         "updated_at": "2026-10-23T07:40:01Z"
-      }
+      },
+      "first_author_affiliation": "National Key Laboratory of Underwater Acoustic Technology, Harbin Engineering University 1 , Harbin 150001,",
+      "last_author_affiliation": "National Key Laboratory of Underwater Acoustic Technology, Harbin Engineering University 1 , Harbin 150001,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-22",
+      "first_seen_at": "2026-10-23T07:38:51Z"
     },
     {
       "title": "Male spot-legged treefrogs ( Polypedates megacephalus ) respond differently to diverse vocal combinations varied in units and orders",
@@ -1613,7 +1815,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-22",
       "first_seen_at": "2026-10-23T07:38:51Z"
     },
@@ -1637,7 +1839,7 @@
       "tags": [
         "machine learning"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-22",
       "first_seen_at": "2026-10-23T07:38:51Z"
     },
@@ -1663,7 +1865,7 @@
       "tags": [
         "machine learning"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-22",
       "first_seen_at": "2026-10-23T07:38:51Z"
     },
@@ -1677,6 +1879,7 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0046890",
       "url": "https://doi.org/10.1121/10.0046890",
+      "full_text_url": "https://pubs.aip.org/jasa/article/160/4/3356/3407145/Translation-of-transient-acoustic-fields",
       "abstract": "A method is presented for the translation of acoustic field data from a source to a target region. Field data are represented as spherical harmonic expansions on spheres surrounding the source and target regions, respectively, and expansions are translated using a “point and shoot” method using the Kirchhoff–Helmholtz integral to carry out an axial translation from one sphere to the other. The principal motivation for the method is its use in a time-domain fast multipole method, and test cases reflective of this application are presented. The method converges to six digits for appropriate values of parameters, and for the values of N considered here, computational effort scales approximately as N2, where N is the order of spherical harmonic expansion for the field data. The method is causal and thus avoids artifacts generated in methods that are not based on intrinsically causal formulations.",
       "first_author_affiliation": "Department of Mechanical Engineering, University of Bath , Bath, BA2 7AY,",
       "last_author_affiliation": "Department of Mechanical Engineering, University of Bath , Bath, BA2 7AY,",
@@ -1684,15 +1887,47 @@
       "open_access_url": "https://doi.org/10.1121/10.0046890",
       "open_access_source": "crossref_license",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-10-23T07:39:37Z",
+      "media_checked_at": "2026-10-23T07:39:37Z",
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-22",
-      "first_seen_at": "2026-10-23T07:38:51Z",
-      "full_text_url": "https://pubs.aip.org/jasa/article/160/4/3356/3407145/Translation-of-transient-acoustic-fields",
-      "media_checked_at": "2026-10-23T07:39:37Z",
-      "open_access_image_checked_at": "2026-10-23T07:39:37Z"
+      "first_seen_at": "2026-10-23T07:38:51Z"
+    },
+    {
+      "title": "What is Sudden Sensorineural Hearing Loss?",
+      "authors": [
+        "Douglas M Hildrew",
+        "Jacob Garn Mabey"
+      ],
+      "journal": "High-impact Journals",
+      "publication_date": "2026-10-22",
+      "publication_date_precision": "day",
+      "doi": "10.1001/jamaoto.2026.3047",
+      "url": "https://doi.org/10.1001/jamaoto.2026.3047",
+      "abstract": "This JAMA Otolaryngology–Head & Neck Surgery Patient Page describes the symptoms, causes, and treatment of sudden sensorineural hearing loss.",
+      "first_author_affiliation": "Yale School of Medicine, New Haven, Connecticut.",
+      "last_author_affiliation": "Yale School of Medicine, New Haven, Connecticut.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "pubmed",
+      "available_online_date": "2026-10-22",
+      "source_group": "high_impact",
+      "source_group_label": "High-impact Journals",
+      "actual_journal": "JAMA otolaryngology-- head & neck surgery",
+      "match_level": "level_2_hearing_specific",
+      "matched_keywords": [
+        "hearing loss"
+      ],
+      "match_fields": [
+        "title"
+      ],
+      "needs_review": false,
+      "first_seen_at": "2026-10-24T07:22:58Z"
     },
     {
       "title": "Communication-aware Hankel singular value decomposition denoising method for underwater acoustic communication",
@@ -2432,6 +2667,77 @@
       ],
       "needs_review": true,
       "first_seen_at": "2026-10-20T07:42:20Z"
+    },
+    {
+      "title": "A hole in the chain: Synchrotron MicroCT reveals a stapes footplate gateway to the inner ear in murine otitis media",
+      "authors": [
+        "Diana Cobas",
+        "Jordan Villa",
+        "Alessandra Carriero",
+        "Christoph Rau",
+        "Shashidhara Marathe",
+        "Joaquin Cury",
+        "Grace E. Stutzmann",
+        "Claus Peter Richter"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-16",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109840",
+      "url": "https://doi.org/10.1016/j.heares.2026.109840",
+      "abstract": "Otitis media (OM) can cause conductive and sensorineural hearing loss through ossicular damage and cochlear injury. Yet the structural time course remains poorly characterized, and rodent hearing studies rarely assess middle ear disease, despite its potential to confound sensorineural hearing loss assessment. To characterize ossicular chain changes in acute and chronic OM using synchrotron micro-computed tomography (microCT) and identify routes of middle-to-inner-ear spread of infection. Bilateral OM was induced in mice by intranasal inoculation with Bordetella pseudohinzii; controls received intranasal phosphate-buffered saline (PBS). Ears were evaluated at 7 days (acute OM, N= 8) or 28 days (chronic OM, N= 11) post-inoculation, with 9 control ears. Temporal bones were imaged with synchrotron microCT (effective pixel size: 1.625 µm, resolution: > 3.3 µm), segmented, and reconstructed in 3D. Ossicles were assessed for erosion, perforation, dislocation, or fracture at defined landmarks. Group differences were compared using a cluster permutation test, and p-values were adjusted using the Benjamini-Hochberg false discovery rate (FDR) procedure. Structural abnormalities occurred across all OM groups, with the incus and stapes most affected. Abnormalities of the incus body and short process, as well as the malleolar apophysis, were observed. Stapes footplate erosion was absent in controls but was seen in all the acute-OM ears here investigated (8), decreasing to 27.3% (3/11) at chronic time points. The stapes footplate is vulnerable to full-thickness erosion starting at acute time points. This site may harbor persistent biofilm-related disease in humans and is an important confounding variable in rodent hearing research on middle ear health. Future research should examine fluid or substance passage through the footplate defect into the inner ear.",
+      "last_author_affiliation": "Department of Otolaryngology, Feinberg School of Medicine, Northwestern University, Chicago, IL, USA; Hugh Knowles Center for Clinical and Basic Science in Hearing and Its Disorders, Northwestern University, Evanston, IL, USA; Department of Biomedical Engineering, Northwestern University, Evanston, IL, USA; Department of Communication Sciences and Disorders, Northwestern University, Evanston, IL, USA. Electronic address: cri529@northwestern.edu.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Bone erosion",
+        "Hearing loss",
+        "Middle ear infection",
+        "Mouse",
+        "Otitis media",
+        "Synchrotron radiation",
+        "microCT"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-16",
+      "first_seen_at": "2026-10-16T07:17:30Z"
+    },
+    {
+      "title": "Age-dependent variation in eCAP measures across cochlear electrode locations: effects of interphase gap in cochlear implant users",
+      "authors": [
+        "Roya Karimi Pour",
+        "Mohammad Maarefvand",
+        "Hesamaldin Emamdjomeh",
+        "Mohammad Farhadi"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-16",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109834",
+      "url": "https://doi.org/10.1016/j.heares.2026.109834",
+      "abstract": "Electrophysiological measures obtained from cochlear implants provide objective information about the electrode-neuron interface (ENI). Although conventional electrically evoked compound action potential (eCAP) measures are widely used to characterize neural responsiveness, their sensitivity to age- and electrode-dependent differences remains unclear. This study investigated the effects of electrode location and interphase gap (IPG) on eCAP measures in pediatric and adult cochlear implant users. Twelve children (mean age: 6.1 years) and 11 adults (mean age: 32.8 years) using Cochlear™ devices with perimodiolar electrode arrays participated. Impedance, spread of excitation (SOE) width at 75% of peak amplitude, and eCAP threshold, amplitude, and amplitude growth function (AGF) slope were measured at basal, middle, and apical electrodes. eCAPs were recorded using IPGs of 7 and 30 µs. IPG effects were evaluated using complementary unified and normalized analytical approaches. Impedance was highest at basal electrodes, whereas SOE width did not differ significantly by age group or electrode location. Conventional eCAP thresholds, amplitudes, and AGF slopes varied across the cochlear array, with regional differences in eCAP amplitude and AGF slope but few age-related differences. Increasing IPG significantly affected eCAP threshold, amplitude, and AGF slope across both analytical approaches. However, for the IPG-related effect on AGF slope, the unified analysis showed no significant interaction among IPG, group, and electrode, whereas the normalized analysis showed a larger slope effect in children than adults, without a significant higher-order interaction. Impedance was additionally associated with the IPG-related change in AGF slope. Conventional eCAP measures revealed distinct regional patterns across the cochlear array, whereas IPG manipulation consistently affected threshold, amplitude, and AGF slope, with group and electrode differences observed for selected measures. These findings suggest that IPG-sensitive eCAP measures may provide complementary information about the ENI beyond conventional eCAP measures alone, while the observed age- and region-dependent patterns and their dependence on analytical approach warrant further investigation.",
+      "last_author_affiliation": "ENT and Head & Neck Research Center and Department, Hazrat Rasoul Hospital, The Five Senses Institute, Iran University of Medical Sciences, Tehran, Iran.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [
+        "Cochlear implant",
+        "Electrically evoked compound action potential (eCAP)",
+        "Electrode–neuron interface",
+        "Interphase gap",
+        "Neural responsiveness",
+        "Spread of excitation"
+      ],
+      "tags": [
+        "auditory physiology",
+        "cochlear implant"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-16",
+      "first_seen_at": "2026-10-17T07:01:41Z"
     },
     {
       "title": "Assessing the feasibility of dense seismic networks in Southern California for recording primary and secondary sonic booms",
@@ -5325,23 +5631,6 @@
       "first_seen_at": "2026-10-02T08:37:25Z"
     },
     {
-      "title": "Amygdala: Function and Neural Basis",
-      "authors": [
-        "Guang-Di Chen"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109839",
-      "url": "https://doi.org/10.1016/j.heares.2026.109839",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-10-17T07:01:41Z"
-    },
-    {
       "title": "Application of synchrosqueezed spectrograms to speaker verification via formant identification by visual observation",
       "authors": [
         "Masahiro Okada"
@@ -5462,6 +5751,67 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:25Z"
+    },
+    {
+      "title": "Comparing and Optimizing Tissue Clearing Protocols for Cochlear Immunostaining and 3D Reconstruction by Light-Sheet Microscopy.",
+      "authors": [
+        "Franziska M K Becker",
+        "Gina Dunkel",
+        "Martina Giampetraglia",
+        "Bettina Weigelin",
+        "Ellen Reisinger"
+      ],
+      "journal": "Journal of the Association for Research in Otolaryngology",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1007/s10162-026-01068-6",
+      "url": "https://doi.org/10.1007/s10162-026-01068-6",
+      "full_text_url": "https://link.springer.com/article/10.1007/s10162-026-01068-6",
+      "abstract": "Current standard methods for immunohistochemical analysis of the inner ear rely on cryosectioning of the intact cochlea or dissection of the organ of Corti. Cryosections provide only limited structural information and do not allow quantification of hair cell numbers per basilar membrane length, whereas dissections require substantial technical expertise and often result in damage to the basal cochlear turns. Tissue clearing has largely overcome these limitations and has been widely applied to organs such as the brain, heart, liver, and kidney. However, despite several reports describing cochlear clearing, a systematic comparison of diverse methods is lacking. Here, we present a comparative evaluation of five established clearing protocols applied to the mouse cochlea, including three organic solvent-based (applied to n = 10 cochleae each) and two aqueous-based approaches (n = 4/8). Among these, iDISCO/cDISCO (i/cDISCO) and ethyl cinnamate (ECi) provided superior tissue transparency, morphological preservation, and immunofluorescence staining quality. In contrast, PEGASOS resulted in reduced transparency and occasional wave-like distortion of hair cell rows, probably due to uneven tissue shrinkage. ScaleS and FRUIT exhibited limited clearing performance and variable staining results. Based on these findings, we optimized the two best-performing protocols to enable cochlear clearing within only five days, using inexpensive and minimally toxic reagents. The resulting fastDISCO and fastECi protocols achieved clearing and immunolabeling quality comparable to their full-length counterparts while preserving tissue morphology (applied to n = 17/20 cochleae). These rapid clearing protocols support reproducible 3D light-sheet microscopy of immunostained cochleae and enable automated cell segmentation and quantitative analysis of distinct cell types, including the inner and outer hair cells.",
+      "ai_analysis": {
+        "scientific_question": "不同组织透明化方法在耳蜗免疫染色和三维成像中的效果如何比较，哪种方案能实现最优的透明化效果和组织形态保存？",
+        "key_highlight": "iDISCO/cDISCO和乙基肉桂酸酯两种方案在透明化效果、形态保存和免疫荧光染色质量上表现最优，且优化后的快速方案能在五天内完成并保持与原方案相当的效果。",
+        "main_limitation": "研究仅使用小鼠耳蜗组织，样本量较小且未涉及其他物种或人类样本，其发现可能无法直接推广至其他模型系统。",
+        "research_implication": "优化的快速透明化方案为内耳三维成像和毛细胞定量分析提供了可重复的技术工具，有望促进听觉生理研究中细胞水平的精确分析。",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "6a05edfe6942d6ae",
+        "updated_at": "2026-08-25T03:15:51Z"
+      },
+      "first_author_affiliation": "Gene Therapy for Hearing Impairment Group, Department for Otolaryngology - Head & Neck Surgery, University Hospital and Faculty of Medicine, University of Tübingen, Tübingen, Germany.",
+      "last_author_affiliation": "Gene Therapy for Hearing Impairment Group, Department for Otolaryngology - Head & Neck Surgery, University Hospital and Faculty of Medicine, University of Tübingen, Tübingen, Germany. Ellen.reisinger@uni-tuebingen.de.",
+      "open_access": true,
+      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13687511/",
+      "open_access_source": "pubmed_pmc",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "open_access_image_checked_at": "2026-08-25T03:14:55Z",
+      "pubmed_full_text_available": true,
+      "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13687511/",
+      "pubmed_full_text_source": "pmc",
+      "media_checked_at": "2026-08-25T03:14:56Z",
+      "key_image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs10162-026-01068-6/MediaObjects/10162_2026_1068_Fig1_HTML.png",
+      "key_image_alt": "Content cover image",
+      "section": null,
+      "keywords": [
+        "Cochlear imaging",
+        "Ethyl cinnamate",
+        "FRUIT",
+        "Hair cells",
+        "PEGASOS",
+        "ScaleS",
+        "Spiral ganglion neurons",
+        "Tissue clearing",
+        "cDISCO",
+        "iDISCO"
+      ],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "pubmed",
+      "available_online_date": "2026-08-24",
+      "first_seen_at": "2026-08-25T03:14:32Z"
     },
     {
       "title": "Computational Model for Synthesizing Auditory Brainstem Responses to Assess Neuronal Alterations in Aging and Autistic Animal Models.",
@@ -5850,21 +6200,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00266-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-02T07:09:02Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-10-01",
       "publication_date_precision": "day",
@@ -5877,6 +6212,21 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00266-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Effective model of fiber Bragg gratings for simulation of ultrasonic guided wave measurements using spectral finite elements",
@@ -9207,22 +9557,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046571",
-      "url": "https://doi.org/10.1121/10.0046571",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:59Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -9235,6 +9569,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:56Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046571",
+      "url": "https://doi.org/10.1121/10.0046571",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:59Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -15639,66 +15989,6 @@
       "first_seen_at": "2026-08-25T03:14:33Z"
     },
     {
-      "title": "Comparing and Optimizing Tissue Clearing Protocols for Cochlear Immunostaining and 3D Reconstruction by Light-Sheet Microscopy",
-      "authors": [
-        "Franziska M. K. Becker",
-        "Gina Dunkel",
-        "Martina Giampetraglia",
-        "Bettina Weigelin",
-        "Ellen Reisinger"
-      ],
-      "journal": "Journal of the Association for Research in Otolaryngology",
-      "publication_date": "2026-08-24",
-      "publication_date_precision": "day",
-      "doi": "10.1007/s10162-026-01068-6",
-      "url": "https://doi.org/10.1007/s10162-026-01068-6",
-      "full_text_url": "https://link.springer.com/article/10.1007/s10162-026-01068-6",
-      "abstract": "Abstract Purpose Current standard methods for immunohistochemical analysis of the inner ear rely on cryosectioning of the intact cochlea or dissection of the organ of Corti. Cryosections provide only limited structural information and do not allow quantification of hair cell numbers per basilar membrane length, whereas dissections require substantial technical expertise and often result in damage to the basal cochlear turns. Tissue clearing has largely overcome these limitations and has been widely applied to organs such as the brain, heart, liver, and kidney. However, despite several reports describing cochlear clearing, a systematic comparison of diverse methods is lacking. Methods Here, we present a comparative evaluation of five established clearing protocols applied to the mouse cochlea, including three organic solvent-based (applied to n = 10 cochleae each) and two aqueous-based approaches ( n = 4/8). Results Among these, iDISCO/cDISCO (i/cDISCO) and ethyl cinnamate (ECi) provided superior tissue transparency, morphological preservation, and immunofluorescence staining quality. In contrast, PEGASOS resulted in reduced transparency and occasional wave-like distortion of hair cell rows, probably due to uneven tissue shrinkage. Sca l eS and FRUIT exhibited limited clearing performance and variable staining results. Based on these findings, we optimized the two best-performing protocols to enable cochlear clearing within only five days, using inexpensive and minimally toxic reagents. Conclusion The resulting fastDISCO and fastECi protocols achieved clearing and immunolabeling quality comparable to their full-length counterparts while preserving tissue morphology (applied to n = 17/20 cochleae). These rapid clearing protocols support reproducible 3D light-sheet microscopy of immunostained cochleae and enable automated cell segmentation and quantitative analysis of distinct cell types, including the inner and outer hair cells.",
-      "ai_analysis": {
-        "scientific_question": "不同组织透明化方法在耳蜗免疫染色和三维成像中的效果如何比较，哪种方案能实现最优的透明化效果和组织形态保存？",
-        "key_highlight": "iDISCO/cDISCO和乙基肉桂酸酯两种方案在透明化效果、形态保存和免疫荧光染色质量上表现最优，且优化后的快速方案能在五天内完成并保持与原方案相当的效果。",
-        "main_limitation": "研究仅使用小鼠耳蜗组织，样本量较小且未涉及其他物种或人类样本，其发现可能无法直接推广至其他模型系统。",
-        "research_implication": "优化的快速透明化方案为内耳三维成像和毛细胞定量分析提供了可重复的技术工具，有望促进听觉生理研究中细胞水平的精确分析。",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "6a05edfe6942d6ae",
-        "updated_at": "2026-08-25T03:15:51Z"
-      },
-      "last_author_affiliation": "Gene Therapy for Hearing Impairment Group, Department for Otolaryngology - Head & Neck Surgery, University Hospital and Faculty of Medicine, University of Tübingen, Tübingen, Germany. Ellen.reisinger@uni-tuebingen.de.",
-      "open_access": true,
-      "open_access_url": "https://link.springer.com/article/10.1007/s10162-026-01068-6",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0",
-      "open_access_image_checked_at": "2026-08-25T03:14:55Z",
-      "pubmed_full_text_available": true,
-      "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13687511/",
-      "pubmed_full_text_source": "pmc",
-      "media_checked_at": "2026-08-25T03:14:56Z",
-      "key_image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs10162-026-01068-6/MediaObjects/10162_2026_1068_Fig1_HTML.png",
-      "key_image_alt": "Content cover image",
-      "section": null,
-      "keywords": [
-        "Cochlear imaging",
-        "Ethyl cinnamate",
-        "FRUIT",
-        "Hair cells",
-        "PEGASOS",
-        "ScaleS",
-        "Spiral ganglion neurons",
-        "Tissue clearing",
-        "cDISCO",
-        "iDISCO"
-      ],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-08-24",
-      "first_seen_at": "2026-08-25T03:14:32Z"
-    },
-    {
       "title": "Giant and anomalous Doppler effect, negative transmission and meta-like interaction between an acoustical wave and a weak shock",
       "authors": [
         "Ronan Delalande",
@@ -20027,22 +20317,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044504",
-      "url": "https://doi.org/10.1121/10.0044504",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:37Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -20055,6 +20329,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:36Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044504",
+      "url": "https://doi.org/10.1121/10.0044504",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:37Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -48989,17 +49279,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -49020,18 +49311,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -58256,22 +58546,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -58284,6 +58558,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -65386,23 +65676,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -65416,6 +65689,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -68967,8 +69257,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -68982,8 +69272,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -74504,8 +74794,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -74519,8 +74809,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -78975,6 +79265,12 @@
       },
       "first_author_affiliation": "Boys Town National Research Hospital, Department of Hearing Research, Omaha, USA.",
       "last_author_affiliation": "Boys Town National Research Hospital, Department of Hearing Research, Omaha, USA.",
+      "open_access": true,
+      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13690065/",
+      "open_access_source": "pubmed_pmc",
+      "pubmed_full_text_available": true,
+      "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13690065/",
+      "pubmed_full_text_source": "pmc",
       "media_checked_at": "2026-05-11T10:29:42Z",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [
