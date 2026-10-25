@@ -1,25 +1,6 @@
 {
-  "generated_at": "2026-10-24T07:23:13Z",
+  "generated_at": "2026-10-25T07:39:38Z",
   "papers": [
-    {
-      "title": "Amygdala: Function and neural basis",
-      "authors": [
-        "Guang-Di Chen"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2027-01-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109839",
-      "url": "https://doi.org/10.1016/j.heares.2026.109839",
-      "abstract": null,
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-10-16",
-      "first_seen_at": "2026-10-17T07:01:41Z"
-    },
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level.",
       "authors": [
@@ -628,7 +609,7 @@
       "first_seen_at": "2026-08-27T12:51:57Z"
     },
     {
-      "title": "Hidden auditory dysfunction in tinnitus with normal audiograms: selective and chronicity-dependent ABR changes in middle-aged adults",
+      "title": "Hidden auditory dysfunction in tinnitus with normal audiograms: selective and chronicity-dependent ABR changes in middle-aged adults.",
       "authors": [
         "Qian He",
         "Sheng-Yu Tao",
@@ -656,6 +637,7 @@
         "abstract_hash": "45864fa52c3d445a",
         "updated_at": "2026-09-01T07:54:01Z"
       },
+      "first_author_affiliation": "Department of Ear, Nose, and Throat, The First Affiliated Hospital of Soochow University, Suzhou, 215006, China.",
       "last_author_affiliation": "Department of Ear, Nose, and Throat, The First Affiliated Hospital of Soochow University, Suzhou, 215006, China. Electronic address: ddtao1008@suda.edu.cn.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
@@ -670,7 +652,7 @@
         "auditory physiology",
         "clinical audiology"
       ],
-      "source": "crossref+pubmed",
+      "source": "pubmed",
       "available_online_date": "2026-08-25",
       "first_seen_at": "2026-09-01T07:52:01Z"
     },
@@ -1091,10 +1073,10 @@
       "first_seen_at": "2026-08-20T03:12:32Z"
     },
     {
-      "title": "The band importance function for the Dutch digits-in-noise test: A computational derivation using human and automatic speech recognition data, including extended high frequencies",
+      "title": "The band importance function for the Dutch digits-in-noise test: A computational derivation using human and automatic speech recognition data, including extended high frequencies.",
       "authors": [
-        "Nick D. van Huis",
-        "Niek J. Versfeld",
+        "Nick D van Huis",
+        "Niek J Versfeld",
         "Cas Smits"
       ],
       "journal": "Hearing Research",
@@ -1115,6 +1097,7 @@
         "abstract_hash": "247356c531865775",
         "updated_at": "2026-09-01T07:54:08Z"
       },
+      "first_author_affiliation": "Department of Otolaryngology-Head and Neck Surgery, Ear and Hearing, Amsterdam UMC, University of Amsterdam, Amsterdam, the Netherlands; Amsterdam Public Health Research Institute, Amsterdam, the Netherlands. Electronic address: n.d.vanhuis@amsterdamumc.nl.",
       "last_author_affiliation": "Department of Otolaryngology-Head and Neck Surgery, Ear and Hearing, Amsterdam UMC, University of Amsterdam, Amsterdam, the Netherlands; Amsterdam Public Health Research Institute, Amsterdam, the Netherlands.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
@@ -1128,7 +1111,7 @@
         "clinical audiology",
         "speech perception"
       ],
-      "source": "crossref+pubmed",
+      "source": "pubmed",
       "available_online_date": "2026-08-25",
       "first_seen_at": "2026-08-31T08:42:32Z"
     },
@@ -1326,14 +1309,6 @@
       "doi": "10.1121/10.0046896",
       "url": "https://doi.org/10.1121/10.0046896",
       "abstract": "Underwater acoustic reconfigurable intelligent surfaces modulate the electrical load impedance of a piezoelectric transducer to control the amplitude and phase of the reflected wave. Predicting this load-dependent response is challenging: one-dimensional Mason circuits neglect oblique-incidence and shear-vertical-wave effects in elastomer coatings, while full three-dimensional finite-element models are computationally expensive and offer limited physical insight. This paper presents a reduced-order semi-analytical model for a Tonpilz-inspired tunable reflector. The model combines a primary–shear-vertical elastodynamic state-space description of a polyurethane coating, angle-dependent water loading, and a lumped electromechanical Tonpilz model terminated by an external electrical load. It yields compact expressions for the angle- and frequency-dependent acoustic reflection coefficient. Under thin-coating, moderate-incidence, and strong tangential-clamping conditions, the model shows that the reflection coefficient becomes a linear-fractional (Möbius) image of a capacitance-normalized load parameter. From this structure, physical conditions for strong load-to-reflection tracking are derived and translated into concrete reflector-design guidelines. Validation against three-dimensional finite-element simulations and tank experiments near a series-resonant frequency of 28.4 kHz shows that the model captures the dominant resonance behavior, the load-dependent amplitude and phase trends, and the angle-dependent reflection characteristics. Remaining quantitative discrepancies in absolute phase and resonance sharpness are reported explicitly and attributed to reduced-order assumptions and simplified three-dimensional structural dynamics.",
-      "first_author_affiliation": "Department of Electrical and Computer Engineering, Mississippi State University 1 , Mississippi State, Mississippi 39759,",
-      "last_author_affiliation": "Department of Computer Science, University of Alabama 2 , Tuscaloosa, Alabama 35487,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-10-23",
-      "first_seen_at": "2026-10-24T07:22:44Z",
       "ai_analysis": {
         "scientific_question": "如何以低计算成本预测带弹性体涂层的Tonpilz换能器在外部电负载调制下的角度与频率相关声反射系数？",
         "key_highlight": "在薄涂层、中等入射角和强切向夹持条件下，反射系数可表示为电容归一化负载参数的线性分式（Möbius）映射，并据此导出强负载—反射跟踪的物理条件与设计准则。",
@@ -1349,7 +1324,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "076d6b1a1759f104",
         "updated_at": "2026-10-24T07:23:38Z"
-      }
+      },
+      "first_author_affiliation": "Department of Electrical and Computer Engineering, Mississippi State University 1 , Mississippi State, Mississippi 39759,",
+      "last_author_affiliation": "Department of Computer Science, University of Alabama 2 , Tuscaloosa, Alabama 35487,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-23",
+      "first_seen_at": "2026-10-24T07:22:44Z"
     },
     {
       "title": "Acoustic inpainting of loudspeaker radiation balloons from sparse polar data using deep learning",
@@ -1366,16 +1349,6 @@
       "doi": "10.1121/10.0046894",
       "url": "https://doi.org/10.1121/10.0046894",
       "abstract": "Accurate characterization of loudspeaker radiation patterns is essential for system design and acoustic simulation, yet obtaining complete three-dimensional radiation balloons typically requires extensive and time-consuming measurements. This paper presents a deep-learning framework for the acoustic inpainting of high-resolution radiation balloons from a sparse set of only three polar measurement planes. By mapping non-uniform spherical coordinates onto a structured two-dimensional grid, we leverage a geo-informed convolutional U-Net architecture designed to learn high-dimensional spatial–spectral correlations from empirical radiation data within a curated dataset of measured professional loudspeakers. On unseen cabinets, the model achieves a global mean absolute error (MAE) of 1.24±0.07 dB, yielding an improvement of up to 0.65 dB over standard interpolation baselines. The practical utility of the model is validated through integration into professional simulation software, where the reconstructed patterns enable accurate line array modeling. This approach significantly reduces measurement complexity while maintaining the high fidelity required for advanced predictive acoustic engineering.",
-      "first_author_affiliation": "DAS Audio Group S. L 1 ., Fuente del Jarro, Paterna 46988,",
-      "last_author_affiliation": "Departamento de Informática, Universitat de Valencia 4 , Burjassot 46100,",
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "machine learning"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-10-23",
-      "first_seen_at": "2026-10-24T07:22:44Z",
       "ai_analysis": {
         "scientific_question": "能否仅用三个稀疏极坐标测量平面，通过深度学习重建高分辨率扬声器三维辐射球面？",
         "key_highlight": "所提出的地理信息卷积U-Net在未见过的音箱上取得1.24±0.07 dB的全局平均绝对误差，较标准插值基线最多改善0.65 dB。",
@@ -1391,7 +1364,17 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "17b959bdc99ed2da",
         "updated_at": "2026-10-24T07:23:40Z"
-      }
+      },
+      "first_author_affiliation": "DAS Audio Group S. L 1 ., Fuente del Jarro, Paterna 46988,",
+      "last_author_affiliation": "Departamento de Informática, Universitat de Valencia 4 , Burjassot 46100,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "machine learning"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-23",
+      "first_seen_at": "2026-10-24T07:22:44Z"
     },
     {
       "title": "Appraising a stationary phase-based diffraction theory for elastic wave diffraction from three-dimensional rough crack edges",
@@ -1407,14 +1390,6 @@
       "doi": "10.1121/10.0046887",
       "url": "https://doi.org/10.1121/10.0046887",
       "abstract": "Surface roughness of crack-like defects strongly influences ultrasonic edge diffraction, thereby affecting defect detectability and characterization in ultrasonic nondestructive evaluation. Although most existing studies have focused on two-dimensional cracks where the edge reduces to a point, the more complex case of three-dimensional (3D) rough-crack edges has rarely been addressed. This work extends a previously proposed stationary phase-based theory of diffraction (SPTD), originally validated for smooth-surface cracks, to 3D rough cracks and evaluates its region of validity using high-fidelity finite element-boundary integral (FEBI) simulations combined with Monte Carlo analyses. A general SPTD formulation is derived to incorporate both surface roughness and in-plane crack-edge perturbations. Ensembles of rough-crack models with varying roughness levels are generated, and their edge diffractions are analyzed using both FEBI and SPTD. The results establish the validity region of SPTD with respect to roughness parameters and incident angles. The distinct effects of surface-height gradients and in-plane edge perturbations are clarified, showing that they modify the diffracted field in different ways. Near-surface head and Rayleigh waves are further identified as key mechanisms limiting SPTD applicability. In summary, this study extends SPTD to realistic 3D rough-crack edges, providing an efficient framework for ultrasonic diffraction prediction in defect characterization.",
-      "first_author_affiliation": "Department of Mechanical and Aerospace Engineering, Hong Kong University of Science and Technology 1 , Hong Kong,",
-      "last_author_affiliation": "Department of Mechanical and Aerospace Engineering, Hong Kong University of Science and Technology 1 , Hong Kong,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-10-23",
-      "first_seen_at": "2026-10-24T07:22:44Z",
       "ai_analysis": {
         "scientific_question": "将基于稳相法的衍射理论（SPTD）推广到三维粗糙裂纹边缘时，其有效适用范围如何，并受哪些粗糙度参数与入射角条件限制？",
         "key_highlight": "研究推导了同时纳入表面粗糙度与面内裂纹边缘扰动的SPTD一般形式，并通过FEBI模拟与蒙特卡洛分析确定了其相对于粗糙度参数和入射角的有效区域。",
@@ -1430,7 +1405,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "a8e8249dab4904d0",
         "updated_at": "2026-10-24T07:23:42Z"
-      }
+      },
+      "first_author_affiliation": "Department of Mechanical and Aerospace Engineering, Hong Kong University of Science and Technology 1 , Hong Kong,",
+      "last_author_affiliation": "Department of Mechanical and Aerospace Engineering, Hong Kong University of Science and Technology 1 , Hong Kong,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-23",
+      "first_seen_at": "2026-10-24T07:22:44Z"
     },
     {
       "title": "Computing leaky circumferential and axial guided wave dispersion curves with spectral collocation",
@@ -1445,14 +1428,6 @@
       "doi": "10.1121/10.0046912",
       "url": "https://doi.org/10.1121/10.0046912",
       "abstract": "Leaky waves propagating around the circumference or along the axis of immersed or buried cylindrical waveguides play a prominent role in the guided wave non-destructive evaluation inspection of submerged or embedded structures; a thorough understanding of the complex characteristics of leaky waves in such systems is essential for a range of applications. In this contribution, we apply a spectral collocation approach for the computation of the dispersion curves of both leaky circumferential and axial waves radiating from submerged or embedded multilayered cylinders. Therein, a complex coordinate transformation of the exterior ensures the numerical decay of the wave field of interest, while also preserving all of its physical characteristics. The proposed discretization enables the dispersion curves of leaky waves to be retrieved as eigenvalues of a simple polynomial eigenvalue problem and avoids the numerical instabilities associated with Bessel functions or the non-linear eigenvalue problems one often encounters in such calculations. Results were validated against both analytical methods and dispersion curves from commercially available root-finding software.",
-      "first_author_affiliation": "Department of Mechanical Engineering, Imperial College London , London, SW7 1AY,",
-      "last_author_affiliation": "Department of Mechanical Engineering, Imperial College London , London, SW7 1AY,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-10-23",
-      "first_seen_at": "2026-10-24T07:22:44Z",
       "ai_analysis": {
         "scientific_question": "如何用谱配点法计算浸没或埋置多层圆柱中泄漏周向与轴向导波的频散曲线？",
         "key_highlight": "该方法通过外部复坐标变换保证波场数值衰减，并将泄漏波频散曲线转化为简单多项式特征值问题求解，从而避免贝塞尔函数数值不稳定和非线性特征值问题。",
@@ -1468,7 +1443,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "ab7fdfad33be250e",
         "updated_at": "2026-10-24T07:23:44Z"
-      }
+      },
+      "first_author_affiliation": "Department of Mechanical Engineering, Imperial College London , London, SW7 1AY,",
+      "last_author_affiliation": "Department of Mechanical Engineering, Imperial College London , London, SW7 1AY,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-23",
+      "first_seen_at": "2026-10-24T07:22:44Z"
     },
     {
       "title": "Statistical models of Falcon 9 launch noise metrics at Vandenberg Space Force Base",
@@ -1484,14 +1467,6 @@
       "doi": "10.1121/10.0046889",
       "url": "https://doi.org/10.1121/10.0046889",
       "abstract": "The Falcon 9 Block 5 is the world's most frequently launched orbital rocket, with 165 launches in 2025 alone. This cadence enables robust characterization of launch noise from repeated field measurements. This study analyzes 548 acoustic measurements from 76 Falcon 9 launches at Vandenberg Space Force Base (VSFB), spanning pad-to-station distances from approximately 230 m to 30 km. Mixed-effects models are developed to describe maximum sound level (Lmax) and sound exposure level (SEL), including A- and C-weighted metrics, as functions of distance. Variability is modeled using a power-law variance structure, revealing increasing heteroskedasticity with distance. Prediction intervals derived from this structure quantify the range of expected individual measurements. Comparisons with Starship Super Heavy Flight 6 and launches from Florida suggest the model form is broadly applicable, though coefficients vary by vehicle. Additional analyses examine seasonal, diurnal, and terrain effects. Seasonal and diurnal effects are small for the present dataset, whereas terrain shielding can produce systematic reductions in level. Overall, this work provides a statistically grounded description of Falcon 9 launch noise and its variability and establishes a measured reference dataset for evaluation and future development of launch-noise prediction models.",
-      "first_author_affiliation": "Department of Physics and Astronomy, Brigham Young University 1 , Provo, Utah 84602,",
-      "last_author_affiliation": "Department of Physics and Astronomy, Brigham Young University 1 , Provo, Utah 84602,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-10-23",
-      "first_seen_at": "2026-10-24T07:22:44Z",
       "ai_analysis": {
         "scientific_question": "该研究旨在建立统计模型，用以描述范登堡太空军基地猎鹰9号发射噪声指标（Lmax与SEL，含A计权与C计权）随距离的变化及其变异性。",
         "key_highlight": "研究基于76次发射的548次声学测量，采用混合效应模型与幂律方差结构，刻画了噪声随距离增大而增强的异方差性，并给出个体测量的预测区间。",
@@ -1507,7 +1482,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "5aadcf7a97835483",
         "updated_at": "2026-10-24T07:23:46Z"
-      }
+      },
+      "first_author_affiliation": "Department of Physics and Astronomy, Brigham Young University 1 , Provo, Utah 84602,",
+      "last_author_affiliation": "Department of Physics and Astronomy, Brigham Young University 1 , Provo, Utah 84602,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-23",
+      "first_seen_at": "2026-10-24T07:22:44Z"
     },
     {
       "title": "The investigation of the relation between the split in fundamental air-cavity mode and the force amplification at the wheel hub for a statically deformed tire",
@@ -1521,16 +1504,6 @@
       "doi": "10.1121/10.0046861",
       "url": "https://doi.org/10.1121/10.0046861",
       "abstract": "Reduction of tire/road noise has become increasingly important in electric vehicles, where powertrain noise is no longer dominant. The tire air-cavity mode is a major source of spindle forces transmitted to the suspension and can contribute to increased interior noise. Previous studies have shown that the fundamental air-cavity mode of passenger-car tires, typically near 200 Hz, splits into two distinct acoustic modes under static loading because geometric symmetry is lost. In this study, dispersion relations were measured for loaded tires, and a coupled finite element (FE) model was developed to characterize this frequency split and its relation to force transmission at the wheel hub. The frequency split was quantified as a function of static load, and the coupled simulations showed pronounced hub-force peaks when the split acoustic modes coincide in frequency and circumferential wavenumber with neighboring structural modes. The principal contribution of the present work is therefore not the general observation that cavity resonance can increase hub force, but the experimental and numerical identification of the deformation-induced frequency split and its modal-coincidence mechanism with the tire structure. An additional impedance-boundary sensitivity simulation shows that the representative absorbing boundary strongly suppresses the cavity-related force peaks, providing an additional numerical check of the modal interpretation. These results provide a physically based framework for interpreting and mitigating tire-cavity-induced structure-borne force transmission.",
-      "first_author_affiliation": "Ray W. Herrick Laboratories, School of Mechanical Engineering, Purdue University , 177 South Russell Street, West Lafayette, Indiana 47907-2099,",
-      "last_author_affiliation": "Ray W. Herrick Laboratories, School of Mechanical Engineering, Purdue University , 177 South Russell Street, West Lafayette, Indiana 47907-2099,",
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "hearing aid"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-10-23",
-      "first_seen_at": "2026-10-24T07:22:44Z",
       "ai_analysis": {
         "scientific_question": "静态加载导致的轮胎基频空气腔模态分裂与轮毂力放大之间存在怎样的关系？",
         "key_highlight": "该研究通过实验与耦合有限元模型识别出变形诱发的频率分裂，以及分裂声学模态与相邻结构模态在频率和周向波数上重合时的模态匹配机制。",
@@ -1546,7 +1519,17 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "2b0148a7a6da0096",
         "updated_at": "2026-10-24T07:23:47Z"
-      }
+      },
+      "first_author_affiliation": "Ray W. Herrick Laboratories, School of Mechanical Engineering, Purdue University , 177 South Russell Street, West Lafayette, Indiana 47907-2099,",
+      "last_author_affiliation": "Ray W. Herrick Laboratories, School of Mechanical Engineering, Purdue University , 177 South Russell Street, West Lafayette, Indiana 47907-2099,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "hearing aid"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-23",
+      "first_seen_at": "2026-10-24T07:22:44Z"
     },
     {
       "title": "Acoustic radiation of collapsing spark-induced cavitation bubbles under various boundary conditions",
@@ -1817,7 +1800,23 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-22",
-      "first_seen_at": "2026-10-23T07:38:51Z"
+      "first_seen_at": "2026-10-23T07:38:51Z",
+      "ai_analysis": {
+        "scientific_question": "雄性斑腿泛树蛙（Polypedates megacephalus）如何对由不同声学单元及其排列顺序构成的各种组合叫声作出反应？",
+        "key_highlight": "雄性斑腿泛树蛙能组合A、B、C三种简单叫声形成多种复合叫声，并在回放实验中对组合叫声与相同成分的分离或不同顺序叫声表现出不同的鸣叫行为。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "结果提示斑腿泛树蛙可能借助在单元和顺序上变化的多样叫声组合进行交流，但这一交流功能仍属推测，尚需进一步验证。",
+        "evidence": [
+          "We found that males can produce rich compound calls by combining three vocal units—simple A, B, and C calls",
+          "male receivers exhibited distinct calling behaviors when presented with combination calls vs separate, ordered calls composed of identical components (e.g., CA vs C + A, AB vs BA, CAB vs CBA)"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "ffe9c9a4d016f347",
+        "updated_at": "2026-10-25T07:40:04Z"
+      }
     },
     {
       "title": "Range-only physics-informed neural network for underwater acoustic field reconstruction with application to source depth estimation",
@@ -1841,7 +1840,23 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-22",
-      "first_seen_at": "2026-10-23T07:38:51Z"
+      "first_seen_at": "2026-10-23T07:38:51Z",
+      "ai_analysis": {
+        "scientific_question": "如何利用单水听器移动源采集的有限深度多样性数据，通过仅依赖距离的物理约束神经网络重建水下声场并用于源深度估计？",
+        "key_highlight": "提出一维距离域控制方程约束的PINN，抑制距离引起的相位波动并在波数谱中降低谱展宽和旁瓣水平，从而支持源深度估计。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "仿真与SWellEx-96数据表明该方法可在不完整采样和距离扰动下重建声场，并对一定程度的声速剖面失配具有稳健性，提示其可能适用于受限观测条件下的声场重建与深度估计。",
+        "evidence": [
+          "We derive a one-dimensional governing equation that describes the complex pressure field as a function of range, enabling physics-constrained reconstruction from single depth measurements.",
+          "Numerical simulations and SWellEx-96 experimental data show that the proposed PINN can reconstruct the field under incomplete sampling and range perturbations."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "71d269382c176cd8",
+        "updated_at": "2026-10-25T07:40:06Z"
+      }
     },
     {
       "title": "The pinna geometry descriptor: A topologically consistent three-dimensional ear shape representation for geometry-aware head-related transfer function modeling",
@@ -1867,7 +1882,23 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-22",
-      "first_seen_at": "2026-10-23T07:38:51Z"
+      "first_seen_at": "2026-10-23T07:38:51Z",
+      "ai_analysis": {
+        "scientific_question": "如何将原始三维耳廓扫描转换为拓扑一致、稠密点对点对应的形状表示，以支持几何驱动的头相关传递函数建模？",
+        "key_highlight": "该研究提出耳廓几何描述符（PGD）框架，通过半自动标志点策略与两阶段非刚性配准，将输入扫描映射到统计代表性模板网格，并利用流形学习空间重索引使相邻顶点索引反映局部物理邻近性。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "摘要报告PGD在保留受试者特异性解剖特征的同时提供了深度学习声学预测所需的结构一致性，其可能意义在于支持可扩展的空间音频个性化，但摘要未报告定量性能或因果效应。",
+        "evidence": [
+          "The framework employs a semi-automated landmarking strategy and a two-stage non-rigid registration pipeline to map input scans onto a statistically representative template mesh.",
+          "The results indicate that PGD successfully preserves subject-specific anatomical features while providing the structural uniformity required for deep-learning-based acoustic prediction"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "ff14de8ebb1c31f0",
+        "updated_at": "2026-10-25T07:40:08Z"
+      }
     },
     {
       "title": "Translation of transient acoustic fields",
@@ -1894,7 +1925,23 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-22",
-      "first_seen_at": "2026-10-23T07:38:51Z"
+      "first_seen_at": "2026-10-23T07:38:51Z",
+      "ai_analysis": {
+        "scientific_question": "如何将源区域的瞬态声场数据通过球谐展开与轴向平移方法转换到目标区域？",
+        "key_highlight": "提出一种基于球谐展开和Kirchhoff–Helmholtz积分的“point and shoot”轴向平移方法，用于源与目标球面之间的声场数据转换。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该方法主要为时域快速多极子方法服务，其因果性可能有助于避免非因果方法产生的伪影，但摘要未报告实际应用效果。",
+        "evidence": [
+          "A method is presented for the translation of acoustic field data from a source to a target region.",
+          "The method is causal and thus avoids artifacts generated in methods that are not based on intrinsically causal formulations."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "c51d6baa1829f96a",
+        "updated_at": "2026-10-25T07:40:10Z"
+      }
     },
     {
       "title": "What is Sudden Sensorineural Hearing Loss?",
@@ -2737,7 +2784,68 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-16",
-      "first_seen_at": "2026-10-17T07:01:41Z"
+      "first_seen_at": "2026-10-17T07:01:41Z",
+      "ai_analysis": {
+        "scientific_question": "电极位置和相位间期（IPG）如何影响儿童与成人人工耳蜗使用者的eCAP测量指标？",
+        "key_highlight": "增大IPG一致地影响eCAP阈值、幅度和AGF斜率，而常规eCAP指标呈现沿耳蜗阵列的区域性差异，年龄相关差异较少。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "IPG敏感的eCAP指标可能提供常规eCAP之外的电极-神经元界面补充信息，但年龄与区域依赖模式及分析方法的依赖性仍需进一步研究。",
+        "evidence": [
+          "Increasing IPG significantly affected eCAP threshold, amplitude, and AGF slope across both analytical approaches.",
+          "Conventional eCAP measures revealed distinct regional patterns across the cochlear array, whereas IPG manipulation consistently affected threshold, amplitude, and AGF slope, with group and electrode differences observed for selected measures."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "07d8c0d9ea826bca",
+        "updated_at": "2026-10-25T07:40:12Z"
+      }
+    },
+    {
+      "title": "Amygdala: Function and neural basis",
+      "authors": [
+        "Guang-Di Chen"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-16",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109839",
+      "url": "https://doi.org/10.1016/j.heares.2026.109839",
+      "abstract": "This review summarizes our current understanding of the amygdala. As an important part of the limbic system, the amygdala is highly sensitive to environmental stimuli such as sounds. Although the responses of amygdala neurons to sounds are usually not as robust as those of neurons in the primary auditory cortex, the lowest response thresholds of these neurons are consistent with the behavioral audiogram. When a threat is detected through sensory information processing, it immediately triggers a fight-or-flight response, such as freezing and heart rate increase. By learning and remembering environmental events (especially those that may cause harm) and its effects on various instinctive behaviors (such as sexual impulse and maternal behaviors) as well as emotional expressions (such as fear and aggression), it plays a crucial role in the survival and continuation of the species. The response of amygdala neurons to environmental sounds is often composed of an early sharp response component and a late slow response component. The early response is responsible for rapid processing of meaningful information (such as the presence of danger), while the late response can be related to emotional processing. Indeed, the early response of the amygdala is enhanced when there are predator cues or during fear conditioning. Sounds with different emotional tones can trigger different response patterns in the amygdala. It is well documented that the amygdala plays a crucial role in Pavlovian fear conditioning. During this process, both the conditioned stimulus (CS) and the unconditioned stimulus (US) converge on the neurons in the lateral amygdala (LA), thereby activating the central amygdala (CeA) and triggering the conditioned response. Interestingly, the amygdala can be associated with various psychiatric disorders, such as anxiety disorders, depression, and even tinnitus. The amygdala is composed of the LA, the basal lateral amygdala (BLA), the basal medial amygdala (BMA), the CeA, the medial amygdala (MeA) and the cortical amygdala (CoA). The lateral amygdala complex (LA, BLA and BMA) is mainly composed of glutamatergic pyramidal neurons (PNs, accounting for 70%-85% of the total neurons), while the CeA mainly contains GABAergic neurons (>90% of the neurons). Glutamate and GABA are the two main neurotransmitters in the amygdala. In addition, the neural activity of the amygdala can also be regulated by various neurotransmitters, neuromodulators and hormones from other areas of the brain, such as acetylcholine (ACh), dopamine (DA), serotonin (5-HT), norepinephrine (NE), and glucocorticoids. The LA receives sensory information from both the thalamus (the fast low road) and the cortex (the slow high road). The PNs in the LA can directly stimulate the projection neurons in the CeA, thereby triggering corresponding behavioral responses, such as urgent response or fear conditioning. The LA PNs can also project to the BLA and BMA for further information processing. The PNs in the BLA/BMA can directly project to the CeA or project to the hippocampus and the prefrontal cortex for processing. The rapid fear conditioning can be achieved through the fast low road. However, the information processing results through the slow high road may modulate or override the initial fear response through the fast low road. More than 90% of the neurons in the CeA are inhibitory neurons, inhibiting neural activity of the brainstem. For example, in the context of freezing behavior, they can inhibit the neural activity of the pre-Bötzinger complex, thereby suppressing breathing. The CeA also contains excitatory neurons (<10%). They can excite neurons in the hypothalamus or in the caudal pontine reticular nucleus, triggering the fight-or-flight response or leading to an enhanced auditory startle response.",
+      "last_author_affiliation": "Department of Communicative Disorders and Sciences University at Buffalo, The State University of New York at Buffalo, South Campus, 137 Cary Hall, 380 Hayes Road, Buffalo, NY, 14214, United States. Electronic address: gchen7@buffalo.edu.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Amygdala",
+        "Fear",
+        "Hearing",
+        "Learning",
+        "Tinnitus"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-16",
+      "first_seen_at": "2026-10-17T07:01:41Z",
+      "ai_analysis": {
+        "scientific_question": "综述所总结的杏仁核在声音等环境刺激加工、恐惧学习及其神经环路基础方面的当前认识是什么？",
+        "key_highlight": "杏仁核神经元对声音的反应虽不如初级听皮层神经元强烈，但其最低反应阈值与行为听力图一致，且早期尖锐反应成分负责快速处理危险等有意义信息，晚期慢反应成分可能与情绪加工有关。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "杏仁核在声音引发的恐惧条件化及焦虑障碍、抑郁甚至耳鸣中的关联提示其可能作为相关研究与干预的神经靶点，但这属于综述提出的可能意义而非因果结论。",
+        "evidence": [
+          "Although the responses of amygdala neurons to sounds are usually not as robust as those of neurons in the primary auditory cortex, the lowest response thresholds of these neurons are consistent with the behavioral audiogram.",
+          "The early response is responsible for rapid processing of meaningful information (such as the presence of danger), while the late response can be related to emotional processing."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "c17874ceec252846",
+        "updated_at": "2026-10-25T07:40:14Z"
+      }
     },
     {
       "title": "Assessing the feasibility of dense seismic networks in Southern California for recording primary and secondary sonic booms",
@@ -2777,6 +2885,32 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-16",
       "first_seen_at": "2026-10-17T07:01:28Z"
+    },
+    {
+      "title": "Extensive dendritic arborizations of rat SPON neurons",
+      "authors": [
+        "Randy Kulesza"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-16",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109841",
+      "url": "https://doi.org/10.1016/j.heares.2026.109841",
+      "abstract": "The rat superior paraolivary nucleus (SPON) is a prominent cell group in the superior olivary complex (SOC). The SOC functions in several aspects of hearing, including sound source localization, coding spectral and temporal features of sounds and descending modulation of the cochlea. Neurons in the rat SPON appear to function mainly in coding sound offsets through GABAergic projections to the midbrain and thalamus. SPON neurons have multipolar dendritic arbors, and several qualitative studies have identified dendritic branches extending beyond the nucleus and into the nearby ventral nucleus of the trapezoid body (VNTB). The purpose of this study was to gauge the predominance of SPON dendrites extending into the VNTB, determine if other SOC nuclei receive such dendrites and perform a quantitative analysis of SPON dendritic arbors. A combination of immunohistochemistry and Golgi impregnations revealed that rat SPON neurons send dendrites in all directions, and the majority of neurons have dendrites that extend into the VNTB and frequently into the dorsal ribbon of the SOC (dSOC). Additionally, there were regional differences in SPON dendrites, including orientation angle, arbor shape and which SOC nuclei were reached, which may impact response properties and dynamic range. The function of SPON dendrites extending into adjacent nuclei is unclear but may involve sampling of descending input from the inferior colliculus and auditory cortex.",
+      "last_author_affiliation": "Department of Anatomy, Lake Erie College of Osteopathic Medicine, Erie, PA, USA. Electronic address: rkulesza@lecom.edu.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Brainstem",
+        "Circuits",
+        "Hearing"
+      ],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-16",
+      "first_seen_at": "2026-10-17T07:01:41Z"
     },
     {
       "title": "Generalization of deep neural-network based noise reduction to accented-English speech",
@@ -6200,6 +6334,21 @@
     {
       "title": "Editorial Board",
       "authors": [],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00266-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-02T07:09:02Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-10-01",
       "publication_date_precision": "day",
@@ -6212,21 +6361,6 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00266-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Effective model of fiber Bragg gratings for simulation of ultrasonic guided wave measurements using spectral finite elements",
@@ -6480,23 +6614,6 @@
       ],
       "source": "crossref",
       "first_seen_at": "2026-10-23T07:39:08Z"
-    },
-    {
-      "title": "Extensive dendritic arborizations of rat SPON neurons",
-      "authors": [
-        "Randy Kulesza"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109841",
-      "url": "https://doi.org/10.1016/j.heares.2026.109841",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-10-17T07:01:41Z"
     },
     {
       "title": "Hearing healthy: physical activity moderates the association between age-related hearing loss and brain volume",
@@ -7094,6 +7211,29 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
+    },
+    {
+      "title": "Pulse-rate effects on single- and multi-channel envelope processing and consonant identification in cochlear implant users",
+      "authors": [
+        "Mahan Azadpour",
+        "Jonathan Neukam",
+        "Nicole Capach",
+        "Mario Svirsky"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109846",
+      "url": "https://doi.org/10.1016/j.heares.2026.109846",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "cochlear implant"
+      ],
+      "source": "crossref",
+      "first_seen_at": "2026-10-25T07:39:17Z"
     },
     {
       "title": "Quantifying parameter uncertainty in a three-parameter model of speech and voice adaptation using early- and late-window pitch-shift responses",
@@ -9557,22 +9697,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046572",
-      "url": "https://doi.org/10.1121/10.0046572",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:56Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -9585,6 +9709,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:59Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046572",
+      "url": "https://doi.org/10.1121/10.0046572",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:56Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -20317,22 +20457,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -20345,6 +20469,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -49279,18 +49419,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -49311,17 +49450,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -58546,22 +58686,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -58574,6 +58698,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -65676,23 +65816,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -65706,6 +65829,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -69257,8 +69397,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -69272,8 +69412,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -74794,8 +74934,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -74809,8 +74949,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
