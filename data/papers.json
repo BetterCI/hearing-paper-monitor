@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T07:53:57Z",
+  "generated_at": "2026-10-27T08:00:49Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level.",
@@ -1205,15 +1205,15 @@
       "first_seen_at": "2026-08-28T14:24:28Z"
     },
     {
-      "title": "Tinnitus and decreased sound tolerance in military Veterans: Relationship with cochlear deafferentation",
+      "title": "Tinnitus and decreased sound tolerance in military Veterans: Relationship with cochlear deafferentation.",
       "authors": [
-        "Haley A. Szabo",
-        "Sarah M. Theodoroff",
-        "Garnett P. McMillan",
-        "Sean D. Kampel",
-        "Anne E. Heassler",
-        "Nicole K. Whittle",
-        "Naomi F. Bramhall"
+        "Haley A Szabo",
+        "Sarah M Theodoroff",
+        "Garnett P McMillan",
+        "Sean D Kampel",
+        "Anne E Heassler",
+        "Nicole K Whittle",
+        "Naomi F Bramhall"
       ],
       "journal": "Hearing Research",
       "publication_date": "2026-11-01",
@@ -1233,6 +1233,7 @@
         "abstract_hash": "37515be0feef5ab0",
         "updated_at": "2026-09-17T07:48:11Z"
       },
+      "first_author_affiliation": "VA National Center for Rehabilitative Auditory Research (NCRAR), VA Portland Health Care System, Portland, OR 3710 SW US Veterans Hospital Road/P5 NCRAR, Portland, OR, 97239, United States.",
       "last_author_affiliation": "VA National Center for Rehabilitative Auditory Research (NCRAR), VA Portland Health Care System, Portland, OR 3710 SW US Veterans Hospital Road/P5 NCRAR, Portland, OR, 97239, United States; Department of Otolaryngology - Head & Neck Surgery, Oregon Health & Science University, Portland, OR 3181 SW Sam Jackson Park Rd MC L335A, Portland, OR, 97239, United States. Electronic address: Naomi.Bramhall@va.gov.",
       "publication_stage": "early_access",
       "section": null,
@@ -1249,7 +1250,7 @@
         "auditory physiology",
         "clinical audiology"
       ],
-      "source": "crossref+pubmed",
+      "source": "pubmed",
       "available_online_date": "2026-08-27",
       "first_seen_at": "2026-09-16T07:46:16Z"
     },
@@ -1297,6 +1298,293 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-02",
       "first_seen_at": "2026-09-03T07:13:37Z"
+    },
+    {
+      "title": "Basin-scale ocean acoustic telemetry: Digital waveforms for transmitting oceanographic corrections",
+      "authors": [
+        "Kay L. Gemba",
+        "Nicholas C. Durofchalk",
+        "Bruce Allen",
+        "Demetrius Bush",
+        "Geoffrey F. Edelmann"
+      ],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-10-26",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046923",
+      "url": "https://doi.org/10.1121/10.0046923",
+      "abstract": "Basin-scale acoustic positioning, navigation, and timing are affected by ocean variability, which introduces uncertainty in acoustic travel time and position. Here, a cyclic code-shift keying (CCSK) direct-sequence spread-spectrum waveform is demonstrated for transmitting compact digital information over a 3500 km acoustic path. Information is encoded in cyclic shifts of a maximum-length sequence while retaining matched-filter compression and processing gain. Analysis of 42 transmissions at a 75-Hz center frequency shows symbol error rates of 4.8% or less for the first six symbols, with later-symbol performance degrading, consistent with finite channel coherence. A conceptual method for quantizing effective travel-time corrections and mapping them to the CCSK symbol alphabet is presented, providing a pathway toward integrated basin-scale navigation and ocean observation.",
+      "first_author_affiliation": "Department of Physics, Naval Postgraduate School 1 , Monterey, California 93943,",
+      "last_author_affiliation": "Acoustics Division, Code 7160, U.S. Naval Research Laboratory 2 , Washington, D.C. 20375,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046923",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-10-26",
+      "first_seen_at": "2026-10-27T07:58:44Z",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/10/108401/3407409/Basin-scale-ocean-acoustic-telemetry-Digital",
+      "media_checked_at": "2026-10-27T08:00:58Z",
+      "open_access_image_checked_at": "2026-10-27T08:00:58Z",
+      "ai_analysis": {
+        "scientific_question": "该研究探讨如何利用CCSK直接序列扩频波形在约3500 km的深海声学路径上传输紧凑数字信息，以应对海洋变化对声传播时间与定位的影响。",
+        "key_highlight": "在75 Hz中心频率下进行的42次传输分析显示，前六个符号的符号错误率不超过4.8%，而后续符号性能下降，这与有限信道相干性一致。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "摘要提出了一种将有效传播时间修正量量化并映射到CCSK符号字母表的概念性方法，可能为盆地尺度导航与海洋观测的集成提供路径，但这属于设想而非已验证结论。",
+        "evidence": [
+          "Analysis of 42 transmissions at a 75-Hz center frequency shows symbol error rates of 4.8% or less for the first six symbols, with later-symbol performance degrading, consistent with finite channel coherence.",
+          "A conceptual method for quantizing effective travel-time corrections and mapping them to the CCSK symbol alphabet is presented"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "4d624d6e67e8f462",
+        "updated_at": "2026-10-27T08:01:14Z"
+      }
+    },
+    {
+      "title": "Dual-frequency remote wake-up signal detection for deep-sea incomplete channels via structure-semantic collaborative distillation",
+      "authors": [
+        "Minhao Wang",
+        "Junjie Shi",
+        "Dajun Sun",
+        "Cuie Zheng"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-10-26",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046925",
+      "url": "https://doi.org/10.1121/10.0046925",
+      "abstract": "Deep-sea transponders serve as critical infrastructure, yet their operational lifetimes are significantly constrained by limited energy supplies. Consequently, acoustic wake-up mechanisms are essential to mitigate standby power consumption. These transponders are typically deployed on the seabed, deviating from the SOFAR channel axis, and remote transmission relies on incomplete channels characterized by multiple surface-bottom reflections. In such environments, severe and time-varying multipath effects degrade the detection performance of distant weak signals. To address these challenges, this paper proposes a robust detection framework that integrates a dual-frequency signal mechanism with lightweight knowledge distillation. First, dual-frequency signals are employed to circumvent the need for complex multipath channel estimation. Second, a TabPFN-based teacher network is constructed to extract robust feature representations. A structural-semantic collaborative distillation strategy is subsequently applied to align the student model with the teacher in both the embedding and logit spaces. This approach effectively transfers generalization capabilities to a lightweight micro-network comprising only 832 parameters, achieving high-precision diversity detection using a computationally efficient architecture. Sea experiment results demonstrate that the proposed method achieves a detection probability of 95.48% and a false alarm rate of 0.04% under incomplete channel conditions at ranges from 0 to 100 km.",
+      "first_author_affiliation": "National Key Laboratory of Underwater Acoustic Technology, Harbin Engineering University 1 , Harbin, 150001,",
+      "last_author_affiliation": "National Key Laboratory of Underwater Acoustic Technology, Harbin Engineering University 1 , Harbin, 150001,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-26",
+      "first_seen_at": "2026-10-27T07:58:39Z",
+      "ai_analysis": {
+        "scientific_question": "在深海非完整信道、强时变多径条件下，如何实现远距离弱唤醒信号的高精度检测？",
+        "key_highlight": "论文提出双频信号机制与结构-语义协同蒸馏相结合的轻量检测框架，并在海试中报告了95.48%的检测概率和0.04%的虚警率。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该结果表明所提框架在0至100 km非完整信道条件下具备潜在应用价值，但其泛化性与实际部署效果仍需进一步验证。",
+        "evidence": [
+          "Sea experiment results demonstrate that the proposed method achieves a detection probability of 95.48% and a false alarm rate of 0.04% under incomplete channel conditions at ranges from 0 to 100 km.",
+          "This approach effectively transfers generalization capabilities to a lightweight micro-network comprising only 832 parameters, achieving high-precision diversity detection using a computationally efficient architecture."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "c58b789057ab2784",
+        "updated_at": "2026-10-27T08:01:20Z"
+      }
+    },
+    {
+      "title": "Harnessing time: Leveraging chronotype asynchrony to promote efficient speech learning",
+      "authors": [
+        "A. L. van Zelst",
+        "F. S. Earle"
+      ],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-10-26",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046951",
+      "url": "https://doi.org/10.1121/10.0046951",
+      "abstract": "This study examined chronotype synchrony effects on learning a nonnative speech contrast. Fifty-nine young adult native speakers of American English completed a circadian preference questionnaire and trained on producing a Danish vowel contrast in the morning or evening. Perceptual change (discrimination and identification, n = 26) and production change (acoustic distance from a native model, n = 59) were assessed. Identification improved with training, but improvement did not depend on circadian preference or training time. Production gains were greater when training occurred outside learners' preferred time, although the effect was small, suggesting that speech-motor learning may benefit from reduced executive control.",
+      "first_author_affiliation": "Department of Communication Sciences and Disorders, Florida Atlantic University 1 , Boca Raton, Florida 33431,",
+      "last_author_affiliation": "Department of Communication Sciences and Disorders, University of Delaware 2 , Newark, Delaware 19713,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046951",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-10-26",
+      "first_seen_at": "2026-10-27T07:58:44Z",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/10/105204/3407359/Harnessing-time-Leveraging-chronotype-asynchrony",
+      "media_checked_at": "2026-10-27T08:00:59Z",
+      "open_access_image_checked_at": "2026-10-27T08:00:59Z",
+      "ai_analysis": {
+        "scientific_question": "生物钟类型同步性是否影响非母语语音对立的学习效果？",
+        "key_highlight": "在非偏好时段训练时，产出增益更大，但效应较小；识别改善与生物钟偏好或训练时间无关。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "结果提示语音运动学习可能受益于执行控制降低，但这属于作者提出的可能解释，尚需进一步验证。",
+        "evidence": [
+          "Identification improved with training, but improvement did not depend on circadian preference or training time.",
+          "Production gains were greater when training occurred outside learners' preferred time, although the effect was small"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "1b03203dd1c7d183",
+        "updated_at": "2026-10-27T08:01:16Z"
+      }
+    },
+    {
+      "title": "Solution of the second-moment parabolic equation in a refractive medium by the alternating-direction implicit method",
+      "authors": [
+        "D. Keith Wilson",
+        "Vladimir E. Ostashev",
+        "Chris L. Pettit"
+      ],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-10-26",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046857",
+      "url": "https://doi.org/10.1121/10.0046857",
+      "abstract": "The second-moment parabolic equation (PE) simultaneously incorporates refraction, turbulent scattering, and ground interactions. Direct numerical solution of this equation circumvents the need for creating and propagating sound through a large ensemble of randomized turbulence calculations. In previous research, numerical methods were proposed for solving the second-moment PE based on perturbative methods and Cholesky factorization. Here, an efficient computational approach based on the alternating-direction implicit (ADI) method is described. For large ensembles, averages converge on the second-moment ADI calculations. Hence, the ADI calculation can provide a useful benchmark for wave propagation calculations in random media.",
+      "first_author_affiliation": "Center for Acoustics Research and Education, University of New Hampshire 1 , Durham, New Hampshire 03824,",
+      "last_author_affiliation": "Aerospace Engineering Department, U.S. Naval Academy 3 , 590 Holloway Road, Annapolis, Maryland, 21402-5042,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046857",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-10-26",
+      "first_seen_at": "2026-10-27T07:58:44Z",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/10/102402/3407284/Solution-of-the-second-moment-parabolic-equation",
+      "media_checked_at": "2026-10-27T08:00:59Z",
+      "open_access_image_checked_at": "2026-10-27T08:00:59Z",
+      "ai_analysis": {
+        "scientific_question": "如何用交替方向隐式（ADI）方法高效求解同时包含折射、湍流散射和地面相互作用的二阶矩抛物方程？",
+        "key_highlight": "本文描述了一种基于交替方向隐式（ADI）方法的高效计算途径，用于求解二阶矩抛物方程。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "摘要指出，在大集合情形下平均结果会收敛于二阶矩ADI计算，因此ADI计算可为随机介质中的波传播计算提供有用的基准；这是作者陈述的可能用途，而非已证实的因果结论。",
+        "evidence": [
+          "Here, an efficient computational approach based on the alternating-direction implicit (ADI) method is described.",
+          "For large ensembles, averages converge on the second-moment ADI calculations."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "afa3c22e61e65054",
+        "updated_at": "2026-10-27T08:01:18Z"
+      }
+    },
+    {
+      "title": "The Association Between Self-Perceived Auditory Disability and Psychosocial Health in a Longitudinal Cohort Study",
+      "authors": [
+        "Sophie W. T. Verdaasdonk",
+        "Marieke F. van Wier",
+        "Thadé Goderie",
+        "Sophia E. Kramer"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-10-26",
+      "publication_date_precision": "day",
+      "doi": "10.1097/aud.0000000000001899",
+      "url": "https://doi.org/10.1097/aud.0000000000001899",
+      "abstract": "Objectives: Hearing loss affects millions of people worldwide and is linked to psychosocial consequences such as loneliness, depression, and anxiety. Self-reported hearing problems may offer unique insights into emotional and social functioning beyond what audiometric tests reveal. Evidence on the association between self-perceived auditory functioning and psychosocial health in adults remains scarce. This study seeks to explore this relationship. Design: This study used baseline and follow-up data from the Netherlands Longitudinal Study on Hearing, a prospective cohort study with adults aged 18 to 70 years at enrollment. Self-perceived auditory disability was assessed using the Amsterdam Inventory for Auditory Disability and Handicap (AIADH), while psychosocial outcomes were measured using validated questionnaires assessing loneliness, distress, depression, anxiety, and somatization. The associations between self-perceived auditory disability and psychosocial outcomes were analyzed using linear mixed-effects models and generalized estimating equations, accounting for repeated measurements, potential effect modifiers, and confounders. Results: A total of 2897 participants (63% female; mean age at baseline 48.1 years) contributed data across up to four measurement rounds. Higher self-perceived auditory disability (AIADH) was consistently associated with worse psychosocial outcomes across all domains, showing graded associations. Compared with participants reporting little or no auditory disability (AIADH 0 to 6), those in the highest AIADH quartile (38 to 84) reported significantly higher loneliness scores (scale 0 to 11; B = 1.30; 95% confidence interval [CI]: 0.98 to 1.61), including both social loneliness (scale 0 to 5; B = 0.69; 95% CI: 0.52 to 0.87) and emotional loneliness (scale 0 to 6; B = 0.61; 95% CI: 0.41 to 0.82). Psychological distress (scale 0 to 32) increased progressively with higher AIADH scores, with participants in the highest quartile reporting on average 3.96 points higher distress levels than those in the lowest quartile (95% CI: 3.34 to 4.58). Higher AIADH scores were also associated with higher mean levels of depressive symptoms (scale 0 to 12; ratio of means [RoM] up to 4.50; 95% CI: 3.02 to 6.67), anxiety symptoms (scale 0 to 24; RoM up to 3.13; 95% CI: 2.36 to 4.15), and somatization symptoms (scale 0 to 32; RoM = 1.58; 95% CI: 1.46 to 1.71). Effect modification was observed in specific analyses by age, hearing device use, tinnitus, and age of onset of hearing loss. All associations remained statistically significant after adjustment for objective speech-in-noise performance. Conclusions: These findings highlight the broad psychosocial impact of self-reported hearing difficulties, emphasizing that hearing loss affects not only communication but also mental well-being. Incorporating self-reported hearing assessments into audiological evaluations and providing psychosocial support when indicated alongside hearing interventions may improve overall well-being.",
+      "first_author_affiliation": "Amsterdam UMC, Vrije Universiteit Amsterdam, Otolaryngology-Head and Neck Surgery, Section Ear and Hearing, Amsterdam Public Health Research Institute, Amsterdam, The Netherlands.",
+      "last_author_affiliation": "Amsterdam UMC, Vrije Universiteit Amsterdam, Otolaryngology-Head and Neck Surgery, Section Ear and Hearing, Amsterdam Public Health Research Institute, Amsterdam, The Netherlands.",
+      "open_access": true,
+      "open_access_url": "https://www.ovid.com/10.1097/AUD.0000000000001899",
+      "open_access_source": "crossref_license",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Adults",
+        "Amsterdam Inventory for Auditory Disability and Handicap",
+        "Anxiety",
+        "Depression",
+        "Hearing loss",
+        "Loneliness",
+        "Longitudinal cohort study",
+        "Netherlands Longitudinal Study on Hearing",
+        "Psychosocial health",
+        "Self-perceived auditory disability",
+        "Self-reported hearing"
+      ],
+      "tags": [
+        "clinical audiology",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-26",
+      "first_seen_at": "2026-10-27T07:59:16Z",
+      "full_text_url": "https://www.ovid.com/jnls/ear-hearing/fulltext/10.1097/aud.0000000000001899~the-association-between-self-perceived-auditory-disability",
+      "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
+      "media_checked_at": "2026-10-27T08:01:00Z",
+      "open_access_image_checked_at": "2026-10-27T08:00:59Z",
+      "ai_analysis": {
+        "scientific_question": "在成人纵向队列中，自我感知的听觉障碍与孤独、痛苦、抑郁、焦虑及躯体化等心理社会健康结局之间是否存在关联？",
+        "key_highlight": "较高的自我感知听觉障碍（AIADH评分）在所有心理社会领域均与更差的结局呈分级关联，且在调整客观噪声下言语表现后仍具统计学显著性。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "这些关联提示将自报听力评估纳入听力学评价并酌情提供心理社会支持可能有助于整体健康，但摘要所述为观察性关联，尚不能推断因果。",
+        "evidence": [
+          "Higher self-perceived auditory disability (AIADH) was consistently associated with worse psychosocial outcomes across all domains, showing graded associations.",
+          "All associations remained statistically significant after adjustment for objective speech-in-noise performance."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "c8e1c0c9da156c6c",
+        "updated_at": "2026-10-27T08:01:12Z"
+      }
+    },
+    {
+      "title": "Whisper automatic speech recognition and humans are similarly sensitive to accents but use sentence context differently",
+      "authors": [
+        "Junrong Chen",
+        "Jan Kwong",
+        "Sarah Paull",
+        "Sarah C. Creel"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-10-26",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046916",
+      "url": "https://doi.org/10.1121/10.0046916",
+      "abstract": "Despite advancements in speech recognition technology, questions remain about model generalizability and how many models mirror human recognition. These questions are addressed by comparing OpenAI's Whisper model and 75 human transcribers on 300 English sentences (20 speakers, half female, half male, half US-accented, half Spanish-accented). Sentences ended in 100 target words, each occurring in one sensical sentence (The monkey ate the banana), one nonsensical (The monkey ate the shark), and one nonsensical + nonword (The runkey ate the shark). Target word transcription accuracy was examined both in sentences and in isolation (recordings excised from same sentences). Human transcriptions replicated existing work. There were two major findings. First, the model transcribed Spanish-accented speech less well, and it benefited from sensical contexts, particularly for Spanish-accented speech. Second, sentence context affected models differently than humans: Humans benefited only from sensical sentences (with final words in-sentence more accurate than in isolation), while Whisper benefited from any sentence context. Humans and Whisper showed similar patterns of talker difficulty but different error patterns on isolated words, possibly due to Whisper's word-prediction model being overly restrictive in short utterances. Suggestions for ASR development and the possible practical and scientific contributions of automatic speech recognition to understanding human accent processing are discussed.",
+      "first_author_affiliation": "Cognitive Science, University of California, San Diego , La Jolla, California 92093,",
+      "last_author_affiliation": "Cognitive Science, University of California, San Diego , La Jolla, California 92093,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046916",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": "Speech Communication",
+      "keywords": [],
+      "tags": [
+        "priority section",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-26",
+      "first_seen_at": "2026-10-27T07:58:39Z",
+      "full_text_url": "https://pubs.aip.org/jasa/article/160/4/3477/3407283/Whisper-automatic-speech-recognition-and-humans",
+      "media_checked_at": "2026-10-27T08:01:00Z",
+      "open_access_image_checked_at": "2026-10-27T08:01:00Z",
+      "ai_analysis": {
+        "scientific_question": "Whisper自动语音识别模型与人类听写者在口音敏感性和句子语境利用上是否相似？",
+        "key_highlight": "两者对口音的敏感模式相似，但人类仅从有意义句子语境中获益，而Whisper从任何句子语境中获益。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "研究提示ASR开发可参考人类语境利用方式，并可能为理解人类口音加工提供工具，但摘要仅作讨论性表述，未给出因果结论。",
+        "evidence": [
+          "Humans benefited only from sensical sentences (with final words in-sentence more accurate than in isolation), while Whisper benefited from any sentence context.",
+          "the model transcribed Spanish-accented speech less well, and it benefited from sensical contexts, particularly for Spanish-accented speech"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "0107bf49a952885d",
+        "updated_at": "2026-10-27T08:01:22Z"
+      }
     },
     {
       "title": "A reduced-order semi-analytical model for load-modulated acoustic reflection from coated Tonpilz transducers",
@@ -2767,6 +3055,22 @@
       "doi": "10.1016/j.heares.2026.109840",
       "url": "https://doi.org/10.1016/j.heares.2026.109840",
       "abstract": "Otitis media (OM) can cause conductive and sensorineural hearing loss through ossicular damage and cochlear injury. Yet the structural time course remains poorly characterized, and rodent hearing studies rarely assess middle ear disease, despite its potential to confound sensorineural hearing loss assessment. To characterize ossicular chain changes in acute and chronic OM using synchrotron micro-computed tomography (microCT) and identify routes of middle-to-inner-ear spread of infection. Bilateral OM was induced in mice by intranasal inoculation with Bordetella pseudohinzii; controls received intranasal phosphate-buffered saline (PBS). Ears were evaluated at 7 days (acute OM, N= 8) or 28 days (chronic OM, N= 11) post-inoculation, with 9 control ears. Temporal bones were imaged with synchrotron microCT (effective pixel size: 1.625 µm, resolution: > 3.3 µm), segmented, and reconstructed in 3D. Ossicles were assessed for erosion, perforation, dislocation, or fracture at defined landmarks. Group differences were compared using a cluster permutation test, and p-values were adjusted using the Benjamini-Hochberg false discovery rate (FDR) procedure. Structural abnormalities occurred across all OM groups, with the incus and stapes most affected. Abnormalities of the incus body and short process, as well as the malleolar apophysis, were observed. Stapes footplate erosion was absent in controls but was seen in all the acute-OM ears here investigated (8), decreasing to 27.3% (3/11) at chronic time points. The stapes footplate is vulnerable to full-thickness erosion starting at acute time points. This site may harbor persistent biofilm-related disease in humans and is an important confounding variable in rodent hearing research on middle ear health. Future research should examine fluid or substance passage through the footplate defect into the inner ear.",
+      "ai_analysis": {
+        "scientific_question": "在小鼠急性与慢性中耳炎中，听骨链（尤其镫骨足板）的结构改变随时间如何演变，以及中耳到内耳的感染可能通过何种途径扩散？",
+        "key_highlight": "镫骨足板全层侵蚀在对照耳中缺失，但在所研究的全部急性期中耳炎耳（8只）中出现，慢性期降至27.3%（3/11）。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "作者提出未来应研究液体或物质是否经足板缺损进入内耳，并提示该部位可能是人类持续性生物膜相关疾病的所在，也是啮齿类听力研究中需考虑的重要混杂变量。",
+        "evidence": [
+          "Stapes footplate erosion was absent in controls but was seen in all the acute-OM ears here investigated (8), decreasing to 27.3% (3/11) at chronic time points.",
+          "The stapes footplate is vulnerable to full-thickness erosion starting at acute time points."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "0745c4096f4f0971",
+        "updated_at": "2026-10-26T07:54:23Z"
+      },
       "last_author_affiliation": "Department of Otolaryngology, Feinberg School of Medicine, Northwestern University, Chicago, IL, USA; Hugh Knowles Center for Clinical and Basic Science in Hearing and Its Disorders, Northwestern University, Evanston, IL, USA; Department of Biomedical Engineering, Northwestern University, Evanston, IL, USA; Department of Communication Sciences and Disorders, Northwestern University, Evanston, IL, USA. Electronic address: cri529@northwestern.edu.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
@@ -2785,23 +3089,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-16",
-      "first_seen_at": "2026-10-16T07:17:30Z",
-      "ai_analysis": {
-        "scientific_question": "在小鼠急性与慢性中耳炎中，听骨链（尤其镫骨足板）的结构改变随时间如何演变，以及中耳到内耳的感染可能通过何种途径扩散？",
-        "key_highlight": "镫骨足板全层侵蚀在对照耳中缺失，但在所研究的全部急性期中耳炎耳（8只）中出现，慢性期降至27.3%（3/11）。",
-        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
-        "research_implication": "作者提出未来应研究液体或物质是否经足板缺损进入内耳，并提示该部位可能是人类持续性生物膜相关疾病的所在，也是啮齿类听力研究中需考虑的重要混杂变量。",
-        "evidence": [
-          "Stapes footplate erosion was absent in controls but was seen in all the acute-OM ears here investigated (8), decreasing to 27.3% (3/11) at chronic time points.",
-          "The stapes footplate is vulnerable to full-thickness erosion starting at acute time points."
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "0745c4096f4f0971",
-        "updated_at": "2026-10-26T07:54:23Z"
-      }
+      "first_seen_at": "2026-10-16T07:17:30Z"
     },
     {
       "title": "Age-dependent variation in eCAP measures across cochlear electrode locations: effects of interphase gap in cochlear implant users",
@@ -2947,20 +3235,6 @@
       "doi": "10.1016/j.heares.2026.109841",
       "url": "https://doi.org/10.1016/j.heares.2026.109841",
       "abstract": "The rat superior paraolivary nucleus (SPON) is a prominent cell group in the superior olivary complex (SOC). The SOC functions in several aspects of hearing, including sound source localization, coding spectral and temporal features of sounds and descending modulation of the cochlea. Neurons in the rat SPON appear to function mainly in coding sound offsets through GABAergic projections to the midbrain and thalamus. SPON neurons have multipolar dendritic arbors, and several qualitative studies have identified dendritic branches extending beyond the nucleus and into the nearby ventral nucleus of the trapezoid body (VNTB). The purpose of this study was to gauge the predominance of SPON dendrites extending into the VNTB, determine if other SOC nuclei receive such dendrites and perform a quantitative analysis of SPON dendritic arbors. A combination of immunohistochemistry and Golgi impregnations revealed that rat SPON neurons send dendrites in all directions, and the majority of neurons have dendrites that extend into the VNTB and frequently into the dorsal ribbon of the SOC (dSOC). Additionally, there were regional differences in SPON dendrites, including orientation angle, arbor shape and which SOC nuclei were reached, which may impact response properties and dynamic range. The function of SPON dendrites extending into adjacent nuclei is unclear but may involve sampling of descending input from the inferior colliculus and auditory cortex.",
-      "last_author_affiliation": "Department of Anatomy, Lake Erie College of Osteopathic Medicine, Erie, PA, USA. Electronic address: rkulesza@lecom.edu.",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Brainstem",
-        "Circuits",
-        "Hearing"
-      ],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-16",
-      "first_seen_at": "2026-10-17T07:01:41Z",
       "ai_analysis": {
         "scientific_question": "大鼠SPON神经元的树突在多大程度上延伸至VNTB及其他上橄榄复合体核团，其树突分支的定量特征如何？",
         "key_highlight": "免疫组化与高尔基浸染显示，大鼠SPON神经元向各方向发出树突，多数神经元的树突延伸至VNTB，并常延伸至SOC背侧带（dSOC）。",
@@ -2976,7 +3250,21 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "97ffbcc86e3acfbb",
         "updated_at": "2026-10-26T07:54:21Z"
-      }
+      },
+      "last_author_affiliation": "Department of Anatomy, Lake Erie College of Osteopathic Medicine, Erie, PA, USA. Electronic address: rkulesza@lecom.edu.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Brainstem",
+        "Circuits",
+        "Hearing"
+      ],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-16",
+      "first_seen_at": "2026-10-17T07:01:41Z"
     },
     {
       "title": "Generalization of deep neural-network based noise reduction to accented-English speech",
@@ -4263,6 +4551,41 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-12",
       "first_seen_at": "2026-10-13T09:31:12Z"
+    },
+    {
+      "title": "Acoustic masking of electric stimulation at basal and extra-cochlear sites",
+      "authors": [
+        "Patrick Hinz",
+        "Waldo Nogueira"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-12",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109835",
+      "url": "https://doi.org/10.1016/j.heares.2026.109835",
+      "abstract": "Cochlear implant (CI) candidates with residual low-frequency hearing increasingly receive hearing-preserving electrode arrays to enable electric-acoustic stimulation (EAS). However, assessing very low-frequency hearing in newborns and young children remains difficult. Previous work has shown that acoustic stimulation can mask electrically evoked auditory percepts when stimulation sites are spatially separated. Whether such masking also occurs when electric stimulation is delivered near the round window (RW), prior to cochlear insertion, remains unclear. This study investigated ipsilateral acoustic masking of electric stimulation delivered at apical, basal, and near-RW sites in 12 EAS users with residual low-frequency hearing implanted with short or partially inserted electrode arrays. Using a psychophysical paradigm, threshold elevations of electric pulse trains were measured during simultaneous acoustic stimulation. Electric stimulation was applied at extra-cochlear RW locations and intra-cochlear basal and apical electrodes, while stimulation parameters were systematically varied. With Individually optimized parameters, electric stimulation near the RW reliably evoked auditory percepts without side effects in 8 of 12 participants, though optimal stimulation parameters and masking strength varied across participants. Strong acoustic masking was consistently observed for apical stimulation, whereas weaker but measurable masking occurred for basal and RW stimulation. A cochlear lumped-parameter model indicated that approximately 5% of current delivered at the RW can reach apical regions, explaining the observed masking by low-frequency acoustic tones. Masking strength correlated with residual hearing for apical stimulation only. These findings indicate that acoustic masking of apical electric stimulation, which correlated with residual hearing, holds potential as a diagnostic tool for assessing low-frequency hearing post-operatively. The detection of masking during both RW and basal stimulation represents a promising result, indicating that these stimulation paradigms can produce quantifiable effects. Given the considerable variability observed among participants, further investigation is required to establish the extent to which masking measures reflect residual hearing or hearing loss. Nonetheless, these results provide novel insight into auditory perception and side effects associated with basal and extra-cochlear electric stimulation, informing future efforts to optimize this approach for low-frequency hearing assessment.",
+      "last_author_affiliation": "Department of Otolaryngology, Hannover Medical School, Hannover, Germany; Cluster of Excellence Hearing4all, Germany; Institució Catalana de Recerca i Estudis Avançats (ICREA), Spain; Institut de Recerca Sant Pau (IR Sant Pau), Barcelona, Spain; Department of Microelectronics and Electronic Systems and Institute of Neuroscience, Universitat Autònoma de Barcelona, Spain. Electronic address: nogueiravazquez.waldo@mh-hannover.de.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Diagnostic",
+        "EAS",
+        "Electric-acoustic interaction",
+        "Ipsilateral masking",
+        "Low frequency",
+        "Round window",
+        "Side-effects",
+        "Simultaneous masking"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology",
+        "cochlear implant",
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-12",
+      "first_seen_at": "2026-10-13T09:31:29Z"
     },
     {
       "title": "Active noise cancellation extends the benefit of AI speech enhancement in real hearing-aid recordings",
@@ -5772,27 +6095,6 @@
       "first_seen_at": "2026-07-11T05:23:40Z"
     },
     {
-      "title": "Acoustic Masking of Electric Stimulation at Basal and Extra-Cochlear Sites",
-      "authors": [
-        "Patrick Hinz",
-        "Waldo Nogueira"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109835",
-      "url": "https://doi.org/10.1016/j.heares.2026.109835",
-      "abstract": null,
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "auditory physiology",
-        "psychoacoustics"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-10-13T09:31:29Z"
-    },
-    {
       "title": "Acoustic emission mechanisms of bubble detachment and pinch-off",
       "authors": [
         "Mingyue Kuang",
@@ -6400,6 +6702,21 @@
     {
       "title": "Editorial Board",
       "authors": [],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00266-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-02T07:09:02Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-10-01",
       "publication_date_precision": "day",
@@ -6412,21 +6729,6 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00266-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Effective model of fiber Bragg gratings for simulation of ultrasonic guided wave measurements using spectral finite elements",
@@ -9763,22 +10065,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046572",
-      "url": "https://doi.org/10.1121/10.0046572",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:56Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -9791,6 +10077,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:59Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046572",
+      "url": "https://doi.org/10.1121/10.0046572",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:56Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -20523,22 +20825,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -20551,6 +20837,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -21845,13 +22147,6 @@
       "doi": "10.1121/10.0045474",
       "url": "https://doi.org/10.1121/10.0045474",
       "abstract": "The now-retired Delta IV Heavy (DIVH) rocket produced a comparatively subdued acoustic signature for its size and power. With a triple-core configuration powered by three RS-68A engines, DIVH generated 9.4 MN (2.1 million lbf) of liftoff thrust, yet acoustic measurements indicate it was a few decibels quieter than Falcon 9, which consists of nine clustered engines on a single core and produces 7.6 MN (1.7 million lbf) of thrust. This contrast raises questions about how propulsion configuration shapes the sounds of launches and how the “sounds of freedom” associated with access to space might be influenced by multiple-jet interactions. This work presents a synthesis of acoustic data from three DIVH launches, interpreted in the context of prior studies on multiple-jet and multiple-scatterer acoustics. Measured sound power levels and directivity trends are compared with published twin-jet results to assess whether observed reductions are consistent with known interference and scattering mechanisms. Although the literature has not yet addressed sound power reductions, deviations of a few decibels in directivity are consistent with multi-source predictions. Findings suggest pathways for reducing acoustic impact through vehicle design and motivations for further analytical research on multiple-jet interactions. [Work supported by the U.S. Space Force through USACE.]",
-      "first_author_affiliation": "Phys. and Astronomy, Brigham Young Univ., Brigham Young University, N 283 Carl F. Eyring Sci. Ctr., Provo, UT 84604, npuls@byu.edu",
-      "last_author_affiliation": "Dept. of Phys. and Astronomy, Brigham Young Univ., Provo, UT",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z",
       "ai_analysis": {
         "scientific_question": "推进系统构型（多喷管相互作用）如何影响运载火箭发射时的声学特征，尤其是声功率与指向性？",
         "key_highlight": "Delta IV Heavy 在起飞推力高于 Falcon 9 的情况下，实测声学信号却低数分贝，这一对比被置于多喷管与多散射体声学的既有研究框架中加以解释。",
@@ -21867,7 +22162,14 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "cfcc8cd41c0d4f8f",
         "updated_at": "2026-10-26T07:54:39Z"
-      }
+      },
+      "first_author_affiliation": "Phys. and Astronomy, Brigham Young Univ., Brigham Young University, N 283 Carl F. Eyring Sci. Ctr., Provo, UT 84604, npuls@byu.edu",
+      "last_author_affiliation": "Dept. of Phys. and Astronomy, Brigham Young Univ., Provo, UT",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-10-04T13:29:21Z"
     },
     {
       "title": "A rapid simulation tool for end-to-end underwater acoustic measurements",
@@ -21880,13 +22182,6 @@
       "doi": "10.1121/10.0045273",
       "url": "https://doi.org/10.1121/10.0045273",
       "abstract": "Characterizing underwater acoustic transducers often involves navigating trade-offs between signal-to-noise ratio, far-field conditions, and physical constraints like tank size, depth, and fixture geometry. This presentation introduces a lightweight simulation tool developed to enable engineers and researchers to rapidly model and optimize entire measurement systems. This physics-based virtual test bed models the complete signal chain of interconnected hardware components. Users can define parameters for each stage of the signal chain, including: signal (tonal, noise, chirp waveforms), DACs (bit depth, voltage range), amplifiers (Gain, noise, THD), transducers (impedance, TVR, RVS), acoustic environment (transducer locations, tank geometry, first-order reflections), receive electronics (hardware filters, pre-amplifiers), ADCs (quantization, bit error rate). The framework provides powerful, multi-faceted visualizations to support intuitive understanding, including a 3D plot of the experimental geometry and reflection paths, a multi-stage graphic showing the signal's evolution through the entire chain, and a gated FFT analysis of the acquired digital data. Future work will focus on transducer directional characteristics and non-linear effects. In scenarios where-back-of-the-envelope calculations are not sufficient and detailed computational models are unnecessary—this tool fills the gap by offering fast, practical insights and reducing costly trial-and-error during setup.",
-      "first_author_affiliation": "Dept. of Defense, 300 Hwy. 361, Crane, IN 47522, zachary.r.jensen3.civ@us.navy.mil",
-      "last_author_affiliation": "Dept. of Defense, 300 Hwy. 361, Crane, IN 47522, zachary.r.jensen3.civ@us.navy.mil",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-10-04T13:29:21Z",
       "ai_analysis": {
         "scientific_question": "如何构建一个轻量级仿真工具，用于快速建模和优化水下声学测量的完整信号链？",
         "key_highlight": "该工具以物理为基础，对从信号源、DAC、放大器、换能器、声学环境到接收电子与ADC的完整信号链进行建模，并提供三维几何与反射路径、多级信号演化及门控FFT等可视化。",
@@ -21902,7 +22197,14 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "476b063d9e38b0e2",
         "updated_at": "2026-10-26T07:54:41Z"
-      }
+      },
+      "first_author_affiliation": "Dept. of Defense, 300 Hwy. 361, Crane, IN 47522, zachary.r.jensen3.civ@us.navy.mil",
+      "last_author_affiliation": "Dept. of Defense, 300 Hwy. 361, Crane, IN 47522, zachary.r.jensen3.civ@us.navy.mil",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-10-04T13:29:21Z"
     },
     {
       "title": "A recommended metric and noise standard for pickleball noise",
@@ -49517,18 +49819,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -49549,17 +49850,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -58784,22 +59086,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -58812,6 +59098,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -65914,23 +66216,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -65944,6 +66229,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -69495,8 +69797,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -69510,8 +69812,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -75032,8 +75334,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -75047,8 +75349,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
