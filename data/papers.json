@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T08:41:37Z",
+  "generated_at": "2026-10-29T08:37:31Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level.",
@@ -1315,17 +1315,6 @@
       "doi": "10.1097/aud.0000000000001906",
       "url": "https://doi.org/10.1097/aud.0000000000001906",
       "abstract": "Objectives: To determine whether pass and referral rates for pure-tone audiometry (PTA) and otoacoustic emissions (OAE) demonstrate seasonal variation in preschool-aged children, and to explore whether these patterns may be associated with middle ear pathology related to upper respiratory tract infections. Design: We conducted a secondary analysis of a randomized controlled trial comparing single-stage OAE versus 2-stage PTA plus OAE screening in preschool children from 2023 to 2026. A total of 7416 children completed at least 1 screening modality in at least 1 ear. Children who failed screening underwent tympanometry to characterize middle ear status. Multivariable logistic regression models were used to assess the association between screening season and failure rates, adjusting for age, home language, and teacher-reported concerns. In addition, a time series model using national upper respiratory infection emergency department visit data was developed to estimate seasonal variation in middle ear effusion rates. Results: Failure rates were higher for OAE than PTA and demonstrated clear seasonal patterns. OAE failure rates peaked in spring (17.9%) and winter (15.2%) and were lowest in summer (8.5%) and fall (10.3%). PTA showed a similar pattern, with the highest failure rates in spring (8.3%), followed by winter (5.5%), and the lowest in summer (3.1%) and fall (3.6%). In adjusted analyses, the odds of failure for both OAE and PTA were significantly lower in summer and fall compared with winter (PTA: summer odds ratio (OR) = 0.54, p = 0.004; fall OR = 0.60, p = 0.01; OAE: summer OR = 0.47, p < 0.001; fall OR = 0.57, p < 0.001). For PTA, the odds of failure were significantly higher in spring compared with winter (OR = 1.50, p = 0.004), whereas no significant difference between spring and winter was observed for OAE (OR = 1.15, p = 0.09). Pairwise comparisons demonstrated significantly higher odds of failure in spring compared with summer and fall for both modalities (all p < 0.001). Tympanometry in failed ears most commonly demonstrated type B patterns across all seasons, consistent with middle ear pathology. Modeled effusion rates closely paralleled observed screening failure rates, with shared seasonal peaks and summer nadirs. Conclusions: Hearing screening failure rates in preschool children vary by season, with higher failure rates observed in winter and spring. These patterns may be driven in part by seasonal variation in middle ear pathology associated with upper respiratory infections. The timing of screening may influence referral rates and should be considered when designing preschool hearing screening programs.",
-      "first_author_affiliation": "Department of Otolaryngology-Head and Neck Surgery, University of California-San Francisco, San Francisco, California, USA",
-      "last_author_affiliation": "Department of Otolaryngology-Head and Neck Surgery, University of California-San Francisco, San Francisco, California, USA",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-10-28",
-      "first_seen_at": "2026-10-28T08:41:14Z",
       "ai_analysis": {
         "scientific_question": "学前儿童的纯音测听（PTA）和耳声发射（OAE）筛查通过率与转诊率是否呈现季节性变化，以及这些变化是否可能与上呼吸道感染相关的中耳病变有关？",
         "key_highlight": "OAE和PTA筛查失败率均呈明显季节模式，冬春季较高、夏秋季较低，且失败耳鼓室图以B型最常见，模型估计的中耳积液率与筛查失败率季节趋势相近。",
@@ -1341,7 +1330,23 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "01b0f647a872fe8f",
         "updated_at": "2026-10-28T08:41:59Z"
-      }
+      },
+      "first_author_affiliation": "Department of Otolaryngology-Head and Neck Surgery, University of California-San Francisco, San Francisco, California, USA",
+      "last_author_affiliation": "Department of Otolaryngology-Head and Neck Surgery, University of California-San Francisco, San Francisco, California, USA",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Otoacoustic emissions",
+        "Preschool hearing screening",
+        "Pure-tone audiometry",
+        "Seasonality"
+      ],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-28",
+      "first_seen_at": "2026-10-28T08:41:14Z"
     },
     {
       "title": "Block sparse Bayesian learning for broadband bearing estimation in shallow-water waveguides",
@@ -1358,22 +1363,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0047058",
       "url": "https://doi.org/10.1121/10.0047058",
-      "abstract": "For horizontal arrays in shallow-water waveguides, methods based on the plane wave assumption often produce biased bearing estimates because of multimode propagation. Although subspace-intersection methods reduce bias, they generally require a large array aperture to achieve satisfactory performance. This letter proposes a broadband bearing estimation method based on block sparse Bayesian learning. The proposed method groups modal steering vectors into a block-structured dictionary and exploits joint block sparsity across frequencies to estimate the bearing while mitigating estimation bias. Simulation and experimental results demonstrated that the proposed method provides sharper bearing peaks and better additive noise robustness than the comparison methods.",
-      "first_author_affiliation": "National Key Laboratory of Underwater Acoustic Technology, Harbin Engineering University 1 , Harbin 150001,",
-      "last_author_affiliation": "National Key Laboratory of Underwater Acoustic Technology, Harbin Engineering University 1 , Harbin 150001,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0047058",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-10-27",
-      "first_seen_at": "2026-10-28T08:40:55Z",
       "full_text_url": "https://pubs.aip.org/jel/article/6/10/106004/3407452/Block-sparse-Bayesian-learning-for-broadband",
-      "media_checked_at": "2026-10-28T08:41:45Z",
-      "open_access_image_checked_at": "2026-10-28T08:41:45Z",
+      "abstract": "For horizontal arrays in shallow-water waveguides, methods based on the plane wave assumption often produce biased bearing estimates because of multimode propagation. Although subspace-intersection methods reduce bias, they generally require a large array aperture to achieve satisfactory performance. This letter proposes a broadband bearing estimation method based on block sparse Bayesian learning. The proposed method groups modal steering vectors into a block-structured dictionary and exploits joint block sparsity across frequencies to estimate the bearing while mitigating estimation bias. Simulation and experimental results demonstrated that the proposed method provides sharper bearing peaks and better additive noise robustness than the comparison methods.",
       "ai_analysis": {
         "scientific_question": "在浅水波导中，如何利用块稀疏贝叶斯学习进行宽带方位估计，以减轻多模态传播引起的方位偏差？",
         "key_highlight": "该方法将模态导向矢量组织为块结构字典，并利用跨频率的联合块稀疏性来估计方位，从而减轻估计偏差。",
@@ -1389,7 +1380,21 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "f3626132edb22722",
         "updated_at": "2026-10-28T08:42:03Z"
-      }
+      },
+      "first_author_affiliation": "National Key Laboratory of Underwater Acoustic Technology, Harbin Engineering University 1 , Harbin 150001,",
+      "last_author_affiliation": "National Key Laboratory of Underwater Acoustic Technology, Harbin Engineering University 1 , Harbin 150001,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0047058",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-10-28T08:41:45Z",
+      "media_checked_at": "2026-10-28T08:41:45Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-10-27",
+      "first_seen_at": "2026-10-28T08:40:55Z"
     },
     {
       "title": "Characterizing Suprathreshold Auditory Function: A Comparison of 22 Direct and Derived Auditory Measures",
@@ -1405,31 +1410,8 @@
       "publication_date_precision": "day",
       "doi": "10.1177/23312165261496756",
       "url": "https://doi.org/10.1177/23312165261496756",
-      "abstract": "A substantial proportion of the population has clinically normal hearing thresholds yet experiences difficulty understanding speech in background noise. Existing hearing models explain these difficulties using a limited number of physiological and signal-processing mechanisms, implying that relationships among psychoacoustic measures may reflect shared underlying processes. However, these relationships have rarely been examined comprehensively within the same participants. Here we quantified associations among psychoacoustic measures using linear regression and principal component analysis. Speech-in-noise, tone-in-noise in different noise types, and loudness growth functions were obtained and analyzed in monaural and binaural listening conditions in 52 volunteers (aged 20-80 years) with age-typical or mild hearing loss (PTA4 < 32.5 dB HL). Linear regression analyses identified direct psychoacoustic measures - particularly interaurally antiphasic tone-in-noise (N0Sπ) thresholds - as robust indicators of suprathreshold hearing function. Although N0Sπ showed only a moderate association with the corresponding diotic thresholds (N0S0), it was more strongly associated with poorer-ear speech-in-noise thresholds (r = 0.60) than the corresponding 500-Hz audiometric threshold (r = 0.35), suggesting that this relationship was not driven by audibility alone. Exploratory principal component analysis further showed that N0Sπ thresholds contributed to multiple auditory dimensions associated with speech-in-noise variability. In contrast, derived measures such as binaural masking level difference or auditory filter bandwidth showed weaker and less consistent associations. Overall, the results indicate that selected direct psychoacoustic measures may provide a more robust characterization of suprathreshold auditory function than derived measures.",
-      "first_author_affiliation": "Carl von Ossietzky Universität Oldenburg",
-      "last_author_affiliation": "Carl von Ossietzky Universität Oldenburg",
-      "open_access": true,
-      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261496756",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Audiometric thresholds",
-        "N0Sπ and BMLD",
-        "Power spectrum model",
-        "Suprathreshold hearing loss"
-      ],
-      "tags": [
-        "clinical audiology",
-        "psychoacoustics",
-        "speech perception"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-27",
-      "first_seen_at": "2026-10-28T08:40:58Z",
       "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261496756",
-      "media_checked_at": "2026-10-28T08:41:45Z",
-      "open_access_image_checked_at": "2026-10-28T08:41:45Z",
+      "abstract": "A substantial proportion of the population has clinically normal hearing thresholds yet experiences difficulty understanding speech in background noise. Existing hearing models explain these difficulties using a limited number of physiological and signal-processing mechanisms, implying that relationships among psychoacoustic measures may reflect shared underlying processes. However, these relationships have rarely been examined comprehensively within the same participants. Here we quantified associations among psychoacoustic measures using linear regression and principal component analysis. Speech-in-noise, tone-in-noise in different noise types, and loudness growth functions were obtained and analyzed in monaural and binaural listening conditions in 52 volunteers (aged 20-80 years) with age-typical or mild hearing loss (PTA4 < 32.5 dB HL). Linear regression analyses identified direct psychoacoustic measures - particularly interaurally antiphasic tone-in-noise (N0Sπ) thresholds - as robust indicators of suprathreshold hearing function. Although N0Sπ showed only a moderate association with the corresponding diotic thresholds (N0S0), it was more strongly associated with poorer-ear speech-in-noise thresholds (r = 0.60) than the corresponding 500-Hz audiometric threshold (r = 0.35), suggesting that this relationship was not driven by audibility alone. Exploratory principal component analysis further showed that N0Sπ thresholds contributed to multiple auditory dimensions associated with speech-in-noise variability. In contrast, derived measures such as binaural masking level difference or auditory filter bandwidth showed weaker and less consistent associations. Overall, the results indicate that selected direct psychoacoustic measures may provide a more robust characterization of suprathreshold auditory function than derived measures.",
       "ai_analysis": {
         "scientific_question": "在听力阈值正常或轻度损失的成年人中，哪些心理声学测量指标能更稳健地反映阈上听觉功能？",
         "key_highlight": "直接心理声学测量（尤其是双耳反相音噪N0Sπ阈值）比派生测量更稳健地与噪声中言语识别相关。",
@@ -1445,7 +1427,30 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "38c5a8125a711047",
         "updated_at": "2026-10-28T08:42:01Z"
-      }
+      },
+      "first_author_affiliation": "Carl von Ossietzky Universität Oldenburg",
+      "last_author_affiliation": "Carl von Ossietzky Universität Oldenburg",
+      "open_access": true,
+      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261496756",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-10-28T08:41:45Z",
+      "media_checked_at": "2026-10-28T08:41:45Z",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Audiometric thresholds",
+        "N0Sπ and BMLD",
+        "Power spectrum model",
+        "Suprathreshold hearing loss"
+      ],
+      "tags": [
+        "clinical audiology",
+        "psychoacoustics",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-27",
+      "first_seen_at": "2026-10-28T08:40:58Z"
     },
     {
       "title": "Physics and metadata-guided generative learning for underwater acoustic target recognition",
@@ -1463,14 +1468,6 @@
       "doi": "10.1121/10.0046886",
       "url": "https://doi.org/10.1121/10.0046886",
       "abstract": "Underwater acoustic target recognition (UATR) is challenged by data scarcity and long-tailed class distributions, where limited recordings provide incomplete coverage of vessel attributes and recording conditions. We propose a physics and metadata-guided generative learning (PMGL) framework comprising physics and metadata-guided acoustic generation (PMAG), physical semantic coverage expansion (PSCE), and physical semantic distribution rebalancing (PSDR). PMAG constructs structured physical semantic conditions from metadata and environmental priors to guide text-to-audio generation. PSCE expands intraclass condition coverage for few-shot UATR, while PSDR supplements underrepresented categories to construct a more balanced training distribution for long-tailed UATR. Experiments on the ShipsEar and DeepShip datasets demonstrate consistent improvements in recognition performance over the original training setting and a baseline based on a generative adversarial network (GAN), particularly under data-scarce and distribution-imbalanced conditions. The results indicate that the proposed PMGL framework effectively compensates for structural data deficiencies in underwater acoustic recognition.",
-      "first_author_affiliation": "College of Computer Science and Technology, Harbin Engineering University 1 , Harbin,",
-      "last_author_affiliation": "College of Computer Science and Technology, Harbin Engineering University 1 , Harbin,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-27",
-      "first_seen_at": "2026-10-28T08:40:51Z",
       "ai_analysis": {
         "scientific_question": "能否利用物理与元数据引导的生成学习来缓解水下声学目标识别中的数据稀缺与长尾类分布问题？",
         "key_highlight": "所提出的PMGL框架在ShipsEar和DeepShip数据集上，相比原始训练设置和基于GAN的基线，在数据稀缺与分布不均衡条件下取得了一致的识别性能提升。",
@@ -1486,7 +1483,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "2bed75d14011ff46",
         "updated_at": "2026-10-28T08:42:11Z"
-      }
+      },
+      "first_author_affiliation": "College of Computer Science and Technology, Harbin Engineering University 1 , Harbin,",
+      "last_author_affiliation": "College of Computer Science and Technology, Harbin Engineering University 1 , Harbin,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-27",
+      "first_seen_at": "2026-10-28T08:40:51Z"
     },
     {
       "title": "Seismic airgun array directivity from far-field measurements and modeling in the Gulf of Mexico",
@@ -1504,22 +1509,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0046954",
       "url": "https://doi.org/10.1121/10.0046954",
-      "abstract": "The Gulf of Mexico supports extensive hydrocarbon exploration and production activities, where seismic airgun surveys are a persistent source of high-amplitude, low-frequency acoustic energy at basin scales. Seismic airgun arrays are inherently directional sources, producing frequency-dependent radiation patterns that vary with azimuth and dip angle. Empirical validation of directivity effects at far-field ranges has been limited. This study combines acoustic measurements with an integrated direction- and dip-dependent source and propagation model to characterize the directivity of seismic surveys in the Gulf at ranges exceeding 700 km across 15 monitoring sites. The integrated model reproduced measured airgun pulses with errors ranging from 3.3 to 5.9 dB across 15–250 Hz, with performance varying with azimuth, frequency, and propagation complexity. Gulf-wide propagation simulations extending to 1050 km demonstrated that source orientation relative to bathymetry alone restructures the spatial footprint of seismic energy at sidelobe frequencies (>100 Hz), with north–south orientations producing higher sound levels across a broader geographic area than east–west orientations at the source locations in this analysis. These results demonstrate that source directivity and bathymetry strongly influence the basin-scale distribution of seismic acoustic energy, with implications for environmental impact assessment and acoustic exposure of marine species in the Gulf.",
-      "first_author_affiliation": "Scripps Institution of Oceanography, University of California San Diego 1 , La Jolla, California 92037,",
-      "last_author_affiliation": "Scripps Institution of Oceanography, University of California San Diego 1 , La Jolla, California 92037,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0046954",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-27",
-      "first_seen_at": "2026-10-28T08:40:51Z",
       "full_text_url": "https://pubs.aip.org/jasa/article/160/4/3559/3407502/Seismic-airgun-array-directivity-from-far-field",
-      "media_checked_at": "2026-10-28T08:41:46Z",
-      "open_access_image_checked_at": "2026-10-28T08:41:46Z",
+      "abstract": "The Gulf of Mexico supports extensive hydrocarbon exploration and production activities, where seismic airgun surveys are a persistent source of high-amplitude, low-frequency acoustic energy at basin scales. Seismic airgun arrays are inherently directional sources, producing frequency-dependent radiation patterns that vary with azimuth and dip angle. Empirical validation of directivity effects at far-field ranges has been limited. This study combines acoustic measurements with an integrated direction- and dip-dependent source and propagation model to characterize the directivity of seismic surveys in the Gulf at ranges exceeding 700 km across 15 monitoring sites. The integrated model reproduced measured airgun pulses with errors ranging from 3.3 to 5.9 dB across 15–250 Hz, with performance varying with azimuth, frequency, and propagation complexity. Gulf-wide propagation simulations extending to 1050 km demonstrated that source orientation relative to bathymetry alone restructures the spatial footprint of seismic energy at sidelobe frequencies (>100 Hz), with north–south orientations producing higher sound levels across a broader geographic area than east–west orientations at the source locations in this analysis. These results demonstrate that source directivity and bathymetry strongly influence the basin-scale distribution of seismic acoustic energy, with implications for environmental impact assessment and acoustic exposure of marine species in the Gulf.",
       "ai_analysis": {
         "scientific_question": "地震气枪阵列的指向性如何影响墨西哥湾盆地尺度上地震声能的空间分布？",
         "key_highlight": "结合声学测量与方向及倾角相关模型，在超过700 km的远场范围内再现了实测气枪脉冲，误差为3.3–5.9 dB（15–250 Hz）。",
@@ -1535,7 +1526,57 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "3ed121121a6b891f",
         "updated_at": "2026-10-28T08:42:13Z"
-      }
+      },
+      "first_author_affiliation": "Scripps Institution of Oceanography, University of California San Diego 1 , La Jolla, California 92037,",
+      "last_author_affiliation": "Scripps Institution of Oceanography, University of California San Diego 1 , La Jolla, California 92037,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0046954",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-10-28T08:41:46Z",
+      "media_checked_at": "2026-10-28T08:41:46Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-27",
+      "first_seen_at": "2026-10-28T08:40:51Z"
+    },
+    {
+      "title": "The Content Leash: Mitigating Degenerate Solutions in Invertible Speaker Anonymization",
+      "authors": [
+        "Nirjon Mobarak Talukder",
+        "Rafid Ahmed",
+        "Mohammad Ishrak Abedin",
+        "Abu Raihan Mostofa Kamal"
+      ],
+      "journal": "arXiv",
+      "publication_date": "2026-10-27",
+      "publication_date_precision": "day",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2610.36768v1",
+      "abstract": "Voice anonymization aims to protect a speaker's identity while preserving the linguistic content of speech, enabling voice data to be shared and processed with reduced privacy risk. This work focuses on reversible voice anonymization, where the original voice can be recovered by an authorized user rather than being permanently discarded. However, existing approaches can achieve apparent speaker anonymization by degrading the speech itself, while their effectiveness may also depend on the speaker-verification representation used during training. This creates a need for methods that protect speaker identity without sacrificing speech intelligibility and that remain effective against unseen speaker verifiers. We introduce content preserving training constraints to improve the privacy-utility trade-off by preventing anonymization from being achieved primarily through speech degradation. We further introduce a verifier-generalization strategy that incorporates a stronger speaker-verification representation during training, improving anonymization robustness beyond the verifier used in the original training setup. The resulting approach maintains intelligible speech, strengthens anonymization, and preserves reliable voice restoration, with evaluation on unseen speakers and held-out speaker verification models. On 38 unseen speakers, the approach raises the attacker's equal error rate from a measured floor of 2.8% to 26.3%, and to 27.9% against a held-out verifier, with 11.8% word error rate and 94.9% speaker similarity on key-based restoration. These improvements advance reversible voice anonymization toward practical privacy-preserving speech applications, where anonymized speech can be safely processed or shared while the original voice remains recoverable under authorized conditions.",
+      "publication_stage": "preprint",
+      "section": null,
+      "keywords": [
+        "cs.CR",
+        "cs.SD"
+      ],
+      "tags": [],
+      "source": "arxiv",
+      "available_online_date": "2026-10-27",
+      "source_group": "preprint_filtered",
+      "source_group_label": "Preprints (arXiv)",
+      "actual_journal": "arXiv",
+      "match_level": "topic_filtered_hearing_speech",
+      "matched_keywords": [
+        "speech intelligibility"
+      ],
+      "match_fields": [
+        "abstract"
+      ],
+      "needs_review": true,
+      "first_seen_at": "2026-10-29T08:37:31Z"
     },
     {
       "title": "Towards self-personalizing headphones: Individual multi-driver–multi-receiver headphone impulse responses and head-related transfer functions",
@@ -1552,6 +1593,7 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0046914",
       "url": "https://doi.org/10.1121/10.0046914",
+      "full_text_url": "https://pubs.aip.org/jasa/article/160/4/3535/3407466/Towards-self-personalizing-headphones-Individual",
       "abstract": "Acquisition of individual head-related transfer functions (HRTFs) still requires specialized equipment, and simplification of that process remains a challenging research objective. A method for automated HRTF individualization relying on a self-personalizing headphone (Selfone) would represent an elegant solution. This article describes a Selfone prototype consisting of 20 drivers and 24 receivers. Further, the article describes an acoustic database consisting of datasets of Selfone impulse responses (SIRs) measured between the Selfone drivers and receivers and in-ear impulse responses (IRs) measured at the ear-canal entrance, from 100 participants and for seven Selfone wearing positions. The datasets are complemented by HRTFs measured from the same individuals. As expected, substantial differences between the in-ear IRs and HRTFs for approximately matched directions were found, indicating that a simple playback via individual Selfone drivers would create strong deviations from individual HRTF cues. This emphasizes the need for algorithms estimating driving functions required to maintain individual HRTF cues. Further, individual pinna morphology led to large variations in SIRs, indicating that at least some of the individual features have been captured by the SIRs. Being publicly available, the Selfone database aims to support the development of future algorithms that facilitate to estimate individual monaural HRTF cues from SIRs.",
       "first_author_affiliation": "Acoustics Research Institute, Austrian Academy of Sciences 1 , Vienna 1010,",
       "last_author_affiliation": "Acoustics Research Institute, Austrian Academy of Sciences 1 , Vienna 1010,",
@@ -1559,15 +1601,30 @@
       "open_access_url": "https://doi.org/10.1121/10.0046914",
       "open_access_source": "crossref_license",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-10-28T08:41:46Z",
+      "media_checked_at": "2026-10-28T08:41:46Z",
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-27",
       "first_seen_at": "2026-10-28T08:40:51Z",
-      "full_text_url": "https://pubs.aip.org/jasa/article/160/4/3535/3407466/Towards-self-personalizing-headphones-Individual",
-      "media_checked_at": "2026-10-28T08:41:46Z",
-      "open_access_image_checked_at": "2026-10-28T08:41:46Z"
+      "ai_analysis": {
+        "scientific_question": "能否利用自个性化耳机（Selfone）的驱动器—接收器冲激响应来估计个体化的头相关传递函数（HRTF）线索？",
+        "key_highlight": "研究构建了含20个驱动器和24个接收器的Selfone原型，并公开了100名参与者在7种佩戴位置下的Selfone冲激响应、耳道口冲激响应及同人HRTF数据集。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "摘要指出耳内冲激响应与近似匹配方向的HRTF存在显著差异，提示需要开发估计驱动函数的算法以保持个体HRTF线索，但该需求属作者提出的可能方向而非已验证结论。",
+        "evidence": [
+          "As expected, substantial differences between the in-ear IRs and HRTFs for approximately matched directions were found, indicating that a simple playback via individual Selfone drivers would create strong deviations from individual HRTF cues.",
+          "Further, individual pinna morphology led to large variations in SIRs, indicating that at least some of the individual features have been captured by the SIRs."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "1511608954555281",
+        "updated_at": "2026-10-29T08:38:09Z"
+      }
     },
     {
       "title": "Vertical array distributed acoustic sensing using looped and spiral geometries for waterborne acoustic signals up to 3 kHz",
@@ -1592,7 +1649,23 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-27",
-      "first_seen_at": "2026-10-28T08:40:51Z"
+      "first_seen_at": "2026-10-28T08:40:51Z",
+      "ai_analysis": {
+        "scientific_question": "在垂直布设条件下，采用环状和螺旋几何结构的光纤分布式声学传感（DAS）能否提高对高达3 kHz水声信号的探测能力和信噪比？",
+        "key_highlight": "环状和螺旋两种配置相比直缆段均提高了信噪比，其中环状配置可记录至奈奎斯特频率，系统可探测高达3 kHz的水声信号。",
+        "main_limitation": "摘要指出，电缆相对声源的方位和距离可能影响信号探测，但本研究条件限制了对入射角相关灵敏度的直接评估。",
+        "research_implication": "结果表明，垂直环状与螺旋DAS系统具备探测高达3 kHz水声信号的能力，并提示实验设计对数据质量的重要性；这些发现对扩展鱼类和海洋哺乳动物监测的潜在意义属于可能影响，而非本研究已证实的结论。",
+        "evidence": [
+          "Both configurations improved SNR compared to straight cable sections and the looped configuration recorded up to the Nyquist frequency.",
+          "Orientation and distance of the cable relative to the sources likely influenced signal detection, but constraints of this study prevented a direct evaluation of incident-angle-dependent sensitivity."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "bb3df657b29c4aae",
+        "updated_at": "2026-10-29T08:38:12Z"
+      }
     },
     {
       "title": "Wave propagation in unsaturated thermoporoelastic media based on a modified fractional Cole-Cole model",
@@ -1615,7 +1688,23 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-27",
-      "first_seen_at": "2026-10-28T08:40:51Z"
+      "first_seen_at": "2026-10-28T08:40:51Z",
+      "ai_analysis": {
+        "scientific_question": "如何在不饱和热孔弹性介质中更准确地刻画由复杂孔隙结构与多相流体相互作用引起的宽频散与衰减？",
+        "key_highlight": "将改进的分数阶Cole-Cole模型引入不饱和热孔弹性理论框架，数值模拟显示其比L-S模型更能描述宽频松弛行为。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该模型可能为异质储层地震响应、地热勘探及稠油开采中的波传播建模提供更精细的理论工具，但摘要未报告实际数据验证。",
+        "evidence": [
+          "Results demonstrate that the fractional Cole-Cole model provides a more accurate description of broadband relaxation behavior than the L-S model by capturing the heterogeneity of porous media.",
+          "The fractional parameter controls the width and distribution of attenuation spectra, while porosity, saturation, and permeability significantly regulate the phase velocity and attenuation characteristics of different wave modes."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "1bd50d3092e41020",
+        "updated_at": "2026-10-29T08:38:14Z"
+      }
     },
     {
       "title": "Zimtohrli: An efficient psychoacoustic audio similarity metric",
@@ -1631,6 +1720,7 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0046909",
       "url": "https://doi.org/10.1121/10.0046909",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/10/105205/3407465/Zimtohrli-An-efficient-psychoacoustic-audio",
       "abstract": "This paper introduces Zimtohrli, an efficient full-reference audio similarity metric. Existing metrics are standardised but require a licensed implementation [Perceptual Objective Listening Quality Assessment (POLQA)], are speech-calibrated [Perceptual Evaluation of Speech Quality, Virtual Speech Quality Objective Listener (ViSQOL)], or—like the audio-domain Perceptual Evaluation of Audio Quality (PEAQ) standard (ITU-R BS.1387)—are tuned to the near-transparent range of BS.1116 tests, leaving a gap for an open metric spanning speech and full-band audio across a wide quality range. Zimtohrli pairs a 128-channel equivalent rectangular bandwidth-spaced gammatone front-end with a non-linear resonator, comparing perceptually-mapped spectrograms via modified dynamic time warping and a neurogram similarity index, optimized against human ratings. It outperforms ViSQOL and Advanced PEAQ, trails POLQA by ∼7% yet surpasses it on full-band music, running 5× faster.",
       "first_author_affiliation": "Google Research 1 , Zurich,",
       "last_author_affiliation": "Logitech Audio 2 , Lausanne,",
@@ -1638,6 +1728,8 @@
       "open_access_url": "https://doi.org/10.1121/10.0046909",
       "open_access_source": "crossref_license",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-10-28T08:41:46Z",
+      "media_checked_at": "2026-10-28T08:41:46Z",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [],
       "tags": [
@@ -1646,10 +1738,7 @@
       ],
       "source": "crossref",
       "available_online_date": "2026-10-27",
-      "first_seen_at": "2026-10-28T08:40:55Z",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/10/105205/3407465/Zimtohrli-An-efficient-psychoacoustic-audio",
-      "media_checked_at": "2026-10-28T08:41:46Z",
-      "open_access_image_checked_at": "2026-10-28T08:41:46Z"
+      "first_seen_at": "2026-10-28T08:40:55Z"
     },
     {
       "title": "Basin-scale ocean acoustic telemetry: Digital waveforms for transmitting oceanographic corrections",
@@ -2126,6 +2215,58 @@
       ],
       "needs_review": true,
       "first_seen_at": "2026-10-26T07:53:57Z"
+    },
+    {
+      "title": "Development of a noninvasive video-oculography setup for determining VOR presence in a severe vestibular impairment mouse model",
+      "authors": [
+        "Fien Aben",
+        "Lien Bossaerts",
+        "Geert Keteleer",
+        "Aïda Palou",
+        "Ana Renner",
+        "Jordi Llorens",
+        "Krystyna Szewczyk",
+        "Dorien Verdoodt",
+        "Vincent Van Rompaey"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-23",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109844",
+      "url": "https://doi.org/10.1016/j.heares.2026.109844",
+      "abstract": "The vestibulo-ocular reflex (VOR), which stabilizes gaze during head movement, serves as a key indicator of vestibular integrity. Conventional systems for VOR measurement in mice often require invasive head fixation, posing risks to animal welfare and experimental reproducibility. In this study, we developed and validated a noninvasive immobilization setup for detecting the presence of VOR responses in a severe vestibular impairment mouse model, offering a welfare-oriented alternative to surgically fixed systems. Using video-oculography (VOG), we assessed VOR responses in control and vestibular-impaired CD-1 mice, with vestibular dysfunction induced via oral administration of the ototoxic compound allylnitrile. As expected, allylnitrile-treated mice exhibited a near-complete absence of VOR responses, confirming profound vestibular impairment. Complementary assessments included Vestibular Dysfunction Index (VDI) scoring, swimming tests, immunofluorescent staining for hair cell counts in vestibular cristae and hearing tests. Because the induced, severe deficits precluded quantitative gain and phase analysis in this study, the set-up is currently limited to binary VOR detection in this model. However, further research will determine if under conditions of partial or progressive impairment, this noninvasive system supports more detailed characterization of VOR dynamics. Overall, the optimized, surgery-free setup demonstrated here enhances the reproducibility and welfare standards of vestibular testing in mice, offering a refined platform for detecting VOR presence in a severe vestibular impairment mouse model.",
+      "last_author_affiliation": "Department of Translational Neurosciences, Faculty of Medicine and Health Sciences, University of Antwerp, Universiteitsplein 1, Wilrijk, 2610, Belgium; Department of Otorhinolaryngology and Head & Neck Surgery, Antwerp University Hospital, Drie Eikenstraat 655, Edegem, 2650, Belgium. Electronic address: vincent.vanrompaey@uantwerpen.be.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Animal welfare",
+        "Ototoxicity",
+        "Vestibular dysfunction",
+        "Vestibulo-ocular reflex",
+        "Video-oculography"
+      ],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-23",
+      "first_seen_at": "2026-10-23T07:39:08Z",
+      "ai_analysis": {
+        "scientific_question": "能否建立一种无需头部固定、非侵入式的小鼠视频眼动（VOG）装置，用于在严重前庭损伤模型中检测前庭眼反射（VOR）是否存在？",
+        "key_highlight": "该研究开发并验证了一种非侵入式固定装置，可在经烯丙腈诱导的严重前庭损伤CD-1小鼠中检测VOR反应的有无，作为手术固定系统的动物福利导向替代方案。",
+        "main_limitation": "由于诱导的严重缺陷使本研究无法进行定量的增益与相位分析，该装置目前在该模型中仅限于二元的VOR检测。",
+        "research_implication": "后续研究需确定在部分性或渐进性损伤条件下，该非侵入系统能否支持更详细的VOR动态特征分析。",
+        "evidence": [
+          "Because the induced, severe deficits precluded quantitative gain and phase analysis in this study, the set-up is currently limited to binary VOR detection in this model.",
+          "we developed and validated a noninvasive immobilization setup for detecting the presence of VOR responses in a severe vestibular impairment mouse model"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "afa506d27e57eaca",
+        "updated_at": "2026-10-29T08:38:16Z"
+      }
     },
     {
       "title": "Statistical models of Falcon 9 launch noise metrics at Vandenberg Space Force Base",
@@ -6494,6 +6635,38 @@
       "first_seen_at": "2026-10-02T08:37:25Z"
     },
     {
+      "title": "Analysis of voice fundamental-frequency adaptations in response to noise and hearing impairment",
+      "authors": [
+        "Paolo Attilio Mesiano",
+        "Johannes Zaar",
+        "Helia Relaño-Iborra",
+        "Lars Bramsløw",
+        "Torsten Dau"
+      ],
+      "journal": "Speech Communication",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.specom.2026.103496",
+      "url": "https://doi.org/10.1016/j.specom.2026.103496",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "source_group": "topic_filtered",
+      "source_group_label": "Topic-filtered Journals",
+      "actual_journal": "Speech Communication",
+      "match_level": "topic_filtered_hearing_speech",
+      "matched_keywords": [
+        "hearing impairment"
+      ],
+      "match_fields": [
+        "title"
+      ],
+      "needs_review": false,
+      "first_seen_at": "2026-10-29T08:37:24Z"
+    },
+    {
       "title": "Application of synchrosqueezed spectrograms to speaker verification via formant identification by visual observation",
       "authors": [
         "Masahiro Okada"
@@ -6574,6 +6747,27 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-08-10",
       "first_seen_at": "2026-08-11T03:56:31Z"
+    },
+    {
+      "title": "Auditory statistical learning beyond monotonic sound: Congenital amusia constrains the beneficial role of lexical tone in tracking linguistic regularities",
+      "authors": [
+        "Jiaqiang Zhu",
+        "David M. Gómez",
+        "Caicai Zhang"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109850",
+      "url": "https://doi.org/10.1016/j.heares.2026.109850",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "speech perception"
+      ],
+      "source": "crossref",
+      "first_seen_at": "2026-10-29T08:37:11Z"
     },
     {
       "title": "Changes in P300 neural correlates during voice-pitch discrimination under conditions supporting F0-based auditory segregation",
@@ -6979,31 +7173,6 @@
       "first_seen_at": "2026-08-04T05:26:39Z"
     },
     {
-      "title": "Development of a Noninvasive Video-Oculography Setup for Determining VOR Presence in a Severe Vestibular Impairment Mouse Model",
-      "authors": [
-        "Fien Aben",
-        "Lien Bossaerts",
-        "Geert Keteleer",
-        "Aïda Palou",
-        "Ana Renner",
-        "Jordi Llorens",
-        "Krystyna Szewczyk",
-        "Dorien Verdoodt",
-        "Vincent Van Rompaey"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109844",
-      "url": "https://doi.org/10.1016/j.heares.2026.109844",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-10-23T07:39:08Z"
-    },
-    {
       "title": "Do dummy heads dream of low interaural coherence?",
       "authors": [
         "Manuj Yadav"
@@ -7087,6 +7256,21 @@
     {
       "title": "Editorial Board",
       "authors": [],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00266-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-02T07:09:02Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-10-01",
       "publication_date_precision": "day",
@@ -7099,21 +7283,6 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00266-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Effective model of fiber Bragg gratings for simulation of ultrasonic guided wave measurements using spectral finite elements",
@@ -10471,22 +10640,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046572",
-      "url": "https://doi.org/10.1121/10.0046572",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:56Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -10499,6 +10652,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:59Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046572",
+      "url": "https://doi.org/10.1121/10.0046572",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:56Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -21234,22 +21403,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -21262,6 +21415,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -50228,18 +50397,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -50260,17 +50428,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -59495,22 +59664,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -59523,6 +59676,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -66625,23 +66794,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -66655,6 +66807,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -70206,8 +70375,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -70221,8 +70390,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -75743,8 +75912,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -75758,8 +75927,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
