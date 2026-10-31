@@ -1,12 +1,17 @@
 {
-  "checked_at": "2026-10-30T08:46:03Z",
+  "checked_at": "2026-10-31T08:30:50Z",
   "provider": "deepseek",
   "model": "deepseek-flash",
-  "pending": 2777,
+  "pending": 2776,
   "attempted": 6,
-  "updated": 6,
-  "failed": 0,
-  "failures": [],
+  "updated": 5,
+  "failed": 1,
+  "failures": [
+    {
+      "doi": "10.1097/aud.0000000000001771",
+      "reason": "Evidence is not an exact abstract quote"
+    }
+  ],
   "needs_attention": false,
-  "state": "ok"
+  "state": "partial"
 }

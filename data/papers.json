@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T08:45:29Z",
+  "generated_at": "2026-10-31T08:30:30Z",
   "papers": [
     {
       "title": "A loudness model for time-varying sounds predicts asymmetries in estimates of loudness change for sounds that increase or decrease in level.",
@@ -1316,16 +1316,6 @@
       "doi": "10.1121/10.0046884",
       "url": "https://doi.org/10.1121/10.0046884",
       "abstract": "Mesoscale eddies alter long-range acoustic fields, making repeated monitoring and inversion costly. This study develops a derivative-informed parametric neural surrogate (DINO) for a fixed 20-receiver, 12/20-Hz configuration. Its five-parameter eddy model uses the first three empirical orthogonal function modes derived from 368 Kuroshio Extension Argo profiles. On held-out synthetic cases, DINO achieves forward/Jacobian errors of 1.63%/5.11%, compared with 5.41%/14.84% for point-fitting, while its forward call is 1216 times faster than the reference parabolic-equation solver. Split-conformal calibration reaches 97.5% coverage at nominal 95% but inflates region volume 44-fold. Across 250 paired trials, the median scale-normalised parameter root mean square error is 0.075 for DINO versus 0.113 for point-fitting (two-sided Wilcoxon p=3.3×10−11). The comparison does not isolate Jacobian fidelity from forward accuracy or optimisation smoothness. SWellEx-96 validates only a calibration/tracking component, not end-to-end eddy inversion. Results are therefore scoped to the specified fixed array/frequency and synthetic eddy prior.",
-      "first_author_affiliation": "School of Mechanical Engineering, Hangzhou Dianzi University 1 , Hangzhou,",
-      "last_author_affiliation": "School of Computer Science, Hangzhou Dianzi University 4 , Hangzhou,",
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "hearing aid"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-29",
-      "first_seen_at": "2026-10-30T08:44:33Z",
       "ai_analysis": {
         "scientific_question": "在固定的20接收器、12/20 Hz配置下，能否构建一个导数信息驱动、以物理模型为参照的参数化神经代理模型，用于中尺度涡声学观测的不确定性感知反演？",
         "key_highlight": "DINO在留出合成案例上的前向与雅可比误差分别为1.63%和5.11%，优于点拟合的5.41%和14.84%，且前向调用比参考抛物方程求解器快1216倍。",
@@ -1341,7 +1331,17 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "3945290e841070fb",
         "updated_at": "2026-10-30T08:46:07Z"
-      }
+      },
+      "first_author_affiliation": "School of Mechanical Engineering, Hangzhou Dianzi University 1 , Hangzhou,",
+      "last_author_affiliation": "School of Computer Science, Hangzhou Dianzi University 4 , Hangzhou,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "hearing aid"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-29",
+      "first_seen_at": "2026-10-30T08:44:33Z"
     },
     {
       "title": "An integrated computational model of the auditory periphery for intracochlear electrocochleography applications",
@@ -1357,19 +1357,6 @@
       "doi": "10.1121/10.0046892",
       "url": "https://doi.org/10.1121/10.0046892",
       "abstract": "Electrocochleography (ECochG) measures electrical responses in the inner ear and is valuable for monitoring cochlear health during cochlear implantation. Yet, its interpretation is not straightforward, and available auditory models lack physiological detail and validity at high stimulus levels. We present the combined model of the peripheral auditory system (CPAS), which combines biophysical inner and outer hair cell models for ECochG simulation. Unlike previous hair cell models that focused on either cell type separately and output receptor potentials, CPAS directly computes extracellular currents without empirical scaling factors. The model couples a dual-resonance nonlinear basilar membrane filter with electrical hair cell circuits validated against animal data at multiple stimulus levels. CPAS is evaluated with ECochG simulations focused on high stimulus levels — the range at which intracochlear ECochG is clinically recorded. Simulated intracochlear ECochG responses demonstrate expected temporal, spectral, and spatial characteristics. CPAS provides a framework for ECochG modeling, and its biophysical parameters can in principle represent pathophysiological changes, providing a basis for future investigation of hearing impairment.",
-      "first_author_affiliation": "Department of Otorhinolaryngology and Head & Neck Surgery, Leiden University Medical Center 1 , Leiden,",
-      "last_author_affiliation": "Department of Otorhinolaryngology and Head & Neck Surgery, Leiden University Medical Center 1 , Leiden,",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "auditory physiology",
-        "clinical audiology",
-        "cochlear implant",
-        "priority section"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-29",
-      "first_seen_at": "2026-10-30T08:44:33Z",
       "ai_analysis": {
         "scientific_question": "如何构建一个整合内毛细胞与外毛细胞生物物理机制的计算模型，以模拟耳蜗内电耳蜗图（ECochG）在高刺激强度下的响应？",
         "key_highlight": "CPAS将双共振非线性基底膜滤波器与经动物数据验证的毛细胞电路耦合，直接计算细胞外电流而无需经验缩放因子，并模拟出具有预期时间、频谱和空间特征的耳蜗内ECochG响应。",
@@ -1385,7 +1372,20 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "91d0c5ba93f59a81",
         "updated_at": "2026-10-30T08:46:09Z"
-      }
+      },
+      "first_author_affiliation": "Department of Otorhinolaryngology and Head & Neck Surgery, Leiden University Medical Center 1 , Leiden,",
+      "last_author_affiliation": "Department of Otorhinolaryngology and Head & Neck Surgery, Leiden University Medical Center 1 , Leiden,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology",
+        "cochlear implant",
+        "priority section"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-29",
+      "first_seen_at": "2026-10-30T08:44:33Z"
     },
     {
       "title": "Emotion Word Processing in Mandarin-Speaking Adults With Hearing Aids and Cochlear Implants: The Interplay of Semantics, Prosody, and Facial Cues",
@@ -1401,6 +1401,22 @@
       "doi": "10.1097/aud.0000000000001909",
       "url": "https://doi.org/10.1097/aud.0000000000001909",
       "abstract": "Objectives: The processing of emotional speech requires the perception and integration of semantics, prosody, and facial cues. While hearing aids (HAs) and cochlear implants (CIs) provide significant auditory enhancements, they are limited in conveying emotional prosody, potentially affecting users’ ability to recognize emotions through both auditory and visual modalities. This study aims to compare the performance of HA users, CI users, and individuals with normal hearing in decoding emotions from various channels and to assess their channel preferences. Design: Using a forced-choice audiovisual Stroop paradigm, we recruited 23 HA users, 18 CI users, and 21 individuals with normal hearing to complete 3 channel-specific tasks: a semantics task, a prosody task, and a face task. Each task was designed to extract emotion-related information from a specific channel in accordance with the task’s requirements. Results: The prosody-judgment abilities of both hearing-impaired groups (CI users and HA users) were significantly impaired compared with individuals with normal hearing. In addition, during multimodal processing, the CI group showed no statistically detectable cross-channel interference on the face task, whereas in the HA group, semantic inconsistency was associated with lower performance across all three tasks, including tasks in which semantics was task-irrelevant. Conclusions: Impaired prosody judgment in hearing-impaired individuals likely stems from auditory processing deficits, leading to poorer performance than their normal-hearing peers. The two groups showed different exploratory patterns of cross-channel interference: in the CI group, the face task showed no statistically detectable interference, whereas in the HA group, semantic inconsistency was associated with lower performance even when semantics was task-irrelevant. These patterns are potentially consistent with device-related differences in access to auditory and visual emotion cues, and we interpret them within a cross-channel plasticity framework as hypotheses for future study. These findings support individualized speech therapy tailored to specific perceptual strategies, enhancing targeted rehabilitation.",
+      "ai_analysis": {
+        "scientific_question": "该研究比较助听器使用者、人工耳蜗使用者与正常听力者在语义、韵律和面部线索通道下解码情绪的表现及通道偏好，旨在回答不同听觉设备使用者在情绪词加工中的跨通道干扰模式是否存在差异。",
+        "key_highlight": "两组听障者的韵律判断能力均显著低于正常听力者，且人工耳蜗组在面部任务中未检出跨通道干扰，而助听器组在语义不一致时三项任务表现均较低，包括语义与任务无关的任务。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "作者将观察到的跨通道干扰差异解释为与设备相关的听觉和视觉情绪线索获取差异，并作为未来研究的假设，同时提示可据此制定个体化言语治疗策略；这些属于可能的应用含义，而非摘要已证实的因果结论。",
+        "evidence": [
+          "The prosody-judgment abilities of both hearing-impaired groups (CI users and HA users) were significantly impaired compared with individuals with normal hearing.",
+          "in the HA group, semantic inconsistency was associated with lower performance across all three tasks, including tasks in which semantics was task-irrelevant"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "3fe95777b9a39944",
+        "updated_at": "2026-10-30T08:46:05Z"
+      },
       "first_author_affiliation": "School of Foreign Languages, Hunan University, Changsha, China",
       "last_author_affiliation": "School of Foreign Languages, Hunan University, Changsha, China",
       "publication_stage": "early_access",
@@ -1419,23 +1435,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-29",
-      "first_seen_at": "2026-10-30T08:44:56Z",
-      "ai_analysis": {
-        "scientific_question": "该研究比较助听器使用者、人工耳蜗使用者与正常听力者在语义、韵律和面部线索通道下解码情绪的表现及通道偏好，旨在回答不同听觉设备使用者在情绪词加工中的跨通道干扰模式是否存在差异。",
-        "key_highlight": "两组听障者的韵律判断能力均显著低于正常听力者，且人工耳蜗组在面部任务中未检出跨通道干扰，而助听器组在语义不一致时三项任务表现均较低，包括语义与任务无关的任务。",
-        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
-        "research_implication": "作者将观察到的跨通道干扰差异解释为与设备相关的听觉和视觉情绪线索获取差异，并作为未来研究的假设，同时提示可据此制定个体化言语治疗策略；这些属于可能的应用含义，而非摘要已证实的因果结论。",
-        "evidence": [
-          "The prosody-judgment abilities of both hearing-impaired groups (CI users and HA users) were significantly impaired compared with individuals with normal hearing.",
-          "in the HA group, semantic inconsistency was associated with lower performance across all three tasks, including tasks in which semantics was task-irrelevant"
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "3fe95777b9a39944",
-        "updated_at": "2026-10-30T08:46:05Z"
-      }
+      "first_seen_at": "2026-10-30T08:44:56Z"
     },
     {
       "title": "Faster production, better recognition, more information: How speech rate affects fast speech perception and information transmission",
@@ -1450,17 +1450,6 @@
       "doi": "10.1121/10.0046915",
       "url": "https://doi.org/10.1121/10.0046915",
       "abstract": "Speech production and perception are assumed to be closely connected. However, whether this connection extends to the domain of fast speech remains underexplored. The first goal of the current study was to examine whether faster speakers also recognize fast speech more accurately than slower speakers. The second goal was to investigate whether speaking at a fast rate is accompanied by producing a greater amount of linguistic material. Using a within-participant design, 150 Hebrew speakers completed three fast speech recognition tasks: natural fast speech, natural fast speech in noise, and time-compressed speech. Their speech and articulation rates were extracted from reading and spontaneous conversational samples. Results revealed small and task-dependent associations between speech production rate and recognition of fast speech. In addition, fast speakers produced more syllables per utterance, a pattern hypothesized to reflect an information transmission mechanism. These findings suggest that individual speech rates may influence both perception and the amount of linguistic material produced during speech. Further research is needed to clarify the mechanisms underlying these effects.",
-      "first_author_affiliation": "Department of Communication Sciences and Disorders, University of Haifa , Haifa,",
-      "last_author_affiliation": "Department of Communication Sciences and Disorders, University of Haifa , Haifa,",
-      "section": "Speech Communication",
-      "keywords": [],
-      "tags": [
-        "priority section",
-        "speech perception"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-29",
-      "first_seen_at": "2026-10-30T08:44:33Z",
       "ai_analysis": {
         "scientific_question": "该研究考察说话者的语速是否与其对快速言语的识别准确度相关，以及快速说话是否伴随更多语言材料的产出。",
         "key_highlight": "结果显示，言语产出速率与快速言语识别之间存在较小且依赖任务的关联，同时说话较快者每句话产出的音节更多。",
@@ -1476,7 +1465,18 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "248a57a11533d46d",
         "updated_at": "2026-10-30T08:46:11Z"
-      }
+      },
+      "first_author_affiliation": "Department of Communication Sciences and Disorders, University of Haifa , Haifa,",
+      "last_author_affiliation": "Department of Communication Sciences and Disorders, University of Haifa , Haifa,",
+      "section": "Speech Communication",
+      "keywords": [],
+      "tags": [
+        "priority section",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-29",
+      "first_seen_at": "2026-10-30T08:44:33Z"
     },
     {
       "title": "Modeling the effects of seasonal weather on rocket launch-ascent sonic boom footprints in Southern California",
@@ -1491,17 +1491,6 @@
       "doi": "10.1121/10.0046863",
       "url": "https://doi.org/10.1121/10.0046863",
       "abstract": "When rockets ascend, accelerate, and pitch over toward orbit, they can generate sonic booms audible on the ground over 100 km from the launch site, as observed with recent launches from Vandenberg Space Force Base. The locations where these booms arrive vary seasonally, with some areas experiencing them only at certain times of year. In this paper, the seasonal variation is explored and modeled using pcboom 7.5.0, with simulations run using measured and modeled weather profiles from 2020 to 2025. pcboom peak overpressure footprints were interpolated to four locations where sonic booms have been reported and measured: Carpinteria, Ojai, Ventura, and Oxnard. The probability of a sonic boom occurring at each location was higher in the winter and lower in the summer (all seasons defined in the northern hemisphere). Changes in the footprint location were linked to seasonal changes in weather. Specifically, the changes in upper-level winds (stratospheric and mesospheric) influenced large changes in the land area that received a sonic boom. Strategic seasonal launch scheduling for missions should be considered to enable launches along all azimuths while minimizing the occurrence of sonic booms on land.",
-      "first_author_affiliation": "Department of Physics and Astronomy, Brigham Young University 1 , Provo, Utah 84602,",
-      "last_author_affiliation": "Department of Biology, California State University Bakersfield 2 , Bakersfield, California 93311,",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "priority section",
-        "psychoacoustics"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-29",
-      "first_seen_at": "2026-10-30T08:44:33Z",
       "ai_analysis": {
         "scientific_question": "季节性天气如何影响南加州火箭上升段音爆在地面的到达位置与发生概率？",
         "key_highlight": "模拟结果显示，四个地点的音爆发生概率在冬季较高、夏季较低，且足迹位置变化与高空风（平流层和中间层）的季节变化相关联。",
@@ -1517,7 +1506,18 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "7e9529b625f98dc7",
         "updated_at": "2026-10-30T08:46:13Z"
-      }
+      },
+      "first_author_affiliation": "Department of Physics and Astronomy, Brigham Young University 1 , Provo, Utah 84602,",
+      "last_author_affiliation": "Department of Biology, California State University Bakersfield 2 , Bakersfield, California 93311,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "priority section",
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-29",
+      "first_seen_at": "2026-10-30T08:44:33Z"
     },
     {
       "title": "Noise-induced temporary threshold shifts following intermittent underwater sound exposure in the aquatic Eastern painted turtle ( Chrysemys picta picta )",
@@ -1534,17 +1534,6 @@
       "doi": "10.1121/10.0046921",
       "url": "https://doi.org/10.1121/10.0046921",
       "abstract": "Aquatic turtles can incur underwater hearing loss—or temporary thresholds shifts (TTSs)—upon exposure to continuous broadband and narrowband sound; a key question is how the turtle ear responds to intermittent sound sources. We exposed three Eastern painted turtles (Chrysemys pica pica) to 20 min of underwater 400 Hz 1/6-octave narrowband noise at 4 duty cycles (25–75% intermittent; 100% continuous) and two exposure amplitudes [cumulative sound exposure levels (SELcum): 156–172 dB re 1 μPa2s]. Underwater auditory evoked potential measurements at 570 Hz demonstrated significant shifts ranging 6.4–27.4 dB, with lower TTS after intermittent exposures, compared to continuous. Although turtles experienced TTS at all duty cycles tested, recovery intervals within the intermittent exposures appeared to limit TTS growth, as observed in mammals. Thresholds shifts for intermittent noise were lower than shifts observed and predicted for 100% duty cycle exposures of the same SELcum, suggesting SELcum may overestimate TTS in aquatic turtles. Faster recovery rates occurred after 75% and 100% duty cycle exposures, compared to 25% and 50%, likely because of the greater TTS induced. We illustrate observed shifts may have significant impacts on detection distances of biologically relevant sounds, highlighting the importance of noise management for this threatened taxon.",
-      "first_author_affiliation": "Biology Department, Woods Hole Oceanographic Institution 1 , Woods Hole, Massachusetts 02543,",
-      "last_author_affiliation": "Biology Department, Woods Hole Oceanographic Institution 1 , Woods Hole, Massachusetts 02543,",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "clinical audiology",
-        "priority section"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-10-29",
-      "first_seen_at": "2026-10-30T08:44:33Z",
       "ai_analysis": {
         "scientific_question": "间歇性水下噪声暴露如何影响水生东部锦龟的暂时性听阈偏移（TTS）？",
         "key_highlight": "在测试的所有占空比下均出现TTS，但间歇暴露后的TTS低于相同累积声暴露量下的连续暴露。",
@@ -1560,7 +1549,18 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "e642e203de299db4",
         "updated_at": "2026-10-30T08:46:32Z"
-      }
+      },
+      "first_author_affiliation": "Biology Department, Woods Hole Oceanographic Institution 1 , Woods Hole, Massachusetts 02543,",
+      "last_author_affiliation": "Biology Department, Woods Hole Oceanographic Institution 1 , Woods Hole, Massachusetts 02543,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology",
+        "priority section"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-29",
+      "first_seen_at": "2026-10-30T08:44:33Z"
     },
     {
       "title": "Seasonal Variation in Preschool Hearing Screening Outcomes",
@@ -1999,7 +1999,23 @@
       ],
       "source": "crossref",
       "available_online_date": "2026-10-27",
-      "first_seen_at": "2026-10-28T08:40:55Z"
+      "first_seen_at": "2026-10-28T08:40:55Z",
+      "ai_analysis": {
+        "scientific_question": "能否构建一个开放、高效且同时适用于语音与全频带音频、覆盖较宽质量范围的心理声学音频相似度指标？",
+        "key_highlight": "Zimtohrli 将128通道ERB间隔伽马通前端与非线性谐振器结合，通过改进的动态时间规整和神经图相似度指数比较感知映射频谱图，并针对人类评分进行优化。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "摘要报告该指标在整体上落后POLQA约7%但在全频带音乐上超过它且运行快5倍，这提示其可能为跨语音与音乐质量的开放评估提供替代方案，但该含义尚待独立验证。",
+        "evidence": [
+          "It outperforms ViSQOL and Advanced PEAQ, trails POLQA by ∼7% yet surpasses it on full-band music, running 5× faster.",
+          "leaving a gap for an open metric spanning speech and full-band audio across a wide quality range"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "03a233d8ae67a481",
+        "updated_at": "2026-10-31T08:30:57Z"
+      }
     },
     {
       "title": "Basin-scale ocean acoustic telemetry: Digital waveforms for transmitting oceanographic corrections",
@@ -2289,6 +2305,57 @@
       "first_seen_at": "2026-10-27T07:58:39Z"
     },
     {
+      "title": "Pulse-rate effects on single- and multi-channel envelope processing and consonant identification in cochlear implant users",
+      "authors": [
+        "Mahan Azadpour",
+        "Jonathan D Neukam",
+        "Nicole Hope Capach",
+        "Mario A Svirsky"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-25",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109846",
+      "url": "https://doi.org/10.1016/j.heares.2026.109846",
+      "abstract": "Cochlear implants (CIs) stimulate auditory neurons with electric pulse trains whose amplitudes are modulated using envelopes extracted from different frequency bands, conveying essential speech cues. This study investigated how the rate of stimulation pulses affects envelope processing and speech perception in ten post-lingually deaf CI users. Amplitude modulation (AM) detection and consonant identification were examined using acoustic stimuli processed by multi-channel and single-channel strategies, with pulse rates ranging from 125 to 2000 pulses per second (pps) for multi-channel stimulation and from 125 to 4000pps for single-channel stimulation. The single-channel conditions encoded the overall broad-band speech envelope by a single electrode and were used to isolate within-electrode temporal modulation coding. For AM detection, the modulation frequency was 25 Hz ensuring sufficient modulation sampling across all carrier rates tested. Even at 125pps, the 25-Hz modulation was represented by five pulses per modulation cycle. Results revealed a significant decline in both AM detection and consonant identification at 125pps, suggesting that poorer speech recognition at low rates may be partly attributable to limitations in temporal modulation processing rather than solely to a restricted range of representable envelope frequencies. Consonant recognition performance remained stable across clinically relevant pulse rates (250-2000pps), though significant listener- and feature-specific effects were observed. Notably, while AM detection and consonant recognition were not significantly correlated within this small cohort, significant correlations were found between single-channel and multi-channel performance in both tasks. These findings support an important role for within-electrode temporal coding in CI speech perception and highlight the clinical relevance of individual variability in pulse rate effects.",
+      "last_author_affiliation": "New York University Grossman School of Medicine, Department of Otolaryngology, 550 First Avenue, New York, NY, 10016, USA.",
+      "publication_stage": "early_access",
+      "section": "Speech Communication",
+      "keywords": [
+        "Amplitude modulation detection",
+        "Cochlear implant",
+        "Envelope processing",
+        "Pulse rate",
+        "Within-electrode temporal coding"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology",
+        "cochlear implant",
+        "psychoacoustics",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-10-25",
+      "first_seen_at": "2026-10-25T07:39:17Z",
+      "ai_analysis": {
+        "scientific_question": "在人工耳蜗使用者中，刺激脉冲速率如何影响单通道与多通道条件下的包络处理（调幅检测）和辅音识别？",
+        "key_highlight": "在125 pps时调幅检测与辅音识别均显著下降，而临床相关脉冲速率（250–2000 pps）下辅音识别保持稳定。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "结果提示低脉冲速率下较差的言语识别可能部分源于时间调制处理受限，并支持电极内时间编码在人工耳蜗言语感知中的重要作用，但相关性与因果推断仍需谨慎解读。",
+        "evidence": [
+          "Results revealed a significant decline in both AM detection and consonant identification at 125pps",
+          "Consonant recognition performance remained stable across clinically relevant pulse rates (250-2000pps)"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "14d6a7fcb111b3bd",
+        "updated_at": "2026-10-31T08:31:02Z"
+      }
+    },
+    {
       "title": "A reduced-order semi-analytical model for load-modulated acoustic reflection from coated Tonpilz transducers",
       "authors": [
         "Yu Luo",
@@ -2560,7 +2627,23 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-23",
-      "first_seen_at": "2026-10-23T07:39:08Z"
+      "first_seen_at": "2026-10-23T07:39:08Z",
+      "ai_analysis": {
+        "scientific_question": "能否构建一个基于大语言模型的计算框架，用以模拟与听力损失相关的去传入变化，并量化各分区对类耳鸣过度活动的贡献？",
+        "key_highlight": "该计算去传入类比在基本保持任务准确率的同时出现活动增加，且区域1呈净抑制贡献、区域2贡献最大，区域6和8亦有正向贡献。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "作者提出该框架可能为构建患者特异性数字孪生提供基础，但这属于潜在应用设想而非已验证结论。",
+        "evidence": [
+          "The computational deafferentation analog largely preserved task accuracy but showed increased activity.",
+          "Region 1 was the only region with a net suppressive contribution to excess activity, whereas region 2 exhibited the largest positive contribution"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "1ed5f5d045f6aef7",
+        "updated_at": "2026-10-31T08:31:05Z"
+      }
     },
     {
       "title": "Statistical models of Falcon 9 launch noise metrics at Vandenberg Space Force Base",
@@ -3493,7 +3576,23 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-20",
-      "first_seen_at": "2026-10-20T07:41:58Z"
+      "first_seen_at": "2026-10-20T07:41:58Z",
+      "ai_analysis": {
+        "scientific_question": "在产生暂时性阈移（TTS）的噪声暴露后，龙猫的耳蜗突触和听神经功能是否会出现持续性的阈上及时间编码异常？",
+        "key_highlight": "组织学证实内毛细胞突触持续丢失，ABR阈值与DPOAE恢复，但阈上ABR振幅降低、潜伏期延长及低自发放率纤维比例下降等异常持续存在。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "结果提示恢复的TTS可留下常规阈值检测无法捕捉的细微持续神经改变，并支持采用阈上、潜伏期敏感及调制相关指标检测耳蜗突触病变的残余效应。",
+        "evidence": [
+          "Histology confirmed persistent loss of inner-hair-cell synapses following exposure.",
+          "Suprathreshold ABR measures showed reduced Peak 1 amplitudes and prolonged Peak 5-Peak 1 latencies, while single-unit recordings revealed a reduced proportion of low-SR fibers in the exposed population."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "4cb07ece38c0f24e",
+        "updated_at": "2026-10-31T08:31:07Z"
+      }
     },
     {
       "title": "Acoustic field prediction in Pekeris waveguides using a learnable effective depth",
@@ -4580,7 +4679,6 @@
       "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13712651/",
       "pubmed_full_text_source": "pmc",
       "media_checked_at": "2026-10-15T07:32:52Z",
-      "publication_stage": "early_access",
       "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [
@@ -4853,7 +4951,7 @@
       "publication_date_precision": "day",
       "doi": "10.1097/aud.0000000000001813",
       "url": "https://doi.org/10.1097/aud.0000000000001813",
-      "abstract": "Abstract: Hearing loss is the most common sensory disorder, causing substantial impacts on language development, literacy, mood, and cognition. Sensorineural hearing loss, caused by injury to the cochlear hair cells, cochlear nerve, or central auditory pathways, accounts for most cases of hearing loss. Existing therapies for sensorineural hearing loss include hearing aids and cochlear implants; however, these modalities have limited efficacy in noisy environments, variable hearing outcomes, and limited frequency discrimination. There are currently no Food and Drug Administration-approved cellular, molecular, or pharmacological therapies available. Stem cell therapy is an emerging and promising approach to treating sensorineural hearing loss through transplanting exogenous stem cells into the cochlea. Stem cell-based inner ear systems have been crucial to studying how stem cells can mimic or restore the function of the inner ear. The two-dimensional culture system has been instrumental in understanding pluripotent stem cell differentiation in the inner ear neuroepithelium. However, they are unable to mimic tissue-specific architecture and specific cellular interactions. Researchers subsequently moved to develop differentiation protocols in three-dimensional inner ear organoids, which more closely resemble in vivo structures. Such approaches are a promising step forward in the development of stem cell therapies focusing on structures in the cochlea that have limited to no ability to regenerate, including hair cells, spiral ganglion neurons, and spiral ligament fibrocytes. Future directions of this field include integrating stem cell therapy with gene therapy approaches and developing novel high-throughput drug screening platforms.",
+      "abstract": "Hearing loss is the most common sensory disorder, causing substantial impacts on language development, literacy, mood, and cognition. Sensorineural hearing loss, caused by injury to the cochlear hair cells, cochlear nerve, or central auditory pathways, accounts for most cases of hearing loss. Existing therapies for sensorineural hearing loss include hearing aids and cochlear implants; however, these modalities have limited efficacy in noisy environments, variable hearing outcomes, and limited frequency discrimination. There are currently no Food and Drug Administration-approved cellular, molecular, or pharmacological therapies available. Stem cell therapy is an emerging and promising approach to treating sensorineural hearing loss through transplanting exogenous stem cells into the cochlea. Stem cell-based inner ear systems have been crucial to studying how stem cells can mimic or restore the function of the inner ear. The two-dimensional culture system has been instrumental in understanding pluripotent stem cell differentiation in the inner ear neuroepithelium. However, they are unable to mimic tissue-specific architecture and specific cellular interactions. Researchers subsequently moved to develop differentiation protocols in three-dimensional inner ear organoids, which more closely resemble in vivo structures. Such approaches are a promising step forward in the development of stem cell therapies focusing on structures in the cochlea that have limited to no ability to regenerate, including hair cells, spiral ganglion neurons, and spiral ligament fibrocytes. Future directions of this field include integrating stem cell therapy with gene therapy approaches and developing novel high-throughput drug screening platforms.",
       "ai_analysis": {
         "scientific_question": "干细胞疗法能否用于治疗由耳蜗毛细胞、耳蜗神经或中枢听觉通路损伤所致的感觉神经性听力损失？",
         "key_highlight": "该综述指出，干细胞疗法通过向耳蜗移植外源干细胞，是治疗感觉神经性听力损失的一种新兴且有前景的途径，三维内耳类器官分化方案较二维培养更接近体内结构。",
@@ -4872,7 +4970,6 @@
       },
       "first_author_affiliation": "Department of Otolaryngology-Head & Neck Surgery, University of Miami Miller School of Medicine, Miami, Florida, USA",
       "last_author_affiliation": "Department of Otolaryngology-Head & Neck Surgery, University of Miami Miller School of Medicine, Miami, Florida, USA",
-      "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [
         "3D organoids",
@@ -4942,7 +5039,7 @@
       "publication_date_precision": "day",
       "doi": "10.1097/aud.0000000000001782",
       "url": "https://doi.org/10.1097/aud.0000000000001782",
-      "abstract": "Abstract: Hearing loss and dizziness are the most common sensory disorders worldwide. About 5% of the world’s population is affected by disabling hearing loss, and the prevalence is projected to increase over the next several decades. Cochlear hair cells are essential in converting sound vibrations into electrical signals, which are then relayed centrally via the spiral ganglion neurons and lead to sound perception. The irreversible loss of cochlear hair cells is the most common pathology underlying sensorineural hearing loss in humans. In stark contrast, nonmammalian species such as chicken and zebrafish spontaneously regenerate hair cells from endogenous supporting cells after hair cell damage, and the mechanisms of this process are starting to be revealed. Advances in the understanding of inner ear hair cell development have led to novel protocols to efficiently generate mouse and human inner ear organoids. Several new and promising reprogramming approaches have recently been established to induce hair cell regeneration in the mature mouse cochlear and vestibular organs. In this review, we will discuss these recent advances, the implications for treatments for human hearing loss and balance dysfunction, and future directions of the field.",
+      "abstract": "Hearing loss and dizziness are the most common sensory disorders worldwide. About 5% of the world’s population is affected by disabling hearing loss, and the prevalence is projected to increase over the next several decades. Cochlear hair cells are essential in converting sound vibrations into electrical signals, which are then relayed centrally via the spiral ganglion neurons and lead to sound perception. The irreversible loss of cochlear hair cells is the most common pathology underlying sensorineural hearing loss in humans. In stark contrast, nonmammalian species such as chicken and zebrafish spontaneously regenerate hair cells from endogenous supporting cells after hair cell damage, and the mechanisms of this process are starting to be revealed. Advances in the understanding of inner ear hair cell development have led to novel protocols to efficiently generate mouse and human inner ear organoids. Several new and promising reprogramming approaches have recently been established to induce hair cell regeneration in the mature mouse cochlear and vestibular organs. In this review, we will discuss these recent advances, the implications for treatments for human hearing loss and balance dysfunction, and future directions of the field.",
       "ai_analysis": {
         "scientific_question": "该综述探讨如何基于非哺乳动物毛细胞自发再生机制及内耳发育认识，通过类器官和重编程方法在成熟哺乳动物内耳中诱导毛细胞再生。",
         "key_highlight": "摘要指出，近期已建立若干有前景的重编程方法，可在成熟小鼠耳蜗和前庭器官中诱导毛细胞再生。",
@@ -4961,7 +5058,6 @@
       },
       "first_author_affiliation": "Department of Otolaryngology-Head and Neck Surgery, Stanford University School of Medicine, Stanford, California, USA",
       "last_author_affiliation": "Department of Otolaryngology-Head and Neck Surgery, Stanford University School of Medicine, Stanford, California, USA",
-      "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [
         "Hair cell",
@@ -5059,7 +5155,6 @@
       "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13712648/",
       "pubmed_full_text_source": "pmc",
       "media_checked_at": "2026-10-14T07:45:40Z",
-      "publication_stage": "early_access",
       "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [
@@ -5090,7 +5185,7 @@
       "doi": "10.1097/aud.0000000000001771",
       "url": "https://doi.org/10.1097/aud.0000000000001771",
       "full_text_url": "https://www.ovid.com/jnls/ear-hearing/fulltext/10.1097/aud.0000000000001771~gene-therapy-routes-of-inner-ear-delivery",
-      "abstract": "Abstract: Gene delivery and the various routes of administration used to deliver viral vectors constitute a rapidly evolving field, with recent success in restoring hearing in children with OTOF variants in ongoing clinical otoferlin trials. With the rise of gene therapy for major hereditary hearing disorders, both syndromic and nonsyndromic, there has been parallel progress in the development of new delivery methods. Advances in intratympanic injection of antibiotics and corticosteroids, along with nearly half a century of experience in cochlear implantation surgery, have enabled multiple local and systemic approaches to access the inner ear. Recent industry investment in gene therapy and delivery technologies has accelerated scientific progress, underscoring the need for continuous evaluation of the most suitable gene delivery strategies for different causes of hearing loss. Although most gene delivery in animal models has been performed via round window membrane injection, yielding promising results in cochlear hair cell transduction, potential drawbacks remain for clinical translation—particularly limited vector distribution, which may result in a basal-to-apical gradient. Venting procedures such as stapes footplate fenestration or canalostomy have been explored to mitigate these limitations, and recent intrathecal or even in utero injections have been investigated as alternative approaches. Hearing loss can be inherited in multiple ways, and patient treatment with gene delivery, or even the type of gene therapy itself, may vary with the recent success of CRISPR/Cas-based editing tools. Understanding the genetic etiology of inner ear disorders has facilitated the identification of therapeutic targets and innovative delivery approaches. This review summarizes the current understanding of delivery routes for gene therapy, highlighting their respective strengths and limitations as demonstrated in translational and clinical research to date. Furthermore, it examines advances in drug delivery and clinical applications in the context of emerging therapeutics, providing an integrated overview and perspective on the future direction of gene delivery strategies.",
+      "abstract": "Gene delivery and the various routes of administration used to deliver viral vectors constitute a rapidly evolving field, with recent success in restoring hearing in children with OTOF variants in ongoing clinical otoferlin trials. With the rise of gene therapy for major hereditary hearing disorders, both syndromic and nonsyndromic, there has been parallel progress in the development of new delivery methods. Advances in intratympanic injection of antibiotics and corticosteroids, along with nearly half a century of experience in cochlear implantation surgery, have enabled multiple local and systemic approaches to access the inner ear. Recent industry investment in gene therapy and delivery technologies has accelerated scientific progress, underscoring the need for continuous evaluation of the most suitable gene delivery strategies for different causes of hearing loss. Although most gene delivery in animal models has been performed via round window membrane injection, yielding promising results in cochlear hair cell transduction, potential drawbacks remain for clinical translation—particularly limited vector distribution, which may result in a basal-to-apical gradient. Venting procedures such as stapes footplate fenestration or canalostomy have been explored to mitigate these limitations, and recent intrathecal or even in utero injections have been investigated as alternative approaches. Hearing loss can be inherited in multiple ways, and patient treatment with gene delivery, or even the type of gene therapy itself, may vary with the recent success of CRISPR/Cas-based editing tools. Understanding the genetic etiology of inner ear disorders has facilitated the identification of therapeutic targets and innovative delivery approaches. This review summarizes the current understanding of delivery routes for gene therapy, highlighting their respective strengths and limitations as demonstrated in translational and clinical research to date. Furthermore, it examines advances in drug delivery and clinical applications in the context of emerging therapeutics, providing an integrated overview and perspective on the future direction of gene delivery strategies.",
       "first_author_affiliation": "Christian Doppler Laboratory for Inner Ear Research, Division of Head and Neck Surgery, Department of Otorhinolaryngology, Medical University of Vienna, Vienna, Austria",
       "last_author_affiliation": "Christian Doppler Laboratory for Inner Ear Research, Division of Head and Neck Surgery, Department of Otorhinolaryngology, Medical University of Vienna, Vienna, Austria",
       "open_access": true,
@@ -5102,7 +5197,6 @@
       "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13712657/",
       "pubmed_full_text_source": "pmc",
       "media_checked_at": "2026-10-14T07:45:41Z",
-      "publication_stage": "early_access",
       "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [
@@ -5153,7 +5247,6 @@
       },
       "first_author_affiliation": "Reference Center for Genetic Hearing Loss, Necker Enfants Malades Hospital, Paris, France",
       "last_author_affiliation": "Reference Center for Genetic Hearing Loss, Necker Enfants Malades Hospital, Paris, France",
-      "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [
         "Gene",
@@ -5255,7 +5348,7 @@
       "first_seen_at": "2026-10-14T07:45:30Z"
     },
     {
-      "title": "Otoferlin Gene Therapy: Narrative Review for Ear and Hearing Special Issue: Gene Therapy for Hearing Loss",
+      "title": "Otoferlin Gene Therapy for Hearing Loss",
       "authors": [
         "Jenna Devare",
         "Audrey P. Lawrence",
@@ -5285,7 +5378,6 @@
       },
       "first_author_affiliation": "Department of Otolaryngology–Head and Neck Surgery, University of Michigan, Ann Arbor, Michigan, USA",
       "last_author_affiliation": "Division of Pediatric Otolaryngology, Children’s Hospital of Philadelphia, Philadelphia, Pennsylvania, USA",
-      "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [
         "Auditory neuropathy",
@@ -5413,7 +5505,23 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-10-12",
-      "first_seen_at": "2026-10-13T09:31:29Z"
+      "first_seen_at": "2026-10-13T09:31:29Z",
+      "ai_analysis": {
+        "scientific_question": "在具有残余低频听力的EAS使用者中，位于基底、顶区及圆窗附近（耳蜗外）的电刺激是否会被同侧声刺激所掩蔽？",
+        "key_highlight": "顶区电刺激的声掩蔽稳定且较强，基底与圆窗附近刺激的掩蔽较弱但可测量；圆窗附近电刺激在12名参与者中的8名可可靠诱发听觉感知。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "顶区电刺激掩蔽与残余听力相关，提示其可能作为术后低频听力评估的诊断工具，但参与者间差异较大，仍需进一步研究。",
+        "evidence": [
+          "Strong acoustic masking was consistently observed for apical stimulation, whereas weaker but measurable masking occurred for basal and RW stimulation.",
+          "A cochlear lumped-parameter model indicated that approximately 5% of current delivered at the RW can reach apical regions"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "f5b19cc0cc1e86f7",
+        "updated_at": "2026-10-31T08:31:16Z"
+      }
     },
     {
       "title": "Active noise cancellation extends the benefit of AI speech enhancement in real hearing-aid recordings",
@@ -5922,7 +6030,6 @@
       },
       "first_author_affiliation": "The Bionics Institute, Melbourne, Australia",
       "last_author_affiliation": "The Bionics Institute, Melbourne, Australia",
-      "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [
         "Cochlear implant",
@@ -7582,6 +7689,21 @@
     {
       "title": "Editorial Board",
       "authors": [],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00266-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-02T07:09:02Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-10-01",
       "publication_date_precision": "day",
@@ -7594,21 +7716,6 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00266-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Effective model of fiber Bragg gratings for simulation of ultrasonic guided wave measurements using spectral finite elements",
@@ -8438,29 +8545,6 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
-    },
-    {
-      "title": "Pulse-rate effects on single- and multi-channel envelope processing and consonant identification in cochlear implant users",
-      "authors": [
-        "Mahan Azadpour",
-        "Jonathan Neukam",
-        "Nicole Capach",
-        "Mario Svirsky"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109846",
-      "url": "https://doi.org/10.1016/j.heares.2026.109846",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "auditory physiology",
-        "cochlear implant"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-10-25T07:39:17Z"
     },
     {
       "title": "Quantifying parameter uncertainty in a three-parameter model of speech and voice adaptation using early- and late-window pitch-shift responses",
@@ -10924,22 +11008,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046572",
-      "url": "https://doi.org/10.1121/10.0046572",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:56Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -10952,6 +11020,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:59Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046572",
+      "url": "https://doi.org/10.1121/10.0046572",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:56Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -11298,7 +11382,6 @@
       },
       "first_author_affiliation": "National Acoustic Laboratories, Sydney, New South Wales, Australia",
       "last_author_affiliation": "National Acoustic Laboratories, Sydney, New South Wales, Australia",
-      "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [
         "Children with mild bilateral hearing loss",
@@ -11637,7 +11720,6 @@
       "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13712663/",
       "pubmed_full_text_source": "pmc",
       "media_checked_at": "2026-09-18T07:28:28Z",
-      "publication_stage": "early_access",
       "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
       "key_formula": "T 2 = N ( x ¯ − μ 0 ) ⊺ S − 1 ( x ¯ − μ 0 )",
       "section": "Psychological and Physiological Acoustics",
@@ -13186,7 +13268,6 @@
       },
       "first_author_affiliation": "Department of Speech and Hearing Science, University of Illinois Urbana-Champaign, Champagne, Illinois, USA",
       "last_author_affiliation": "Department of Physical Therapy, Creighton University, Omaha, Nebraska, USA.",
-      "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
       "keywords": [
         "Balance",
@@ -21687,22 +21768,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -21715,6 +21780,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -50681,18 +50762,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -50713,17 +50793,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -59948,22 +60029,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -59976,6 +60041,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -67078,23 +67159,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -67108,6 +67172,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -70659,8 +70740,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -70674,8 +70755,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -76196,8 +76277,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -76211,8 +76292,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
