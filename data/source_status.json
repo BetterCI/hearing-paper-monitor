@@ -1,75 +1,75 @@
 {
-  "checked_at": "2026-10-31T08:30:30Z",
+  "checked_at": "2026-11-01T09:21:45Z",
   "journals": [
     {
       "key": "jasa",
       "journal": "The Journal of the Acoustical Society of America",
-      "checked_at": "2026-10-31T08:29:50Z",
-      "last_success_at": "2026-10-31T08:29:50Z",
+      "checked_at": "2026-11-01T09:21:18Z",
+      "last_success_at": "2026-11-01T09:21:18Z",
       "state": "ok",
       "lookback_days": 60,
       "newly_added": 0,
-      "fetched": 133,
+      "fetched": 125,
       "latest_publication_date": "2026-10-29",
       "sources": [
         {
           "name": "Crossref",
           "state": "ok",
-          "records": 133
+          "records": 125
         },
         {
           "name": "PubMed",
           "state": "ok",
-          "records": 128
+          "records": 121
         }
       ]
     },
     {
       "key": "jasael",
       "journal": "JASA Express Letters",
-      "checked_at": "2026-10-31T08:29:52Z",
-      "last_success_at": "2026-10-31T08:29:52Z",
+      "checked_at": "2026-11-01T09:21:19Z",
+      "last_success_at": "2026-11-01T09:21:19Z",
       "state": "ok",
       "lookback_days": 60,
       "newly_added": 0,
-      "fetched": 34,
+      "fetched": 32,
       "latest_publication_date": "2026-10-27",
       "sources": [
         {
           "name": "Crossref",
           "state": "ok",
-          "records": 34
+          "records": 32
         }
       ]
     },
     {
       "key": "trends-hearing",
       "journal": "Trends in Hearing",
-      "checked_at": "2026-10-31T08:29:54Z",
-      "last_success_at": "2026-10-31T08:29:54Z",
+      "checked_at": "2026-11-01T09:21:21Z",
+      "last_success_at": "2026-11-01T09:21:21Z",
       "state": "ok",
       "lookback_days": 60,
       "newly_added": 0,
-      "fetched": 10,
+      "fetched": 9,
       "latest_publication_date": "2026-10-27",
       "sources": [
         {
           "name": "Crossref",
           "state": "ok",
-          "records": 10
+          "records": 9
         },
         {
           "name": "PubMed",
           "state": "ok",
-          "records": 10
+          "records": 9
         }
       ]
     },
     {
       "key": "jaro",
       "journal": "Journal of the Association for Research in Otolaryngology",
-      "checked_at": "2026-10-31T08:29:58Z",
-      "last_success_at": "2026-10-31T08:29:58Z",
+      "checked_at": "2026-11-01T09:21:24Z",
+      "last_success_at": "2026-11-01T09:21:24Z",
       "state": "ok",
       "lookback_days": 60,
       "newly_added": 0,
@@ -79,7 +79,7 @@
         {
           "name": "Crossref",
           "state": "ok",
-          "records": 8
+          "records": 7
         },
         {
           "name": "PubMed",
@@ -91,12 +91,12 @@
     {
       "key": "ear-hearing",
       "journal": "Ear and Hearing",
-      "checked_at": "2026-10-31T08:30:02Z",
-      "last_success_at": "2026-10-31T08:30:02Z",
+      "checked_at": "2026-11-01T09:21:27Z",
+      "last_success_at": "2026-11-01T09:21:27Z",
       "state": "ok",
       "lookback_days": 60,
       "newly_added": 0,
-      "fetched": 54,
+      "fetched": 38,
       "latest_publication_date": "2026-10-29",
       "sources": [
         {
@@ -107,30 +107,30 @@
         {
           "name": "PubMed",
           "state": "ok",
-          "records": 54
+          "records": 38
         }
       ]
     },
     {
       "key": "hearing-research",
       "journal": "Hearing Research",
-      "checked_at": "2026-10-31T08:30:08Z",
-      "last_success_at": "2026-10-31T08:30:08Z",
+      "checked_at": "2026-11-01T09:21:30Z",
+      "last_success_at": "2026-11-01T09:21:30Z",
       "state": "ok",
       "lookback_days": 60,
       "newly_added": 0,
-      "fetched": 101,
+      "fetched": 83,
       "latest_publication_date": "2026-11-01",
       "sources": [
         {
           "name": "Crossref",
           "state": "ok",
-          "records": 97
+          "records": 83
         },
         {
           "name": "PubMed",
           "state": "ok",
-          "records": 95
+          "records": 78
         }
       ]
     }
