@@ -1,31 +1,19 @@
 {
-  "checked_at": "2026-11-03T09:42:44Z",
+  "checked_at": "2026-11-04T09:28:23Z",
   "provider": "deepseek",
   "model": "deepseek-flash",
-  "pending": 2783,
+  "pending": 2786,
   "attempted": 6,
-  "updated": 1,
-  "failed": 5,
+  "updated": 4,
+  "failed": 2,
   "failures": [
     {
-      "doi": "10.1097/aud.0000000000001867",
-      "reason": "HTTP 503"
+      "doi": "10.1121/10.0047248",
+      "reason": "Evidence is not an exact abstract quote"
     },
     {
-      "doi": "10.1097/aud.0000000000001905",
-      "reason": "HTTP 503"
-    },
-    {
-      "doi": "10.1121/10.0046955",
-      "reason": "HTTP 503"
-    },
-    {
-      "doi": "10.1121/10.0046897",
-      "reason": "HTTP 503"
-    },
-    {
-      "doi": "10.1121/10.0047190",
-      "reason": "HTTP 503"
+      "doi": "10.1121/10.0047241",
+      "reason": "Evidence is not an exact abstract quote"
     }
   ],
   "needs_attention": false,
