@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T09:08:02Z",
+  "generated_at": "2026-11-09T09:56:11Z",
   "papers": [
     {
       "title": "A binaural loudness model for evaluating round-window stimulation based on a physiological peripheral auditory front-end module",
@@ -455,11 +455,11 @@
       "first_seen_at": "2026-09-29T08:39:35Z"
     },
     {
-      "title": "Brain-wide mapping of neuroanatomical connections to the auditory cortex of hearing and deaf mice",
+      "title": "Brain-wide mapping of neuroanatomical connections to the auditory cortex of hearing and deaf mice.",
       "authors": [
-        "Thomas C. Harmon",
-        "Andrew C. Jin",
-        "Evelyn J. Hardin",
+        "Thomas C Harmon",
+        "Andrew C Jin",
+        "Evelyn J Hardin",
         "Richard Mooney"
       ],
       "journal": "Hearing Research",
@@ -480,6 +480,7 @@
         "abstract_hash": "07a78dcb96e729b6",
         "updated_at": "2026-09-27T08:18:48Z"
       },
+      "first_author_affiliation": "Department of Neurobiology, Duke University, 311 Research Dr, Durham, NC, 27710, USA. Electronic address: thomas.harmon@duke.edu.",
       "last_author_affiliation": "Department of Neurobiology, Duke University, 311 Research Dr, Durham, NC, 27710, USA. Electronic address: mooney@neuro.duke.edu.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
@@ -493,7 +494,7 @@
       "tags": [
         "auditory physiology"
       ],
-      "source": "crossref+pubmed",
+      "source": "pubmed",
       "available_online_date": "2026-09-09",
       "first_seen_at": "2026-09-10T07:21:38Z"
     },
@@ -1482,6 +1483,22 @@
       "doi": "10.1016/j.heares.2026.109858",
       "url": "https://doi.org/10.1016/j.heares.2026.109858",
       "abstract": "Older adults often show deficits on suprathreshold listening tasks despite normal or near-normal hearing, suggesting contributions beyond audibility. We examined age-related performance on two sound-field spatial-hearing tasks and two headphone-based auditory-processing tasks in 48 adults aged 21-78 years with normal hearing or no more than mild loss through 4000 Hz. Spatial acuity was assessed using minimum audible angle (MAA) for 500- and 4000-Hz narrowband noise under on- and off-axis conditions at signal-to-noise ratios (SNRs) from -3 to -12 dB. Spatial speech-in-noise (SSIN), Temporal Fine Structure (TFS), and Spectro-Temporal Modulation (STM) performance were also measured. Mixed-effects models showed significant age effects on all four tasks after adjustment for pure-tone average (PTA). MAA age effects were strongest off-axis, particularly at 4000 Hz, whereas SSIN age effects increased as SNR became more adverse. TFS and STM performance also declined with age independently of PTA. When extended-high-frequency thresholds replaced PTA, age remained significant for MAA, SSIN, and TFS but not STM. Raw cross-task correlations survived false-discovery-rate correction, but none remained significant after controlling for age. Nevertheless, hierarchical regression showed that TFS and off-axis 4000-Hz MAA each explained additional variance in difficult SSIN performance beyond age and PTA, with the final model explaining 53.1% of variance. Thus, aging is associated with suprathreshold spatial and temporal-processing deficits not explained primarily by standard audiometric thresholds.",
+      "ai_analysis": {
+        "scientific_question": "在纯音听阈正常至轻度损失的成年人中，空间听觉与时间处理表现是否随年龄下降，且这些下降是否不能由标准听阈解释？",
+        "key_highlight": "在调整纯音平均听阈后，四项任务均显示显著年龄效应，提示年龄相关的阈上空间与时间处理缺陷并非主要由标准听力图阈值解释。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "结果提示评估老年听者时或需关注阈上空间与时间处理，但摘要为横断面关联分析，尚不能推断因果或指向助听装置。",
+        "evidence": [
+          "Mixed-effects models showed significant age effects on all four tasks after adjustment for pure-tone average (PTA).",
+          "Thus, aging is associated with suprathreshold spatial and temporal-processing deficits not explained primarily by standard audiometric thresholds."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "783d4de251d259c3",
+        "updated_at": "2026-11-08T09:09:10Z"
+      },
       "last_author_affiliation": "Department of Physiology & Biophysics, University of Colorado School of Medicine, Aurora, Colorado, USA. Electronic address: daniel.tollin@ucdenver.edu.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
@@ -1502,23 +1519,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-04",
-      "first_seen_at": "2026-11-05T09:36:38Z",
-      "ai_analysis": {
-        "scientific_question": "在纯音听阈正常至轻度损失的成年人中，空间听觉与时间处理表现是否随年龄下降，且这些下降是否不能由标准听阈解释？",
-        "key_highlight": "在调整纯音平均听阈后，四项任务均显示显著年龄效应，提示年龄相关的阈上空间与时间处理缺陷并非主要由标准听力图阈值解释。",
-        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
-        "research_implication": "结果提示评估老年听者时或需关注阈上空间与时间处理，但摘要为横断面关联分析，尚不能推断因果或指向助听装置。",
-        "evidence": [
-          "Mixed-effects models showed significant age effects on all four tasks after adjustment for pure-tone average (PTA).",
-          "Thus, aging is associated with suprathreshold spatial and temporal-processing deficits not explained primarily by standard audiometric thresholds."
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "783d4de251d259c3",
-        "updated_at": "2026-11-08T09:09:10Z"
-      }
+      "first_seen_at": "2026-11-05T09:36:38Z"
     },
     {
       "title": "Effects of perceptual training on the perception and production of Korean boundary tones by Chinese learners",
@@ -1749,7 +1750,23 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-03",
-      "first_seen_at": "2026-11-04T09:25:39Z"
+      "first_seen_at": "2026-11-04T09:25:39Z",
+      "ai_analysis": {
+        "scientific_question": "在深海声速剖面扰动条件下，如何高效且准确地预测水下声传播损失（TL）？",
+        "key_highlight": "提出潜空间校正方法，将声速剖面扰动映射为潜特征以校正编码后的参考TL，并引入通道注意力模块按维度分配权重。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "年内与跨年评估显示该方法相比未校正参考TL具有更小的TL预测误差与会聚区前缘位置误差，且计算时间远少于传统声传播建模，但摘要未报告具体数值或因果机制。",
+        "evidence": [
+          "we represent the forecast SSP as a perturbation relative to a historical monthly mean SSP",
+          "the proposed method has smaller TL prediction and CZ leading-edge position errors, compared with the uncorrected reference TL, while requiring much less computation time than conventional acoustic propagation modeling"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "0a5c1b82226fb4da",
+        "updated_at": "2026-11-09T09:58:00Z"
+      }
     },
     {
       "title": "Propagation of acoustic black solitons in a bubbly liquid model incorporating thermal conduction at the bubble–liquid interface and liquid compressibility",
@@ -1883,7 +1900,23 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-02",
-      "first_seen_at": "2026-11-03T09:40:40Z"
+      "first_seen_at": "2026-11-03T09:40:40Z",
+      "ai_analysis": {
+        "scientific_question": "在自主录音的森林环境中，基于实测脉冲响应的滤波求和波束成形能否提升鸟鸣自动分类性能，且实验室通用脉冲响应与现场特定脉冲响应的效果有何差异？",
+        "key_highlight": "两种波束成形方法均优于全向基线，现场特定脉冲响应在中远距离表现更佳，并将平均置信度提升幅度从0.11提高到0.15。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "结果提示现场特定脉冲响应可能更适合中远距离监测，而实验室通用脉冲响应可作为大规模部署的稳健替代方案，但该应用含义尚待进一步验证。",
+        "evidence": [
+          "Both beamforming methods outperformed the baseline. Site-specific IR beamforming excelled at intermediate and long ranges.",
+          "site-specific IRs perform best, while lab-generic IRs provide a robust alternative for large-scale use."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "76065c4fd8fb6177",
+        "updated_at": "2026-11-09T09:58:12Z"
+      }
     },
     {
       "title": "A time-resolved single-nucleus atlas of cochlear aging reveals biphasic inflammaging and Tbx2-dependent inner hair cell maintenance",
@@ -2038,22 +2071,6 @@
     {
       "title": "EDITORIAL BOARD",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-11-02",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0047228",
-      "url": "https://doi.org/10.1121/10.0047228",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-11-02",
-      "first_seen_at": "2026-11-03T09:40:40Z"
-    },
-    {
-      "title": "EDITORIAL BOARD",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-11-02",
       "publication_date_precision": "day",
@@ -2066,6 +2083,22 @@
       "source": "crossref",
       "available_online_date": "2026-11-02",
       "first_seen_at": "2026-11-03T09:40:50Z"
+    },
+    {
+      "title": "EDITORIAL BOARD",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0047228",
+      "url": "https://doi.org/10.1121/10.0047228",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-11-02",
+      "first_seen_at": "2026-11-03T09:40:40Z"
     },
     {
       "title": "Effects of vocal fold vibration on the turbulent sound generation in voiced sibilant fricatives",
@@ -2193,6 +2226,22 @@
       "url": "https://doi.org/10.1097/aud.0000000000001905",
       "full_text_url": "https://www.ovid.com/jnls/ear-hearing/fulltext/10.1097/aud.0000000000001905~exploring-the-relationships-between-auditory-processing",
       "abstract": "Objectives: Understanding speech in noise and reverberation requires the integration of auditory, language, and cognitive abilities. Many children experience listening difficulties in such environments which, if persistent, can affect long-term academic outcomes. However, relative contributions of underlying processes remain poorly understood. This study investigated how nonspeech auditory processing, language and cognitive abilities contribute to phoneme identification and sentence understanding in noise in a representative sample of school-aged children. Design: The study included 221 primary school children aged 6 to 11 yr (88 boys, 133 girls), all with normal peripheral hearing. Participants completed measures of nonspeech auditory processing, phoneme identification, and sentence understanding in noise and reverberation, as well as language ability, attention, nonverbal intelligence, and memory. Using structural equation modeling enabled us to consider the influence of multiple predictors simultaneously. Results: A complex pattern of relationships emerged. Bottom-up nonspeech auditory processing supported phoneme identification, which in turn supported sentence understanding in noise. Language ability had a direct top-down influence on sentence understanding. Memory and intelligence contributed indirectly through their influence on language. Minimal associations were observed between cognition and nonspeech auditory processing, supporting a conceptual distinction between auditory and higher-level processes. Conclusions: The results show that bottom-up and top-down abilities make distinct contributions to listening and identify direct and indirect pathways underlying children’s listening in adverse conditions. Auditory processing contributed to phoneme perception, which in turn supported sentence understanding in noise. Language abilities exerted a strong independent influence to sentence understanding in noise, while nonverbal intelligence and memory affected performance only indirectly through language.",
+      "ai_analysis": {
+        "scientific_question": "在学龄儿童中，非言语听觉加工、语言与认知能力如何分别贡献于噪声及混响环境下的音素识别与句子理解？",
+        "key_highlight": "研究通过结构方程模型发现，自下而上的听觉加工支持音素识别并进而支持噪声中句子理解，语言能力则对句子理解有直接的自上而下影响，而记忆与智力通过语言间接起作用。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "结果提示听觉加工与语言能力对不利条件下的聆听有各自独立的贡献路径，但这属于基于相关模型的推断，尚需进一步研究验证其因果与临床意义。",
+        "evidence": [
+          "Bottom-up nonspeech auditory processing supported phoneme identification, which in turn supported sentence understanding in noise.",
+          "Language ability had a direct top-down influence on sentence understanding."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "a55f05c94fa31467",
+        "updated_at": "2026-11-08T09:09:33Z"
+      },
       "first_author_affiliation": "Manchester Centre for Audiology and Deafness, Division of Human Communication, Development & Hearing, School of Health Sciences, The University of Manchester, Manchester, United Kingdom",
       "last_author_affiliation": "Manchester Centre for Audiology and Deafness, Division of Human Communication, Development & Hearing, School of Health Sciences, The University of Manchester, Manchester, United Kingdom",
       "open_access": true,
@@ -2216,23 +2265,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-02",
-      "first_seen_at": "2026-11-03T09:41:35Z",
-      "ai_analysis": {
-        "scientific_question": "在学龄儿童中，非言语听觉加工、语言与认知能力如何分别贡献于噪声及混响环境下的音素识别与句子理解？",
-        "key_highlight": "研究通过结构方程模型发现，自下而上的听觉加工支持音素识别并进而支持噪声中句子理解，语言能力则对句子理解有直接的自上而下影响，而记忆与智力通过语言间接起作用。",
-        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
-        "research_implication": "结果提示听觉加工与语言能力对不利条件下的聆听有各自独立的贡献路径，但这属于基于相关模型的推断，尚需进一步研究验证其因果与临床意义。",
-        "evidence": [
-          "Bottom-up nonspeech auditory processing supported phoneme identification, which in turn supported sentence understanding in noise.",
-          "Language ability had a direct top-down influence on sentence understanding."
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "a55f05c94fa31467",
-        "updated_at": "2026-11-08T09:09:33Z"
-      }
+      "first_seen_at": "2026-11-03T09:41:35Z"
     },
     {
       "title": "Modal radiation efficiencies that still set the benchmark",
@@ -2291,7 +2324,23 @@
       ],
       "source": "crossref",
       "available_online_date": "2026-11-02",
-      "first_seen_at": "2026-11-03T09:40:50Z"
+      "first_seen_at": "2026-11-03T09:40:50Z",
+      "ai_analysis": {
+        "scientific_question": "在典型听力成年人中，调制检测干扰（MDI）的表现特征是什么，以及它与噪声中言语感知（SPiN）是否存在关系？",
+        "key_highlight": "当背景调制速率与目标调制速率匹配时干扰最大，随两者速率差异增大而下降；但绝对调制敏感性与MDI易感性均与SPiN表现无显著关系。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "结果提示调制加工可能由针对包络波动的跨通道机制调控，且在典型听力成年人中似不直接关联噪声中言语感知；此为摘要所述推断，尚需进一步验证。",
+        "evidence": [
+          "Results indicated maximal interference when background modulation rates matched that of the target. Interference declined as background modulation rates diverged.",
+          "However, neither absolute modulation sensitivity nor MDI susceptibility significantly related to SPiN performance."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "0eee62087d2bdae1",
+        "updated_at": "2026-11-09T09:58:09Z"
+      }
     },
     {
       "title": "Prior-enhanced deep learning framework for three-dimensional underwater acoustic transmission loss prediction",
@@ -9936,21 +9985,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00266-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-02T07:09:02Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-10-01",
       "publication_date_precision": "day",
@@ -9963,6 +9997,21 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00266-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Effective model of fiber Bragg gratings for simulation of ultrasonic guided wave measurements using spectral finite elements",
@@ -12849,22 +12898,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046571",
-      "url": "https://doi.org/10.1121/10.0046571",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:59Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -12877,6 +12910,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:56Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046571",
+      "url": "https://doi.org/10.1121/10.0046571",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:59Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -23049,22 +23098,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044504",
-      "url": "https://doi.org/10.1121/10.0044504",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:37Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -23077,6 +23110,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:36Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044504",
+      "url": "https://doi.org/10.1121/10.0044504",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:37Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -51948,17 +51997,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -51979,18 +52029,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -60970,22 +61019,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -60998,6 +61031,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -68100,23 +68149,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -68130,6 +68162,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -71681,8 +71730,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -71696,8 +71745,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -77521,8 +77570,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -77536,8 +77585,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
