@@ -1,31 +1,6 @@
 {
-  "generated_at": "2026-11-13T09:41:09Z",
+  "generated_at": "2026-11-14T09:06:06Z",
   "papers": [
-    {
-      "title": "An atlas of cochlear development and otic capsule ossification in the guinea pig: A combined histological and micro-CT analysis from early gestation to the early postnatal period",
-      "authors": [
-        "Chihiro Morimoto",
-        "Tadashi Nishimura",
-        "Kazuhiko Nario",
-        "Chika Kameki",
-        "Tadashi Kitahara"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2027-01-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109865",
-      "url": "https://doi.org/10.1016/j.heares.2026.109865",
-      "abstract": null,
-      "publication_stage": "early_access",
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-11-06",
-      "first_seen_at": "2026-11-06T09:29:35Z"
-    },
     {
       "title": "A binaural loudness model for evaluating round-window stimulation based on a physiological peripheral auditory front-end module",
       "authors": [
@@ -1166,6 +1141,126 @@
       "first_seen_at": "2026-10-01T09:02:42Z"
     },
     {
+      "title": "Brajbhasha vowel system: A spectral-temporal trade-off analysis",
+      "authors": [
+        "Neetesh Kumar Ojha",
+        "Shakuntala Mahanta"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-11-13",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0047457",
+      "url": "https://doi.org/10.1121/10.0047457",
+      "abstract": "This study presents a detailed acoustic analysis of the vowel inventory of Brajbhasha, a central Indo-Aryan language, examining its ten oral monophthongs. Through formant and duration measurements, the analysis evaluates the system's structure against the predictions of Dispersion Theory vs Theory of Adaptive Dispersion, which predict “maximal” vs “sufficient” dispersion (respectively) in the vowel space. Results reveal that vowels are acoustically distinct, but their dispersion in the F1-F2 plane does not achieve maximality, demonstrated through the simulation of 10 000 dispersions (using a novel empirical convex hull constraint). Instead, contrasts are maintained through a strategic spectral complementarity: vowel pairs that overlap in one spectral dimension (height or backness) are well-separated in the other. Furthermore, duration exists as a critical, phonetic cue: three inner vowels /ɪ, ɐ, ʊ/ are approximately 65 ms shorter (metrically half) than the other seven. Including duration in linear discriminant analysis significantly improves vowel classification accuracy from 83.5% to 88.1%. The findings characterize Brajbhasha's vowel inventory as a mixed-quantity system, with perceptual distinctiveness achieved through a strategic spectral-temporal complementarity, rather than maximal dispersion alone. This acoustic baseline also provides groundwork for lexical tonal research in the language.",
+      "first_author_affiliation": "Department of Humanities and Social Sciences, Indian Institute of Technology Guwahati , Assam 781039,",
+      "last_author_affiliation": "Department of Humanities and Social Sciences, Indian Institute of Technology Guwahati , Assam 781039,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-13",
+      "first_seen_at": "2026-11-14T09:03:35Z",
+      "ai_analysis": {
+        "scientific_question": "该研究考察布拉杰巴沙语十个口元音的声学结构是否符合离散理论或自适应离散理论的预测。",
+        "key_highlight": "元音在F1-F2平面上未达到最大离散，而是通过频谱互补与时长差异共同维持对立，时长使线性判别分析分类准确率从83.5%提升至88.1%。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该声学基线可为布拉杰巴沙语的词汇声调研究提供基础，但摘要未报告声调相关结果。",
+        "evidence": [
+          "their dispersion in the F1-F2 plane does not achieve maximality",
+          "three inner vowels /ɪ, ɐ, ʊ/ are approximately 65 ms shorter (metrically half) than the other seven"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "f894e59c7dc2f40d",
+        "updated_at": "2026-11-14T09:07:36Z"
+      }
+    },
+    {
+      "title": "L3 acquisition of Mandarin Chinese stop consonants by learners with L1 Spanish/Thai and L2 English",
+      "authors": [
+        "Jingyi Han",
+        "Ting Wang",
+        "Miao Zhang"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-11-13",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0047480",
+      "url": "https://doi.org/10.1121/10.0047480",
+      "abstract": "This study examines the source of cross-linguistic influence (CLI) in the L3 phonological acquisition of Mandarin Chinese stop consonants. We compared voice onset time (VOT) production in two groups of multilinguals: L1 Spanish learners (a “true voicing” language) and L1 Thai learners (a three-way contrast language), both with English as an L2. Results indicate that the phonological similarity between L1 and L3, rather than L2 status, determines L3 production outcomes. L1 Thai learners successfully mapped Mandarin stops to their native (un)aspirated categories, with unaspirated stops reaching native-like accuracy and aspirated stops closely approximating native values via facilitative transfer. In contrast, L1 Spanish learners showed non-facilitative CLI from their L1. We further identify regressive transfer (phonetic drift) exclusively in the Spanish group, where exposure to aspiration systems (English and Mandarin) shifted native Spanish voiceless stops away from the monolingual baseline. These findings challenge the L2 Status Factor, suggesting that L1 can remain the primary source of CLI for L3 phonological acquisition.",
+      "first_author_affiliation": "University International College, Macau University of Science and Technology 1 , Avenida Wai Long, Taipa, Macao,",
+      "last_author_affiliation": "Department of Computational Linguistics, University of Zurich 2 , Andreasstrasse 15, 8050 Zurich,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0047480",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-13",
+      "first_seen_at": "2026-11-14T09:03:35Z",
+      "full_text_url": "https://pubs.aip.org/jasa/article/160/5/4231/3408704/L3-acquisition-of-Mandarin-Chinese-stop-consonants",
+      "media_checked_at": "2026-11-14T09:06:12Z",
+      "open_access_image_checked_at": "2026-11-14T09:06:12Z",
+      "ai_analysis": {
+        "scientific_question": "在三语（L3）普通话塞音语音习得中，跨语言影响的主要来源是母语（L1）还是第二语言（L2）？",
+        "key_highlight": "研究结果显示，L1与L3之间的音系相似性而非L2地位决定了L3的产出结果，L1泰语学习者表现出促进性迁移，而L1西班牙语学习者表现出非促进性迁移。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "这些发现对L2地位因素假说提出了挑战，提示在L3音系习得中L1可能仍是跨语言影响的主要来源，但该含义尚需进一步研究验证。",
+        "evidence": [
+          "Results indicate that the phonological similarity between L1 and L3, rather than L2 status, determines L3 production outcomes.",
+          "We further identify regressive transfer (phonetic drift) exclusively in the Spanish group, where exposure to aspiration systems (English and Mandarin) shifted native Spanish voiceless stops away from the monolingual baseline."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "8fee58056baa632d",
+        "updated_at": "2026-11-14T09:07:38Z"
+      }
+    },
+    {
+      "title": "What does the model actually see? Evaluation protocols and input availability in data-driven prediction of room acoustic parameters",
+      "authors": [
+        "Akın Oktav"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-11-13",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0047539",
+      "url": "https://doi.org/10.1121/10.0047539",
+      "abstract": "Machine-learnt models are increasingly used to predict ISO 3382-1 room acoustic parameters at unmeasured seats from sparse measurements, with reported coefficients of determination frequently above 0.85. This paper shows that such figures are often determined by the evaluation protocol rather than by the model. Using a multi-condition measurement campaign in a 264-seat conference hall and a 180-seat concert hall, three model families were evaluated under a factorial protocol ablation: validation splits either row-based or grouped by receiver position, and inputs either including measured-at-test quantities (the target position's impulse response, co-located parameter measurements, position identifiers) or restricted to source–receiver geometry and environmental state. Row-based splits with measured-at-test inputs reproduce the high reported accuracies (mean R2 of 0.81 for the core parameters); grouped splits with deployment-consistent inputs reduce these to 0.09–0.60 and reorder the apparent difficulty of parameter classes. Access to the target's own impulse response at test time reproduces the high accuracy of the row-based folds but provides no benefit under grouped folds. The row-based figure reflects condition interpolation at the measured positions rather than transferable acoustic information. Under the deployment-consistent protocol, the spread between Random Forest, the hybrid network, and inverse-distance weighting is several times smaller than the spread between protocols for a fixed model; the learnt models retain a measurable advantage for sound strength and reverberation time, and the high accuracy of the original pipelines re-emerges as condition interpolation at measured positions, a distinct and operationally useful task. A reporting checklist operationalizes the findings.",
+      "first_author_affiliation": "Vibration and Acoustics Laboratory and Department of Mechanical Engineering, Alanya Alaaddin Keykubat University , 07425 Antalya,",
+      "last_author_affiliation": "Vibration and Acoustics Laboratory and Department of Mechanical Engineering, Alanya Alaaddin Keykubat University , 07425 Antalya,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-13",
+      "first_seen_at": "2026-11-14T09:03:35Z",
+      "ai_analysis": {
+        "scientific_question": "在数据驱动的房间声学参数预测中，评估协议与输入可用性如何影响所报告的决定系数？",
+        "key_highlight": "行式划分并包含测试时实测输入可重现高精度（核心参数平均R2为0.81），而按接收点分组且仅用部署一致输入时降至0.09–0.60并改变参数类别难度排序。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "结果提示高报告精度可能主要反映已测位置的条件插值而非可迁移的声学信息，并据此提出报告清单以规范评估。",
+        "evidence": [
+          "This paper shows that such figures are often determined by the evaluation protocol rather than by the model.",
+          "The row-based figure reflects condition interpolation at the measured positions rather than transferable acoustic information."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "557c1a914fdd582d",
+        "updated_at": "2026-11-14T09:07:40Z"
+      }
+    },
+    {
       "title": "Acoustic isolation of the Nasometer separation plate: Effects of plate geometry and microphone placement",
       "authors": [
         "Elan Little",
@@ -1178,24 +1273,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0047473",
       "url": "https://doi.org/10.1121/10.0047473",
-      "abstract": "Nasometers compute nasalance using microphones on each face of a rigid separation plate held at the philtrum. The manufacturer of the Pentax Nasometer specifies 25 dB of channel separation, but no methodological details accompany this value. This study quantifies acoustic isolation of the Nasometer separation plate from 100 to 7000 Hz, examining source amplitude, microphone position, and plate geometry. Tonal sweeps were performed in an anechoic chamber with microphones on each plate face. Within the 350–750 Hz nasalance band, the oral-to-nasal sound pressure level (SPL) difference (ΔSPL) for the clinical plate ranged from 10 to 15 dB, substantially below the manufacturer's specification. Leakage was largely level-independent, reflecting acoustic geometry rather than source amplitude. Moving the microphones to the lateral plate edge further reduced acoustic isolation, with ΔSPL falling to 6–12 dB. A larger custom plate at a matched microphone distance improved ΔSPL to 16–22.5 dB. Schlieren imaging with spectral proper orthogonal decomposition confirmed edge diffraction as the dominant leakage mechanism. For the clinical plate, the measured separations correspond to leakage nasalance contributions of approximately 15%–24%, overlapping published normative oral-speech scores and indicating plate-induced crosstalk is a clinically meaningful source of bias in nasalance measurements.",
-      "first_author_affiliation": "School of Engineering Education, MDE/IDES, Purdue University 1 , West Lafayette, Indiana 47907,",
-      "last_author_affiliation": "Department of Otolaryngology, University of Cincinnati 3 , Cincinnati, Ohio 45267,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0047473",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "clinical audiology"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-11-12",
-      "first_seen_at": "2026-11-13T09:39:56Z",
       "full_text_url": "https://pubs.aip.org/jasa/article/160/5/4176/3408575/Acoustic-isolation-of-the-Nasometer-separation",
-      "media_checked_at": "2026-11-13T09:41:17Z",
-      "open_access_image_checked_at": "2026-11-13T09:41:17Z",
+      "abstract": "Nasometers compute nasalance using microphones on each face of a rigid separation plate held at the philtrum. The manufacturer of the Pentax Nasometer specifies 25 dB of channel separation, but no methodological details accompany this value. This study quantifies acoustic isolation of the Nasometer separation plate from 100 to 7000 Hz, examining source amplitude, microphone position, and plate geometry. Tonal sweeps were performed in an anechoic chamber with microphones on each plate face. Within the 350–750 Hz nasalance band, the oral-to-nasal sound pressure level (SPL) difference (ΔSPL) for the clinical plate ranged from 10 to 15 dB, substantially below the manufacturer's specification. Leakage was largely level-independent, reflecting acoustic geometry rather than source amplitude. Moving the microphones to the lateral plate edge further reduced acoustic isolation, with ΔSPL falling to 6–12 dB. A larger custom plate at a matched microphone distance improved ΔSPL to 16–22.5 dB. Schlieren imaging with spectral proper orthogonal decomposition confirmed edge diffraction as the dominant leakage mechanism. For the clinical plate, the measured separations correspond to leakage nasalance contributions of approximately 15%–24%, overlapping published normative oral-speech scores and indicating plate-induced crosstalk is a clinically meaningful source of bias in nasalance measurements.",
       "ai_analysis": {
         "scientific_question": "在100–7000 Hz范围内，Nasometer分离板的声学隔离度如何受声源幅度、麦克风位置和板几何形状影响？",
         "key_highlight": "临床分离板在350–750 Hz鼻音带内的口鼻声压级差仅为10–15 dB，明显低于厂商标称的25 dB。",
@@ -1211,7 +1290,23 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "298fdc219081e443",
         "updated_at": "2026-11-13T09:43:28Z"
-      }
+      },
+      "first_author_affiliation": "School of Engineering Education, MDE/IDES, Purdue University 1 , West Lafayette, Indiana 47907,",
+      "last_author_affiliation": "Department of Otolaryngology, University of Cincinnati 3 , Cincinnati, Ohio 45267,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0047473",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-11-13T09:41:17Z",
+      "media_checked_at": "2026-11-13T09:41:17Z",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-12",
+      "first_seen_at": "2026-11-13T09:39:56Z"
     },
     {
       "title": "Comparative psychoacoustic analysis of drone noise and musical tones",
@@ -1233,9 +1328,25 @@
         "priority section",
         "psychoacoustics"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-12",
-      "first_seen_at": "2026-11-13T09:39:56Z"
+      "first_seen_at": "2026-11-13T09:39:56Z",
+      "ai_analysis": {
+        "scientific_question": "孤立螺旋桨噪声与音乐参考声在频谱和时间特性上的差异，如何反映在声品质指标和心理声学烦恼度模型中？",
+        "key_highlight": "在等效连续A计权声压级归一化至75 dB(A)的条件下，螺旋桨录音普遍呈现更强的宽带成分以及更高的计算响度和尖锐度，而小提琴参考声具有更高的平均音调感和波动强度。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该研究为将谐波参考比较框架扩展到更受控的参考信号、更大的螺旋桨、完整的多旋翼飞行器以及听音实验提供了实验起点。",
+        "evidence": [
+          "The propeller recordings generally exhibited stronger broadband content and higher calculated loudness and sharpness, whereas the violin references had higher mean tonality and fluctuation strength.",
+          "All three models predicted greater annoyance for the propeller recordings than for the references."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "0c423c1e13df426f",
+        "updated_at": "2026-11-14T09:07:42Z"
+      }
     },
     {
       "title": "Distinct Response Dynamics to Personalized Sound Therapy in Chronic Tinnitus: Sustained Clinical Benefits and a Critical Treatment Window",
@@ -1253,6 +1364,22 @@
       "doi": "10.1097/aud.0000000000001910",
       "url": "https://doi.org/10.1097/aud.0000000000001910",
       "abstract": "Objectives: The objective of this study is to evaluate the 12-mo efficacy and response patterns of personalized sound therapy for chronic tinnitus and to identify the time window most informative for assessing treatment response. Design: In this double-blind, randomized controlled trial, 66 adults with chronic tinnitus were assigned to receive either digital frequency-customized relieving sound (DFCRS), individualized to each participant’s tinnitus pitch, or unmodified music (UM) for 12 mo. The primary outcome was change in Tinnitus Handicap Inventory score. Secondary outcomes included anxiety, depression, insomnia, and tinnitus loudness/annoyance. Overlap weighting was used to adjust for baseline imbalances. Results: Both groups improved, but with fundamentally different temporal patterns. UM produced rapid early improvement that plateaued after 6 mo, whereas DFCRS exhibited delayed but progressive and sustained reduction in symptoms throughout the 12 mo. After adjustment, DFCRS was associated with a significantly greater long-term reduction in Tinnitus Handicap Inventory scores compared with UM (adjusted difference: −6.80 points; 95% confidence interval: −13.01 to −0.60; p = 0.036), alongside broader benefits in anxiety and tinnitus-related distress. Notably, attrition analysis revealed that DFCRS responders with higher baseline severity often achieved substantial improvement within 3 to 6 mo, suggesting this period may represent a critical window for evaluating therapeutic response and guiding clinical management. Conclusions: Personalized sound therapy produces greater relief of chronic tinnitus symptoms and associated conditions and induces a sustained response pattern. The 3- to 6-mo period emerges as a pivotal clinical decision point. These findings support the integration of hypothesis-driven, personalized acoustic neuromodulation into tinnitus management.",
+      "ai_analysis": {
+        "scientific_question": "在慢性耳鸣成人中，个性化定制声音治疗（DFCRS）与未修改音乐相比，12个月内的疗效及反应时间模式如何，以及哪个时间窗最能反映治疗反应？",
+        "key_highlight": "DFCRS组表现出延迟但渐进且持续的症状改善，调整后12个月THI降幅显著大于UM组（调整差值−6.80分，95%CI −13.01至−0.60，p=0.036）。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "3至6个月可能作为评估个性化声音治疗反应和指导临床管理的决策窗口，但该提示来自脱落分析，尚需进一步验证。",
+        "evidence": [
+          "DFCRS was associated with a significantly greater long-term reduction in Tinnitus Handicap Inventory scores compared with UM (adjusted difference: −6.80 points; 95% confidence interval: −13.01 to −0.60; p = 0.036)",
+          "DFCRS responders with higher baseline severity often achieved substantial improvement within 3 to 6 mo, suggesting this period may represent a critical window for evaluating therapeutic response"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "77fd64bf2ea094eb",
+        "updated_at": "2026-11-13T09:43:19Z"
+      },
       "first_author_affiliation": "Department of ENT Institute and Otorhinolaryngology, Eye & ENT Hospital, State Key Laboratory of Medical Neurobiology, NHC Key Laboratory of Hearing Medicine Research, Fudan University, Shanghai, People’s Republic of China",
       "last_author_affiliation": "Department of ENT Institute and Otorhinolaryngology, Eye & ENT Hospital, State Key Laboratory of Medical Neurobiology, NHC Key Laboratory of Hearing Medicine Research, Fudan University, Shanghai, People’s Republic of China",
       "publication_stage": "early_access",
@@ -1270,23 +1397,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-12",
-      "first_seen_at": "2026-11-13T09:40:28Z",
-      "ai_analysis": {
-        "scientific_question": "在慢性耳鸣成人中，个性化定制声音治疗（DFCRS）与未修改音乐相比，12个月内的疗效及反应时间模式如何，以及哪个时间窗最能反映治疗反应？",
-        "key_highlight": "DFCRS组表现出延迟但渐进且持续的症状改善，调整后12个月THI降幅显著大于UM组（调整差值−6.80分，95%CI −13.01至−0.60，p=0.036）。",
-        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
-        "research_implication": "3至6个月可能作为评估个性化声音治疗反应和指导临床管理的决策窗口，但该提示来自脱落分析，尚需进一步验证。",
-        "evidence": [
-          "DFCRS was associated with a significantly greater long-term reduction in Tinnitus Handicap Inventory scores compared with UM (adjusted difference: −6.80 points; 95% confidence interval: −13.01 to −0.60; p = 0.036)",
-          "DFCRS responders with higher baseline severity often achieved substantial improvement within 3 to 6 mo, suggesting this period may represent a critical window for evaluating therapeutic response"
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "77fd64bf2ea094eb",
-        "updated_at": "2026-11-13T09:43:19Z"
-      }
+      "first_seen_at": "2026-11-13T09:40:28Z"
     },
     {
       "title": "Genetic Literacy Among Hearing Health Providers",
@@ -1304,30 +1415,8 @@
       "publication_date_precision": "day",
       "doi": "10.1097/aud.0000000000001913",
       "url": "https://doi.org/10.1097/aud.0000000000001913",
-      "abstract": "Objectives: Genetic testing to identify an underlying etiology of sensorineural hearing loss is increasingly important in an evolving landscape of precision medicine. However, little is known about hearing health providers’ genetic literacy, perceived importance of genetic testing, or comfort with implementation of genetic testing in clinical practice. In this study, we sought to assess these domains among providers caring for patients with hearing loss and examine differences across clinical training and patient populations served. Design: A cross-sectional online survey was distributed to hearing health providers across clinical settings. The survey included demographic and practice characteristics, the Genetic Literacy and Comprehension assessment, perceived importance of genetic testing, current and desired use of testing, scope of practice, and comfort with ordering and interpreting genetic tests. Respondents were categorized by clinical degree (audiology, medical degree, other) and by patient population (primarily pediatric versus primarily adult). Group differences were evaluated using Fisher’s exact tests. Results: Ninety-six respondents were included. Genetic literacy was high across providers, with accuracy scores on the Genetic Literacy and Comprehension assessment exceeding 96% and no significant differences by clinical degree. Pediatric providers rated genetic testing as significantly more important than adult providers (87 versus 41% reported genetic testing as extremely or very important/useful, respectively) and reported higher rates of routine testing (55 versus 29%, respectively). Across all respondents, desired use of genetic testing exceeded current use, with 71% reporting that they desired to use genetic testing in their clinical practice and only 43% reporting they currently utilized genetic testing in their practice. Comfort with genetic testing was low, with more than half of the respondents reporting being uncomfortable ordering or interpreting genetic testing. However, there were provider-level differences in comfort, with medical doctors being significantly more comfortable than audiologists or other providers. Patterns of comfort were consistent with current ordering practice, in which medical doctors—particularly otolaryngologists—were most identified as ordering genetic testing. However, these patterns did not align with respondents’ preferences, as many indicated that both audiologists and medical doctors should be involved in ordering testing for patients with hearing loss. Conclusions: Despite high genetic literacy amongst respondents, gaps exist between the perceived importance of and provider comfort with genetic testing. Gaps also exist between current and desired use of genetic testing in clinical practice. Findings highlight the need for expanded practical training in clinical genetics and institutional support to facilitate broader integration of genetic testing into hearing healthcare.",
-      "first_author_affiliation": "Departments of Otolaryngology—Head & Neck Surgery, and Hearing and Speech Sciences, Vanderbilt University Medical Center; Nashville, Tennessee, USA",
-      "last_author_affiliation": "Department of Otolaryngology & Communication Enhancement, Boston Children’s Hospital, Boston, Massachusetts, USA",
-      "open_access": true,
-      "open_access_url": "https://www.ovid.com/10.1097/AUD.0000000000001913",
-      "open_access_source": "crossref_license",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Audiology",
-        "Genetic literacy",
-        "Otolaryngology"
-      ],
-      "tags": [
-        "clinical audiology"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-11-12",
-      "first_seen_at": "2026-11-13T09:40:28Z",
       "full_text_url": "https://www.ovid.com/jnls/ear-hearing/fulltext/10.1097/aud.0000000000001913~genetic-literacy-among-hearing-health-providers",
-      "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
-      "media_checked_at": "2026-11-13T09:41:20Z",
-      "open_access_image_checked_at": "2026-11-13T09:41:17Z",
+      "abstract": "Objectives: Genetic testing to identify an underlying etiology of sensorineural hearing loss is increasingly important in an evolving landscape of precision medicine. However, little is known about hearing health providers’ genetic literacy, perceived importance of genetic testing, or comfort with implementation of genetic testing in clinical practice. In this study, we sought to assess these domains among providers caring for patients with hearing loss and examine differences across clinical training and patient populations served. Design: A cross-sectional online survey was distributed to hearing health providers across clinical settings. The survey included demographic and practice characteristics, the Genetic Literacy and Comprehension assessment, perceived importance of genetic testing, current and desired use of testing, scope of practice, and comfort with ordering and interpreting genetic tests. Respondents were categorized by clinical degree (audiology, medical degree, other) and by patient population (primarily pediatric versus primarily adult). Group differences were evaluated using Fisher’s exact tests. Results: Ninety-six respondents were included. Genetic literacy was high across providers, with accuracy scores on the Genetic Literacy and Comprehension assessment exceeding 96% and no significant differences by clinical degree. Pediatric providers rated genetic testing as significantly more important than adult providers (87 versus 41% reported genetic testing as extremely or very important/useful, respectively) and reported higher rates of routine testing (55 versus 29%, respectively). Across all respondents, desired use of genetic testing exceeded current use, with 71% reporting that they desired to use genetic testing in their clinical practice and only 43% reporting they currently utilized genetic testing in their practice. Comfort with genetic testing was low, with more than half of the respondents reporting being uncomfortable ordering or interpreting genetic testing. However, there were provider-level differences in comfort, with medical doctors being significantly more comfortable than audiologists or other providers. Patterns of comfort were consistent with current ordering practice, in which medical doctors—particularly otolaryngologists—were most identified as ordering genetic testing. However, these patterns did not align with respondents’ preferences, as many indicated that both audiologists and medical doctors should be involved in ordering testing for patients with hearing loss. Conclusions: Despite high genetic literacy amongst respondents, gaps exist between the perceived importance of and provider comfort with genetic testing. Gaps also exist between current and desired use of genetic testing in clinical practice. Findings highlight the need for expanded practical training in clinical genetics and institutional support to facilitate broader integration of genetic testing into hearing healthcare.",
       "ai_analysis": {
         "scientific_question": "听力健康服务提供者的遗传学素养、对基因检测重要性的认知及在临床实践中实施基因检测的舒适度如何，以及这些方面在不同临床培训和患者人群中是否存在差异？",
         "key_highlight": "受访者遗传学素养普遍较高（准确率超过96%），但超过半数对开具或解读基因检测感到不适，且期望使用率（71%）明显高于当前使用率（43%）。",
@@ -1343,7 +1432,29 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "11cb992eb995cf3d",
         "updated_at": "2026-11-13T09:43:21Z"
-      }
+      },
+      "first_author_affiliation": "Departments of Otolaryngology—Head & Neck Surgery, and Hearing and Speech Sciences, Vanderbilt University Medical Center; Nashville, Tennessee, USA",
+      "last_author_affiliation": "Department of Otolaryngology & Communication Enhancement, Boston Children’s Hospital, Boston, Massachusetts, USA",
+      "open_access": true,
+      "open_access_url": "https://www.ovid.com/10.1097/AUD.0000000000001913",
+      "open_access_source": "crossref_license",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "open_access_image_checked_at": "2026-11-13T09:41:17Z",
+      "media_checked_at": "2026-11-13T09:41:20Z",
+      "publication_stage": "early_access",
+      "key_image_url": "https://www.ovid.com//images/og_image_white.webp",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Audiology",
+        "Genetic literacy",
+        "Otolaryngology"
+      ],
+      "tags": [
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-12",
+      "first_seen_at": "2026-11-13T09:40:28Z"
     },
     {
       "title": "Hepatitis C, Hearing Loss, and Healthcare Utilization Patterns, a Cross-Sectional Analysis of NHANES Data: 1999–2012",
@@ -1361,6 +1472,22 @@
       "doi": "10.1097/aud.0000000000001915",
       "url": "https://doi.org/10.1097/aud.0000000000001915",
       "abstract": "Objectives: Hearing loss is a chronic condition in the U.S. with diverse causes, including viral infections, and significantly affects quality of life. Despite the rising incidence of Hepatitis C virus (HCV) infection, research on its relationship with hearing loss remains limited. Early and consistent interactions with the healthcare system have been shown to improve outcomes in extrahepatic manifestations of HCV and enhance quality of life. Design: We conducted a cross-sectional analysis of HCV history, identified via HCV antibody and RNA testing obtained by the mobile examination center, and hearing loss, measured by pure-tone audiometry, using National Health and Nutrition Examination Survey data (1999–2004, 2011–2012) for adults aged 20 to 69. We utilized multivariable logistic regression models to estimate odds ratios (ORs) and 95% confidence intervals, adjusting for important covariates. Results were stratified by degree of healthcare utilization. Results: Among 6705 participants, hearing loss prevalence was 27.7% in those with HCV versus 12.7% in those without. The adjusted OR for hearing loss in individuals with HCV was 1.81 (95% confidence interval: 1.06, 3.10). Notably, the magnitude of association between HCV history and hearing loss was higher in the low healthcare utilization group than in the high healthcare utilization group (aOR: 2.82 versus 0.72). Conclusions: Our findings suggest an association between HCV and hearing loss, with healthcare utilization modifying this relationship. This study fills a gap in the literature and highlights the need for increased clinical monitoring of hearing health in individuals who have had an HCV infection.",
+      "ai_analysis": {
+        "scientific_question": "在20至69岁美国成年人中，丙型肝炎病毒（HCV）感染史是否与听力损失相关，且这种关联是否随医疗保健利用程度而变化？",
+        "key_highlight": "在调整重要协变量后，HCV感染史与听力损失存在关联（aOR 1.81，95% CI 1.06–3.10），且该关联在低医疗保健利用组中强于高利用组（aOR 2.82 对 0.72）。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "研究提示可能需要对有HCV感染史者加强听力健康临床监测，但横断面设计无法确立因果关系，此点属可能含义而非已证结论。",
+        "evidence": [
+          "The adjusted OR for hearing loss in individuals with HCV was 1.81 (95% confidence interval: 1.06, 3.10).",
+          "the magnitude of association between HCV history and hearing loss was higher in the low healthcare utilization group than in the high healthcare utilization group (aOR: 2.82 versus 0.72)"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "e3231a7d4a55f2b1",
+        "updated_at": "2026-11-13T09:43:23Z"
+      },
       "first_author_affiliation": "School of Medicine, Oregon Health & Science University, Portland, Oregon, USA",
       "last_author_affiliation": "School of Public Health, Oregon Health & Science University-Portland State University Portland, Oregon, USA",
       "publication_stage": "early_access",
@@ -1377,23 +1504,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-12",
-      "first_seen_at": "2026-11-13T09:40:28Z",
-      "ai_analysis": {
-        "scientific_question": "在20至69岁美国成年人中，丙型肝炎病毒（HCV）感染史是否与听力损失相关，且这种关联是否随医疗保健利用程度而变化？",
-        "key_highlight": "在调整重要协变量后，HCV感染史与听力损失存在关联（aOR 1.81，95% CI 1.06–3.10），且该关联在低医疗保健利用组中强于高利用组（aOR 2.82 对 0.72）。",
-        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
-        "research_implication": "研究提示可能需要对有HCV感染史者加强听力健康临床监测，但横断面设计无法确立因果关系，此点属可能含义而非已证结论。",
-        "evidence": [
-          "The adjusted OR for hearing loss in individuals with HCV was 1.81 (95% confidence interval: 1.06, 3.10).",
-          "the magnitude of association between HCV history and hearing loss was higher in the low healthcare utilization group than in the high healthcare utilization group (aOR: 2.82 versus 0.72)"
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "e3231a7d4a55f2b1",
-        "updated_at": "2026-11-13T09:43:23Z"
-      }
+      "first_seen_at": "2026-11-13T09:40:28Z"
     },
     {
       "title": "Long-Term Auditory and Language Outcomes in Children With Early-Identified Mild Bilateral and Unilateral Hearing Loss",
@@ -1414,6 +1525,22 @@
       "doi": "10.1097/aud.0000000000001911",
       "url": "https://doi.org/10.1097/aud.0000000000001911",
       "abstract": "Objectives: More than half of the children identified in population-based newborn hearing screening programs (with permanent hearing loss) initially present with a mild bilateral or unilateral hearing loss (M B UHL). The longer-term effects of M B UHL (during the school years) on the development of early-identified children are still largely unknown. Design: In a multicenter study, we evaluated outcomes in auditory functioning and spoken language development at school age for children who were identified with M B UHL and compared their development to children with normal hearing. Assessments were analyzed at two timepoints: early school years and later elementary school years. We used multiple regression analyses to examine the effect of laterality (unilateral versus bilateral mild hearing loss), hearing loss severity, age at amplification, and amplification use on outcomes in the group of children with M B UHL. Results: A total of 80 children, 47 with hearing loss (27 unilateral and 20 mild bilateral) and 33 with normal hearing, who had been enrolled in a preschool study, were assessed during the elementary school years. Children were identified early at a median age of 4.8 mo (interquartile range [IQR], 2.5 to 6.9) for children with unilateral hearing loss (UHL) and 4.1 mo (IQR, 3.0 to 8.0) for those with mild bilateral hearing loss. Most children with M B UHL (85.1%) received amplification which was fitted at an overall median age of 15.3 mo (IQR, 5.9 to 30.3). School-age assessments were collected in the early school years at an average age of 7.6 yr (SD = 1.1) and in the later years at 10.3 yr (SD = 1.1). At both early and later school ages, children with M B UHL showed on average poorer outcomes than their peers with normal hearing on functional auditory outcomes ( p < 0.001). Children with UHL tended to show poorer scores than those with mild bilateral loss on functional auditory abilities. The results for receptive vocabulary were not significantly different between the three groups ( p = 0.30). However, after controlling for hearing-related variables, children with mild bilateral loss had significantly poorer receptive vocabulary scores than those with UHL ( p = 0.007). More hearing aid use was associated with better scores in receptive vocabulary in both children with UHL and those with mild bilateral hearing loss. No significant change in scores was found between the early and later school years for any group in auditory function ( p = 0.7) or in receptive vocabulary ( p > 0.9). Conclusions: Despite early detection and intervention, as a group, children with M B UHL lag behind their peers with normal hearing in auditory functional outcomes and language development. These findings suggest that a substantial number of children with M B UHL will require early intervention support and may continue to require specific attention including monitoring and/or intervention in some areas during the school years.",
+      "ai_analysis": {
+        "scientific_question": "在学龄期，早期识别并干预的轻度双侧或单侧听力损失儿童，其听觉功能与口语语言发展结局与听力正常同龄人相比如何？",
+        "key_highlight": "尽管早期发现和干预，轻度双侧或单侧听力损失儿童作为一个群体在听觉功能结局上仍落后于听力正常同龄人，语言发展方面也呈现差异。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "研究结果提示相当一部分轻度双侧或单侧听力损失儿童可能需要早期干预支持，并在学龄期某些方面继续需要监测或干预，但这属于作者提出的可能含义而非因果结论。",
+        "evidence": [
+          "At both early and later school ages, children with M B UHL showed on average poorer outcomes than their peers with normal hearing on functional auditory outcomes ( p < 0.001).",
+          "Despite early detection and intervention, as a group, children with M B UHL lag behind their peers with normal hearing in auditory functional outcomes and language development."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "c5792d72230e2b1a",
+        "updated_at": "2026-11-13T09:43:25Z"
+      },
       "first_author_affiliation": "Faculty of Health Sciences, University of Ottawa, Ottawa, Ontario, Canada",
       "last_author_affiliation": "Child Hearing Laboratory, CHEO Research Institute, Ottawa, Ontario, Canada",
       "publication_stage": "early_access",
@@ -1431,23 +1558,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-12",
-      "first_seen_at": "2026-11-13T09:40:28Z",
-      "ai_analysis": {
-        "scientific_question": "在学龄期，早期识别并干预的轻度双侧或单侧听力损失儿童，其听觉功能与口语语言发展结局与听力正常同龄人相比如何？",
-        "key_highlight": "尽管早期发现和干预，轻度双侧或单侧听力损失儿童作为一个群体在听觉功能结局上仍落后于听力正常同龄人，语言发展方面也呈现差异。",
-        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
-        "research_implication": "研究结果提示相当一部分轻度双侧或单侧听力损失儿童可能需要早期干预支持，并在学龄期某些方面继续需要监测或干预，但这属于作者提出的可能含义而非因果结论。",
-        "evidence": [
-          "At both early and later school ages, children with M B UHL showed on average poorer outcomes than their peers with normal hearing on functional auditory outcomes ( p < 0.001).",
-          "Despite early detection and intervention, as a group, children with M B UHL lag behind their peers with normal hearing in auditory functional outcomes and language development."
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "c5792d72230e2b1a",
-        "updated_at": "2026-11-13T09:43:25Z"
-      }
+      "first_seen_at": "2026-11-13T09:40:28Z"
     },
     {
       "title": "Nonlinear Processing and Temporal Encoding in the Utricular-Ocular Pathway: Insights from Amplitude-Modulated oVEMPs in Young Females",
@@ -1461,6 +1572,22 @@
       "doi": "10.1007/s10162-026-01080-w",
       "url": "https://doi.org/10.1007/s10162-026-01080-w",
       "abstract": "Abstract Purpose Ocular vestibular evoked myogenic potentials (oVEMPs) are widely used to assess utriculo-ocular function. However, oVEMPs have traditionally been elicited using transient stimuli, providing limited insight into temporal and nonlinear processing of the vestibular input. This study used amplitude-modulated stimuli to characterize temporal modulation transfer function (TMTF) and quantify nonlinear harmonic distortions in oVEMP responses. Methods Fourteen young adult females with normal hearing and no vestibular history were tested. Sinusoidally amplitude-modulated tones (500 Hz carrier, 100% modulation depth, 123 dB FL) were delivered via bone conduction across ten modulation frequencies (11 to 397 Hz). Responses were analyzed using fast Fourier transformation and quantified via amplitude, signal-to-noise ratio (SNR), phase coherence (PC), and harmonic components. Results Robust oVEMP responses were elicited across a broad range of modulation frequencies. Peak amplitude occurred at 79 Hz, while SNR and PC peaked between 79 and 113 Hz. Using a statistical SNR detection criterion of > 6.13 dB, the effective response range extended from 37 to 113 Hz. Harmonic distortion products were consistently detected up to the third harmonic, with peak response amplitudes and response rates converging near 110 Hz across harmonic components. Conclusions These findings provide the first characterization of the amplitude-modulated oVEMP TMTF and demonstrate temporal processing and nonlinear encoding within the utricular-ocular pathway. Extending this approach to vestibular disorders could help identify deficits not captured by transient measures, advance our understanding of vestibular pathophysiology, and improve clinical diagnosis. Optimal modulation frequencies for clinical and research applications of amplitude-modulated oVEMPs appear to lie between 37 and 113 Hz.",
+      "ai_analysis": {
+        "scientific_question": "在年轻女性中，利用振幅调制骨导声诱发的oVEMP，能否刻画椭圆囊-眼通路的时域调制传递函数（TMTF）及非线性谐波失真？",
+        "key_highlight": "该研究报告了振幅调制oVEMP的TMTF特征：峰值振幅出现在79 Hz，SNR与相位一致性在79–113 Hz达峰，有效反应范围为37–113 Hz，并检测到至第三谐波的谐波失真成分。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "这些结果提示振幅调制oVEMP或可用于评估瞬态刺激未能捕捉的椭圆囊-眼通路时域与非线性编码特征，但其在前庭疾病中的诊断价值尚待验证。",
+        "evidence": [
+          "Peak amplitude occurred at 79 Hz, while SNR and PC peaked between 79 and 113 Hz.",
+          "Harmonic distortion products were consistently detected up to the third harmonic, with peak response amplitudes and response rates converging near 110 Hz across harmonic components."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "27fd281131aa3dff",
+        "updated_at": "2026-11-13T09:43:26Z"
+      },
       "last_author_affiliation": "Department of CSD, James Madison University, 235 Martin Luther King Jr. Way, Harrisonburg, VA, 22807, USA.",
       "open_access": true,
       "open_access_url": "https://link.springer.com/article/10.1007/s10162-026-01080-w",
@@ -1482,23 +1609,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-12",
-      "first_seen_at": "2026-11-13T09:40:18Z",
-      "ai_analysis": {
-        "scientific_question": "在年轻女性中，利用振幅调制骨导声诱发的oVEMP，能否刻画椭圆囊-眼通路的时域调制传递函数（TMTF）及非线性谐波失真？",
-        "key_highlight": "该研究报告了振幅调制oVEMP的TMTF特征：峰值振幅出现在79 Hz，SNR与相位一致性在79–113 Hz达峰，有效反应范围为37–113 Hz，并检测到至第三谐波的谐波失真成分。",
-        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
-        "research_implication": "这些结果提示振幅调制oVEMP或可用于评估瞬态刺激未能捕捉的椭圆囊-眼通路时域与非线性编码特征，但其在前庭疾病中的诊断价值尚待验证。",
-        "evidence": [
-          "Peak amplitude occurred at 79 Hz, while SNR and PC peaked between 79 and 113 Hz.",
-          "Harmonic distortion products were consistently detected up to the third harmonic, with peak response amplitudes and response rates converging near 110 Hz across harmonic components."
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "27fd281131aa3dff",
-        "updated_at": "2026-11-13T09:43:26Z"
-      }
+      "first_seen_at": "2026-11-13T09:40:18Z"
     },
     {
       "title": "Temporary hearing loss induced by impulsive pile driving in a particle-motion-sensitive fish, the summer flounder ( Paralichthys dentatus )",
@@ -1529,9 +1640,25 @@
         "priority section",
         "real-world listening"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-12",
-      "first_seen_at": "2026-11-13T09:39:56Z"
+      "first_seen_at": "2026-11-13T09:39:56Z",
+      "ai_analysis": {
+        "scientific_question": "脉冲打桩这种高振幅人为噪声是否会导致依赖质点运动的鱼类（如夏鲽）出现听觉阈值偏移？",
+        "key_highlight": "在15分钟和3小时的原位打桩暴露后，夏鲽出现了3–7 dB的暂时性阈值偏移，且至少持续24小时。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该结果提示，质点运动敏感鱼类的听觉影响范围可能比预期更大，但摘要中的推断仍需进一步验证。",
+        "evidence": [
+          "flounders exhibited temporary threshold shifts (3–7 dB) that persisted for at least 24 h",
+          "Exposure levels were comparable to those at kilometer-scale distances from offshore wind construction"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "1b44dc08723dcf58",
+        "updated_at": "2026-11-14T09:07:44Z"
+      }
     },
     {
       "title": "A model-based active noise control logic employing virtual sensing and future signal prediction for reducing fast transient disturbances",
@@ -1567,7 +1694,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-11",
       "first_seen_at": "2026-11-12T09:55:18Z"
     },
@@ -1620,7 +1747,7 @@
       "tags": [
         "machine learning"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-11",
       "first_seen_at": "2026-11-12T09:55:18Z"
     },
@@ -1657,7 +1784,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-11",
       "first_seen_at": "2026-11-12T09:55:18Z"
     },
@@ -1677,7 +1804,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-11",
       "first_seen_at": "2026-11-12T09:55:18Z"
     },
@@ -1707,9 +1834,25 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-11",
-      "first_seen_at": "2026-11-12T09:55:18Z"
+      "first_seen_at": "2026-11-12T09:55:18Z",
+      "ai_analysis": {
+        "scientific_question": "在尽量控制其他差异的条件下，小提琴背板拱高变化如何影响其振动与声学行为？",
+        "key_highlight": "六把尽量相似、仅背板拱高不同的琴中，较低拱高对应特征体模态峰在频率上分离并移向更高振幅。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该构造与评估方法或可用于系统研究单一几何参数与琴体振动的关系，但摘要结果尚不能外推到实际演奏或听感效果。",
+        "evidence": [
+          "Six violins were constructed to be as similar as possible, only the parameter “back arch height” was varied.",
+          "Signature body modes of the instruments were shifted apart in frequency and towards higher amplitude for lower back arch heights"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "8813646cc6f08b2b",
+        "updated_at": "2026-11-14T09:07:46Z"
+      }
     },
     {
       "title": "Measurements of underwater sound from rock drilling and chipping activities during anchor maintenance",
@@ -1745,7 +1888,7 @@
       "tags": [
         "priority section"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-11",
       "first_seen_at": "2026-11-12T09:55:18Z"
     },
@@ -1785,7 +1928,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-10",
       "first_seen_at": "2026-11-11T09:32:03Z"
     },
@@ -1825,7 +1968,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-10",
       "first_seen_at": "2026-11-11T09:32:03Z"
     },
@@ -1865,7 +2008,7 @@
         "priority section",
         "psychoacoustics"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-10",
       "first_seen_at": "2026-11-11T09:32:03Z"
     },
@@ -1904,7 +2047,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-10",
       "first_seen_at": "2026-11-11T09:32:03Z"
     },
@@ -1988,7 +2131,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-09",
       "first_seen_at": "2026-11-10T09:59:49Z"
     },
@@ -2031,7 +2174,7 @@
         "priority section",
         "psychoacoustics"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-09",
       "first_seen_at": "2026-11-10T09:59:49Z"
     },
@@ -2070,7 +2213,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-09",
       "first_seen_at": "2026-11-10T09:59:49Z"
     },
@@ -2108,7 +2251,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-09",
       "first_seen_at": "2026-11-10T09:59:49Z"
     },
@@ -2151,7 +2294,7 @@
         "priority section",
         "psychoacoustics"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-09",
       "first_seen_at": "2026-11-10T09:59:49Z"
     },
@@ -2194,7 +2337,7 @@
         "priority section",
         "speech perception"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-09",
       "first_seen_at": "2026-11-10T09:59:49Z"
     },
@@ -2217,7 +2360,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-09",
       "first_seen_at": "2026-11-10T09:59:49Z"
     },
@@ -2242,7 +2385,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-09",
       "first_seen_at": "2026-11-10T09:59:49Z"
     },
@@ -2317,9 +2460,44 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-06",
       "first_seen_at": "2026-11-07T08:53:25Z"
+    },
+    {
+      "title": "An atlas of cochlear development and otic capsule ossification in the guinea pig: A combined histological and micro-CT analysis from early gestation to the early postnatal period",
+      "authors": [
+        "Chihiro Morimoto",
+        "Tadashi Nishimura",
+        "Kazuhiko Nario",
+        "Chika Kameki",
+        "Tadashi Kitahara"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109865",
+      "url": "https://doi.org/10.1016/j.heares.2026.109865",
+      "abstract": "The guinea pig is widely used in auditory research owing to its precocial development and auditory characteristics similar to humans, yet the temporal relationship among membranous labyrinth formation, bony labyrinth ossification, and cochlear maturation has not been systematically characterized across defined gestational ages. We integrated gross observation, hematoxylin and eosin (H&E) histology, and micro-computed tomography (micro-CT) to examine guinea pig cochlear and otic capsule development at seven time points, from gestational day 22 (GD22) to postnatal day 5 (P5). Ossification was assessed from the mean gray value within a region of interest on the cochlear portion of the bony labyrinth. Formal statistical comparisons were restricted to time points matched in both tube voltage and voxel size/field of view (GD32 vs. GD39; GD53 vs. P5); the GD47 value, obtained under different imaging conditions, is reported descriptively. In one representative specimen per stage, histology showed marked cochlear duct elongation and coiling (approximately 1.5 turns) at GD27, whereas at GD22 the otic vesicle showed no cochlear duct differentiation. No mineralized structures surrounding the inner ear were detectable by micro-CT at either stage, indicating that membranous labyrinth morphogenesis preceded micro-CT-detectable mineralization. Ossification became detectable at GD32, and by GD39 the ossified region had expanded further, with increased continuity. Gray values increased significantly from GD32 to GD39 and were significantly higher at P5 than at GD53. By GD47, the organ of Corti showed progressive differentiation, and the stria vascularis was clearly identified. The basic architecture of the cochlea and otic capsule was established prenatally, with further maturation and ossification continuing into the early postnatal period. These findings establish a morphological reference for guinea pig cochlear and otic capsule development, relevant to studies of prenatal insults and congenital hearing loss, and provide a basis for comparison with other rodent models of inner ear development.",
+      "last_author_affiliation": "Department of Otolaryngology-Head and Neck Surgery, Nara Medical University, 840 Shijo-cho, Kashihara, Nara, 634-8522, Japan.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Cochlea",
+        "Development",
+        "Guinea pig",
+        "Histology",
+        "Micro-CT",
+        "Ossification",
+        "Otic capsule"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-06",
+      "first_seen_at": "2026-11-06T09:29:35Z"
     },
     {
       "title": "Computable diagonal loading attaining a target spatial white noise gain in spherical-harmonic minimum variance distortionless response beamforming",
@@ -2353,7 +2531,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-06",
       "first_seen_at": "2026-11-07T08:53:25Z"
     },
@@ -2453,7 +2631,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-06",
       "first_seen_at": "2026-11-07T08:53:25Z"
     },
@@ -2478,7 +2656,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-06",
       "first_seen_at": "2026-11-07T08:53:25Z"
     },
@@ -2608,7 +2786,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-05",
       "first_seen_at": "2026-11-06T09:29:14Z"
     },
@@ -2703,7 +2881,7 @@
         "priority section",
         "psychoacoustics"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-04",
       "first_seen_at": "2026-11-05T09:35:35Z"
     },
@@ -2761,7 +2939,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-04",
       "first_seen_at": "2026-11-05T09:35:35Z"
     },
@@ -2895,7 +3073,7 @@
         "priority section",
         "psychoacoustics"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-03",
       "first_seen_at": "2026-11-04T09:25:39Z"
     },
@@ -2937,7 +3115,7 @@
         "priority section",
         "psychoacoustics"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-03",
       "first_seen_at": "2026-11-04T09:25:39Z"
     },
@@ -2976,7 +3154,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-03",
       "first_seen_at": "2026-11-04T09:25:39Z"
     },
@@ -3001,7 +3179,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-03",
       "first_seen_at": "2026-11-04T09:25:39Z"
     },
@@ -3040,7 +3218,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-03",
       "first_seen_at": "2026-11-04T09:25:39Z"
     },
@@ -3126,7 +3304,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-02",
       "first_seen_at": "2026-11-03T09:40:40Z"
     },
@@ -3276,6 +3454,22 @@
       "section": null,
       "keywords": [],
       "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-02",
+      "first_seen_at": "2026-11-03T09:40:40Z"
+    },
+    {
+      "title": "EDITORIAL BOARD",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0047228",
+      "url": "https://doi.org/10.1121/10.0047228",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
       "source": "crossref",
       "available_online_date": "2026-11-02",
       "first_seen_at": "2026-11-03T09:40:40Z"
@@ -3297,22 +3491,6 @@
       "first_seen_at": "2026-11-03T09:40:50Z"
     },
     {
-      "title": "EDITORIAL BOARD",
-      "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-11-02",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0047228",
-      "url": "https://doi.org/10.1121/10.0047228",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-11-02",
-      "first_seen_at": "2026-11-03T09:40:40Z"
-    },
-    {
       "title": "Effects of vocal fold vibration on the turbulent sound generation in voiced sibilant fricatives",
       "authors": [
         "Tsukasa Yoshinaga",
@@ -3331,7 +3509,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-02",
       "first_seen_at": "2026-11-03T09:40:40Z"
     },
@@ -3415,7 +3593,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-02",
       "first_seen_at": "2026-11-03T09:40:40Z"
     },
@@ -3502,7 +3680,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-02",
       "first_seen_at": "2026-11-03T09:40:40Z"
     },
@@ -3577,7 +3755,7 @@
       "tags": [
         "machine learning"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-02",
       "first_seen_at": "2026-11-03T09:40:40Z"
     },
@@ -3608,7 +3786,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-02",
       "first_seen_at": "2026-11-03T09:40:40Z"
     },
@@ -3656,7 +3834,7 @@
       "tags": [
         "machine learning"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-11-02",
       "first_seen_at": "2026-11-03T09:40:40Z"
     },
@@ -3751,6 +3929,34 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-08-18",
       "first_seen_at": "2026-08-21T03:18:19Z"
+    },
+    {
+      "title": "A novel mouse model of endolymphatic hydrops induced by lipopolysaccharide injection into the semicircular canal",
+      "authors": [
+        "Xunbei Shi",
+        "Li Dai",
+        "Xinrui Xu",
+        "Ru Zhang",
+        "Feitian Li",
+        "Yiming Shen",
+        "Jing Wang",
+        "Wei Li",
+        "Qian Liu",
+        "Qianru Wu",
+        "Yibo Zhang",
+        "Chunfu Dai"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109866",
+      "url": "https://doi.org/10.1016/j.heares.2026.109866",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-11-14T09:04:54Z"
     },
     {
       "title": "A state-of-the-Art Review of Biosensor-Based Markers for Tinnitus",
@@ -5280,7 +5486,7 @@
       "tags": [
         "hearing aid"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-29",
       "first_seen_at": "2026-10-30T08:44:33Z"
     },
@@ -5324,7 +5530,7 @@
         "cochlear implant",
         "priority section"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-29",
       "first_seen_at": "2026-10-30T08:44:33Z"
     },
@@ -5415,7 +5621,7 @@
         "priority section",
         "speech perception"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-29",
       "first_seen_at": "2026-10-30T08:44:33Z"
     },
@@ -5456,7 +5662,7 @@
         "priority section",
         "psychoacoustics"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-29",
       "first_seen_at": "2026-10-30T08:44:33Z"
     },
@@ -5499,7 +5705,7 @@
         "clinical audiology",
         "priority section"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-29",
       "first_seen_at": "2026-10-30T08:44:33Z"
     },
@@ -5818,7 +6024,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-27",
       "first_seen_at": "2026-10-28T08:40:51Z"
     },
@@ -5867,7 +6073,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-27",
       "first_seen_at": "2026-10-28T08:40:51Z"
     },
@@ -5951,7 +6157,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-27",
       "first_seen_at": "2026-10-28T08:40:51Z"
     },
@@ -5992,7 +6198,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-27",
       "first_seen_at": "2026-10-28T08:40:51Z"
     },
@@ -6031,7 +6237,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-27",
       "first_seen_at": "2026-10-28T08:40:51Z"
     },
@@ -6167,7 +6373,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-26",
       "first_seen_at": "2026-10-27T07:58:39Z"
     },
@@ -6368,7 +6574,7 @@
         "priority section",
         "speech perception"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-26",
       "first_seen_at": "2026-10-27T07:58:39Z"
     },
@@ -6456,7 +6662,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-23",
       "first_seen_at": "2026-10-24T07:22:44Z"
     },
@@ -6498,7 +6704,7 @@
       "tags": [
         "machine learning"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-23",
       "first_seen_at": "2026-10-24T07:22:44Z"
     },
@@ -6537,7 +6743,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-23",
       "first_seen_at": "2026-10-24T07:22:44Z"
     },
@@ -6575,7 +6781,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-23",
       "first_seen_at": "2026-10-24T07:22:44Z"
     },
@@ -6748,7 +6954,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-23",
       "first_seen_at": "2026-10-24T07:22:44Z"
     },
@@ -6787,7 +6993,7 @@
       "tags": [
         "hearing aid"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-23",
       "first_seen_at": "2026-10-24T07:22:44Z"
     },
@@ -6827,7 +7033,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-22",
       "first_seen_at": "2026-10-23T07:38:51Z"
     },
@@ -6914,7 +7120,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-22",
       "first_seen_at": "2026-10-23T07:38:51Z"
     },
@@ -6953,7 +7159,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-22",
       "first_seen_at": "2026-10-23T07:38:51Z"
     },
@@ -6992,7 +7198,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-22",
       "first_seen_at": "2026-10-23T07:38:51Z"
     },
@@ -7032,7 +7238,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-22",
       "first_seen_at": "2026-10-23T07:38:51Z"
     },
@@ -7074,7 +7280,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-22",
       "first_seen_at": "2026-10-23T07:38:51Z"
     },
@@ -7114,7 +7320,7 @@
       "tags": [
         "machine learning"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-22",
       "first_seen_at": "2026-10-23T07:38:51Z"
     },
@@ -7156,7 +7362,7 @@
       "tags": [
         "machine learning"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-22",
       "first_seen_at": "2026-10-23T07:38:51Z"
     },
@@ -7199,7 +7405,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-22",
       "first_seen_at": "2026-10-23T07:38:51Z"
     },
@@ -7362,7 +7568,7 @@
       "tags": [
         "machine learning"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-21",
       "first_seen_at": "2026-10-22T07:41:20Z"
     },
@@ -7572,7 +7778,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-20",
       "first_seen_at": "2026-10-21T07:45:48Z"
     },
@@ -7610,7 +7816,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-20",
       "first_seen_at": "2026-10-21T07:45:48Z"
     },
@@ -7754,7 +7960,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-19",
       "first_seen_at": "2026-10-20T07:41:25Z"
     },
@@ -7837,7 +8043,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-19",
       "first_seen_at": "2026-10-20T07:41:25Z"
     },
@@ -7863,7 +8069,7 @@
       "tags": [
         "priority section"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-19",
       "first_seen_at": "2026-10-20T07:41:25Z"
     },
@@ -7948,7 +8154,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-19",
       "first_seen_at": "2026-10-20T07:41:25Z"
     },
@@ -8109,7 +8315,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-16",
       "first_seen_at": "2026-10-17T07:01:28Z"
     },
@@ -8192,7 +8398,7 @@
         "machine learning",
         "priority section"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-16",
       "first_seen_at": "2026-10-17T07:01:28Z"
     },
@@ -8229,7 +8435,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-16",
       "first_seen_at": "2026-10-17T07:01:28Z"
     },
@@ -8268,7 +8474,7 @@
       "tags": [
         "hearing aid"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-16",
       "first_seen_at": "2026-10-17T07:01:28Z"
     },
@@ -8306,7 +8512,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-15",
       "first_seen_at": "2026-10-16T07:17:14Z"
     },
@@ -8348,7 +8554,7 @@
       "tags": [
         "hearing aid"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-15",
       "first_seen_at": "2026-10-16T07:17:14Z"
     },
@@ -8435,7 +8641,7 @@
       "tags": [
         "priority section"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-15",
       "first_seen_at": "2026-10-16T07:17:14Z"
     },
@@ -8610,7 +8816,7 @@
         "priority section",
         "speech perception"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-14",
       "first_seen_at": "2026-10-15T07:32:02Z"
     },
@@ -8713,7 +8919,7 @@
         "priority section",
         "psychoacoustics"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-14",
       "first_seen_at": "2026-10-15T07:32:02Z"
     },
@@ -8864,7 +9070,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-13",
       "first_seen_at": "2026-10-14T07:44:29Z"
     },
@@ -8953,7 +9159,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-13",
       "first_seen_at": "2026-10-14T07:44:29Z"
     },
@@ -9039,7 +9245,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-13",
       "first_seen_at": "2026-10-14T07:44:29Z"
     },
@@ -9362,7 +9568,7 @@
       "tags": [
         "auditory physiology"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-12",
       "first_seen_at": "2026-10-13T09:31:12Z"
     },
@@ -9399,7 +9605,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-12",
       "first_seen_at": "2026-10-13T09:31:12Z"
     },
@@ -9525,7 +9731,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-12",
       "first_seen_at": "2026-10-13T09:31:12Z"
     },
@@ -9624,7 +9830,7 @@
       "tags": [
         "machine learning"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-09",
       "first_seen_at": "2026-10-10T08:36:12Z"
     },
@@ -10060,7 +10266,7 @@
         "priority section",
         "psychoacoustics"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-07",
       "first_seen_at": "2026-10-08T09:06:00Z"
     },
@@ -10289,7 +10495,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-05",
       "first_seen_at": "2026-10-06T09:04:58Z"
     },
@@ -10430,7 +10636,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-02",
       "first_seen_at": "2026-10-03T08:14:09Z"
     },
@@ -10509,7 +10715,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-02",
       "first_seen_at": "2026-10-03T08:14:09Z"
     },
@@ -10717,7 +10923,7 @@
       "tags": [
         "auditory physiology"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:25Z"
     },
@@ -10871,7 +11077,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:25Z"
     },
@@ -11157,7 +11363,7 @@
         "priority section",
         "speech perception"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:25Z"
     },
@@ -11249,7 +11455,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:25Z"
     },
@@ -11298,6 +11504,21 @@
     {
       "title": "Editorial Board",
       "authors": [],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00266-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-02T07:09:02Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-10-01",
       "publication_date_precision": "day",
@@ -11310,21 +11531,6 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00266-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Effective model of fiber Bragg gratings for simulation of ultrasonic guided wave measurements using spectral finite elements",
@@ -11359,7 +11565,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:25Z"
     },
@@ -11866,7 +12072,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:25Z"
     },
@@ -11996,7 +12202,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:25Z"
     },
@@ -12038,7 +12244,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:25Z"
     },
@@ -12122,7 +12328,7 @@
         "priority section",
         "psychoacoustics"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:25Z"
     },
@@ -12295,7 +12501,7 @@
       "tags": [
         "machine learning"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:25Z"
     },
@@ -12449,7 +12655,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:25Z"
     },
@@ -12671,7 +12877,7 @@
       "tags": [
         "auditory physiology"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:25Z"
     },
@@ -12759,7 +12965,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-30",
       "first_seen_at": "2026-10-01T09:02:19Z"
     },
@@ -12798,7 +13004,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-30",
       "first_seen_at": "2026-10-01T09:02:19Z"
     },
@@ -12965,7 +13171,7 @@
       "tags": [
         "hearing aid"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-30",
       "first_seen_at": "2026-10-01T09:02:19Z"
     },
@@ -13056,7 +13262,7 @@
       "tags": [
         "priority section"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-29",
       "first_seen_at": "2026-09-30T08:39:26Z"
     },
@@ -13089,7 +13295,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-29",
       "first_seen_at": "2026-09-30T08:39:26Z"
     },
@@ -13131,7 +13337,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-29",
       "first_seen_at": "2026-09-30T08:39:26Z"
     },
@@ -13217,7 +13423,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-28",
       "first_seen_at": "2026-09-29T08:38:55Z"
     },
@@ -13351,7 +13557,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-28",
       "first_seen_at": "2026-09-29T08:38:55Z"
     },
@@ -13388,7 +13594,7 @@
       "tags": [
         "machine learning"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-28",
       "first_seen_at": "2026-09-29T08:38:55Z"
     },
@@ -13433,7 +13639,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-28",
       "first_seen_at": "2026-09-29T08:38:55Z"
     },
@@ -13466,7 +13672,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-28",
       "first_seen_at": "2026-09-29T08:38:55Z"
     },
@@ -13622,7 +13828,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-25",
       "first_seen_at": "2026-09-26T07:48:30Z"
     },
@@ -13943,7 +14149,7 @@
         "priority section",
         "speech perception"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-23",
       "first_seen_at": "2026-09-24T07:39:05Z"
     },
@@ -13979,7 +14185,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-23",
       "first_seen_at": "2026-09-24T07:39:05Z"
     },
@@ -14081,7 +14287,7 @@
         "priority section",
         "speech perception"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-23",
       "first_seen_at": "2026-09-24T07:39:05Z"
     },
@@ -14165,7 +14371,7 @@
         "machine learning",
         "real-world listening"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:56Z"
     },
@@ -14211,22 +14417,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046572",
-      "url": "https://doi.org/10.1121/10.0046572",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:56Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -14239,6 +14429,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:59Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046572",
+      "url": "https://doi.org/10.1121/10.0046572",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:56Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -14270,7 +14476,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:56Z"
     },
@@ -14303,7 +14509,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:56Z"
     },
@@ -14343,7 +14549,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:56Z"
     },
@@ -14421,7 +14627,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:56Z"
     },
@@ -14465,7 +14671,7 @@
         "priority section",
         "speech perception"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:56Z"
     },
@@ -14504,7 +14710,7 @@
       "tags": [
         "machine learning"
       ],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:56Z"
     },
@@ -14631,7 +14837,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-21",
       "first_seen_at": "2026-09-22T07:46:01Z"
     },
@@ -14723,7 +14929,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-21",
       "first_seen_at": "2026-09-22T07:46:01Z"
     },
@@ -14923,7 +15129,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-16",
       "first_seen_at": "2026-09-17T07:46:13Z"
     },
@@ -15119,7 +15325,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-16",
       "first_seen_at": "2026-09-17T07:46:13Z"
     },
@@ -15156,7 +15362,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-16",
       "first_seen_at": "2026-09-17T07:46:13Z"
     },
@@ -15249,7 +15455,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-16",
       "first_seen_at": "2026-09-17T07:46:13Z"
     },
@@ -15359,7 +15565,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-15",
       "first_seen_at": "2026-09-16T07:44:59Z"
     },
@@ -15436,7 +15642,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-15",
       "first_seen_at": "2026-09-16T07:44:59Z"
     },
@@ -15478,7 +15684,7 @@
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref",
+      "source": "crossref+pubmed",
       "available_online_date": "2026-09-15",
       "first_seen_at": "2026-09-16T07:44:59Z"
     },
@@ -24369,22 +24575,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -24397,6 +24587,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -53268,18 +53474,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -53300,17 +53505,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -62290,22 +62496,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -62318,6 +62508,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -69420,23 +69626,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -69450,6 +69639,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -73001,8 +73207,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -73016,8 +73222,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -78841,8 +79047,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -78856,8 +79062,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
