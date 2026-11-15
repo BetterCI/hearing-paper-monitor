@@ -1,6 +1,29 @@
 {
-  "generated_at": "2026-11-14T09:06:06Z",
+  "generated_at": "2026-11-15T09:34:24Z",
   "papers": [
+    {
+      "title": "Wideband acoustic immittance in adults with unilateral sudden sensorineural hearing loss: A within-subject study of cochlear mechanical contributions to ear-canal acoustic energy",
+      "authors": [
+        "Maisa Darawshi Nassar",
+        "Joseph Attias"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2027-01-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109864",
+      "url": "https://doi.org/10.1016/j.heares.2026.109864",
+      "abstract": null,
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-11-12",
+      "first_seen_at": "2026-11-12T09:55:34Z"
+    },
     {
       "title": "A binaural loudness model for evaluating round-window stimulation based on a physiological peripheral auditory front-end module",
       "authors": [
@@ -1141,6 +1164,57 @@
       "first_seen_at": "2026-10-01T09:02:42Z"
     },
     {
+      "title": "The Typical Development of Speech-In-Noise Perception Between 5 and 10 Years of Age: Effect of Noise Type and Speech Target",
+      "authors": [
+        "Charlotte Benoit",
+        "Inès Sonzogni",
+        "Laurianne Cabrera"
+      ],
+      "journal": "Trends in Hearing",
+      "publication_date": "2026-11-14",
+      "publication_date_precision": "day",
+      "doi": "10.1177/23312165261486698",
+      "url": "https://doi.org/10.1177/23312165261486698",
+      "abstract": "Spoken language learning often occurs in noisy environments, yet young listeners experience greater difficulty understanding speech-in-noise than adults, a challenge that persists into adolescence. This study investigates how these difficulties vary with the type of noise and the nature of the speech material and explores their relationship with children’s vocabulary level in order to shed light on the mechanisms involved. Three independent age groups of children with normal hearing were included between 5 and 10 years of age, as well as a group of adults. All participants completed two adaptive psychophysical tasks measuring identification thresholds for two types of speech material (consonants and words), in the presence of two types of noise (stationary speech-shaped noise and a two-talker babble noise). All children also completed a measure of receptive vocabulary. Consonant identification thresholds were significantly better in babble noise than in speech-shaped noise, with adults outperforming children younger than 7–8 years. Regarding word identification thresholds, adultlike thresholds were reached at ages 5-6 in speech-shaped noise, but not at ages 9-10 in babble. Finally, vocabulary scores were better predicted by consonant identification thresholds in the babble noise compared to the other conditions. These results highlight that children’s speech-in-noise identification thresholds improve with age, but the age at which adultlike performance is reached depends strongly on the type of noise and the nature of the speech material. Together, these findings call for future studies examining how auditory mechanisms, linguistic development, and multiple speech-in-noise tasks interact to shape this developmental trajectory.",
+      "first_author_affiliation": "Université Paris Cité",
+      "last_author_affiliation": "Université Paris Cité",
+      "open_access": true,
+      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261486698",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "auditory development",
+        "children, babble noise",
+        "speech in noise perception"
+      ],
+      "tags": [
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-14",
+      "first_seen_at": "2026-11-15T09:33:39Z",
+      "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261486698",
+      "media_checked_at": "2026-11-15T09:34:32Z",
+      "open_access_image_checked_at": "2026-11-15T09:34:32Z",
+      "ai_analysis": {
+        "scientific_question": "该研究探讨5至10岁正常听力儿童的言语识别阈值如何随噪声类型（稳态言语谱噪声与双人语噪）和言语材料（辅音与词）而变化，并与接受性词汇水平相关联。",
+        "key_highlight": "儿童达到成人水平阈值的年龄强烈依赖于噪声类型和言语材料：词识别在稳态噪声中5-6岁即达成人水平，而在双人语噪中9-10岁仍未达到。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "研究提示未来需考察听觉机制、语言发展与多种言语噪声任务如何交互塑造这一发展轨迹，但摘要未提供因果证据。",
+        "evidence": [
+          "Consonant identification thresholds were significantly better in babble noise than in speech-shaped noise, with adults outperforming children younger than 7–8 years.",
+          "adultlike thresholds were reached at ages 5-6 in speech-shaped noise, but not at ages 9-10 in babble"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "a547650e21784b68",
+        "updated_at": "2026-11-15T09:35:13Z"
+      }
+    },
+    {
       "title": "Brajbhasha vowel system: A spectral-temporal trade-off analysis",
       "authors": [
         "Neetesh Kumar Ojha",
@@ -1152,16 +1226,6 @@
       "doi": "10.1121/10.0047457",
       "url": "https://doi.org/10.1121/10.0047457",
       "abstract": "This study presents a detailed acoustic analysis of the vowel inventory of Brajbhasha, a central Indo-Aryan language, examining its ten oral monophthongs. Through formant and duration measurements, the analysis evaluates the system's structure against the predictions of Dispersion Theory vs Theory of Adaptive Dispersion, which predict “maximal” vs “sufficient” dispersion (respectively) in the vowel space. Results reveal that vowels are acoustically distinct, but their dispersion in the F1-F2 plane does not achieve maximality, demonstrated through the simulation of 10 000 dispersions (using a novel empirical convex hull constraint). Instead, contrasts are maintained through a strategic spectral complementarity: vowel pairs that overlap in one spectral dimension (height or backness) are well-separated in the other. Furthermore, duration exists as a critical, phonetic cue: three inner vowels /ɪ, ɐ, ʊ/ are approximately 65 ms shorter (metrically half) than the other seven. Including duration in linear discriminant analysis significantly improves vowel classification accuracy from 83.5% to 88.1%. The findings characterize Brajbhasha's vowel inventory as a mixed-quantity system, with perceptual distinctiveness achieved through a strategic spectral-temporal complementarity, rather than maximal dispersion alone. This acoustic baseline also provides groundwork for lexical tonal research in the language.",
-      "first_author_affiliation": "Department of Humanities and Social Sciences, Indian Institute of Technology Guwahati , Assam 781039,",
-      "last_author_affiliation": "Department of Humanities and Social Sciences, Indian Institute of Technology Guwahati , Assam 781039,",
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "speech perception"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-11-13",
-      "first_seen_at": "2026-11-14T09:03:35Z",
       "ai_analysis": {
         "scientific_question": "该研究考察布拉杰巴沙语十个口元音的声学结构是否符合离散理论或自适应离散理论的预测。",
         "key_highlight": "元音在F1-F2平面上未达到最大离散，而是通过频谱互补与时长差异共同维持对立，时长使线性判别分析分类准确率从83.5%提升至88.1%。",
@@ -1177,7 +1241,17 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "f894e59c7dc2f40d",
         "updated_at": "2026-11-14T09:07:36Z"
-      }
+      },
+      "first_author_affiliation": "Department of Humanities and Social Sciences, Indian Institute of Technology Guwahati , Assam 781039,",
+      "last_author_affiliation": "Department of Humanities and Social Sciences, Indian Institute of Technology Guwahati , Assam 781039,",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-13",
+      "first_seen_at": "2026-11-14T09:03:35Z"
     },
     {
       "title": "L3 acquisition of Mandarin Chinese stop consonants by learners with L1 Spanish/Thai and L2 English",
@@ -1191,22 +1265,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0047480",
       "url": "https://doi.org/10.1121/10.0047480",
-      "abstract": "This study examines the source of cross-linguistic influence (CLI) in the L3 phonological acquisition of Mandarin Chinese stop consonants. We compared voice onset time (VOT) production in two groups of multilinguals: L1 Spanish learners (a “true voicing” language) and L1 Thai learners (a three-way contrast language), both with English as an L2. Results indicate that the phonological similarity between L1 and L3, rather than L2 status, determines L3 production outcomes. L1 Thai learners successfully mapped Mandarin stops to their native (un)aspirated categories, with unaspirated stops reaching native-like accuracy and aspirated stops closely approximating native values via facilitative transfer. In contrast, L1 Spanish learners showed non-facilitative CLI from their L1. We further identify regressive transfer (phonetic drift) exclusively in the Spanish group, where exposure to aspiration systems (English and Mandarin) shifted native Spanish voiceless stops away from the monolingual baseline. These findings challenge the L2 Status Factor, suggesting that L1 can remain the primary source of CLI for L3 phonological acquisition.",
-      "first_author_affiliation": "University International College, Macau University of Science and Technology 1 , Avenida Wai Long, Taipa, Macao,",
-      "last_author_affiliation": "Department of Computational Linguistics, University of Zurich 2 , Andreasstrasse 15, 8050 Zurich,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0047480",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-11-13",
-      "first_seen_at": "2026-11-14T09:03:35Z",
       "full_text_url": "https://pubs.aip.org/jasa/article/160/5/4231/3408704/L3-acquisition-of-Mandarin-Chinese-stop-consonants",
-      "media_checked_at": "2026-11-14T09:06:12Z",
-      "open_access_image_checked_at": "2026-11-14T09:06:12Z",
+      "abstract": "This study examines the source of cross-linguistic influence (CLI) in the L3 phonological acquisition of Mandarin Chinese stop consonants. We compared voice onset time (VOT) production in two groups of multilinguals: L1 Spanish learners (a “true voicing” language) and L1 Thai learners (a three-way contrast language), both with English as an L2. Results indicate that the phonological similarity between L1 and L3, rather than L2 status, determines L3 production outcomes. L1 Thai learners successfully mapped Mandarin stops to their native (un)aspirated categories, with unaspirated stops reaching native-like accuracy and aspirated stops closely approximating native values via facilitative transfer. In contrast, L1 Spanish learners showed non-facilitative CLI from their L1. We further identify regressive transfer (phonetic drift) exclusively in the Spanish group, where exposure to aspiration systems (English and Mandarin) shifted native Spanish voiceless stops away from the monolingual baseline. These findings challenge the L2 Status Factor, suggesting that L1 can remain the primary source of CLI for L3 phonological acquisition.",
       "ai_analysis": {
         "scientific_question": "在三语（L3）普通话塞音语音习得中，跨语言影响的主要来源是母语（L1）还是第二语言（L2）？",
         "key_highlight": "研究结果显示，L1与L3之间的音系相似性而非L2地位决定了L3的产出结果，L1泰语学习者表现出促进性迁移，而L1西班牙语学习者表现出非促进性迁移。",
@@ -1222,7 +1282,21 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "8fee58056baa632d",
         "updated_at": "2026-11-14T09:07:38Z"
-      }
+      },
+      "first_author_affiliation": "University International College, Macau University of Science and Technology 1 , Avenida Wai Long, Taipa, Macao,",
+      "last_author_affiliation": "Department of Computational Linguistics, University of Zurich 2 , Andreasstrasse 15, 8050 Zurich,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0047480",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-11-14T09:06:12Z",
+      "media_checked_at": "2026-11-14T09:06:12Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-13",
+      "first_seen_at": "2026-11-14T09:03:35Z"
     },
     {
       "title": "What does the model actually see? Evaluation protocols and input availability in data-driven prediction of room acoustic parameters",
@@ -1235,14 +1309,6 @@
       "doi": "10.1121/10.0047539",
       "url": "https://doi.org/10.1121/10.0047539",
       "abstract": "Machine-learnt models are increasingly used to predict ISO 3382-1 room acoustic parameters at unmeasured seats from sparse measurements, with reported coefficients of determination frequently above 0.85. This paper shows that such figures are often determined by the evaluation protocol rather than by the model. Using a multi-condition measurement campaign in a 264-seat conference hall and a 180-seat concert hall, three model families were evaluated under a factorial protocol ablation: validation splits either row-based or grouped by receiver position, and inputs either including measured-at-test quantities (the target position's impulse response, co-located parameter measurements, position identifiers) or restricted to source–receiver geometry and environmental state. Row-based splits with measured-at-test inputs reproduce the high reported accuracies (mean R2 of 0.81 for the core parameters); grouped splits with deployment-consistent inputs reduce these to 0.09–0.60 and reorder the apparent difficulty of parameter classes. Access to the target's own impulse response at test time reproduces the high accuracy of the row-based folds but provides no benefit under grouped folds. The row-based figure reflects condition interpolation at the measured positions rather than transferable acoustic information. Under the deployment-consistent protocol, the spread between Random Forest, the hybrid network, and inverse-distance weighting is several times smaller than the spread between protocols for a fixed model; the learnt models retain a measurable advantage for sound strength and reverberation time, and the high accuracy of the original pipelines re-emerges as condition interpolation at measured positions, a distinct and operationally useful task. A reporting checklist operationalizes the findings.",
-      "first_author_affiliation": "Vibration and Acoustics Laboratory and Department of Mechanical Engineering, Alanya Alaaddin Keykubat University , 07425 Antalya,",
-      "last_author_affiliation": "Vibration and Acoustics Laboratory and Department of Mechanical Engineering, Alanya Alaaddin Keykubat University , 07425 Antalya,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-11-13",
-      "first_seen_at": "2026-11-14T09:03:35Z",
       "ai_analysis": {
         "scientific_question": "在数据驱动的房间声学参数预测中，评估协议与输入可用性如何影响所报告的决定系数？",
         "key_highlight": "行式划分并包含测试时实测输入可重现高精度（核心参数平均R2为0.81），而按接收点分组且仅用部署一致输入时降至0.09–0.60并改变参数类别难度排序。",
@@ -1258,7 +1324,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "557c1a914fdd582d",
         "updated_at": "2026-11-14T09:07:40Z"
-      }
+      },
+      "first_author_affiliation": "Vibration and Acoustics Laboratory and Department of Mechanical Engineering, Alanya Alaaddin Keykubat University , 07425 Antalya,",
+      "last_author_affiliation": "Vibration and Acoustics Laboratory and Department of Mechanical Engineering, Alanya Alaaddin Keykubat University , 07425 Antalya,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-13",
+      "first_seen_at": "2026-11-14T09:03:35Z"
     },
     {
       "title": "Acoustic isolation of the Nasometer separation plate: Effects of plate geometry and microphone placement",
@@ -1320,17 +1394,6 @@
       "doi": "10.1121/10.0047475",
       "url": "https://doi.org/10.1121/10.0047475",
       "abstract": "This study examines how spectral and temporal differences between isolated propeller noise and musical reference sounds are reflected in sound quality metrics and psychoacoustic annoyance models. Recordings from two propeller configurations and sustained, app-generated violin tones were normalized to an equivalent continuous A-weighted sound pressure level of 75 dB(A). Analysis combined A-weighted spectrograms, five sound quality metrics, and three established psychoacoustic annoyance models. The propeller recordings generally exhibited stronger broadband content and higher calculated loudness and sharpness, whereas the violin references had higher mean tonality and fluctuation strength. Three condition specific findings highlight the limits of simple metric-based interpretations. All three models predicted greater annoyance for the propeller recordings than for the references. These findings demonstrate the value of examining complementary descriptors and model choice through a harmonic-reference comparison. The study provides an experimental starting point for extending the framework to more controlled reference signals, larger propellers, complete multirotor aircraft, and listening experiments.",
-      "first_author_affiliation": "Department of Aeronautics and Astronautics, State Key Laboratory of Turbulence and Complex Systems, School of Mechanics and Engineering Science, Peking University , Beijing 100871,",
-      "last_author_affiliation": "Department of Aeronautics and Astronautics, State Key Laboratory of Turbulence and Complex Systems, School of Mechanics and Engineering Science, Peking University , Beijing 100871,",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "priority section",
-        "psychoacoustics"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-11-12",
-      "first_seen_at": "2026-11-13T09:39:56Z",
       "ai_analysis": {
         "scientific_question": "孤立螺旋桨噪声与音乐参考声在频谱和时间特性上的差异，如何反映在声品质指标和心理声学烦恼度模型中？",
         "key_highlight": "在等效连续A计权声压级归一化至75 dB(A)的条件下，螺旋桨录音普遍呈现更强的宽带成分以及更高的计算响度和尖锐度，而小提琴参考声具有更高的平均音调感和波动强度。",
@@ -1346,7 +1409,18 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "0c423c1e13df426f",
         "updated_at": "2026-11-14T09:07:42Z"
-      }
+      },
+      "first_author_affiliation": "Department of Aeronautics and Astronautics, State Key Laboratory of Turbulence and Complex Systems, School of Mechanics and Engineering Science, Peking University , Beijing 100871,",
+      "last_author_affiliation": "Department of Aeronautics and Astronautics, State Key Laboratory of Turbulence and Complex Systems, School of Mechanics and Engineering Science, Peking University , Beijing 100871,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "priority section",
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-12",
+      "first_seen_at": "2026-11-13T09:39:56Z"
     },
     {
       "title": "Distinct Response Dynamics to Personalized Sound Therapy in Chronic Tinnitus: Sustained Clinical Benefits and a Critical Treatment Window",
@@ -1631,18 +1705,6 @@
       "doi": "10.1121/10.0047474",
       "url": "https://doi.org/10.1121/10.0047474",
       "abstract": "There is substantial concern that anthropogenic sounds, including high-amplitude, impulsive pile driving from offshore construction, may impact the hearing sensitivity of marine fauna. Despite their abundance and ecological relevance, data on auditory threshold shifts in fishes remain scarce, particularly for species lacking swim bladders that rely on particle motion for hearing. This study evaluated the potential for noise-induced hearing impairment in a particle motion-reliant fish after in situ pile driving exposure, using the flounder, an economically important benthic flatfish inhabiting North Atlantic regions with frequent offshore construction activities. Auditory evoked potential methods were used to (1) establish the flounder audiogram and (2) measure auditory thresholds at 170 Hz before and after pile-driving exposure. Flounder hearing was most sensitive at 100 Hz, overlapping with high-amplitude, low-frequency pile driving noise. Following exposures (15 min and 3 h duration, 184–187 SELcum dB re 1 μPa2·s), flounders exhibited temporary threshold shifts (3–7 dB) that persisted for at least 24 h. Such hearing loss can impair detection of ecologically important cues. Exposure levels were comparable to those at kilometer-scale distances from offshore wind construction, suggesting unexpected susceptibility to temporary threshold shift and a relatively large range of auditory impact for particle motion sensitive fish.",
-      "first_author_affiliation": "Biology Department, Woods Hole Oceanographic Institution 1 , Woods Hole, Massachusetts 02543,",
-      "last_author_affiliation": "Biology Department, Woods Hole Oceanographic Institution 1 , Woods Hole, Massachusetts 02543,",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "clinical audiology",
-        "priority section",
-        "real-world listening"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-11-12",
-      "first_seen_at": "2026-11-13T09:39:56Z",
       "ai_analysis": {
         "scientific_question": "脉冲打桩这种高振幅人为噪声是否会导致依赖质点运动的鱼类（如夏鲽）出现听觉阈值偏移？",
         "key_highlight": "在15分钟和3小时的原位打桩暴露后，夏鲽出现了3–7 dB的暂时性阈值偏移，且至少持续24小时。",
@@ -1658,7 +1720,19 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "1b44dc08723dcf58",
         "updated_at": "2026-11-14T09:07:44Z"
-      }
+      },
+      "first_author_affiliation": "Biology Department, Woods Hole Oceanographic Institution 1 , Woods Hole, Massachusetts 02543,",
+      "last_author_affiliation": "Biology Department, Woods Hole Oceanographic Institution 1 , Woods Hole, Massachusetts 02543,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology",
+        "priority section",
+        "real-world listening"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-12",
+      "first_seen_at": "2026-11-13T09:39:56Z"
     },
     {
       "title": "A model-based active noise control logic employing virtual sensing and future signal prediction for reducing fast transient disturbances",
@@ -1823,20 +1897,6 @@
       "url": "https://doi.org/10.1121/10.0047487",
       "full_text_url": "https://pubs.aip.org/jasa/article/160/5/4149/3408492/Investigating-acoustic-effects-of-violin-back-arch",
       "abstract": "The violin is one of the most widely known yet not fully understood cultural objects. Even modern research into its acoustic function has to date generated only limited practically applicable results. This study will evaluate a methodology for producing such results. Six violins were constructed to be as similar as possible, only the parameter “back arch height” was varied. In this way, the dependency of vibratory behavior on this parameter may be studied effectively. The group of six instruments was divided into three pairs with strongly varied arch heights of 12.1, 14.8, and 17.5 mm, respectively. The effectiveness of this method of construction was evaluated chiefly through comparing the residual differences between supposedly identical instruments to the measured differences between purposely different instruments. This was done in terms of geometry and acoustics through CT-scans and radiation measurements. It was found that sufficiently similar instruments could be constructed, so that acoustic outcomes could be documented clearly. Signature body modes of the instruments were shifted apart in frequency and towards higher amplitude for lower back arch heights at average rates of −4.6 Hz mm−1, 1.16 Hz mm−1 and 1.6 dB mm−1, 0.94 dBmm−1 for B1− and B1+ mode attributed peaks, respectively.",
-      "first_author_affiliation": "Faculty of Electrical and Computer Engineering, Dresden University of Technology 1 , 01069 Dresden,",
-      "last_author_affiliation": "Westsächsische Hochschule Zwickau 3 , 08056 Zwickau,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0047487",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "open_access_image_checked_at": "2026-11-12T09:55:58Z",
-      "media_checked_at": "2026-11-12T09:55:58Z",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-11-11",
-      "first_seen_at": "2026-11-12T09:55:18Z",
       "ai_analysis": {
         "scientific_question": "在尽量控制其他差异的条件下，小提琴背板拱高变化如何影响其振动与声学行为？",
         "key_highlight": "六把尽量相似、仅背板拱高不同的琴中，较低拱高对应特征体模态峰在频率上分离并移向更高振幅。",
@@ -1852,7 +1912,21 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "8813646cc6f08b2b",
         "updated_at": "2026-11-14T09:07:46Z"
-      }
+      },
+      "first_author_affiliation": "Faculty of Electrical and Computer Engineering, Dresden University of Technology 1 , 01069 Dresden,",
+      "last_author_affiliation": "Westsächsische Hochschule Zwickau 3 , 08056 Zwickau,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0047487",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-11-12T09:55:58Z",
+      "media_checked_at": "2026-11-12T09:55:58Z",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-11",
+      "first_seen_at": "2026-11-12T09:55:18Z"
     },
     {
       "title": "Measurements of underwater sound from rock drilling and chipping activities during anchor maintenance",
@@ -1891,6 +1965,59 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-11",
       "first_seen_at": "2026-11-12T09:55:18Z"
+    },
+    {
+      "title": "The incremental contribution of extended high-frequency thresholds to speech-in-noise performance",
+      "authors": [
+        "Shangqiguo Wang",
+        "Chanfeng Shen",
+        "Yan Wang",
+        "Xiaohui Lai",
+        "Mingli Chen",
+        "Jie Qiu",
+        "Wuxin Lan",
+        "Liqing Dai",
+        "Wen Liu",
+        "Wen Jiang"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109868",
+      "url": "https://doi.org/10.1016/j.heares.2026.109868",
+      "abstract": "We examined whether extended high-frequency (EHF) audiometry adds information about speech-in-noise performance beyond conventional hearing in 114 adults aged 19-85 years. Bilateral EHF pure-tone average (PTA) covered 9-14 kHz; no responses in 34 participants were assigned maximum output plus 5 dB, with sensitivity analyses. Multiple linear regressions for digits-in-noise (DIN) and Hearing in Noise Test (HINT) scores included age, sex, bilateral conventional PTA at 0.5, 1, 2, and 4 kHz, 8-kHz thresholds, spectrotemporal modulation sensitivity, and reading span. HINT recordings were limited to 8 kHz, and DIN recordings contained little EHF energy; EHF audibility during testing was unverified. In unadjusted analyses, EHF correlated with DIN (Spearman rho = 0.792) and HINT (rho = 0.766). EHF correlated strongly with 8 kHz overall (rho = 0.930), but less strongly in exploratory bilateral normal-threshold subsets defined at every measured conventional frequency (20 dB hearing level [HL]: n = 26, rho = 0.335; 25 dB HL: n = 39, rho = 0.584). Adjusted EHF coefficients per 10 dB HL were -0.219 dB signal-to-noise ratio for DIN (95% confidence interval, -0.708 to 0.270) and 0.004 for HINT (-0.258 to 0.266). No improvement in full-model leave-one-out prediction was observed after adding EHF. Poorer EHF hearing was associated with poorer performance on both speech-in-noise tests across a broad hearing range. After accounting for conventional hearing and other measured factors, the incremental contribution of EHF remained uncertain under the tested listening conditions. Its value in middle-aged adults with normal conventional hearing remains unresolved.",
+      "last_author_affiliation": "The College of Medical Technology, Xuzhou Medical University, Xuzhou, China; Jiangsu Province Engineering Research Center of Artificial Auditory, Xuzhou Medical University, Xuzhou, China; Department of Otolaryngology, The Affiliated Hospital of Xuzhou Medical University, Xuzhou, China. Electronic address: jiangwenlinda@hotmail.com.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Audiometry",
+        "Extended high-frequency audiometry",
+        "Spectrotemporal modulation",
+        "Speech in noise",
+        "Working memory"
+      ],
+      "tags": [
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-12",
+      "first_seen_at": "2026-11-12T09:55:34Z",
+      "ai_analysis": {
+        "scientific_question": "在114名19-85岁成人中，扩展高频（EHF）听阈是否在常规听力及其他测量因素之外，对噪声下言语表现提供额外信息？",
+        "key_highlight": "未调整分析中EHF与DIN（rho=0.792）和HINT（rho=0.766）相关，但调整常规听力等因素后EHF系数的置信区间均包含零，且加入EHF未改善全模型留一预测。",
+        "main_limitation": "摘要明确报告HINT录音仅限8 kHz、DIN录音含极少EHF能量，且测试中EHF可听度未经验证，因此所测听条件下的结论受限。",
+        "research_implication": "在常规听力正常的中年成人中，EHF听阈的价值仍属未决问题，需在能确保EHF可听度的测试条件下进一步研究。",
+        "evidence": [
+          "Adjusted EHF coefficients per 10 dB HL were -0.219 dB signal-to-noise ratio for DIN (95% confidence interval, -0.708 to 0.270) and 0.004 for HINT (-0.258 to 0.266).",
+          "HINT recordings were limited to 8 kHz, and DIN recordings contained little EHF energy; EHF audibility during testing was unverified."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "4292e05d401a01a1",
+        "updated_at": "2026-11-15T09:35:15Z"
+      }
     },
     {
       "title": "A response-propagation decoupling framework for efficient spherical-wave reflection modeling and inversion",
@@ -2362,7 +2489,23 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-09",
-      "first_seen_at": "2026-11-10T09:59:49Z"
+      "first_seen_at": "2026-11-10T09:59:49Z",
+      "ai_analysis": {
+        "scientific_question": "在深海声影区，如何利用表面波导泄漏与海底反射信号的空间角度构建测量模型，并在不进行接收器机动的情况下实现被动目标跟踪？",
+        "key_highlight": "基于物理的水平线阵测量模型结合粒子滤波，在0至0.95的观测丢失率下，位置均方根误差较最佳扩展、无迹和容积卡尔曼滤波降低50.4%–72.3%。",
+        "main_limitation": "摘要指出，在转向段且距离相关观测不完整时，所采用的分段常速先验存在局限，一步预测均方根误差为12.14 m，而直线段为2.33 m。",
+        "research_implication": "结果表明，非高斯粒子表示带来跟踪收益，并提示在转向且海底反射观测缺失时需改进运动先验或观测更新策略。",
+        "evidence": [
+          "Across loss rates from 0 to 0.95, the particle filter reduces the position root mean square error by 50.4%–72.3% relative to the best result among extended, unscented, and cubature Kalman filters.",
+          "A sea trial turning-point analysis gives a one-step prediction root mean square error of 12.14 m in turning segments, compared with 2.33 m in straight segments"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "2e2ca38feba6d2c1",
+        "updated_at": "2026-11-15T09:35:18Z"
+      }
     },
     {
       "title": "Very-low-frequency passive matched time difference localization using a deep ocean-bottom seismograph",
@@ -2423,7 +2566,23 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-07",
-      "first_seen_at": "2026-11-08T09:07:15Z"
+      "first_seen_at": "2026-11-08T09:07:15Z",
+      "ai_analysis": {
+        "scientific_question": "本研究探讨bavachin（BV）是否能对抗4-乙酰氨基酚（APAP）诱导的听力损失，以及其通过PITT通路修复溶酶体损伤、恢复蛋白稳态的机制。",
+        "key_highlight": "研究报道BV通过激活PITT通路修复溶酶体膜损伤、恢复蛋白稳态和毛细胞极性，在细胞和动物模型中减轻APAP诱导的听损伤。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "结果提示BV可能作为药物性听力损失的候选治疗药物，但摘要所述为模型中的初步发现，尚需进一步研究验证。",
+        "evidence": [
+          "BV exerts potent otoprotective effects by activating the PITT pathway to repair lysosomal membrane damage, thereby restoring protein homeostasis and hair cell polarity.",
+          "This dual mechanism effectively prevents APAP-induced auditory damage in both cellular and animal models"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "591eb2d35e52f0b9",
+        "updated_at": "2026-11-15T09:35:26Z"
+      }
     },
     {
       "title": "Adaptive sound zone control using third-order tensor decomposition-based acoustic contrast control-pressure matching",
@@ -3461,22 +3620,6 @@
     {
       "title": "EDITORIAL BOARD",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-11-02",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0047228",
-      "url": "https://doi.org/10.1121/10.0047228",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-11-02",
-      "first_seen_at": "2026-11-03T09:40:40Z"
-    },
-    {
-      "title": "EDITORIAL BOARD",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-11-02",
       "publication_date_precision": "day",
@@ -3489,6 +3632,22 @@
       "source": "crossref",
       "available_online_date": "2026-11-02",
       "first_seen_at": "2026-11-03T09:40:50Z"
+    },
+    {
+      "title": "EDITORIAL BOARD",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0047228",
+      "url": "https://doi.org/10.1121/10.0047228",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-11-02",
+      "first_seen_at": "2026-11-03T09:40:40Z"
     },
     {
       "title": "Effects of vocal fold vibration on the turbulent sound generation in voiced sibilant fricatives",
@@ -3929,6 +4088,26 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-08-18",
       "first_seen_at": "2026-08-21T03:18:19Z"
+    },
+    {
+      "title": "A multi-view AI-driven behavioral analysis system for quantifying vestibular deficits across diverse mouse models",
+      "authors": [
+        "Dinglu Peng",
+        "Xiaojun Zhang",
+        "Han Chen",
+        "Fangyi Chen"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109873",
+      "url": "https://doi.org/10.1016/j.heares.2026.109873",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-11-15T09:33:55Z"
     },
     {
       "title": "A novel mouse model of endolymphatic hydrops induced by lipopolysaccharide injection into the semicircular canal",
@@ -5263,34 +5442,6 @@
       "first_seen_at": "2026-09-04T07:17:01Z"
     },
     {
-      "title": "The incremental contribution of extended high-frequency thresholds to speech-in-noise performance",
-      "authors": [
-        "Shangqiguo Wang",
-        "Chanfeng Shen",
-        "Yan Wang",
-        "Xiaohui Lai",
-        "Mingli Chen",
-        "Jie Qiu",
-        "Wuxin Lan",
-        "Liqing Dai",
-        "Wen Liu",
-        "Wen Jiang"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-11-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109868",
-      "url": "https://doi.org/10.1016/j.heares.2026.109868",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "speech perception"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-11-12T09:55:34Z"
-    },
-    {
       "title": "The role of binaural input in music perception: Evidence from adults with single-sided deafness",
       "authors": [
         "Mert Kılıç",
@@ -5427,27 +5578,6 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-02",
       "first_seen_at": "2026-09-03T07:13:37Z"
-    },
-    {
-      "title": "Wideband Acoustic Immittance in Adults with Unilateral Sudden Sensorineural Hearing Loss: A Within-Subject Study of Cochlear Mechanical Contributions to Ear-Canal Acoustic Energy",
-      "authors": [
-        "Maisa Darawshi Nassar",
-        "Joseph Attias"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-11-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109864",
-      "url": "https://doi.org/10.1016/j.heares.2026.109864",
-      "abstract": null,
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "auditory physiology",
-        "clinical audiology"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-11-12T09:55:34Z"
     },
     {
       "title": "A derivative-informed, physics-referenced parametric surrogate for uncertainty-aware inversion of mesoscale-eddy acoustic observations",
@@ -11504,21 +11634,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00266-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-02T07:09:02Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-10-01",
       "publication_date_precision": "day",
@@ -11531,6 +11646,21 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00266-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Effective model of fiber Bragg gratings for simulation of ultrasonic guided wave measurements using spectral finite elements",
@@ -14417,22 +14547,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046571",
-      "url": "https://doi.org/10.1121/10.0046571",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:59Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -14445,6 +14559,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:56Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046571",
+      "url": "https://doi.org/10.1121/10.0046571",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:59Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -15756,11 +15886,11 @@
       "first_seen_at": "2026-09-08T07:17:39Z"
     },
     {
-      "title": "Utricular Compound Action Potential Thresholds to Pulsed Interaural Vibration in Guinea Pig, and Mechanical Tuning Curve Estimates in Mouse, Rat, Sheep, and Human",
+      "title": "Utricular Compound Action Potential Thresholds to Pulsed Interaural Vibration in Guinea Pig, and Mechanical Tuning Curve Estimates in Mouse, Rat, Sheep, and Human.",
       "authors": [
-        "Richard D. Rabbitt",
-        "Christopher J. Pastras",
-        "Suhrud M. Rajguru",
+        "Richard D Rabbitt",
+        "Christopher J Pastras",
+        "Suhrud M Rajguru",
         "Hong Zhu",
         "Wu Zhou"
       ],
@@ -15783,10 +15913,11 @@
         "abstract_hash": "28ea08345e3cfa75",
         "updated_at": "2026-09-21T08:03:15Z"
       },
+      "first_author_affiliation": "Biomedical Engineering, Otolaryngology and Neuroscience Program, University of Utah, Salt Lake City, UT, 84112, USA. r.rabbitt@utah.edu.",
       "last_author_affiliation": "Department of Otolaryngology-Head and Neck Surgery, University of Mississippi Medical Center, Jackson, MS, USA.",
       "open_access": true,
-      "open_access_url": "https://link.springer.com/article/10.1007/s10162-026-01070-y",
-      "open_access_source": "crossref_license",
+      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3505590/",
+      "open_access_source": "pubmed_pmc",
       "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0",
       "open_access_image_checked_at": "2026-09-16T07:47:17Z",
       "pubmed_full_text_available": true,
@@ -15805,7 +15936,7 @@
         "vCAP"
       ],
       "tags": [],
-      "source": "crossref+pubmed",
+      "source": "pubmed",
       "available_online_date": "2026-09-15",
       "first_seen_at": "2026-09-16T07:45:42Z"
     },
@@ -24575,22 +24706,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044504",
-      "url": "https://doi.org/10.1121/10.0044504",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:37Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -24603,6 +24718,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:36Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044504",
+      "url": "https://doi.org/10.1121/10.0044504",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:37Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -53474,17 +53605,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -53505,18 +53637,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -62496,22 +62627,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -62524,6 +62639,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -69626,23 +69757,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -69656,6 +69770,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -73207,8 +73338,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -73222,8 +73353,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -79047,8 +79178,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -79062,8 +79193,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
