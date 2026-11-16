@@ -1,55 +1,55 @@
 {
-  "checked_at": "2026-11-15T09:34:24Z",
+  "checked_at": "2026-11-16T09:53:28Z",
   "journals": [
     {
       "key": "jasa",
       "journal": "The Journal of the Acoustical Society of America",
-      "checked_at": "2026-11-15T09:33:32Z",
-      "last_success_at": "2026-11-15T09:33:32Z",
+      "checked_at": "2026-11-16T09:51:57Z",
+      "last_success_at": "2026-11-16T09:51:57Z",
       "state": "ok",
       "lookback_days": 60,
       "newly_added": 0,
-      "fetched": 144,
+      "fetched": 140,
       "latest_publication_date": "2026-11-13",
       "sources": [
         {
           "name": "Crossref",
           "state": "ok",
-          "records": 144
+          "records": 140
         },
         {
           "name": "PubMed",
           "state": "ok",
-          "records": 138
+          "records": 134
         }
       ]
     },
     {
       "key": "jasael",
       "journal": "JASA Express Letters",
-      "checked_at": "2026-11-15T09:33:36Z",
-      "last_success_at": "2026-11-15T09:33:36Z",
+      "checked_at": "2026-11-16T09:52:05Z",
+      "last_success_at": "2026-11-16T09:52:05Z",
       "state": "ok",
       "lookback_days": 60,
       "newly_added": 0,
-      "fetched": 32,
+      "fetched": 31,
       "latest_publication_date": "2026-11-09",
       "sources": [
         {
           "name": "Crossref",
           "state": "ok",
-          "records": 32
+          "records": 31
         }
       ]
     },
     {
       "key": "trends-hearing",
       "journal": "Trends in Hearing",
-      "checked_at": "2026-11-15T09:33:39Z",
-      "last_success_at": "2026-11-15T09:33:39Z",
+      "checked_at": "2026-11-16T09:52:13Z",
+      "last_success_at": "2026-11-16T09:52:13Z",
       "state": "ok",
       "lookback_days": 60,
-      "newly_added": 1,
+      "newly_added": 0,
       "fetched": 8,
       "latest_publication_date": "2026-11-14",
       "sources": [
@@ -68,12 +68,12 @@
     {
       "key": "jaro",
       "journal": "Journal of the Association for Research in Otolaryngology",
-      "checked_at": "2026-11-15T09:33:47Z",
-      "last_success_at": "2026-11-15T09:33:47Z",
+      "checked_at": "2026-11-16T09:52:26Z",
+      "last_success_at": "2026-11-16T09:52:26Z",
       "state": "ok",
       "lookback_days": 60,
       "newly_added": 0,
-      "fetched": 17,
+      "fetched": 16,
       "latest_publication_date": "2026-11-12",
       "sources": [
         {
@@ -84,53 +84,53 @@
         {
           "name": "PubMed",
           "state": "ok",
-          "records": 17
+          "records": 16
         }
       ]
     },
     {
       "key": "ear-hearing",
       "journal": "Ear and Hearing",
-      "checked_at": "2026-11-15T09:33:52Z",
-      "last_success_at": "2026-11-15T09:33:52Z",
+      "checked_at": "2026-11-16T09:52:40Z",
+      "last_success_at": "2026-11-16T09:52:40Z",
       "state": "ok",
       "lookback_days": 60,
       "newly_added": 0,
-      "fetched": 44,
+      "fetched": 42,
       "latest_publication_date": "2026-11-12",
       "sources": [
         {
           "name": "Crossref",
           "state": "ok",
-          "records": 28
+          "records": 26
         },
         {
           "name": "PubMed",
           "state": "ok",
-          "records": 44
+          "records": 42
         }
       ]
     },
     {
       "key": "hearing-research",
       "journal": "Hearing Research",
-      "checked_at": "2026-11-15T09:33:55Z",
-      "last_success_at": "2026-11-15T09:33:55Z",
+      "checked_at": "2026-11-16T09:52:47Z",
+      "last_success_at": "2026-11-16T09:52:47Z",
       "state": "ok",
       "lookback_days": 60,
-      "newly_added": 1,
+      "newly_added": 0,
       "fetched": 103,
-      "latest_publication_date": "2027-01-01",
+      "latest_publication_date": "2026-12-01",
       "sources": [
         {
           "name": "Crossref",
           "state": "ok",
-          "records": 100
+          "records": 99
         },
         {
           "name": "PubMed",
           "state": "ok",
-          "records": 89
+          "records": 90
         }
       ]
     }
