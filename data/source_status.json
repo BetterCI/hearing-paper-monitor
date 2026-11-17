@@ -1,75 +1,75 @@
 {
-  "checked_at": "2026-11-16T09:53:28Z",
+  "checked_at": "2026-11-17T10:51:24Z",
   "journals": [
     {
       "key": "jasa",
       "journal": "The Journal of the Acoustical Society of America",
-      "checked_at": "2026-11-16T09:51:57Z",
-      "last_success_at": "2026-11-16T09:51:57Z",
+      "checked_at": "2026-11-17T10:49:14Z",
+      "last_success_at": "2026-11-17T10:49:14Z",
       "state": "ok",
       "lookback_days": 60,
-      "newly_added": 0,
-      "fetched": 140,
-      "latest_publication_date": "2026-11-13",
+      "newly_added": 2,
+      "fetched": 142,
+      "latest_publication_date": "2026-11-16",
       "sources": [
         {
           "name": "Crossref",
           "state": "ok",
-          "records": 140
+          "records": 142
         },
         {
           "name": "PubMed",
           "state": "ok",
-          "records": 134
+          "records": 136
         }
       ]
     },
     {
       "key": "jasael",
       "journal": "JASA Express Letters",
-      "checked_at": "2026-11-16T09:52:05Z",
-      "last_success_at": "2026-11-16T09:52:05Z",
+      "checked_at": "2026-11-17T10:49:24Z",
+      "last_success_at": "2026-11-17T10:49:24Z",
       "state": "ok",
       "lookback_days": 60,
-      "newly_added": 0,
-      "fetched": 31,
-      "latest_publication_date": "2026-11-09",
+      "newly_added": 1,
+      "fetched": 32,
+      "latest_publication_date": "2026-11-16",
       "sources": [
         {
           "name": "Crossref",
           "state": "ok",
-          "records": 31
+          "records": 32
         }
       ]
     },
     {
       "key": "trends-hearing",
       "journal": "Trends in Hearing",
-      "checked_at": "2026-11-16T09:52:13Z",
-      "last_success_at": "2026-11-16T09:52:13Z",
+      "checked_at": "2026-11-17T10:49:30Z",
+      "last_success_at": "2026-11-17T10:49:30Z",
       "state": "ok",
       "lookback_days": 60,
       "newly_added": 0,
-      "fetched": 8,
+      "fetched": 7,
       "latest_publication_date": "2026-11-14",
       "sources": [
         {
           "name": "Crossref",
           "state": "ok",
-          "records": 8
+          "records": 7
         },
         {
           "name": "PubMed",
           "state": "ok",
-          "records": 8
+          "records": 7
         }
       ]
     },
     {
       "key": "jaro",
       "journal": "Journal of the Association for Research in Otolaryngology",
-      "checked_at": "2026-11-16T09:52:26Z",
-      "last_success_at": "2026-11-16T09:52:26Z",
+      "checked_at": "2026-11-17T10:49:41Z",
+      "last_success_at": "2026-11-17T10:49:41Z",
       "state": "ok",
       "lookback_days": 60,
       "newly_added": 0,
@@ -91,46 +91,46 @@
     {
       "key": "ear-hearing",
       "journal": "Ear and Hearing",
-      "checked_at": "2026-11-16T09:52:40Z",
-      "last_success_at": "2026-11-16T09:52:40Z",
+      "checked_at": "2026-11-17T10:49:58Z",
+      "last_success_at": "2026-11-17T10:49:58Z",
       "state": "ok",
       "lookback_days": 60,
-      "newly_added": 0,
-      "fetched": 42,
-      "latest_publication_date": "2026-11-12",
+      "newly_added": 2,
+      "fetched": 44,
+      "latest_publication_date": "2026-11-17",
       "sources": [
         {
           "name": "Crossref",
           "state": "ok",
-          "records": 26
+          "records": 27
         },
         {
           "name": "PubMed",
           "state": "ok",
-          "records": 42
+          "records": 43
         }
       ]
     },
     {
       "key": "hearing-research",
       "journal": "Hearing Research",
-      "checked_at": "2026-11-16T09:52:47Z",
-      "last_success_at": "2026-11-16T09:52:47Z",
+      "checked_at": "2026-11-17T10:50:11Z",
+      "last_success_at": "2026-11-17T10:50:11Z",
       "state": "ok",
       "lookback_days": 60,
-      "newly_added": 0,
-      "fetched": 103,
+      "newly_added": 3,
+      "fetched": 106,
       "latest_publication_date": "2026-12-01",
       "sources": [
         {
           "name": "Crossref",
           "state": "ok",
-          "records": 99
+          "records": 101
         },
         {
           "name": "PubMed",
           "state": "ok",
-          "records": 90
+          "records": 91
         }
       ]
     }

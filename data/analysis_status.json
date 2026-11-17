@@ -1,18 +1,14 @@
 {
-  "checked_at": "2026-11-16T09:54:49Z",
+  "checked_at": "2026-11-17T10:52:48Z",
   "provider": "deepseek",
   "model": "deepseek-flash",
-  "pending": 2787,
+  "pending": 2790,
   "attempted": 6,
-  "updated": 4,
-  "failed": 2,
+  "updated": 5,
+  "failed": 1,
   "failures": [
     {
       "doi": "10.1121/10.0047456",
-      "reason": "Evidence is not an exact abstract quote"
-    },
-    {
-      "doi": "10.1121/10.0047254",
       "reason": "Evidence is not an exact abstract quote"
     }
   ],
