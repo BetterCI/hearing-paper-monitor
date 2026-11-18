@@ -1,6 +1,29 @@
 {
-  "generated_at": "2026-11-17T10:51:24Z",
+  "generated_at": "2026-11-18T10:17:44Z",
   "papers": [
+    {
+      "title": "A state-of-the-art review of biosensor-based markers for tinnitus",
+      "authors": [
+        "Ke Mao",
+        "Grant D Searchfield",
+        "Frederick Sundram"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2027-01-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109847",
+      "url": "https://doi.org/10.1016/j.heares.2026.109847",
+      "abstract": null,
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "clinical audiology"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-11-05",
+      "first_seen_at": "2026-11-05T09:36:38Z"
+    },
     {
       "title": "A binaural loudness model for evaluating round-window stimulation based on a physiological peripheral auditory front-end module",
       "authors": [
@@ -1163,17 +1186,6 @@
       "doi": "10.1097/aud.0000000000001912",
       "url": "https://doi.org/10.1097/aud.0000000000001912",
       "abstract": "Objectives: The purpose of this study was to investigate the role of executive functioning in speech-in-noise perception, evaluate the efficacy of targeted auditory training in enhancing speech perception, and identify predictors of listening-related fatigue in typically developing children. The study addressed three questions: (1) To what extent do executive functioning skills predict children’s speech perception accuracy in noise? (2) Does auditory cognitive training improve children’s speech perception in noisy environments? (3) What is the relationship between executive functioning and listening-related fatigue in children? Design: Eighty typically developing children aged 5 to 11 years underwent pre- and post-assessments of working memory, inhibitory control, cognitive flexibility, and speech perception in noise. Participants were randomly assigned to either the targeted auditory training group or a business-as-usual control group, with trained children assigned to 24 sessions spread over 6 weeks. Linear mixed-effects models were used to examine the effects of group, time, and their interaction on executive functioning measures and speech perception accuracy. Pearson correlations were used to examine the relationship between individual differences in executive functioning and speech perception performance, as well as listening-related fatigue. Results: Significant improvements in inhibitory control and cognitive flexibility were observed from pre- to post-test across both groups, but no significant group differences emerged, as these changes were not specific to the training condition. Higher inhibitory control was significantly associated with better speech perception in noise in a co-located listening condition, whereas age was the primary predictor in the spatially separated condition. No significant training effects were observed for speech perception in noise measures. In an exploratory analysis, listening-related fatigue was negatively associated with working memory capacity, though this finding should be interpreted with caution given that most children fell within the low-fatigue range and fatigue was assessed only at post-test. Conclusions: The findings from this study suggest that while executive functioning skills, particularly inhibitory control, play a role in predicting speech perception accuracy in noise for typically developing children, targeted auditory training as implemented in this study did not yield significant improvements. The absence of fidelity data limits the interpretation of the null training effects, and future work should systematically measure training compliance to better understand when and for whom auditory training may be effective. The relationship between working memory and listening fatigue further highlights the importance of cognitive resources for children’s listening experiences in classroom settings.",
-      "first_author_affiliation": "Department of Speech and Hearing Sciences, University of Washington, Seattle, Washington, USA",
-      "last_author_affiliation": "Department of Speech and Hearing Sciences, University of Washington, Seattle, Washington, USA",
-      "publication_stage": "early_access",
-      "section": "Speech Communication",
-      "keywords": [],
-      "tags": [
-        "speech perception"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-11-17",
-      "first_seen_at": "2026-11-17T10:49:58Z",
       "ai_analysis": {
         "scientific_question": "执行功能在典型发育儿童的噪声下言语感知中起何作用，针对性听觉训练能否改善噪声下言语感知，以及哪些因素预测听相关疲劳？",
         "key_highlight": "研究发现抑制控制与共位条件下的噪声下言语感知相关，但针对性听觉训练未显著改善噪声下言语感知。",
@@ -1189,7 +1201,25 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "5c8564b724f79979",
         "updated_at": "2026-11-17T10:52:50Z"
-      }
+      },
+      "first_author_affiliation": "Department of Speech and Hearing Sciences, University of Washington, Seattle, Washington, USA",
+      "last_author_affiliation": "Department of Speech and Hearing Sciences, University of Washington, Seattle, Washington, USA",
+      "publication_stage": "early_access",
+      "section": "Speech Communication",
+      "keywords": [
+        "Auditory training",
+        "Children",
+        "Classroom noise",
+        "Executive functioning",
+        "Listening fatigue",
+        "Speech perception"
+      ],
+      "tags": [
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-17",
+      "first_seen_at": "2026-11-17T10:49:58Z"
     },
     {
       "title": "An active sonar coherent integration method for strong and weak multi-target detection",
@@ -1206,14 +1236,6 @@
       "doi": "10.1121/10.0047521",
       "url": "https://doi.org/10.1121/10.0047521",
       "abstract": "When multi-pulse coherent integration is used to improve the signal-to-noise ratio of underwater weak targets, it is difficult for multiple targets with different strengths to be coherently integrated at the same time. When the strength difference between targets is large, the coherent integration sidelobes of strong targets hide the coherent integration peaks of weak targets, which degrades weak target detection performance. To solve this problem, this study proposes an active sonar coherent integration method for detecting strong and weak multi-targets. The frequency-domain radon Fourier transform is proposed to correct the range migration of strong targets, and an adaptive notch filter is introduced in the spatial Doppler frequency shift domain to suppress strong target energy. Subsequently, the phase differences of the remaining weak target between pulses are compensated and coherent integration is completed, thereby effectively improving weak target signal-to-noise ratio. Parameter analysis and performance comparisons are conducted to evaluate the proposed method, and its effectiveness is verified through simulations and lake experiments. The results show that the strong target suppression capability of the proposed method is more than 3 dB higher than that of the traditional CLEAN method, and that the proposed method provides superior weak target detection performance.",
-      "first_author_affiliation": "State Key Laboratory of Acoustics and Marine Information, Institute of Acoustics, Chinese Academy of Sciences 1 , Beijing 100190,",
-      "last_author_affiliation": "State Key Laboratory of Acoustics and Marine Information, Institute of Acoustics, Chinese Academy of Sciences 1 , Beijing 100190,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-11-16",
-      "first_seen_at": "2026-11-17T10:49:14Z",
       "ai_analysis": {
         "scientific_question": "在主动声呐多脉冲相干积累中，如何同时检测强度差异较大的多个目标，并避免强目标的相干积累旁瓣掩盖弱目标的相干积累峰？",
         "key_highlight": "该研究提出频域Radon傅里叶变换校正强目标距离徙动，并在空间多普勒频移域引入自适应陷波滤波器抑制强目标能量，随后补偿弱目标脉冲间相位差以完成相干积累。",
@@ -1229,7 +1251,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "6a81ca67bf9039bd",
         "updated_at": "2026-11-17T10:52:56Z"
-      }
+      },
+      "first_author_affiliation": "State Key Laboratory of Acoustics and Marine Information, Institute of Acoustics, Chinese Academy of Sciences 1 , Beijing 100190,",
+      "last_author_affiliation": "State Key Laboratory of Acoustics and Marine Information, Institute of Acoustics, Chinese Academy of Sciences 1 , Beijing 100190,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-16",
+      "first_seen_at": "2026-11-17T10:49:14Z"
     },
     {
       "title": "Domain-decoupled physics-informed neural networks for inverse material property estimation from acoustic fields",
@@ -1243,24 +1273,8 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0047523",
       "url": "https://doi.org/10.1121/10.0047523",
-      "abstract": "Estimating material properties like Young's modulus and internal damping from radiated acoustic fields is challenging under sparse, noisy measurement conditions. This work employs sequential physics-informed neural networks with Fourier features to estimate these material properties for a vibrating plate. The inverse problem is solved by decoupling fluid and structural domains to effectively filter boundary differentiation and data noise. Multi-frequency statistical ensembles are introduced to quantify the uncertainty coming from neural network initialization robustness and learning biases. Following a validation of the method in a proof of concept on vast, low-noise data conditions, its limits under sparse, noisy data are demonstrated.",
-      "first_author_affiliation": "Fachgebiet Systemzuverlässigkeit, Adaptronik und Maschinenakustik, Technische Universität Darmstadt , Darmstadt, Hessen 64287,",
-      "last_author_affiliation": "Fachgebiet Systemzuverlässigkeit, Adaptronik und Maschinenakustik, Technische Universität Darmstadt , Darmstadt, Hessen 64287,",
-      "open_access": true,
-      "open_access_url": "https://doi.org/10.1121/10.0047523",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "machine learning"
-      ],
-      "source": "crossref",
-      "available_online_date": "2026-11-16",
-      "first_seen_at": "2026-11-17T10:49:24Z",
       "full_text_url": "https://pubs.aip.org/jel/article/6/11/112401/3408785/Domain-decoupled-physics-informed-neural-networks",
-      "media_checked_at": "2026-11-17T10:51:32Z",
-      "open_access_image_checked_at": "2026-11-17T10:51:32Z",
+      "abstract": "Estimating material properties like Young's modulus and internal damping from radiated acoustic fields is challenging under sparse, noisy measurement conditions. This work employs sequential physics-informed neural networks with Fourier features to estimate these material properties for a vibrating plate. The inverse problem is solved by decoupling fluid and structural domains to effectively filter boundary differentiation and data noise. Multi-frequency statistical ensembles are introduced to quantify the uncertainty coming from neural network initialization robustness and learning biases. Following a validation of the method in a proof of concept on vast, low-noise data conditions, its limits under sparse, noisy data are demonstrated.",
       "ai_analysis": {
         "scientific_question": "能否利用顺序物理信息神经网络与傅里叶特征，从振动板的辐射声场中反演杨氏模量和内阻尼等材料属性？",
         "key_highlight": "该方法通过解耦流体域与结构域来抑制边界微分和数据噪声，并引入多频统计集成以量化由神经网络初始化稳健性和学习偏差带来的不确定性。",
@@ -1276,7 +1290,23 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "d885ce4456ec22e8",
         "updated_at": "2026-11-17T10:52:54Z"
-      }
+      },
+      "first_author_affiliation": "Fachgebiet Systemzuverlässigkeit, Adaptronik und Maschinenakustik, Technische Universität Darmstadt , Darmstadt, Hessen 64287,",
+      "last_author_affiliation": "Fachgebiet Systemzuverlässigkeit, Adaptronik und Maschinenakustik, Technische Universität Darmstadt , Darmstadt, Hessen 64287,",
+      "open_access": true,
+      "open_access_url": "https://doi.org/10.1121/10.0047523",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-11-17T10:51:32Z",
+      "media_checked_at": "2026-11-17T10:51:32Z",
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "machine learning"
+      ],
+      "source": "crossref",
+      "available_online_date": "2026-11-16",
+      "first_seen_at": "2026-11-17T10:49:24Z"
     },
     {
       "title": "Immature Valence Recognition of Emotional Speech in Cochlear Implant Users: Evidence From Event-Related Potentials and Neural Oscillations",
@@ -1295,6 +1325,22 @@
       "doi": "10.1097/aud.0000000000001914",
       "url": "https://doi.org/10.1097/aud.0000000000001914",
       "abstract": "Objectives: Rapid emotional perception in speech is crucial to efficient social communication. Cochlear implant (CI) users, constrained by device limitations in transmitting spectro-temporal detail, rely more on semantic than prosodic cues for emotional processing of spoken language. This study investigated whether CI users can rapidly recognize emotional valence based on semantic cues before full semantic comprehension when prosodic information is minimized. Design: Chinese monosyllables with negative or positive valence were presented with neutral prosody using an oddball paradigm. Event-related potentials and neural oscillations were recorded in CI users and normal-hearing (NH) listeners. Results: Emotional syllables evoked an N400, indicative of semantic processing, in NH listeners. Crucially, NH listeners showed an earlier mismatch negativity (MMN) for negative syllable deviants, reflecting rapid categorical perception of emotional valence. However, the N400 for positive deviants and the MMN were absent in CI users. Furthermore, compared with NH listeners, CI users showed weaker theta-band and alpha-band event-related spectral perturbations (ERSPs) and inter-trial coherences and a greater beta-band ERSP. A lower beta-band ERSP was correlated with greater N400 and late negative component in NH listeners. Personality scores for extraversion and agreeableness correlated with the amplitudes of the MMN and N400 components, respectively. Conclusions: The findings portray the dynamics of emotional speech processing and demonstrate that rapid recognition of emotional valence expressed by lexical meaning occurs before complete semantic processing in the NH brain. Theta activity may be associated with early emotional valence recognition, and beta activity corresponds to higher-level semantic and emotional processing. However, these two processes are immature in CI users, as evidenced by absent event-related potentials and altered neural oscillations. Personality traits may modulate emotional sensitivity, further affecting the efficiency of emotional speech processing.",
+      "ai_analysis": {
+        "scientific_question": "在韵律信息被最小化时，人工耳蜗使用者能否基于语义线索在完整语义理解之前快速识别语音的情绪效价？",
+        "key_highlight": "正常听力者对负性音节偏差出现更早的MMN并诱发了N400，而人工耳蜗使用者缺失MMN和正性偏差的N400，且theta、alpha频段ERSP与试次间一致性更弱、beta频段ERSP更强。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "结果提示人工耳蜗使用者的早期情绪效价识别与较高级语义情绪加工可能尚不成熟，但这属于作者基于ERP与振荡指标的推断，尚需进一步研究验证。",
+        "evidence": [
+          "However, the N400 for positive deviants and the MMN were absent in CI users.",
+          "these two processes are immature in CI users, as evidenced by absent event-related potentials and altered neural oscillations."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "c44efd929324662d",
+        "updated_at": "2026-11-17T10:52:52Z"
+      },
       "first_author_affiliation": "Department of Otolaryngology-Head and Neck Surgery, The First Affiliated Hospital of USTC, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, Anhui, China.",
       "last_author_affiliation": "Department of Otolaryngology-Head and Neck Surgery, The First Affiliated Hospital of USTC, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, Anhui, China.",
       "publication_stage": "early_access",
@@ -1314,23 +1360,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-16",
-      "first_seen_at": "2026-11-17T10:49:58Z",
-      "ai_analysis": {
-        "scientific_question": "在韵律信息被最小化时，人工耳蜗使用者能否基于语义线索在完整语义理解之前快速识别语音的情绪效价？",
-        "key_highlight": "正常听力者对负性音节偏差出现更早的MMN并诱发了N400，而人工耳蜗使用者缺失MMN和正性偏差的N400，且theta、alpha频段ERSP与试次间一致性更弱、beta频段ERSP更强。",
-        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
-        "research_implication": "结果提示人工耳蜗使用者的早期情绪效价识别与较高级语义情绪加工可能尚不成熟，但这属于作者基于ERP与振荡指标的推断，尚需进一步研究验证。",
-        "evidence": [
-          "However, the N400 for positive deviants and the MMN were absent in CI users.",
-          "these two processes are immature in CI users, as evidenced by absent event-related potentials and altered neural oscillations."
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "c44efd929324662d",
-        "updated_at": "2026-11-17T10:52:52Z"
-      }
+      "first_seen_at": "2026-11-17T10:49:58Z"
     },
     {
       "title": "Time-domain Helmholtz equation least squares method for reconstructing transient acoustic fields",
@@ -1346,14 +1376,6 @@
       "doi": "10.1121/10.0047540",
       "url": "https://doi.org/10.1121/10.0047540",
       "abstract": "This paper presents a time-domain Helmholtz least squares (HELS) method for reconstructing non-stationary sound pressure fields and particle velocity fields. Unlike conventional frequency-domain approaches, the proposed method derives explicit time-domain mode functions via the inverse Laplace transform, establishing a transfer matrix with a strict block–lower-triangular Toeplitz structure. A unified analytical framework is developed to reconstruct particle velocity by directly integrating the spatial derivatives of the pressure mode functions, enabling the simultaneous recovery of pressure and velocity using the same set of time-evolution coefficients without additional deconvolution operations. Numerical simulations involving an impulsively accelerated sphere and a cube box with three monopole sources, together with a steel-plate impact experiment, are conducted to validate the proposed method. The results indicate that the proposed method can effectively reconstruct the main features of transient sound pressure fields and provide a reasonable estimation of particle velocity fields in transient radiation problems.",
-      "first_author_affiliation": "Institute of Sound and Vibration Research, Hefei University of Technology , 193 Tunxi Road, Hefei 230009,",
-      "last_author_affiliation": "Institute of Sound and Vibration Research, Hefei University of Technology , 193 Tunxi Road, Hefei 230009,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-11-16",
-      "first_seen_at": "2026-11-17T10:49:14Z",
       "ai_analysis": {
         "scientific_question": "如何用时域Helmholtz最小二乘法重建非平稳声压场与质点速度场？",
         "key_highlight": "该方法通过逆拉普拉斯变换导出显式时域模态函数，并利用同一组时间演化系数同时重建声压与质点速度，无需额外反卷积。",
@@ -1369,7 +1391,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "8a18f3d785a6d8dc",
         "updated_at": "2026-11-17T10:52:58Z"
-      }
+      },
+      "first_author_affiliation": "Institute of Sound and Vibration Research, Hefei University of Technology , 193 Tunxi Road, Hefei 230009,",
+      "last_author_affiliation": "Institute of Sound and Vibration Research, Hefei University of Technology , 193 Tunxi Road, Hefei 230009,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-16",
+      "first_seen_at": "2026-11-17T10:49:14Z"
     },
     {
       "title": "An Interpretable Acoustic Coordinate System for Japanese Consonant Morae in Dysarthric Speech",
@@ -3124,7 +3154,23 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-06",
-      "first_seen_at": "2026-11-06T09:29:35Z"
+      "first_seen_at": "2026-11-06T09:29:35Z",
+      "ai_analysis": {
+        "scientific_question": "在人类颞骨标本中，将人工耳蜗电极阵列作为声机械刺激器时，其振动能否产生与声刺激相当的内耳输出水平？",
+        "key_highlight": "在1 µm电极位移下，振动的人工耳蜗电极在低频（125–500 Hz）平均产生108 eq. dB SPL的输出，1 kHz以上输出随频率约每倍频程增加10 dB，可达103–139 eq. dB SPL。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该结果提示振动电极可能提供与EAS所需输出水平相近的刺激，但摘要中的可行性结论仍需进一步研究验证。",
+        "evidence": [
+          "The vibrating CI produced an average equivalent output level of 108 eq. dB SPL (LDisp) at low frequencies (125 - 500 Hz) for a 1 µm electrode displacement of the CI.",
+          "The findings indicate that a 1 µm vibration of a CI electrode can provide an average output of ∼110 eq. dB SPL, potentially compatible with the output required for EAS."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "c6cccae0c558e2de",
+        "updated_at": "2026-11-18T10:19:36Z"
+      }
     },
     {
       "title": "Personalized Hearing Loss Compensation for the Next Generation Hearables and Hearing Aids",
@@ -3580,7 +3626,23 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-04",
-      "first_seen_at": "2026-11-04T09:26:26Z"
+      "first_seen_at": "2026-11-04T09:26:26Z",
+      "ai_analysis": {
+        "scientific_question": "创伤后声环境是否会影响耳鸣易感性及听觉恢复，从而可能作为降低耳鸣风险的干预策略？",
+        "key_highlight": "综述动物研究显示，创伤后声学丰富化可减轻外周听力损伤、限制中枢重组并改善与耳鸣相关的行为指标，但其直接预防耳鸣的证据仍有限。",
+        "main_limitation": "摘要明确指出，直接预防耳鸣的证据有限，因为较少研究实际测量耳鸣本身，而非神经或行为相关指标。",
+        "research_implication": "这些发现提示早期声学丰富化是降低创伤后耳鸣风险的潜在但研究不足的策略，未来需明确其机制、时间窗和最佳刺激参数；这属于可能的应用含义，而非已证实的因果结论。",
+        "evidence": [
+          "However, direct evidence for tinnitus prevention remains limited, because relatively few studies have measured tinnitus itself rather than neural or behavioral correlates.",
+          "post-trauma acoustic enrichment has been shown to reduce outer hair cell loss and hearing threshold shifts, limit tonotopic map reorganization, normalize excitation-inhibition balance"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "10fa369829460d8c",
+        "updated_at": "2026-11-18T10:19:47Z"
+      }
     },
     {
       "title": "Understanding Cultural Variations in Stigma Related to Hearing Health",
@@ -4063,6 +4125,38 @@
       "tags": [],
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-02",
+      "first_seen_at": "2026-11-03T09:40:40Z",
+      "ai_analysis": {
+        "scientific_question": "在海底分布式声学传感（DAS）阵列中引入环形结构，能否提高对中频（0.5–2.5 kHz）鲸类发声的探测能力？",
+        "key_highlight": "在环形段中，DAS记录到最高达2.5 kHz奈奎斯特频率的信号，而直线段仅约500 Hz，并成功记录了南方居留型虎鲸、Bigg's虎鲸和座头鲸的中频发声。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "结果表明，环形DAS阵列可补充现有水听器网络，或在难以布设大型水听器阵列时作为独立工具使用，但此为作者提出的可能用途，而非已验证的结论。",
+        "evidence": [
+          "recorded signals up to the Nyquist frequency of 2.5 kHz in looped sections, compared to approximately 500 Hz in straight sections",
+          "stacking channels within loops improved the signal-to-noise ratio by approximately 8 dB on average"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "c4bc07f185dc46eb",
+        "updated_at": "2026-11-18T10:19:57Z"
+      }
+    },
+    {
+      "title": "EDITORIAL BOARD",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0047228",
+      "url": "https://doi.org/10.1121/10.0047228",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-11-02",
       "first_seen_at": "2026-11-03T09:40:40Z"
     },
     {
@@ -4080,22 +4174,6 @@
       "source": "crossref",
       "available_online_date": "2026-11-02",
       "first_seen_at": "2026-11-03T09:40:50Z"
-    },
-    {
-      "title": "EDITORIAL BOARD",
-      "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-11-02",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0047228",
-      "url": "https://doi.org/10.1121/10.0047228",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-11-02",
-      "first_seen_at": "2026-11-03T09:40:40Z"
     },
     {
       "title": "Effects of vocal fold vibration on the turbulent sound generation in voiced sibilant fricatives",
@@ -4584,27 +4662,6 @@
       "tags": [],
       "source": "crossref",
       "first_seen_at": "2026-11-14T09:04:54Z"
-    },
-    {
-      "title": "A state-of-the-Art Review of Biosensor-Based Markers for Tinnitus",
-      "authors": [
-        "Mao Ke",
-        "Grant D Searchfield",
-        "Frederick Sundram"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-11-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109847",
-      "url": "https://doi.org/10.1016/j.heares.2026.109847",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "clinical audiology"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-11-05T09:36:38Z"
     },
     {
       "title": "Acoustic and Attentional Challenges Shape the Balance Between Attended and Competing Speech Tracking Differently",
@@ -12133,6 +12190,21 @@
     {
       "title": "Editorial Board",
       "authors": [],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00266-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-02T07:09:02Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-10-01",
       "publication_date_precision": "day",
@@ -12145,21 +12217,6 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00266-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Effective model of fiber Bragg gratings for simulation of ultrasonic guided wave measurements using spectral finite elements",
@@ -15046,22 +15103,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046572",
-      "url": "https://doi.org/10.1121/10.0046572",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:56Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -15074,6 +15115,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:59Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046572",
+      "url": "https://doi.org/10.1121/10.0046572",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:56Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -25150,22 +25207,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -25178,6 +25219,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -54049,18 +54106,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -54081,17 +54137,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -63071,22 +63128,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -63099,6 +63140,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -70201,23 +70258,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -70231,6 +70271,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -73782,8 +73839,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -73797,8 +73854,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -79677,8 +79734,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -79692,8 +79749,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
