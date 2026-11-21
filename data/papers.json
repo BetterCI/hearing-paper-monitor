@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T10:08:07Z",
+  "generated_at": "2026-11-21T09:56:18Z",
   "papers": [
     {
       "title": "A binaural loudness model for evaluating round-window stimulation based on a physiological peripheral auditory front-end module",
@@ -1211,6 +1211,86 @@
       "first_seen_at": "2026-11-19T10:28:25Z"
     },
     {
+      "title": "Difference frequencies produced by interaction between vocal folds and ventricular folds",
+      "authors": [
+        "Ingo R. Titze",
+        "Lynn M. Maxfield"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-11-20",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0047488",
+      "url": "https://doi.org/10.1121/10.0047488",
+      "abstract": "This study investigated difference-frequency production between the vocal folds and the ventricular (false) folds. The hypothesis was that the two pairs of folds interact as coupled oscillators with observable bifurcations as energy is exchanged between them. The control variables were the relative adductions between the two pairs of folds. The methodology was primarily computational, based on a simplified Navier-Stokes solution of convective and compressible airflow in a variable-geometry airway. A three-dimensional fiber-gel construct represented the vocal fold tissue while the ventricular folds were represented with a two-mass model. Left-right symmetry was applied to both. The two sources both produced flow-induced self-oscillation and could act as a primary periodic source. However, when the adductions were similar, difference frequencies and other bifurcations were produced.",
+      "first_author_affiliation": "Utah Center for Vocology, University of Utah 1 , Salt Lake City, Utah 84112,",
+      "last_author_affiliation": "Utah Center for Vocology, University of Utah 1 , Salt Lake City, Utah 84112,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-20",
+      "first_seen_at": "2026-11-21T09:55:47Z",
+      "ai_analysis": {
+        "scientific_question": "声带与室带（假声带）相互作用时是否会产生差频，以及这种相互作用是否符合耦合振子模型？",
+        "key_highlight": "计算结果表明，当两对皱襞的内收程度相近时，会产生差频及其他分岔现象。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该结果提示声带与室带可能以耦合振子方式相互作用，但这一含义仍需进一步验证，不能据此推断与助听设备的关联。",
+        "evidence": [
+          "The hypothesis was that the two pairs of folds interact as coupled oscillators with observable bifurcations as energy is exchanged between them.",
+          "However, when the adductions were similar, difference frequencies and other bifurcations were produced."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "cdfa77bd22986c57",
+        "updated_at": "2026-11-21T09:59:40Z"
+      }
+    },
+    {
+      "title": "Spectral sparsity enables discrimination of complex-tone triads in cochlear implant listeners",
+      "authors": [
+        "Marie-Luise Augsten",
+        "Martin J. Lindenbeck",
+        "Bernhard Laback"
+      ],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-11-20",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0047516",
+      "url": "https://doi.org/10.1121/10.0047516",
+      "abstract": "Cochlear implant (CI) users experience difficulties perceiving musical harmony due to restricted spectro-temporal resolution at the electrode-nerve interface, resulting in limited pitch perception. In a feasibility study, we investigated how stimulus parameters affect discrimination of complex-tone triads (three-voice chords), aiming to identify conditions that maximize perceptual sensitivity. Six post-lingually deafened adult MED-EL users with the FS4 stimulation strategy completed a same/different task using harmonic complex tones. We manipulated spectral complexity (three, five, or nine components per voice), which voice(s) contained a semitone pitch change (low voice, high voice, or both), and temporal synchrony (simultaneous vs sequential triad presentation). When spectral complexity was reduced to three components per voice, CI listeners were able to discriminate pitch changes within triads. Sensitivity depended on which voice contained the pitch change: listeners detected changes in the high voice (for three-component triads) or in both high and low voices (for both three- and five-component triads) better than low-voice changes. Contrary to expectations, sequential presentation did not improve discrimination. Analysis of processor pulse patterns suggests that difference-frequency cues encoded in the temporal envelope may underlie triad discrimination. These findings support reducing spectral complexity to enhance chord discrimination for CI users.",
+      "first_author_affiliation": "Acoustics Research Institute, Austrian Academy of Sciences , Dominikanerbastei 16, 1010 Vienna,",
+      "last_author_affiliation": "Acoustics Research Institute, Austrian Academy of Sciences , Dominikanerbastei 16, 1010 Vienna,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "cochlear implant",
+        "priority section",
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-20",
+      "first_seen_at": "2026-11-21T09:55:47Z",
+      "ai_analysis": {
+        "scientific_question": "在人工耳蜗使用者中，刺激参数（频谱复杂度、变调声部、时间同步性）如何影响复杂音三和弦的辨别能力？",
+        "key_highlight": "将每个声部的频谱复杂度降至三个成分时，人工耳蜗使用者能够辨别三和弦内的音高变化，且对高声部或高低两个声部的变化辨别优于低声部变化。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "结果提示降低频谱复杂度可能有助于改善人工耳蜗使用者的和弦辨别，但摘要所述为可行性研究，尚需进一步验证。",
+        "evidence": [
+          "When spectral complexity was reduced to three components per voice, CI listeners were able to discriminate pitch changes within triads.",
+          "Contrary to expectations, sequential presentation did not improve discrimination."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "18e9838a636e0f90",
+        "updated_at": "2026-11-21T09:59:42Z"
+      }
+    },
+    {
       "title": "Auditory Spatial Mapping in the Horizontal Plane Using Response Interfaces With Different Curvatures",
       "authors": [
         "Matthew J. Goupell",
@@ -1224,27 +1304,8 @@
       "publication_date_precision": "day",
       "doi": "10.1177/23312165261499837",
       "url": "https://doi.org/10.1177/23312165261499837",
-      "abstract": "Humans with normal hearing typically perceive physical sound sources as externalized (i.e., outside the head). In controlled spatial-hearing experiments that focus on the horizontal plane, such as headphone-based studies in a sound booth, sounds can be perceived as internalized (i.e., inside the head). Accordingly, spatial-hearing experiments often use response interfaces that reflect these assumed percepts: curved for free-field localization (assumed externalization) and linear for lateralization (assumed internalization). In addition, lateralization experiments typically show compressive response patterns for large interaural differences. However, it is unknown whether this compression reflects differences in the response interfaces or presentation modes (i.e., stimuli and perception of them). In Experiment 1, normal-hearing listeners were presented stimuli over loudspeakers or circumaural open-back headphones (virtual acoustic space from non-individualized head-related transfer functions, HRTFs). They responded using either a curved response interface (an 180° arc) or a linear response interface (a one-dimensional bar across the head). Responses were unaffected by the response method and instead were predicted by the stimulus presentation mode, with response compression at large angles for non-HRTF-individualized stimuli. In Experiment 2, the response method was a two-dimensional overhead interface that allowed responses for both angle and distance. Responses closer to the head (i.e., reduced distance or externalization) were associated with greater response compression. Together, the stimuli, rather than the response interface, primarily dictate localization and lateralization response patterns in the horizontal plane. There appears to be straightforward transformation of lateralization responses obtained with linear interfaces to horizontal-plane localization responses obtained with curved interfaces.",
-      "first_author_affiliation": "University of Maryland",
-      "last_author_affiliation": "University of Maryland",
-      "open_access": true,
-      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261499837",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Binaural hearing",
-        "lateralization",
-        "sound localization",
-        "spatial perception"
-      ],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-11-19",
-      "first_seen_at": "2026-11-20T10:07:38Z",
       "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261499837",
-      "media_checked_at": "2026-11-20T10:09:07Z",
-      "open_access_image_checked_at": "2026-11-20T10:09:07Z",
+      "abstract": "Humans with normal hearing typically perceive physical sound sources as externalized (i.e., outside the head). In controlled spatial-hearing experiments that focus on the horizontal plane, such as headphone-based studies in a sound booth, sounds can be perceived as internalized (i.e., inside the head). Accordingly, spatial-hearing experiments often use response interfaces that reflect these assumed percepts: curved for free-field localization (assumed externalization) and linear for lateralization (assumed internalization). In addition, lateralization experiments typically show compressive response patterns for large interaural differences. However, it is unknown whether this compression reflects differences in the response interfaces or presentation modes (i.e., stimuli and perception of them). In Experiment 1, normal-hearing listeners were presented stimuli over loudspeakers or circumaural open-back headphones (virtual acoustic space from non-individualized head-related transfer functions, HRTFs). They responded using either a curved response interface (an 180° arc) or a linear response interface (a one-dimensional bar across the head). Responses were unaffected by the response method and instead were predicted by the stimulus presentation mode, with response compression at large angles for non-HRTF-individualized stimuli. In Experiment 2, the response method was a two-dimensional overhead interface that allowed responses for both angle and distance. Responses closer to the head (i.e., reduced distance or externalization) were associated with greater response compression. Together, the stimuli, rather than the response interface, primarily dictate localization and lateralization response patterns in the horizontal plane. There appears to be straightforward transformation of lateralization responses obtained with linear interfaces to horizontal-plane localization responses obtained with curved interfaces.",
       "ai_analysis": {
         "scientific_question": "在水平面空间听觉实验中，响应压缩究竟源于响应界面的曲率差异，还是源于刺激呈现方式（刺激及其感知）的差异？",
         "key_highlight": "实验表明响应模式主要由刺激呈现方式决定，而非响应界面；非个体化HRTF刺激在大角度处出现响应压缩，且响应越接近头部（距离减小或外化减弱）压缩越明显。",
@@ -1260,7 +1321,26 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "82122b472a248fa7",
         "updated_at": "2026-11-20T10:09:24Z"
-      }
+      },
+      "first_author_affiliation": "University of Maryland",
+      "last_author_affiliation": "University of Maryland",
+      "open_access": true,
+      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261499837",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "open_access_image_checked_at": "2026-11-20T10:09:07Z",
+      "media_checked_at": "2026-11-20T10:09:07Z",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Binaural hearing",
+        "lateralization",
+        "sound localization",
+        "spatial perception"
+      ],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-19",
+      "first_seen_at": "2026-11-20T10:07:38Z"
     },
     {
       "title": "Auditory Symptom Severity: Contributions of Noise Exposure Symptoms and Blast History in Normal-Hearing Service Members",
@@ -1276,22 +1356,6 @@
       "doi": "10.1097/aud.0000000000001916",
       "url": "https://doi.org/10.1097/aud.0000000000001916",
       "abstract": "Objectives: Individuals with and without audiometric hearing loss may experience subjective hearing difficulties and/or other audiologic/otologic symptoms. Growing evidence indicates that histories of blast exposure and of experiencing temporary threshold shift (TTS) symptoms following noise exposure are associated with the likelihood of reporting hearing difficulties. The objective of this study was to examine auditory symptom severity using the Acute Auditory Changes Questionnaire (AACQ) among service members with varying degrees of hearing sensitivity and, among those with normal hearing, varying histories of blast exposure and/or TTS symptoms. Design: AACQ results were examined in several analyses. First, cumulative distribution functions were calculated for 17,200 service members (aged 18 to 73 years) grouped by Army hearing profile and for 7695 of the service members with audiometric thresholds ≤20 dB HL (aged 18 to 68 years) grouped based on histories of blast exposure and TTS symptoms. Cutoff values were selected to be the 95th percentile on each of the scales and were calculated for each group to establish a normative range. Regression and cluster analyses were then conducted to determine factors increasing the probability of an abnormal value and to identify response patterns among participants. Results: AACQ symptoms were sensitive to both hearing profile and exposure history. Among those with normal hearing, more individuals reported worse problems in groups that had histories of blast exposure and/or TTS symptoms as compared with those without these histories. Overall, increased age, poorer hearing thresholds, and a self-reported history of experiencing TTS symptoms after noise exposure increased the likelihood of reporting an AACQ score worse than the cutoff. Blast exposure also resulted in worse AACQ scores, but only in individuals who also reported a history of TTS symptoms. Three clusters were identified among participants, including (a) “Worse thresholds; more symptoms”: those with elevated hearing thresholds and a range of abnormal symptoms, (b) “Better thresholds; more symptoms”: those who had primarily had abnormal AACQ values despite having relatively better pure-tone thresholds; and (c) “Better thresholds; fewer symptoms”: those who reported very limited abnormal AACQ scores and, for the most part, did not have elevated pure-tone thresholds. Detailed descriptions of these clusters are presented in the manuscript. Conclusions: These findings support and expand prior findings of increased risk for subjective hearing difficulties among adults who have been exposed to blast and noise. The substantial impact of experiencing TTS symptoms following even a single noise exposure may provide some insight into the mechanisms underlying variability in subjective difficulties among individuals with normal hearing thresholds. The 95th percentile values for the normal-hearing group with no history of blast exposure or TTS symptoms are presented as normative cutoff values for the AACQ, which could be used to identify individuals with significant auditory symptoms warranting further investigation. The clusters described herein may inform future study of risk factors for auditory complaint and intervention strategies for patients who present with abnormal scores on the AACQ.",
-      "first_author_affiliation": "National Military Audiology and Speech Pathology Center, Walter Reed National Military Medical Center, Bethesda, Maryland, USA",
-      "last_author_affiliation": "National Military Audiology and Speech Pathology Center, Walter Reed National Military Medical Center, Bethesda, Maryland, USA",
-      "publication_stage": "early_access",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Blast exposure",
-        "Hearing difficulty",
-        "Questionnaire",
-        "Temporary threshold shift"
-      ],
-      "tags": [
-        "clinical audiology"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-11-19",
-      "first_seen_at": "2026-11-20T10:07:46Z",
       "ai_analysis": {
         "scientific_question": "在听敏度不同的服役人员中，尤其是听力正常者中，爆炸暴露史和噪声暴露后暂时性阈移（TTS）症状史与急性听觉变化问卷（AACQ）所测听觉症状严重程度有何关联？",
         "key_highlight": "听力正常者中，有爆炸暴露史和/或TTS症状史者报告更差AACQ问题的比例更高；爆炸暴露仅在同时报告TTS症状史者中与更差AACQ评分相关。",
@@ -1307,7 +1371,23 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "264d87456705a088",
         "updated_at": "2026-11-20T10:09:22Z"
-      }
+      },
+      "first_author_affiliation": "National Military Audiology and Speech Pathology Center, Walter Reed National Military Medical Center, Bethesda, Maryland, USA",
+      "last_author_affiliation": "National Military Audiology and Speech Pathology Center, Walter Reed National Military Medical Center, Bethesda, Maryland, USA",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Blast exposure",
+        "Hearing difficulty",
+        "Questionnaire",
+        "Temporary threshold shift"
+      ],
+      "tags": [
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-19",
+      "first_seen_at": "2026-11-20T10:07:46Z"
     },
     {
       "title": "Deep-learning-based underwater target recognition: A multi-cycle range–bearing image fusion approach",
@@ -1325,14 +1405,6 @@
       "doi": "10.1121/10.0046852",
       "url": "https://doi.org/10.1121/10.0046852",
       "abstract": "We propose a multi-cycle range–bearing image-fusion-based deep-learning framework for underwater target recognition. Within this framework, two multi-cycle image construction strategies are developed: multi-cycle temporal accumulation (MCTA) and multi-cycle spatial concatenation (MCSC), which jointly encode traditional target characteristics, including intensity, spatial scale, and motion-related information. Their recognition performance was systematically evaluated under varying signal-to-noise ratio (SNR) conditions. Results show that both MCTA and MCSC achieve competitive recognition performance compared with single-cycle data under high-SNR conditions. However, under low-SNR conditions, MCSC outperforms MCTA by preserving target structural variations and suppressing background clutter. Recognition accuracy increases with the number of fused cycles and reaches 94.55% when 20 cycles are used. Model interpretability was further investigated using gradient-weighted class activation mapping (Grad-CAM) and t-distributed stochastic neighbor embedding (t-SNE) analyses. t-SNE visualization results show that multi-cycle range–bearing image fusion produces feature representations with larger inter-class separability and more compact intra-category distributions than those obtained from single-cycle images. Grad-CAM results indicate that compared with single-cycle images, 20-cycle MCSC images guide the model to focus more consistently on target-related regions while suppressing responses to background clutter and environmental interference. These findings demonstrate that spatial concatenation effectively aggregates multi-cycle target information, providing a robust and interpretable approach for underwater target recognition under different SNR conditions.",
-      "first_author_affiliation": "Shanghai Marine Electronic Equipment Research Institute , Shanghai 201108,",
-      "last_author_affiliation": "Shanghai Marine Electronic Equipment Research Institute , Shanghai 201108,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-11-19",
-      "first_seen_at": "2026-11-20T10:07:34Z",
       "ai_analysis": {
         "scientific_question": "多周期距离–方位图像融合能否提升深度学习水下目标识别的性能与可解释性，并在不同信噪比条件下表现如何？",
         "key_highlight": "在低信噪比条件下，多周期空间拼接（MCSC）优于多周期时间累积（MCTA），且融合20个周期时识别准确率达到94.55%。",
@@ -1348,7 +1420,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "3b7c3feb09897ae5",
         "updated_at": "2026-11-20T10:09:26Z"
-      }
+      },
+      "first_author_affiliation": "Shanghai Marine Electronic Equipment Research Institute , Shanghai 201108,",
+      "last_author_affiliation": "Shanghai Marine Electronic Equipment Research Institute , Shanghai 201108,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-19",
+      "first_seen_at": "2026-11-20T10:07:34Z"
     },
     {
       "title": "Effects of arytenoid adduction on three-dimensional vocal fold dynamics, acoustics, and aerodynamics in the excised human hemilarynx model",
@@ -1365,14 +1445,6 @@
       "doi": "10.1121/10.0047507",
       "url": "https://doi.org/10.1121/10.0047507",
       "abstract": "The study investigated the impact of degrees of arytenoid adduction (DAA) on three-dimensional (3D) vocal fold (VF) dynamics, acoustics, and aerodynamics using an excised human hemilarynx model. The main objective was to pinpoint phonatory parameters sensitive to systematic changes in arytenoid adduction. Nine excised human cadaver hemilarynges were utilized to mimic three adduction levels: DAA1, DAA2, and DAA3, by 10, 20, and 50 g weights to threads connected to the arytenoid cartilage. A grid of 35 markers was positioned along the VF's surface to facilitate 3D reconstruction of vibrations. Phonation was initiated at five airflow rates, commencing at phonation onset and increasing in four successive 5SLM(L/min) steps. High-speed video, acoustic, and aerodynamic data were captured simultaneously. The maximum lateral displacement (MLD) fundamental frequency, and glottal resistance (GR) showed systematic sensitivity to increasing DAA. Empirical eigenfunction 2 tended to decrease with increasing DAA. A robust linear correlation revealed a high association between the fundamental frequencies derived from high-speed video and audio analyses (R2 = 0.977). Our findings suggest that DAA alters MLD of sutures on the superior surface and medial edge of the VF and significantly increases fundamental frequency. DAA showed a significant overall effect on GR (Friedman), with pairwise differences remaining significant (Bonferroni) only at Flow 3.",
-      "first_author_affiliation": "Division of Phoniatrics and Pediatric Audiology, Department of Otorhinolaryngology, Head and Neck Surgery, University Hospital Erlangen, Friedrich-Alexander University Erlangen-Nürnberg 1 , 91054 Erlangen,",
-      "last_author_affiliation": "Division of Phoniatrics and Pediatric Audiology, Department of Otorhinolaryngology, Head and Neck Surgery, University Hospital Erlangen, Friedrich-Alexander University Erlangen-Nürnberg 1 , 91054 Erlangen,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-11-19",
-      "first_seen_at": "2026-11-20T10:07:34Z",
       "ai_analysis": {
         "scientific_question": "在离体人半喉模型中，不同程度的杓状软骨内收（DAA）如何影响声带的三维动力学、声学与空气动力学参数？",
         "key_highlight": "最大侧向位移、基频和声门阻力随DAA程度增加呈系统性变化，且高速视频与音频所得基频高度相关（R2 = 0.977）。",
@@ -1388,7 +1460,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "c92a7bc751f52d2b",
         "updated_at": "2026-11-20T10:09:28Z"
-      }
+      },
+      "first_author_affiliation": "Division of Phoniatrics and Pediatric Audiology, Department of Otorhinolaryngology, Head and Neck Surgery, University Hospital Erlangen, Friedrich-Alexander University Erlangen-Nürnberg 1 , 91054 Erlangen,",
+      "last_author_affiliation": "Division of Phoniatrics and Pediatric Audiology, Department of Otorhinolaryngology, Head and Neck Surgery, University Hospital Erlangen, Friedrich-Alexander University Erlangen-Nürnberg 1 , 91054 Erlangen,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-19",
+      "first_seen_at": "2026-11-20T10:07:34Z"
     },
     {
       "title": "Inverse method for reconstructing string plucking forces",
@@ -1402,14 +1482,6 @@
       "doi": "10.1121/10.0047561",
       "url": "https://doi.org/10.1121/10.0047561",
       "abstract": "An inverse method for reconstructing the plucking force from the measured displacement response of a string is presented. The method combines frequency-domain deconvolution with a modal transfer function, water level regularization, and modal-frequency optimization. Because the excitation position required to construct the transfer function is initially unknown, a complementary method estimates it from the autocorrelation of the early time string acceleration response. Numerical simulations are used to evaluate the influence of measurement noise, plucking position, modal uncertainties, and other modeling and practical factors. The results show that accurate force and position estimates can be obtained over a broad range of the investigated conditions while also identifying configurations for which position estimation becomes unreliable. The proposed approach therefore provides a framework for recovering both the location and time history of a string excitation from the string response, with potential applications to the characterization and physical modeling of plucked-string excitation.",
-      "first_author_affiliation": "Instituto de Matemática, Estatística e Ciência da Computação, Universidade de São Paulo 1 , São Paulo, São Paulo 05508-090,",
-      "last_author_affiliation": "Institut Jean Le Rond d'Alembert, Équipe Lutherie-Acoustique-Musique, Sorbonne Université 2 , F-75005 Paris,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-11-19",
-      "first_seen_at": "2026-11-20T10:07:34Z",
       "ai_analysis": {
         "scientific_question": "如何从测量的弦位移响应中反演重构拨弦力？",
         "key_highlight": "该方法结合频域反卷积、模态传递函数、水位正则化和模态频率优化，并辅以从早期弦加速度自相关估计激励位置的方法。",
@@ -1425,7 +1497,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "38953806a987dd30",
         "updated_at": "2026-11-20T10:09:29Z"
-      }
+      },
+      "first_author_affiliation": "Instituto de Matemática, Estatística e Ciência da Computação, Universidade de São Paulo 1 , São Paulo, São Paulo 05508-090,",
+      "last_author_affiliation": "Institut Jean Le Rond d'Alembert, Équipe Lutherie-Acoustique-Musique, Sorbonne Université 2 , F-75005 Paris,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-19",
+      "first_seen_at": "2026-11-20T10:07:34Z"
     },
     {
       "title": "Joint Language Modeling for In-the-Wild Speech-Scene Generation with Distinct Token Representations",
@@ -1481,14 +1561,6 @@
       "doi": "10.1121/10.0047481",
       "url": "https://doi.org/10.1121/10.0047481",
       "abstract": "The ventilatory requirements of speech may lead to a preference for oral inspiration, but data on inhalation modes is sparse, and correspondences among perception, breathing acoustics, and physiological measures are unclear. Further, although individual patterns of breathing have been documented, this topic is underexplored for speech breathing. Here, we recorded about 7500 breaths from 6 speakers reading a passage on 4 different days, using respiratory inductive plethysmography and optical palatography to obtain respiratory and lip kinematics. Inspiration noises were annotated by three raters as nasal, oral, or nasal-to-oral. Lip sensor data were compared to these labels, and inhalation slopes and spectral centers of gravity were compared across breathing modes. Overall listener agreement reached 91%, but was lower for nasal and nasal-to-oral breathing than oral. Lip kinematics confirmed that mouth opening was more common for inhalations labeled as oral and less common for those labeled as nasal; perceived nasal-to-oral cases had intermediate proportions of open lips. Oral inhalations were associated with higher inspiratory slopes, and centers of gravity distinguished oral breathing from the nasal-to-oral mode. Within-speaker variation across days was smaller than cross-speaker variation. Thus, speech breathing modes are audible, reflected in physiological measures, and rather consistent within speakers.",
-      "first_author_affiliation": "Department of Communication Sciences and Disorders, Adelphi University 1 , Garden City, New York 11530,",
-      "last_author_affiliation": "Institute of Acoustics and Speech Communication, Technische Universität Dresden 3 , 01069 Dresden,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-11-19",
-      "first_seen_at": "2026-11-20T10:07:34Z",
       "ai_analysis": {
         "scientific_question": "言语呼吸中鼻腔与口腔吸气模式如何被听者感知，并与唇部运动学、吸气斜率及声学频谱特征相对应？",
         "key_highlight": "听者对吸气模式的标注总体一致率达91%，且口腔吸气与更高的吸气斜率相关，频谱重心可区分口腔与鼻-口过渡模式。",
@@ -1504,7 +1576,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "063456faaacd98a8",
         "updated_at": "2026-11-20T10:09:31Z"
-      }
+      },
+      "first_author_affiliation": "Department of Communication Sciences and Disorders, Adelphi University 1 , Garden City, New York 11530,",
+      "last_author_affiliation": "Institute of Acoustics and Speech Communication, Technische Universität Dresden 3 , 01069 Dresden,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-19",
+      "first_seen_at": "2026-11-20T10:07:34Z"
     },
     {
       "title": "Optimization design and performance analysis of low-frequency free-flooded ring transducers based on four typical structures",
@@ -1566,7 +1646,23 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-19",
-      "first_seen_at": "2026-11-19T10:28:16Z"
+      "first_seen_at": "2026-11-19T10:28:16Z",
+      "ai_analysis": {
+        "scientific_question": "PIEZO通道在毛细胞机械转导复合体中扮演何种角色，其与经典MET组分的关系及分子组织如何？",
+        "key_highlight": "综述评估了PIEZO1/2参与多种内耳机械感觉及与已知MET蛋白关联的证据，并提出未来研究优先方向。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "未来需在天然条件下明确PIEZO通道功能、解析其纳米尺度组织并重建最小功能机械转导组件，以探索保护或恢复听前庭功能的治疗策略。",
+        "evidence": [
+          "Recent studies further affirm that PIEZO channels localize near stereociliary transduction sites, associate with established MET proteins, and contribute to native hair cell currents.",
+          "Here we summarize the physiological and molecular framework of hair cell MET, assess the evidence for PIEZO function in hair cells, and highlight priorities for future research."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "afbc8357595ae3c9",
+        "updated_at": "2026-11-21T09:59:50Z"
+      }
     },
     {
       "title": "Erratum: Contrast factor for standing-wave radiation forces on spheres: Series expansion in powers of sphere radius [JASA Express Lett. 4 , 074001 (2024)]",
@@ -1578,6 +1674,7 @@
       "publication_date_precision": "day",
       "doi": "10.1121/10.0047517",
       "url": "https://doi.org/10.1121/10.0047517",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/11/119001/3408978/Erratum-Contrast-factor-for-standing-wave",
       "abstract": null,
       "first_author_affiliation": "Physics and Astronomy Department, Washington State University , Pullman, Washington 99164-2814,",
       "last_author_affiliation": "Physics and Astronomy Department, Washington State University , Pullman, Washington 99164-2814,",
@@ -1585,15 +1682,44 @@
       "open_access_url": "https://doi.org/10.1121/10.0047517",
       "open_access_source": "crossref_license",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "open_access_image_checked_at": "2026-11-20T10:09:08Z",
+      "media_checked_at": "2026-11-20T10:09:08Z",
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
       "available_online_date": "2026-11-18",
-      "first_seen_at": "2026-11-19T10:28:11Z",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/11/119001/3408978/Erratum-Contrast-factor-for-standing-wave",
-      "media_checked_at": "2026-11-20T10:09:08Z",
-      "open_access_image_checked_at": "2026-11-20T10:09:08Z"
+      "first_seen_at": "2026-11-19T10:28:11Z"
+    },
+    {
+      "title": "Acute cochlear bias and intracranial pressure in the presence of a perilymph fistula in gerbil",
+      "authors": [
+        "Idir Djennaoui",
+        "Paul Avan"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109879",
+      "url": "https://doi.org/10.1016/j.heares.2026.109879",
+      "abstract": "Since Tonndorf proposed that a bias applied to the elastic basilar membrane induces mechanical sensorineural hearing loss, several biasing methods have been tested, including low-frequency tones, electrochemical changes in the cochlea and application of a constant force to the bony cochlea. Attendant auditory changes likely stem from a common feature, a shift in the operating point (OP) of electromotile outer hair cells (OHCs). Here, the mechanical homeostasis of labyrinthine-fluid compartments was disrupted using cerebrospinal fluid (CSF) pressure steps combined with a perilymph fistula drilled near the oval window, a model of a real-life condition, in anesthetized Mongolian gerbils. When CSF pressure was increased by 15 mmHg, the leak released perilymph overpressure while the endolymph compartment was likely still affected by increased CSF pressure. Electrocochleography was monitored in 21 cases, and distortion-product otoacoustic emissions (DPOAEs) in 11 cases. Within seconds after CSF pressure increased, the summating potential SP rose up to >100% relative to the compound action potential (AP), lower-frequency AP thresholds increased by >30 dB, a spontaneous nystagmus appeared, and the balance between quadratic and cubic difference otoacoustic emissions was deeply modified. It took several minutes for the whole picture to complete and about one hour to disappear after CSF pressure release. These functional changes, reminiscent of symptoms of endolymphatic hydrops, suggested OHCs' OP shifts, in line with Tonndorf's view of mechanical sensorineural hearing loss.",
+      "last_author_affiliation": "Laboratory of Sensory Biophysics, School of Medicine, University Clermont Auvergne, Clermont-Ferrand, France; Université Paris Cité, Institut Pasteur, AP-HP, INSERM, CNRS, Fondation Pour l'Audition, Institut de l'Audition, IHU reConnect, F-75012, Paris, France. Electronic address: paul.avan@uca.fr.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Electrocochleography",
+        "Intracranial pressure",
+        "Nystagmus",
+        "Otoacoustic emissions",
+        "Perilymph fistula"
+      ],
+      "tags": [
+        "auditory physiology",
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-17",
+      "first_seen_at": "2026-11-17T10:50:11Z"
     },
     {
       "title": "Classroom-Based Auditory Cognitive Training in Typically Developing Children",
@@ -1721,7 +1847,23 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-16",
-      "first_seen_at": "2026-11-17T10:50:11Z"
+      "first_seen_at": "2026-11-17T10:50:11Z",
+      "ai_analysis": {
+        "scientific_question": "在小鼠模型中，爆震诱导的外淋巴瘘（PLF）与听觉功能下降及耳蜗组织病理学改变之间存在怎样的关联？",
+        "key_highlight": "PLF阳性耳在低频表现出显著更大的持续阈值偏移，而外毛细胞丢失在两组间相当，提示低频听力损失并非由外毛细胞丢失解释。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该模型及中耳灌洗液中CTP检测或有助于阐明爆震后慢性听觉缺陷的机制，并提示PLF诊断在爆震相关听力损失中的潜在临床意义。",
+        "evidence": [
+          "PLF-positive ears showed significantly greater threshold shifts at low frequencies than PLF-negative ears.",
+          "these histological changes did not account for the low-frequency threshold shifts"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "bc152934385592b2",
+        "updated_at": "2026-11-21T09:59:58Z"
+      }
     },
     {
       "title": "Domain-decoupled physics-informed neural networks for inverse material property estimation from acoustic fields",
@@ -4820,22 +4962,6 @@
     {
       "title": "EDITORIAL BOARD",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-11-02",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0047228",
-      "url": "https://doi.org/10.1121/10.0047228",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-11-02",
-      "first_seen_at": "2026-11-03T09:40:40Z"
-    },
-    {
-      "title": "EDITORIAL BOARD",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-11-02",
       "publication_date_precision": "day",
@@ -4848,6 +4974,22 @@
       "source": "crossref",
       "available_online_date": "2026-11-02",
       "first_seen_at": "2026-11-03T09:40:50Z"
+    },
+    {
+      "title": "EDITORIAL BOARD",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0047228",
+      "url": "https://doi.org/10.1121/10.0047228",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-11-02",
+      "first_seen_at": "2026-11-03T09:40:40Z"
     },
     {
       "title": "Effects of vocal fold vibration on the turbulent sound generation in voiced sibilant fricatives",
@@ -5394,26 +5536,6 @@
       "first_seen_at": "2026-11-03T09:42:21Z"
     },
     {
-      "title": "Acute cochlear bias and intracranial pressure in the presence of a perilymph fistula in gerbil",
-      "authors": [
-        "Idir Djennaoui",
-        "Paul Avan"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-11-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109879",
-      "url": "https://doi.org/10.1016/j.heares.2026.109879",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-11-17T10:50:11Z"
-    },
-    {
       "title": "Age-related changes in acoustic cue use for speech-in-speech perception",
       "authors": [
         "Elizabeth Fish",
@@ -5953,6 +6075,31 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-08-18",
       "first_seen_at": "2026-08-28T14:24:28Z"
+    },
+    {
+      "title": "Evaluating the Musi-CI musical listening training program: a Mixed Methods Observational Cohort Study on Music Enjoyment in Cochlear Implant Users",
+      "authors": [
+        "Joke Veltman",
+        "Marjo J.M. Maas",
+        "Alexander E. Hoetink",
+        "Huib Versnel",
+        "Philip J. van der Wees",
+        "Wendy J. Huinck"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109883",
+      "url": "https://doi.org/10.1016/j.heares.2026.109883",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "cochlear implant"
+      ],
+      "source": "crossref",
+      "first_seen_at": "2026-11-21T09:56:02Z"
     },
     {
       "title": "Formant-frequency encoding in the inferior colliculus of awake rabbit: Physiological and model responses",
@@ -12820,21 +12967,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00266-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-02T07:09:02Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-10-01",
       "publication_date_precision": "day",
@@ -12847,6 +12979,21 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00266-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Effective model of fiber Bragg gratings for simulation of ultrasonic guided wave measurements using spectral finite elements",
@@ -15733,22 +15880,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046571",
-      "url": "https://doi.org/10.1121/10.0046571",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:59Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -15761,6 +15892,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:56Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046571",
+      "url": "https://doi.org/10.1121/10.0046571",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:59Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -16076,53 +16223,6 @@
       ],
       "needs_review": true,
       "first_seen_at": "2026-09-22T07:47:23Z"
-    },
-    {
-      "title": "Evidence for Relationship Between Speech Perception in Noise and Spectrotemporal Modulation Processing in Children With Mild Bilateral Hearing Loss: A Functional Near-Infrared Spectroscopy Study",
-      "authors": [
-        "Xin Zhou",
-        "Sriram Boothalingam",
-        "Qingqing Meng",
-        "Angela Wong",
-        "Jermy Pang",
-        "Vijayalakshmi Easwar"
-      ],
-      "journal": "Ear and Hearing",
-      "publication_date": "2026-09-21",
-      "publication_date_precision": "day",
-      "doi": "10.1097/aud.0000000000001893",
-      "url": "https://doi.org/10.1097/aud.0000000000001893",
-      "abstract": "Objectives: Children with mild bilateral hearing loss (CHL), defined as having thresholds between 20 and 40 dB HL, experience difficulties conversing in adverse acoustic conditions with background noise, despite having near-normal speech perception in quiet. Mixed evidence of hearing aid benefit among CHL has led to guidelines that emphasize individualized management, making it challenging for clinicians to suggest intervention options. The overarching goal of this study was to investigate the influence of suprathreshold neural processing on speech perception in noise and how it is influenced by amplification. We focused primarily on auditory temporal and spectral processing, the two main predictors of speech perception in noise among adults with hearing loss. Design: In 11 neurotypical CHL (6- to 14-yr-old) and 28 age-matched neurotypical children with normal hearing (CNH), the signal to noise ratio required to achieve 70% accuracy on a speech perception in noise task was tracked using a spatial release from masking paradigm. Across three conditions, target words were presented from a front loudspeaker (0°), while noise (2-talker babble) was presented either from the same front loudspeaker or from the left or right loudspeaker (±45° azimuth), with a copy of the noise being presented from the front loudspeaker 3-msec later from the lead noise to simulate spatial separation between the target words and noise. Neural sensitivity to spectral and temporal modulations was assessed objectively using functional near-infrared spectroscopy (fNIRS). The fNIRS responses were recorded in the bilateral frontotemporal area, when children listened to broadband noise that was unprocessed (reference), amplitude-modulated at 4 Hz, or spectrally modulated with spectral ripple noise. Results: CNH and CHL, whether unaided or aided, benefited similarly from the spatial separation between noise and target speech. Aiding neither enhanced nor deteriorated the benefit of spatial release from masking. fNIRS measures in aided CHL showed increased cortical activation to the temporal and spectral modulations in the temporal cortex (TC) compared to both unaided conditions and CNH. Higher aided than unaided cortical activity in the TC likely reflects enhanced sensitivity to speech-relevant acoustic features with amplification. Further, in CHL, lower cortical activity to temporal modulation in the right frontotemporal cortex and higher activity to spectral modulation in the left TC were associated with lower signal to noise ratio required to achieve 70% accuracy. The associations likely reflect region-specific and cue-specific contributions to speech perception in noise among CHL. No associations were found in CNH. Conclusions: Our study highlights the value of hearing aid fitting in improving speech-in-noise outcomes in CHL. While behavioral benefits may be subtle or inconsistent, cortical data revealed enhancement in auditory processing with amplification, particularly in the TC. Our findings suggest that suprathreshold neural processing underlies the variation in speech perception in noise among CHL.",
-      "ai_analysis": {
-        "scientific_question": "探究轻度双侧听力损失儿童助听后的皮层神经加工如何影响其在噪声环境中的言语感知能力",
-        "key_highlight": "虽然助听未能显著改善行为学上的空间掩蔽释放效益，但功能近红外光谱测量显示助听可增强双侧颞叶皮层对时域和频域调制的神经反应，且该皮层活动的增强与更好的噪声下言语感知表现相关",
-        "main_limitation": "样本量较小（11名轻度双侧听力损失儿童），且儿童年龄跨度较大（6-14岁），可能限制结果的稳健性和对发育阶段的泛化",
-        "research_implication": "研究提示皮层神经指标可能比行为学指标更敏感地反映轻度听力损失儿童的助听效益，对临床验配决策具有参考价值",
-        "provider": "minimax",
-        "model": "MiniMax-M2.7",
-        "language": "zh",
-        "prompt_version": "2026-05-13-no-methodology-flow",
-        "abstract_hash": "f859a8eb17e87b26",
-        "updated_at": "2026-09-27T08:19:02Z"
-      },
-      "first_author_affiliation": "National Acoustic Laboratories, Sydney, New South Wales, Australia",
-      "last_author_affiliation": "National Acoustic Laboratories, Sydney, New South Wales, Australia",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [
-        "Children with mild bilateral hearing loss",
-        "Functional near-infrared spectroscopy",
-        "Hearing aid fitting",
-        "Speech perception in noise"
-      ],
-      "tags": [
-        "clinical audiology",
-        "hearing aid",
-        "psychoacoustics",
-        "speech perception"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-09-21",
-      "first_seen_at": "2026-09-22T07:46:41Z"
     },
     {
       "title": "Evidence for a cancellation tooth in the absence of a harmonic partial",
@@ -25837,22 +25937,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044504",
-      "url": "https://doi.org/10.1121/10.0044504",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:37Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -25865,6 +25949,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:36Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044504",
+      "url": "https://doi.org/10.1121/10.0044504",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:37Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -54736,17 +54836,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -54767,18 +54868,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -63758,22 +63858,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -63786,6 +63870,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -70888,23 +70988,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -70918,6 +71001,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -74469,8 +74569,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -74484,8 +74584,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -80364,8 +80464,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -80379,8 +80479,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -80929,6 +81029,53 @@
       "source": "pubmed",
       "available_online_date": "2026-03-12",
       "first_seen_at": "2026-05-13T14:35:06Z"
+    },
+    {
+      "title": "Evidence for Relationship Between Speech Perception in Noise and Spectrotemporal Modulation Processing in Children With Mild Bilateral Hearing Loss: A Functional Near-Infrared Spectroscopy Study.",
+      "authors": [
+        "Xin Zhou",
+        "Sriram Boothalingam",
+        "Qingqing Meng",
+        "Angela Wong",
+        "Jermy Pang",
+        "Vijayalakshmi Easwar"
+      ],
+      "journal": "Ear and Hearing",
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "year",
+      "doi": "10.1097/aud.0000000000001893",
+      "url": "https://doi.org/10.1097/aud.0000000000001893",
+      "abstract": "Children with mild bilateral hearing loss (CHL), defined as having thresholds between 20 and 40 dB HL, experience difficulties conversing in adverse acoustic conditions with background noise, despite having near-normal speech perception in quiet. Mixed evidence of hearing aid benefit among CHL has led to guidelines that emphasize individualized management, making it challenging for clinicians to suggest intervention options. The overarching goal of this study was to investigate the influence of suprathreshold neural processing on speech perception in noise and how it is influenced by amplification. We focused primarily on auditory temporal and spectral processing, the two main predictors of speech perception in noise among adults with hearing loss. In 11 neurotypical CHL (6- to 14-yr-old) and 28 age-matched neurotypical children with normal hearing (CNH), the signal to noise ratio required to achieve 70% accuracy on a speech perception in noise task was tracked using a spatial release from masking paradigm. Across three conditions, target words were presented from a front loudspeaker (0°), while noise (2-talker babble) was presented either from the same front loudspeaker or from the left or right loudspeaker (±45° azimuth), with a copy of the noise being presented from the front loudspeaker 3-msec later from the lead noise to simulate spatial separation between the target words and noise. Neural sensitivity to spectral and temporal modulations was assessed objectively using functional near-infrared spectroscopy (fNIRS). The fNIRS responses were recorded in the bilateral frontotemporal area, when children listened to broadband noise that was unprocessed (reference), amplitude-modulated at 4 Hz, or spectrally modulated with spectral ripple noise. CNH and CHL, whether unaided or aided, benefited similarly from the spatial separation between noise and target speech. Aiding neither enhanced nor deteriorated the benefit of spatial release from masking. fNIRS measures in aided CHL showed increased cortical activation to the temporal and spectral modulations in the temporal cortex (TC) compared to both unaided conditions and CNH. Higher aided than unaided cortical activity in the TC likely reflects enhanced sensitivity to speech-relevant acoustic features with amplification. Further, in CHL, lower cortical activity to temporal modulation in the right frontotemporal cortex and higher activity to spectral modulation in the left TC were associated with lower signal to noise ratio required to achieve 70% accuracy. The associations likely reflect region-specific and cue-specific contributions to speech perception in noise among CHL. No associations were found in CNH. Our study highlights the value of hearing aid fitting in improving speech-in-noise outcomes in CHL. While behavioral benefits may be subtle or inconsistent, cortical data revealed enhancement in auditory processing with amplification, particularly in the TC. Our findings suggest that suprathreshold neural processing underlies the variation in speech perception in noise among CHL.",
+      "ai_analysis": {
+        "scientific_question": "探究轻度双侧听力损失儿童助听后的皮层神经加工如何影响其在噪声环境中的言语感知能力",
+        "key_highlight": "虽然助听未能显著改善行为学上的空间掩蔽释放效益，但功能近红外光谱测量显示助听可增强双侧颞叶皮层对时域和频域调制的神经反应，且该皮层活动的增强与更好的噪声下言语感知表现相关",
+        "main_limitation": "样本量较小（11名轻度双侧听力损失儿童），且儿童年龄跨度较大（6-14岁），可能限制结果的稳健性和对发育阶段的泛化",
+        "research_implication": "研究提示皮层神经指标可能比行为学指标更敏感地反映轻度听力损失儿童的助听效益，对临床验配决策具有参考价值",
+        "provider": "minimax",
+        "model": "MiniMax-M2.7",
+        "language": "zh",
+        "prompt_version": "2026-05-13-no-methodology-flow",
+        "abstract_hash": "f859a8eb17e87b26",
+        "updated_at": "2026-09-27T08:19:02Z"
+      },
+      "first_author_affiliation": "National Acoustic Laboratories, Sydney, New South Wales, Australia.",
+      "last_author_affiliation": "National Acoustic Laboratories, Sydney, New South Wales, Australia.",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Children with mild bilateral hearing loss",
+        "Functional near-infrared spectroscopy",
+        "Hearing aid fitting",
+        "Speech perception in noise"
+      ],
+      "tags": [
+        "clinical audiology",
+        "hearing aid",
+        "psychoacoustics",
+        "speech perception"
+      ],
+      "source": "pubmed",
+      "available_online_date": "2026-09-21",
+      "first_seen_at": "2026-09-22T07:46:41Z"
     },
     {
       "title": "Evidence for evolutionary divergence in temporal integration windows between human and monkey auditory cortex.",
