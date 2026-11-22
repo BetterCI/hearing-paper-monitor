@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T09:56:18Z",
+  "generated_at": "2026-11-22T09:53:48Z",
   "papers": [
     {
       "title": "A binaural loudness model for evaluating round-window stimulation based on a physiological peripheral auditory front-end module",
@@ -1150,6 +1150,62 @@
       "first_seen_at": "2026-10-01T09:02:42Z"
     },
     {
+      "title": "Effects of Spatial and Spectral Release From Masking on Resource Engagement During Speech-on-Speech Listening",
+      "authors": [
+        "Yue Zheng",
+        "Sarah Knight",
+        "Ronan McGarrigle",
+        "Georgie Maher",
+        "Sven Mattys"
+      ],
+      "journal": "Trends in Hearing",
+      "publication_date": "2026-11-21",
+      "publication_date_precision": "day",
+      "doi": "10.1177/23312165261492832",
+      "url": "https://doi.org/10.1177/23312165261492832",
+      "abstract": "Speech-on-speech listening requires attending to a target talker while ignoring a distractor talker, with performance constrained by both target signal availability and the listener’s cognitive resources. Performance improves with both spatial and spectral release from masking (RM); that is, when the two talkers are separated in either the spatial or the frequency (i.e., spectral) domain, respectively. However, the effect of spatial vs. spectral RM on listening effort is unknown. Participants completed a selective listening task, repeating the speech of one of two simultaneously-presented talkers while having their task-evoked pupil response (TEPR) tracked as a marker of resource engagement. We filtered the target and masker talkers into either non-overlapping (spectral RM) or overlapping (no spectral RM) frequency bands, and presented the two talkers either dichotically (simulating spatial RM) or collocated (no spatial RM). Perceived tiredness, effort, and accuracy ratings were collected during the task. Participants also completed tests to assess three key components of cognition: general intelligence, phonological processing, and working memory. Performance was highest when both forms of RM were available and lowest when neither was available. TEPR was lowest when both forms of RM were available, highest for spectral RM only, and moderate when no RM was available. These results support an inverted U-shaped relationship between effort and performance: listeners allocate resources to maintain performance in moderately difficult conditions and reduce engagement when the task becomes too difficult for further investment to be effective. Higher working memory capacity predicted larger TEPRs and lower perceived tiredness from listening, suggesting that greater cognitive capacity promotes increased resource engagement and might also protect against perceived tiredness.",
+      "first_author_affiliation": "University of York, York, United Kingdom",
+      "last_author_affiliation": "University of York, York, United Kingdom",
+      "open_access": true,
+      "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261492832",
+      "open_access_source": "crossref_license",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "listening effort",
+        "pupillometry",
+        "release from masking",
+        "resource engagement",
+        "speech-on-speech listening"
+      ],
+      "tags": [
+        "psychoacoustics",
+        "real-world listening"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-21",
+      "first_seen_at": "2026-11-22T09:53:16Z",
+      "full_text_url": "https://journals.sagepub.com/doi/pdf/10.1177/23312165261492832",
+      "media_checked_at": "2026-11-22T09:54:11Z",
+      "open_access_image_checked_at": "2026-11-22T09:54:11Z",
+      "ai_analysis": {
+        "scientific_question": "空间释放掩蔽与频谱释放掩蔽对双人言语选择性聆听中的资源投入（以任务诱发瞳孔反应为指标）有何不同影响？",
+        "key_highlight": "摘要报告：两种释放掩蔽同时存在时任务诱发瞳孔反应最低，仅有频谱释放掩蔽时最高，无释放掩蔽时居中，作者据此提出努力与表现之间呈倒U形关系。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "结果提示中等难度条件下听者会投入更多资源以维持表现，而工作记忆容量较高者可能投入更多资源并较少感到疲劳，但这些均为摘要所述发现所引出的可能含义，尚需进一步验证。",
+        "evidence": [
+          "TEPR was lowest when both forms of RM were available, highest for spectral RM only, and moderate when no RM was available.",
+          "Higher working memory capacity predicted larger TEPRs and lower perceived tiredness from listening"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "3aecbb82ebfed8a0",
+        "updated_at": "2026-11-22T09:56:49Z"
+      }
+    },
+    {
       "title": "Auditory cortical coding of spectrotemporal modulations is sufficient to support perceptual categorization of speech and music.",
       "authors": [
         "Jérémie Ginzburg",
@@ -1222,14 +1278,6 @@
       "doi": "10.1121/10.0047488",
       "url": "https://doi.org/10.1121/10.0047488",
       "abstract": "This study investigated difference-frequency production between the vocal folds and the ventricular (false) folds. The hypothesis was that the two pairs of folds interact as coupled oscillators with observable bifurcations as energy is exchanged between them. The control variables were the relative adductions between the two pairs of folds. The methodology was primarily computational, based on a simplified Navier-Stokes solution of convective and compressible airflow in a variable-geometry airway. A three-dimensional fiber-gel construct represented the vocal fold tissue while the ventricular folds were represented with a two-mass model. Left-right symmetry was applied to both. The two sources both produced flow-induced self-oscillation and could act as a primary periodic source. However, when the adductions were similar, difference frequencies and other bifurcations were produced.",
-      "first_author_affiliation": "Utah Center for Vocology, University of Utah 1 , Salt Lake City, Utah 84112,",
-      "last_author_affiliation": "Utah Center for Vocology, University of Utah 1 , Salt Lake City, Utah 84112,",
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-11-20",
-      "first_seen_at": "2026-11-21T09:55:47Z",
       "ai_analysis": {
         "scientific_question": "声带与室带（假声带）相互作用时是否会产生差频，以及这种相互作用是否符合耦合振子模型？",
         "key_highlight": "计算结果表明，当两对皱襞的内收程度相近时，会产生差频及其他分岔现象。",
@@ -1245,7 +1293,15 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "cdfa77bd22986c57",
         "updated_at": "2026-11-21T09:59:40Z"
-      }
+      },
+      "first_author_affiliation": "Utah Center for Vocology, University of Utah 1 , Salt Lake City, Utah 84112,",
+      "last_author_affiliation": "Utah Center for Vocology, University of Utah 1 , Salt Lake City, Utah 84112,",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-20",
+      "first_seen_at": "2026-11-21T09:55:47Z"
     },
     {
       "title": "Spectral sparsity enables discrimination of complex-tone triads in cochlear implant listeners",
@@ -1260,19 +1316,6 @@
       "doi": "10.1121/10.0047516",
       "url": "https://doi.org/10.1121/10.0047516",
       "abstract": "Cochlear implant (CI) users experience difficulties perceiving musical harmony due to restricted spectro-temporal resolution at the electrode-nerve interface, resulting in limited pitch perception. In a feasibility study, we investigated how stimulus parameters affect discrimination of complex-tone triads (three-voice chords), aiming to identify conditions that maximize perceptual sensitivity. Six post-lingually deafened adult MED-EL users with the FS4 stimulation strategy completed a same/different task using harmonic complex tones. We manipulated spectral complexity (three, five, or nine components per voice), which voice(s) contained a semitone pitch change (low voice, high voice, or both), and temporal synchrony (simultaneous vs sequential triad presentation). When spectral complexity was reduced to three components per voice, CI listeners were able to discriminate pitch changes within triads. Sensitivity depended on which voice contained the pitch change: listeners detected changes in the high voice (for three-component triads) or in both high and low voices (for both three- and five-component triads) better than low-voice changes. Contrary to expectations, sequential presentation did not improve discrimination. Analysis of processor pulse patterns suggests that difference-frequency cues encoded in the temporal envelope may underlie triad discrimination. These findings support reducing spectral complexity to enhance chord discrimination for CI users.",
-      "first_author_affiliation": "Acoustics Research Institute, Austrian Academy of Sciences , Dominikanerbastei 16, 1010 Vienna,",
-      "last_author_affiliation": "Acoustics Research Institute, Austrian Academy of Sciences , Dominikanerbastei 16, 1010 Vienna,",
-      "section": "Psychological and Physiological Acoustics",
-      "keywords": [],
-      "tags": [
-        "auditory physiology",
-        "cochlear implant",
-        "priority section",
-        "psychoacoustics"
-      ],
-      "source": "crossref+pubmed",
-      "available_online_date": "2026-11-20",
-      "first_seen_at": "2026-11-21T09:55:47Z",
       "ai_analysis": {
         "scientific_question": "在人工耳蜗使用者中，刺激参数（频谱复杂度、变调声部、时间同步性）如何影响复杂音三和弦的辨别能力？",
         "key_highlight": "将每个声部的频谱复杂度降至三个成分时，人工耳蜗使用者能够辨别三和弦内的音高变化，且对高声部或高低两个声部的变化辨别优于低声部变化。",
@@ -1288,7 +1331,20 @@
         "prompt_version": "2026-10-04-abstract-evidence",
         "abstract_hash": "18e9838a636e0f90",
         "updated_at": "2026-11-21T09:59:42Z"
-      }
+      },
+      "first_author_affiliation": "Acoustics Research Institute, Austrian Academy of Sciences , Dominikanerbastei 16, 1010 Vienna,",
+      "last_author_affiliation": "Acoustics Research Institute, Austrian Academy of Sciences , Dominikanerbastei 16, 1010 Vienna,",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "auditory physiology",
+        "cochlear implant",
+        "priority section",
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-20",
+      "first_seen_at": "2026-11-21T09:55:47Z"
     },
     {
       "title": "Auditory Spatial Mapping in the Horizontal Plane Using Response Interfaces With Different Curvatures",
@@ -1623,6 +1679,22 @@
       "doi": "10.1007/s10162-026-01079-3",
       "url": "https://doi.org/10.1007/s10162-026-01079-3",
       "abstract": "Hair cell mechanotransduction converts sound, head motion, and body position relative to gravity into electrical signals with exceptional speed and sensitivity. Although major components of the mechanoelectrical transduction (MET) complex have been identified, the molecular organization of the native complex and the specific structural and functional contributions of individual proteins remain incompletely resolved. Genetic, physiological, and functional evidence supports the designation of TMC1 and TMC2 as putative components of the MET complex. At the same time, growing evidence implicates PIEZO1 and PIEZO2 in several forms of inner ear mechanosensation, including reversed-polarity currents, high-frequency and ultrasonic hearing, vestibular function, and hair cell development and maintenance. Recent studies further affirm that PIEZO channels localize near stereociliary transduction sites, associate with established MET proteins, and contribute to native hair cell currents. Here we summarize the physiological and molecular framework of hair cell MET, assess the evidence for PIEZO function in hair cells, and highlight priorities for future research. These priorities include defining PIEZO channel roles under native conditions, resolving their nanoscale organization relative to canonical MET components, evaluating the genetic evidence for PIEZO as the pore, reconstituting minimal functional mechanotransduction assemblies, and translating molecular insights into suggestive therapeutic strategies to preserve or restore auditory and vestibular functions during disease and aging.",
+      "ai_analysis": {
+        "scientific_question": "PIEZO通道在毛细胞机械转导复合体中扮演何种角色，其与经典MET组分的关系及分子组织如何？",
+        "key_highlight": "综述评估了PIEZO1/2参与多种内耳机械感觉及与已知MET蛋白关联的证据，并提出未来研究优先方向。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "未来需在天然条件下明确PIEZO通道功能、解析其纳米尺度组织并重建最小功能机械转导组件，以探索保护或恢复听前庭功能的治疗策略。",
+        "evidence": [
+          "Recent studies further affirm that PIEZO channels localize near stereociliary transduction sites, associate with established MET proteins, and contribute to native hair cell currents.",
+          "Here we summarize the physiological and molecular framework of hair cell MET, assess the evidence for PIEZO function in hair cells, and highlight priorities for future research."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "afbc8357595ae3c9",
+        "updated_at": "2026-11-21T09:59:50Z"
+      },
       "last_author_affiliation": "Department of Translational Neurosciences, University of Arizona College of Medicine-Phoenix, Phoenix, AZ, USA. enyamoah@arizona.edu.",
       "open_access": true,
       "open_access_url": "https://link.springer.com/article/10.1007/s10162-026-01079-3",
@@ -1646,23 +1718,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-19",
-      "first_seen_at": "2026-11-19T10:28:16Z",
-      "ai_analysis": {
-        "scientific_question": "PIEZO通道在毛细胞机械转导复合体中扮演何种角色，其与经典MET组分的关系及分子组织如何？",
-        "key_highlight": "综述评估了PIEZO1/2参与多种内耳机械感觉及与已知MET蛋白关联的证据，并提出未来研究优先方向。",
-        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
-        "research_implication": "未来需在天然条件下明确PIEZO通道功能、解析其纳米尺度组织并重建最小功能机械转导组件，以探索保护或恢复听前庭功能的治疗策略。",
-        "evidence": [
-          "Recent studies further affirm that PIEZO channels localize near stereociliary transduction sites, associate with established MET proteins, and contribute to native hair cell currents.",
-          "Here we summarize the physiological and molecular framework of hair cell MET, assess the evidence for PIEZO function in hair cells, and highlight priorities for future research."
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "afbc8357595ae3c9",
-        "updated_at": "2026-11-21T09:59:50Z"
-      }
+      "first_seen_at": "2026-11-19T10:28:16Z"
     },
     {
       "title": "Erratum: Contrast factor for standing-wave radiation forces on spheres: Series expansion in powers of sphere radius [JASA Express Lett. 4 , 074001 (2024)]",
@@ -1831,6 +1887,22 @@
       "doi": "10.1016/j.heares.2026.109878",
       "url": "https://doi.org/10.1016/j.heares.2026.109878",
       "abstract": "Blast-induced perilymphatic fistula (PLF) may aggravate auditory dysfunction; however, its pathophysiology remains unclear. In this study, we developed a mouse model of blast-induced PLF and investigated cochlear function and histopathology. PLF was diagnosed by detecting cochlin tomoprotein (CTP), a perilymph-specific protein, in the middle ear lavage fluid. Auditory brainstem responses and otoacoustic emissions revealed persistent threshold shifts after blast exposure, and PLF-positive ears showed significantly greater threshold shifts at low frequencies than PLF-negative ears. Outer hair cell loss was comparable between the groups, whereas synaptic loss and stereociliary disruption relative to non-blast-exposed controls extended over a wider frequency range in PLF-positive ears; however, these histological changes did not account for the low-frequency threshold shifts. Structural damage to the stapedial annular ligament (SAL) was frequently observed, predominantly on the ventral side, suggesting a potential site of perilymph leakage. An exploratory analysis suggested a possible association between CTP concentration and the extent of SAL damage, although this was largely driven by a few samples with high CTP concentrations. These findings indicate that PLF secondary to blast trauma is associated with persistent low-frequency hearing loss and that CTP detection in middle ear lavage fluid enables objective diagnosis of PLF in this model. This model may help clarify the mechanisms underlying chronic auditory deficits following blast exposure and supports the clinical relevance of diagnosing PLF in blast-related hearing loss.",
+      "ai_analysis": {
+        "scientific_question": "在小鼠模型中，爆震诱导的外淋巴瘘（PLF）与听觉功能下降及耳蜗组织病理学改变之间存在怎样的关联？",
+        "key_highlight": "PLF阳性耳在低频表现出显著更大的持续阈值偏移，而外毛细胞丢失在两组间相当，提示低频听力损失并非由外毛细胞丢失解释。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该模型及中耳灌洗液中CTP检测或有助于阐明爆震后慢性听觉缺陷的机制，并提示PLF诊断在爆震相关听力损失中的潜在临床意义。",
+        "evidence": [
+          "PLF-positive ears showed significantly greater threshold shifts at low frequencies than PLF-negative ears.",
+          "these histological changes did not account for the low-frequency threshold shifts"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "bc152934385592b2",
+        "updated_at": "2026-11-21T09:59:58Z"
+      },
       "last_author_affiliation": "Department of Otolaryngology, Head and Neck Surgery, National Defense Medical College, Tokorozawa, Saitama, Japan.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
@@ -1847,23 +1919,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-16",
-      "first_seen_at": "2026-11-17T10:50:11Z",
-      "ai_analysis": {
-        "scientific_question": "在小鼠模型中，爆震诱导的外淋巴瘘（PLF）与听觉功能下降及耳蜗组织病理学改变之间存在怎样的关联？",
-        "key_highlight": "PLF阳性耳在低频表现出显著更大的持续阈值偏移，而外毛细胞丢失在两组间相当，提示低频听力损失并非由外毛细胞丢失解释。",
-        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
-        "research_implication": "该模型及中耳灌洗液中CTP检测或有助于阐明爆震后慢性听觉缺陷的机制，并提示PLF诊断在爆震相关听力损失中的潜在临床意义。",
-        "evidence": [
-          "PLF-positive ears showed significantly greater threshold shifts at low frequencies than PLF-negative ears.",
-          "these histological changes did not account for the low-frequency threshold shifts"
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "bc152934385592b2",
-        "updated_at": "2026-11-21T09:59:58Z"
-      }
+      "first_seen_at": "2026-11-17T10:50:11Z"
     },
     {
       "title": "Domain-decoupled physics-informed neural networks for inverse material property estimation from acoustic fields",
@@ -1946,7 +2002,23 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-16",
-      "first_seen_at": "2026-11-17T10:50:11Z"
+      "first_seen_at": "2026-11-17T10:50:11Z",
+      "ai_analysis": {
+        "scientific_question": "在早期激活（EA）与传统激活（CA）的人工耳蜗植入者中，临床阻抗的亚成分——接入电阻（Ra）与极化阻抗（Zp）——在术后至少90天内的变化轨迹有何差异？",
+        "key_highlight": "阻抗分解显示，EA组Zp在手术至激活日期间下降26%而Ra不变，CA组Zp在激活前上升134%后于刺激后急剧下降；第30天EA组的Ze与Zp显著低于CA组，而Ra无组间差异。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该结果提示早期激活可能选择性地抑制纤维组织形成后的Zp而非Ra，但此为作者提出的可能含义，尚需进一步研究验证。",
+        "evidence": [
+          "In the EA group, Zp declined by 26% from surgery to activation day, while Ra was unchanged.",
+          "The findings suggest that early activation may help selectively suppress Zp rather than Ra after fibrous tissue formation."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "39218eb14f3e6ce9",
+        "updated_at": "2026-11-22T09:57:03Z"
+      }
     },
     {
       "title": "Immature Valence Recognition of Emotional Speech in Cochlear Implant Users: Evidence From Event-Related Potentials and Neural Oscillations",
@@ -2407,6 +2479,55 @@
       "first_seen_at": "2026-11-13T09:39:56Z"
     },
     {
+      "title": "Chirped speech (Cheech) enables rapid assessment of multi-level auditory evoked potentials during speech-in-noise recognition",
+      "authors": [
+        "May Chao",
+        "C. Alise Holloway",
+        "Lee M. Miller",
+        "Kelsey Mankel"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-12",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109872",
+      "url": "https://doi.org/10.1016/j.heares.2026.109872",
+      "abstract": "Difficulties understanding speech in noise remain a common complaint even among listeners with normal hearing sensitivity, highlighting the need for objective, more effective measures of real-world listening. The goal of this study was to validate the use of a novel, chirped-speech (Cheech) stimulus-continuous, naturally-spoken speech fused with chirps designed to elicit robust auditory evoked potentials-to characterize relationships between speech recognition, listening effort, and auditory neural encoding. Twenty‑five normal‑hearing adults completed a sentence‑recognition task using both original (unmodified) and Cheech-modified AzBio sentence lists in quiet, +3 dB, and -3 dB signal-to-noise ratio (SNR) conditions while neural responses from the brainstem through cortex were recorded simultaneously. Speech recognition remained near ceiling in quiet but declined with decreasing SNR for both original and Cheech stimuli. Cheech‑modified speech showed poorer recognition performance as SNR decreased and somewhat higher perceived effort overall. Yet, Cheech was highly effective at evoking auditory responses from the brainstem (auditory brainstem response, ABR) through the cortex (including middle- and late-latency responses, MLR and LLR) even with <5 min listening time per condition. Neural responses showed reduced amplitudes and prolonged latencies as SNR decreased. In general, ABR wave I latencies were associated with speech-in-noise recognition performance, whereas cortical responses (MLR Na and LLR P1 latencies) were associated with subjective workload. These findings show that Cheech‑modified speech remains intelligible, particularly in quiet and higher SNR conditions, while yielding robust, multilevel neural recordings during sentence perception, offering a promising approach to examine hierarchical auditory processing under ecologically relevant speech‑in‑noise conditions.",
+      "last_author_affiliation": "School of Communication Sciences & Disorders, University of Memphis, Memphis, TN, United States; Institute for Intelligent Systems, University of Memphis, Memphis, TN, United States. Electronic address: kmankel@memphis.edu.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Auditory brainstem response (ABR)",
+        "Auditory evoked potentials",
+        "Chirped speech (Cheech)",
+        "Speech encoding",
+        "Speech-in-noise"
+      ],
+      "tags": [
+        "auditory physiology",
+        "real-world listening",
+        "speech perception"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-12",
+      "first_seen_at": "2026-11-13T09:40:33Z",
+      "ai_analysis": {
+        "scientific_question": "该研究旨在验证一种新型啁啾语音（Cheech）刺激能否在句子识别任务中同时诱发从脑干到皮层的多层级听觉诱发电位，并刻画言语识别、聆听努力与听觉神经编码之间的关系。",
+        "key_highlight": "Cheech修饰语音在每个条件不足5分钟的聆听时间内即可有效诱发脑干（ABR）至皮层（MLR、LLR）的多层级听觉反应，且随信噪比降低神经反应幅度减小、潜伏期延长。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "Cheech语音在安静和较高信噪比条件下仍保持可懂度，同时可获得稳健的多层级神经记录，提示其可能成为在生态化言语噪声条件下考察层级性听觉加工的一种途径（属可能意义，非因果结论）。",
+        "evidence": [
+          "Cheech‑modified speech showed poorer recognition performance as SNR decreased and somewhat higher perceived effort overall.",
+          "Yet, Cheech was highly effective at evoking auditory responses from the brainstem (auditory brainstem response, ABR) through the cortex (including middle- and late-latency responses, MLR and LLR) even with <5 min listening time per condition."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "f5a46ffba08f5268",
+        "updated_at": "2026-11-22T09:57:11Z"
+      }
+    },
+    {
       "title": "Comparative psychoacoustic analysis of drone noise and musical tones",
       "authors": [
         "Yinuo Wang",
@@ -2760,6 +2881,38 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-12",
       "first_seen_at": "2026-11-12T09:55:34Z"
+    },
+    {
+      "title": "Spatial and source priors in listener-specific Bayesian modeling of sagittal-plane sound localization",
+      "authors": [
+        "Yunda Chen",
+        "Xikun Lu",
+        "Nengheng Zheng"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-12",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109874",
+      "url": "https://doi.org/10.1016/j.heares.2026.109874",
+      "abstract": "Human sagittal-plane sound localization relies on direction-dependent spectral cues, but these cues are confounded by the unknown source spectrum, making polar-angle inference mathematically ill-posed. Despite this ambiguity, listeners can draw on prior knowledge to support accurate localization. Localization models often use spatial and source priors for likely source directions and spectra, respectively. Yet their joint roles in explaining human localization across listeners and acoustic conditions remain unclear. To this end, we examined how spatial-prior form and the inclusion of a source prior affect a listener-specific Bayesian observer's predictions of human localization behavior. Five spatial-prior forms with different frontal and rear directional expectations were evaluated with and without a fixed source prior derived from natural-sound statistics. After individually fitting model parameters for eight listeners, we compared the ten model variants using Bayesian model selection and evaluated predictions across four psychoacoustic localization experiments. Our results showed listener-dependent spatial-prior preferences, with no form consistently favored across evaluation datasets despite stronger calibration support for the front-back asymmetric Gaussian form. Meanwhile, the fixed source prior gained support mainly in the spectral-resolution analysis, without a consistent advantage elsewhere. Across psychoacoustic evaluations, the models captured broad behavioral trends but less consistently reproduced response distributions, particularly under weak spectral evidence. Taken together, the evidence suggests that the static prior assumptions examined here offered selective rather than universally consistent explanatory benefits. These findings motivate more individualized and adaptive prior modeling and may inform the design of personalized spatial-audio systems and hearing devices.",
+      "last_author_affiliation": "Shenzhen Key Laboratory of Modern Communications and Information Processing, Shenzhen University, Shenzhen, 518060, China. Electronic address: nhzheng@szu.edu.cn.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Bayesian observer",
+        "Head-related transfer function (HRTF)",
+        "Sagittal-plane sound localization",
+        "Source prior",
+        "Spatial prior",
+        "Spectral reliability"
+      ],
+      "tags": [
+        "hearing aid",
+        "psychoacoustics"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-12",
+      "first_seen_at": "2026-11-13T09:40:33Z"
     },
     {
       "title": "Temporary hearing loss induced by impulsive pile driving in a particle-motion-sensitive fish, the summer flounder ( Paralichthys dentatus )",
@@ -4962,22 +5115,6 @@
     {
       "title": "EDITORIAL BOARD",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-11-02",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0047229",
-      "url": "https://doi.org/10.1121/10.0047229",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-11-02",
-      "first_seen_at": "2026-11-03T09:40:50Z"
-    },
-    {
-      "title": "EDITORIAL BOARD",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-11-02",
       "publication_date_precision": "day",
@@ -4990,6 +5127,22 @@
       "source": "crossref",
       "available_online_date": "2026-11-02",
       "first_seen_at": "2026-11-03T09:40:40Z"
+    },
+    {
+      "title": "EDITORIAL BOARD",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0047229",
+      "url": "https://doi.org/10.1121/10.0047229",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-11-02",
+      "first_seen_at": "2026-11-03T09:40:50Z"
     },
     {
       "title": "Effects of vocal fold vibration on the turbulent sound generation in voiced sibilant fricatives",
@@ -5779,28 +5932,6 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-09-12",
       "first_seen_at": "2026-09-13T07:31:08Z"
-    },
-    {
-      "title": "Chirped Speech (Cheech) Enables Rapid Assessment of Multi-Level Auditory Evoked Potentials During Speech-in-Noise Recognition",
-      "authors": [
-        "May Chao",
-        "C. Alise Holloway",
-        "Lee M. Miller",
-        "Kelsey Mankel"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-11-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109872",
-      "url": "https://doi.org/10.1016/j.heares.2026.109872",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "speech perception"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-11-13T09:40:33Z"
     },
     {
       "title": "Close-to-critical Hopf oscillators boost cochlear gain in realistic models with fluid focusing",
@@ -6620,25 +6751,6 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-07-27",
       "first_seen_at": "2026-08-20T03:12:32Z"
-    },
-    {
-      "title": "Spatial and Source Priors in Listener-Specific Bayesian Modeling of Sagittal-Plane Sound Localization",
-      "authors": [
-        "Yunda Chen",
-        "Xikun Lu",
-        "Nengheng Zheng"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-11-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109874",
-      "url": "https://doi.org/10.1016/j.heares.2026.109874",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-11-13T09:40:33Z"
     },
     {
       "title": "The band importance function for the Dutch digits-in-noise test: A computational derivation using human and automatic speech recognition data, including extended high frequencies",
@@ -12663,6 +12775,45 @@
       "first_seen_at": "2026-07-01T06:48:28Z"
     },
     {
+      "title": "Correction: Development of the Surgical Implantation and Fixation of an Implanted Middle Ear Microphone, the \"UmboMic,\" in Cadaveric Sheep.",
+      "authors": [
+        "Isadora C Comens",
+        "Chaoqun Zhou",
+        "Dan L Nguyen",
+        "Emma F Wawrzynek",
+        "John Z Zhang",
+        "Ioannis Kymissis",
+        "D Bradley Welling",
+        "Jeffrey H Lang",
+        "Hideko Heidi Nakajima",
+        "Elizabeth S Olson"
+      ],
+      "journal": "Journal of the Association for Research in Otolaryngology",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1007/s10162-026-01072-w",
+      "url": "https://doi.org/10.1007/s10162-026-01072-w",
+      "full_text_url": "https://link.springer.com/article/10.1007/s10162-026-01072-w",
+      "abstract": null,
+      "first_author_affiliation": "Department of Otolaryngology - Head&Neck Surgery, Columbia University, New York, NY, USA.",
+      "last_author_affiliation": "Department of Otolaryngology - Head&Neck Surgery, Department of Biomedical Engineering, Columbia University, New York, NY, USA. eao2004@columbia.edu.",
+      "open_access": true,
+      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13687516/",
+      "open_access_source": "pubmed_pmc",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+      "open_access_image_checked_at": "2026-09-23T07:50:07Z",
+      "pubmed_full_text_available": true,
+      "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13687516/",
+      "pubmed_full_text_source": "pmc",
+      "media_checked_at": "2026-09-23T07:50:08Z",
+      "key_image_alt": "Content cover image",
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "pubmed",
+      "first_seen_at": "2026-09-23T07:49:12Z"
+    },
+    {
       "title": "Corrigendum to “Dynamics of Intra- and Inter-Regional Activities of the Auditory ‘Where’ Pathway during Sound Localization: An fMRI Study” [Hearing Research 477 (2026) 109650]",
       "authors": [
         "Jiashuai Su",
@@ -12967,6 +13118,21 @@
     {
       "title": "Editorial Board",
       "authors": [],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00266-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-02T07:09:02Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-10-01",
       "publication_date_precision": "day",
@@ -12979,21 +13145,6 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00266-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Effective model of fiber Bragg gratings for simulation of ultrasonic guided wave measurements using spectral finite elements",
@@ -15839,43 +15990,20 @@
       "first_seen_at": "2026-09-23T07:48:56Z"
     },
     {
-      "title": "Correction: Development of the Surgical Implantation and Fixation of an Implanted Middle Ear Microphone, the “UmboMic,” in Cadaveric Sheep",
-      "authors": [
-        "Isadora C. Comens",
-        "Chaoqun Zhou",
-        "Dan L. Nguyen",
-        "Emma F. Wawrzynek",
-        "John Z. Zhang",
-        "Ioannis Kymissis",
-        "D. Bradley Welling",
-        "Jeffrey H. Lang",
-        "Hideko Heidi Nakajima",
-        "Elizabeth S. Olson"
-      ],
-      "journal": "Journal of the Association for Research in Otolaryngology",
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
-      "doi": "10.1007/s10162-026-01072-w",
-      "url": "https://doi.org/10.1007/s10162-026-01072-w",
-      "full_text_url": "https://link.springer.com/article/10.1007/s10162-026-01072-w",
+      "doi": "10.1121/10.0046571",
+      "url": "https://doi.org/10.1121/10.0046571",
       "abstract": null,
-      "last_author_affiliation": "Department of Otolaryngology - Head&Neck Surgery, Department of Biomedical Engineering, Columbia University, New York, NY, USA. eao2004@columbia.edu.",
-      "open_access": true,
-      "open_access_url": "https://link.springer.com/article/10.1007/s10162-026-01072-w",
-      "open_access_source": "crossref_license",
-      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0",
-      "open_access_image_checked_at": "2026-09-23T07:50:07Z",
-      "pubmed_full_text_available": true,
-      "pubmed_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13687516/",
-      "pubmed_full_text_source": "pmc",
-      "media_checked_at": "2026-09-23T07:50:08Z",
-      "key_image_alt": "Content cover image",
       "section": null,
       "keywords": [],
       "tags": [],
-      "source": "crossref+pubmed",
+      "source": "crossref",
       "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:49:12Z"
+      "first_seen_at": "2026-09-23T07:48:59Z"
     },
     {
       "title": "Editorial Board",
@@ -15892,22 +16020,6 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:56Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046571",
-      "url": "https://doi.org/10.1121/10.0046571",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:59Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -25937,22 +26049,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044503",
-      "url": "https://doi.org/10.1121/10.0044503",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:36Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -25965,6 +26061,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:37Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044503",
+      "url": "https://doi.org/10.1121/10.0044503",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:36Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -54836,18 +54948,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Editorial Board",
@@ -54868,17 +54979,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -63858,22 +63970,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043828",
-      "url": "https://doi.org/10.1121/10.0043828",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:34Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -63886,6 +63982,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:27Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043828",
+      "url": "https://doi.org/10.1121/10.0043828",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:34Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -70988,23 +71100,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043228",
-      "url": "https://doi.org/10.1121/10.0043228",
-      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:42Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -71018,6 +71113,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:38Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043228",
+      "url": "https://doi.org/10.1121/10.0043228",
+      "full_text_url": "https://pubs.aip.org/jel/article/6/4/049901/3386014/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:42Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -74569,8 +74681,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -74584,8 +74696,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -80464,8 +80576,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -80479,8 +80591,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
