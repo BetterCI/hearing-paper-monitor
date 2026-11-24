@@ -1,11 +1,11 @@
 {
-  "checked_at": "2026-11-23T10:57:12Z",
+  "checked_at": "2026-11-24T12:37:26Z",
   "provider": "deepseek",
   "model": "deepseek-flash",
-  "pending": 2793,
+  "pending": 2796,
   "attempted": 6,
-  "updated": 2,
-  "failed": 4,
+  "updated": 3,
+  "failed": 3,
   "failures": [
     {
       "doi": "10.1121/10.0047510",
@@ -17,10 +17,6 @@
     },
     {
       "doi": "10.1016/j.heares.2026.109875",
-      "reason": "Evidence is not an exact abstract quote"
-    },
-    {
-      "doi": "10.1121/10.0047456",
       "reason": "Evidence is not an exact abstract quote"
     }
   ],
