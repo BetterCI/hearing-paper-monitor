@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T11:01:30Z",
+  "generated_at": "2026-11-27T10:59:18Z",
   "papers": [
     {
       "title": "A binaural loudness model for evaluating round-window stimulation based on a physiological peripheral auditory front-end module",
@@ -407,7 +407,7 @@
       "first_seen_at": "2026-10-13T09:31:29Z"
     },
     {
-      "title": "Boundary conditions for cortical speech tracking as an objective speech-in-noise marker: a three-dataset MEG/EEG benchmark",
+      "title": "Boundary conditions for cortical speech tracking as an objective speech-in-noise marker: a three-dataset MEG/EEG benchmark.",
       "authors": [
         "Li Guo",
         "Yang Li",
@@ -434,6 +434,7 @@
         "abstract_hash": "50e416cdc1020519",
         "updated_at": "2026-10-01T09:05:20Z"
       },
+      "first_author_affiliation": "Department of Otolaryngology, Head and Neck Surgery, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, 710000, China. Electronic address: guoli1988@xjtu.edu.cn.",
       "last_author_affiliation": "Department of Otolaryngology, Head and Neck Surgery, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, 710000, China.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
@@ -451,7 +452,7 @@
         "clinical audiology",
         "speech perception"
       ],
-      "source": "crossref+pubmed",
+      "source": "pubmed",
       "available_online_date": "2026-09-27",
       "first_seen_at": "2026-09-29T08:39:35Z"
     },
@@ -1156,6 +1157,54 @@
       "source": "pubmed",
       "available_online_date": "2026-09-24",
       "first_seen_at": "2026-10-01T09:02:42Z"
+    },
+    {
+      "title": "The transition to auditory threshold in the auditory brainstem response: An interpretable approach to automated estimation",
+      "authors": [
+        "Verónica Fuentes-Santamaría",
+        "Carmen María Díaz García",
+        "Rafael Luján",
+        "Juan Carlos Alvarado"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-24",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109886",
+      "url": "https://doi.org/10.1016/j.heares.2026.109886",
+      "abstract": "Auditory brainstem response (ABR) threshold estimation identifies the lowest stimulus level at which an evoked response remains detectable. The transition from a recognizable response to background activity is often gradual, with differences between waveform morphology and response strength. We developed an interpretable procedure combining three descriptors across successive stimulus intensities: morphological coherence (C), the evoked-to-reference root mean square (RMS) ratio (E), and robustly noise-normalized peak-to-peak amplitude (P). Instead of classifying waveforms independently, the method examines descriptor changes across intensities, identifies conflicting evidence, applies predefined rules at the tested intensity limits, and recommends expert review when warranted. The procedure was assessed in two mouse ABR cohorts comprising 49 animals and 245 recordings, with thresholds independently determined by two experienced human evaluators. Among 180 recordings for which both evaluators assigned the same secure point threshold, 85.6% of Validator estimates were within ±5 dB and 97.2% within ±10 dB of that threshold (mean absolute error, 2.72 dB). Across all 245 recordings, including doubtful human assessments represented as intervals, interval-aware simultaneous agreement with both evaluators was 79.6% within ±5 dB and 94.3% within ±10 dB. The descriptors changed systematically across the human-defined threshold region and often met their criteria at different stimulus intensities. Recordings flagged for review showed more mixed descriptor states and larger estimation errors than unflagged recordings. The method provided reproducible threshold estimates and expert-review recommendations that could be traced to the underlying waveform evidence.",
+      "last_author_affiliation": "Research Group on Neurodegenerative Diseases and Their Relationship with Neurosensory Alterations and Aging, Institute of Biomedicine of Castilla-La Mancha (IB UCLM), Department of Medical Sciences, School of Medicine of Albacete, University of Castilla-La Mancha, Albacete, Spain. Electronic address: juancarlos.alvarado@uclm.es.",
+      "publication_stage": "early_access",
+      "section": null,
+      "keywords": [
+        "Auditory brainstem response",
+        "Auditory threshold estimation",
+        "Expert review",
+        "Interpretable algorithm",
+        "Response strength",
+        "Waveform morphology"
+      ],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-24",
+      "first_seen_at": "2026-11-25T11:26:39Z",
+      "ai_analysis": {
+        "scientific_question": "该研究探讨如何用可解释的自动化程序，基于波形形态与反应强度等描述指标在相邻刺激强度间的变化，来估计听觉脑干反应（ABR）阈值。",
+        "key_highlight": "该程序在两名评估者给出相同确定阈值的180份记录中，85.6%的估计值落在±5 dB内、97.2%落在±10 dB内（平均绝对误差2.72 dB）。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该方法提供了可追溯至波形证据的可重复阈值估计与专家复核建议，但其在更广泛场景中的适用性仍需进一步验证。",
+        "evidence": [
+          "Among 180 recordings for which both evaluators assigned the same secure point threshold, 85.6% of Validator estimates were within ±5 dB and 97.2% within ±10 dB of that threshold (mean absolute error, 2.72 dB).",
+          "The method provided reproducible threshold estimates and expert-review recommendations that could be traced to the underlying waveform evidence."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "5e0b9a3604ff2193",
+        "updated_at": "2026-11-27T11:02:46Z"
+      }
     },
     {
       "title": "ATP8B1-TMEM30B flippase activity maintains stereocilia lipid asymmetry required for hearing.",
@@ -2094,6 +2143,22 @@
       "doi": "10.1016/j.heares.2026.109879",
       "url": "https://doi.org/10.1016/j.heares.2026.109879",
       "abstract": "Since Tonndorf proposed that a bias applied to the elastic basilar membrane induces mechanical sensorineural hearing loss, several biasing methods have been tested, including low-frequency tones, electrochemical changes in the cochlea and application of a constant force to the bony cochlea. Attendant auditory changes likely stem from a common feature, a shift in the operating point (OP) of electromotile outer hair cells (OHCs). Here, the mechanical homeostasis of labyrinthine-fluid compartments was disrupted using cerebrospinal fluid (CSF) pressure steps combined with a perilymph fistula drilled near the oval window, a model of a real-life condition, in anesthetized Mongolian gerbils. When CSF pressure was increased by 15 mmHg, the leak released perilymph overpressure while the endolymph compartment was likely still affected by increased CSF pressure. Electrocochleography was monitored in 21 cases, and distortion-product otoacoustic emissions (DPOAEs) in 11 cases. Within seconds after CSF pressure increased, the summating potential SP rose up to >100% relative to the compound action potential (AP), lower-frequency AP thresholds increased by >30 dB, a spontaneous nystagmus appeared, and the balance between quadratic and cubic difference otoacoustic emissions was deeply modified. It took several minutes for the whole picture to complete and about one hour to disappear after CSF pressure release. These functional changes, reminiscent of symptoms of endolymphatic hydrops, suggested OHCs' OP shifts, in line with Tonndorf's view of mechanical sensorineural hearing loss.",
+      "ai_analysis": {
+        "scientific_question": "在存在外淋巴瘘的沙鼠模型中，脑脊液压力阶跃如何影响耳蜗机械稳态及耳蜗电生理与耳声发射指标？",
+        "key_highlight": "脑脊液压力升高15 mmHg后数秒内，SP相对AP升高超过100%、低频AP阈值升高超过30 dB、出现自发性眼震，且二次与三次差分耳声发射的平衡被显著改变。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "这些功能变化被作者解释为外毛细胞工作点偏移，与Tonndorf的机械性感音神经性听力损失观点一致，但摘要所述为提示性解释而非因果结论。",
+        "evidence": [
+          "Within seconds after CSF pressure increased, the summating potential SP rose up to >100% relative to the compound action potential (AP), lower-frequency AP thresholds increased by >30 dB",
+          "These functional changes, reminiscent of symptoms of endolymphatic hydrops, suggested OHCs' OP shifts, in line with Tonndorf's view of mechanical sensorineural hearing loss."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "4a085d0ed81ca1ce",
+        "updated_at": "2026-11-26T11:05:12Z"
+      },
       "last_author_affiliation": "Laboratory of Sensory Biophysics, School of Medicine, University Clermont Auvergne, Clermont-Ferrand, France; Université Paris Cité, Institut Pasteur, AP-HP, INSERM, CNRS, Fondation Pour l'Audition, Institut de l'Audition, IHU reConnect, F-75012, Paris, France. Electronic address: paul.avan@uca.fr.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
@@ -2110,23 +2175,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-17",
-      "first_seen_at": "2026-11-17T10:50:11Z",
-      "ai_analysis": {
-        "scientific_question": "在存在外淋巴瘘的沙鼠模型中，脑脊液压力阶跃如何影响耳蜗机械稳态及耳蜗电生理与耳声发射指标？",
-        "key_highlight": "脑脊液压力升高15 mmHg后数秒内，SP相对AP升高超过100%、低频AP阈值升高超过30 dB、出现自发性眼震，且二次与三次差分耳声发射的平衡被显著改变。",
-        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
-        "research_implication": "这些功能变化被作者解释为外毛细胞工作点偏移，与Tonndorf的机械性感音神经性听力损失观点一致，但摘要所述为提示性解释而非因果结论。",
-        "evidence": [
-          "Within seconds after CSF pressure increased, the summating potential SP rose up to >100% relative to the compound action potential (AP), lower-frequency AP thresholds increased by >30 dB",
-          "These functional changes, reminiscent of symptoms of endolymphatic hydrops, suggested OHCs' OP shifts, in line with Tonndorf's view of mechanical sensorineural hearing loss."
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "4a085d0ed81ca1ce",
-        "updated_at": "2026-11-26T11:05:12Z"
-      }
+      "first_seen_at": "2026-11-17T10:50:11Z"
     },
     {
       "title": "Classroom-Based Auditory Cognitive Training in Typically Developing Children",
@@ -2610,6 +2659,22 @@
       "doi": "10.1016/j.heares.2026.109866",
       "url": "https://doi.org/10.1016/j.heares.2026.109866",
       "abstract": "To establish a minimally invasive murine model of chronic endolymphatic hydrops (EH) via lipopolysaccharide (LPS) injection into the lateral semicircular canal (LSC). Adult male C57BL/6 J mice received LPS or phosphate-buffered saline injection into the left LSC via a canalostomy approach. At 1 and 4 weeks, EH was quantified on hematoxylin-eosin sections by measuring Reissner's membrane length. Hearing function was evaluated via auditory brainstem response (ABR). Vestibular function was assessed using the rotarod test and the vestibulo-ocular reflex (VOR) test, and general locomotor activity using the open field test. Additionally, the histological integrity of cochlear hair cells and vestibular sensory epithelia was examined. LPS stimulation evoked robust EH in all cochlear turns (P < 0.05). Behaviorally, LPS mice showed head tilt and forced circling, shorter rotarod latency to fall (P < 0.05), reduced VOR gain across 0.8-3.2 Hz (P < 0.001), and prolonged VOR phase (P < 0.01). ABR thresholds increased across 4-32 kHz, with the most pronounced elevation at low-to-mid frequencies. Pathological examination further showed vacuolization and loss of sensory cells in the vestibular epithelia, and loss of outer hair cells, especially within the middle cochlear turn. In the LPS group, these deficits were still present at 4 weeks. This canalostomy-based LPS model reproduced endolymphatic hydrops, low-to-mid-frequency hearing loss, and peripheral vestibular dysfunction, accompanied by concordant structural damage. Thus, it offered a reproducible and stable model of chronic endolymphatic hydrops with concurrent auditory and vestibular dysfunction.",
+      "ai_analysis": {
+        "scientific_question": "通过向侧半规管注射脂多糖，能否在小鼠中建立一种微创的慢性内淋巴积水模型，并同时再现听觉与前庭功能障碍？",
+        "key_highlight": "该模型在全部耳蜗转均诱发内淋巴积水，并伴有低中频为主的听阈升高、前庭眼反射增益下降及前庭感觉上皮和毛细胞的结构损伤，且这些缺陷在4周时仍存在。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "该模型可能为研究内淋巴积水伴随的听觉与前庭功能障碍提供可重复的动物工具，但摘要所述为模型表征结果，尚不能据此推断机制或临床因果。",
+        "evidence": [
+          "LPS stimulation evoked robust EH in all cochlear turns (P < 0.05).",
+          "In the LPS group, these deficits were still present at 4 weeks."
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "77a75a7527c1f540",
+        "updated_at": "2026-11-26T11:05:14Z"
+      },
       "last_author_affiliation": "Department of Otolaryngology, Eye and Ear, Nose and Throat Hospital, Fudan University, Shanghai, People's Republic of China; Key Laboratory of Hearing Medicine, Ministry of Health, Eye, Ear, Nose, and Throat Hospital, Fudan University, Shanghai, People's Republic of China; Department of Otology and Skull Base Surgery, Eye and Ear, Nose and Throat Hospital, Fudan University, Shanghai, People's Republic of China. Electronic address: cfdai66@126.com.",
       "publication_stage": "early_access",
       "section": "Psychological and Physiological Acoustics",
@@ -2626,23 +2691,7 @@
       ],
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-14",
-      "first_seen_at": "2026-11-14T09:04:54Z",
-      "ai_analysis": {
-        "scientific_question": "通过向侧半规管注射脂多糖，能否在小鼠中建立一种微创的慢性内淋巴积水模型，并同时再现听觉与前庭功能障碍？",
-        "key_highlight": "该模型在全部耳蜗转均诱发内淋巴积水，并伴有低中频为主的听阈升高、前庭眼反射增益下降及前庭感觉上皮和毛细胞的结构损伤，且这些缺陷在4周时仍存在。",
-        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
-        "research_implication": "该模型可能为研究内淋巴积水伴随的听觉与前庭功能障碍提供可重复的动物工具，但摘要所述为模型表征结果，尚不能据此推断机制或临床因果。",
-        "evidence": [
-          "LPS stimulation evoked robust EH in all cochlear turns (P < 0.05).",
-          "In the LPS group, these deficits were still present at 4 weeks."
-        ],
-        "provider": "deepseek",
-        "model": "deepseek-flash",
-        "language": "zh",
-        "prompt_version": "2026-10-04-abstract-evidence",
-        "abstract_hash": "77a75a7527c1f540",
-        "updated_at": "2026-11-26T11:05:14Z"
-      }
+      "first_seen_at": "2026-11-14T09:04:54Z"
     },
     {
       "title": "Brajbhasha vowel system: A spectral-temporal trade-off analysis",
@@ -3851,6 +3900,48 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-11-10",
       "first_seen_at": "2026-11-11T09:32:03Z"
+    },
+    {
+      "title": "Meniere’s disease: an in silico model analysis",
+      "authors": [
+        "Daniel Pender"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "day",
+      "doi": "10.1016/j.heares.2026.109869",
+      "url": "https://doi.org/10.1016/j.heares.2026.109869",
+      "abstract": "Reissner's membrane undergoes exaggerated displacement in early phase Meniere's disease. Post mortem histology and real time magnetic resonance imaging can provide confirmatory evidence of endolymphatic hydrops in Meniere's disease, but can offer little insight into the early movement of Reissner's membrane. A quantitative in silico analysis can provide an incremental overview of membrane behavior in the initial phases of hydrops. Circle sector geometry is used to model the hydropic distention of Reissner's membrane in order identify the mathematical function that describes this process. This model function is analyzed to examine and quantify the relationship between membrane strain and displacement as the hydropic process evolves from its incipient stage. The digital findings are portrayed graphically to illustrate how the displacement of Reissner's membrane changes as hydrops progresses. The model function projects that early membrane displacement will be magnified in contrast to subsequent fractional effects. A fixed strain differential of 10% is shown to be associated with a substantial 20% initial displacement of Reissner's membrane but <5% displacement subsequently. A quantitative in silico model analysis projects that early-stage hydropic displacement of RM will be disproportionately large, potentially reversible, and consistent with fully fluctuant auditory symptoms, while subsequent RM displacement will be fractional and largely irreversible. These findings support the concept of early-stage therapeutic intervention whenever possible.",
+      "last_author_affiliation": "Department of Otolaryngology, Columbia University Medical Center, NY, NY, USA. Electronic address: DanielPenderMD@gmail.com.",
+      "publication_stage": "early_access",
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [
+        "Endolymphatic hydrops",
+        "Hearing loss",
+        "Meniere's disease"
+      ],
+      "tags": [
+        "clinical audiology"
+      ],
+      "source": "crossref+pubmed",
+      "available_online_date": "2026-11-10",
+      "first_seen_at": "2026-11-11T09:33:25Z",
+      "ai_analysis": {
+        "scientific_question": "在积水早期阶段，Reissner膜的水肿性位移与膜应变之间存在怎样的数学关系？",
+        "key_highlight": "该计算机模型预测，在固定10%应变差下，Reissner膜早期位移可达约20%，而后续位移小于5%，显示早期位移被放大。",
+        "main_limitation": "摘要未明确报告局限，无法仅凭摘要判断。",
+        "research_implication": "模型提示早期积水位移可能不成比例地大且潜在可逆，这为早期治疗干预的概念提供了支持，但属模型推断而非临床验证。",
+        "evidence": [
+          "A fixed strain differential of 10% is shown to be associated with a substantial 20% initial displacement of Reissner's membrane but <5% displacement subsequently.",
+          "A quantitative in silico model analysis projects that early-stage hydropic displacement of RM will be disproportionately large, potentially reversible, and consistent with fully fluctuant auditory symptoms"
+        ],
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "language": "zh",
+        "prompt_version": "2026-10-04-abstract-evidence",
+        "abstract_hash": "5b5e2e40fcc37ba2",
+        "updated_at": "2026-11-27T11:03:04Z"
+      }
     },
     {
       "title": "Rethinking dual-task interference on speech: Evidence from spectro-temporal reduction, within-word Vowel-to-Vowel coarticulation, and acoustic variability",
@@ -5554,22 +5645,6 @@
     {
       "title": "EDITORIAL BOARD",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-11-02",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0047228",
-      "url": "https://doi.org/10.1121/10.0047228",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-11-02",
-      "first_seen_at": "2026-11-03T09:40:40Z"
-    },
-    {
-      "title": "EDITORIAL BOARD",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-11-02",
       "publication_date_precision": "day",
@@ -5582,6 +5657,22 @@
       "source": "crossref",
       "available_online_date": "2026-11-02",
       "first_seen_at": "2026-11-03T09:40:50Z"
+    },
+    {
+      "title": "EDITORIAL BOARD",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0047228",
+      "url": "https://doi.org/10.1121/10.0047228",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-11-02",
+      "first_seen_at": "2026-11-03T09:40:40Z"
     },
     {
       "title": "Effects of vocal fold vibration on the turbulent sound generation in voiced sibilant fricatives",
@@ -6100,6 +6191,30 @@
       "first_seen_at": "2026-11-03T09:42:21Z"
     },
     {
+      "title": "Age-Related Lipidomic Remodeling of the Auditory Pathway and Hippocampus During Progressive Hearing Loss in C57BL/6J Mice",
+      "authors": [
+        "Miao Zhao",
+        "Yuze Wang",
+        "Shichu Sun",
+        "Tianze Yang",
+        "Siyun Niu",
+        "You Zhou"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109884",
+      "url": "https://doi.org/10.1016/j.heares.2026.109884",
+      "abstract": null,
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "clinical audiology"
+      ],
+      "source": "crossref",
+      "first_seen_at": "2026-11-27T10:58:56Z"
+    },
+    {
       "title": "Age-related changes in acoustic cue use for speech-in-speech perception",
       "authors": [
         "Elizabeth Fish",
@@ -6253,6 +6368,27 @@
       "tags": [],
       "source": "crossref",
       "first_seen_at": "2026-11-20T10:07:48Z"
+    },
+    {
+      "title": "Auditory training in hearing aid users modulates cingulo-opercular responses to speech-in-noise difficulty: A longitudinal fMRI study",
+      "authors": [
+        "Hyo-Jeong Lee",
+        "Jahee Kim"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109888",
+      "url": "https://doi.org/10.1016/j.heares.2026.109888",
+      "abstract": null,
+      "section": "Psychological and Physiological Acoustics",
+      "keywords": [],
+      "tags": [
+        "hearing aid",
+        "speech perception"
+      ],
+      "source": "crossref",
+      "first_seen_at": "2026-11-27T10:58:56Z"
     },
     {
       "title": "Biomarkers of Subjective Tinnitus Presence and Clinical Burden: A Systematic Review",
@@ -6894,23 +7030,6 @@
       "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
-      "title": "Meniere’s Disease: An in silico Model Analysis",
-      "authors": [
-        "Daniel Pender"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-11-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109869",
-      "url": "https://doi.org/10.1016/j.heares.2026.109869",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-11-11T09:33:25Z"
-    },
-    {
       "title": "Musicianship enhances hearing-in-noise performance in older and younger adults: Evidence from the Music-in-Noise Task",
       "authors": [
         "Nathan Gagné",
@@ -7210,6 +7329,32 @@
       "first_seen_at": "2026-08-20T03:12:32Z"
     },
     {
+      "title": "TRMU Modulates Mitochondrial Oxidative Injury in a D-Galactose-Induced Model of Cochlear Aging",
+      "authors": [
+        "Yanyan Ding",
+        "Bo Liu",
+        "Yurong Mu",
+        "Ming Li",
+        "Le Xie",
+        "Xiaohui Wang",
+        "Xiaozhou Liu",
+        "Ying Xiao"
+      ],
+      "journal": "Hearing Research",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/j.heares.2026.109889",
+      "url": "https://doi.org/10.1016/j.heares.2026.109889",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [
+        "auditory physiology"
+      ],
+      "source": "crossref",
+      "first_seen_at": "2026-11-27T10:58:56Z"
+    },
+    {
       "title": "The band importance function for the Dutch digits-in-noise test: A computational derivation using human and automatic speech recognition data, including extended high frequencies",
       "authors": [
         "Nick D. van Huis",
@@ -7337,28 +7482,6 @@
       "source": "crossref+pubmed",
       "available_online_date": "2026-08-19",
       "first_seen_at": "2026-08-28T14:24:28Z"
-    },
-    {
-      "title": "The transition to auditory threshold in the auditory brainstem response: an interpretable approach to automated estimation",
-      "authors": [
-        "Verónica Fuentes-Santamaría",
-        "Carmen María Díaz",
-        "Rafael Luján",
-        "Juan Carlos Alvarado"
-      ],
-      "journal": "Hearing Research",
-      "publication_date": "2026-11-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/j.heares.2026.109886",
-      "url": "https://doi.org/10.1016/j.heares.2026.109886",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [
-        "auditory physiology"
-      ],
-      "source": "crossref",
-      "first_seen_at": "2026-11-25T11:26:39Z"
     },
     {
       "title": "Tinnitus and decreased sound tolerance in military Veterans: Relationship with cochlear deafferentation",
@@ -13583,21 +13706,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
-      "publication_date": "2026-10-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00266-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "first_seen_at": "2026-09-02T07:09:02Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-10-01",
       "publication_date_precision": "day",
@@ -13610,6 +13718,21 @@
       "source": "crossref",
       "available_online_date": "2026-10-01",
       "first_seen_at": "2026-10-02T08:37:26Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "Hearing Research",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00266-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00266-2",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "first_seen_at": "2026-09-02T07:09:02Z"
     },
     {
       "title": "Effective model of fiber Bragg gratings for simulation of ultrasonic guided wave measurements using spectral finite elements",
@@ -16457,22 +16580,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-09-22",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0046571",
-      "url": "https://doi.org/10.1121/10.0046571",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-09-22",
-      "first_seen_at": "2026-09-23T07:48:59Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-09-22",
       "publication_date_precision": "day",
@@ -16485,6 +16592,22 @@
       "source": "crossref",
       "available_online_date": "2026-09-22",
       "first_seen_at": "2026-09-23T07:48:56Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0046571",
+      "url": "https://doi.org/10.1121/10.0046571",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-09-22",
+      "first_seen_at": "2026-09-23T07:48:59Z"
     },
     {
       "title": "Estimating the number of vocal bullfrogs using a single passive acoustic sensor",
@@ -26514,22 +26637,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
-      "publication_date": "2026-08-03",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044504",
-      "url": "https://doi.org/10.1121/10.0044504",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-08-03",
-      "first_seen_at": "2026-08-04T05:26:37Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "The Journal of the Acoustical Society of America",
       "publication_date": "2026-08-03",
       "publication_date_precision": "day",
@@ -26542,6 +26649,22 @@
       "source": "crossref",
       "available_online_date": "2026-08-03",
       "first_seen_at": "2026-08-04T05:26:36Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "JASA Express Letters",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044504",
+      "url": "https://doi.org/10.1121/10.0044504",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-08-03",
+      "first_seen_at": "2026-08-04T05:26:37Z"
     },
     {
       "title": "Examining speech transmission index thresholds for Mandarin speech intelligibility in university classrooms",
@@ -55413,17 +55536,18 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "Hearing Research",
+      "journal": "JASA Express Letters",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00174-7",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0044221",
+      "url": "https://doi.org/10.1121/10.0044221",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "first_seen_at": "2026-06-05T06:46:03Z"
+      "available_online_date": "2026-07-01",
+      "first_seen_at": "2026-07-02T06:12:44Z"
     },
     {
       "title": "Editorial Board",
@@ -55444,18 +55568,17 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "JASA Express Letters",
+      "journal": "Hearing Research",
       "publication_date": "2026-07-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0044221",
-      "url": "https://doi.org/10.1121/10.0044221",
+      "publication_date_precision": "month",
+      "doi": "10.1016/s0378-5955(26)00174-7",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00174-7",
       "abstract": null,
       "section": null,
       "keywords": [],
       "tags": [],
       "source": "crossref",
-      "available_online_date": "2026-07-01",
-      "first_seen_at": "2026-07-02T06:12:44Z"
+      "first_seen_at": "2026-06-05T06:46:03Z"
     },
     {
       "title": "Effect of ambisonic order on sound localization in the horizontal plane",
@@ -64435,22 +64558,6 @@
     {
       "title": "Editorial Board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-05-12",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043829",
-      "url": "https://doi.org/10.1121/10.0043829",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-05-12",
-      "first_seen_at": "2026-05-13T05:59:27Z"
-    },
-    {
-      "title": "Editorial Board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-05-12",
       "publication_date_precision": "day",
@@ -64463,6 +64570,22 @@
       "source": "crossref",
       "available_online_date": "2026-05-12",
       "first_seen_at": "2026-05-13T05:59:34Z"
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043829",
+      "url": "https://doi.org/10.1121/10.0043829",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-05-12",
+      "first_seen_at": "2026-05-13T05:59:27Z"
     },
     {
       "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
@@ -71565,23 +71688,6 @@
     {
       "title": "Editorial board",
       "authors": [],
-      "journal": "The Journal of the Acoustical Society of America",
-      "publication_date": "2026-04-01",
-      "publication_date_precision": "day",
-      "doi": "10.1121/10.0043227",
-      "url": "https://doi.org/10.1121/10.0043227",
-      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
-      "abstract": null,
-      "section": null,
-      "keywords": [],
-      "tags": [],
-      "source": "crossref",
-      "available_online_date": "2026-04-01",
-      "first_seen_at": "2026-05-14T02:28:38Z"
-    },
-    {
-      "title": "Editorial board",
-      "authors": [],
       "journal": "JASA Express Letters",
       "publication_date": "2026-04-01",
       "publication_date_precision": "day",
@@ -71595,6 +71701,23 @@
       "source": "crossref",
       "available_online_date": "2026-04-01",
       "first_seen_at": "2026-05-14T02:28:42Z"
+    },
+    {
+      "title": "Editorial board",
+      "authors": [],
+      "journal": "The Journal of the Acoustical Society of America",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "day",
+      "doi": "10.1121/10.0043227",
+      "url": "https://doi.org/10.1121/10.0043227",
+      "full_text_url": "https://pubs.aip.org/jasa/article/159/4/2931/3386013/Editorial-board",
+      "abstract": null,
+      "section": null,
+      "keywords": [],
+      "tags": [],
+      "source": "crossref",
+      "available_online_date": "2026-04-01",
+      "first_seen_at": "2026-05-14T02:28:38Z"
     },
     {
       "title": "Effects of Electrode Position on Vestibular Implant Performance in Rhesus Macaque.",
@@ -75146,8 +75269,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00060-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
+      "doi": "10.1016/s0378-5955(26)00087-0",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -75161,8 +75284,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-03-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00087-0",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00087-0",
+      "doi": "10.1016/s0378-5955(26)00060-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00060-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -81041,8 +81164,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(25)00334-x",
-      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
+      "doi": "10.1016/s0378-5955(26)00009-2",
+      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
       "abstract": null,
       "section": null,
       "keywords": [],
@@ -81056,8 +81179,8 @@
       "journal": "Hearing Research",
       "publication_date": "2026-01-01",
       "publication_date_precision": "month",
-      "doi": "10.1016/s0378-5955(26)00009-2",
-      "url": "https://doi.org/10.1016/s0378-5955(26)00009-2",
+      "doi": "10.1016/s0378-5955(25)00334-x",
+      "url": "https://doi.org/10.1016/s0378-5955(25)00334-x",
       "abstract": null,
       "section": null,
       "keywords": [],
